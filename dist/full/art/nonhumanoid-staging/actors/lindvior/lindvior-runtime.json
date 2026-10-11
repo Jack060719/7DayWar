@@ -1,0 +1,6349 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "MON-LINDVIOR",
+  "consumerIds": [
+    "MON-LINDVIOR"
+  ],
+  "engineContract": {
+    "displayBaseHeight": 160
+  },
+  "assetId": "ASSET-BODY-MON-LINDVIOR",
+  "width": 8192,
+  "height": 8064,
+  "cellWidth": 512,
+  "cellHeight": 384,
+  "baseHeight": 220,
+  "anchor": [
+    256,
+    300
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-S-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-S-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-S-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-S-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-S-5.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-S-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-S-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-S-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-S-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-S-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-S-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-S-7.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-S-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-S-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            299
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-S-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-S-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-S-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-S-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-S-7.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-S-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-S-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-S-3.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-S-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-S-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-S-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-S-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-S-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-S-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-S-7.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            283
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            285
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-S-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            286
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-S-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            281
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-S-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            284
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-S-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            284
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-S-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            284
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-S-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            256,
+            284
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-S-7.webp"
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SW-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SW-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SW-5.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            285
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            257
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            257
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SW-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            294
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SW-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SW-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SW-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SW-7.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            287
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            278
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SW-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            256,
+            296
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SW-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            299
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SW-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            296
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SW-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            256,
+            299
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SW-7.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            256,
+            279
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-SW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-SW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-SW-3.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SW-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SW-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SW-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SW-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SW-7.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SW-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SW-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SW-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SW-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SW-7.webp"
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-W-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-W-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-W-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-W-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-W-5.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            290
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-W-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            276
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-W-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            276
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-W-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-W-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-W-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-W-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-W-7.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            299
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            253
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-W-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            253
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-W-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            236
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-W-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            256,
+            290
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-W-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-W-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-W-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            256,
+            299
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-W-7.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            256,
+            284
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-W-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-W-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-W-3.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-W-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-W-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-W-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-W-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-W-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-W-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-W-7.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-W-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-W-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-W-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-W-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-W-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-W-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-W-7.webp"
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            279
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            277
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NW-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NW-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NW-5.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            275
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            267
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            272
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NW-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NW-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NW-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NW-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NW-7.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            287
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            298
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NW-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NW-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NW-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NW-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NW-7.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            256,
+            278
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            256,
+            265
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-NW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            282
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-NW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            256,
+            299
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-NW-3.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NW-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NW-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NW-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NW-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NW-7.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            254
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            277
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            253
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            274
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NW-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            280
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NW-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            256
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NW-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            253
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NW-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            256,
+            250
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NW-7.webp"
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            228
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            239
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-N-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            239
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-N-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            234
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-N-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            230
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-N-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            228
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-N-5.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            297
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-N-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-N-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-N-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-N-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            297
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-N-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            297
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-N-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-N-7.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            279
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            279
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-N-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            281
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-N-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            281
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-N-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            256,
+            284
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-N-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            284
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-N-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            284
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-N-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            256,
+            284
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-N-7.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            256,
+            243
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            256,
+            243
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-N-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            241
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-N-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            256,
+            241
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-N-3.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-N-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-N-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-N-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-N-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-N-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-N-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            247,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-N-7.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            289
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            291
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-N-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            291
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-N-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            270
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-N-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            293
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-N-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-N-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-N-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-N-7.webp"
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NE-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NE-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-NE-5.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            287
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            295
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NE-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NE-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NE-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NE-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-NE-7.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            296
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            277
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            282
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NE-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NE-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NE-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NE-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-NE-7.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-NE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-NE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-NE-3.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            297
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NE-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NE-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NE-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NE-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-NE-7.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            288
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            288
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            293
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NE-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NE-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            296
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NE-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            288
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NE-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            256,
+            285
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-NE-7.webp"
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-E-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-E-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-E-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-E-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-E-5.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            285
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-E-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            280
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-E-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            280
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-E-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-E-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-E-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-E-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-E-7.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            258
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-E-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            249
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-E-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            243
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-E-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            256,
+            264
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-E-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-E-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-E-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-E-7.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-E-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-E-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-E-3.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-E-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-E-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-E-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-E-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-E-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-E-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-E-7.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-E-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-E-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-E-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-E-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-E-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-E-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-E-7.webp"
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            271
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            255
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            269
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SE-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SE-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            256,
+            295
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-SE-5.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SE-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SE-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SE-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SE-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/walk-SE-7.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            285
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SE-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SE-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SE-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SE-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/attack-SE-7.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            256,
+            294
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-SE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-SE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/hit-SE-3.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SE-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SE-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SE-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SE-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            256,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/death-SE-7.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            256,
+            278
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            288
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            290
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            280
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SE-3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            256,
+            283
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SE-4.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            275
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SE-5.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            256,
+            283
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SE-6.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            256,
+            277
+          ],
+          "atlas": "nonhumanoid-staging/actors/lindvior/clips/cast-SE-7.webp"
+        }
+      ]
+    }
+  },
+  "status": "candidate",
+  "frameCount": 336,
+  "clipCount": 48,
+  "provenance": {
+    "method": "Original class-specific articulated model and eight independent views; original imagegen detail finish",
+    "model": "source/lindvior-original.blend",
+    "sources": [
+      {
+        "state": "idle",
+        "sha256": "65ca906582debd205f4cb3419e1173b7959bed897af9676042ee9c13eb5a7a59",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "walk",
+        "sha256": "a277b1d9f61211f5edfe0ea38118db089b08f82ba168a47f96506d6fca8304cb",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "attack",
+        "sha256": "ca6724c10583a6481161a3cb21fa2be52e43070dad28033143873b270f80bf47",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "hit",
+        "sha256": "965f283051c5dd847ac2e7e5cf48ab9b2196d14153644cc8997fb547d135cc0b",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "death",
+        "sha256": "59b1f2063e1441a4e2f4aa40a67962230f3fe7322e422e925bdd7e188ec8608a",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "cast",
+        "sha256": "520113c719fe303c0280da2600730e165dc398c9ce533df8cae15ec130b4cdc4",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "death",
+        "direction": "W",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "death",
+        "direction": "NW",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "death",
+        "direction": "N",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "death",
+        "direction": "NE",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "death",
+        "direction": "E",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      }
+    ]
+  },
+  "validation": {
+    "issues": [],
+    "frameTranslations": [
+      {
+        "state": "idle",
+        "direction": "NW",
+        "frame": 1,
+        "offset": [
+          0,
+          -21
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "NW",
+        "frame": 2,
+        "offset": [
+          0,
+          -23
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "N",
+        "frame": 0,
+        "offset": [
+          0,
+          -72
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "N",
+        "frame": 1,
+        "offset": [
+          0,
+          -61
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "N",
+        "frame": 2,
+        "offset": [
+          0,
+          -61
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "N",
+        "frame": 3,
+        "offset": [
+          0,
+          -66
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "N",
+        "frame": 4,
+        "offset": [
+          0,
+          -70
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "N",
+        "frame": 5,
+        "offset": [
+          0,
+          -72
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SE",
+        "frame": 1,
+        "offset": [
+          0,
+          -29
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SE",
+        "frame": 2,
+        "offset": [
+          0,
+          -45
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SE",
+        "frame": 3,
+        "offset": [
+          0,
+          -31
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SE",
+        "frame": 5,
+        "offset": [
+          0,
+          -5
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 1,
+        "offset": [
+          0,
+          -15
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 2,
+        "offset": [
+          0,
+          -43
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 3,
+        "offset": [
+          0,
+          -43
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 4,
+        "offset": [
+          0,
+          -6
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "W",
+        "frame": 1,
+        "offset": [
+          0,
+          -10
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "W",
+        "frame": 2,
+        "offset": [
+          0,
+          -24
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "W",
+        "frame": 3,
+        "offset": [
+          0,
+          -24
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "NW",
+        "frame": 1,
+        "offset": [
+          0,
+          -25
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "NW",
+        "frame": 2,
+        "offset": [
+          0,
+          -33
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "NW",
+        "frame": 3,
+        "offset": [
+          0,
+          -28
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "N",
+        "frame": 0,
+        "offset": [
+          0,
+          -3
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "N",
+        "frame": 5,
+        "offset": [
+          0,
+          -3
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "N",
+        "frame": 6,
+        "offset": [
+          0,
+          -3
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "frame": 2,
+        "offset": [
+          0,
+          -13
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "frame": 3,
+        "offset": [
+          0,
+          -5
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "E",
+        "frame": 1,
+        "offset": [
+          0,
+          -15
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "E",
+        "frame": 2,
+        "offset": [
+          0,
+          -20
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "E",
+        "frame": 3,
+        "offset": [
+          0,
+          -20
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "S",
+        "frame": 3,
+        "offset": [
+          0,
+          -1
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 2,
+        "offset": [
+          0,
+          -13
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 3,
+        "offset": [
+          0,
+          -22
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 4,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 5,
+        "offset": [
+          0,
+          -1
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 6,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 7,
+        "offset": [
+          0,
+          -1
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 0,
+        "offset": [
+          0,
+          -1
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 1,
+        "offset": [
+          0,
+          -47
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 2,
+        "offset": [
+          0,
+          -47
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 3,
+        "offset": [
+          0,
+          -64
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 4,
+        "offset": [
+          0,
+          -10
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 7,
+        "offset": [
+          0,
+          -1
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "NW",
+        "frame": 2,
+        "offset": [
+          0,
+          -13
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "NW",
+        "frame": 3,
+        "offset": [
+          0,
+          -2
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 0,
+        "offset": [
+          0,
+          -21
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 1,
+        "offset": [
+          0,
+          -21
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 2,
+        "offset": [
+          0,
+          -19
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 3,
+        "offset": [
+          0,
+          -19
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 4,
+        "offset": [
+          0,
+          -16
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 5,
+        "offset": [
+          0,
+          -16
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 6,
+        "offset": [
+          0,
+          -16
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 7,
+        "offset": [
+          0,
+          -16
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "NE",
+        "frame": 1,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "NE",
+        "frame": 2,
+        "offset": [
+          0,
+          -23
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "NE",
+        "frame": 3,
+        "offset": [
+          0,
+          -18
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 1,
+        "offset": [
+          0,
+          -42
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 2,
+        "offset": [
+          0,
+          -51
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 3,
+        "offset": [
+          0,
+          -57
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 4,
+        "offset": [
+          0,
+          -36
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 2,
+        "offset": [
+          0,
+          -15
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "SW",
+        "frame": 1,
+        "offset": [
+          0,
+          -21
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "W",
+        "frame": 1,
+        "offset": [
+          0,
+          -16
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "frame": 0,
+        "offset": [
+          0,
+          -22
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "frame": 1,
+        "offset": [
+          0,
+          -35
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "frame": 2,
+        "offset": [
+          0,
+          -18
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "frame": 3,
+        "offset": [
+          0,
+          -1
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "N",
+        "frame": 0,
+        "offset": [
+          0,
+          -57
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "N",
+        "frame": 1,
+        "offset": [
+          0,
+          -57
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "N",
+        "frame": 2,
+        "offset": [
+          0,
+          -59
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "N",
+        "frame": 3,
+        "offset": [
+          0,
+          -59
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "SE",
+        "frame": 1,
+        "offset": [
+          0,
+          -6
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "S",
+        "frame": 0,
+        "offset": [
+          0,
+          -17
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "S",
+        "frame": 1,
+        "offset": [
+          0,
+          -15
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "S",
+        "frame": 2,
+        "offset": [
+          0,
+          -14
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "S",
+        "frame": 3,
+        "offset": [
+          0,
+          -19
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "S",
+        "frame": 4,
+        "offset": [
+          0,
+          -16
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "S",
+        "frame": 5,
+        "offset": [
+          0,
+          -16
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "S",
+        "frame": 6,
+        "offset": [
+          0,
+          -16
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "S",
+        "frame": 7,
+        "offset": [
+          0,
+          -16
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NW",
+        "frame": 0,
+        "offset": [
+          0,
+          -46
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NW",
+        "frame": 1,
+        "offset": [
+          0,
+          -23
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NW",
+        "frame": 2,
+        "offset": [
+          0,
+          -47
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NW",
+        "frame": 3,
+        "offset": [
+          0,
+          -26
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NW",
+        "frame": 4,
+        "offset": [
+          0,
+          -20
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NW",
+        "frame": 5,
+        "offset": [
+          0,
+          -44
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NW",
+        "frame": 6,
+        "offset": [
+          0,
+          -47
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NW",
+        "frame": 7,
+        "offset": [
+          0,
+          -50
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "N",
+        "frame": 0,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "N",
+        "frame": 1,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "N",
+        "frame": 2,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "N",
+        "frame": 3,
+        "offset": [
+          0,
+          -30
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "N",
+        "frame": 4,
+        "offset": [
+          0,
+          -7
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NE",
+        "frame": 0,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NE",
+        "frame": 2,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NE",
+        "frame": 3,
+        "offset": [
+          0,
+          -7
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NE",
+        "frame": 5,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NE",
+        "frame": 6,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "NE",
+        "frame": 7,
+        "offset": [
+          0,
+          -15
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 0,
+        "offset": [
+          0,
+          -22
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 1,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 2,
+        "offset": [
+          0,
+          -10
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 3,
+        "offset": [
+          0,
+          -20
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 4,
+        "offset": [
+          0,
+          -17
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 5,
+        "offset": [
+          0,
+          -25
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 6,
+        "offset": [
+          0,
+          -17
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 7,
+        "offset": [
+          0,
+          -23
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "N",
+        "frame": 7,
+        "offset": [
+          -9,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "NE",
+        "frame": 2,
+        "offset": [
+          0,
+          -3
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sourceGridCounts": {
+      "idle": 48,
+      "walk": 64,
+      "attack": 64,
+      "hit": 32,
+      "death": 64,
+      "cast": 64
+    },
+    "loopRegistration": "original projected ground origin mapped through idle neutral anatomy; per-state neutral size matched to idle at each independent heading; no per-frame rescaling",
+    "inGame": "not tested",
+    "supersededSourceIssues": []
+  },
+  "runtimeLayout": "per-action-direction-chunked",
+  "maximumClipDecodedBytes": 786432,
+  "runtimeTextureCount": 336,
+  "maximumFramesPerTexture": 1
+}

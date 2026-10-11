@@ -1,0 +1,1888 @@
+{
+  "status": "REIMPLEMENTED_FROM_VERIFIED_SOURCE_NOT_ORIGINAL_LOST_ARTIFACT",
+  "source": {
+    "body_sha256": "efa61ec0589b99ddb9dcb8fa6b8baae0256ce201e1249f3b7aee004376b927dd"
+  },
+  "scope": "14 newly reconstructed distinct item definitions and exact 60-group mapping. Drop probabilities and quantities remain unspecified; fusion items belong to the separate fusion policy.",
+  "disclosure_zh": "十四個獨立物品名稱取自重新核對的來源。缺失的舊自訂數值沒有找回；十一件裝備及金屬塊依第二階段最接近物品重新暫定數值。強化綠色藥水暫定動作與移動各1.33倍、600秒；濃縮強力體力恢復劑暫定45至65HP。火球術明確映射為目前目錄的燃燒的火球，不宣稱名稱完全相同。",
+  "counts": {
+    "source_groups": 60,
+    "new_items": 14,
+    "resolved_item_references": 64,
+    "fusion_reference_groups": 3,
+    "spellbook_groups": 3
+  },
+  "new_item_definitions": [
+    {
+      "id": "EQ-DWARF-DAGGER",
+      "name_zh": "小侏儒短劍",
+      "slot": "weapon",
+      "family": "dagger",
+      "weight": 20,
+      "class_restrictions": [
+        "knight",
+        "elf",
+        "mage",
+        "darkelf"
+      ],
+      "min_level": 1,
+      "material": "iron",
+      "stats": {
+        "small_dice": "1d4",
+        "large_dice": "1d3",
+        "hit_bonus": 0,
+        "damage_bonus": 0,
+        "sp": 0,
+        "mp_regen": 0
+      },
+      "two_handed": false,
+      "range_cells": 1,
+      "attack_interval_ms": 1000,
+      "requires_ammunition": null,
+      "durability_max": 100,
+      "susceptible_to_damage": true,
+      "enchantable": true,
+      "identity_rule": "canonical裝備ID加整數N；不增加品質階、變體、祝福或隨機詞綴。",
+      "plus_n_effect": "+N增加N物理傷害與floor(N/2)命中；弓計入箭矢傷害；魔杖不因此增加SP。",
+      "progression_role": "starter",
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "EQ-DAGGER",
+      "provisional_fields": [
+        "slot",
+        "family",
+        "weight",
+        "class_restrictions",
+        "min_level",
+        "material",
+        "stats",
+        "two_handed",
+        "range_cells",
+        "attack_interval_ms",
+        "requires_ammunition",
+        "durability_max",
+        "susceptible_to_damage",
+        "enchantable",
+        "identity_rule",
+        "plus_n_effect",
+        "progression_role"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "EQ-DWARF-CLOAK",
+      "name_zh": "侏儒斗篷",
+      "slot": "cloak",
+      "family": "cloak",
+      "weight": 10,
+      "class_restrictions": [
+        "knight",
+        "elf",
+        "mage",
+        "darkelf"
+      ],
+      "min_level": 1,
+      "material": "cloth",
+      "stats": {
+        "ac": -1
+      },
+      "durability_max": 100,
+      "enchantable": true,
+      "identity_rule": "canonical裝備ID與整數強化N；不增加稀有度／品質階。",
+      "plus_n_effect": "AC減少N；不套指數倍率。",
+      "equip_restriction": "盾不能與雙手武器並裝；兩個戒指槽，同一canonical戒指不可重複裝。",
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "EQ-CLOAK",
+      "provisional_fields": [
+        "slot",
+        "family",
+        "weight",
+        "class_restrictions",
+        "min_level",
+        "material",
+        "stats",
+        "durability_max",
+        "enchantable",
+        "identity_rule",
+        "plus_n_effect",
+        "equip_restriction"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "EQ-DWARF-HELMET",
+      "name_zh": "侏儒鐵盔",
+      "slot": "helmet",
+      "family": "helmet",
+      "weight": 40,
+      "class_restrictions": [
+        "knight",
+        "elf",
+        "darkelf"
+      ],
+      "min_level": 1,
+      "material": "iron",
+      "stats": {
+        "ac": -2
+      },
+      "durability_max": 100,
+      "enchantable": true,
+      "identity_rule": "canonical裝備ID與整數強化N；不增加稀有度／品質階。",
+      "plus_n_effect": "AC減少N；不套指數倍率。",
+      "equip_restriction": "盾不能與雙手武器並裝；兩個戒指槽，同一canonical戒指不可重複裝。",
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "EQ-HELMET",
+      "provisional_fields": [
+        "slot",
+        "family",
+        "weight",
+        "class_restrictions",
+        "min_level",
+        "material",
+        "stats",
+        "durability_max",
+        "enchantable",
+        "identity_rule",
+        "plus_n_effect",
+        "equip_restriction"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "EQ-DWARF-SHIELD",
+      "name_zh": "侏儒圓盾",
+      "slot": "shield",
+      "family": "shield",
+      "weight": 50,
+      "class_restrictions": [
+        "knight",
+        "elf"
+      ],
+      "min_level": 1,
+      "material": "iron",
+      "stats": {
+        "ac": -2
+      },
+      "durability_max": 100,
+      "enchantable": true,
+      "identity_rule": "canonical裝備ID與整數強化N；不增加稀有度／品質階。",
+      "plus_n_effect": "AC減少N；不套指數倍率。",
+      "equip_restriction": "盾不能與雙手武器並裝；兩個戒指槽，同一canonical戒指不可重複裝。",
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "EQ-SHIELD",
+      "provisional_fields": [
+        "slot",
+        "family",
+        "weight",
+        "class_restrictions",
+        "min_level",
+        "material",
+        "stats",
+        "durability_max",
+        "enchantable",
+        "identity_rule",
+        "plus_n_effect",
+        "equip_restriction"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "EQ-HUNTER-BOW",
+      "name_zh": "獵人弓",
+      "slot": "weapon",
+      "family": "bow",
+      "weight": 30,
+      "class_restrictions": [
+        "knight",
+        "elf",
+        "darkelf"
+      ],
+      "min_level": 1,
+      "material": "wood",
+      "stats": {
+        "small_dice": "1d2",
+        "large_dice": "1d2",
+        "hit_bonus": 0,
+        "damage_bonus": 0,
+        "sp": 0,
+        "mp_regen": 0
+      },
+      "two_handed": true,
+      "range_cells": 10,
+      "attack_interval_ms": 1400,
+      "requires_ammunition": "ITEM-ARROW",
+      "durability_max": 100,
+      "susceptible_to_damage": true,
+      "enchantable": true,
+      "identity_rule": "canonical裝備ID加整數N；不增加品質階、變體、祝福或隨機詞綴。",
+      "plus_n_effect": "+N增加N物理傷害與floor(N/2)命中；弓計入箭矢傷害；魔杖不因此增加SP。",
+      "progression_role": "starter",
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "EQ-BOW",
+      "provisional_fields": [
+        "slot",
+        "family",
+        "weight",
+        "class_restrictions",
+        "min_level",
+        "material",
+        "stats",
+        "two_handed",
+        "range_cells",
+        "attack_interval_ms",
+        "requires_ammunition",
+        "durability_max",
+        "susceptible_to_damage",
+        "enchantable",
+        "identity_rule",
+        "plus_n_effect",
+        "progression_role"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "EQ-GREAT-AXE",
+      "name_zh": "大斧",
+      "slot": "weapon",
+      "family": "mace",
+      "weight": 120,
+      "class_restrictions": [
+        "knight",
+        "darkelf"
+      ],
+      "min_level": 1,
+      "material": "iron",
+      "stats": {
+        "small_dice": "1d12",
+        "large_dice": "1d12",
+        "hit_bonus": 0,
+        "damage_bonus": 0,
+        "sp": 0,
+        "mp_regen": 0
+      },
+      "two_handed": false,
+      "range_cells": 1,
+      "attack_interval_ms": 1700,
+      "requires_ammunition": null,
+      "durability_max": 100,
+      "susceptible_to_damage": true,
+      "enchantable": true,
+      "identity_rule": "canonical裝備ID加整數N；不增加品質階、變體、祝福或隨機詞綴。",
+      "plus_n_effect": "+N增加N物理傷害與floor(N/2)命中；弓計入箭矢傷害；魔杖不因此增加SP。",
+      "progression_role": "heavy",
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "EQ-BATTLE-AXE",
+      "provisional_fields": [
+        "slot",
+        "family",
+        "weight",
+        "class_restrictions",
+        "min_level",
+        "material",
+        "stats",
+        "two_handed",
+        "range_cells",
+        "attack_interval_ms",
+        "requires_ammunition",
+        "durability_max",
+        "susceptible_to_damage",
+        "enchantable",
+        "identity_rule",
+        "plus_n_effect",
+        "progression_role"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "EQ-SILVER-AXE",
+      "name_zh": "銀斧",
+      "slot": "weapon",
+      "family": "mace",
+      "weight": 120,
+      "class_restrictions": [
+        "knight",
+        "darkelf"
+      ],
+      "min_level": 1,
+      "material": "silver",
+      "stats": {
+        "small_dice": "1d12",
+        "large_dice": "1d12",
+        "hit_bonus": 0,
+        "damage_bonus": 0,
+        "sp": 0,
+        "mp_regen": 0
+      },
+      "two_handed": false,
+      "range_cells": 1,
+      "attack_interval_ms": 1700,
+      "requires_ammunition": null,
+      "durability_max": 100,
+      "susceptible_to_damage": true,
+      "enchantable": true,
+      "identity_rule": "canonical裝備ID加整數N；不增加品質階、變體、祝福或隨機詞綴。",
+      "plus_n_effect": "+N增加N物理傷害與floor(N/2)命中；弓計入箭矢傷害；魔杖不因此增加SP。",
+      "progression_role": "heavy",
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "material_basis": "explicit_source_name",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "EQ-BATTLE-AXE",
+      "provisional_fields": [
+        "slot",
+        "family",
+        "weight",
+        "class_restrictions",
+        "min_level",
+        "stats",
+        "two_handed",
+        "range_cells",
+        "attack_interval_ms",
+        "requires_ammunition",
+        "durability_max",
+        "susceptible_to_damage",
+        "enchantable",
+        "identity_rule",
+        "plus_n_effect",
+        "progression_role"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "EQ-ROUGH-MITHRIL-DAGGER",
+      "name_zh": "粗糙的米特利短劍",
+      "slot": "weapon",
+      "family": "dagger",
+      "weight": 20,
+      "class_restrictions": [
+        "knight",
+        "elf",
+        "mage",
+        "darkelf"
+      ],
+      "min_level": 1,
+      "material": "mithril",
+      "stats": {
+        "small_dice": "1d4",
+        "large_dice": "1d3",
+        "hit_bonus": 0,
+        "damage_bonus": 0,
+        "sp": 0,
+        "mp_regen": 0
+      },
+      "two_handed": false,
+      "range_cells": 1,
+      "attack_interval_ms": 1000,
+      "requires_ammunition": null,
+      "durability_max": 100,
+      "susceptible_to_damage": true,
+      "enchantable": true,
+      "identity_rule": "canonical裝備ID加整數N；不增加品質階、變體、祝福或隨機詞綴。",
+      "plus_n_effect": "+N增加N物理傷害與floor(N/2)命中；弓計入箭矢傷害；魔杖不因此增加SP。",
+      "progression_role": "starter",
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "material_basis": "explicit_source_name",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "EQ-DAGGER",
+      "provisional_fields": [
+        "slot",
+        "family",
+        "weight",
+        "class_restrictions",
+        "min_level",
+        "stats",
+        "two_handed",
+        "range_cells",
+        "attack_interval_ms",
+        "requires_ammunition",
+        "durability_max",
+        "susceptible_to_damage",
+        "enchantable",
+        "identity_rule",
+        "plus_n_effect",
+        "progression_role"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "EQ-STEEL-HELMET",
+      "name_zh": "鋼盔",
+      "slot": "helmet",
+      "family": "helmet",
+      "weight": 40,
+      "class_restrictions": [
+        "knight",
+        "elf",
+        "darkelf"
+      ],
+      "min_level": 1,
+      "material": "steel",
+      "stats": {
+        "ac": -2
+      },
+      "durability_max": 100,
+      "enchantable": true,
+      "identity_rule": "canonical裝備ID與整數強化N；不增加稀有度／品質階。",
+      "plus_n_effect": "AC減少N；不套指數倍率。",
+      "equip_restriction": "盾不能與雙手武器並裝；兩個戒指槽，同一canonical戒指不可重複裝。",
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "material_basis": "explicit_source_name",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "EQ-HELMET",
+      "provisional_fields": [
+        "slot",
+        "family",
+        "weight",
+        "class_restrictions",
+        "min_level",
+        "stats",
+        "durability_max",
+        "enchantable",
+        "identity_rule",
+        "plus_n_effect",
+        "equip_restriction"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "EQ-YAOMO-DAGGER",
+      "name_zh": "妖魔短劍",
+      "slot": "weapon",
+      "family": "dagger",
+      "weight": 20,
+      "class_restrictions": [
+        "knight",
+        "elf",
+        "mage",
+        "darkelf"
+      ],
+      "min_level": 1,
+      "material": "iron",
+      "stats": {
+        "small_dice": "1d4",
+        "large_dice": "1d3",
+        "hit_bonus": 0,
+        "damage_bonus": 0,
+        "sp": 0,
+        "mp_regen": 0
+      },
+      "two_handed": false,
+      "range_cells": 1,
+      "attack_interval_ms": 1000,
+      "requires_ammunition": null,
+      "durability_max": 100,
+      "susceptible_to_damage": true,
+      "enchantable": true,
+      "identity_rule": "canonical裝備ID加整數N；不增加品質階、變體、祝福或隨機詞綴。",
+      "plus_n_effect": "+N增加N物理傷害與floor(N/2)命中；弓計入箭矢傷害；魔杖不因此增加SP。",
+      "progression_role": "starter",
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "EQ-DAGGER",
+      "provisional_fields": [
+        "slot",
+        "family",
+        "weight",
+        "class_restrictions",
+        "min_level",
+        "material",
+        "stats",
+        "two_handed",
+        "range_cells",
+        "attack_interval_ms",
+        "requires_ammunition",
+        "durability_max",
+        "susceptible_to_damage",
+        "enchantable",
+        "identity_rule",
+        "plus_n_effect",
+        "progression_role"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "EQ-SILVER-STUDDED-LEATHER",
+      "name_zh": "銀釘皮甲",
+      "slot": "armor",
+      "family": "armor",
+      "weight": 100,
+      "class_restrictions": [
+        "knight",
+        "elf",
+        "darkelf"
+      ],
+      "min_level": 1,
+      "material": "silver",
+      "stats": {
+        "ac": -3
+      },
+      "durability_max": 100,
+      "enchantable": true,
+      "identity_rule": "canonical裝備ID與整數強化N；不增加稀有度／品質階。",
+      "plus_n_effect": "AC減少N；不套指數倍率。",
+      "equip_restriction": "盾不能與雙手武器並裝；兩個戒指槽，同一canonical戒指不可重複裝。",
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "material_components": [
+        "leather",
+        "silver"
+      ],
+      "material_basis": "explicit_source_name",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "EQ-STUDDED-ARMOR",
+      "provisional_fields": [
+        "slot",
+        "family",
+        "weight",
+        "class_restrictions",
+        "min_level",
+        "stats",
+        "durability_max",
+        "enchantable",
+        "identity_rule",
+        "plus_n_effect",
+        "equip_restriction"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "ITEM-METAL-CHUNK",
+      "name_zh": "金屬塊",
+      "family": "material",
+      "weight": 5,
+      "effect": "製作材料；本次只建立獨立物品，不新增配方。",
+      "cooldown_seconds": 0,
+      "stackable": true,
+      "max_stack": 9999,
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "tradeable": true,
+      "binding": "none",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "ITEM-IRON",
+      "provisional_fields": [
+        "family",
+        "weight",
+        "effect",
+        "cooldown_seconds",
+        "stackable",
+        "max_stack",
+        "tradeable",
+        "binding"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "ITEM-STRONG-GREEN-POTION",
+      "name_zh": "強化綠色藥水",
+      "family": "potion",
+      "weight": 3,
+      "effect": "暫定：動作與移動間隔除1.33，持續600秒；與一般加速共用haste群組，只刷新、不疊加。",
+      "cooldown_seconds": 1,
+      "stackable": true,
+      "max_stack": 9999,
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "tradeable": true,
+      "binding": "none",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "runtime_use": {
+        "kind": "buff",
+        "group": "haste",
+        "values": {
+          "haste": 1.33
+        },
+        "duration_seconds": 600,
+        "strength": 1,
+        "cooldown_seconds": 1
+      },
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "ITEM-GREEN-POTION",
+      "provisional_fields": [
+        "family",
+        "weight",
+        "effect",
+        "cooldown_seconds",
+        "stackable",
+        "max_stack",
+        "tradeable",
+        "binding",
+        "runtime_use"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    },
+    {
+      "id": "ITEM-CONCENTRATED-STRONG-HEALING-POTION",
+      "name_zh": "濃縮強力體力恢復劑",
+      "family": "potion",
+      "weight": 4,
+      "effect": "暫定：恢復均勻整數45至65HP；治癒藥水共享冷卻1秒，受藥水霜化限制。",
+      "cooldown_seconds": 1,
+      "stackable": true,
+      "max_stack": 9999,
+      "acquisition": "銀騎士村周邊指定怪物主要掉落；見來源掉落群組。",
+      "tradeable": true,
+      "binding": "none",
+      "source_ids": [
+        "SRC-SILVER-MONSTER12"
+      ],
+      "evidence_tier": "assistant_design_provisional_reimplementation",
+      "runtime_use": {
+        "kind": "heal",
+        "min": 45,
+        "max": 65,
+        "cooldown_seconds": 1,
+        "blocked_by": "potionBlock"
+      },
+      "origin": "assistant_design_provisional_reimplementation",
+      "reconstruction_status": "new_provisional_definition_not_original_lost_artifact",
+      "source_name_verified": true,
+      "baseline_item_id": "ITEM-ORANGE-POTION",
+      "provisional_fields": [
+        "family",
+        "weight",
+        "effect",
+        "cooldown_seconds",
+        "stackable",
+        "max_stack",
+        "tradeable",
+        "binding",
+        "runtime_use"
+      ],
+      "design_note_zh": "名稱取自已核對來源；數值與使用規則依最接近的第二階段物品暫定重建，不是找回的舊自訂數值。"
+    }
+  ],
+  "groups": [
+    {
+      "monster_source_name": "哥布林",
+      "monster_id": "MON-GOBLIN",
+      "source_group_index": 1,
+      "source_text": "短劍",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-SHORT-SWORD",
+      "item_id": "EQ-SHORT-SWORD",
+      "item_ids": [
+        "EQ-SHORT-SWORD"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "哥布林",
+      "monster_id": "MON-GOBLIN",
+      "source_group_index": 2,
+      "source_text": "皮帽",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-LEATHER-CAP",
+      "item_id": "EQ-LEATHER-CAP",
+      "item_ids": [
+        "EQ-LEATHER-CAP"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "哥布林",
+      "monster_id": "MON-GOBLIN",
+      "source_group_index": 3,
+      "source_text": "小紅水",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-RED-POTION",
+      "item_id": "ITEM-RED-POTION",
+      "item_ids": [
+        "ITEM-RED-POTION"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "source_synonym",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "哥布林",
+      "monster_id": "MON-GOBLIN",
+      "source_group_index": 4,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "哈柏哥布林",
+      "monster_id": "MON-HOBGOBLIN",
+      "source_group_index": 1,
+      "source_text": "闊劍",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-BROAD-SWORD",
+      "item_id": "EQ-BROAD-SWORD",
+      "item_ids": [
+        "EQ-BROAD-SWORD"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "哈柏哥布林",
+      "monster_id": "MON-HOBGOBLIN",
+      "source_group_index": 2,
+      "source_text": "鋼盔",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-STEEL-HELMET",
+      "item_id": "EQ-STEEL-HELMET",
+      "item_ids": [
+        "EQ-STEEL-HELMET"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "哈柏哥布林",
+      "monster_id": "MON-HOBGOBLIN",
+      "source_group_index": 3,
+      "source_text": "燈",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-LANTERN",
+      "item_id": "ITEM-LANTERN",
+      "item_ids": [
+        "ITEM-LANTERN"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "source_synonym",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "哈柏哥布林",
+      "monster_id": "MON-HOBGOBLIN",
+      "source_group_index": 4,
+      "source_text": "自我加速藥水",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-GREEN-POTION",
+      "item_id": "ITEM-GREEN-POTION",
+      "item_ids": [
+        "ITEM-GREEN-POTION"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "哈柏哥布林",
+      "monster_id": "MON-HOBGOBLIN",
+      "source_group_index": 5,
+      "source_text": "強化綠色藥水",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-STRONG-GREEN-POTION",
+      "item_id": "ITEM-STRONG-GREEN-POTION",
+      "item_ids": [
+        "ITEM-STRONG-GREEN-POTION"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "哈柏哥布林",
+      "monster_id": "MON-HOBGOBLIN",
+      "source_group_index": 6,
+      "source_text": "濃縮強力體力恢復劑",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-CONCENTRATED-STRONG-HEALING-POTION",
+      "item_id": "ITEM-CONCENTRATED-STRONG-HEALING-POTION",
+      "item_ids": [
+        "ITEM-CONCENTRATED-STRONG-HEALING-POTION"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "哈柏哥布林",
+      "monster_id": "MON-HOBGOBLIN",
+      "source_group_index": 7,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "侏儒",
+      "monster_id": "MON-DWARF",
+      "source_group_index": 1,
+      "source_text": "小侏儒短劍",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-DWARF-DAGGER",
+      "item_id": "EQ-DWARF-DAGGER",
+      "item_ids": [
+        "EQ-DWARF-DAGGER"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "侏儒",
+      "monster_id": "MON-DWARF",
+      "source_group_index": 2,
+      "source_text": "侏儒斗篷",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-DWARF-CLOAK",
+      "item_id": "EQ-DWARF-CLOAK",
+      "item_ids": [
+        "EQ-DWARF-CLOAK"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "侏儒",
+      "monster_id": "MON-DWARF",
+      "source_group_index": 3,
+      "source_text": "侏儒鐵盔",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-DWARF-HELMET",
+      "item_id": "EQ-DWARF-HELMET",
+      "item_ids": [
+        "EQ-DWARF-HELMET"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "侏儒",
+      "monster_id": "MON-DWARF",
+      "source_group_index": 4,
+      "source_text": "侏儒圓盾",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-DWARF-SHIELD",
+      "item_id": "EQ-DWARF-SHIELD",
+      "item_ids": [
+        "EQ-DWARF-SHIELD"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "侏儒",
+      "monster_id": "MON-DWARF",
+      "source_group_index": 5,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "侏儒戰士",
+      "monster_id": "MON-DWARF-WARRIOR",
+      "source_group_index": 1,
+      "source_text": "侏儒斗篷",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-DWARF-CLOAK",
+      "item_id": "EQ-DWARF-CLOAK",
+      "item_ids": [
+        "EQ-DWARF-CLOAK"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "侏儒戰士",
+      "monster_id": "MON-DWARF-WARRIOR",
+      "source_group_index": 2,
+      "source_text": "侏儒圓盾",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-DWARF-SHIELD",
+      "item_id": "EQ-DWARF-SHIELD",
+      "item_ids": [
+        "EQ-DWARF-SHIELD"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "侏儒戰士",
+      "monster_id": "MON-DWARF-WARRIOR",
+      "source_group_index": 3,
+      "source_text": "金屬塊",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-METAL-CHUNK",
+      "item_id": "ITEM-METAL-CHUNK",
+      "item_ids": [
+        "ITEM-METAL-CHUNK"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "侏儒戰士",
+      "monster_id": "MON-DWARF-WARRIOR",
+      "source_group_index": 4,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔",
+      "monster_id": "MON-ORC",
+      "source_group_index": 1,
+      "source_text": "妖魔短劍",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-YAOMO-DAGGER",
+      "item_id": "EQ-YAOMO-DAGGER",
+      "item_ids": [
+        "EQ-YAOMO-DAGGER"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔",
+      "monster_id": "MON-ORC",
+      "source_group_index": 2,
+      "source_text": "皮甲",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-LEATHER-ARMOR",
+      "item_id": "EQ-LEATHER-ARMOR",
+      "item_ids": [
+        "EQ-LEATHER-ARMOR"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔",
+      "monster_id": "MON-ORC",
+      "source_group_index": 3,
+      "source_text": "小紅水",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-RED-POTION",
+      "item_id": "ITEM-RED-POTION",
+      "item_ids": [
+        "ITEM-RED-POTION"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "source_synonym",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔",
+      "monster_id": "MON-ORC",
+      "source_group_index": 4,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔弓箭手",
+      "monster_id": "MON-ORC-ARCHER",
+      "source_group_index": 1,
+      "source_text": "獵人弓",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-HUNTER-BOW",
+      "item_id": "EQ-HUNTER-BOW",
+      "item_ids": [
+        "EQ-HUNTER-BOW"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔弓箭手",
+      "monster_id": "MON-ORC-ARCHER",
+      "source_group_index": 2,
+      "source_text": "箭矢",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ARROW",
+      "item_id": "ITEM-ARROW",
+      "item_ids": [
+        "ITEM-ARROW"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "source_synonym",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔弓箭手",
+      "monster_id": "MON-ORC-ARCHER",
+      "source_group_index": 3,
+      "source_text": "綠色藥水",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-GREEN-POTION",
+      "item_id": "ITEM-GREEN-POTION",
+      "item_ids": [
+        "ITEM-GREEN-POTION"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "source_synonym",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔弓箭手",
+      "monster_id": "MON-ORC-ARCHER",
+      "source_group_index": 4,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔鬥士",
+      "monster_id": "MON-ORC-FIGHTER",
+      "source_group_index": 1,
+      "source_text": "大斧",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-GREAT-AXE",
+      "item_id": "EQ-GREAT-AXE",
+      "item_ids": [
+        "EQ-GREAT-AXE"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔鬥士",
+      "monster_id": "MON-ORC-FIGHTER",
+      "source_group_index": 2,
+      "source_text": "銀斧",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-SILVER-AXE",
+      "item_id": "EQ-SILVER-AXE",
+      "item_ids": [
+        "EQ-SILVER-AXE"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔鬥士",
+      "monster_id": "MON-ORC-FIGHTER",
+      "source_group_index": 3,
+      "source_text": "中紅水",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ORANGE-POTION",
+      "item_id": "ITEM-ORANGE-POTION",
+      "item_ids": [
+        "ITEM-ORANGE-POTION"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "source_synonym",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔鬥士",
+      "monster_id": "MON-ORC-FIGHTER",
+      "source_group_index": 4,
+      "source_text": "對武器施法的卷軸（武卷）",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": "weapon_fusion_scroll",
+      "mapping_source": "confirmed_fusion_scroll_semantics",
+      "canonical_item_id": "ITEM-FUSION-WEAPON-BASIC-NORMAL",
+      "item_id": "ITEM-FUSION-WEAPON-BASIC-NORMAL",
+      "item_ids": [
+        "ITEM-FUSION-WEAPON-BASIC-NORMAL"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "confirmed_fusion_scroll",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔鬥士",
+      "monster_id": "MON-ORC-FIGHTER",
+      "source_group_index": 5,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "甘地妖魔",
+      "monster_id": "MON-GANDI",
+      "source_group_index": 1,
+      "source_text": "圖騰",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-TOTEM-GANDI",
+      "item_id": "ITEM-TOTEM-GANDI",
+      "item_ids": [
+        "ITEM-TOTEM-GANDI"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "source_synonym",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "甘地妖魔",
+      "monster_id": "MON-GANDI",
+      "source_group_index": 2,
+      "source_text": "中紅水",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ORANGE-POTION",
+      "item_id": "ITEM-ORANGE-POTION",
+      "item_ids": [
+        "ITEM-ORANGE-POTION"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "source_synonym",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "甘地妖魔",
+      "monster_id": "MON-GANDI",
+      "source_group_index": 3,
+      "source_text": "粗糙的米特利短劍",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-ROUGH-MITHRIL-DAGGER",
+      "item_id": "EQ-ROUGH-MITHRIL-DAGGER",
+      "item_ids": [
+        "EQ-ROUGH-MITHRIL-DAGGER"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "甘地妖魔",
+      "monster_id": "MON-GANDI",
+      "source_group_index": 4,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔法師",
+      "monster_id": "MON-ORC-WIZARD",
+      "source_group_index": 1,
+      "source_text": "魔法書（初級治癒術/火球術）",
+      "spellbook_members_source": [
+        "初級治癒術",
+        "火球術"
+      ],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": null,
+      "item_id": null,
+      "item_ids": [
+        "BOOK-G01-01",
+        "BOOK-G04-01"
+      ],
+      "spellbook_members": [
+        {
+          "source_name": "初級治癒術",
+          "current_name": "初級治癒術",
+          "book_id": "BOOK-G01-01",
+          "book_name": "魔法書（初級治癒術）",
+          "skill_id": "SKILL-G01-01",
+          "mapping_basis": "exact_current_skill_name"
+        },
+        {
+          "source_name": "火球術",
+          "current_name": "燃燒的火球",
+          "book_id": "BOOK-G04-01",
+          "book_name": "魔法書（燃燒的火球）",
+          "skill_id": "SKILL-G04-01",
+          "mapping_basis": "explicit_source_synonym"
+        }
+      ],
+      "mapping_kind": "spellbook_group",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔法師",
+      "monster_id": "MON-ORC-WIZARD",
+      "source_group_index": 2,
+      "source_text": "魔力藥水（藍水）",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-BLUE-POTION",
+      "item_id": "ITEM-BLUE-POTION",
+      "item_ids": [
+        "ITEM-BLUE-POTION"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "source_synonym",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "妖魔法師",
+      "monster_id": "MON-ORC-WIZARD",
+      "source_group_index": 3,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "阿吐巴妖魔",
+      "monster_id": "MON-ATUBA",
+      "source_group_index": 1,
+      "source_text": "圖騰",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-TOTEM-ATUBA",
+      "item_id": "ITEM-TOTEM-ATUBA",
+      "item_ids": [
+        "ITEM-TOTEM-ATUBA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "source_synonym",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "阿吐巴妖魔",
+      "monster_id": "MON-ATUBA",
+      "source_group_index": 2,
+      "source_text": "大斧",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-GREAT-AXE",
+      "item_id": "EQ-GREAT-AXE",
+      "item_ids": [
+        "EQ-GREAT-AXE"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "阿吐巴妖魔",
+      "monster_id": "MON-ATUBA",
+      "source_group_index": 3,
+      "source_text": "對防具施法的卷軸（防卷）",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": "armor_fusion_scroll",
+      "mapping_source": "confirmed_fusion_scroll_semantics",
+      "canonical_item_id": "ITEM-FUSION-ARMOR-BASIC-NORMAL",
+      "item_id": "ITEM-FUSION-ARMOR-BASIC-NORMAL",
+      "item_ids": [
+        "ITEM-FUSION-ARMOR-BASIC-NORMAL"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "confirmed_fusion_scroll",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "阿吐巴妖魔",
+      "monster_id": "MON-ATUBA",
+      "source_group_index": 4,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "狼人",
+      "monster_id": "MON-WEREWOLF",
+      "source_group_index": 1,
+      "source_text": "木棒",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-CLUB",
+      "item_id": "EQ-CLUB",
+      "item_ids": [
+        "EQ-CLUB"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "source_synonym",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "狼人",
+      "monster_id": "MON-WEREWOLF",
+      "source_group_index": 2,
+      "source_text": "長劍",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-LONG-SWORD",
+      "item_id": "EQ-LONG-SWORD",
+      "item_ids": [
+        "EQ-LONG-SWORD"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "狼人",
+      "monster_id": "MON-WEREWOLF",
+      "source_group_index": 3,
+      "source_text": "銀釘皮甲",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-SILVER-STUDDED-LEATHER",
+      "item_id": "EQ-SILVER-STUDDED-LEATHER",
+      "item_ids": [
+        "EQ-SILVER-STUDDED-LEATHER"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "狼人",
+      "monster_id": "MON-WEREWOLF",
+      "source_group_index": 4,
+      "source_text": "小盾牌",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-SMALL-SHIELD",
+      "item_id": "EQ-SMALL-SHIELD",
+      "item_ids": [
+        "EQ-SMALL-SHIELD"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "狼人",
+      "monster_id": "MON-WEREWOLF",
+      "source_group_index": 5,
+      "source_text": "長靴",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-BOOTS",
+      "item_id": "EQ-BOOTS",
+      "item_ids": [
+        "EQ-BOOTS"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "狼人",
+      "monster_id": "MON-WEREWOLF",
+      "source_group_index": 6,
+      "source_text": "魔法書（吸血鬼之吻/通暢氣脈術）",
+      "spellbook_members_source": [
+        "吸血鬼之吻",
+        "通暢氣脈術"
+      ],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": null,
+      "item_id": null,
+      "item_ids": [
+        "BOOK-G04-04",
+        "BOOK-G04-02"
+      ],
+      "spellbook_members": [
+        {
+          "source_name": "吸血鬼之吻",
+          "current_name": "吸血鬼之吻",
+          "book_id": "BOOK-G04-04",
+          "book_name": "魔法書（吸血鬼之吻）",
+          "skill_id": "SKILL-G04-04",
+          "mapping_basis": "exact_current_skill_name"
+        },
+        {
+          "source_name": "通暢氣脈術",
+          "current_name": "通暢氣脈術",
+          "book_id": "BOOK-G04-02",
+          "book_name": "魔法書（通暢氣脈術）",
+          "skill_id": "SKILL-G04-02",
+          "mapping_basis": "exact_current_skill_name"
+        }
+      ],
+      "mapping_kind": "spellbook_group",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "狼人",
+      "monster_id": "MON-WEREWOLF",
+      "source_group_index": 7,
+      "source_text": "肉",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-MEAT",
+      "item_id": "ITEM-MEAT",
+      "item_ids": [
+        "ITEM-MEAT"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "狼人",
+      "monster_id": "MON-WEREWOLF",
+      "source_group_index": 8,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "萊肯",
+      "monster_id": "MON-LYCANTHROPE",
+      "source_group_index": 1,
+      "source_text": "對武器施法的卷軸（武卷）",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": "weapon_fusion_scroll",
+      "mapping_source": "confirmed_fusion_scroll_semantics",
+      "canonical_item_id": "ITEM-FUSION-WEAPON-BASIC-NORMAL",
+      "item_id": "ITEM-FUSION-WEAPON-BASIC-NORMAL",
+      "item_ids": [
+        "ITEM-FUSION-WEAPON-BASIC-NORMAL"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "confirmed_fusion_scroll",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "萊肯",
+      "monster_id": "MON-LYCANTHROPE",
+      "source_group_index": 2,
+      "source_text": "魔法書（吸血鬼之吻/通暢氣脈術/緩速術）",
+      "spellbook_members_source": [
+        "吸血鬼之吻",
+        "通暢氣脈術",
+        "緩速術"
+      ],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": null,
+      "item_id": null,
+      "item_ids": [
+        "BOOK-G04-04",
+        "BOOK-G04-02",
+        "BOOK-G04-05"
+      ],
+      "spellbook_members": [
+        {
+          "source_name": "吸血鬼之吻",
+          "current_name": "吸血鬼之吻",
+          "book_id": "BOOK-G04-04",
+          "book_name": "魔法書（吸血鬼之吻）",
+          "skill_id": "SKILL-G04-04",
+          "mapping_basis": "exact_current_skill_name"
+        },
+        {
+          "source_name": "通暢氣脈術",
+          "current_name": "通暢氣脈術",
+          "book_id": "BOOK-G04-02",
+          "book_name": "魔法書（通暢氣脈術）",
+          "skill_id": "SKILL-G04-02",
+          "mapping_basis": "exact_current_skill_name"
+        },
+        {
+          "source_name": "緩速術",
+          "current_name": "緩速術",
+          "book_id": "BOOK-G04-05",
+          "book_name": "魔法書（緩速術）",
+          "skill_id": "SKILL-G04-05",
+          "mapping_basis": "exact_current_skill_name"
+        }
+      ],
+      "mapping_kind": "spellbook_group",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "萊肯",
+      "monster_id": "MON-LYCANTHROPE",
+      "source_group_index": 3,
+      "source_text": "戰斧",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-BATTLE-AXE",
+      "item_id": "EQ-BATTLE-AXE",
+      "item_ids": [
+        "EQ-BATTLE-AXE"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "萊肯",
+      "monster_id": "MON-LYCANTHROPE",
+      "source_group_index": 4,
+      "source_text": "銀釘皮甲",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-SILVER-STUDDED-LEATHER",
+      "item_id": "EQ-SILVER-STUDDED-LEATHER",
+      "item_ids": [
+        "EQ-SILVER-STUDDED-LEATHER"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "distinct_provisional_item",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "萊肯",
+      "monster_id": "MON-LYCANTHROPE",
+      "source_group_index": 5,
+      "source_text": "鱗甲",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-SCALE-MAIL",
+      "item_id": "EQ-SCALE-MAIL",
+      "item_ids": [
+        "EQ-SCALE-MAIL"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "萊肯",
+      "monster_id": "MON-LYCANTHROPE",
+      "source_group_index": 6,
+      "source_text": "大盾牌",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "EQ-LARGE-SHIELD",
+      "item_id": "EQ-LARGE-SHIELD",
+      "item_ids": [
+        "EQ-LARGE-SHIELD"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "萊肯",
+      "monster_id": "MON-LYCANTHROPE",
+      "source_group_index": 7,
+      "source_text": "鑽石",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-DIAMOND",
+      "item_id": "ITEM-DIAMOND",
+      "item_ids": [
+        "ITEM-DIAMOND"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    },
+    {
+      "monster_source_name": "萊肯",
+      "monster_id": "MON-LYCANTHROPE",
+      "source_group_index": 8,
+      "source_text": "金幣",
+      "spellbook_members_source": [],
+      "confirmed_later_semantic_mapping": null,
+      "mapping_source": null,
+      "canonical_item_id": "ITEM-ADENA",
+      "item_id": "ITEM-ADENA",
+      "item_ids": [
+        "ITEM-ADENA"
+      ],
+      "spellbook_members": [],
+      "mapping_kind": "exact_catalog_name",
+      "drop_probability": null,
+      "quantity": null
+    }
+  ]
+}

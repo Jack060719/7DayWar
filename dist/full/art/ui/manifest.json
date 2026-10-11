@@ -1,0 +1,598 @@
+{
+  "schema": "ashen-ui-skin-v1",
+  "assetId": "ASSET-UI-SKIN",
+  "status": "candidate",
+  "originalImageCount": 28,
+  "components": {
+    "frames_and_bars": 12,
+    "utility_icons": 16
+  },
+  "assets": [
+    {
+      "id": "hud-main",
+      "kind": "frame",
+      "file": "assets/hud-main.webp",
+      "width": 581,
+      "height": 199,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 21,
+          "top": 230,
+          "width": 581,
+          "height": 199
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      },
+      "content": {
+        "portrait": {
+          "center": [
+            99,
+            103
+          ],
+          "radius": 57
+        },
+        "hp": {
+          "rect": [
+            184,
+            67,
+            346,
+            30
+          ],
+          "cornerRadius": 12
+        },
+        "mp": {
+          "rect": [
+            184,
+            118,
+            346,
+            29
+          ],
+          "cornerRadius": 12
+        },
+        "coordinateBasis": "native pixels inside cropped581x199 asset; render live fill only inside these wells and text above"
+      }
+    },
+    {
+      "id": "dialog-frame",
+      "kind": "frame",
+      "file": "assets/dialog-frame.webp",
+      "width": 472,
+      "height": 239,
+      "renderMode": "nine-slice",
+      "sliceInsets": [
+        38,
+        38,
+        38,
+        38
+      ],
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 608,
+          "top": 179,
+          "width": 472,
+          "height": 239
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      }
+    },
+    {
+      "id": "inventory-frame",
+      "kind": "frame",
+      "file": "assets/inventory-frame.webp",
+      "width": 336,
+      "height": 317,
+      "renderMode": "nine-slice",
+      "sliceInsets": [
+        38,
+        38,
+        38,
+        38
+      ],
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 1089,
+          "top": 110,
+          "width": 336,
+          "height": 317
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      }
+    },
+    {
+      "id": "tooltip-frame",
+      "kind": "frame",
+      "file": "assets/tooltip-frame.webp",
+      "width": 212,
+      "height": 204,
+      "renderMode": "nine-slice",
+      "sliceInsets": [
+        38,
+        38,
+        38,
+        38
+      ],
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 1434,
+          "top": 201,
+          "width": 212,
+          "height": 204
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      }
+    },
+    {
+      "id": "hp-well",
+      "kind": "frame",
+      "file": "assets/hp-well.webp",
+      "width": 453,
+      "height": 81,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 42,
+          "top": 477,
+          "width": 453,
+          "height": 81
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      }
+    },
+    {
+      "id": "mp-well",
+      "kind": "frame",
+      "file": "assets/mp-well.webp",
+      "width": 451,
+      "height": 81,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 526,
+          "top": 477,
+          "width": 451,
+          "height": 81
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      }
+    },
+    {
+      "id": "xp-well",
+      "kind": "frame",
+      "file": "assets/xp-well.webp",
+      "width": 444,
+      "height": 80,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 1010,
+          "top": 478,
+          "width": 444,
+          "height": 80
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      }
+    },
+    {
+      "id": "quickslot",
+      "kind": "frame",
+      "file": "assets/quickslot.webp",
+      "width": 136,
+      "height": 133,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 1500,
+          "top": 439,
+          "width": 136,
+          "height": 133
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      }
+    },
+    {
+      "id": "action-circle",
+      "kind": "frame",
+      "file": "assets/action-circle.webp",
+      "width": 208,
+      "height": 205,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 120,
+          "top": 666,
+          "width": 208,
+          "height": 205
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      }
+    },
+    {
+      "id": "portrait-circle",
+      "kind": "frame",
+      "file": "assets/portrait-circle.webp",
+      "width": 232,
+      "height": 230,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 494,
+          "top": 656,
+          "width": 232,
+          "height": 230
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      }
+    },
+    {
+      "id": "tab-plate",
+      "kind": "frame",
+      "file": "assets/tab-plate.webp",
+      "width": 525,
+      "height": 156,
+      "minimumHitArea": 44,
+      "renderMode": "nine-slice",
+      "sliceInsets": [
+        38,
+        38,
+        38,
+        38
+      ],
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 856,
+          "top": 703,
+          "width": 525,
+          "height": 156
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      }
+    },
+    {
+      "id": "scroll-track",
+      "kind": "frame",
+      "file": "assets/scroll-track.webp",
+      "width": 60,
+      "height": 301,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/frames-generated.png",
+        "rect": {
+          "left": 1484,
+          "top": 592,
+          "width": 60,
+          "height": 301
+        },
+        "sha256": "86766a298812b6012ed248ec2497fd69c9e7537b1177f112e21cd801a272e9cf"
+      }
+    },
+    {
+      "id": "bag",
+      "kind": "utility-icon",
+      "file": "assets/bag.webp",
+      "width": 264,
+      "height": 258,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 45,
+          "top": 40,
+          "width": 264,
+          "height": 258
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "settings",
+      "kind": "utility-icon",
+      "file": "assets/settings.webp",
+      "width": 246,
+      "height": 249,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 365,
+          "top": 52,
+          "width": 246,
+          "height": 249
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "map",
+      "kind": "utility-icon",
+      "file": "assets/map.webp",
+      "width": 295,
+      "height": 272,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 658,
+          "top": 40,
+          "width": 295,
+          "height": 272
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "quests",
+      "kind": "utility-icon",
+      "file": "assets/quests.webp",
+      "width": 256,
+      "height": 253,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 975,
+          "top": 52,
+          "width": 256,
+          "height": 253
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "skills",
+      "kind": "utility-icon",
+      "file": "assets/skills.webp",
+      "width": 265,
+      "height": 280,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 33,
+          "top": 333,
+          "width": 265,
+          "height": 280
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "combat",
+      "kind": "utility-icon",
+      "file": "assets/combat.webp",
+      "width": 272,
+      "height": 280,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 346,
+          "top": 333,
+          "width": 272,
+          "height": 280
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "pets",
+      "kind": "utility-icon",
+      "file": "assets/pets.webp",
+      "width": 282,
+      "height": 281,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 655,
+          "top": 332,
+          "width": 282,
+          "height": 281
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "portal",
+      "kind": "utility-icon",
+      "file": "assets/portal.webp",
+      "width": 280,
+      "height": 285,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 970,
+          "top": 330,
+          "width": 280,
+          "height": 285
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "shop",
+      "kind": "utility-icon",
+      "file": "assets/shop.webp",
+      "width": 280,
+      "height": 265,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 29,
+          "top": 639,
+          "width": 280,
+          "height": 265
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "smith",
+      "kind": "utility-icon",
+      "file": "assets/smith.webp",
+      "width": 299,
+      "height": 270,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 331,
+          "top": 631,
+          "width": 299,
+          "height": 270
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "storage",
+      "kind": "utility-icon",
+      "file": "assets/storage.webp",
+      "width": 276,
+      "height": 244,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 660,
+          "top": 650,
+          "width": 276,
+          "height": 244
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "heal",
+      "kind": "utility-icon",
+      "file": "assets/heal.webp",
+      "width": 225,
+      "height": 251,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 1016,
+          "top": 640,
+          "width": 225,
+          "height": 251
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "arrows",
+      "kind": "utility-icon",
+      "file": "assets/arrows.webp",
+      "width": 253,
+      "height": 265,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 46,
+          "top": 921,
+          "width": 253,
+          "height": 265
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "auto-combat",
+      "kind": "utility-icon",
+      "file": "assets/auto-combat.webp",
+      "width": 249,
+      "height": 242,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 348,
+          "top": 934,
+          "width": 249,
+          "height": 242
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "interact",
+      "kind": "utility-icon",
+      "file": "assets/interact.webp",
+      "width": 268,
+      "height": 248,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 655,
+          "top": 938,
+          "width": 268,
+          "height": 248
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    },
+    {
+      "id": "exit",
+      "kind": "utility-icon",
+      "file": "assets/exit.webp",
+      "width": 243,
+      "height": 273,
+      "minimumHitArea": 44,
+      "renderMode": "contain",
+      "source": {
+        "file": "sources/icons-generated.png",
+        "rect": {
+          "left": 988,
+          "top": 910,
+          "width": 243,
+          "height": 273
+        },
+        "sha256": "9bc2542f89f43b094422ef3b1db723657dac1f7a920c99b85014fc1eff092e75"
+      }
+    }
+  ],
+  "derivedStates": {
+    "pressed": "renderer brightness .8 and inset border",
+    "focused": "renderer subtle pale rim",
+    "disabled": "renderer alpha .45"
+  },
+  "constraints": [
+    "HP/MP fill and all values/text are live UI, not baked",
+    "44px minimum hit area independent of icon visual size",
+    "Preserve frame corners and utility icon aspect ratio"
+  ],
+  "finalInGameAccepted": false
+}

@@ -1,0 +1,3214 @@
+{
+  "schemaVersion": 1,
+  "familyId": "ASSET-TERRAIN-TOWER",
+  "family": "TOWER",
+  "implementationState": "GENERATED_SOURCE_COUNTS_MET_INTEGRATION_PENDING",
+  "tileProjection": {
+    "width": 64,
+    "height": 32,
+    "type": "isometric-2:1"
+  },
+  "sourceCatalog": "catalog-requirements.json",
+  "tiles": [
+    {
+      "id": "TOWER-GROUND-01",
+      "name": "weathered-square-flags",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 85304,
+          "nonzero": 33010,
+          "opaque": 28438,
+          "total": 118314
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "6b7e6375def4443d83c2528ea854a7a190d71b9696beaeb5e4a0f7d6db041c8b",
+        "sourceRect": {
+          "x": 5,
+          "y": 146,
+          "w": 304,
+          "h": 191
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 313,
+          "h": 378
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-02",
+      "name": "radial-stone-pavers",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 85125,
+          "nonzero": 33567,
+          "opaque": 29707,
+          "total": 118692
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "c9b21aef5bc5d475e0a606d9b1ceb794ea6456529f19ff2f79febac4ae05db72",
+        "sourceRect": {
+          "x": 318,
+          "y": 146,
+          "w": 304,
+          "h": 197
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 0,
+          "w": 314,
+          "h": 378
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-03",
+      "name": "soot-stained-floor",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 84626,
+          "nonzero": 33688,
+          "opaque": 29349,
+          "total": 118314
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "542d34c925d8856767f8b2cc1e7509bba8a6954c0e41269fab5b6f36473e22a2",
+        "sourceRect": {
+          "x": 631,
+          "y": 146,
+          "w": 305,
+          "h": 195
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 0,
+          "w": 313,
+          "h": 378
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-04",
+      "name": "cracked-blue-slate",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 85610,
+          "nonzero": 33082,
+          "opaque": 28911,
+          "total": 118692
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "bf5abe3b4007fa042ae946a363feff5355e4acb45956a123234777352c8b3a83",
+        "sourceRect": {
+          "x": 944,
+          "y": 145,
+          "w": 305,
+          "h": 194
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 314,
+          "h": 378
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-05",
+      "name": "dusty-ashlar-tiles",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 56000,
+          "nonzero": 32892,
+          "opaque": 29380,
+          "total": 88892
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "b1cc6d35cd95003ec2c76bcfb730e1cf7c8c720e3c895a58a2c56e4c45ca1785",
+        "sourceRect": {
+          "x": 6,
+          "y": 424,
+          "w": 301,
+          "h": 199
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 378,
+          "w": 313,
+          "h": 284
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-06",
+      "name": "faded-compass-inlay",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 55033,
+          "nonzero": 34143,
+          "opaque": 30051,
+          "total": 89176
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "e3d454d52bfb0498b8a96cf5a5e3da84f27bae2dffb1f7992521fb647bd63bd0",
+        "sourceRect": {
+          "x": 318,
+          "y": 423,
+          "w": 304,
+          "h": 201
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 378,
+          "w": 314,
+          "h": 284
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-07",
+      "name": "mortar-and-grit",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 54715,
+          "nonzero": 34177,
+          "opaque": 30286,
+          "total": 88892
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "b75f3e88fd26581cc7a7d793c900f36f58576aad2f89838095fdad333ed22f2c",
+        "sourceRect": {
+          "x": 631,
+          "y": 422,
+          "w": 304,
+          "h": 202
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 378,
+          "w": 313,
+          "h": 284
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-08",
+      "name": "broken-oak-floorboards",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 55140,
+          "nonzero": 34036,
+          "opaque": 30024,
+          "total": 89176
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "4313b7411f2d6939bb5590b7210f29675856ff94a235b7e21771e946231dc237",
+        "sourceRect": {
+          "x": 944,
+          "y": 422,
+          "w": 304,
+          "h": 202
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 378,
+          "w": 314,
+          "h": 284
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-09",
+      "name": "rust-drip-stones",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 55383,
+          "nonzero": 33196,
+          "opaque": 29265,
+          "total": 88579
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "00ce7b2d1973307800c31a6d046e446d18573d8ef991117d5e06b5f141e22871",
+        "sourceRect": {
+          "x": 4,
+          "y": 706,
+          "w": 303,
+          "h": 197
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 662,
+          "w": 313,
+          "h": 283
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-10",
+      "name": "bird-dropping-stone",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 55256,
+          "nonzero": 33606,
+          "opaque": 29795,
+          "total": 88862
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "1e3c26040cb200ff254a34a7dbf430134b3c1850e5ad232954f1aff9938f299e",
+        "sourceRect": {
+          "x": 318,
+          "y": 707,
+          "w": 305,
+          "h": 199
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 662,
+          "w": 314,
+          "h": 283
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-11",
+      "name": "fallen-plaster-floor",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 54341,
+          "nonzero": 34238,
+          "opaque": 30020,
+          "total": 88579
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "88b62ed4b1b465745478fc79adb1414dfd93cf4c7e46cf790ca53ddfbe37ae55",
+        "sourceRect": {
+          "x": 630,
+          "y": 706,
+          "w": 305,
+          "h": 201
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 662,
+          "w": 313,
+          "h": 283
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-12",
+      "name": "scattered-parchment-dust",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 55064,
+          "nonzero": 33798,
+          "opaque": 29785,
+          "total": 88862
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "07b98413a31add9be0cbc8d8786cd866bda78c3163a0d5b6b792977887ab28fa",
+        "sourceRect": {
+          "x": 944,
+          "y": 706,
+          "w": 304,
+          "h": 199
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 662,
+          "w": 314,
+          "h": 283
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-13",
+      "name": "iron-studded-trapdoor",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63279,
+          "nonzero": 33438,
+          "opaque": 29601,
+          "total": 96717
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "146677214320f8c828d9f599905f761d9f006a662a39a6c59f52180bc976e6af",
+        "sourceRect": {
+          "x": 7,
+          "y": 983,
+          "w": 299,
+          "h": 204
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 945,
+          "w": 313,
+          "h": 309
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-14",
+      "name": "rain-stained-pavers",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62917,
+          "nonzero": 34109,
+          "opaque": 30277,
+          "total": 97026
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "00b70c55f3240101c6084f1de4ca5b0fee9ae471d3c5f3e327ad73fb37df1d95",
+        "sourceRect": {
+          "x": 314,
+          "y": 983,
+          "w": 307,
+          "h": 201
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 945,
+          "w": 314,
+          "h": 309
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-15",
+      "name": "rubble-and-tile",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62099,
+          "nonzero": 34618,
+          "opaque": 30749,
+          "total": 96717
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "cfbd63fe7d47d51e29aaefa46e9d8835864a23252916b6df69c29f9f14eba9a6",
+        "sourceRect": {
+          "x": 630,
+          "y": 984,
+          "w": 305,
+          "h": 204
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 945,
+          "w": 313,
+          "h": 309
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-GROUND-16",
+      "name": "bare-polished-granite",
+      "kind": "ground",
+      "atlas": "atlases/tower-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63020,
+          "nonzero": 34006,
+          "opaque": 30578,
+          "total": 97026
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-ground-generated.png",
+        "sha256": "2a5bb6ce99acb6f35192c6c47ff5bbf1503d57bc2ea6e4eba4ee0afc85500527",
+        "spriteSha256": "65dcddf2a54b17e749e8994ae8be43347723f7766b864e4d64351f0154918965",
+        "sourceRect": {
+          "x": 944,
+          "y": 983,
+          "w": 305,
+          "h": 204
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 945,
+          "w": 314,
+          "h": 309
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    }
+  ],
+  "edgeMasks": [
+    {
+      "id": "TOWER-EDGE-01",
+      "name": "ribbon-a",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 17,
+        "y": 2,
+        "w": 98,
+        "h": 96
+      },
+      "anchor": {
+        "x": 49,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 69141,
+          "nonzero": 28828,
+          "opaque": 15903,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "d005b49b367fa00c669298c096d54069a6eb0422e46e9fa76938527d2e960ac5",
+        "sourceRect": {
+          "x": 43,
+          "y": 51,
+          "w": 242,
+          "h": 237
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-02",
+      "name": "ribbon-b",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 145,
+        "y": 2,
+        "w": 106,
+        "h": 96
+      },
+      "anchor": {
+        "x": 53,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 72753,
+          "nonzero": 25529,
+          "opaque": 13733,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "4f71751bbf7021f92a4af70d4bd4a2689d172060c53cf237e3e4637b70b57c6b",
+        "sourceRect": {
+          "x": 359,
+          "y": 64,
+          "w": 234,
+          "h": 212
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-03",
+      "name": "ribbon-c",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 271,
+        "y": 2,
+        "w": 117,
+        "h": 96
+      },
+      "anchor": {
+        "x": 58.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 73907,
+          "nonzero": 24062,
+          "opaque": 11764,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "a8da24f5b74a14f5b27ba4a6ca213fbbc986e3520c9a068457fd0577fb7cace0",
+        "sourceRect": {
+          "x": 661,
+          "y": 76,
+          "w": 256,
+          "h": 210
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-04",
+      "name": "ribbon-d",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 410,
+        "y": 2,
+        "w": 104,
+        "h": 96
+      },
+      "anchor": {
+        "x": 52,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68811,
+          "nonzero": 29471,
+          "opaque": 16599,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "b8638ebf208109235cbd8d3fc2d25f5c43db05c38c0d40b66aa44e05afa3d44b",
+        "sourceRect": {
+          "x": 964,
+          "y": 46,
+          "w": 256,
+          "h": 237
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-05",
+      "name": "corner-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 15,
+        "y": 102,
+        "w": 101,
+        "h": 96
+      },
+      "anchor": {
+        "x": 50.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 64411,
+          "nonzero": 33871,
+          "opaque": 22967,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "e2332d1b75c97fe9e28821b73463948e1d69b4ff9dc6992ef773ee146a93ea67",
+        "sourceRect": {
+          "x": 38,
+          "y": 364,
+          "w": 252,
+          "h": 240
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-06",
+      "name": "corner-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 120,
+        "w": 128,
+        "h": 59
+      },
+      "anchor": {
+        "x": 64,
+        "y": 29.5
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 30
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 73440,
+          "nonzero": 25156,
+          "opaque": 12995,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "289c57439c2db8a6dd844b6d41957218102e140a737828c897386780df2f182d",
+        "sourceRect": {
+          "x": 336,
+          "y": 369,
+          "w": 273,
+          "h": 126
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-07",
+      "name": "corner-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 281,
+        "y": 102,
+        "w": 97,
+        "h": 96
+      },
+      "anchor": {
+        "x": 48.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63857,
+          "nonzero": 34425,
+          "opaque": 23285,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "ed98e7f7decf350dcd895373604c3fc183d37bb4f2b3670cea84b55f4458aac8",
+        "sourceRect": {
+          "x": 666,
+          "y": 356,
+          "w": 249,
+          "h": 247
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-08",
+      "name": "corner-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 111,
+        "w": 128,
+        "h": 78
+      },
+      "anchor": {
+        "x": 64,
+        "y": 39
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 39
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 67783,
+          "nonzero": 30813,
+          "opaque": 17924,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "ff5e24833baa70ac4d33a56cb32090ad7867ba49048dd3b86de74e178d85e576",
+        "sourceRect": {
+          "x": 948,
+          "y": 435,
+          "w": 288,
+          "h": 175
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-09",
+      "name": "chevron-up",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 214,
+        "w": 128,
+        "h": 72
+      },
+      "anchor": {
+        "x": 64,
+        "y": 36
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 36
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 73250,
+          "nonzero": 24719,
+          "opaque": 13645,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "972f77cdf548f473f8f239d370cffd239caf7531b4eb9cc99b68b68bba194c90",
+        "sourceRect": {
+          "x": 35,
+          "y": 718,
+          "w": 278,
+          "h": 157
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-10",
+      "name": "chevron-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 146,
+        "y": 202,
+        "w": 103,
+        "h": 96
+      },
+      "anchor": {
+        "x": 51.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 69384,
+          "nonzero": 28898,
+          "opaque": 17228,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "ea11b4251205ff78e45c11797d7fc375b45e25cf3f7c2c9727731be54d306dda",
+        "sourceRect": {
+          "x": 313,
+          "y": 650,
+          "w": 280,
+          "h": 260
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-11",
+      "name": "chevron-down",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 213,
+        "w": 128,
+        "h": 74
+      },
+      "anchor": {
+        "x": 64,
+        "y": 37
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 37
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 74326,
+          "nonzero": 23643,
+          "opaque": 13382,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "f4a406c92ba8e019f190fc6597e7a191ba52e2c479b5e3ab4d9932f348c18f14",
+        "sourceRect": {
+          "x": 651,
+          "y": 731,
+          "w": 267,
+          "h": 155
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-12",
+      "name": "chevron-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 427,
+        "y": 202,
+        "w": 69,
+        "h": 96
+      },
+      "anchor": {
+        "x": 34.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 71201,
+          "nonzero": 27081,
+          "opaque": 14653,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "902c4da4bd8ab4e4ccc3716eeb13f10099742c753c331455f27db78fc636da4c",
+        "sourceRect": {
+          "x": 1000,
+          "y": 657,
+          "w": 182,
+          "h": 255
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-13",
+      "name": "meandering-ribbon",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 19,
+        "y": 302,
+        "w": 93,
+        "h": 96
+      },
+      "anchor": {
+        "x": 46.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 65282,
+          "nonzero": 33000,
+          "opaque": 15929,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "0321b6ade7e9d88501d895359e4b3c5628dace30d6a1aa2c18b46ba546fb6c70",
+        "sourceRect": {
+          "x": 41,
+          "y": 961,
+          "w": 252,
+          "h": 261
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-14",
+      "name": "three-arm-junction",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 137,
+        "y": 302,
+        "w": 121,
+        "h": 96
+      },
+      "anchor": {
+        "x": 60.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 58363,
+          "nonzero": 40233,
+          "opaque": 22025,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "7e54822f435edb44a5bd60e56c23ff12dda20ce788dd12877befc603bd7cb1c4",
+        "sourceRect": {
+          "x": 322,
+          "y": 967,
+          "w": 302,
+          "h": 239
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-15",
+      "name": "central-island",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 302,
+        "w": 127,
+        "h": 96
+      },
+      "anchor": {
+        "x": 63.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 73894,
+          "nonzero": 24388,
+          "opaque": 14877,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "72a2db1f3c0723961968bc76131f7a87bbe404c76fb512cfe9fe988c61216d8c",
+        "sourceRect": {
+          "x": 687,
+          "y": 1018,
+          "w": 198,
+          "h": 150
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-EDGE-16",
+      "name": "hollow-ring",
+      "kind": "edge_mask",
+      "atlas": "atlases/tower-edges.webp",
+      "rect": {
+        "x": 404,
+        "y": 302,
+        "w": 116,
+        "h": 96
+      },
+      "anchor": {
+        "x": 58,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 59175,
+          "nonzero": 39421,
+          "opaque": 22947,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-edges-generated.png",
+        "sha256": "382d83f3cae8ae1ac75a9ac7bc64d1e86c49b5afb44c8d8c74204d581bc23e6b",
+        "spriteSha256": "5b0e0dcb8c360bb164e038d5e27d9998cd8da974961c4c9a5ca9207cd650b378",
+        "sourceRect": {
+          "x": 945,
+          "y": 972,
+          "w": 291,
+          "h": 240
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "TOWER-WALL-01",
+      "name": "tower-ashlar-wall-ne",
+      "kind": "wall",
+      "atlas": "atlases/tower-walls-v3.webp",
+      "rect": {
+        "x": 38,
+        "y": 4,
+        "w": 120,
+        "h": 188
+      },
+      "anchor": {
+        "x": 60,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 163
+      },
+      "footAnchor": {
+        "x": 60,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 100477,
+          "nonzero": 96131,
+          "opaque": 86569,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-walls-generated.png",
+        "sha256": "99235be5ac59a26e7dcc20fb4404809da50b38b20de396535782924e86f3c9e5",
+        "spriteSha256": "1b7d7a26688f7813192cc2ced747d23eb277508a2bf4261e5d5ba365ed665daf",
+        "sourceRect": {
+          "x": 51,
+          "y": 7,
+          "w": 302,
+          "h": 472
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving tighter source crop removes detached neighboring-cell fragment, proportional resampling and atlas packing.",
+        "previousSourceRect": {
+          "x": 51,
+          "y": 7,
+          "w": 302,
+          "h": 505
+        }
+      },
+      "qa": {
+        "detachedNeighborFragmentRemoved": true
+      }
+    },
+    {
+      "id": "TOWER-WALL-02",
+      "name": "tower-ashlar-wall-nw",
+      "kind": "wall",
+      "atlas": "atlases/tower-walls-v3.webp",
+      "rect": {
+        "x": 236,
+        "y": 4,
+        "w": 115,
+        "h": 188
+      },
+      "anchor": {
+        "x": 57.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 183
+      },
+      "footAnchor": {
+        "x": 57.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.65,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 111537,
+          "nonzero": 85071,
+          "opaque": 76970,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-walls-facing-v2.png",
+        "originalSource": "sources/tower-walls-generated.png",
+        "originalSha256": "99235be5ac59a26e7dcc20fb4404809da50b38b20de396535782924e86f3c9e5",
+        "replacementReason": "Correct perpendicular wall facing through built-in imagegen.",
+        "sha256": "815c5bfecc59a9cf52d6bda33299923c1ba91c283b66f24d0e758581118bde13",
+        "spriteSha256": "d15f4a71f2444bf8017a321c397c0eb03d200e205b138047f68ffc880c0a9284",
+        "sourceRect": {
+          "x": 453,
+          "y": 4,
+          "w": 290,
+          "h": 474
+        },
+        "sourceCell": {
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop tightened to exclude detached neighbor fragment; proportional resampling and packing.",
+        "previousSourceRect": {
+          "x": 453,
+          "y": 4,
+          "w": 290,
+          "h": 508
+        }
+      },
+      "qa": {
+        "detachedNeighborFragmentRemoved": true
+      }
+    },
+    {
+      "id": "TOWER-WALL-03",
+      "name": "round-tower-corner",
+      "kind": "wall",
+      "atlas": "atlases/tower-walls-v3.webp",
+      "rect": {
+        "x": 431,
+        "y": 4,
+        "w": 117,
+        "h": 188
+      },
+      "anchor": {
+        "x": 58.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 178
+      },
+      "footAnchor": {
+        "x": 58.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 83796,
+          "nonzero": 112812,
+          "opaque": 101890,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-walls-generated.png",
+        "sha256": "99235be5ac59a26e7dcc20fb4404809da50b38b20de396535782924e86f3c9e5",
+        "spriteSha256": "f7a1eee3ecc35ba8c842c822fa0ff5c3778c5a4e9f5ee3c6d2d73d680a8cab2d",
+        "sourceRect": {
+          "x": 812,
+          "y": 15,
+          "w": 290,
+          "h": 466
+        },
+        "sourceCell": {
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop tightened to exclude detached neighbor fragment; proportional resampling and packing.",
+        "previousSourceRect": {
+          "x": 812,
+          "y": 15,
+          "w": 290,
+          "h": 497
+        }
+      },
+      "qa": {
+        "detachedNeighborFragmentRemoved": true
+      }
+    },
+    {
+      "id": "TOWER-WALL-04",
+      "name": "broken-buttress-end",
+      "kind": "wall",
+      "atlas": "atlases/tower-walls-v3.webp",
+      "rect": {
+        "x": 627,
+        "y": 4,
+        "w": 118,
+        "h": 188
+      },
+      "anchor": {
+        "x": 59,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 166
+      },
+      "footAnchor": {
+        "x": 59,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 111718,
+          "nonzero": 84890,
+          "opaque": 75521,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-walls-generated.png",
+        "sha256": "99235be5ac59a26e7dcc20fb4404809da50b38b20de396535782924e86f3c9e5",
+        "spriteSha256": "249885b65643589480549cf10a387fbd5d48bd2c43fbf7ac0efdb8bffee9f908",
+        "sourceRect": {
+          "x": 1195,
+          "y": 12,
+          "w": 292,
+          "h": 467
+        },
+        "sourceCell": {
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-WALL-05",
+      "name": "arrow-slit-wall",
+      "kind": "wall",
+      "atlas": "atlases/tower-walls-v3.webp",
+      "rect": {
+        "x": 38,
+        "y": 200,
+        "w": 120,
+        "h": 188
+      },
+      "anchor": {
+        "x": 60,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 163
+      },
+      "footAnchor": {
+        "x": 60,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 93958,
+          "nonzero": 102650,
+          "opaque": 92552,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-walls-generated.png",
+        "sha256": "99235be5ac59a26e7dcc20fb4404809da50b38b20de396535782924e86f3c9e5",
+        "spriteSha256": "3f39573d2a663c8e2e5d9a6871773729df90da0d4bbde453838981d85b40a70e",
+        "sourceRect": {
+          "x": 50,
+          "y": 512,
+          "w": 305,
+          "h": 477
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-WALL-06",
+      "name": "arched-tower-doorway",
+      "kind": "wall",
+      "atlas": "atlases/tower-walls-v3.webp",
+      "rect": {
+        "x": 235,
+        "y": 200,
+        "w": 117,
+        "h": 188
+      },
+      "anchor": {
+        "x": 58.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 167
+      },
+      "footAnchor": {
+        "x": 58.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 91474,
+          "nonzero": 105134,
+          "opaque": 94628,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-walls-generated.png",
+        "sha256": "99235be5ac59a26e7dcc20fb4404809da50b38b20de396535782924e86f3c9e5",
+        "spriteSha256": "8e7a163659c7be0fca9300dc82a448f22cde3a0619cccc1132a8905720cd0eea",
+        "sourceRect": {
+          "x": 423,
+          "y": 512,
+          "w": 298,
+          "h": 480
+        },
+        "sourceCell": {
+          "x": 384,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-WALL-07",
+      "name": "collapsed-parapet-breach",
+      "kind": "wall",
+      "atlas": "atlases/tower-walls-v3.webp",
+      "rect": {
+        "x": 425,
+        "y": 200,
+        "w": 130,
+        "h": 188
+      },
+      "anchor": {
+        "x": 65,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 150
+      },
+      "footAnchor": {
+        "x": 65,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 88543,
+          "nonzero": 108065,
+          "opaque": 97137,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-walls-generated.png",
+        "sha256": "99235be5ac59a26e7dcc20fb4404809da50b38b20de396535782924e86f3c9e5",
+        "spriteSha256": "e63983edd63808f21000008321f2a0c7202dd0a71444a2feb37eb30502cc6673",
+        "sourceRect": {
+          "x": 809,
+          "y": 512,
+          "w": 334,
+          "h": 482
+        },
+        "sourceCell": {
+          "x": 768,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-WALL-08",
+      "name": "spiral-stair-segment",
+      "kind": "wall",
+      "atlas": "atlases/tower-walls-v3.webp",
+      "rect": {
+        "x": 627,
+        "y": 200,
+        "w": 117,
+        "h": 188
+      },
+      "anchor": {
+        "x": 58.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 167
+      },
+      "footAnchor": {
+        "x": 58.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 93046,
+          "nonzero": 103562,
+          "opaque": 92081,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-walls-generated.png",
+        "sha256": "99235be5ac59a26e7dcc20fb4404809da50b38b20de396535782924e86f3c9e5",
+        "spriteSha256": "b27666cee6335166d071bc3c563952261942586b8a410a38ff482eb2b3e594f4",
+        "sourceRect": {
+          "x": 1201,
+          "y": 512,
+          "w": 299,
+          "h": 479
+        },
+        "sourceCell": {
+          "x": 1152,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "TOWER-PROP-01",
+      "name": "broken-astrolabe",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 25,
+        "y": 4,
+        "w": 146,
+        "h": 188
+      },
+      "anchor": {
+        "x": 73,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 61,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 73,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 55560,
+          "nonzero": 44920,
+          "opaque": 25574,
+          "total": 100480
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "f7c8a0a39b3a9eedae0ac1b00d29e869ae343dbc885b531223519dcbaa02f8ae",
+        "sourceRect": {
+          "x": 52,
+          "y": 25,
+          "w": 223,
+          "h": 287
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 314,
+          "h": 320
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-02",
+      "name": "weathered-bookcase",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 236,
+        "y": 4,
+        "w": 116,
+        "h": 188
+      },
+      "anchor": {
+        "x": 58,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 58,
+        "h": 94
+      },
+      "footAnchor": {
+        "x": 58,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 46881,
+          "nonzero": 53279,
+          "opaque": 44087,
+          "total": 100160
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "a5650e71c5a3f79caa3971496a084c7d94cb838bb318fbc0b724625bc83a7f80",
+        "sourceRect": {
+          "x": 386,
+          "y": 8,
+          "w": 192,
+          "h": 312
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 0,
+          "w": 313,
+          "h": 320
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-03",
+      "name": "sealed-oak-chest",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 24,
+        "w": 188,
+        "h": 147
+      },
+      "anchor": {
+        "x": 94,
+        "y": 132
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 61
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 132
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 56690,
+          "nonzero": 43470,
+          "opaque": 38628,
+          "total": 100160
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "fa153cbc1e52c5e08ba51f89efe3302a1786d483099c0307fba291cf7c72f971",
+        "sourceRect": {
+          "x": 658,
+          "y": 104,
+          "w": 262,
+          "h": 205
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 0,
+          "w": 313,
+          "h": 320
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-04",
+      "name": "stone-lectern",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 627,
+        "y": 4,
+        "w": 117,
+        "h": 188
+      },
+      "anchor": {
+        "x": 58.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 59,
+        "h": 94
+      },
+      "footAnchor": {
+        "x": 58.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 60912,
+          "nonzero": 39568,
+          "opaque": 32810,
+          "total": 100480
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "b7b9e980be62ebc5b5c057facef4ce6768674a048185d69bf17156a674e83c30",
+        "sourceRect": {
+          "x": 1022,
+          "y": 13,
+          "w": 186,
+          "h": 299
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 314,
+          "h": 320
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-05",
+      "name": "iron-armillary-sphere",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 34,
+        "y": 200,
+        "w": 127,
+        "h": 188
+      },
+      "anchor": {
+        "x": 63.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 53,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 63.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 59547,
+          "nonzero": 37165,
+          "opaque": 18997,
+          "total": 96712
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "1a7e06ddc15b123fa6f1e0bf50a28da1c143dd2f14fd90115e5095831197ffa5",
+        "sourceRect": {
+          "x": 65,
+          "y": 325,
+          "w": 205,
+          "h": 303
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 320,
+          "w": 314,
+          "h": 308
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-06",
+      "name": "empty-armor-stand",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 245,
+        "y": 200,
+        "w": 98,
+        "h": 188
+      },
+      "anchor": {
+        "x": 49,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 49,
+        "h": 94
+      },
+      "footAnchor": {
+        "x": 49,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62830,
+          "nonzero": 33574,
+          "opaque": 22904,
+          "total": 96404
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "b1293a1e61a8a62546c362f4adb45aabd2e7302e236b2911cc1e0aa05fadd847",
+        "sourceRect": {
+          "x": 394,
+          "y": 320,
+          "w": 160,
+          "h": 308
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 320,
+          "w": 313,
+          "h": 308
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-07",
+      "name": "bundled-scrolls",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 232,
+        "w": 188,
+        "h": 124
+      },
+      "anchor": {
+        "x": 94,
+        "y": 112
+      },
+      "drawSize": {
+        "w": 48,
+        "h": 32
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 112
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 54670,
+          "nonzero": 41734,
+          "opaque": 33429,
+          "total": 96404
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "4653c03fbea278369605ca2d3a218887e7b3b98f9245ba266371330c5c1b2616",
+        "sourceRect": {
+          "x": 641,
+          "y": 399,
+          "w": 292,
+          "h": 193
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 320,
+          "w": 313,
+          "h": 308
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-08",
+      "name": "shattered-glass-alembic",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 610,
+        "y": 200,
+        "w": 152,
+        "h": 188
+      },
+      "anchor": {
+        "x": 76,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 39,
+        "h": 48
+      },
+      "footAnchor": {
+        "x": 76,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 55843,
+          "nonzero": 40869,
+          "opaque": 18629,
+          "total": 96712
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "57ffb8ca40ad8b798b14d0a0807e69e0c340c7bab468c6ef72eee6e16543e54f",
+        "sourceRect": {
+          "x": 996,
+          "y": 328,
+          "w": 235,
+          "h": 290
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 320,
+          "w": 314,
+          "h": 308
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-09",
+      "name": "granite-pillar-stump",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 9,
+        "y": 396,
+        "w": 178,
+        "h": 188
+      },
+      "anchor": {
+        "x": 89,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 89,
+        "h": 94
+      },
+      "footAnchor": {
+        "x": 89,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 52476,
+          "nonzero": 44864,
+          "opaque": 37666,
+          "total": 97340
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "9ce11fb7b89d6616ee5509f71522e3055635a7ddfb688c95497a71aa9cf71638",
+        "sourceRect": {
+          "x": 28,
+          "y": 651,
+          "w": 259,
+          "h": 274
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 628,
+          "w": 314,
+          "h": 310
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-10",
+      "name": "tall-brass-candlestand",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 255,
+        "y": 396,
+        "w": 78,
+        "h": 188
+      },
+      "anchor": {
+        "x": 39,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 32,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 39,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 78023,
+          "nonzero": 19007,
+          "opaque": 11591,
+          "total": 97030
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "a2ad765068cc46275b67bccadf84dbada777e1b8d69806ef046b7bea8937f054",
+        "sourceRect": {
+          "x": 406,
+          "y": 628,
+          "w": 126,
+          "h": 304
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 628,
+          "w": 313,
+          "h": 310
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-11",
+      "name": "rotten-writing-desk",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 404,
+        "w": 188,
+        "h": 172
+      },
+      "anchor": {
+        "x": 94,
+        "y": 155
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 71
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 155
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 42194,
+          "nonzero": 54836,
+          "opaque": 43052,
+          "total": 97030
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "3b76c62aace2aa4eaf8e1f0d301c79db87c6c24b2b00726b694f231e8bee4470",
+        "sourceRect": {
+          "x": 640,
+          "y": 638,
+          "w": 296,
+          "h": 271
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 628,
+          "w": 313,
+          "h": 310
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-12",
+      "name": "collapsed-ladder",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 605,
+        "y": 396,
+        "w": 161,
+        "h": 188
+      },
+      "anchor": {
+        "x": 80.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 67,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 80.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 53338,
+          "nonzero": 44002,
+          "opaque": 26700,
+          "total": 97340
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "89c795a96ecd16c0c4c73ff4531b6f02c14bbfb670f73f73efccd7b103a21b7e",
+        "sourceRect": {
+          "x": 978,
+          "y": 643,
+          "w": 246,
+          "h": 287
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 628,
+          "w": 314,
+          "h": 310
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-13",
+      "name": "rope-and-pulley",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 55,
+        "y": 592,
+        "w": 86,
+        "h": 188
+      },
+      "anchor": {
+        "x": 43,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 22,
+        "h": 48
+      },
+      "footAnchor": {
+        "x": 43,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 70915,
+          "nonzero": 28309,
+          "opaque": 19681,
+          "total": 99224
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "ee2dffb7b92e121875686e36bad7fbe0f0643be65f1fe41a6e217442bce661f2",
+        "sourceRect": {
+          "x": 99,
+          "y": 940,
+          "w": 137,
+          "h": 301
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 938,
+          "w": 314,
+          "h": 316
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-14",
+      "name": "cracked-stone-basin",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 219,
+        "y": 592,
+        "w": 149,
+        "h": 188
+      },
+      "anchor": {
+        "x": 74.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 62,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 74.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 47060,
+          "nonzero": 51848,
+          "opaque": 43133,
+          "total": 98908
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "50e6aeeaf6bc7c938d4ead116e446aa0fce40f16df1b6225059f665192f1a7be",
+        "sourceRect": {
+          "x": 355,
+          "y": 949,
+          "w": 229,
+          "h": 289
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 938,
+          "w": 313,
+          "h": 316
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-15",
+      "name": "unlit-iron-brazier",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 415,
+        "y": 592,
+        "w": 149,
+        "h": 188
+      },
+      "anchor": {
+        "x": 74.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 62,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 74.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 65876,
+          "nonzero": 33032,
+          "opaque": 22016,
+          "total": 98908
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "0b848dbb9eb766135de51a88f4a5dd8623620f18ec8d2127c8e9e5de72d37bbd",
+        "sourceRect": {
+          "x": 678,
+          "y": 964,
+          "w": 212,
+          "h": 267
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 938,
+          "w": 313,
+          "h": 316
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "TOWER-PROP-16",
+      "name": "dusty-barrel-and-crate",
+      "kind": "static_prop",
+      "atlas": "atlases/tower-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 606,
+        "w": 188,
+        "h": 159
+      },
+      "anchor": {
+        "x": 94,
+        "y": 143
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 143
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 49250,
+          "nonzero": 49974,
+          "opaque": 45613,
+          "total": 99224
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/tower-props-generated.png",
+        "sha256": "c96e7fcea68e076b3058008153553d49aa89505f7ca4a8df73ef7caa7b100a88",
+        "spriteSha256": "b35f39b4b6fafb7dd57ad361343f68a23cb14276d93c13763b79f5a445e764c7",
+        "sourceRect": {
+          "x": 971,
+          "y": 981,
+          "w": 269,
+          "h": 228
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 938,
+          "w": 314,
+          "h": 316
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "coverage": {
+    "required": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "staged": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "missing": {
+      "ground": 0,
+      "edge_masks": 0,
+      "walls": 0,
+      "static_props": 0
+    },
+    "sourceCountsMet": true,
+    "complete": false
+  },
+  "borders": {
+    "seamless": false,
+    "automaticBitmaskCompatible": false,
+    "reason": "Authored organic RGBA overlay fragments. Exact seamless adjacency, compass mask orientations, and renderer blending remain unverified. These are not a validated automatic bitmask set.",
+    "renderGuidance": "Use deterministic renderer-selected alpha-overlay placement over opaque underlying ground. Do not use the 16 overlays as automatic Wang or bitmask states. Full floor tile coverage and neighbor matching require renderer integration."
+  },
+  "alpha": {
+    "preserved": true,
+    "note": "Genuine alpha retained through crop and resampling. Source hidden RGB can look like a backdrop in viewers ignoring alpha; compositing verifies transparency."
+  },
+  "qa": {
+    "sourceInspected": true,
+    "packedAtlasInspected": true,
+    "rendererIntegrationVerified": false,
+    "visualContactSheet": "qa/tower-contact-sheet.png",
+    "pending": [
+      "pixel-perfect seamlessness",
+      "renderer integration",
+      "wall/prop collision and foot-anchor playtest",
+      "automatic transition topology"
+    ],
+    "perpendicularWallFacingVerified": true,
+    "perpendicularWallPair": [
+      "TOWER-WALL-01",
+      "TOWER-WALL-02"
+    ],
+    "finalWallCropRepair": true,
+    "finalCropRepair": true
+  },
+  "wallNotes": "WALL-01 slopes down-right. Reauthored WALL-02 rises up-right to provide the perpendicular straight facing. Only WALL-02 uses the correction source; seven other wall components preserve original artwork."
+}

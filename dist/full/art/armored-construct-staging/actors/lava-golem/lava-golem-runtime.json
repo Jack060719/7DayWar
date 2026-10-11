@@ -1,0 +1,4006 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "MON-LAVA-GOLEM",
+  "consumerIds": [
+    "MON-LAVA-GOLEM"
+  ],
+  "assetId": "ASSET-BODY-MON-LAVA-GOLEM",
+  "runtimeLayout": "per-action-direction",
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 124,
+  "anchor": [
+    96,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            152.92792792792793
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150.25925925925927
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            94.42127839455358,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            92.17567016560722,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            165.93203883495144
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            94.44033935095388,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            168.3398058252427
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            152.42307692307693
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            113.56533165600692,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            113.50604966168213,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            105.77582507029747,
+            150
+          ]
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/idle-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/walk-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/attack-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/hit-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            100.75305743341463,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            104.08361927144536,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/lava-golem/clips/death-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            106.04321138663406,
+            150
+          ]
+        }
+      ]
+    }
+  },
+  "status": "source-accepted-runtime-scene-pending",
+  "frameCount": 272,
+  "clipCount": 40,
+  "maximumClipDecodedBytes": 1179648,
+  "engineContract": {
+    "anchor": [
+      96,
+      150
+    ],
+    "worldHeightRule": "baseHeight * 72 / 92; no displayBaseHeight override"
+  },
+  "provenance": {
+    "method": "Original authored monster-specific articulated Blender rig and native imagegen raster detail; semantic frame extraction, no mirrored headings or recolor-only variants.",
+    "model": "source/lava-golem-original.blend",
+    "sources": [
+      {
+        "state": "idle",
+        "sha256": "ae83a3909dffdd2c3add86851c5860e940da1fda22ac969f11545c1676ce6f18",
+        "method": "Native imagegen over original articulated volcanic construct geometry guide."
+      },
+      {
+        "state": "walk",
+        "sha256": "99c251c1454293dabe1e18dd9400ae33650cc721a99b7ae10b18f4c754200b94",
+        "method": "Native imagegen over original articulated volcanic construct geometry guide."
+      },
+      {
+        "state": "attack",
+        "sha256": "dcbc8a5bdcf22e3582dd5ab6bfad2003e42ea5931fd2c50a6b5b16c26d5babaa",
+        "method": "Native imagegen over original articulated volcanic construct geometry guide."
+      },
+      {
+        "state": "hit",
+        "sha256": "97e68dbe0ffa08b9236097f54f62c887f1f3dea4c91b5d51f6565a132cf23eb8",
+        "method": "Native imagegen over original articulated volcanic construct geometry guide."
+      },
+      {
+        "state": "death",
+        "sha256": "cda6a2c2abcd88b82550f0332f14e52d3d36ff5ab7de2af33559bd624f700335",
+        "method": "Native imagegen over original articulated volcanic construct geometry guide."
+      },
+      {
+        "state": "hit",
+        "direction": "N",
+        "method": "Native imagegen dedicated original articulated recoil direction repair.",
+        "sha256": "661f12841a070cd49fd28020d4237060cb1b9402ded2ae0246e2f6f05a0769bd"
+      },
+      {
+        "state": "hit",
+        "direction": "E",
+        "method": "Native imagegen dedicated original articulated recoil direction repair.",
+        "sha256": "c185bf76cfd982727bc2bd5292cc6a7185b503bc6703b1b466616aeb8fe68273"
+      }
+    ],
+    "reuse": "Shared original articulated construct hierarchy and grounded collapse timing only. Entire body mesh independently authored: lava columnar basalt/shelf shoulders/ember fissures; ice tall crown/crystalline anatomy and two-fist slam; iron barrel/piston/ball-joint mechanical body and right piston punch. No finished raster reuse or recolor-only coverage.",
+    "semanticSourceLayout": {
+      "hit": {
+        "sourceRows": 8,
+        "measuredSourceRowCenters": [
+          120,
+          330,
+          540,
+          752,
+          970,
+          1202,
+          1436,
+          1680
+        ],
+        "note": "All32 real native poses; uneven vertical spacing required explicit centroid bands. N/E later independently replaced."
+      }
+    }
+  },
+  "validation": {
+    "issues": [],
+    "sourceLayoutInspected": true,
+    "inGame": "not tested",
+    "native": "not tested",
+    "sourceReview": {
+      "reviewer": "review_full_catalog_consistency",
+      "result": "PASS",
+      "at": "2026-10-09T14:47:06.740060+00:00",
+      "caveat": "Dedicated replacement strips have sharper/grainier surface detail than the earlier full sheets; material-consistency polish remains."
+    }
+  },
+  "visualContactMarkers": "actors/lava-golem/lava-golem-contact-markers.json"
+}

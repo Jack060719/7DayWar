@@ -1,0 +1,116 @@
+{
+  "applyFiles": 352,
+  "baselineAudit": {
+    "122": {
+      "bytesStreamed": 403122804,
+      "files": 8722,
+      "fullRuntimeSHA256Verified": true
+    },
+    "122-reopen-fix": {
+      "bytesStreamed": 403123718,
+      "files": 8722,
+      "fullRuntimeSHA256Verified": true
+    },
+    "125": {
+      "bytesStreamed": 410408227,
+      "files": 8909,
+      "fullRuntimeSHA256Verified": true
+    },
+    "currentStage2": {
+      "bytesStreamed": 410436890,
+      "files": 8912,
+      "fullRuntimeSHA256Verified": true
+    },
+    "stage1": {
+      "bytesStreamed": 410416477,
+      "files": 8910,
+      "fullRuntimeSHA256Verified": true
+    }
+  },
+  "build": "SP-STAGE3-20261010-01",
+  "finalBytes": 415335006,
+  "finalFiles": 9056,
+  "overlayChecks": {
+    "122": {
+      "forward": {
+        "bytesStreamed": 415335006,
+        "files": 9056,
+        "fullRuntimeSHA256Verified": true
+      },
+      "retainedUnusedExtras": 334,
+      "rollbackFiles": 18,
+      "rollbackRequired": {
+        "bytesStreamed": 403122804,
+        "files": 8722,
+        "fullRuntimeSHA256Verified": true
+      }
+    },
+    "122-reopen-fix": {
+      "forward": {
+        "bytesStreamed": 415335006,
+        "files": 9056,
+        "fullRuntimeSHA256Verified": true
+      },
+      "retainedUnusedExtras": 334,
+      "rollbackFiles": 18,
+      "rollbackRequired": {
+        "bytesStreamed": 403123718,
+        "files": 8722,
+        "fullRuntimeSHA256Verified": true
+      }
+    },
+    "125": {
+      "forward": {
+        "bytesStreamed": 415335006,
+        "files": 9056,
+        "fullRuntimeSHA256Verified": true
+      },
+      "retainedUnusedExtras": 147,
+      "rollbackFiles": 16,
+      "rollbackRequired": {
+        "bytesStreamed": 410408227,
+        "files": 8909,
+        "fullRuntimeSHA256Verified": true
+      }
+    },
+    "currentStage2": {
+      "forward": {
+        "bytesStreamed": 415335006,
+        "files": 9056,
+        "fullRuntimeSHA256Verified": true
+      },
+      "retainedUnusedExtras": 144,
+      "rollbackFiles": 12,
+      "rollbackRequired": {
+        "bytesStreamed": 410436890,
+        "files": 8912,
+        "fullRuntimeSHA256Verified": true
+      }
+    },
+    "stage1": {
+      "forward": {
+        "bytesStreamed": 415335006,
+        "files": 9056,
+        "fullRuntimeSHA256Verified": true
+      },
+      "retainedUnusedExtras": 146,
+      "rollbackFiles": 15,
+      "rollbackRequired": {
+        "bytesStreamed": 410416477,
+        "files": 8910,
+        "fullRuntimeSHA256Verified": true
+      }
+    }
+  },
+  "sourceArchives": {
+    "122": {
+      "filename": "ashen-covenant-windows-122.zip",
+      "sha256": "8f91cb979004a6ffdfd9f6373a21e3b54eca2c584bcee466bb695121e4708a33"
+    },
+    "stage2": {
+      "filename": "ashen-covenant-single-player-stage2-update.zip",
+      "sha256": "f1c78b3333a6d5360d7f93a4af03544c7cc673b3bc37ed6e23ec9aec92612db9"
+    }
+  },
+  "validationScope": "File-byte reconstruction and merge/rollback overlays only; not gameplay or browser-save QA."
+}

@@ -1,0 +1,2285 @@
+{
+  "schemaVersion": 1,
+  "familyId": "ASSET-TERRAIN-DESERT",
+  "family": "DESERT",
+  "implementationState": "GENERATED_SOURCE_COUNTS_MET_INTEGRATION_PENDING",
+  "tileProjection": {
+    "width": 64,
+    "height": 32,
+    "type": "isometric-2:1"
+  },
+  "sourceCatalog": "catalog-requirements.json",
+  "materialDirection": "sun-baked dune sand, wind-rippled ochre silt, rusty desert pavement, cracked clay and eroded beige sandstone, tiny bleached bone chips; warm desaturated tan, ochre and umber, harsh arid realism",
+  "tiles": [
+    {
+      "id": "DESERT-GROUND-01",
+      "name": "fine wind-ripple sand",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 12,
+          "y": 97,
+          "w": 290,
+          "h": 171
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-02",
+      "name": "rough grit in sand",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 325,
+          "y": 97,
+          "w": 291,
+          "h": 171
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-03",
+      "name": "baked clay cracks",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 639,
+          "y": 96,
+          "w": 290,
+          "h": 172
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-04",
+      "name": "small pale sandstone chips",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 952,
+          "y": 97,
+          "w": 291,
+          "h": 171
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-05",
+      "name": "compact ochre sand",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 11,
+          "y": 411,
+          "w": 291,
+          "h": 170
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-06",
+      "name": "faint old worn track in sand",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 325,
+          "y": 410,
+          "w": 291,
+          "h": 171
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-07",
+      "name": "rust-red gravel pavement",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 638,
+          "y": 411,
+          "w": 291,
+          "h": 170
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-08",
+      "name": "sparse dried wiry grass in grit",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 952,
+          "y": 411,
+          "w": 290,
+          "h": 169
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-09",
+      "name": "wind-scoured flat rock",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 12,
+          "y": 721,
+          "w": 290,
+          "h": 174
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-10",
+      "name": "fine dusty sand around pebble cluster",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 325,
+          "y": 723,
+          "w": 291,
+          "h": 171
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-11",
+      "name": "pale salt-stained sand",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 639,
+          "y": 723,
+          "w": 290,
+          "h": 171
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-12",
+      "name": "irregular compact dune crust",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 952,
+          "y": 721,
+          "w": 290,
+          "h": 174
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-13",
+      "name": "dark weathered shale in ochre sand",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 11,
+          "y": 1034,
+          "w": 291,
+          "h": 174
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-14",
+      "name": "small dried thorn fragments",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 325,
+          "y": 1037,
+          "w": 291,
+          "h": 170
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-15",
+      "name": "rippled sand with tiny bleached shell fragments",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 638,
+          "y": 1037,
+          "w": 291,
+          "h": 171
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "DESERT-GROUND-16",
+      "name": "dark compact stony desert soil",
+      "kind": "ground",
+      "atlas": "atlases/desert-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-ground-generated.png",
+        "sha256": "805bf88958c82048cd34daf6398c55333da13bd5c78102c8e5ea2501e30e7cf1",
+        "sourceRect": {
+          "x": 952,
+          "y": 1034,
+          "w": 290,
+          "h": 175
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    }
+  ],
+  "edgeMasks": [
+    {
+      "id": "DESERT-EDGE-01",
+      "name": "edge-nw",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 9,
+        "y": 2,
+        "w": 113,
+        "h": 96
+      },
+      "anchor": {
+        "x": 56.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -13,
+        "y": -6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 34,
+          "y": 61,
+          "w": 255,
+          "h": 216
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-02",
+      "name": "edge-ne",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 141,
+        "y": 2,
+        "w": 113,
+        "h": 96
+      },
+      "anchor": {
+        "x": 56.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 13,
+        "y": -6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 342,
+          "y": 57,
+          "w": 263,
+          "h": 223
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-03",
+      "name": "edge-se",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 272,
+        "y": 2,
+        "w": 115,
+        "h": 96
+      },
+      "anchor": {
+        "x": 57.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 13,
+        "y": 6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 656,
+          "y": 64,
+          "w": 259,
+          "h": 216
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-04",
+      "name": "edge-sw",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 404,
+        "y": 2,
+        "w": 115,
+        "h": 96
+      },
+      "anchor": {
+        "x": 57.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -13,
+        "y": 6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 954,
+          "y": 60,
+          "w": 270,
+          "h": 225
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-05",
+      "name": "corner-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 21,
+        "y": 102,
+        "w": 90,
+        "h": 96
+      },
+      "anchor": {
+        "x": 45,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 25,
+        "h": 25
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -20,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 48,
+          "y": 343,
+          "w": 235,
+          "h": 252
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-06",
+      "name": "corner-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 111,
+        "w": 128,
+        "h": 77
+      },
+      "anchor": {
+        "x": 64,
+        "y": 38.5
+      },
+      "drawSize": {
+        "w": 42,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": -9
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 337,
+          "y": 390,
+          "w": 276,
+          "h": 167
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-07",
+      "name": "corner-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 293,
+        "y": 102,
+        "w": 73,
+        "h": 96
+      },
+      "anchor": {
+        "x": 36.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 25,
+        "h": 25
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 20,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 690,
+          "y": 344,
+          "w": 192,
+          "h": 254
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-08",
+      "name": "corner-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 108,
+        "w": 128,
+        "h": 83
+      },
+      "anchor": {
+        "x": 64,
+        "y": 41.5
+      },
+      "drawSize": {
+        "w": 42,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 9
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 944,
+          "y": 395,
+          "w": 288,
+          "h": 187
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-09",
+      "name": "chevron-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 208,
+        "w": 128,
+        "h": 84
+      },
+      "anchor": {
+        "x": 64,
+        "y": 42
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 30
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": -2
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 16,
+          "y": 669,
+          "w": 295,
+          "h": 193
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-10",
+      "name": "chevron-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 162,
+        "y": 202,
+        "w": 71,
+        "h": 96
+      },
+      "anchor": {
+        "x": 35.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 10,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 390,
+          "y": 645,
+          "w": 198,
+          "h": 268
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-11",
+      "name": "chevron-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 207,
+        "w": 128,
+        "h": 86
+      },
+      "anchor": {
+        "x": 64,
+        "y": 43
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 30
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 2
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 643,
+          "y": 694,
+          "w": 290,
+          "h": 195
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-12",
+      "name": "chevron-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 426,
+        "y": 202,
+        "w": 71,
+        "h": 96
+      },
+      "anchor": {
+        "x": 35.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -10,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 988,
+          "y": 643,
+          "w": 201,
+          "h": 270
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-13",
+      "name": "broken-ribbon",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 18,
+        "y": 302,
+        "w": 95,
+        "h": 96
+      },
+      "anchor": {
+        "x": 47.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 28
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 46,
+          "y": 949,
+          "w": 267,
+          "h": 270
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-14",
+      "name": "three-arm-junction",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 143,
+        "y": 302,
+        "w": 109,
+        "h": 96
+      },
+      "anchor": {
+        "x": 54.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 60,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 313,
+          "y": 943,
+          "w": 301,
+          "h": 266
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-15",
+      "name": "central-island",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 305,
+        "w": 128,
+        "h": 90
+      },
+      "anchor": {
+        "x": 64,
+        "y": 45
+      },
+      "drawSize": {
+        "w": 35,
+        "h": 19
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 651,
+          "y": 994,
+          "w": 251,
+          "h": 177
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-EDGE-16",
+      "name": "hollow-ring",
+      "kind": "edge_mask",
+      "atlas": "atlases/desert-edges.webp",
+      "rect": {
+        "x": 408,
+        "y": 302,
+        "w": 107,
+        "h": 96
+      },
+      "anchor": {
+        "x": 53.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-edges-generated.png",
+        "sha256": "7b6fab1ac4ae536d966529eddb05eeb1cf21afe82f52e17b8c83008ec39c4ebe",
+        "sourceRect": {
+          "x": 949,
+          "y": 955,
+          "w": 284,
+          "h": 254
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "DESERT-WALL-01",
+      "name": "eroded sandstone bank angled up-right",
+      "kind": "wall",
+      "atlas": "atlases/desert-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 20,
+        "w": 188,
+        "h": 155
+      },
+      "anchor": {
+        "x": 94,
+        "y": 140
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 83
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 140
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-walls-generated.png",
+        "sha256": "7f981e3ce040bfd0b3c4bfd3a1ecb231edfe5d8924a95b4f744c0003ab1d6fab",
+        "sourceRect": {
+          "x": 22,
+          "y": 55,
+          "w": 412,
+          "h": 340
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-WALL-02",
+      "name": "eroded sandstone bank angled down-right, perpendicular to first",
+      "kind": "wall",
+      "atlas": "atlases/desert-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 18,
+        "w": 188,
+        "h": 159
+      },
+      "anchor": {
+        "x": 94,
+        "y": 143
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 85
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 143
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-walls-generated.png",
+        "sha256": "7f981e3ce040bfd0b3c4bfd3a1ecb231edfe5d8924a95b4f744c0003ab1d6fab",
+        "sourceRect": {
+          "x": 472,
+          "y": 55,
+          "w": 395,
+          "h": 335
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-WALL-03",
+      "name": "convex sandstone crag corner",
+      "kind": "wall",
+      "atlas": "atlases/desert-walls.webp",
+      "rect": {
+        "x": 396,
+        "y": 15,
+        "w": 188,
+        "h": 166
+      },
+      "anchor": {
+        "x": 94,
+        "y": 149
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 88
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 149
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-walls-generated.png",
+        "sha256": "7f981e3ce040bfd0b3c4bfd3a1ecb231edfe5d8924a95b4f744c0003ab1d6fab",
+        "sourceRect": {
+          "x": 936,
+          "y": 69,
+          "w": 372,
+          "h": 328
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-WALL-04",
+      "name": "rounded sandstone bluff end",
+      "kind": "wall",
+      "atlas": "atlases/desert-walls.webp",
+      "rect": {
+        "x": 592,
+        "y": 7,
+        "w": 188,
+        "h": 181
+      },
+      "anchor": {
+        "x": 94,
+        "y": 163
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 96
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 163
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-walls-generated.png",
+        "sha256": "7f981e3ce040bfd0b3c4bfd3a1ecb231edfe5d8924a95b4f744c0003ab1d6fab",
+        "sourceRect": {
+          "x": 1403,
+          "y": 80,
+          "w": 312,
+          "h": 301
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-WALL-05",
+      "name": "layered wind-sculpted rock shelf angled up-right",
+      "kind": "wall",
+      "atlas": "atlases/desert-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 213,
+        "w": 188,
+        "h": 162
+      },
+      "anchor": {
+        "x": 94,
+        "y": 146
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 86
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 146
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-walls-generated.png",
+        "sha256": "7f981e3ce040bfd0b3c4bfd3a1ecb231edfe5d8924a95b4f744c0003ab1d6fab",
+        "sourceRect": {
+          "x": 22,
+          "y": 479,
+          "w": 402,
+          "h": 346
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-WALL-06",
+      "name": "layered wind-sculpted rock shelf angled down-right",
+      "kind": "wall",
+      "atlas": "atlases/desert-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 213,
+        "w": 188,
+        "h": 161
+      },
+      "anchor": {
+        "x": 94,
+        "y": 145
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 85
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 145
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-walls-generated.png",
+        "sha256": "7f981e3ce040bfd0b3c4bfd3a1ecb231edfe5d8924a95b4f744c0003ab1d6fab",
+        "sourceRect": {
+          "x": 469,
+          "y": 482,
+          "w": 406,
+          "h": 347
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-WALL-07",
+      "name": "collapsed ancient rough sandstone wall opening",
+      "kind": "wall",
+      "atlas": "atlases/desert-walls.webp",
+      "rect": {
+        "x": 396,
+        "y": 223,
+        "w": 188,
+        "h": 141
+      },
+      "anchor": {
+        "x": 94,
+        "y": 127
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 75
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 127
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-walls-generated.png",
+        "sha256": "7f981e3ce040bfd0b3c4bfd3a1ecb231edfe5d8924a95b4f744c0003ab1d6fab",
+        "sourceRect": {
+          "x": 902,
+          "y": 511,
+          "w": 416,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "DESERT-WALL-08",
+      "name": "low sloped sand-and-scree ramp",
+      "kind": "wall",
+      "atlas": "atlases/desert-walls.webp",
+      "rect": {
+        "x": 592,
+        "y": 234,
+        "w": 188,
+        "h": 119
+      },
+      "anchor": {
+        "x": 94,
+        "y": 107
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 63
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 107
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-walls-generated.png",
+        "sha256": "7f981e3ce040bfd0b3c4bfd3a1ecb231edfe5d8924a95b4f744c0003ab1d6fab",
+        "sourceRect": {
+          "x": 1365,
+          "y": 545,
+          "w": 381,
+          "h": 241
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "DESERT-PROP-01",
+      "name": "wind-eroded sandstone boulder",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 4,
+        "y": 7,
+        "w": 188,
+        "h": 182
+      },
+      "anchor": {
+        "x": 94,
+        "y": 164
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 64
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 164
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 41,
+          "y": 49,
+          "w": 247,
+          "h": 239
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "4481dca8abf1f915740a06773eea1c8f8a80da29df8090554d831dc2fe10e54e"
+      }
+    },
+    {
+      "id": "DESERT-PROP-02",
+      "name": "three flat red-brown desert rocks",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 200,
+        "y": 35,
+        "w": 188,
+        "h": 125
+      },
+      "anchor": {
+        "x": 94,
+        "y": 113
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 44
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 113
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 352,
+          "y": 113,
+          "w": 261,
+          "h": 174
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "20aaeab53dd4d6d69a3a7a6656751599b4d1613e379662dd6ca7d05f181be413"
+      }
+    },
+    {
+      "id": "DESERT-PROP-03",
+      "name": "small thorn bush with dead dry twigs",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 396,
+        "y": 27,
+        "w": 188,
+        "h": 142
+      },
+      "anchor": {
+        "x": 94,
+        "y": 128
+      },
+      "drawSize": {
+        "w": 49,
+        "h": 37
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 128
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 659,
+          "y": 76,
+          "w": 271,
+          "h": 204
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "242017818ce42391adf9d47e84b236a261a5f5b25278f3808a33fb10eaa37b7f"
+      }
+    },
+    {
+      "id": "DESERT-PROP-04",
+      "name": "spiky dry agave clump",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 592,
+        "y": 10,
+        "w": 188,
+        "h": 176
+      },
+      "anchor": {
+        "x": 94,
+        "y": 158
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 62
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 158
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 974,
+          "y": 53,
+          "w": 249,
+          "h": 233
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "2edf103fd0c6d4e594dc6bd559062d23a1554f74ee43ed5729e6dae7363f2b41"
+      }
+    },
+    {
+      "id": "DESERT-PROP-05",
+      "name": "crooked dying palm with sparse brown fronds",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 8,
+        "y": 200,
+        "w": 179,
+        "h": 188
+      },
+      "anchor": {
+        "x": 89.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 115,
+        "h": 120
+      },
+      "footAnchor": {
+        "x": 89.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 35,
+          "y": 317,
+          "w": 274,
+          "h": 287
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "79c96d0737fafe402be94c5779e7169dce7b5c647ae2eaa99f8bddb2592cd598"
+      }
+    },
+    {
+      "id": "DESERT-PROP-06",
+      "name": "sun-bleached fallen palm log",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 200,
+        "y": 240,
+        "w": 188,
+        "h": 107
+      },
+      "anchor": {
+        "x": 94,
+        "y": 96
+      },
+      "drawSize": {
+        "w": 97,
+        "h": 55
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 96
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 336,
+          "y": 423,
+          "w": 291,
+          "h": 166
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "d9ce864953947c2d1522ce5904591a245c23e3a0c177c4a74eb5c76bc3ae9827"
+      }
+    },
+    {
+      "id": "DESERT-PROP-07",
+      "name": "low barrel cactus with subtle pale spines",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 396,
+        "y": 220,
+        "w": 188,
+        "h": 148
+      },
+      "anchor": {
+        "x": 94,
+        "y": 133
+      },
+      "drawSize": {
+        "w": 115,
+        "h": 90
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 133
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 675,
+          "y": 408,
+          "w": 242,
+          "h": 190
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "c57aa8de38f271f4498530f91b4f1ad1b9849b7c736c6ad4876672c952feda70"
+      }
+    },
+    {
+      "id": "DESERT-PROP-08",
+      "name": "cluster of two thin column cacti",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 626,
+        "y": 200,
+        "w": 120,
+        "h": 188
+      },
+      "anchor": {
+        "x": 60,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 42,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 60,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 1018,
+          "y": 323,
+          "w": 176,
+          "h": 275
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "b6579d58d03738bb6442921504a68f7140971e45c7a7a395a28ea1b86357812c"
+      }
+    },
+    {
+      "id": "DESERT-PROP-09",
+      "name": "half-buried broken clay amphora",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 4,
+        "y": 424,
+        "w": 188,
+        "h": 131
+      },
+      "anchor": {
+        "x": 94,
+        "y": 118
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 46
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 118
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 33,
+          "y": 705,
+          "w": 274,
+          "h": 191
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "6d2aa6e1302edafe05b20ed39bc1e71f82f99316dd10b8b34d611af7cc67df86"
+      }
+    },
+    {
+      "id": "DESERT-PROP-10",
+      "name": "weathered wooden water bucket",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 210,
+        "y": 396,
+        "w": 168,
+        "h": 188
+      },
+      "anchor": {
+        "x": 84,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 35,
+        "h": 39
+      },
+      "footAnchor": {
+        "x": 84,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 392,
+          "y": 660,
+          "w": 205,
+          "h": 230
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "a5fbc8cd45c8fa324778a36f34b361d73d2b129dbd779f7b196cf9d6c60b1a76"
+      }
+    },
+    {
+      "id": "DESERT-PROP-11",
+      "name": "small bleached animal rib cage",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 396,
+        "y": 427,
+        "w": 188,
+        "h": 125
+      },
+      "anchor": {
+        "x": 94,
+        "y": 113
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 44
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 113
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 677,
+          "y": 722,
+          "w": 249,
+          "h": 165
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "18f2cfb0dba0eb10ef702dbc15007905bdad2c5008635534ac08486995c635d9"
+      }
+    },
+    {
+      "id": "DESERT-PROP-12",
+      "name": "broken chipped sandstone column stump",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 596,
+        "y": 396,
+        "w": 179,
+        "h": 188
+      },
+      "anchor": {
+        "x": 89.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 63,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 89.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 976,
+          "y": 645,
+          "w": 249,
+          "h": 262
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "feee413d72ae708abc6df7aec5a0f7e07199359e40b3bfdf9704422dc59971c7"
+      }
+    },
+    {
+      "id": "DESERT-PROP-13",
+      "name": "small pile of loose desert bones",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 4,
+        "y": 629,
+        "w": 188,
+        "h": 113
+      },
+      "anchor": {
+        "x": 94,
+        "y": 102
+      },
+      "drawSize": {
+        "w": 43,
+        "h": 26
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 102
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 38,
+          "y": 1016,
+          "w": 272,
+          "h": 163
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "8a5a4c77a68e236f906208c95628f1e90ee712ceebbbde03902a1394855cfa0f"
+      }
+    },
+    {
+      "id": "DESERT-PROP-14",
+      "name": "old coarse closed travel chest with leather straps",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 200,
+        "y": 609,
+        "w": 188,
+        "h": 154
+      },
+      "anchor": {
+        "x": 94,
+        "y": 139
+      },
+      "drawSize": {
+        "w": 49,
+        "h": 40
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 139
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 353,
+          "y": 962,
+          "w": 256,
+          "h": 210
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "3a199991238cebd0775660c58d2d73be5b5cc417a72c4918a71bb8530617ed5f"
+      }
+    },
+    {
+      "id": "DESERT-PROP-15",
+      "name": "twisted exposed desert root",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 396,
+        "y": 598,
+        "w": 188,
+        "h": 175
+      },
+      "anchor": {
+        "x": 94,
+        "y": 158
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 61
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 158
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 659,
+          "y": 944,
+          "w": 281,
+          "h": 261
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "9a115c69092d429be6ea32202180935a35573763902e56a5f93c7b65172acb15"
+      }
+    },
+    {
+      "id": "DESERT-PROP-16",
+      "name": "half-buried blank stone milestone",
+      "kind": "static_prop",
+      "atlas": "atlases/desert-props-v2.webp",
+      "rect": {
+        "x": 592,
+        "y": 598,
+        "w": 188,
+        "h": 175
+      },
+      "anchor": {
+        "x": 94,
+        "y": 158
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 53
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 158
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/desert-props-generated.png",
+        "sha256": "82ed204795d54db1e5486973520ddde88d9ac4dc34550b78e2c770d2dd1ceac1",
+        "sourceRect": {
+          "x": 981,
+          "y": 960,
+          "w": 251,
+          "h": 234
+        },
+        "postprocess": "Alpha-preserving crop tightened to exclude detached neighbor fragment; proportional resampling and packing.",
+        "previousSourceRect": {
+          "x": 940,
+          "y": 960,
+          "w": 292,
+          "h": 234
+        },
+        "spriteSha256": "6ae5ff2659575301e995f67e6e4fe7f44092bf05a265bd99391e7ef18050f2ab"
+      },
+      "qa": {
+        "detachedNeighborFragmentRemoved": true
+      }
+    }
+  ],
+  "coverage": {
+    "required": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "staged": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "missing": {
+      "ground": 0,
+      "edge_masks": 0,
+      "walls": 0,
+      "static_props": 0
+    },
+    "sourceCountsMet": true,
+    "complete": false
+  },
+  "borders": {
+    "seamless": false,
+    "runtimeContract": "render-contract.mjs",
+    "renderGuidance": "Use opaque underlay, deterministic overlapping feathered ground patches and spatial biome regions. Alpha edge overlays are decorative/non-bitmask."
+  },
+  "alpha": {
+    "preserved": true
+  },
+  "qa": {
+    "sourceInspected": true,
+    "packedAtlasInspected": true,
+    "rendererIntegrationVerified": false,
+    "perpendicularWallFacingVerified": true,
+    "visualContactSheet": "qa/desert-contact-sheet.png",
+    "edgeWallSheet": "qa/desert-edges-walls.png",
+    "finalCropRepair": true
+  }
+}

@@ -1,0 +1,4993 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "MON-MINOTAUR",
+  "consumerIds": [
+    "MON-MINOTAUR"
+  ],
+  "assetId": "ASSET-BODY-MON-MINOTAUR",
+  "runtimeLayout": "per-action-direction",
+  "expectedStateCounts": {
+    "idle": 6,
+    "walk": 8,
+    "attack": 8,
+    "hit": 4,
+    "death": 8
+  },
+  "missingStates": [],
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 128,
+  "anchor": [
+    96,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            162.91452991452994
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            89.94112405865548,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            155.03389830508473
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-hit-two-peak-volume-calibration-v3-S-1.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            160.89776357827475
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            154.31073446327684
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            155.03389830508473
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            91.71466249877894,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            104.4326989510709,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            100.88124955926945,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            153.65185185185186
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.80740740740742
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.80740740740742
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152.7037037037037
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.75555555555556
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152.7037037037037
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.75555555555556
+          ]
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-idle-SW-left-v3-SW-0.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-idle-SW-left-v3-SW-1.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-idle-SW-left-v3-SW-2.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-idle-SW-left-v3-SW-3.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-idle-SW-left-v3-SW-4.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-idle-SW-left-v3-SW-5.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            163.26771653543307
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            114.54321980408305,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            54.015608118445655,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-hit-final-ten-v3-SW-0.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-hit-final-ten-v3-SW-1.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-hit-final-ten-v3-SW-2.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-hit-final-ten-v3-SW-3.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-nine-death-seams-v4-SW-0.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-nine-death-seams-v4-SW-1.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-nine-death-seams-v4-SW-2.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-nine-death-seams-v4-SW-3.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.64705882352942
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.64705882352942
+          ]
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            155.29457364341084
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            155.7906976744186
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            156.28682170542635
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            157.27906976744185
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            156.28682170542635
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            156.7829457364341
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            168.82222222222222
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            98.70178298901916,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            154.6
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-hit-final-ten-v3-W-0.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-hit-final-ten-v3-W-1.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-hit-final-ten-v3-W-2.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-hit-final-ten-v3-W-3.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            155.29457364341084
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-death-W-seven-NW4-v3-W-1.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-death-W-seven-NW4-v3-W-2.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-death-W-seven-NW4-v3-W-3.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-death-W-seven-NW4-v3-W-5.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            89.98110827215673,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-death-W-seven-NW4-v3-W-6.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            95.73288877062554,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-death-W-seven-NW4-v3-W-7.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            92.31414404712781,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-WE-landmark-carry-v6-W-4.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            157.5257142857143
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-WE-landmark-carry-v6-W-5.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            157.89142857142858
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-WE-landmark-carry-v6-W-6.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            158.25714285714287
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-WE-landmark-carry-v6-W-7.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            158.62285714285713
+          ]
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            155.03389830508473
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            182.15254237288136
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            157.20338983050848
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            159.3728813559322
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            159.92134831460675
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-hit-two-peak-volume-calibration-v3-NW-1.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            162.0659936908517
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            159.92134831460675
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            160.64044943820224
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            101.74005763688761,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-NW-death3-4-final-v5-NW-3.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-NW-death3-4-final-v5-NW-4.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            98.88509401995408,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-NW-left-v3-NW-0.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.010582010582
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-NW-left-v3-NW-1.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-NW-left-v3-NW-2.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-NW-left-v3-NW-3.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-NW-posture-v6-NW-4.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            155.5578231292517
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-NW-posture-v6-NW-5.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.98639455782313
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-NW-posture-v6-NW-6.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152.7278911564626
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-NW-posture-v6-NW-7.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            155.77551020408163
+          ]
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            160.32867132867133
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            155.45810055865923
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            153.3128491620112
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            154.74301675977654
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            154.02255639097743
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            163.64661654135338
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            159.796992481203
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            157.8721804511278
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            159.796992481203
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            159.796992481203
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            160.75939849624058
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            161.72180451127818
+          ]
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            155.70503597122303
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            169.5179856115108
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-attack-NE-E-followthrough-v3-NE-5.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            157.7640449438202
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            157.44444444444446
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            153.65185185185186
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            157.44444444444446
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            155.54814814814816
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-opposite-W-NE-E-v4-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            170.76271186440678
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-opposite-W-NE-E-v4-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            164.25423728813558
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-opposite-W-NE-E-v4-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            169.135593220339
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-opposite-W-NE-E-v4-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            169.135593220339
+          ]
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            151.4732824427481
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            151.4732824427481
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.49618320610688
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            152.4503816793893
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            152.4503816793893
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            152.4503816793893
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            153.1159420289855
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            160.53623188405797
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-attack-NE-E-followthrough-v3-E-5.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            158.6497175141243
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            154.31073446327684
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            157.20338983050848
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            157.92655367231637
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-nine-death-seams-v4-E-0.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-nine-death-seams-v4-E-1.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-nine-death-seams-v4-E-2.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-nine-death-seams-v4-E-3.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            98.82136500671969,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-WE-landmark-carry-v6-E-4.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-WE-landmark-carry-v6-E-5.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-WE-landmark-carry-v6-E-6.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/minotaur-walk-WE-landmark-carry-v6-E-7.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/idle-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            82.48723712284615,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            162.68421052631578
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            61.317657704994616,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/attack-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            89.7984133406649,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            160.27272727272728
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150.8181818181818
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            156.63636363636365
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/hit-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            160.27272727272728
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/death-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152.27272727272728
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.33333333333334
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.33333333333334
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.33333333333334
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            154.21212121212122
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            153.24242424242425
+          ]
+        },
+        {
+          "atlas": "hybrid-monster-staging/actors/minotaur/clips/walk-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.33333333333334
+          ]
+        }
+      ]
+    }
+  },
+  "status": "source-complete-scene-pending",
+  "frameCount": 272,
+  "clipCount": 40,
+  "maximumClipDecodedBytes": 1179648,
+  "clipGeometry": {
+    "idle-S": [
+      192,
+      192
+    ],
+    "attack-S": [
+      192,
+      192
+    ],
+    "hit-S": [
+      192,
+      192
+    ],
+    "idle-SW": [
+      192,
+      192
+    ],
+    "attack-SW": [
+      192,
+      192
+    ],
+    "hit-SW": [
+      192,
+      192
+    ],
+    "idle-W": [
+      192,
+      192
+    ],
+    "attack-W": [
+      192,
+      192
+    ],
+    "hit-W": [
+      192,
+      192
+    ],
+    "idle-NW": [
+      192,
+      192
+    ],
+    "attack-NW": [
+      192,
+      192
+    ],
+    "hit-NW": [
+      192,
+      192
+    ],
+    "idle-N": [
+      192,
+      192
+    ],
+    "attack-N": [
+      192,
+      192
+    ],
+    "hit-N": [
+      192,
+      192
+    ],
+    "idle-NE": [
+      192,
+      192
+    ],
+    "attack-NE": [
+      192,
+      192
+    ],
+    "hit-NE": [
+      192,
+      192
+    ],
+    "idle-E": [
+      192,
+      192
+    ],
+    "attack-E": [
+      192,
+      192
+    ],
+    "hit-E": [
+      192,
+      192
+    ],
+    "idle-SE": [
+      192,
+      192
+    ],
+    "attack-SE": [
+      192,
+      192
+    ],
+    "hit-SE": [
+      192,
+      192
+    ],
+    "death-S": [
+      192,
+      192
+    ],
+    "death-SW": [
+      192,
+      192
+    ],
+    "death-W": [
+      192,
+      192
+    ],
+    "death-NW": [
+      192,
+      192
+    ],
+    "death-N": [
+      192,
+      192
+    ],
+    "death-NE": [
+      192,
+      192
+    ],
+    "death-E": [
+      192,
+      192
+    ],
+    "death-SE": [
+      192,
+      192
+    ],
+    "walk-S": [
+      192,
+      192
+    ],
+    "walk-SW": [
+      192,
+      192
+    ],
+    "walk-W": [
+      192,
+      192
+    ],
+    "walk-NW": [
+      192,
+      192
+    ],
+    "walk-N": [
+      192,
+      192
+    ],
+    "walk-NE": [
+      192,
+      192
+    ],
+    "walk-E": [
+      192,
+      192
+    ],
+    "walk-SE": [
+      192,
+      192
+    ]
+  },
+  "engineContract": {
+    "anchor": [
+      96,
+      150
+    ],
+    "worldHeightRule": "baseHeight * 72 / 92; no displayBaseHeight override"
+  },
+  "provenance": {
+    "method": "Original authored monster-specific articulated Blender rig and native imagegen raster detail; semantic frame extraction, no mirrored headings or recolor-only variants.",
+    "sources": [
+      {
+        "state": "idle",
+        "sha256": "917f42440e6f284541da635b3621547e1d7f49d63ee141382660d9ed96cf5f6a",
+        "method": "Original independently authored actor-specific geometry and native raster action sheet."
+      },
+      {
+        "state": "attack",
+        "sha256": "c209dd02a7b8f9491fd31d342fc21a05c11cf1a1f1170c3a37abf99a545b8f6a",
+        "method": "Original independently authored actor-specific geometry and native raster action sheet."
+      },
+      {
+        "state": "hit",
+        "sha256": "833b0b1a0f1693add9abcd919b59e59eb645517285ec8e3c15379f4f1da2389d",
+        "method": "Original independently authored actor-specific geometry and native raster action sheet."
+      },
+      {
+        "state": "death",
+        "sha256": "87caa12f88d88da333d193f5af7fcf82f1428910654db4ef94ad909aff9bed7d",
+        "genuinePoses": 56,
+        "layout": "8 heading columns by7 phase rows"
+      },
+      {
+        "state": "death",
+        "sha256": "4d25dc90195928bf86656222732533485480fcf9dd9780b4d8507a36a5048d76",
+        "genuinePoses": 8,
+        "layout": "4 heading columns by2 rows",
+        "insertIndex": 4
+      },
+      {
+        "state": "walk",
+        "directions": [
+          "S",
+          "SW",
+          "W",
+          "NW",
+          "N",
+          "NE",
+          "E",
+          "SE"
+        ],
+        "sha256": "acbbf63250dc5e5916f04595b592ad22e5bb7c0e16fa6d959f29e7c41d8cf117",
+        "method": "64 original grounded two-bone IK walk guides; anatomical right leg orange/left blue reference only, both alternating plant/pass/lift halves. Native material rendering original actor, no mirrored views."
+      },
+      {
+        "state": "idle",
+        "directions": [
+          "W",
+          "E",
+          "SE"
+        ],
+        "sha256": "5e94dce21d61a00418a0709da511b411027b3178d6c3aa14a37315ebaebbe957",
+        "method": "18 original idle poses for exact held W/E/SE compass carries; other5 directions retained."
+      },
+      {
+        "state": "hit",
+        "directions": [
+          "S",
+          "SW",
+          "W",
+          "NW",
+          "N",
+          "NE",
+          "E",
+          "SE"
+        ],
+        "sha256": "90dacad7d5219509f652bd6f70b7d9a1fd617d25cd38d706c276ed62228724af",
+        "method": "32 original fixed-heading articulated recoil poses, original rig backward-pitch guide, all prior weak recoil clips replaced only within approved hit scope."
+      },
+      {
+        "state": "walk",
+        "directions": [
+          "W",
+          "NE",
+          "E"
+        ],
+        "targetFrames": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "sha256": "129a9ecb8ca6721b559c7aaaebde87c1531e068809ab57eba295a8045b5b6f34",
+        "method": "Only opposing-support half4–7 on W/NE/E; original0–3 and four passed other headings retained. Grounded colored IK guide remaps W0–3 vs NE/E4–7 to oppose actual native near-leg-leading first half."
+      },
+      {
+        "state": "walk",
+        "directions": [
+          "W",
+          "NE",
+          "E"
+        ],
+        "targetFrames": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "sha256": "129a9ecb8ca6721b559c7aaaebde87c1531e068809ab57eba295a8045b5b6f34",
+        "method": "Only opposing-support half4–7 on W/NE/E; original0–3 and four passed other headings retained. Grounded colored IK guide remaps W0–3 vs NE/E4–7 to oppose actual native near-leg-leading first half."
+      },
+      {
+        "state": "walk",
+        "directions": [
+          "W",
+          "NE",
+          "E"
+        ],
+        "targetFrames": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "sha256": "3e85d885c1b7506172fffd3632b4099806b16a386ef14c4f8e54524537065554",
+        "method": "Material/equipment restoration only on improved12 opposing-support gait cells; preserve actual connected leg geometry while restoring original leather lower-leg wraps/greaves and W neutral axe carry."
+      },
+      {
+        "sha256": "7b611dd03778f77a8e92b73222c864f012751f2d691cd75f81875e87040fec81",
+        "cells": [
+          {
+            "direction": "W",
+            "state": "death",
+            "frame": 0,
+            "row": 0,
+            "col": 0
+          },
+          {
+            "direction": "W",
+            "state": "death",
+            "frame": 1,
+            "row": 0,
+            "col": 1
+          },
+          {
+            "direction": "W",
+            "state": "death",
+            "frame": 2,
+            "row": 0,
+            "col": 2
+          },
+          {
+            "direction": "W",
+            "state": "death",
+            "frame": 3,
+            "row": 0,
+            "col": 3
+          },
+          {
+            "direction": "W",
+            "state": "death",
+            "frame": 5,
+            "row": 1,
+            "col": 0
+          },
+          {
+            "direction": "W",
+            "state": "death",
+            "frame": 6,
+            "row": 1,
+            "col": 1
+          },
+          {
+            "direction": "W",
+            "state": "death",
+            "frame": 7,
+            "row": 1,
+            "col": 2
+          },
+          {
+            "direction": "NW",
+            "state": "death",
+            "frame": 4,
+            "row": 1,
+            "col": 3
+          }
+        ],
+        "method": "Seven held original W death phases corrected to true left-facing, preserving saved genuine W4 insert; isolated NW4 corrected rear-left. Other56 runtime entries outside these8 unchanged."
+      },
+      {
+        "sha256": "c2cc8ce8890f4c54d0dca365e196491ee5197a04d8a844d5784b3c887ba53e6f",
+        "cells": [
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 0,
+            "row": 0,
+            "col": 0
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 1,
+            "row": 0,
+            "col": 1
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 2,
+            "row": 0,
+            "col": 2
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 3,
+            "row": 0,
+            "col": 3
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 4,
+            "row": 1,
+            "col": 0
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 5,
+            "row": 1,
+            "col": 1
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 6,
+            "row": 1,
+            "col": 2
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 7,
+            "row": 1,
+            "col": 3
+          }
+        ],
+        "method": "Eight genuine rear-left NW gait phases using original colored grounded IK and accepted exact NW carry identity, only held NW row."
+      },
+      {
+        "sha256": "503218c85563da3d17cac45938f41c685629d3215ac53d703a333b854288d212",
+        "cells": [
+          {
+            "state": "idle",
+            "direction": "SW",
+            "frame": 0,
+            "row": 0,
+            "col": 0
+          },
+          {
+            "state": "idle",
+            "direction": "SW",
+            "frame": 1,
+            "row": 0,
+            "col": 1
+          },
+          {
+            "state": "idle",
+            "direction": "SW",
+            "frame": 2,
+            "row": 0,
+            "col": 2
+          },
+          {
+            "state": "idle",
+            "direction": "SW",
+            "frame": 3,
+            "row": 1,
+            "col": 0
+          },
+          {
+            "state": "idle",
+            "direction": "SW",
+            "frame": 4,
+            "row": 1,
+            "col": 1
+          },
+          {
+            "state": "idle",
+            "direction": "SW",
+            "frame": 5,
+            "row": 1,
+            "col": 2
+          }
+        ],
+        "method": "Six held SW idle poses corrected genuinely front-left; prior full identity SW was front/right, so only accepted frontal S and true-left W are used for native anatomy reference."
+      },
+      {
+        "sha256": "52313dcc38fe2a609e0ed815f43ac4645e56fbb716a4d85c6589b0af3858cb4c",
+        "cells": [
+          {
+            "state": "hit",
+            "direction": "W",
+            "frame": 0,
+            "row": 0,
+            "col": 0
+          },
+          {
+            "state": "hit",
+            "direction": "W",
+            "frame": 1,
+            "row": 0,
+            "col": 1
+          },
+          {
+            "state": "hit",
+            "direction": "W",
+            "frame": 2,
+            "row": 0,
+            "col": 2
+          },
+          {
+            "state": "hit",
+            "direction": "W",
+            "frame": 3,
+            "row": 0,
+            "col": 3
+          },
+          {
+            "state": "hit",
+            "direction": "S",
+            "frame": 1,
+            "row": 0,
+            "col": 4
+          },
+          {
+            "state": "hit",
+            "direction": "SW",
+            "frame": 0,
+            "row": 1,
+            "col": 0
+          },
+          {
+            "state": "hit",
+            "direction": "SW",
+            "frame": 1,
+            "row": 1,
+            "col": 1
+          },
+          {
+            "state": "hit",
+            "direction": "SW",
+            "frame": 2,
+            "row": 1,
+            "col": 2
+          },
+          {
+            "state": "hit",
+            "direction": "SW",
+            "frame": 3,
+            "row": 1,
+            "col": 3
+          },
+          {
+            "state": "hit",
+            "direction": "NW",
+            "frame": 1,
+            "row": 1,
+            "col": 4
+          }
+        ],
+        "method": "Exactly W/SW4phase recoil plus S/NWpeak1 only; accepted N/NE/E/SE and other S/NW boundaries retained. Uses corrected own carry identity, never old wrong SW/W source."
+      },
+      {
+        "state": "walk",
+        "directions": [
+          "W",
+          "E"
+        ],
+        "targetFrames": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "sha256": "3d7b8654e9fcfcb7eb77fbacc5165988e703767aa67ab141c68bd6c197f22070",
+        "method": "Only W4–7 upper axe carry correction and E4–7 hip/knee posture continuity; accepted alternating leg ownership and restored wraps preserved, NE half unchanged."
+      },
+      {
+        "sha256": "52313dcc38fe2a609e0ed815f43ac4645e56fbb716a4d85c6589b0af3858cb4c",
+        "cells": [
+          {
+            "state": "hit",
+            "direction": "S",
+            "frame": 1,
+            "row": 0,
+            "col": 4,
+            "scale": 0.4702875399361022
+          },
+          {
+            "state": "hit",
+            "direction": "NW",
+            "frame": 1,
+            "row": 1,
+            "col": 4,
+            "scale": 0.45627760252365923
+          }
+        ],
+        "method": "Technical uniform source-pose calibration about same supporting-foot root, no new native image or anatomy warp; S1×1.15/NW1×1.13 vs prior neutral-batch estimate. Candidate volume/height review required."
+      },
+      {
+        "sha256": "31ac3358cf3e1f4977109cf5991826c7e374befe65f34cd6f2687e294e7ab8de",
+        "cells": [
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 4,
+            "row": 0,
+            "col": 0
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 5,
+            "row": 0,
+            "col": 1
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 6,
+            "row": 0,
+            "col": 2
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 7,
+            "row": 0,
+            "col": 3
+          }
+        ],
+        "method": "Only NW opposite support4–7. Colored grounded thigh/knee IK takes priority; accepted upper-only identity excludes original wrong leg ownership, preserving NW head/mane/axe."
+      },
+      {
+        "sha256": "84bc4e4f3f858f05fe7c1625526ac452f9358f44d77cab303c2dd6d03980a28e",
+        "cells": [
+          {
+            "state": "attack",
+            "direction": "NE",
+            "frame": 5,
+            "row": 0,
+            "col": 0
+          },
+          {
+            "state": "attack",
+            "direction": "E",
+            "frame": 5,
+            "row": 0,
+            "col": 1
+          }
+        ],
+        "method": "Two genuine directional follow-through phases only, interpolate retained attack4 and6; original seven neighboring entries untouched."
+      },
+      {
+        "sha256": "4881bd98a8eaeec469b058f5d50aca958977e7cc196577f54663d15168a8e827",
+        "cells": [
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 4,
+            "row": 0,
+            "col": 0
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 5,
+            "row": 0,
+            "col": 1
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 6,
+            "row": 0,
+            "col": 2
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 7,
+            "row": 0,
+            "col": 3
+          }
+        ],
+        "method": "Parent reviewed camera-projected hip ownership. Complementary original IK phases0/7/6/5 preserve first native half; new6 lifts FAR RIGHT connected knee while NEAR LEFT supports."
+      },
+      {
+        "sha256": "031e62c74519d02504dc88819d124a9cbb6793ca22f6880cfd865b0efe75005d",
+        "cells": [
+          {
+            "state": "walk",
+            "direction": "W",
+            "frame": 4,
+            "row": 0,
+            "col": 0
+          },
+          {
+            "state": "walk",
+            "direction": "W",
+            "frame": 5,
+            "row": 0,
+            "col": 1
+          },
+          {
+            "state": "walk",
+            "direction": "W",
+            "frame": 6,
+            "row": 0,
+            "col": 2
+          },
+          {
+            "state": "walk",
+            "direction": "W",
+            "frame": 7,
+            "row": 0,
+            "col": 3
+          },
+          {
+            "state": "walk",
+            "direction": "E",
+            "frame": 4,
+            "row": 1,
+            "col": 0
+          },
+          {
+            "state": "walk",
+            "direction": "E",
+            "frame": 5,
+            "row": 1,
+            "col": 1
+          },
+          {
+            "state": "walk",
+            "direction": "E",
+            "frame": 6,
+            "row": 1,
+            "col": 2
+          },
+          {
+            "state": "walk",
+            "direction": "E",
+            "frame": 7,
+            "row": 1,
+            "col": 3
+          }
+        ],
+        "method": "Art-lead approved exact crown/belt/grip/axe landmark correction. W upper haft/carry only; E joint-flex posture plus original axe. Opposite-support ownership retained; no rescale/root shift."
+      },
+      {
+        "sha256": "4bfb9d443886c1e447cb9c22f52c1c4c037289a6b67a3459074082f5add1fd15",
+        "cells": [
+          {
+            "state": "death",
+            "direction": "SW",
+            "frame": 0,
+            "row": 0,
+            "col": 0
+          },
+          {
+            "state": "death",
+            "direction": "SW",
+            "frame": 1,
+            "row": 0,
+            "col": 1
+          },
+          {
+            "state": "death",
+            "direction": "SW",
+            "frame": 2,
+            "row": 0,
+            "col": 2
+          },
+          {
+            "state": "death",
+            "direction": "SW",
+            "frame": 3,
+            "row": 1,
+            "col": 0
+          },
+          {
+            "state": "death",
+            "direction": "E",
+            "frame": 0,
+            "row": 1,
+            "col": 1
+          },
+          {
+            "state": "death",
+            "direction": "E",
+            "frame": 1,
+            "row": 1,
+            "col": 2
+          },
+          {
+            "state": "death",
+            "direction": "E",
+            "frame": 2,
+            "row": 2,
+            "col": 0
+          },
+          {
+            "state": "death",
+            "direction": "E",
+            "frame": 3,
+            "row": 2,
+            "col": 1
+          },
+          {
+            "state": "death",
+            "direction": "NW",
+            "frame": 4,
+            "row": 2,
+            "col": 2
+          }
+        ],
+        "method": "Only eight inherited SW/E early-collapse headings and one NW inserted temporal phase, retaining accepted later collapses. Original articulated guides and exact runtime neighbors. No whole-row regeneration."
+      },
+      {
+        "sha256": "bb02ab53d1849339d0367e99873c94b8739880423748f4ec6c84f377721be810",
+        "cells": [
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 4,
+            "row": 0,
+            "col": 0
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 5,
+            "row": 0,
+            "col": 1
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 6,
+            "row": 0,
+            "col": 2
+          },
+          {
+            "state": "walk",
+            "direction": "NW",
+            "frame": 7,
+            "row": 0,
+            "col": 3
+          }
+        ],
+        "method": "Exact retained0/3 torso-volume and belt-height continuity correction only. Preserve new connected far-right lifted knee at6 and near-left supporting chain; fixed root, genuine hip/knee flex, no global rescale."
+      },
+      {
+        "sha256": "96338aaa15e47691a951bacd03130d7ad338b631021bca6890139f2dc9720bb2",
+        "cells": [
+          {
+            "state": "death",
+            "direction": "NW",
+            "frame": 3,
+            "row": 0,
+            "col": 0
+          },
+          {
+            "state": "death",
+            "direction": "NW",
+            "frame": 4,
+            "row": 0,
+            "col": 1
+          }
+        ],
+        "method": "Art-lead specified duplicate-weapon cleanup at3 and genuine lowering interpolation4 only; retained0–2/5–7 unchanged. Exact reversible tool-response externalization plus immutablePNG/losslessRGBA staging."
+      }
+    ],
+    "reuse": "None",
+    "transfer": {
+      "sha256": "f98cdc491f125c1bf656ab59ecfa9ce05cd9ff1e4896e75ba9d2c5f38bdfe9af",
+      "original144EntriesUnchanged": true
+    },
+    "readyReuse": {
+      "entries": 4,
+      "dedicatedSourceEntries": 268,
+      "runtimeEntries": 272,
+      "bindings": [
+        {
+          "direction": "NE",
+          "action": "hit",
+          "frameIndex": 0,
+          "reuseAction": "idle",
+          "reuseFrameIndex": 0,
+          "sourceClipSHA256": "f9e41b6a04b4ef9da96b3054fb3740598aadbdba4118315f58f799b73619c40c",
+          "priorFrame": {
+            "atlas": "actors/minotaur/clips/hit-NE.webp",
+            "rect": [
+              0,
+              0,
+              192,
+              192
+            ],
+            "duration": 45,
+            "anchor": [
+              96,
+              161.35955056179776
+            ]
+          },
+          "finalFrame": {
+            "atlas": "actors/minotaur/clips/idle-NE.webp",
+            "rect": [
+              0,
+              0,
+              192,
+              192
+            ],
+            "duration": 45,
+            "anchor": [
+              96,
+              150
+            ]
+          },
+          "reason": "Art-lead approved same-heading own ready reuse; original NE recoil boundaries were E-profile/opposite axe side. Dedicated rear-oblique peak1 retained."
+        },
+        {
+          "direction": "NE",
+          "action": "hit",
+          "frameIndex": 2,
+          "reuseAction": "idle",
+          "reuseFrameIndex": 0,
+          "sourceClipSHA256": "f9e41b6a04b4ef9da96b3054fb3740598aadbdba4118315f58f799b73619c40c",
+          "priorFrame": {
+            "atlas": "actors/minotaur/clips/hit-NE.webp",
+            "rect": [
+              384,
+              0,
+              192,
+              192
+            ],
+            "duration": 75,
+            "anchor": [
+              96,
+              159.92134831460675
+            ]
+          },
+          "finalFrame": {
+            "atlas": "actors/minotaur/clips/idle-NE.webp",
+            "rect": [
+              0,
+              0,
+              192,
+              192
+            ],
+            "duration": 75,
+            "anchor": [
+              96,
+              150
+            ]
+          },
+          "reason": "Art-lead approved same-heading own ready reuse; original NE recoil boundaries were E-profile/opposite axe side. Dedicated rear-oblique peak1 retained."
+        },
+        {
+          "direction": "NE",
+          "action": "hit",
+          "frameIndex": 3,
+          "reuseAction": "idle",
+          "reuseFrameIndex": 0,
+          "sourceClipSHA256": "f9e41b6a04b4ef9da96b3054fb3740598aadbdba4118315f58f799b73619c40c",
+          "priorFrame": {
+            "atlas": "actors/minotaur/clips/hit-NE.webp",
+            "rect": [
+              576,
+              0,
+              192,
+              192
+            ],
+            "duration": 95,
+            "anchor": [
+              96,
+              160.64044943820224
+            ]
+          },
+          "finalFrame": {
+            "atlas": "actors/minotaur/clips/idle-NE.webp",
+            "rect": [
+              0,
+              0,
+              192,
+              192
+            ],
+            "duration": 95,
+            "anchor": [
+              96,
+              150
+            ]
+          },
+          "reason": "Art-lead approved same-heading own ready reuse; original NE recoil boundaries were E-profile/opposite axe side. Dedicated rear-oblique peak1 retained."
+        },
+        {
+          "direction": "W",
+          "action": "death",
+          "frameIndex": 0,
+          "reuseAction": "idle",
+          "reuseFrameIndex": 0,
+          "priorFrame": {
+            "atlas": "actors/minotaur/clips/minotaur-death-W-seven-NW4-v3-W-0.webp",
+            "rect": [
+              0,
+              0,
+              192,
+              192
+            ],
+            "duration": 110,
+            "anchor": [
+              96,
+              150
+            ]
+          },
+          "finalFrame": {
+            "atlas": "actors/minotaur/clips/idle-W.webp",
+            "rect": [
+              0,
+              0,
+              192,
+              192
+            ],
+            "duration": 110,
+            "anchor": [
+              96,
+              155.29457364341084
+            ]
+          },
+          "approval": "Art lead2026-10-10T01:26:08Z; exact own W idle0 ready, preserve1–7; review0→1"
+        }
+      ],
+      "approval": "Art lead 2026-10-10T01:13:41Z; preserve own NE idle boundaries and assess0→1→2."
+    },
+    "chronologicalPermutation": {
+      "direction": "NW",
+      "state": "death",
+      "preSealRuntimeSHA256": "082e5c79945720c6ca11dfeeb0ccd3d42b04f799ad37271523f5260f5bb72c37",
+      "newIndexToPriorIndex": [
+        0,
+        1,
+        2,
+        5,
+        3,
+        4,
+        6,
+        7
+      ],
+      "approval": "Art lead2026-10-10T02:10:53Z after independent v2 chronological board review",
+      "reason": "Monotonic lowering and grounded side-roll; preserve all eight genuine poses, each complete frame/anchor/duration and totalduration.",
+      "priorDurations": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        130,
+        180,
+        320
+      ],
+      "finalDurations": [
+        110,
+        110,
+        110,
+        130,
+        110,
+        110,
+        180,
+        320
+      ],
+      "totalDurationMs": 1180
+    }
+  },
+  "validation": {
+    "issues": [],
+    "sourceLayoutInspected": true,
+    "inGame": "not tested",
+    "native": "not tested",
+    "sceneRegistration": "Pending semantic support and target-present scene review; nominal source anchors are estimates.",
+    "caveats": [
+      "NW gait second half has a higher upright waist/crown and visible7→0 bob, explicitly accepted as asymmetric posture/polish by art lead; not identical-height or perfectly smooth.",
+      "Sharper native replacement finish and NE gait upright-half variation.",
+      "Rear N/NW/NE physical axe contact is authored low-confidence; no measured target contact.",
+      "Four disclosed own-idle ready entries: NE hit0/2/3 and W death0."
+    ]
+  }
+}

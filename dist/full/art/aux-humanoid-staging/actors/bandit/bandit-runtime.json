@@ -1,0 +1,4112 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "MON-BANDIT",
+  "consumerIds": [
+    "MON-BANDIT"
+  ],
+  "assetId": "ASSET-BODY-MON-BANDIT",
+  "runtimeLayout": "per-action-direction",
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 92,
+  "anchor": [
+    96,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            98.47744668352942,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/idle-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/walk-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/attack-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/hit-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "aux-humanoid-staging/actors/bandit/clips/death-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    }
+  },
+  "status": "candidate",
+  "frameCount": 272,
+  "clipCount": 40,
+  "maximumClipDecodedBytes": 1179648,
+  "engineContract": {
+    "anchor": [
+      96,
+      150
+    ],
+    "worldHeightRule": "baseHeight * 72 / 92; no displayBaseHeight override"
+  },
+  "provenance": {
+    "method": "Original authored monster-specific articulated Blender rig and native imagegen raster detail; semantic frame extraction, no mirrored headings or recolor-only variants.",
+    "model": "source/bandit-original.blend",
+    "sources": [
+      {
+        "state": "idle",
+        "sha256": "df5ea0d0c923fe717cf1a5bb92622ceaa9e51c42e808bb23ad84d792d7400f75"
+      },
+      {
+        "state": "walk",
+        "sha256": "f2cf33d4ab7fc75b10ab7fee5623d0ec027f223dc90c9840be0a1c1835a9550a"
+      },
+      {
+        "state": "attack",
+        "sha256": "4bdbdcc4c80974ff8e12fcab039583db947ecef6198ea760c69cc967a8b8970e"
+      },
+      {
+        "state": "hit",
+        "sha256": "7e183c6732d803a5f1e5355686fd7589140304318e4df5fbc9295ac668e10046"
+      },
+      {
+        "state": "death",
+        "sha256": "66dc8f1f001ba37d728a087abd144085aa117d34efe452083dd301742c3b8a04"
+      },
+      {
+        "state": "walk",
+        "direction": "E",
+        "method": "Native guided E-profile walk repair"
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "method": "Native guided directional correction"
+      },
+      {
+        "state": "hit",
+        "direction": "SE",
+        "method": "Native guided directional correction"
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "method": "Native guided directional correction"
+      },
+      {
+        "state": "walk",
+        "direction": "E",
+        "method": "Native exact alternating-leg gait correction"
+      }
+    ],
+    "reuse": "None"
+  },
+  "validation": {
+    "issues": [],
+    "sourceLayoutInspected": false,
+    "inGame": "not tested",
+    "native": "not tested"
+  },
+  "contacts": {
+    "attack": {
+      "S": {
+        "frameIndex": 4,
+        "phase": "strike",
+        "confidence": "low",
+        "estimated": true,
+        "observedFrameIndex": null,
+        "visualOnly": true,
+        "candidateFrames": [
+          3,
+          4,
+          5
+        ],
+        "sourceClipSHA256": "c30b52c9864f2553bec4a3797397fe31e3d186d380468911c892a57d11d89b59"
+      },
+      "SW": {
+        "frameIndex": 4,
+        "phase": "strike",
+        "confidence": "low",
+        "estimated": true,
+        "observedFrameIndex": null,
+        "visualOnly": true,
+        "candidateFrames": [
+          3,
+          4,
+          5
+        ],
+        "sourceClipSHA256": "695adf50a0f7ab0547629ea48eee6d750aea0f50f9e118d268811b4f6371f3a9"
+      },
+      "W": {
+        "frameIndex": 4,
+        "phase": "strike",
+        "confidence": "low",
+        "estimated": true,
+        "observedFrameIndex": null,
+        "visualOnly": true,
+        "candidateFrames": [
+          3,
+          4,
+          5
+        ],
+        "sourceClipSHA256": "ae3a02e45f2f35fac89295165fb3350a651446b6c7a7e1815bffd70ec21babb1"
+      },
+      "NW": {
+        "frameIndex": 4,
+        "phase": "strike",
+        "confidence": "low",
+        "estimated": true,
+        "observedFrameIndex": null,
+        "visualOnly": true,
+        "candidateFrames": [
+          3,
+          4,
+          5
+        ],
+        "sourceClipSHA256": "c362e26262120f027c3a0871c7787611accee6c075f8fd8a5e895b1ce2fa8973"
+      },
+      "N": {
+        "frameIndex": 3,
+        "phase": "strike",
+        "confidence": "low",
+        "estimated": true,
+        "observedFrameIndex": null,
+        "visualOnly": true,
+        "candidateFrames": [
+          3,
+          4
+        ],
+        "sourceClipSHA256": "da5b86c6d1eb06c99977d86e150c0ad1fd240c49afaa36f6c98d24c88fa14e33"
+      },
+      "NE": {
+        "frameIndex": 4,
+        "phase": "strike",
+        "confidence": "low",
+        "estimated": true,
+        "observedFrameIndex": null,
+        "visualOnly": true,
+        "candidateFrames": [
+          3,
+          4,
+          5
+        ],
+        "sourceClipSHA256": "0bfbac66ff0bd89d958300eed4522479885efb6c2308be71a2d475809cbf54f6"
+      },
+      "E": {
+        "frameIndex": 4,
+        "phase": "strike",
+        "confidence": "low",
+        "estimated": true,
+        "observedFrameIndex": null,
+        "visualOnly": true,
+        "candidateFrames": [
+          3,
+          4,
+          5
+        ],
+        "sourceClipSHA256": "997a949868478be6fdb3d0ee05bf72974d2c4dd369bc590b87a1373458103c32"
+      },
+      "SE": {
+        "frameIndex": 4,
+        "phase": "strike",
+        "confidence": "low",
+        "estimated": true,
+        "observedFrameIndex": null,
+        "visualOnly": true,
+        "candidateFrames": [
+          3,
+          4,
+          5
+        ],
+        "sourceClipSHA256": "b251f18ed6c2276a02d5fdbe739e2c08e3c4467e85c996edb1a407e8ff854503"
+      }
+    }
+  },
+  "sourceReview": {
+    "status": "PASS_BOUNDED_SOURCE",
+    "reviewer": "review_full_catalog_consistency",
+    "scope": "All five actions/eight headings with corrected E alternating gait, NW/SE recoil and N target-directed chop.",
+    "caveat": "Regenerated strips are sharper than original full sheets; actual scene/native gates remain separate."
+  }
+}

@@ -1,0 +1,14 @@
+// Reconstructed route camps. Coordinates are original gameplay design, not source geography.
+import {MAPS} from './data.mjs';
+import {geometry,findPath,nearestWalkable,walkable,distance} from './world.mjs';
+export const SILVER_CAMP_REVISION=1;
+export const SILVER_MAP='MAP-REG-SILVER';
+export const SILVER_VISIBILITY=Object.freeze({width:1920,height:1080,minScale:.6,maxScale:1.4,marginX:200,marginY:250,lagCells:2});
+export function visibleCell(hero,cell){const dx=cell.x-hero.x,dy=cell.y-hero.y;return Math.abs((dx-dy)*32)<=1920/(2*.6)+200/.6+128&&Math.abs((dx+dy)*16)<=1080/(2*.6)+250/.6+64;}
+export const outsideFootprint=(hero,camp)=>camp.footprint.every(p=>!visibleCell(hero,p));
+const species=['MON-GOBLIN','MON-HOBGOBLIN','MON-DWARF','MON-DWARF-WARRIOR','MON-ORC','MON-ORC-ARCHER','MON-ORC-FIGHTER','MON-GANDI','MON-ORC-WIZARD','MON-ATUBA','MON-WEREWOLF','MON-LYCANTHROPE'];
+let cached;
+export function silverCampLayout(){if(cached)return cached;const map=MAPS[SILVER_MAP],g=geometry(SILVER_MAP),entry=nearestWalkable(g,{x:map.anchors[0].tile_x,y:map.anchors[0].tile_y}),destinations=[...map.anchors.slice(1).map(a=>({x:a.tile_x,y:a.tile_y})),...map.landmarks.map(a=>({x:a.tile_x,y:a.tile_y})),{x:320,y:224}],routes=[],camps=[],used=new Set();let serial=0;
+ for(const [routeIndex,dest]of destinations.entries()){const end=nearestWalkable(g,dest),path=findPath(g,entry,end);if(!path)throw Error('Silver route unreachable');const route=[entry,...path];routes.push({id:'silver-route-'+routeIndex,cells:route});let batch=[];for(let step=12;step<route.length-4;step+=10){const p=route[step],key=p.x+','+p.y;if(used.has(key))continue;if(map.anchors.some(a=>distance(p,{x:a.tile_x,y:a.tile_y})<4))continue;used.add(key);batch.push({step,point:{...p}});if(batch.length===3||step+10>=route.length-4){const id='silver-camp-'+(++serial),begin=Math.max(0,batch[0].step-2),finish=Math.min(route.length,batch.at(-1).step+3),slots=batch.map((v,i)=>({id:id+'-slot-'+i,x:v.point.x,y:v.point.y,type:distance(v.point,entry)<90?'MON-GOBLIN':species[(serial+i)%species.length]}));camps.push({id,routeId:routes.at(-1).id,slots,footprint:route.slice(begin,finish).map(p=>({...p}))});batch=[];}}if(batch.length){const id='silver-camp-'+(++serial);camps.push({id,routeId:routes.at(-1).id,slots:batch.map((v,i)=>({id:id+'-slot-'+i,...v.point,type:distance(v.point,entry)<90?'MON-GOBLIN':species[(serial+i)%species.length]})),footprint:route.slice(Math.max(0,batch[0].step-2),Math.min(route.length,batch.at(-1).step+3)).map(p=>({...p}))});}}
+ for(const [i,x]of [101,125,149,173].entries()){const p=nearestWalkable(g,{x,y:253+Math.floor(i*3.3)}),id='silver-wild-'+i;camps.push({id,routeId:null,slots:[{id:id+'-slot-0',...p,type:i<2?'MON-WOLF':'MON-SHEPHERD'}],footprint:[p]});}
+ cached={revision:SILVER_CAMP_REVISION,mapId:SILVER_MAP,origin:'assistant_design_reconstructed_route_camps',routes,camps};return cached;}

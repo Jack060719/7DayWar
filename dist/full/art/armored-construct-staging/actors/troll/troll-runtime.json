@@ -1,0 +1,4074 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "MON-TROLL",
+  "consumerIds": [
+    "MON-TROLL"
+  ],
+  "assetId": "ASSET-BODY-MON-TROLL",
+  "runtimeLayout": "per-action-direction",
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 116,
+  "anchor": [
+    96,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96.80188289433316,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/idle-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/walk-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/attack-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/hit-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/troll/clips/death-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    }
+  },
+  "status": "source-accepted-runtime-scene-pending",
+  "frameCount": 272,
+  "clipCount": 40,
+  "maximumClipDecodedBytes": 1179648,
+  "engineContract": {
+    "anchor": [
+      96,
+      150
+    ],
+    "worldHeightRule": "baseHeight * 72 / 92; no displayBaseHeight override"
+  },
+  "provenance": {
+    "method": "Original authored monster-specific articulated Blender rig and native imagegen raster detail; semantic frame extraction, no mirrored headings or recolor-only variants.",
+    "model": "source/troll-original.blend",
+    "sources": [
+      {
+        "state": "idle",
+        "sha256": "d9175f62fda6b28248d935b51d645ccebf85c668f6e92702a87b01c867f79c4f",
+        "method": "Native imagegen finished original independent articulated organic anatomy and role action guide."
+      },
+      {
+        "state": "walk",
+        "sha256": "dd1aba9fb8b1259244a51f28e87fa882d5f9fcf7b1b90e0b1a3f3c7a9aa03690",
+        "method": "Native imagegen finished original independent articulated organic anatomy and role action guide."
+      },
+      {
+        "state": "attack",
+        "sha256": "f742f2de1485242190bbfc34e6bf5adafc6ac993ebbb9c8a664fc9566ffe9188",
+        "method": "Native imagegen finished original independent articulated organic anatomy and role action guide."
+      },
+      {
+        "state": "hit",
+        "sha256": "c42e9ca7538e76b6a75dedd668c51779a67f513df8f8bb15ea09054a786b9fa6",
+        "method": "Native imagegen finished original independent articulated organic anatomy and role action guide."
+      },
+      {
+        "state": "death",
+        "sha256": "e5470bfeab83040d7c0bc68e5e28d918ef98239ae74aef12e607a18b39505eb4",
+        "method": "Native imagegen finished original independent articulated organic anatomy and role action guide."
+      },
+      {
+        "state": "idle",
+        "direction": "NW",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "9301b2b7426d2de959241140471af5e181d4db910fd6ac5bf46e915921592b3e"
+      },
+      {
+        "state": "hit",
+        "direction": "W",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "d8354ca613f72724b07eaf13104ba8157833bd43eb0746bf87eaddfe876d6b76"
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "4b30524dbbac2c4c73c50d04006116c0f498d66edc7965f314443c95e1662cac"
+      },
+      {
+        "state": "hit",
+        "direction": "N",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "1e8c448a4654636210bbae9d71eb7a38637b80bb0805e4dcc7a7c60c11acc3a0"
+      },
+      {
+        "state": "hit",
+        "direction": "NE",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "e93943c7fb1d3dbf041bdad5fd0ee7c65f6e6936688452c454225103636c0751"
+      },
+      {
+        "state": "hit",
+        "direction": "E",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "61a18cd6694c72531ad9c6970d188ed4f1e5b32be68cefdfd8a81813093db583"
+      },
+      {
+        "state": "hit",
+        "direction": "SE",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "f3a3304bafef1e185eb862978b15cee439b27515ffddc11dce0bb19b00067d20"
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "6d6408a64b46a6317ea105ad109b135a7bf735ffdc8f9b007a5e3d9ed20d8e66"
+      },
+      {
+        "state": "death",
+        "direction": "S",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "126df11a6fb2e3d0b2635bfaba61dc20473c064343b3aedcada9928e4320d26e"
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "2b2b04b81cbb902f36e43340829825ec35b5cf33c89413dbd341fd4ed824be4e"
+      },
+      {
+        "state": "death",
+        "direction": "W",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "a9cecb3f3005a05ad1820ac6ffe831f537f57ab620567a2af67683c18fe87c15"
+      },
+      {
+        "state": "death",
+        "direction": "NW",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "1720c19c7e0cad118e516c6e042bc149cc29dfeac24c8e56825d5008afaa9cc0"
+      },
+      {
+        "state": "death",
+        "direction": "N",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "56dcc660e14a8fb524db907408676800031ad5231f119538351bdc3c5bfbbde2"
+      },
+      {
+        "state": "death",
+        "direction": "NE",
+        "method": "Native imagegen targeted original articulated heading/action correction.",
+        "sha256": "1d7e4519763303c1c67085138412c32cd73e547fc7b06e0dfa4b638465efe755"
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "method": "Native imagegen second targeted depth/yaw correction on new original guide.",
+        "sha256": "cbf56d697fb0f3adda84dcdcbb076c68b26010ccb8d711fbbd8f40147c71f1c7"
+      },
+      {
+        "state": "hit",
+        "direction": "SE",
+        "method": "Native imagegen second targeted depth/yaw correction on new original guide.",
+        "sha256": "7410b82d154d4673f5cf9f4279c97342199fd9b19f12736fce98ee3f7571912c"
+      }
+    ],
+    "reuse": "Original articulated organic hierarchy/collapse timing shared as scaffolding only. Entire body mesh, proportions, surface identity, clothes and role equipment independently authored. No finished raster or recolor-only reuse."
+  },
+  "validation": {
+    "issues": [],
+    "sourceLayoutInspected": true,
+    "inGame": "not tested",
+    "native": "not tested",
+    "sourceReview": {
+      "reviewer": "review_full_catalog_consistency",
+      "result": "PASS",
+      "at": "2026-10-09T16:05:20.327945+00:00",
+      "caveat": "Dedicated replacement texture is sharper/finer than original full rows; documented material-consistency polish."
+    }
+  },
+  "visualContactMarkers": "actors/troll/troll-contact-markers.json"
+}

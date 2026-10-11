@@ -1,0 +1,2 @@
+const ids=['GOBLIN','HOBGOBLIN','DWARF','DWARF-WARRIOR','ORC','ORC-ARCHER','ORC-FIGHTER','GANDI','ORC-WIZARD','ATUBA','WEREWOLF','LYCANTHROPE','WOLF','SHEPHERD'];
+export const SILVER_POPULATIONS=Object.freeze(ids.map(id=>Object.freeze({id:'POP-SILVER-CAMP-'+id,map_id:'MAP-REG-SILVER',monster_id:'MON-'+id,alive_cap:1,respawn_min_seconds:['WOLF','SHEPHERD'].includes(id)?90:60,respawn_max_seconds:['WOLF','SHEPHERD'].includes(id)?180:120,origin:'assistant_design_fixed_route'})));

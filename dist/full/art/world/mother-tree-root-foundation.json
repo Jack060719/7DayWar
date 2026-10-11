@@ -1,0 +1,129 @@
+{
+  "schema": "ashen-rooted-foundation-candidate-v1",
+  "consumerId": "NPC-CANON-MOTHER-TREE",
+  "status": "MEASURED_ART_CANDIDATE_NAVIGATION_REVIEW",
+  "reference": "actors/npc-mother-tree/clips/idle-S.webp frame0",
+  "sourceCell": [
+    384,
+    384
+  ],
+  "anchor": [
+    192,
+    350
+  ],
+  "displayBaseHeight": 310,
+  "sourcePolygon": [
+    [
+      135,
+      291
+    ],
+    [
+      175,
+      277
+    ],
+    [
+      208,
+      279
+    ],
+    [
+      244,
+      291
+    ],
+    [
+      272,
+      311
+    ],
+    [
+      249,
+      326
+    ],
+    [
+      210,
+      337
+    ],
+    [
+      173,
+      333
+    ],
+    [
+      133,
+      320
+    ],
+    [
+      110,
+      309
+    ]
+  ],
+  "tilePolygonRelativeToService": [
+    [
+      -2.7344,
+      -0.9531
+    ],
+    [
+      -2.5469,
+      -2.0156
+    ],
+    [
+      -1.9688,
+      -2.4688
+    ],
+    [
+      -1.0313,
+      -2.6563
+    ],
+    [
+      0.0313,
+      -2.4688
+    ],
+    [
+      0.1406,
+      -1.6406
+    ],
+    [
+      -0.125,
+      -0.6875
+    ],
+    [
+      -0.8281,
+      -0.2344
+    ],
+    [
+      -1.8594,
+      -0.0156
+    ],
+    [
+      -2.5625,
+      0
+    ]
+  ],
+  "canonicalServiceTile": [
+    64,
+    76
+  ],
+  "candidateBlockedTileCentersRelative": [
+    [
+      -2,
+      -2
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      -1,
+      -1
+    ]
+  ],
+  "serviceTileOutsidePolygon": true,
+  "measurement": "Manually traced solid trunk/root flare contact region on current accepted idle raster. Thin decorative root tips and entire canopy excluded. Polygon lies behind front-root anchor. Interaction radius stays canonical; navigation validation required before integration.",
+  "transform": "dxPixel=32*(dxTile-dyTile); dyPixel=16*(dxTile+dyTile). Authored display310/base310=1.",
+  "expectedExteriorApproach": "Front/south of the service anchor remains outside this measured polygon. Builder must verify actual canonical walkability and path to64,76; do not add blockers solely from this candidate without route checks."
+}

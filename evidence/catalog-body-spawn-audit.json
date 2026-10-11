@@ -1,0 +1,3272 @@
+{
+  "summary": {
+    "catalogSpecies": 129,
+    "previousSpecies": 126,
+    "newSpecies": [
+      "MON-GOBLIN",
+      "MON-DWARF-WARRIOR",
+      "MON-ORC-WIZARD"
+    ],
+    "currentUniqueBoundBodies": 128,
+    "unbound": [
+      {
+        "id": "MON-DARK-ELF",
+        "name": "黑暗精靈"
+      }
+    ],
+    "maps": 101,
+    "populatedMaps": 86,
+    "effectiveReferencedSpecies": 129,
+    "silverBaseActors": 48,
+    "silverAdditionalFixedSlots": 215,
+    "silverFixedCamps": 77,
+    "scope": "Project catalog only, not an official complete monster list. Spawn references do not prove actual encounter frequency."
+  },
+  "catalog": [
+    {
+      "id": "MON-ORC",
+      "name": "妖魔",
+      "addedInThisStage": false,
+      "binding": "actors/orc/orc-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-GLUDIN",
+        "MAP-REG-SILVER",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST",
+        "MAP-DUN-SLEEPING-F01",
+        "MAP-DUN-GLUDIN-F01"
+      ]
+    },
+    {
+      "id": "MON-ORC-ARCHER",
+      "name": "妖魔弓箭手",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/orc-archer/orc-archer-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-GLUDIN",
+        "MAP-REG-ELF",
+        "MAP-REG-SILVER",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST",
+        "MAP-DUN-SLEEPING-F01"
+      ]
+    },
+    {
+      "id": "MON-ORC-FIGHTER",
+      "name": "妖魔鬥士",
+      "addedInThisStage": false,
+      "binding": "actors/orc-fighter/orc-fighter-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-GLUDIN",
+        "MAP-REG-ELF",
+        "MAP-REG-WINDAWOOD",
+        "MAP-REG-SILVER",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST",
+        "MAP-SUB-WINDAWOOD-OASIS",
+        "MAP-DUN-SLEEPING-F02",
+        "MAP-DUN-GLUDIN-F02"
+      ]
+    },
+    {
+      "id": "MON-DWARF",
+      "name": "侏儒",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/dwarf/dwarf-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-SILVER",
+        "MAP-REG-OREN",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST",
+        "MAP-SUB-OREN-WALL"
+      ]
+    },
+    {
+      "id": "MON-GOLEM",
+      "name": "石頭高崙",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/golem/golem-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-GLUDIN",
+        "MAP-REG-ELF",
+        "MAP-REG-WINDAWOOD",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST",
+        "MAP-SUB-WINDAWOOD-OASIS",
+        "MAP-DUN-IVORY-F04"
+      ]
+    },
+    {
+      "id": "MON-ELDER",
+      "name": "長者",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/elder/elder-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST",
+        "MAP-DUN-SLEEPING-F03"
+      ]
+    },
+    {
+      "id": "MON-WEREWOLF",
+      "name": "狼人",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/werewolf/werewolf-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-SILVER",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST",
+        "MAP-DUN-TALKING-F01"
+      ]
+    },
+    {
+      "id": "MON-FLOATING-EYE",
+      "name": "漂浮之眼",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/floating-eye/floating-eye-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-WINDAWOOD",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST",
+        "MAP-SUB-WINDAWOOD-OASIS"
+      ]
+    },
+    {
+      "id": "MON-WOLF",
+      "name": "狼",
+      "addedInThisStage": false,
+      "binding": "actors/wolf/wolf-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-GLUDIN",
+        "MAP-REG-SILVER",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST"
+      ]
+    },
+    {
+      "id": "MON-BEAR",
+      "name": "熊",
+      "addedInThisStage": false,
+      "binding": "actors/bear/bear-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-ELF",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST"
+      ]
+    },
+    {
+      "id": "MON-FOX",
+      "name": "狐狸",
+      "addedInThisStage": false,
+      "binding": "actors/fox/fox-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-ELF",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST"
+      ]
+    },
+    {
+      "id": "MON-SLIME",
+      "name": "史萊姆",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/slime/slime-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST"
+      ]
+    },
+    {
+      "id": "MON-BOAR",
+      "name": "野豬",
+      "addedInThisStage": false,
+      "binding": "quadruped-staging/actors/boar/boar-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-GLUDIN"
+      ]
+    },
+    {
+      "id": "MON-SKELETON",
+      "name": "骷髏",
+      "addedInThisStage": false,
+      "binding": "actors/skeleton/skeleton-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-GLUDIN",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST",
+        "MAP-DUN-TALKING-F01",
+        "MAP-DUN-GLUDIN-F01"
+      ]
+    },
+    {
+      "id": "MON-SKELETON-ARCHER",
+      "name": "骷髏弓箭手",
+      "addedInThisStage": false,
+      "binding": "actors/skeleton-archer/skeleton-archer-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-GLUDIN",
+        "MAP-DUN-TALKING-F01",
+        "MAP-DUN-GLUDIN-F02"
+      ]
+    },
+    {
+      "id": "MON-SKELETON-SPEAR",
+      "name": "骷髏槍兵",
+      "addedInThisStage": false,
+      "binding": "actors/skeleton-spear/skeleton-spear-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-GLUDIN",
+        "MAP-DUN-TALKING-F02",
+        "MAP-DUN-GLUDIN-F03"
+      ]
+    },
+    {
+      "id": "MON-ZOMBIE",
+      "name": "人形殭屍",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/zombie/zombie-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-REG-GLUDIN",
+        "MAP-REG-ELF",
+        "MAP-REG-SILVER",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST",
+        "MAP-DUN-TALKING-F01",
+        "MAP-DUN-GLUDIN-F01"
+      ]
+    },
+    {
+      "id": "MON-GHOUL",
+      "name": "食屍鬼",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/ghoul/ghoul-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-GLUDIN",
+        "MAP-REG-SILVER",
+        "MAP-DUN-TALKING-F02",
+        "MAP-DUN-SLEEPING-F03",
+        "MAP-DUN-GLUDIN-F02",
+        "MAP-DUN-GLUDIN-F05",
+        "MAP-DUN-GIRAN-F01",
+        "MAP-DUN-SEWER-F03"
+      ]
+    },
+    {
+      "id": "MON-BUGBEAR",
+      "name": "食人妖精",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/bugbear/bugbear-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-GLUDIN",
+        "MAP-DUN-GLUDIN-F03",
+        "MAP-DUN-GLUDIN-F05",
+        "MAP-DUN-GIRAN-F01"
+      ]
+    },
+    {
+      "id": "MON-HOBGOBLIN",
+      "name": "哈柏哥布林",
+      "addedInThisStage": false,
+      "binding": "actors/hobgoblin/hobgoblin-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-GLUDIN",
+        "MAP-REG-SILVER"
+      ]
+    },
+    {
+      "id": "MON-OGRE",
+      "name": "歐吉",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/ogre/ogre-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-GLUDIN",
+        "MAP-REG-DRAGON"
+      ]
+    },
+    {
+      "id": "MON-SHELOB",
+      "name": "夏洛伯",
+      "addedInThisStage": false,
+      "binding": "actors/shelob/shelob-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-GLUDIN",
+        "MAP-REG-HEINE",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON"
+      ]
+    },
+    {
+      "id": "MON-UNGOLE",
+      "name": "楊果里恩",
+      "addedInThisStage": false,
+      "binding": "actors/ungole/ungole-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-HEINE",
+        "MAP-REG-FORGOTTEN",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON"
+      ]
+    },
+    {
+      "id": "MON-ATUBA",
+      "name": "阿吐巴妖魔",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/atuba/atuba-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ELF",
+        "MAP-REG-SILVER",
+        "MAP-DUN-SLEEPING-F03"
+      ]
+    },
+    {
+      "id": "MON-GANDI",
+      "name": "甘地妖魔",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/gandi/gandi-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ELF",
+        "MAP-REG-SILVER",
+        "MAP-DUN-SLEEPING-F02"
+      ]
+    },
+    {
+      "id": "MON-NERUGA",
+      "name": "那魯加妖魔",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/neruga/neruga-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ELF",
+        "MAP-DUN-SLEEPING-F02"
+      ]
+    },
+    {
+      "id": "MON-DUDAMARA",
+      "name": "都達瑪拉妖魔",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/dudamara/dudamara-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ELF",
+        "MAP-DUN-SLEEPING-F03"
+      ]
+    },
+    {
+      "id": "MON-ROVA",
+      "name": "羅孚妖魔",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/rova/rova-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ELF",
+        "MAP-DUN-SLEEPING-F03"
+      ]
+    },
+    {
+      "id": "MON-ENT",
+      "name": "安特",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/ent/ent-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ELF"
+      ]
+    },
+    {
+      "id": "MON-PAN",
+      "name": "潘",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/pan/pan-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ELF",
+        "MAP-DUN-SLEEPING-F02"
+      ]
+    },
+    {
+      "id": "MON-MUSHROOM",
+      "name": "蘑菇",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/mushroom/mushroom-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ELF",
+        "MAP-DUN-SLEEPING-F01"
+      ]
+    },
+    {
+      "id": "MON-ANT",
+      "name": "巨蟻",
+      "addedInThisStage": false,
+      "binding": "actors/ant/ant-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-WINDAWOOD",
+        "MAP-REG-SILVER",
+        "MAP-SUB-WINDAWOOD-OASIS",
+        "MAP-DUN-DESERT-F01",
+        "MAP-DUN-ANT-F01"
+      ]
+    },
+    {
+      "id": "MON-SOLDIER-ANT",
+      "name": "巨大兵蟻",
+      "addedInThisStage": false,
+      "binding": "actors/soldier-ant/soldier-ant-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-WINDAWOOD",
+        "MAP-SUB-WINDAWOOD-OASIS",
+        "MAP-DUN-DESERT-F02",
+        "MAP-DUN-ANT-F01",
+        "MAP-DUN-ANT-F02"
+      ]
+    },
+    {
+      "id": "MON-SCORPION",
+      "name": "毒蠍",
+      "addedInThisStage": false,
+      "binding": "actors/scorpion/scorpion-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-WINDAWOOD",
+        "MAP-REG-SILVER",
+        "MAP-SUB-WINDAWOOD-OASIS",
+        "MAP-DUN-DESERT-F01",
+        "MAP-DUN-ANT-F02"
+      ]
+    },
+    {
+      "id": "MON-BASILISK",
+      "name": "邪惡蜥蜴",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/basilisk/basilisk-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-WINDAWOOD",
+        "MAP-REG-SILVER",
+        "MAP-SUB-WINDAWOOD-OASIS",
+        "MAP-DUN-DESERT-F02"
+      ]
+    },
+    {
+      "id": "MON-LYCANTHROPE",
+      "name": "萊肯",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/lycanthrope/lycanthrope-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-WINDAWOOD",
+        "MAP-REG-SILVER",
+        "MAP-SUB-WINDAWOOD-OASIS",
+        "MAP-DUN-DESERT-F03"
+      ]
+    },
+    {
+      "id": "MON-BLACK-KNIGHT",
+      "name": "黑騎士",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/black-knight/black-knight-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-SILVER"
+      ]
+    },
+    {
+      "id": "MON-HARPY",
+      "name": "哈維",
+      "addedInThisStage": false,
+      "binding": "hybrid-monster-staging/actors/harpy/harpy-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-WINDAWOOD",
+        "MAP-REG-DRAGON",
+        "MAP-REG-TWILIGHT",
+        "MAP-REG-WIND",
+        "MAP-SUB-WINDAWOOD-OASIS"
+      ]
+    },
+    {
+      "id": "MON-ARACHNE",
+      "name": "亞力安",
+      "addedInThisStage": false,
+      "binding": "hybrid-monster-staging/actors/arachne/arachne-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-DRAGON"
+      ]
+    },
+    {
+      "id": "MON-SKELETON-SNIPER",
+      "name": "骷髏狙擊手",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/skeleton-sniper/skeleton-sniper-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-DRAGON",
+        "MAP-DUN-DRAGON-F01"
+      ]
+    },
+    {
+      "id": "MON-SKELETON-GUARD",
+      "name": "骷髏近衛",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/skeleton-guard/skeleton-guard-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-DRAGON",
+        "MAP-DUN-DRAGON-F01"
+      ]
+    },
+    {
+      "id": "MON-SKELETON-RAIDER",
+      "name": "骷髏突擊兵",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/skeleton-raider/skeleton-raider-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-DRAGON",
+        "MAP-DUN-DRAGON-F02"
+      ]
+    },
+    {
+      "id": "MON-CROCODILE",
+      "name": "鱷魚",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/crocodile/crocodile-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-HEINE",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON"
+      ]
+    },
+    {
+      "id": "MON-GIANT-CROCODILE",
+      "name": "巨大鱷魚",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/giant-crocodile/giant-crocodile-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-HEINE",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON"
+      ]
+    },
+    {
+      "id": "MON-LIZARDMAN",
+      "name": "蜥蜴人",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/lizardman/lizardman-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-HEINE",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON",
+        "MAP-DUN-EVA-F01"
+      ]
+    },
+    {
+      "id": "MON-RATMAN",
+      "name": "鼠人",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/ratman/ratman-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-HEINE",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON",
+        "MAP-DUN-SEWER-F01"
+      ]
+    },
+    {
+      "id": "MON-LAMIA",
+      "name": "蛇女",
+      "addedInThisStage": false,
+      "binding": "hybrid-monster-staging/actors/lamia/lamia-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-HEINE",
+        "MAP-REG-FORGOTTEN",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON",
+        "MAP-DUN-DESERT-F03"
+      ]
+    },
+    {
+      "id": "MON-TURTLE-DRAGON",
+      "name": "龍龜",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/turtle-dragon/turtle-dragon-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-HEINE",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON",
+        "MAP-DUN-EVA-F02"
+      ]
+    },
+    {
+      "id": "MON-BEHOLDER",
+      "name": "多眼怪",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/beholder/beholder-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-HEINE",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON",
+        "MAP-DUN-SEWER-F02",
+        "MAP-DUN-SEWER-F03"
+      ]
+    },
+    {
+      "id": "MON-DOPPELGANGER",
+      "name": "變形怪",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/doppelganger/doppelganger-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-HEINE",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON"
+      ]
+    },
+    {
+      "id": "MON-DRAGONFLY",
+      "name": "龍蠅",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/dragonfly/dragonfly-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FIRE"
+      ]
+    },
+    {
+      "id": "MON-FIRE-WARRIOR",
+      "name": "火焰戰士",
+      "addedInThisStage": false,
+      "binding": "aux-humanoid-staging/actors/fire-warrior/fire-warrior-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FIRE"
+      ]
+    },
+    {
+      "id": "MON-FIRE-ARCHER",
+      "name": "火焰弓箭手",
+      "addedInThisStage": false,
+      "binding": "aux-humanoid-staging/actors/fire-archer/fire-archer-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FIRE"
+      ]
+    },
+    {
+      "id": "MON-ASTA",
+      "name": "阿西塔基奧",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/asta/asta-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FIRE",
+        "MAP-DUN-VALAKAS-F01"
+      ]
+    },
+    {
+      "id": "MON-LAVA-GOLEM",
+      "name": "熔岩高崙",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/lava-golem/lava-golem-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FIRE"
+      ]
+    },
+    {
+      "id": "MON-FIRE-BEAST",
+      "name": "烈炎獸",
+      "addedInThisStage": false,
+      "binding": "quadruped-staging/actors/fire-beast/fire-beast-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FIRE",
+        "MAP-DUN-VALAKAS-F01"
+      ]
+    },
+    {
+      "id": "MON-SALAMANDER",
+      "name": "火蜥蜴",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/salamander/salamander-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FIRE"
+      ]
+    },
+    {
+      "id": "MON-HELLHOUND",
+      "name": "地獄犬",
+      "addedInThisStage": false,
+      "binding": "quadruped-staging/actors/hellhound/hellhound-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FIRE"
+      ]
+    },
+    {
+      "id": "MON-YETI",
+      "name": "雪怪",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/yeti/yeti-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-OREN",
+        "MAP-SUB-OREN-WALL",
+        "MAP-DUN-CRYSTAL-F01"
+      ]
+    },
+    {
+      "id": "MON-ICE-GOLEM",
+      "name": "冰高崙",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/ice-golem/ice-golem-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-OREN",
+        "MAP-SUB-OREN-WALL",
+        "MAP-DUN-CRYSTAL-F01",
+        "MAP-DUN-CRYSTAL-F02",
+        "MAP-DUN-CRYSTAL-F03"
+      ]
+    },
+    {
+      "id": "MON-ELMORE-SOLDIER",
+      "name": "艾爾摩士兵",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/elmore-soldier/elmore-soldier-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-OREN",
+        "MAP-SUB-OREN-WALL"
+      ]
+    },
+    {
+      "id": "MON-ELMORE-MAGE",
+      "name": "艾爾摩法師",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/elmore-mage/elmore-mage-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-OREN",
+        "MAP-SUB-OREN-WALL",
+        "MAP-DUN-CRYSTAL-F02"
+      ]
+    },
+    {
+      "id": "MON-ELMORE-GENERAL",
+      "name": "艾爾摩將軍",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/elmore-general/elmore-general-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-OREN",
+        "MAP-SUB-OREN-WALL",
+        "MAP-DUN-CRYSTAL-F03"
+      ]
+    },
+    {
+      "id": "MON-OWLBEAR",
+      "name": "歐熊",
+      "addedInThisStage": false,
+      "binding": "quadruped-staging/actors/owlbear/owlbear-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-OREN",
+        "MAP-REG-FORGOTTEN",
+        "MAP-SUB-OREN-WALL"
+      ]
+    },
+    {
+      "id": "MON-TIGER",
+      "name": "叢林老虎",
+      "addedInThisStage": false,
+      "binding": "quadruped-staging/actors/tiger/tiger-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ADEN",
+        "MAP-SUB-ADEN-SCAR"
+      ]
+    },
+    {
+      "id": "MON-LIZARD",
+      "name": "蜥蜴",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/lizard/lizard-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ADEN",
+        "MAP-SUB-ADEN-SCAR"
+      ]
+    },
+    {
+      "id": "MON-BANDIT",
+      "name": "強盜",
+      "addedInThisStage": false,
+      "binding": "aux-humanoid-staging/actors/bandit/bandit-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ADEN",
+        "MAP-SUB-ADEN-SCAR"
+      ]
+    },
+    {
+      "id": "MON-BANDIT-ARCHER",
+      "name": "強盜弓箭手",
+      "addedInThisStage": false,
+      "binding": "aux-humanoid-staging/actors/bandit-archer/bandit-archer-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ADEN",
+        "MAP-SUB-ADEN-SCAR"
+      ]
+    },
+    {
+      "id": "MON-GIANT",
+      "name": "巨人",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/giant/giant-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TWILIGHT",
+        "MAP-REG-WIND"
+      ]
+    },
+    {
+      "id": "MON-GRIFFON",
+      "name": "格利芬",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/griffon/griffon-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TWILIGHT",
+        "MAP-REG-WIND",
+        "MAP-DUN-LINDVIOR-F01"
+      ]
+    },
+    {
+      "id": "MON-WYVERN",
+      "name": "翼龍",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/wyvern/wyvern-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-WIND",
+        "MAP-DUN-LINDVIOR-F01"
+      ]
+    },
+    {
+      "id": "MON-DIRE-WOLF",
+      "name": "恐狼",
+      "addedInThisStage": false,
+      "binding": "quadruped-staging/actors/dire-wolf/dire-wolf-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TWILIGHT"
+      ]
+    },
+    {
+      "id": "MON-SPARTOI",
+      "name": "史巴托",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/spartoi/spartoi-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-TALKING-F02",
+        "MAP-DUN-GLUDIN-F03",
+        "MAP-DUN-GLUDIN-F04",
+        "MAP-DUN-GLUDIN-F05",
+        "MAP-DUN-GLUDIN-F06",
+        "MAP-DUN-GIRAN-F01",
+        "MAP-DUN-DRAGON-F02"
+      ]
+    },
+    {
+      "id": "MON-GARGOYLE",
+      "name": "石像鬼",
+      "addedInThisStage": false,
+      "binding": "hybrid-monster-staging/actors/gargoyle/gargoyle-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-GLUDIN-F04",
+        "MAP-DUN-GIRAN-F02",
+        "MAP-DUN-DRAGON-F03"
+      ]
+    },
+    {
+      "id": "MON-SUCCUBUS",
+      "name": "思克巴",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/succubus/succubus-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-GLUDIN-F07",
+        "MAP-DUN-GIRAN-F03",
+        "MAP-DUN-DRAGON-F04",
+        "MAP-DUN-DRAGON-F05"
+      ]
+    },
+    {
+      "id": "MON-SUCCUBUS-QUEEN",
+      "name": "思克巴女皇",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/succubus-queen/succubus-queen-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-GIRAN-F04",
+        "MAP-DUN-DRAGON-F05",
+        "MAP-DUN-DRAGON-F06",
+        "MAP-DUN-DRAGON-F07",
+        "MAP-DUN-IVORY-F07"
+      ]
+    },
+    {
+      "id": "MON-CYCLOPS",
+      "name": "獨眼巨人",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/cyclops/cyclops-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TWILIGHT",
+        "MAP-DUN-DESERT-F04"
+      ]
+    },
+    {
+      "id": "MON-MEDUSA",
+      "name": "梅杜莎",
+      "addedInThisStage": false,
+      "binding": "hybrid-monster-staging/actors/medusa/medusa-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-DESERT-F04",
+        "MAP-DUN-GIRAN-F02",
+        "MAP-DUN-DRAGON-F03",
+        "MAP-DUN-TOI-F01",
+        "MAP-DUN-TOI-F02",
+        "MAP-DUN-TOI-F03",
+        "MAP-DUN-TOI-F04",
+        "MAP-DUN-TOI-F05"
+      ]
+    },
+    {
+      "id": "MON-IMP",
+      "name": "小惡魔",
+      "addedInThisStage": false,
+      "binding": "hybrid-monster-staging/actors/imp/imp-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-IVORY-F04",
+        "MAP-DUN-IVORY-F05"
+      ]
+    },
+    {
+      "id": "MON-IRON-GOLEM",
+      "name": "鐵高崙",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/iron-golem/iron-golem-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-GIRAN-F04",
+        "MAP-DUN-IVORY-F05",
+        "MAP-DUN-IVORY-F07"
+      ]
+    },
+    {
+      "id": "MON-LIVING-ARMOR",
+      "name": "活鎧甲",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/living-armor/living-armor-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-GLUDIN-F06",
+        "MAP-DUN-GLUDIN-F07",
+        "MAP-DUN-GIRAN-F03",
+        "MAP-DUN-DRAGON-F06",
+        "MAP-DUN-IVORY-F06",
+        "MAP-DUN-IVORY-F08"
+      ]
+    },
+    {
+      "id": "MON-CERBERUS",
+      "name": "三頭地獄犬",
+      "addedInThisStage": false,
+      "binding": "quadruped-staging/actors/cerberus/cerberus-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-GLUDIN-F06",
+        "MAP-DUN-GLUDIN-F07",
+        "MAP-DUN-GIRAN-F04",
+        "MAP-DUN-DRAGON-F04",
+        "MAP-DUN-DRAGON-F07",
+        "MAP-DUN-IVORY-F06",
+        "MAP-DUN-IVORY-F08",
+        "MAP-DUN-TOI-F11",
+        "MAP-DUN-TOI-F12",
+        "MAP-DUN-TOI-F13",
+        "MAP-DUN-TOI-F14",
+        "MAP-DUN-TOI-F15",
+        "MAP-DUN-TOI-F16",
+        "MAP-DUN-TOI-F17",
+        "MAP-DUN-TOI-F18",
+        "MAP-DUN-TOI-F19"
+      ]
+    },
+    {
+      "id": "MON-JELLYFISH",
+      "name": "水母",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/jellyfish/jellyfish-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-EVA-F01"
+      ]
+    },
+    {
+      "id": "MON-CRABMAN",
+      "name": "蟹人",
+      "addedInThisStage": false,
+      "binding": "hybrid-monster-staging/actors/crabman/crabman-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-EVA-F01"
+      ]
+    },
+    {
+      "id": "MON-MERFOLK",
+      "name": "人魚",
+      "addedInThisStage": false,
+      "binding": "hybrid-monster-staging/actors/merfolk/merfolk-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-EVA-F02",
+        "MAP-DUN-EVA-F03"
+      ]
+    },
+    {
+      "id": "MON-SEA-SERPENT",
+      "name": "海蛇",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/sea-serpent/sea-serpent-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-EVA-F02",
+        "MAP-DUN-EVA-F03",
+        "MAP-DUN-SEWER-F03"
+      ]
+    },
+    {
+      "id": "MON-JELLY",
+      "name": "果凍怪",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/jelly/jelly-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-SEWER-F01",
+        "MAP-DUN-SEWER-F02"
+      ]
+    },
+    {
+      "id": "MON-TROLL",
+      "name": "食人妖",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/troll/troll-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ADEN",
+        "MAP-SUB-ADEN-SCAR"
+      ]
+    },
+    {
+      "id": "MON-DARK-ELF",
+      "name": "黑暗精靈",
+      "addedInThisStage": false,
+      "binding": null,
+      "exists": false,
+      "maps": [
+        "MAP-REG-ADEN",
+        "MAP-SUB-ADEN-SCAR"
+      ]
+    },
+    {
+      "id": "MON-MINOTAUR",
+      "name": "巨斧牛人",
+      "addedInThisStage": false,
+      "binding": "hybrid-monster-staging/actors/minotaur/minotaur-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FORGOTTEN"
+      ]
+    },
+    {
+      "id": "MON-FI-DOPPELGANGER",
+      "name": "遺忘之島變形怪",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/fi-doppelganger/fi-doppelganger-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FORGOTTEN"
+      ]
+    },
+    {
+      "id": "MON-FI-DARK-ELF",
+      "name": "遺忘之島黑暗精靈",
+      "addedInThisStage": false,
+      "binding": "aux-humanoid-staging/actors/fi-dark-elf/fi-dark-elf-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FORGOTTEN"
+      ]
+    },
+    {
+      "id": "MON-FI-TROLL",
+      "name": "遺忘之島食人妖",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/fi-troll/fi-troll-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FORGOTTEN"
+      ]
+    },
+    {
+      "id": "MON-TOI-BEHOLDER",
+      "name": "邪惡多眼怪",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/toi-beholder/toi-beholder-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-TOI-F01",
+        "MAP-DUN-TOI-F02",
+        "MAP-DUN-TOI-F03",
+        "MAP-DUN-TOI-F04",
+        "MAP-DUN-TOI-F05",
+        "MAP-DUN-TOI-F06",
+        "MAP-DUN-TOI-F07",
+        "MAP-DUN-TOI-F08",
+        "MAP-DUN-TOI-F09"
+      ]
+    },
+    {
+      "id": "MON-TOI-MEDUSA",
+      "name": "邪惡梅杜莎",
+      "addedInThisStage": false,
+      "binding": "hybrid-monster-staging/actors/toi-medusa/toi-medusa-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-TOI-F06",
+        "MAP-DUN-TOI-F07",
+        "MAP-DUN-TOI-F08",
+        "MAP-DUN-TOI-F09",
+        "MAP-DUN-TOI-F10"
+      ]
+    },
+    {
+      "id": "MON-TOI-SUCCUBUS",
+      "name": "邪惡思克巴",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/toi-succubus/toi-succubus-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-TOI-F11",
+        "MAP-DUN-TOI-F12",
+        "MAP-DUN-TOI-F13",
+        "MAP-DUN-TOI-F14",
+        "MAP-DUN-TOI-F15",
+        "MAP-DUN-TOI-F16",
+        "MAP-DUN-TOI-F17",
+        "MAP-DUN-TOI-F18",
+        "MAP-DUN-TOI-F19",
+        "MAP-DUN-TOI-F20"
+      ]
+    },
+    {
+      "id": "MON-BAPHOMET",
+      "name": "巴風特",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/baphomet/baphomet-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-TALKING-F02"
+      ]
+    },
+    {
+      "id": "MON-DEATH-KNIGHT",
+      "name": "死亡騎士",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/death-knight/death-knight-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-GLUDIN-F05"
+      ]
+    },
+    {
+      "id": "MON-KURTZ",
+      "name": "克特",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/kurtz/kurtz-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST"
+      ]
+    },
+    {
+      "id": "MON-CASPA",
+      "name": "卡士柏",
+      "addedInThisStage": false,
+      "binding": "mage-boss-staging/actors/caspa/caspa-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-GLUDIN-F04"
+      ]
+    },
+    {
+      "id": "MON-MERKYOR",
+      "name": "馬庫爾",
+      "addedInThisStage": false,
+      "binding": "mage-boss-staging/actors/merkyor/merkyor-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-GLUDIN-F04"
+      ]
+    },
+    {
+      "id": "MON-BALTUZAR",
+      "name": "巴爾達薩",
+      "addedInThisStage": false,
+      "binding": "mage-boss-staging/actors/baltuzar/baltuzar-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-GLUDIN-F04"
+      ]
+    },
+    {
+      "id": "MON-SEMA",
+      "name": "賽瑪",
+      "addedInThisStage": false,
+      "binding": "mage-boss-staging/actors/sema/sema-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-GLUDIN-F04"
+      ]
+    },
+    {
+      "id": "MON-ANT-QUEEN",
+      "name": "巨蟻女皇",
+      "addedInThisStage": false,
+      "binding": "beast-staging/actors/ant-queen/ant-queen-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-ANT-F02"
+      ]
+    },
+    {
+      "id": "MON-DRAKE",
+      "name": "飛龍",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/drake/drake-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-DRAGON"
+      ]
+    },
+    {
+      "id": "MON-BLACK-ELDER",
+      "name": "黑長者",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/black-elder/black-elder-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-DRAGON"
+      ]
+    },
+    {
+      "id": "MON-DOPPEL-BOSS",
+      "name": "變形怪首領",
+      "addedInThisStage": false,
+      "binding": "monster-staging/actors/doppel-boss/doppel-boss-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-HEINE",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON"
+      ]
+    },
+    {
+      "id": "MON-IFRIT",
+      "name": "伊弗利特",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/ifrit/ifrit-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FIRE"
+      ]
+    },
+    {
+      "id": "MON-PHOENIX",
+      "name": "不死鳥",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/phoenix/phoenix-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-FIRE"
+      ]
+    },
+    {
+      "id": "MON-ICE-QUEEN",
+      "name": "冰之女王",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/ice-queen/ice-queen-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-CRYSTAL-F03"
+      ]
+    },
+    {
+      "id": "MON-DEMON",
+      "name": "惡魔",
+      "addedInThisStage": false,
+      "binding": "armored-construct-staging/actors/demon/demon-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-IVORY-F08"
+      ]
+    },
+    {
+      "id": "MON-ZENITH",
+      "name": "傑尼斯女王",
+      "addedInThisStage": false,
+      "binding": "hybrid-monster-staging/actors/zenith/zenith-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-TOI-F10"
+      ]
+    },
+    {
+      "id": "MON-SEER",
+      "name": "幻象眼魔",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/seer/seer-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-TOI-F20"
+      ]
+    },
+    {
+      "id": "MON-ANTHARAS",
+      "name": "安塔瑞斯",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/antharas/antharas-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-DRAGON-F07"
+      ]
+    },
+    {
+      "id": "MON-FAFURION",
+      "name": "法利昂",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/fafurion/fafurion-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-EVA-F03"
+      ]
+    },
+    {
+      "id": "MON-VALAKAS",
+      "name": "巴拉卡斯",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/valakas/valakas-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-VALAKAS-F01"
+      ]
+    },
+    {
+      "id": "MON-LINDVIOR",
+      "name": "林德拜爾",
+      "addedInThisStage": false,
+      "binding": "nonhumanoid-staging/actors/lindvior/lindvior-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-DUN-LINDVIOR-F01"
+      ]
+    },
+    {
+      "id": "MON-HUSKY",
+      "name": "哈士奇",
+      "addedInThisStage": false,
+      "binding": "actors/husky/husky-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-OREN",
+        "MAP-SUB-OREN-WALL"
+      ]
+    },
+    {
+      "id": "MON-DOBERMAN",
+      "name": "杜賓狗",
+      "addedInThisStage": false,
+      "binding": "actors/doberman/doberman-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-GLUDIN"
+      ]
+    },
+    {
+      "id": "MON-SHEPHERD",
+      "name": "牧羊犬",
+      "addedInThisStage": false,
+      "binding": "actors/shepherd/shepherd-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-GLUDIN",
+        "MAP-REG-SILVER"
+      ]
+    },
+    {
+      "id": "MON-COLLIE",
+      "name": "柯利犬",
+      "addedInThisStage": false,
+      "binding": "actors/collie/collie-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ELF"
+      ]
+    },
+    {
+      "id": "MON-BEAGLE",
+      "name": "小獵犬",
+      "addedInThisStage": false,
+      "binding": "actors/beagle/beagle-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-TALKING",
+        "MAP-SUB-TALKING-NORTH",
+        "MAP-SUB-TALKING-CENTRAL",
+        "MAP-SUB-TALKING-EAST"
+      ]
+    },
+    {
+      "id": "MON-CAT",
+      "name": "貓",
+      "addedInThisStage": false,
+      "binding": "actors/cat/cat-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ADEN",
+        "MAP-SUB-ADEN-SCAR"
+      ]
+    },
+    {
+      "id": "MON-RABBIT",
+      "name": "兔子",
+      "addedInThisStage": false,
+      "binding": "actors/rabbit/rabbit-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-ELF"
+      ]
+    },
+    {
+      "id": "MON-STBERNARD",
+      "name": "聖伯納犬",
+      "addedInThisStage": false,
+      "binding": "actors/stbernard/stbernard-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-OREN",
+        "MAP-SUB-OREN-WALL"
+      ]
+    },
+    {
+      "id": "MON-RACCOON",
+      "name": "浣熊",
+      "addedInThisStage": false,
+      "binding": "actors/raccoon/raccoon-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-HEINE",
+        "MAP-SUB-HEINE-MIRROR",
+        "MAP-SUB-HEINE-MOON"
+      ]
+    },
+    {
+      "id": "MON-GOBLIN",
+      "name": "哥布林",
+      "addedInThisStage": true,
+      "binding": "silver-three/actors/goblin/goblin-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-SILVER"
+      ]
+    },
+    {
+      "id": "MON-DWARF-WARRIOR",
+      "name": "侏儒戰士",
+      "addedInThisStage": true,
+      "binding": "silver-three/actors/dwarf-warrior/dwarf-warrior-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-SILVER"
+      ]
+    },
+    {
+      "id": "MON-ORC-WIZARD",
+      "name": "妖魔法師",
+      "addedInThisStage": true,
+      "binding": "silver-three/actors/orc-wizard/orc-wizard-runtime.json",
+      "exists": true,
+      "maps": [
+        "MAP-REG-SILVER"
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "mapId": "MAP-REG-TALKING",
+      "name": "說話之島野外獵場",
+      "baseSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-DWARF",
+        "MON-GOLEM",
+        "MON-ELDER",
+        "MON-WEREWOLF",
+        "MON-FLOATING-EYE",
+        "MON-WOLF",
+        "MON-BEAR",
+        "MON-FOX",
+        "MON-SLIME",
+        "MON-SKELETON",
+        "MON-ZOMBIE",
+        "MON-KURTZ",
+        "MON-BEAGLE"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-DWARF",
+        "MON-GOLEM",
+        "MON-ELDER",
+        "MON-WEREWOLF",
+        "MON-FLOATING-EYE",
+        "MON-WOLF",
+        "MON-BEAR",
+        "MON-FOX",
+        "MON-SLIME",
+        "MON-SKELETON",
+        "MON-ZOMBIE",
+        "MON-KURTZ",
+        "MON-BEAGLE"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-GLUDIN",
+      "name": "古魯丁野外獵場",
+      "baseSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-GOLEM",
+        "MON-ZOMBIE",
+        "MON-GHOUL",
+        "MON-BUGBEAR",
+        "MON-SKELETON",
+        "MON-SKELETON-ARCHER",
+        "MON-SKELETON-SPEAR",
+        "MON-HOBGOBLIN",
+        "MON-OGRE",
+        "MON-WOLF",
+        "MON-BOAR",
+        "MON-SHELOB",
+        "MON-DOBERMAN",
+        "MON-SHEPHERD"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-GOLEM",
+        "MON-ZOMBIE",
+        "MON-GHOUL",
+        "MON-BUGBEAR",
+        "MON-SKELETON",
+        "MON-SKELETON-ARCHER",
+        "MON-SKELETON-SPEAR",
+        "MON-HOBGOBLIN",
+        "MON-OGRE",
+        "MON-WOLF",
+        "MON-BOAR",
+        "MON-SHELOB",
+        "MON-DOBERMAN",
+        "MON-SHEPHERD"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-ELF",
+      "name": "妖精森林野外獵場",
+      "baseSpecies": [
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-ATUBA",
+        "MON-GANDI",
+        "MON-NERUGA",
+        "MON-DUDAMARA",
+        "MON-ROVA",
+        "MON-GOLEM",
+        "MON-ZOMBIE",
+        "MON-ENT",
+        "MON-PAN",
+        "MON-MUSHROOM",
+        "MON-FOX",
+        "MON-BEAR",
+        "MON-COLLIE",
+        "MON-RABBIT"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-ATUBA",
+        "MON-GANDI",
+        "MON-NERUGA",
+        "MON-DUDAMARA",
+        "MON-ROVA",
+        "MON-GOLEM",
+        "MON-ZOMBIE",
+        "MON-ENT",
+        "MON-PAN",
+        "MON-MUSHROOM",
+        "MON-FOX",
+        "MON-BEAR",
+        "MON-COLLIE",
+        "MON-RABBIT"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-WINDAWOOD",
+      "name": "風木野外獵場",
+      "baseSpecies": [
+        "MON-ORC-FIGHTER",
+        "MON-GOLEM",
+        "MON-FLOATING-EYE",
+        "MON-ANT",
+        "MON-SOLDIER-ANT",
+        "MON-SCORPION",
+        "MON-BASILISK",
+        "MON-LYCANTHROPE",
+        "MON-HARPY"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ORC-FIGHTER",
+        "MON-GOLEM",
+        "MON-FLOATING-EYE",
+        "MON-ANT",
+        "MON-SOLDIER-ANT",
+        "MON-SCORPION",
+        "MON-BASILISK",
+        "MON-LYCANTHROPE",
+        "MON-HARPY"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-SILVER",
+      "name": "銀騎士地區野外獵場",
+      "baseSpecies": [
+        "MON-SCORPION",
+        "MON-BASILISK",
+        "MON-LYCANTHROPE",
+        "MON-HOBGOBLIN",
+        "MON-ZOMBIE",
+        "MON-GHOUL",
+        "MON-BLACK-KNIGHT",
+        "MON-ANT"
+      ],
+      "fixedCampSpecies": [
+        "MON-GOBLIN",
+        "MON-ORC-ARCHER",
+        "MON-ORC",
+        "MON-ORC-FIGHTER",
+        "MON-GANDI",
+        "MON-ORC-WIZARD",
+        "MON-ATUBA",
+        "MON-WEREWOLF",
+        "MON-LYCANTHROPE",
+        "MON-HOBGOBLIN",
+        "MON-DWARF",
+        "MON-DWARF-WARRIOR",
+        "MON-WOLF",
+        "MON-SHEPHERD"
+      ],
+      "effectiveSpecies": [
+        "MON-SCORPION",
+        "MON-BASILISK",
+        "MON-LYCANTHROPE",
+        "MON-HOBGOBLIN",
+        "MON-ZOMBIE",
+        "MON-GHOUL",
+        "MON-BLACK-KNIGHT",
+        "MON-ANT",
+        "MON-GOBLIN",
+        "MON-ORC-ARCHER",
+        "MON-ORC",
+        "MON-ORC-FIGHTER",
+        "MON-GANDI",
+        "MON-ORC-WIZARD",
+        "MON-ATUBA",
+        "MON-WEREWOLF",
+        "MON-DWARF",
+        "MON-DWARF-WARRIOR",
+        "MON-WOLF",
+        "MON-SHEPHERD"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-DRAGON",
+      "name": "龍之谷野外獵場",
+      "baseSpecies": [
+        "MON-SKELETON-SNIPER",
+        "MON-SKELETON-GUARD",
+        "MON-SKELETON-RAIDER",
+        "MON-ARACHNE",
+        "MON-HARPY",
+        "MON-OGRE",
+        "MON-DRAKE",
+        "MON-BLACK-ELDER"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SKELETON-SNIPER",
+        "MON-SKELETON-GUARD",
+        "MON-SKELETON-RAIDER",
+        "MON-ARACHNE",
+        "MON-HARPY",
+        "MON-OGRE",
+        "MON-DRAKE",
+        "MON-BLACK-ELDER"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-HEINE",
+      "name": "海音地區野外獵場",
+      "baseSpecies": [
+        "MON-CROCODILE",
+        "MON-GIANT-CROCODILE",
+        "MON-LIZARDMAN",
+        "MON-RATMAN",
+        "MON-LAMIA",
+        "MON-TURTLE-DRAGON",
+        "MON-SHELOB",
+        "MON-UNGOLE",
+        "MON-BEHOLDER",
+        "MON-DOPPELGANGER",
+        "MON-DOPPEL-BOSS",
+        "MON-RACCOON"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-CROCODILE",
+        "MON-GIANT-CROCODILE",
+        "MON-LIZARDMAN",
+        "MON-RATMAN",
+        "MON-LAMIA",
+        "MON-TURTLE-DRAGON",
+        "MON-SHELOB",
+        "MON-UNGOLE",
+        "MON-BEHOLDER",
+        "MON-DOPPELGANGER",
+        "MON-DOPPEL-BOSS",
+        "MON-RACCOON"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-FIRE",
+      "name": "火龍窟",
+      "baseSpecies": [
+        "MON-DRAGONFLY",
+        "MON-FIRE-WARRIOR",
+        "MON-FIRE-ARCHER",
+        "MON-ASTA",
+        "MON-LAVA-GOLEM",
+        "MON-FIRE-BEAST",
+        "MON-SALAMANDER",
+        "MON-HELLHOUND",
+        "MON-IFRIT",
+        "MON-PHOENIX"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-DRAGONFLY",
+        "MON-FIRE-WARRIOR",
+        "MON-FIRE-ARCHER",
+        "MON-ASTA",
+        "MON-LAVA-GOLEM",
+        "MON-FIRE-BEAST",
+        "MON-SALAMANDER",
+        "MON-HELLHOUND",
+        "MON-IFRIT",
+        "MON-PHOENIX"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-OREN",
+      "name": "歐瑞地區野外狩獵",
+      "baseSpecies": [
+        "MON-DWARF",
+        "MON-YETI",
+        "MON-ICE-GOLEM",
+        "MON-ELMORE-SOLDIER",
+        "MON-ELMORE-MAGE",
+        "MON-ELMORE-GENERAL",
+        "MON-OWLBEAR",
+        "MON-HUSKY",
+        "MON-STBERNARD"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-DWARF",
+        "MON-YETI",
+        "MON-ICE-GOLEM",
+        "MON-ELMORE-SOLDIER",
+        "MON-ELMORE-MAGE",
+        "MON-ELMORE-GENERAL",
+        "MON-OWLBEAR",
+        "MON-HUSKY",
+        "MON-STBERNARD"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-ADEN",
+      "name": "亞丁地區野外獵場",
+      "baseSpecies": [
+        "MON-TIGER",
+        "MON-LIZARD",
+        "MON-BANDIT",
+        "MON-BANDIT-ARCHER",
+        "MON-TROLL",
+        "MON-DARK-ELF",
+        "MON-CAT"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TIGER",
+        "MON-LIZARD",
+        "MON-BANDIT",
+        "MON-BANDIT-ARCHER",
+        "MON-TROLL",
+        "MON-DARK-ELF",
+        "MON-CAT"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-TWILIGHT",
+      "name": "黃昏山脈",
+      "baseSpecies": [
+        "MON-GIANT",
+        "MON-GRIFFON",
+        "MON-HARPY",
+        "MON-DIRE-WOLF",
+        "MON-CYCLOPS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-GIANT",
+        "MON-GRIFFON",
+        "MON-HARPY",
+        "MON-DIRE-WOLF",
+        "MON-CYCLOPS"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-WIND",
+      "name": "風龍窟",
+      "baseSpecies": [
+        "MON-WYVERN",
+        "MON-GRIFFON",
+        "MON-HARPY",
+        "MON-GIANT"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-WYVERN",
+        "MON-GRIFFON",
+        "MON-HARPY",
+        "MON-GIANT"
+      ]
+    },
+    {
+      "mapId": "MAP-REG-FORGOTTEN",
+      "name": "遺忘之島",
+      "baseSpecies": [
+        "MON-FI-DOPPELGANGER",
+        "MON-FI-DARK-ELF",
+        "MON-FI-TROLL",
+        "MON-MINOTAUR",
+        "MON-OWLBEAR",
+        "MON-LAMIA",
+        "MON-UNGOLE"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-FI-DOPPELGANGER",
+        "MON-FI-DARK-ELF",
+        "MON-FI-TROLL",
+        "MON-MINOTAUR",
+        "MON-OWLBEAR",
+        "MON-LAMIA",
+        "MON-UNGOLE"
+      ]
+    },
+    {
+      "mapId": "MAP-SUB-TALKING-NORTH",
+      "name": "說話之島北島",
+      "baseSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-DWARF",
+        "MON-GOLEM",
+        "MON-ELDER",
+        "MON-WEREWOLF",
+        "MON-FLOATING-EYE",
+        "MON-WOLF",
+        "MON-BEAR",
+        "MON-FOX",
+        "MON-SLIME",
+        "MON-SKELETON",
+        "MON-ZOMBIE",
+        "MON-KURTZ",
+        "MON-BEAGLE"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-DWARF",
+        "MON-GOLEM",
+        "MON-ELDER",
+        "MON-WEREWOLF",
+        "MON-FLOATING-EYE",
+        "MON-WOLF",
+        "MON-BEAR",
+        "MON-FOX",
+        "MON-SLIME",
+        "MON-SKELETON",
+        "MON-ZOMBIE",
+        "MON-KURTZ",
+        "MON-BEAGLE"
+      ]
+    },
+    {
+      "mapId": "MAP-SUB-TALKING-CENTRAL",
+      "name": "說話之島中央獵場",
+      "baseSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-DWARF",
+        "MON-GOLEM",
+        "MON-ELDER",
+        "MON-WEREWOLF",
+        "MON-FLOATING-EYE",
+        "MON-WOLF",
+        "MON-BEAR",
+        "MON-FOX",
+        "MON-SLIME",
+        "MON-SKELETON",
+        "MON-ZOMBIE",
+        "MON-KURTZ",
+        "MON-BEAGLE"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-DWARF",
+        "MON-GOLEM",
+        "MON-ELDER",
+        "MON-WEREWOLF",
+        "MON-FLOATING-EYE",
+        "MON-WOLF",
+        "MON-BEAR",
+        "MON-FOX",
+        "MON-SLIME",
+        "MON-SKELETON",
+        "MON-ZOMBIE",
+        "MON-KURTZ",
+        "MON-BEAGLE"
+      ]
+    },
+    {
+      "mapId": "MAP-SUB-TALKING-EAST",
+      "name": "說話之島東邊獵場",
+      "baseSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-DWARF",
+        "MON-GOLEM",
+        "MON-ELDER",
+        "MON-WEREWOLF",
+        "MON-FLOATING-EYE",
+        "MON-WOLF",
+        "MON-BEAR",
+        "MON-FOX",
+        "MON-SLIME",
+        "MON-SKELETON",
+        "MON-ZOMBIE",
+        "MON-KURTZ",
+        "MON-BEAGLE"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-ORC-FIGHTER",
+        "MON-DWARF",
+        "MON-GOLEM",
+        "MON-ELDER",
+        "MON-WEREWOLF",
+        "MON-FLOATING-EYE",
+        "MON-WOLF",
+        "MON-BEAR",
+        "MON-FOX",
+        "MON-SLIME",
+        "MON-SKELETON",
+        "MON-ZOMBIE",
+        "MON-KURTZ",
+        "MON-BEAGLE"
+      ]
+    },
+    {
+      "mapId": "MAP-SUB-WINDAWOOD-OASIS",
+      "name": "風木綠洲",
+      "baseSpecies": [
+        "MON-ORC-FIGHTER",
+        "MON-GOLEM",
+        "MON-FLOATING-EYE",
+        "MON-ANT",
+        "MON-SOLDIER-ANT",
+        "MON-SCORPION",
+        "MON-BASILISK",
+        "MON-LYCANTHROPE",
+        "MON-HARPY"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ORC-FIGHTER",
+        "MON-GOLEM",
+        "MON-FLOATING-EYE",
+        "MON-ANT",
+        "MON-SOLDIER-ANT",
+        "MON-SCORPION",
+        "MON-BASILISK",
+        "MON-LYCANTHROPE",
+        "MON-HARPY"
+      ]
+    },
+    {
+      "mapId": "MAP-SUB-HEINE-MIRROR",
+      "name": "鏡子森林",
+      "baseSpecies": [
+        "MON-CROCODILE",
+        "MON-GIANT-CROCODILE",
+        "MON-LIZARDMAN",
+        "MON-RATMAN",
+        "MON-LAMIA",
+        "MON-TURTLE-DRAGON",
+        "MON-SHELOB",
+        "MON-UNGOLE",
+        "MON-BEHOLDER",
+        "MON-DOPPELGANGER",
+        "MON-DOPPEL-BOSS",
+        "MON-RACCOON"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-CROCODILE",
+        "MON-GIANT-CROCODILE",
+        "MON-LIZARDMAN",
+        "MON-RATMAN",
+        "MON-LAMIA",
+        "MON-TURTLE-DRAGON",
+        "MON-SHELOB",
+        "MON-UNGOLE",
+        "MON-BEHOLDER",
+        "MON-DOPPELGANGER",
+        "MON-DOPPEL-BOSS",
+        "MON-RACCOON"
+      ]
+    },
+    {
+      "mapId": "MAP-SUB-HEINE-MOON",
+      "name": "霧月島",
+      "baseSpecies": [
+        "MON-CROCODILE",
+        "MON-GIANT-CROCODILE",
+        "MON-LIZARDMAN",
+        "MON-RATMAN",
+        "MON-LAMIA",
+        "MON-TURTLE-DRAGON",
+        "MON-SHELOB",
+        "MON-UNGOLE",
+        "MON-BEHOLDER",
+        "MON-DOPPELGANGER",
+        "MON-DOPPEL-BOSS",
+        "MON-RACCOON"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-CROCODILE",
+        "MON-GIANT-CROCODILE",
+        "MON-LIZARDMAN",
+        "MON-RATMAN",
+        "MON-LAMIA",
+        "MON-TURTLE-DRAGON",
+        "MON-SHELOB",
+        "MON-UNGOLE",
+        "MON-BEHOLDER",
+        "MON-DOPPELGANGER",
+        "MON-DOPPEL-BOSS",
+        "MON-RACCOON"
+      ]
+    },
+    {
+      "mapId": "MAP-SUB-OREN-WALL",
+      "name": "歐瑞雪壁",
+      "baseSpecies": [
+        "MON-DWARF",
+        "MON-YETI",
+        "MON-ICE-GOLEM",
+        "MON-ELMORE-SOLDIER",
+        "MON-ELMORE-MAGE",
+        "MON-ELMORE-GENERAL",
+        "MON-OWLBEAR",
+        "MON-HUSKY",
+        "MON-STBERNARD"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-DWARF",
+        "MON-YETI",
+        "MON-ICE-GOLEM",
+        "MON-ELMORE-SOLDIER",
+        "MON-ELMORE-MAGE",
+        "MON-ELMORE-GENERAL",
+        "MON-OWLBEAR",
+        "MON-HUSKY",
+        "MON-STBERNARD"
+      ]
+    },
+    {
+      "mapId": "MAP-SUB-ADEN-SCAR",
+      "name": "風龍的傷痕",
+      "baseSpecies": [
+        "MON-TIGER",
+        "MON-LIZARD",
+        "MON-BANDIT",
+        "MON-BANDIT-ARCHER",
+        "MON-TROLL",
+        "MON-DARK-ELF",
+        "MON-CAT"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TIGER",
+        "MON-LIZARD",
+        "MON-BANDIT",
+        "MON-BANDIT-ARCHER",
+        "MON-TROLL",
+        "MON-DARK-ELF",
+        "MON-CAT"
+      ]
+    },
+    {
+      "mapId": "MAP-TOWN-TALKING",
+      "name": "說話之島村",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-TOWN-GLUDIN",
+      "name": "古魯丁村",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-TOWN-KENT",
+      "name": "肯特村",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-TOWN-ELF",
+      "name": "妖精森林村",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-TOWN-WILLOW",
+      "name": "燃柳村",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-TOWN-WINDAWOOD",
+      "name": "風木聚落（設計聚落範圍）",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-TOWN-SILVER",
+      "name": "銀騎士村",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-TOWN-GIRAN",
+      "name": "奇岩村",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-TOWN-HEINE",
+      "name": "海音村",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-TOWN-WERLD",
+      "name": "威頓村",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-TOWN-OREN",
+      "name": "歐瑞村",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-TOWN-ADEN",
+      "name": "亞丁村",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-DUN-TALKING-F01",
+      "name": "說話之島地監 1樓",
+      "baseSpecies": [
+        "MON-SKELETON",
+        "MON-SKELETON-ARCHER",
+        "MON-ZOMBIE",
+        "MON-WEREWOLF"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SKELETON",
+        "MON-SKELETON-ARCHER",
+        "MON-ZOMBIE",
+        "MON-WEREWOLF"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TALKING-F02",
+      "name": "說話之島地監 2樓",
+      "baseSpecies": [
+        "MON-SKELETON-SPEAR",
+        "MON-GHOUL",
+        "MON-SPARTOI",
+        "MON-BAPHOMET"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SKELETON-SPEAR",
+        "MON-GHOUL",
+        "MON-SPARTOI",
+        "MON-BAPHOMET"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-SLEEPING-F01",
+      "name": "眠龍洞穴 1樓",
+      "baseSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-MUSHROOM"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ORC",
+        "MON-ORC-ARCHER",
+        "MON-MUSHROOM"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-SLEEPING-F02",
+      "name": "眠龍洞穴 2樓",
+      "baseSpecies": [
+        "MON-ORC-FIGHTER",
+        "MON-GANDI",
+        "MON-NERUGA",
+        "MON-PAN"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ORC-FIGHTER",
+        "MON-GANDI",
+        "MON-NERUGA",
+        "MON-PAN"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-SLEEPING-F03",
+      "name": "眠龍洞穴 3樓",
+      "baseSpecies": [
+        "MON-ATUBA",
+        "MON-DUDAMARA",
+        "MON-ROVA",
+        "MON-GHOUL",
+        "MON-ELDER"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ATUBA",
+        "MON-DUDAMARA",
+        "MON-ROVA",
+        "MON-GHOUL",
+        "MON-ELDER"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F01",
+      "name": "古魯丁地監 1樓",
+      "baseSpecies": [
+        "MON-SKELETON",
+        "MON-ZOMBIE",
+        "MON-ORC"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SKELETON",
+        "MON-ZOMBIE",
+        "MON-ORC"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F02",
+      "name": "古魯丁地監 2樓",
+      "baseSpecies": [
+        "MON-SKELETON-ARCHER",
+        "MON-GHOUL",
+        "MON-ORC-FIGHTER"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SKELETON-ARCHER",
+        "MON-GHOUL",
+        "MON-ORC-FIGHTER"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F03",
+      "name": "古魯丁地監 3樓",
+      "baseSpecies": [
+        "MON-SKELETON-SPEAR",
+        "MON-SPARTOI",
+        "MON-BUGBEAR"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SKELETON-SPEAR",
+        "MON-SPARTOI",
+        "MON-BUGBEAR"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F04",
+      "name": "古魯丁地監 4樓",
+      "baseSpecies": [
+        "MON-SPARTOI",
+        "MON-GARGOYLE",
+        "MON-CASPA",
+        "MON-MERKYOR",
+        "MON-BALTUZAR",
+        "MON-SEMA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SPARTOI",
+        "MON-GARGOYLE",
+        "MON-CASPA",
+        "MON-MERKYOR",
+        "MON-BALTUZAR",
+        "MON-SEMA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F05",
+      "name": "古魯丁地監 5樓",
+      "baseSpecies": [
+        "MON-GHOUL",
+        "MON-SPARTOI",
+        "MON-BUGBEAR",
+        "MON-DEATH-KNIGHT"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-GHOUL",
+        "MON-SPARTOI",
+        "MON-BUGBEAR",
+        "MON-DEATH-KNIGHT"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F06",
+      "name": "古魯丁地監 6樓",
+      "baseSpecies": [
+        "MON-SPARTOI",
+        "MON-LIVING-ARMOR",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SPARTOI",
+        "MON-LIVING-ARMOR",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F07",
+      "name": "古魯丁地監 7樓",
+      "baseSpecies": [
+        "MON-LIVING-ARMOR",
+        "MON-CERBERUS",
+        "MON-SUCCUBUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-LIVING-ARMOR",
+        "MON-CERBERUS",
+        "MON-SUCCUBUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-DESERT-F01",
+      "name": "沙漠地監 1樓",
+      "baseSpecies": [
+        "MON-ANT",
+        "MON-SCORPION"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ANT",
+        "MON-SCORPION"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-DESERT-F02",
+      "name": "沙漠地監 2樓",
+      "baseSpecies": [
+        "MON-SOLDIER-ANT",
+        "MON-BASILISK"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SOLDIER-ANT",
+        "MON-BASILISK"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-DESERT-F03",
+      "name": "沙漠地監 3樓",
+      "baseSpecies": [
+        "MON-LYCANTHROPE",
+        "MON-LAMIA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-LYCANTHROPE",
+        "MON-LAMIA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-DESERT-F04",
+      "name": "沙漠地監 4樓",
+      "baseSpecies": [
+        "MON-MEDUSA",
+        "MON-CYCLOPS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-MEDUSA",
+        "MON-CYCLOPS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-ANT-F01",
+      "name": "螞蟻洞窟 1樓",
+      "baseSpecies": [
+        "MON-ANT",
+        "MON-SOLDIER-ANT"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ANT",
+        "MON-SOLDIER-ANT"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-ANT-F02",
+      "name": "螞蟻洞窟 2樓",
+      "baseSpecies": [
+        "MON-SOLDIER-ANT",
+        "MON-SCORPION",
+        "MON-ANT-QUEEN"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SOLDIER-ANT",
+        "MON-SCORPION",
+        "MON-ANT-QUEEN"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-GIRAN-F01",
+      "name": "奇岩地監 1樓",
+      "baseSpecies": [
+        "MON-BUGBEAR",
+        "MON-GHOUL",
+        "MON-SPARTOI"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-BUGBEAR",
+        "MON-GHOUL",
+        "MON-SPARTOI"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-GIRAN-F02",
+      "name": "奇岩地監 2樓",
+      "baseSpecies": [
+        "MON-GARGOYLE",
+        "MON-MEDUSA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-GARGOYLE",
+        "MON-MEDUSA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-GIRAN-F03",
+      "name": "奇岩地監 3樓",
+      "baseSpecies": [
+        "MON-SUCCUBUS",
+        "MON-LIVING-ARMOR"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SUCCUBUS",
+        "MON-LIVING-ARMOR"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-GIRAN-F04",
+      "name": "奇岩地監 4樓",
+      "baseSpecies": [
+        "MON-SUCCUBUS-QUEEN",
+        "MON-CERBERUS",
+        "MON-IRON-GOLEM"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SUCCUBUS-QUEEN",
+        "MON-CERBERUS",
+        "MON-IRON-GOLEM"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F01",
+      "name": "龍之谷地監 1樓",
+      "baseSpecies": [
+        "MON-SKELETON-SNIPER",
+        "MON-SKELETON-GUARD"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SKELETON-SNIPER",
+        "MON-SKELETON-GUARD"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F02",
+      "name": "龍之谷地監 2樓",
+      "baseSpecies": [
+        "MON-SKELETON-RAIDER",
+        "MON-SPARTOI"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SKELETON-RAIDER",
+        "MON-SPARTOI"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F03",
+      "name": "龍之谷地監 3樓",
+      "baseSpecies": [
+        "MON-GARGOYLE",
+        "MON-MEDUSA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-GARGOYLE",
+        "MON-MEDUSA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F04",
+      "name": "龍之谷地監 4樓",
+      "baseSpecies": [
+        "MON-SUCCUBUS",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SUCCUBUS",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F05",
+      "name": "龍之谷地監 5樓",
+      "baseSpecies": [
+        "MON-SUCCUBUS",
+        "MON-SUCCUBUS-QUEEN"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SUCCUBUS",
+        "MON-SUCCUBUS-QUEEN"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F06",
+      "name": "龍之谷地監 6樓",
+      "baseSpecies": [
+        "MON-SUCCUBUS-QUEEN",
+        "MON-LIVING-ARMOR"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SUCCUBUS-QUEEN",
+        "MON-LIVING-ARMOR"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F07",
+      "name": "龍之谷地監 7樓",
+      "baseSpecies": [
+        "MON-SUCCUBUS-QUEEN",
+        "MON-CERBERUS",
+        "MON-ANTHARAS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SUCCUBUS-QUEEN",
+        "MON-CERBERUS",
+        "MON-ANTHARAS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-EVA-F01",
+      "name": "伊娃王國地監 1樓",
+      "baseSpecies": [
+        "MON-JELLYFISH",
+        "MON-CRABMAN",
+        "MON-LIZARDMAN"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-JELLYFISH",
+        "MON-CRABMAN",
+        "MON-LIZARDMAN"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-EVA-F02",
+      "name": "伊娃王國地監 2樓",
+      "baseSpecies": [
+        "MON-MERFOLK",
+        "MON-SEA-SERPENT",
+        "MON-TURTLE-DRAGON"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-MERFOLK",
+        "MON-SEA-SERPENT",
+        "MON-TURTLE-DRAGON"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-EVA-F03",
+      "name": "伊娃王國地監 3樓",
+      "baseSpecies": [
+        "MON-SEA-SERPENT",
+        "MON-MERFOLK",
+        "MON-FAFURION"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SEA-SERPENT",
+        "MON-MERFOLK",
+        "MON-FAFURION"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F01",
+      "name": "象牙塔 1樓",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F02",
+      "name": "象牙塔 2樓",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F03",
+      "name": "象牙塔 3樓",
+      "baseSpecies": [],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": []
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F04",
+      "name": "象牙塔 4樓",
+      "baseSpecies": [
+        "MON-IMP",
+        "MON-GOLEM"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-IMP",
+        "MON-GOLEM"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F05",
+      "name": "象牙塔 5樓",
+      "baseSpecies": [
+        "MON-IMP",
+        "MON-IRON-GOLEM"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-IMP",
+        "MON-IRON-GOLEM"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F06",
+      "name": "象牙塔 6樓",
+      "baseSpecies": [
+        "MON-LIVING-ARMOR",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-LIVING-ARMOR",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F07",
+      "name": "象牙塔 7樓",
+      "baseSpecies": [
+        "MON-SUCCUBUS-QUEEN",
+        "MON-IRON-GOLEM"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-SUCCUBUS-QUEEN",
+        "MON-IRON-GOLEM"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F08",
+      "name": "象牙塔 8樓",
+      "baseSpecies": [
+        "MON-LIVING-ARMOR",
+        "MON-CERBERUS",
+        "MON-DEMON"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-LIVING-ARMOR",
+        "MON-CERBERUS",
+        "MON-DEMON"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-CRYSTAL-F01",
+      "name": "水晶洞穴 1樓",
+      "baseSpecies": [
+        "MON-YETI",
+        "MON-ICE-GOLEM"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-YETI",
+        "MON-ICE-GOLEM"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-CRYSTAL-F02",
+      "name": "水晶洞穴 2樓",
+      "baseSpecies": [
+        "MON-ICE-GOLEM",
+        "MON-ELMORE-MAGE"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ICE-GOLEM",
+        "MON-ELMORE-MAGE"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-CRYSTAL-F03",
+      "name": "水晶洞穴 3樓",
+      "baseSpecies": [
+        "MON-ICE-GOLEM",
+        "MON-ELMORE-GENERAL",
+        "MON-ICE-QUEEN"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ICE-GOLEM",
+        "MON-ELMORE-GENERAL",
+        "MON-ICE-QUEEN"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-VALAKAS-F01",
+      "name": "巴拉卡斯棲息地 1樓",
+      "baseSpecies": [
+        "MON-ASTA",
+        "MON-FIRE-BEAST",
+        "MON-VALAKAS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-ASTA",
+        "MON-FIRE-BEAST",
+        "MON-VALAKAS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-LINDVIOR-F01",
+      "name": "林德拜爾棲息地 1樓",
+      "baseSpecies": [
+        "MON-WYVERN",
+        "MON-GRIFFON",
+        "MON-LINDVIOR"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-WYVERN",
+        "MON-GRIFFON",
+        "MON-LINDVIOR"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-SEWER-F01",
+      "name": "亞丁地下水道 1樓",
+      "baseSpecies": [
+        "MON-RATMAN",
+        "MON-JELLY"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-RATMAN",
+        "MON-JELLY"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-SEWER-F02",
+      "name": "亞丁地下水道 2樓",
+      "baseSpecies": [
+        "MON-JELLY",
+        "MON-BEHOLDER"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-JELLY",
+        "MON-BEHOLDER"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-SEWER-F03",
+      "name": "亞丁地下水道 3樓",
+      "baseSpecies": [
+        "MON-BEHOLDER",
+        "MON-GHOUL",
+        "MON-SEA-SERPENT"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-BEHOLDER",
+        "MON-GHOUL",
+        "MON-SEA-SERPENT"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F01",
+      "name": "傲慢之塔 1樓",
+      "baseSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-MEDUSA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-MEDUSA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F02",
+      "name": "傲慢之塔 2樓",
+      "baseSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-MEDUSA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-MEDUSA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F03",
+      "name": "傲慢之塔 3樓",
+      "baseSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-MEDUSA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-MEDUSA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F04",
+      "name": "傲慢之塔 4樓",
+      "baseSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-MEDUSA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-MEDUSA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F05",
+      "name": "傲慢之塔 5樓",
+      "baseSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-MEDUSA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-MEDUSA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F06",
+      "name": "傲慢之塔 6樓",
+      "baseSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-TOI-MEDUSA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-TOI-MEDUSA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F07",
+      "name": "傲慢之塔 7樓",
+      "baseSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-TOI-MEDUSA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-TOI-MEDUSA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F08",
+      "name": "傲慢之塔 8樓",
+      "baseSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-TOI-MEDUSA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-TOI-MEDUSA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F09",
+      "name": "傲慢之塔 9樓",
+      "baseSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-TOI-MEDUSA"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-BEHOLDER",
+        "MON-TOI-MEDUSA"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F10",
+      "name": "傲慢之塔 10樓",
+      "baseSpecies": [
+        "MON-TOI-MEDUSA",
+        "MON-ZENITH"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-MEDUSA",
+        "MON-ZENITH"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F11",
+      "name": "傲慢之塔 11樓",
+      "baseSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F12",
+      "name": "傲慢之塔 12樓",
+      "baseSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F13",
+      "name": "傲慢之塔 13樓",
+      "baseSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F14",
+      "name": "傲慢之塔 14樓",
+      "baseSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F15",
+      "name": "傲慢之塔 15樓",
+      "baseSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F16",
+      "name": "傲慢之塔 16樓",
+      "baseSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F17",
+      "name": "傲慢之塔 17樓",
+      "baseSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F18",
+      "name": "傲慢之塔 18樓",
+      "baseSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F19",
+      "name": "傲慢之塔 19樓",
+      "baseSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-CERBERUS"
+      ]
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F20",
+      "name": "傲慢之塔 20樓",
+      "baseSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-SEER"
+      ],
+      "fixedCampSpecies": [],
+      "effectiveSpecies": [
+        "MON-TOI-SUCCUBUS",
+        "MON-SEER"
+      ]
+    }
+  ]
+}

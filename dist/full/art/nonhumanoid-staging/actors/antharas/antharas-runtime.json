@@ -1,0 +1,5603 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "MON-ANTHARAS",
+  "consumerIds": [
+    "MON-ANTHARAS"
+  ],
+  "engineContract": {
+    "displayBaseHeight": 160
+  },
+  "assetId": "ASSET-BODY-MON-ANTHARAS",
+  "width": 6144,
+  "height": 8064,
+  "cellWidth": 384,
+  "cellHeight": 384,
+  "baseHeight": 220,
+  "anchor": [
+    192,
+    300
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-S-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-S-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-S-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-S-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-S-2.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-S-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-S-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-S-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-S-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-S-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-S-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-S-3.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-S-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-S-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-S-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-S-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-S-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-S-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-S-3.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-S-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            192,
+            267
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            297
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-S-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-S-1.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-S-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-S-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-S-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-S-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            190,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-S-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            189,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-S-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-S-3.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-S-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-S-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-S-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-S-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-S-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-S-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-S-3.webp"
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SW-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SW-2.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SW-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SW-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SW-3.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            289
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            291
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            289
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            278
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            192,
+            287
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SW-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            287
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            289
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SW-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            192,
+            289
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SW-3.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-SW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-SW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-SW-1.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SW-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SW-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SW-3.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SW-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SW-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SW-3.webp"
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-W-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-W-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-W-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-W-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-W-2.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-W-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-W-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-W-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-W-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-W-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-W-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-W-3.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            292
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-W-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            294
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            289
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-W-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            291
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-W-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            192,
+            292
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-W-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            292
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-W-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            294
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-W-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            192,
+            294
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-W-3.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-W-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-W-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-W-1.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-W-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-W-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-W-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-W-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-W-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-W-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-W-3.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-W-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-W-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-W-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-W-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-W-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-W-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-W-3.webp"
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NW-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NW-2.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NW-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NW-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NW-3.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NW-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NW-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NW-3.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            192,
+            278
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-NW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            192,
+            279
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            273
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-NW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            192,
+            278
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-NW-1.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NW-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NW-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NW-3.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NW-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NW-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NW-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NW-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NW-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NW-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NW-3.webp"
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-N-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-N-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-N-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-N-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-N-2.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-N-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-N-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-N-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-N-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-N-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-N-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-N-3.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-N-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            264
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            247
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-N-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            249
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-N-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            192,
+            273
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-N-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            292
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-N-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-N-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-N-3.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-N-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-N-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-N-1.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-N-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-N-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-N-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-N-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            143,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-N-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            150,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-N-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            163,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-N-3.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-N-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-N-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-N-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-N-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-N-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-N-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-N-3.webp"
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            295
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            298
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            298
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NE-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            294
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-NE-2.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NE-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NE-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-NE-3.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NE-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NE-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-NE-3.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-NE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-NE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-NE-1.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NE-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NE-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-NE-3.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NE-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NE-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-NE-3.webp"
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-E-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-E-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-E-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-E-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-E-2.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-E-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-E-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-E-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-E-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-E-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-E-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-E-3.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            187,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-E-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            190,
+            282
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            150,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-E-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            149,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-E-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            153,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-E-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            182,
+            275
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-E-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            177,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-E-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            189,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-E-3.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-E-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-E-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-E-1.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-E-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            204,
+            298
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-E-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            292
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-E-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-E-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-E-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-E-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-E-3.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-E-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-E-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-E-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-E-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-E-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-E-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-E-3.webp"
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SE-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 160,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-SE-2.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SE-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SE-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/walk-SE-3.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            291
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            287
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            295
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 65,
+          "anchor": [
+            192,
+            289
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SE-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            289
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 90,
+          "anchor": [
+            192,
+            289
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SE-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 125,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/attack-SE-3.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 40,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-SE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 75,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 70,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-SE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 95,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/hit-SE-1.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SE-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 130,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 170,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SE-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 300,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/death-SE-3.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 110,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SE-0.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SE-1.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SE-1.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 140,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SE-2.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SE-2.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "duration": 100,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SE-3.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "duration": 150,
+          "anchor": [
+            192,
+            300
+          ],
+          "atlas": "nonhumanoid-staging/actors/antharas/clips/cast-SE-3.webp"
+        }
+      ]
+    }
+  },
+  "status": "candidate",
+  "frameCount": 336,
+  "clipCount": 48,
+  "provenance": {
+    "method": "Original class-specific articulated model and eight independent views; original imagegen detail finish",
+    "model": "source/antharas-original.blend",
+    "sources": [
+      {
+        "state": "idle",
+        "sha256": "1bdc475fe6e9b95b283772201a8104884cf76f398b68055ca1a0320952d62d0d",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "walk",
+        "sha256": "5374b891d4cbaea7de3507dc3fae73f92ef1f00ceb7b859166cee0fd30f5c795",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "attack",
+        "sha256": "6f631c9fc7b926347ab4276268b2524f00fd4d92abd57a18dc95ac745ad656e1",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "hit",
+        "sha256": "d5b74faa897910d4ac4223ad11f06218222cccba3b7ec40857085c929cef187f",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "death",
+        "sha256": "f06fcdb3e9e855a164c0ad272a95d7f038e8379fcd60865bd551b9d6dd6f91d8",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "cast",
+        "sha256": "3e5428614d1bfb22bccab5ba7c1859b34abbb25157c0262b3b17562045442e7a",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "attack",
+        "direction": "S",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "death",
+        "direction": "NW",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "death",
+        "direction": "NE",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      }
+    ]
+  },
+  "validation": {
+    "issues": [],
+    "frameTranslations": [
+      {
+        "state": "idle",
+        "direction": "NE",
+        "frame": 1,
+        "offset": [
+          0,
+          -5
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "NE",
+        "frame": 2,
+        "offset": [
+          0,
+          -2
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "NE",
+        "frame": 3,
+        "offset": [
+          0,
+          -2
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "NE",
+        "frame": 5,
+        "offset": [
+          0,
+          -6
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 0,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 1,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 2,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 3,
+        "offset": [
+          0,
+          -22
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 4,
+        "offset": [
+          0,
+          -13
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 5,
+        "offset": [
+          0,
+          -13
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 6,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "frame": 7,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 0,
+        "offset": [
+          0,
+          -8
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 1,
+        "offset": [
+          0,
+          -6
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 2,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 3,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 4,
+        "offset": [
+          0,
+          -8
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 5,
+        "offset": [
+          0,
+          -8
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 6,
+        "offset": [
+          0,
+          -6
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "W",
+        "frame": 7,
+        "offset": [
+          0,
+          -6
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 0,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 2,
+        "offset": [
+          0,
+          -13
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 3,
+        "offset": [
+          0,
+          -5
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 4,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 5,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 6,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "frame": 0,
+        "offset": [
+          0,
+          -22
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "frame": 1,
+        "offset": [
+          0,
+          -21
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "frame": 2,
+        "offset": [
+          0,
+          -27
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "frame": 3,
+        "offset": [
+          0,
+          -22
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "S",
+        "frame": 5,
+        "offset": [
+          -2,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "S",
+        "frame": 6,
+        "offset": [
+          -3,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "N",
+        "frame": 5,
+        "offset": [
+          -49,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "N",
+        "frame": 6,
+        "offset": [
+          -42,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "N",
+        "frame": 7,
+        "offset": [
+          -29,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "E",
+        "frame": 2,
+        "offset": [
+          12,
+          -2
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "E",
+        "frame": 3,
+        "offset": [
+          0,
+          -8
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 1,
+        "offset": [
+          0,
+          -36
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 2,
+        "offset": [
+          0,
+          -53
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 3,
+        "offset": [
+          0,
+          -51
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 4,
+        "offset": [
+          0,
+          -27
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 5,
+        "offset": [
+          0,
+          -8
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 0,
+        "offset": [
+          -5,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 1,
+        "offset": [
+          -2,
+          -18
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 2,
+        "offset": [
+          -42,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 3,
+        "offset": [
+          -43,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 4,
+        "offset": [
+          -39,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 5,
+        "offset": [
+          -10,
+          -25
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 6,
+        "offset": [
+          -15,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "E",
+        "frame": 7,
+        "offset": [
+          -3,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "frame": 1,
+        "offset": [
+          0,
+          -33
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "frame": 2,
+        "offset": [
+          0,
+          -3
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sourceGridCounts": {
+      "idle": 48,
+      "walk": 64,
+      "attack": 64,
+      "hit": 32,
+      "death": 64,
+      "cast": 64
+    },
+    "loopRegistration": "original projected ground origin mapped through idle neutral anatomy; per-state neutral size matched to idle at each independent heading; no per-frame rescaling",
+    "inGame": "not tested",
+    "supersededSourceIssues": []
+  },
+  "runtimeLayout": "per-action-direction-chunked",
+  "maximumClipDecodedBytes": 1179648,
+  "runtimeTextureCount": 168,
+  "maximumFramesPerTexture": 2
+}

@@ -1,0 +1,4951 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "CLASS-DARKELF",
+  "assetId": "ASSET-STANCE-CLASS-DARKELF-SWORD",
+  "class": "darkelf",
+  "weaponFamily": "sword",
+  "stance": "sword",
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 92,
+  "anchor": [
+    96,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-S.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-S.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-S.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-S.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-S.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-S-frame4-cleaned.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-S.webp"
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SW.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SW.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SW.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-SW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SW.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SW.webp"
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-W.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-W.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-W.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-W.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-W.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-W.webp"
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NW.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NW.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NW.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-NW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NW.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NW.webp"
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-N.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-N.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-N.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-N.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-N.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-N.webp"
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-NE.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-NE.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-NE.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-NE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-NE.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-NE.webp"
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-E.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-E.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-E.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-E.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-E.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-E.webp"
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/idle-SE.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/walk-SE.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/attack-SE.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/hit-SE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/death-SE.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/darkelf-sword/clips/cast-SE.webp"
+        }
+      ]
+    }
+  },
+  "status": "source-reviewed-candidate",
+  "frameCount": 336,
+  "clipCount": 48,
+  "runtimeLayout": "per-action-direction",
+  "maximumClipDecodedBytes": 1179648,
+  "provenance": {
+    "method": "Accepted original adult class body; family-specific weapon geometry and articulated grip/action guides; built-in imagegen final raster detail",
+    "model": "stance-staging/source/darkelf-sword-original.blend",
+    "sources": [
+      {
+        "state": "idle",
+        "file": "stance-staging/source/darkelf-sword-idle.png",
+        "sha256": "13c291a64260862459141673744d0bb2c08d6c95cffb09959e432a120f7846d3",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          6,
+          8
+        ],
+        "components": 48
+      },
+      {
+        "state": "walk",
+        "file": "stance-staging/source/darkelf-sword-walk.png",
+        "sha256": "145a1713865c68bff7b1c9aed31f4640acf99f48ac83e2492b35a5e27371fc48",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          8,
+          8
+        ],
+        "components": 64
+      },
+      {
+        "state": "attack",
+        "file": "stance-staging/source/darkelf-sword-attack.png",
+        "sha256": "d9938ab086acadad4c285becc05d75ccde5a245d59948a5f13d9b89cffbe8747",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          8,
+          8
+        ],
+        "components": 64
+      },
+      {
+        "state": "hit",
+        "file": "stance-staging/source/darkelf-sword-hit.png",
+        "sha256": "aa44b1b001ceb3d391db6e34e55007f6da0073f0fb12853e044dd28a5f29f0b3",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          4,
+          8
+        ],
+        "components": 32
+      },
+      {
+        "state": "death",
+        "file": "stance-staging/source/darkelf-sword-death.png",
+        "sha256": "3ff630c9c03f2fceb7f385a9f108fe5b29c8869b06609afe897c2c50bb0c950f",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          8,
+          8
+        ],
+        "components": 64
+      },
+      {
+        "state": "cast",
+        "file": "stance-staging/source/darkelf-sword-cast.png",
+        "sha256": "b9afef062ad205e82b62a85124326a9d8fecb1bcfe724c4a977717b1cf5ad394",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          8,
+          8
+        ],
+        "components": 64
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "file": "stance-staging/source/darkelf-sword-walk-NE-repair.png",
+        "method": "Targeted original imagegen clip repair",
+        "record": "stance-staging/source/darkelf-sword-walk-NE-repair-generation.json"
+      },
+      {
+        "state": "cast",
+        "direction": "S",
+        "file": "stance-staging/source/darkelf-sword-cast-S-repair.png",
+        "method": "Targeted original imagegen clip repair",
+        "record": "source/darkelf-sword-cast-S-repair-generation.json"
+      },
+      {
+        "state": "idle",
+        "direction": "NW",
+        "file": "stance-staging/source/darkelf-sword-idle-NW-repair.png",
+        "method": "Targeted original imagegen clip repair",
+        "record": "source/darkelf-sword-idle-NW-repair-generation.json"
+      }
+    ],
+    "sourceManifestSHA256": "dd7a814ca7bca483a8e8fd335a919ae0d106edc880435088837bf9e88a9c7cd8"
+  },
+  "validation": {
+    "issues": [],
+    "complete": true,
+    "temporalReview": {
+      "status": "pass",
+      "note": "Independent six-state/eight-direction review passed; S cast right-hand ownership, NW rear-left idle, NE walk full tip repaired. Sharper repair finish caveat. Native scene pending.",
+      "date": "2026-10-09T11:04:34.424Z"
+    },
+    "inGame": "not tested"
+  },
+  "reviewHistory": [
+    {
+      "status": "pass",
+      "note": "Independent six-state/eight-direction review passed; S cast right-hand ownership, NW rear-left idle, NE walk full tip repaired. Sharper repair finish caveat. Native scene pending.",
+      "date": "2026-10-09T11:04:34.424Z"
+    }
+  ],
+  "runtimeTextureCount": 49,
+  "logicalActionDirectionCount": 48
+}

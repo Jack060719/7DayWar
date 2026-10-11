@@ -1,0 +1,2253 @@
+{
+  "schemaVersion": 1,
+  "familyId": "ASSET-TERRAIN-GRASS",
+  "family": "GRASS",
+  "implementationState": "GENERATED_SOURCE_COUNTS_MET_INTEGRATION_PENDING",
+  "tileProjection": {
+    "width": 64,
+    "height": 32,
+    "type": "isometric-2:1"
+  },
+  "sourceCatalog": "catalog-requirements.json",
+  "tiles": [
+    {
+      "id": "GRASS-GROUND-01",
+      "name": "sparse-dry-grass",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 6,
+          "y": 131,
+          "w": 301,
+          "h": 161
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-02",
+      "name": "straw-and-flint",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 320,
+          "y": 131,
+          "w": 300,
+          "h": 161
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-03",
+      "name": "worn-ochre-earth",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 633,
+          "y": 131,
+          "w": 301,
+          "h": 161
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-04",
+      "name": "gravel-meadow",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 948,
+          "y": 131,
+          "w": 300,
+          "h": 161
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-05",
+      "name": "wiry-grass",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 5,
+          "y": 419,
+          "w": 302,
+          "h": 164
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-06",
+      "name": "grass-and-flat-stones",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 320,
+          "y": 420,
+          "w": 301,
+          "h": 163
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-07",
+      "name": "weed-rosettes",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 633,
+          "y": 420,
+          "w": 302,
+          "h": 163
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-08",
+      "name": "trampled-soil",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 947,
+          "y": 420,
+          "w": 301,
+          "h": 163
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-09",
+      "name": "rooted-dry-earth",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 5,
+          "y": 709,
+          "w": 302,
+          "h": 165
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-10",
+      "name": "yellowing-meadow",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 319,
+          "y": 709,
+          "w": 302,
+          "h": 165
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-11",
+      "name": "scrubby-pebbles",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 633,
+          "y": 709,
+          "w": 302,
+          "h": 165
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-12",
+      "name": "stony-path",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 946,
+          "y": 709,
+          "w": 303,
+          "h": 165
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-13",
+      "name": "sage-and-gravel",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 6,
+          "y": 995,
+          "w": 300,
+          "h": 161
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-14",
+      "name": "straw-litter",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 320,
+          "y": 994,
+          "w": 301,
+          "h": 163
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-15",
+      "name": "broken-shale",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 633,
+          "y": 994,
+          "w": 301,
+          "h": 163
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    },
+    {
+      "id": "GRASS-GROUND-16",
+      "name": "dark-meadow-soil",
+      "kind": "ground",
+      "atlas": "atlases/grass-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-ground-generated.png",
+        "sha256": "51cd309239e40ee8d307be7230b79957ae47ede8262d68b7cf5907c29a7adad6",
+        "sourceRect": {
+          "x": 947,
+          "y": 994,
+          "w": 301,
+          "h": 163
+        },
+        "postprocess": "Alpha-preserving crop and atlas packing; normalized to 2:1 tile dimensions."
+      }
+    }
+  ],
+  "edgeMasks": [
+    {
+      "id": "GRASS-EDGE-01",
+      "name": "edge-nw",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 9,
+        "w": 128,
+        "h": 81
+      },
+      "anchor": {
+        "x": 64,
+        "y": 40.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -13,
+        "y": -6
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 10,
+          "y": 79,
+          "w": 241,
+          "h": 153
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-02",
+      "name": "edge-ne",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 9,
+        "w": 128,
+        "h": 82
+      },
+      "anchor": {
+        "x": 64,
+        "y": 41
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 13,
+        "y": -6
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 407,
+          "y": 85,
+          "w": 219,
+          "h": 141
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-03",
+      "name": "edge-se",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 9,
+        "w": 128,
+        "h": 81
+      },
+      "anchor": {
+        "x": 64,
+        "y": 40.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 13,
+        "y": 6
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 694,
+          "y": 139,
+          "w": 239,
+          "h": 152
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-04",
+      "name": "edge-sw",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 10,
+        "w": 128,
+        "h": 80
+      },
+      "anchor": {
+        "x": 64,
+        "y": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -13,
+        "y": 6
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 949,
+          "y": 140,
+          "w": 241,
+          "h": 151
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-05",
+      "name": "corner-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 8,
+        "y": 102,
+        "w": 116,
+        "h": 96
+      },
+      "anchor": {
+        "x": 58,
+        "y": 48
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -20,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 25,
+        "h": 25
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 7,
+          "y": 395,
+          "w": 191,
+          "h": 158
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-06",
+      "name": "corner-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 119,
+        "w": 128,
+        "h": 61
+      },
+      "anchor": {
+        "x": 64,
+        "y": 30.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": -9
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 42,
+        "h": 20
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 336,
+          "y": 348,
+          "w": 273,
+          "h": 130
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-07",
+      "name": "corner-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 277,
+        "y": 102,
+        "w": 106,
+        "h": 96
+      },
+      "anchor": {
+        "x": 53,
+        "y": 48
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 20,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 25,
+        "h": 25
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 761,
+          "y": 401,
+          "w": 172,
+          "h": 156
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-08",
+      "name": "corner-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 119,
+        "w": 128,
+        "h": 61
+      },
+      "anchor": {
+        "x": 64,
+        "y": 30.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 9
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 42,
+        "h": 20
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 987,
+          "y": 467,
+          "w": 230,
+          "h": 109
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-09",
+      "name": "chevron-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 219,
+        "w": 128,
+        "h": 61
+      },
+      "anchor": {
+        "x": 64,
+        "y": 30.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": -2
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 64,
+        "h": 30
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 16,
+          "y": 677,
+          "w": 295,
+          "h": 140
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-10",
+      "name": "chevron-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 152,
+        "y": 202,
+        "w": 91,
+        "h": 96
+      },
+      "anchor": {
+        "x": 45.5,
+        "y": 48
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 10,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 40,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 392,
+          "y": 656,
+          "w": 229,
+          "h": 242
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-11",
+      "name": "chevron-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 221,
+        "w": 128,
+        "h": 57
+      },
+      "anchor": {
+        "x": 64,
+        "y": 28.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 2
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 64,
+        "h": 30
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 636,
+          "y": 761,
+          "w": 297,
+          "h": 132
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-12",
+      "name": "chevron-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 418,
+        "y": 202,
+        "w": 88,
+        "h": 96
+      },
+      "anchor": {
+        "x": 44,
+        "y": 48
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -10,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 40,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 964,
+          "y": 671,
+          "w": 208,
+          "h": 227
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-13",
+      "name": "broken-ribbon",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 309,
+        "w": 128,
+        "h": 81
+      },
+      "anchor": {
+        "x": 64,
+        "y": 40.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 64,
+        "h": 28
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 13,
+          "y": 995,
+          "w": 294,
+          "h": 186
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-14",
+      "name": "three-arm-junction",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 304,
+        "w": 128,
+        "h": 91
+      },
+      "anchor": {
+        "x": 64,
+        "y": 45.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 60,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 335,
+          "y": 971,
+          "w": 285,
+          "h": 202
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-15",
+      "name": "central-island",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 302,
+        "w": 128,
+        "h": 95
+      },
+      "anchor": {
+        "x": 64,
+        "y": 47.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 35,
+        "h": 19
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 685,
+          "y": 1012,
+          "w": 200,
+          "h": 149
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-EDGE-16",
+      "name": "hollow-ring",
+      "kind": "edge_mask",
+      "atlas": "atlases/grass-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 305,
+        "w": 128,
+        "h": 90
+      },
+      "anchor": {
+        "x": 64,
+        "y": 45
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-edges-generated.png",
+        "sha256": "9c8b3ac27f3bdba88c25131838ab8e3457af48da4496bf9df87c6edc191b2bf6",
+        "sourceRect": {
+          "x": 948,
+          "y": 982,
+          "w": 297,
+          "h": 208
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "GRASS-WALL-01",
+      "name": "limestone-bank-a",
+      "kind": "wall",
+      "atlas": "atlases/grass-walls-v3.webp",
+      "rect": {
+        "x": 4,
+        "y": 17,
+        "w": 188,
+        "h": 161
+      },
+      "anchor": {
+        "x": 94,
+        "y": 145
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 145
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 64
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-walls-generated.png",
+        "sha256": "bab31893e197085857ee20ab40f66e5aed20b505dd5cfe9a77de14a459c47c34",
+        "sourceRect": {
+          "x": 23,
+          "y": 36,
+          "w": 433,
+          "h": 370
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-WALL-02",
+      "name": "limestone-bank-se",
+      "kind": "wall",
+      "atlas": "atlases/grass-walls-v3.webp",
+      "rect": {
+        "x": 200,
+        "y": 32,
+        "w": 188,
+        "h": 132
+      },
+      "anchor": {
+        "x": 94,
+        "y": 119
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 119
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 64
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-walls-perpendicular-v2.png",
+        "originalSource": "sources/grass-walls-perpendicular.png",
+        "styleReference": "sources/grass-walls-generated.png",
+        "sha256": "fa7f4250f1a7d1cf3720b515308daaae0920617f29e11b766d78fe40f51834bf",
+        "sourceRect": {
+          "x": 108,
+          "y": 207,
+          "w": 675,
+          "h": 473
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, packing. Re-rendered perpendicular facing; no mirrored source pixels."
+      },
+      "orientation": "down-right / NW-SE axis"
+    },
+    {
+      "id": "GRASS-WALL-03",
+      "name": "limestone-outer-corner",
+      "kind": "wall",
+      "atlas": "atlases/grass-walls-v3.webp",
+      "rect": {
+        "x": 396,
+        "y": 22,
+        "w": 188,
+        "h": 151
+      },
+      "anchor": {
+        "x": 94,
+        "y": 136
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 136
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 79,
+        "h": 73
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-walls-generated.png",
+        "sha256": "bab31893e197085857ee20ab40f66e5aed20b505dd5cfe9a77de14a459c47c34",
+        "sourceRect": {
+          "x": 963,
+          "y": 91,
+          "w": 396,
+          "h": 318
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-WALL-04",
+      "name": "rounded-bank-end",
+      "kind": "wall",
+      "atlas": "atlases/grass-walls-v3.webp",
+      "rect": {
+        "x": 592,
+        "y": 5,
+        "w": 188,
+        "h": 186
+      },
+      "anchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 60,
+        "h": 60
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-walls-generated.png",
+        "sha256": "bab31893e197085857ee20ab40f66e5aed20b505dd5cfe9a77de14a459c47c34",
+        "sourceRect": {
+          "x": 1411,
+          "y": 57,
+          "w": 339,
+          "h": 336
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-WALL-05",
+      "name": "dry-stone-wall-a",
+      "kind": "wall",
+      "atlas": "atlases/grass-walls-v3.webp",
+      "rect": {
+        "x": 4,
+        "y": 224,
+        "w": 188,
+        "h": 140
+      },
+      "anchor": {
+        "x": 94,
+        "y": 126
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 126
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 62
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-walls-generated.png",
+        "sha256": "bab31893e197085857ee20ab40f66e5aed20b505dd5cfe9a77de14a459c47c34",
+        "sourceRect": {
+          "x": 17,
+          "y": 496,
+          "w": 435,
+          "h": 325
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-WALL-06",
+      "name": "dry-stone-wall-se",
+      "kind": "wall",
+      "atlas": "atlases/grass-walls-v3.webp",
+      "rect": {
+        "x": 200,
+        "y": 225,
+        "w": 188,
+        "h": 137
+      },
+      "anchor": {
+        "x": 94,
+        "y": 123
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 123
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 62
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-walls-perpendicular-v2.png",
+        "originalSource": "sources/grass-walls-perpendicular.png",
+        "styleReference": "sources/grass-walls-generated.png",
+        "sha256": "fa7f4250f1a7d1cf3720b515308daaae0920617f29e11b766d78fe40f51834bf",
+        "sourceRect": {
+          "x": 1029,
+          "y": 193,
+          "w": 666,
+          "h": 487
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, packing. Re-rendered perpendicular facing; no mirrored source pixels."
+      },
+      "orientation": "down-right / NW-SE axis"
+    },
+    {
+      "id": "GRASS-WALL-07",
+      "name": "collapsed-opening",
+      "kind": "wall",
+      "atlas": "atlases/grass-walls-v3.webp",
+      "rect": {
+        "x": 396,
+        "y": 233,
+        "w": 188,
+        "h": 121
+      },
+      "anchor": {
+        "x": 94,
+        "y": 109
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 109
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 101,
+        "h": 60
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-walls-generated.png",
+        "sha256": "bab31893e197085857ee20ab40f66e5aed20b505dd5cfe9a77de14a459c47c34",
+        "sourceRect": {
+          "x": 923,
+          "y": 518,
+          "w": 434,
+          "h": 280
+        },
+        "postprocess": "Alpha-preserving tighter source crop removes detached neighboring-cell fragment, proportional resampling and atlas packing.",
+        "previousSourceRect": {
+          "x": 923,
+          "y": 518,
+          "w": 449,
+          "h": 280
+        },
+        "spriteSha256": "d201497d20b2927459a98e622bea667aa8ad7628a2a4d67f3562310ca014c66e"
+      },
+      "qa": {
+        "detachedNeighborFragmentRemoved": true
+      }
+    },
+    {
+      "id": "GRASS-WALL-08",
+      "name": "sloping-rubble-bank",
+      "kind": "wall",
+      "atlas": "atlases/grass-walls-v3.webp",
+      "rect": {
+        "x": 592,
+        "y": 214,
+        "w": 188,
+        "h": 159
+      },
+      "anchor": {
+        "x": 94,
+        "y": 143
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 143
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 86,
+        "h": 56
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-walls-generated.png",
+        "sha256": "bab31893e197085857ee20ab40f66e5aed20b505dd5cfe9a77de14a459c47c34",
+        "sourceRect": {
+          "x": 1372,
+          "y": 495,
+          "w": 391,
+          "h": 331
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "GRASS-PROP-01",
+      "name": "lichen-boulder",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 30,
+        "w": 188,
+        "h": 136
+      },
+      "anchor": {
+        "x": 94,
+        "y": 122
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 122
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 56,
+        "h": 42
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 33,
+          "y": 89,
+          "w": 258,
+          "h": 186
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-02",
+      "name": "flint-cluster",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 13,
+        "w": 188,
+        "h": 169
+      },
+      "anchor": {
+        "x": 94,
+        "y": 152
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 152
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 62,
+        "h": 48
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 346,
+          "y": 56,
+          "w": 268,
+          "h": 241
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-03",
+      "name": "straw-grass",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 13,
+        "w": 188,
+        "h": 170
+      },
+      "anchor": {
+        "x": 94,
+        "y": 153
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 153
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 42,
+        "h": 42
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 637,
+          "y": 30,
+          "w": 297,
+          "h": 269
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-04",
+      "name": "thorn-scrub",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 594,
+        "y": 4,
+        "w": 184,
+        "h": 188
+      },
+      "anchor": {
+        "x": 92,
+        "y": 169
+      },
+      "footAnchor": {
+        "x": 92,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 55,
+        "h": 57
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 965,
+          "y": 29,
+          "w": 261,
+          "h": 266
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-05",
+      "name": "dead-sapling",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 22,
+        "y": 200,
+        "w": 152,
+        "h": 188
+      },
+      "anchor": {
+        "x": 76,
+        "y": 169
+      },
+      "footAnchor": {
+        "x": 76,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 104
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 37,
+          "y": 322,
+          "w": 241,
+          "h": 299
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-06",
+      "name": "rooted-stump",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 222,
+        "w": 188,
+        "h": 144
+      },
+      "anchor": {
+        "x": 94,
+        "y": 130
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 130
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 53,
+        "h": 45
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 332,
+          "y": 388,
+          "w": 288,
+          "h": 220
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-07",
+      "name": "fallen-branch",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 222,
+        "w": 188,
+        "h": 144
+      },
+      "anchor": {
+        "x": 94,
+        "y": 130
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 130
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 73,
+        "h": 37
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 642,
+          "y": 386,
+          "w": 288,
+          "h": 220
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-08",
+      "name": "pebble-pile",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 237,
+        "w": 188,
+        "h": 114
+      },
+      "anchor": {
+        "x": 94,
+        "y": 103
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 103
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 24
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 967,
+          "y": 456,
+          "w": 255,
+          "h": 155
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-09",
+      "name": "broken-fence",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 399,
+        "w": 188,
+        "h": 182
+      },
+      "anchor": {
+        "x": 94,
+        "y": 164
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 164
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.4
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 91,
+        "h": 65
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 22,
+          "y": 666,
+          "w": 283,
+          "h": 274
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-10",
+      "name": "blank-signpost",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 231,
+        "y": 396,
+        "w": 125,
+        "h": 188
+      },
+      "anchor": {
+        "x": 62.5,
+        "y": 169
+      },
+      "footAnchor": {
+        "x": 62.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 47,
+        "h": 79
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 385,
+          "y": 634,
+          "w": 192,
+          "h": 289
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-11",
+      "name": "wagon-wheel",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 432,
+        "w": 188,
+        "h": 116
+      },
+      "anchor": {
+        "x": 94,
+        "y": 104
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 104
+      },
+      "footprint": {
+        "u": 0.75,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 56,
+        "h": 47
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 633,
+          "y": 716,
+          "w": 307,
+          "h": 190
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-12",
+      "name": "closed-barrel",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 606,
+        "y": 396,
+        "w": 159,
+        "h": 188
+      },
+      "anchor": {
+        "x": 79.5,
+        "y": 169
+      },
+      "footAnchor": {
+        "x": 79.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 33,
+        "h": 43
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 996,
+          "y": 669,
+          "w": 214,
+          "h": 253
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-13",
+      "name": "standing-milestone",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 11,
+        "y": 592,
+        "w": 173,
+        "h": 188
+      },
+      "anchor": {
+        "x": 86.5,
+        "y": 169
+      },
+      "footAnchor": {
+        "x": 86.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 37,
+        "h": 65
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 34,
+          "y": 940,
+          "w": 254,
+          "h": 276
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-14",
+      "name": "hay-bundle",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 593,
+        "w": 188,
+        "h": 185
+      },
+      "anchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footprint": {
+        "u": 0.65,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 39,
+        "h": 53
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 326,
+          "y": 940,
+          "w": 288,
+          "h": 284
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-15",
+      "name": "reed-clump",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 608,
+        "w": 188,
+        "h": 156
+      },
+      "anchor": {
+        "x": 94,
+        "y": 140
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 140
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 44,
+        "h": 35
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 635,
+          "y": 975,
+          "w": 284,
+          "h": 236
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    },
+    {
+      "id": "GRASS-PROP-16",
+      "name": "broken-stone-wall",
+      "kind": "static_prop",
+      "atlas": "atlases/grass-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 604,
+        "w": 188,
+        "h": 163
+      },
+      "anchor": {
+        "x": 94,
+        "y": 147
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 147
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 83,
+        "h": 61
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/grass-props-generated.png",
+        "sha256": "9baedd8697ddb68d98068a88e289aca7c36aa348d89bb0152a08d35182ae9526",
+        "sourceRect": {
+          "x": 960,
+          "y": 974,
+          "w": 276,
+          "h": 240
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and atlas packing."
+      }
+    }
+  ],
+  "coverage": {
+    "required": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "staged": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "missing": {
+      "ground": 0,
+      "edge_masks": 0,
+      "walls": 0,
+      "static_props": 0
+    },
+    "sourceCountsMet": true,
+    "complete": false
+  },
+  "borders": {
+    "seamless": false,
+    "reason": "Authored organic diamond borders; adjacent variants are stylistically compatible but exact pixel seam matching is unverified.",
+    "renderGuidance": "Use an opaque quiet earth underlay and draw terrain diamonds at 65×33 with half-pixel overlap. Edge masks are authored RGBA transition overlays with alpha cutouts; use placementOffset and drawSize, not an automatic Wang/bitmask autotile solver. Do not expose transparent ground gaps."
+  },
+  "wallNotes": "Two orthogonal limestone bank facings and two orthogonal dry-stone facings, plus outer corner, rounded end, collapsed opening and rubble bank. Opposite diagonal assets re-rendered with upper-left lighting, not mirrored.",
+  "alpha": {
+    "preserved": true,
+    "note": "Source alpha retained. A few very-low-alpha pixels contain saturated fringe RGB; normal source-over compositing makes these nearly invisible. Do not discard alpha or use RGB-only extraction."
+  },
+  "qa": {
+    "sourceInspected": true,
+    "packedAtlasInspected": true,
+    "rendererIntegrationVerified": false,
+    "offlineCompositingProof": "qa/grass-forest-isometric-proof.png",
+    "offlineProofNotes": "Opaque underlay and 66×34 ground draw. Organic tile boundary patterns remain visible, especially across high-contrast FOREST variants; choose compatible material subsets and transition overlays. No game renderer tested.",
+    "perpendicularGrassWallFacingVerified": true,
+    "finalWallCropRepair": true
+  }
+}

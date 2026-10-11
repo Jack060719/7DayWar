@@ -1,0 +1,17 @@
+/* Presentation-only semantic bindings. No RNG, costs, timers or damage are changed. */
+export const DAMAGE_VISUALS={
+ 'SKILL-G01-04':['ASSET-FX-ENERGY-BOLT','flight'],'SKILL-G01-06':['ASSET-FX-ICE-BOLT','flight'],'SKILL-G01-07':['ASSET-FX-ENERGY-BOLT','flight'],
+ 'SKILL-G02-02':['ASSET-FX-FROZEN','effect'],'SKILL-G02-07':['ASSET-FX-FIRE-BOLT','flight'],'SKILL-G02-08':['ASSET-FX-EARTH-AOE','effect'],
+ 'SKILL-G03-01':['ASSET-FX-LIGHTNING','beam'],'SKILL-G03-06':['ASSET-FX-ICE-AOE','effect'],'SKILL-G04-01':['ASSET-FX-FIRE-AOE','effect'],
+ 'SKILL-G04-04':['ASSET-FX-DRAIN','effect'],'SKILL-G04-06':['ASSET-FX-EARTH-AOE','effect'],'SKILL-G05-02':['ASSET-FX-LIGHTNING','beam'],
+ 'SKILL-G05-06':['ASSET-FX-ICE-BOLT','flight'],'SKILL-G06-05':['ASSET-FX-EARTH-AOE','effect'],'SKILL-G06-06':['ASSET-FX-FIRE-AOE','effect'],
+ 'SKILL-G07-05':['ASSET-FX-STORM-AOE','effect'],'SKILL-G08-03':['ASSET-FX-ICE-AOE','effect'],'SKILL-G08-06':['ASSET-FX-EARTH-AOE','effect'],
+ 'SKILL-G09-01':['ASSET-FX-STORM-AOE','effect'],'SKILL-G09-06':['ASSET-FX-FIRE-AOE','effect'],'SKILL-G09-08':['ASSET-FX-ENERGY-BOLT','effect'],
+ 'SKILL-G10-02':['ASSET-FX-FIRE-AOE','effect'],'SKILL-G10-05':['ASSET-FX-ENERGY-BOLT','flight'],'SKILL-G10-08':['ASSET-FX-ICE-AOE','effect'],
+ 'SKILL-DARKELF-14':['ASSET-FX-PHYSICAL','hit']
+};
+export function statusVisual(operation){if(operation.op==='apply_status')return{poison:'ASSET-FX-POISON',root:'ASSET-FX-ROOT',earth_bind:'ASSET-FX-ROOT',stun:'ASSET-FX-STUN',paralyze:'ASSET-FX-FROZEN',freeze:'ASSET-FX-FROZEN',curse_paralysis:'ASSET-FX-FROZEN',sleep:'ASSET-FX-DEBUFF'}[operation.group]||'ASSET-FX-DEBUFF';return ['shield','earth_defense','immune_to_harm','damage_reduction','water_guard','earth_skin','iron_skin','absolute_barrier','counter_magic','counter_barrier','immunity','earth_barrier','spiked_armor'].includes(operation.group)?'ASSET-FX-SHIELD':'ASSET-FX-BUFF'}
+export function emitVisual(events,assetId,to,{from,phase='effect',durationMs=640,mapId,actorId,variant,coneRange}={}){if(!to||!Number.isFinite(to.x)||!Number.isFinite(to.y))return;const e={type:'visual',assetId,phase,to:{x:to.x,y:to.y},durationMs};if(from){e.from={x:from.x,y:from.y};if(from.id)e.sourceActorId=from.id}if(to.id)e.targetActorId=to.id;if(mapId)e.mapId=mapId;if(actorId)e.actorId=actorId;if(variant)e.variant=variant;if(coneRange)e.coneRange=coneRange;if(events.length>=128)events.shift();events.push(e)}
+// Existing wall/trap cells receive a repeating ground pulse for their actual lifetime.
+// These are visibility cues, not new collision, hitboxes, damage ticks or persistence.
+export function hazardVisuals(state,now){const out=[];for(const h of state.worlds[state.player.map]?.hazards||[]){if(h.until<=state.clockMs)continue;const asset={fire:'ASSET-FX-FIRE-AOE',water:'ASSET-FX-ICE-AOE',earth:'ASSET-FX-EARTH-AOE',wind:'ASSET-FX-STORM-AOE'}[h.damage?.element];if(!asset)continue;const period=h.kind==='create_trap'?1600:Math.max(500,h.tickEvery||1000),age=((state.clockMs-(h.tickAt-period))%period+period)%period;for(const [index,point] of h.cells.entries()){const flame=h.kind==='create_wall'&&h.damage?.element==='fire',loopAge=(state.clockMs+index*83)%720;out.push({type:'visual',assetId:asset,phase:'effect',...(flame?{variant:'groundLoop'}:{}),to:point,mapId:state.player.map,at:now-(flame?loopAge:age),durationMs:flame?720:period,displaySize:flame?[72,72]:h.kind==='create_trap'?[36,24]:[64,40]})}}return out}

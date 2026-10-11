@@ -1,0 +1,5504 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "MON-DEMON",
+  "consumerIds": [
+    "MON-DEMON"
+  ],
+  "assetId": "ASSET-BODY-MON-DEMON",
+  "runtimeLayout": "per-action-direction",
+  "expectedStateCounts": {
+    "idle": 6,
+    "walk": 8,
+    "attack": 8,
+    "hit": 4,
+    "death": 8,
+    "cast": 8
+  },
+  "missingStates": [],
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 124,
+  "anchor": [
+    96,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96.64875507482921,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "cast": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            111.31057033658905,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "cast": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            109.6948141546358,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            103.03891710368598,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            108.80315129745242,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "cast": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            104.32003485191507,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            104.58194084961463,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "cast": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            91.10828119404242,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-N.webp",
+          "rect": [
+            0,
+            0,
+            240,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-N.webp",
+          "rect": [
+            240,
+            0,
+            240,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            111.50611780778645,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-N.webp",
+          "rect": [
+            480,
+            0,
+            240,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            105.77499675612171,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-N.webp",
+          "rect": [
+            720,
+            0,
+            240,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "cast": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            151.50381679389312
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            109.38825271279963,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "cast": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "cast": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            105.63194520031057,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            105.1444198184028,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/idle-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/attack-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/hit-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "cast": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/cast-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96.30047594957618,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            106.40371925614878,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/death-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            112.18813908311851,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96.64828486696223,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/demon/clips/walk-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    }
+  },
+  "status": "source-accepted-runtime-scene-pending",
+  "frameCount": 336,
+  "clipCount": 48,
+  "maximumClipDecodedBytes": 1179648,
+  "clipGeometry": {
+    "idle-S": [
+      192,
+      192
+    ],
+    "attack-S": [
+      192,
+      192
+    ],
+    "hit-S": [
+      192,
+      192
+    ],
+    "cast-S": [
+      192,
+      192
+    ],
+    "idle-SW": [
+      192,
+      192
+    ],
+    "attack-SW": [
+      192,
+      192
+    ],
+    "hit-SW": [
+      192,
+      192
+    ],
+    "cast-SW": [
+      192,
+      192
+    ],
+    "idle-W": [
+      192,
+      192
+    ],
+    "attack-W": [
+      192,
+      192
+    ],
+    "hit-W": [
+      192,
+      192
+    ],
+    "cast-W": [
+      192,
+      192
+    ],
+    "idle-NW": [
+      192,
+      192
+    ],
+    "attack-NW": [
+      192,
+      192
+    ],
+    "hit-NW": [
+      192,
+      192
+    ],
+    "cast-NW": [
+      192,
+      192
+    ],
+    "idle-N": [
+      192,
+      192
+    ],
+    "attack-N": [
+      192,
+      192
+    ],
+    "hit-N": [
+      240,
+      192
+    ],
+    "cast-N": [
+      192,
+      192
+    ],
+    "idle-NE": [
+      192,
+      192
+    ],
+    "attack-NE": [
+      192,
+      192
+    ],
+    "hit-NE": [
+      192,
+      192
+    ],
+    "cast-NE": [
+      192,
+      192
+    ],
+    "idle-E": [
+      192,
+      192
+    ],
+    "attack-E": [
+      192,
+      192
+    ],
+    "hit-E": [
+      192,
+      192
+    ],
+    "cast-E": [
+      192,
+      192
+    ],
+    "idle-SE": [
+      192,
+      192
+    ],
+    "attack-SE": [
+      192,
+      192
+    ],
+    "hit-SE": [
+      192,
+      192
+    ],
+    "cast-SE": [
+      192,
+      192
+    ]
+  },
+  "engineContract": {
+    "anchor": [
+      96,
+      150
+    ],
+    "worldHeightRule": "baseHeight * 72 / 92; no displayBaseHeight override",
+    "registrationEqualityProof": "qa/demon-registration-equality.json",
+    "maximumClipDecodedBytes": 1179648
+  },
+  "provenance": {
+    "method": "Original authored monster-specific articulated Blender rig and native imagegen raster detail; semantic frame extraction, no mirrored headings or recolor-only variants.",
+    "model": "source/demon-original.blend",
+    "sources": [
+      {
+        "state": "idle",
+        "sha256": "894be599e429029bfa57cbef9e4fe8e1971babedc0e39047467194de028f40d6",
+        "method": "Original independently authored actor-specific geometry and native raster action sheet."
+      },
+      {
+        "state": "attack",
+        "sha256": "b3085fc83b7f7acd60b511faa25fca42f70a9fabeb51442061d34d176d2e29d6",
+        "method": "Original independently authored actor-specific geometry and native raster action sheet."
+      },
+      {
+        "state": "hit",
+        "sha256": "e0fc7539ae72545a78e470975b800af64d1660957db486794d8d768bf9458331",
+        "method": "Original independently authored actor-specific geometry and native raster action sheet."
+      },
+      {
+        "state": "cast",
+        "sha256": "296a5c4709ed03aa6493fc759986a5bcf4aecad73802f0051d6903c20171060e",
+        "method": "Original independently authored actor-specific geometry and native raster action sheet."
+      },
+      {
+        "state": "death",
+        "sha256": "1c82df5121d04bf9658272133226c4a087fe2cc906322fbc94ecad34b5d99d84",
+        "method": "One unchanged built-in-tool technical retry after confirmed original success was lost during exec OS-error7 oversized-argument persistence. Timestamp-adjacent original PNGs rechecked; no saved Demon collapse source recovered. Original error retained."
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "method": "Original articulated right-arm IK and committed awayward torso pitch; native north physical claw strike with retained wings and anatomical ownership."
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "method": "Four original SW collapse-entry guide poses, preserving accepted grounded phases4–7.",
+        "frameIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "NE",
+        "frameIndices": [
+          6,
+          7
+        ],
+        "method": "Native two-pose separation, original NE0–5 retained. Grounded silhouette length calibrated against original connected pair, not corpse height.",
+        "calibration": {
+          "originalStandingHeight": 145,
+          "originalPairWidth": 291,
+          "originalMeanCorpseWidth": 145.5,
+          "newMeanCorpseWidth": 1032.5,
+          "ratio": 7.096219931271477,
+          "originalScale": 0.8551724137931035,
+          "settleScale": 0.12051097937713953
+        }
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "method": "Four original SW collapse-entry guide poses, preserving accepted grounded phases4–7.",
+        "frameIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "method": "Bounded anatomical-right arm depth/occlusion edit using original same-joint north/side proof. Preserve torso/wings and all other chronological frames; frame5 retained as recovery.",
+        "frameIndices": [
+          3,
+          4
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "W",
+        "sha256": "36563a8543b258647b3f6e58dc45b3cc8d5953eb978ac009c18ad7cb8a402033",
+        "method": "Full-eight grounded two-chain IK guide; one native natural-material trial, no automatic second material generation."
+      },
+      {
+        "state": "walk",
+        "sha256": "36563a8543b258647b3f6e58dc45b3cc8d5953eb978ac009c18ad7cb8a402033",
+        "method": "Full-eight grounded two-chain IK guide; one native natural-material trial, no automatic second material generation."
+      },
+      {
+        "state": "idle",
+        "direction": "NW",
+        "method": "Original same-heading quiet breathing guide"
+      },
+      {
+        "state": "idle",
+        "direction": "SE",
+        "method": "Original same-heading quiet breathing guide"
+      },
+      {
+        "state": "idle",
+        "direction": "SW",
+        "method": "Original same-heading quiet breathing guide",
+        "frameIndices": [
+          0,
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SW",
+        "method": "Native completion of narrow original source-edge wing cut; all other poses retained.",
+        "frameIndices": [
+          2,
+          5
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "NE",
+        "method": "Original same-heading quiet breathing guide",
+        "frameIndices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "NE",
+        "method": "Native completion of narrow original source-edge wing cut; all other poses retained.",
+        "frameIndices": [
+          5
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "SW",
+        "method": "Original restrained torso/head recoil guide with fixed heading; native final raster"
+      },
+      {
+        "state": "walk",
+        "direction": "W",
+        "method": "Native material-only restoration of independently accepted v3 near-blue contact topology plus retained v2 chronological6/7. Composite copies originals; no new gait-pose inference.",
+        "frameIndices": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "W",
+        "method": "Original restrained torso/head recoil guide with fixed heading; native final raster"
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "method": "Original restrained torso/head recoil guide with fixed heading; native final raster"
+      },
+      {
+        "state": "hit",
+        "direction": "N",
+        "method": "Original restrained torso/head recoil guide with fixed heading; native final raster"
+      },
+      {
+        "state": "hit",
+        "direction": "NE",
+        "method": "Original restrained torso/head recoil guide with fixed heading; native final raster"
+      },
+      {
+        "state": "hit",
+        "direction": "E",
+        "method": "Original restrained torso/head recoil guide with fixed heading; native final raster"
+      },
+      {
+        "state": "hit",
+        "direction": "SE",
+        "method": "Original restrained torso/head recoil guide with fixed heading; native final raster"
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "method": "Original restrained torso/head recoil guide with fixed heading; native final raster",
+        "frameIndices": [
+          0,
+          1
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "method": "Native separation and wing-tip completion of joined2/3 recoil source; original0/1 retained.",
+        "frameIndices": [
+          2,
+          3
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "method": "Native separation and wing-tip completion of joined2/3 recoil source; original0/1 retained.",
+        "frameIndices": [
+          2,
+          3
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "S",
+        "sha256": "ea1d8f7f2ddb8414d0711061aa207229f9955c2b392efa3689994966dc471e33",
+        "method": "Full articulated eight-pose guide plus enlarged same-joint leg-chain reference and upper-body-only identity; one natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "sha256": "ea1d8f7f2ddb8414d0711061aa207229f9955c2b392efa3689994966dc471e33",
+        "method": "Full articulated eight-pose guide plus enlarged same-joint leg-chain reference and upper-body-only identity; one natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "direction": "N",
+        "sha256": "48148af31b72a067f90c822c81e6f38263e8272975ebfe21f44b6b6636d399a9",
+        "method": "Full articulated eight-pose guide plus enlarged same-joint leg-chain reference and upper-body-only identity; one natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "sha256": "48148af31b72a067f90c822c81e6f38263e8272975ebfe21f44b6b6636d399a9",
+        "method": "Full articulated eight-pose guide plus enlarged same-joint leg-chain reference and upper-body-only identity; one natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "direction": "E",
+        "sha256": "9f285c40399598f976ad9bcaecba70feb86ae3151e8cf4afeb0857c0a94768e6",
+        "method": "Enlarged connected hip-to-foot phase guide with upper-body-only material identity; natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "sha256": "9f285c40399598f976ad9bcaecba70feb86ae3151e8cf4afeb0857c0a94768e6",
+        "method": "Enlarged connected hip-to-foot phase guide with upper-body-only material identity; natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "sha256": "4fa2b1625a76a7e02f4810455247b86942162aa5aa37b7f89bb0249d4e33a3d8",
+        "method": "Enlarged connected hip-to-foot phase guide with upper-body-only material identity; natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "sha256": "4fa2b1625a76a7e02f4810455247b86942162aa5aa37b7f89bb0249d4e33a3d8",
+        "method": "Enlarged connected hip-to-foot phase guide with upper-body-only material identity; natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "direction": "S",
+        "method": "Isolated chronology correction, preserving all other accepted original cells; exact same-joint enlarged phase guide.",
+        "frameIndices": [
+          3
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "N",
+        "method": "Isolated chronology correction, preserving all other accepted original cells; exact same-joint enlarged phase guide.",
+        "frameIndices": [
+          2,
+          6
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "sha256": "24a288b8330ba767301ea5cc9b3019d332d088206e51071c1a264e7444602c5b",
+        "method": "Full-eight original articulated guide with enlarged actual connected leg branches and upper-body-only identity; natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "sha256": "24a288b8330ba767301ea5cc9b3019d332d088206e51071c1a264e7444602c5b",
+        "method": "Full-eight original articulated guide with enlarged actual connected leg branches and upper-body-only identity; natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "direction": "NW",
+        "sha256": "6cb9ca81857e89a1781f3abdae1a0696201cdafed52be86e7eb778964660e73a",
+        "method": "Full-eight original articulated guide with enlarged actual connected leg branches and upper-body-only identity; natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "sha256": "6cb9ca81857e89a1781f3abdae1a0696201cdafed52be86e7eb778964660e73a",
+        "method": "Full-eight original articulated guide with enlarged actual connected leg branches and upper-body-only identity; natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "method": "Exact NE2-4 connected-leg transfer correction; original same-phase guides, natural material.",
+        "frameIndices": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,7 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "hit",
+        "direction": "SW",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,3 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "cast",
+        "direction": "SW",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,7 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "attack",
+        "direction": "NW",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,7 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,3 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "cast",
+        "direction": "NW",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,7 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "death",
+        "direction": "NW",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "attack",
+        "direction": "NE",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,7 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "hit",
+        "direction": "NE",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,3 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "cast",
+        "direction": "NE",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,7 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "death",
+        "direction": "NE",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,7 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "hit",
+        "direction": "SE",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,3 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,7 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,3 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "hit",
+        "direction": "W",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,3 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "hit",
+        "direction": "N",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,3 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "hit",
+        "direction": "E",
+        "method": "Raw RGBA row copy of in-actor idle-ready at frames 0,3 before lossless WebP encoding; no Canvas premultiplication."
+      },
+      {
+        "state": "walk",
+        "direction": "SE",
+        "sha256": "a7dce1d28aae476eb65dc0a187f837e160cca26f517d530052f13eecd154e783",
+        "method": "Full-eight original articulated guide with enlarged actual connected leg branches and upper-body-only identity; natural-material first pass."
+      },
+      {
+        "state": "walk",
+        "direction": "SE",
+        "sha256": "bdad980ba492e49d7322ae9a89d6d72282d70af9319e56df9959cb23167973ad",
+        "method": "Material-only restoration of reviewed exact continuous orange-near / blue-far diagnostic; topology and four poses invariant."
+      },
+      {
+        "state": "walk",
+        "direction": "SE",
+        "method": "SE runtime0–2/7 retained original natural source;3–6 restored from accepted continuous colored diagnostic, original guide7/0/1/2→runtime3/4/5/6. Replaced clipped native3 is never bound.",
+        "record": "qa/demon-SE-mixed-gait-record.json"
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "method": "Material-only restoration of art-lead-cleared continuous NE diagnostic chains, with complete outer wing margin. Only complete native0/1 bound to runtime2/3; clipped native2/runtime4 remains excluded.",
+        "frameIndices": [
+          2,
+          3
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "method": "Isolated phase4 full-wing contour repair only; body and corrected near-short/far-long proximal chains preserved.",
+        "frameIndices": [
+          4
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "method": "Isolated phase4 full-wing contour repair only; body and corrected near-short/far-long proximal chains preserved.",
+        "frameIndices": [
+          4
+        ]
+      }
+    ],
+    "reuse": "Original articulated hierarchy/IK mathematics shared; independently authored broad red-umber Demon, curved horns, two attached wings, full opaque iron/leather waist, claws. No other actor finished-body recolor coverage. Thirty-six disclosed own-idle0 ready copies use exact raw visible RGBA/full alpha and equal anchors; substantive motion phases are native generated.",
+    "semanticPhaseMappings": [
+      {
+        "state": "walk",
+        "direction": "N",
+        "runtimeFrameToPreviousFrame": [
+          0,
+          1,
+          2,
+          7,
+          4,
+          5,
+          6,
+          3
+        ],
+        "totalDurationBefore": 720,
+        "totalDurationAfter": 720,
+        "pixelFilesChanged": false,
+        "review": "Art lead2026-10-10T02:42:59Z accepted source-phase mapping",
+        "at": "2026-10-10T02:44:33.568055+00:00"
+      }
+    ],
+    "travel": "Eight authored grounded gait headings. N original genuine phases3/7 are semantically exchanged after whole-loop chronology review, with all original90ms durations and720ms total. SE original guide7/0/1/2 mapped to repaired runtime3/4/5/6 to complement retained native lead. Colored diagnostic chains were reviewed before natural-material restoration; diagnostic pixels are never runtime-bound."
+  },
+  "validation": {
+    "issues": [],
+    "sourceLayoutInspected": false,
+    "inGame": "not tested",
+    "native": "not tested",
+    "acceptedSourceEdgeContacts": [
+      {
+        "state": "walk",
+        "direction": "NW",
+        "frame": 3,
+        "issue": "SOURCE_EDGE"
+      },
+      {
+        "state": "walk",
+        "direction": "NW",
+        "frame": 7,
+        "issue": "SOURCE_EDGE"
+      }
+    ],
+    "sourceEdgeAdjudication": "NW3/7 complete pointed hooks confirmed by art lead in exact enlarged native contour; no visible flat truncation. Isolated selected actor pixels retained through edge. Not treated as an unresolved clipping defect.",
+    "sourceReview": {
+      "reviewer": "review_full_catalog_consistency and animate_classic_rpg_preview",
+      "result": "PASS_SOURCE_ONLY",
+      "at": "2026-10-10T03:10:07.002737+00:00",
+      "reviewedCandidateSHA256": "0d7672914b2be2de1a793891ae28092cdfa972518e98edafcfb21be8f105984c",
+      "finalActionObservation": "Independent reviewer closed final NE material/complete wing contour, whole loop and36 exact ready copies after art-lead phase/topology adjudication.",
+      "caveat": "Replacement poses are sharper/brighter and sometimes narrower in material/body contour. NW walk proximal hips remain partly occluded; rounded complete wing tips touch native source edge at3/7 without demonstrated missing contour. N attack contact is rear-occluded and authored timing remains estimated. Scene/native acceptance remains separate."
+    }
+  },
+  "missingDirectionStates": {
+    "S": [],
+    "SW": [],
+    "W": [],
+    "NW": [],
+    "N": [],
+    "NE": [],
+    "E": [],
+    "SE": []
+  },
+  "visualContactMarkers": "actors/demon/demon-contact-markers.json"
+}

@@ -1,0 +1,4992 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "CLASS-KNIGHT",
+  "assetId": "ASSET-STANCE-CLASS-KNIGHT-SPEAR",
+  "class": "knight",
+  "weaponFamily": "spear",
+  "stance": "spear",
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 92,
+  "anchor": [
+    96,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-S.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-S.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-S.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-S.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-S.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            155
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-S.webp"
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SW.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SW.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SW.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-SW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            90,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            90,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SW.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SW.webp"
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-W.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-W.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-W.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-W.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-W.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-W.webp"
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NW.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NW.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NW.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-NW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NW.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NW.webp"
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-N.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-N.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-N.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-N.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-N.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-N.webp"
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-NE.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-NE.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-NE.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-NE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            99,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            101,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            102,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-NE.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-NE.webp"
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-E.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-E.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            81,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-E.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-E.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-E.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-E.webp"
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/idle-SE.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/walk-SE.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/attack-SE.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/hit-SE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/death-SE.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            155
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            153
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "stance-staging/runtime/knight-spear/clips/cast-SE.webp"
+        }
+      ]
+    }
+  },
+  "status": "source-reviewed-candidate",
+  "frameCount": 336,
+  "clipCount": 48,
+  "runtimeLayout": "per-action-direction",
+  "maximumClipDecodedBytes": 1179648,
+  "provenance": {
+    "method": "Accepted original adult class body; family-specific weapon geometry and articulated grip/action guides; built-in imagegen final raster detail",
+    "model": "stance-staging/source/knight-spear-original.blend",
+    "sources": [
+      {
+        "state": "idle",
+        "file": "stance-staging/source/knight-spear-idle.png",
+        "sha256": "c6d77e87b4b98e8cc5a95eb19552aa4967962bb638444abac7cc433c9f5f2142",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          6,
+          8
+        ],
+        "components": 48
+      },
+      {
+        "state": "walk",
+        "file": "stance-staging/source/knight-spear-walk.png",
+        "sha256": "01968387bd1a67febf8aebe6a2bfa858407030950aee899fae06ed5fd7a5ef6d",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          8,
+          8
+        ],
+        "components": 64
+      },
+      {
+        "state": "attack",
+        "file": "stance-staging/source/knight-spear-attack.png",
+        "sha256": "91ec4557e68df8811e1a572f5448752d0b22badc803ec57384850216b096f94f",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          8,
+          8
+        ],
+        "components": 64
+      },
+      {
+        "state": "hit",
+        "file": "stance-staging/source/knight-spear-hit.png",
+        "sha256": "34fb57b9ce827aa49f1e5c26e86d5ff56448f08014398055a8d30278fd211c7a",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          4,
+          8
+        ],
+        "components": 32
+      },
+      {
+        "state": "death",
+        "file": "stance-staging/source/knight-spear-death.png",
+        "sha256": "d507609bf4a2ddb93dd9e5999b1f5df88acbda7d547591d35c3c41c921e9b329",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          8,
+          8
+        ],
+        "components": 64
+      },
+      {
+        "state": "cast",
+        "file": "stance-staging/source/knight-spear-cast.png",
+        "sha256": "ab2620dfa157e5141249c7ad0ce2a8e75bf650ac3c14ec6ebf6f9aa4aa8fbbe0",
+        "method": "Built-in imagegen original finish over family-specific articulated pose guide",
+        "grid": [
+          8,
+          8
+        ],
+        "components": 64
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "file": "stance-staging/source/knight-spear-death-SW-repair.png",
+        "method": "Targeted original imagegen clip repair",
+        "record": "stance-staging/source/knight-spear-death-SW-repair-generation.json"
+      },
+      {
+        "state": "walk",
+        "direction": "N",
+        "file": "stance-staging/source/knight-spear-walk-N-repair.png",
+        "method": "Targeted original imagegen clip repair",
+        "record": "stance-staging/source/knight-spear-walk-N-repair-generation.json"
+      },
+      {
+        "state": "hit",
+        "direction": "E",
+        "file": "stance-staging/source/knight-spear-hit-E-repair.png",
+        "method": "Targeted original imagegen clip repair",
+        "record": "stance-staging/source/knight-spear-hit-E-repair-generation.json"
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "file": "stance-staging/source/knight-spear-hit-S-repair.png",
+        "method": "Targeted original imagegen clip repair",
+        "record": "stance-staging/source/knight-spear-hit-S-repair-generation.json"
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "file": "stance-staging/source/knight-spear-attack-N-repair-v2.png",
+        "method": "Targeted original imagegen clip repair",
+        "record": "stance-staging/source/knight-spear-attack-N-repair-v2-generation.json"
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "file": "stance-staging/source/knight-spear-attack-N-repair-v4.png",
+        "method": "Targeted original imagegen clip repair",
+        "record": "stance-staging/source/knight-spear-attack-N-repair-v4-generation.json"
+      }
+    ]
+  },
+  "validation": {
+    "issues": [],
+    "complete": true,
+    "temporalReview": {
+      "status": "pass",
+      "note": "Independent six-state/eight-direction source review and all targeted repairs pass: true end-on N thrust with left spear/right shield, N gait ownership, S/E hit. Eight pure frame translations preserve complete silhouettes with identical anchor offsets and zero world-space error; sharper repaired raster is a polish caveat.",
+      "date": "2026-10-09T10:56:28.172Z"
+    },
+    "inGame": "not tested"
+  },
+  "reviewHistory": [
+    {
+      "status": "hold",
+      "note": "N attack action still requires unequivocal camera-depth thrust, v3 source has hand-swap hold; v4 repair generating. Other targeted N walk and S/E hit repairs independently passed.",
+      "date": "2026-10-09T10:52:13.225Z"
+    },
+    {
+      "status": "pass",
+      "note": "Independent six-state/eight-direction source review and all targeted repairs pass: true end-on N thrust with left spear/right shield, N gait ownership, S/E hit. Eight pure frame translations preserve complete silhouettes with identical anchor offsets and zero world-space error; sharper repaired raster is a polish caveat.",
+      "date": "2026-10-09T10:56:28.172Z"
+    }
+  ],
+  "packingHistory": [
+    {
+      "at": "2026-10-09T11:08:01.440Z",
+      "state": "death",
+      "direction": "NE",
+      "frame": 5,
+      "offset": [
+        3,
+        0
+      ],
+      "anchor": [
+        99,
+        150
+      ],
+      "reason": "Complete original source silhouette given additional cell margin without any world-space position or scale change",
+      "worldSpaceError": 0
+    }
+  ]
+}

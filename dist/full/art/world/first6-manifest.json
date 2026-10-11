@@ -1,0 +1,2094 @@
+{
+  "schemaVersion": 1,
+  "status": "measured-candidates-awaiting-live-render-review",
+  "acceptedInGame": false,
+  "worldGrid": [
+    64,
+    32
+  ],
+  "uniformDrawSize": 1,
+  "assetCount": 6,
+  "coordinateContract": {
+    "anchor": "Main physical foundation front corner; never the alpha center, roof, or shadow",
+    "draw": "drawImage(sprite, project(rootTile).x - pixelAnchor[0]*drawSize, project(rootTile).y - pixelAnchor[1]*drawSize, spriteSize[0]*drawSize, spriteSize[1]*drawSize)",
+    "depth": "rootTile.x + rootTile.y; at equal depth draw structure before NPC",
+    "footprint": "Measured visible foundation vertices inverse-projected into the fixed 64x32 grid; hidden rear vertices inferred from ground edge vectors",
+    "passability": "Do not mark sprite/roof bounding box solid. Block only footprint.blockedOffsets. Entrance and approach offsets must remain clear and connected to map roads.",
+    "scale": "drawSize=1 is one screen pixel per asset pixel before camera zoom. Do not apply another independent building-only scaling factor.",
+    "thinGeometry": "Tile-center raster alone can miss thin wall strips. Honor blockedMovementEdges as undirected prohibited steps as well as blockedOffsets. This adds no inflated area or arbitrary padding."
+  },
+  "assets": [
+    {
+      "id": "structure-smith",
+      "name": "smith",
+      "file": "structure-smith.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "cropBox": [
+        183,
+        12,
+        1371,
+        976
+      ],
+      "alphaCropThreshold": 24,
+      "alphaPreservedInsideCrop": true,
+      "spriteSize": [
+        320,
+        260
+      ],
+      "width": 320,
+      "height": 260,
+      "pixelAnchor": [
+        142,
+        255
+      ],
+      "drawSize": 1,
+      "renderWidth": 320,
+      "renderHeight": 260,
+      "depthRule": "anchorTileX + anchorTileY",
+      "footprint": {
+        "pixelPolygons": [
+          [
+            [
+              142,
+              255
+            ],
+            [
+              6,
+              205
+            ],
+            [
+              172,
+              155
+            ],
+            [
+              308,
+              205
+            ]
+          ]
+        ],
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            -3.6875,
+            0.5625
+          ],
+          [
+            -2.65625,
+            -3.59375
+          ],
+          [
+            1.03125,
+            -4.15625
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              -3.6875,
+              0.5625
+            ],
+            [
+              -2.65625,
+              -3.59375
+            ],
+            [
+              1.03125,
+              -4.15625
+            ]
+          ]
+        ],
+        "blockedOffsets": [
+          [
+            -2,
+            -3
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            -3,
+            -2
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            -3,
+            -1
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            -3,
+            0
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "rasterization": "integer tile centers inside measured foundation polygons; no collision padding",
+        "blockedMovementEdges": [
+          [
+            [
+              0,
+              -5
+            ],
+            [
+              1,
+              -4
+            ]
+          ],
+          [
+            [
+              1,
+              -5
+            ],
+            [
+              1,
+              -4
+            ]
+          ],
+          [
+            [
+              0,
+              -4
+            ],
+            [
+              1,
+              -4
+            ]
+          ],
+          [
+            [
+              0,
+              -4
+            ],
+            [
+              1,
+              -3
+            ]
+          ],
+          [
+            [
+              -3,
+              -3
+            ],
+            [
+              -2,
+              -4
+            ]
+          ],
+          [
+            [
+              -4,
+              0
+            ],
+            [
+              -3,
+              1
+            ]
+          ]
+        ],
+        "collisionPaddingPixels": 0,
+        "continuousMovementRule": "After blockedOffsets walkability, reject moves matching either direction of blockedMovementEdges, translated by rootTile. These exact segment/foundation intersections prevent crossing thin walls between tile centers."
+      },
+      "door": {
+        "pixelThreshold": [
+          224,
+          229
+        ],
+        "thresholdOffset": [
+          0.46875,
+          -2.09375
+        ],
+        "face": "visible right face",
+        "entranceOffsets": [
+          [
+            1,
+            -2
+          ]
+        ],
+        "approachOffsets": [
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "passableOffsets": [
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "passageOffsets": []
+      },
+      "suggestedTownPlacement": {
+        "mapId": "MAP-TOWN-TALKING",
+        "rootTile": [
+          53,
+          45
+        ],
+        "npcTile": [
+          55,
+          44
+        ],
+        "npcOffset": [
+          2,
+          -1
+        ]
+      },
+      "qa": {
+        "acceptedInGame": false,
+        "measuredVisibleFoundation": true,
+        "rearGroundVerticesInferred": true,
+        "projectionExact2to1": false,
+        "coordinatePrecisionPixels": 3,
+        "passableCollisionConflicts": [],
+        "notes": [
+          "Rear vertex inferred by parallelogram from visible foundation edges; roof does not determine footprint."
+        ],
+        "thinEdgeCrossingsHandled": 6
+      },
+      "atlasRect": [
+        4,
+        4,
+        320,
+        260
+      ],
+      "sourceSha256": "00a04c4d5502b77236b6472064f6ad1cd7abd9eeee587d293586805127fdb2a0",
+      "spriteSha256": "f8f873e8128e4e8b4b35715ad2642764e1515e28fa18cb5b8cb22143a96760f5",
+      "exteriorDoorOrdering": {
+        "enabled": true,
+        "eligibleOffsets": [
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "requiresActorOutsideFootprint": true,
+        "relation": "this structure before this exterior actor",
+        "excludeGatePassage": true,
+        "reason": "Root is a front physical corner, not the depth of the entire facade. Only declared exterior door approach cells may force their actor above this structure; never globally sort all actors on top."
+      }
+    },
+    {
+      "id": "structure-supply",
+      "name": "supply",
+      "file": "structure-supply.png",
+      "sourceSize": [
+        1312,
+        1199
+      ],
+      "cropBox": [
+        81,
+        12,
+        1242,
+        1147
+      ],
+      "alphaCropThreshold": 24,
+      "alphaPreservedInsideCrop": true,
+      "spriteSize": [
+        320,
+        313
+      ],
+      "width": 320,
+      "height": 313,
+      "pixelAnchor": [
+        222,
+        300
+      ],
+      "drawSize": 1,
+      "renderWidth": 320,
+      "renderHeight": 313,
+      "depthRule": "anchorTileX + anchorTileY",
+      "footprint": {
+        "pixelPolygons": [
+          [
+            [
+              222,
+              300
+            ],
+            [
+              22,
+              235
+            ],
+            [
+              107,
+              191
+            ],
+            [
+              307,
+              256
+            ]
+          ],
+          [
+            [
+              15,
+              240
+            ],
+            [
+              126,
+              292
+            ],
+            [
+              149,
+              280
+            ],
+            [
+              37,
+              229
+            ]
+          ]
+        ],
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            -5.15625,
+            1.09375
+          ],
+          [
+            -5.20312,
+            -1.60938
+          ],
+          [
+            -0.04688,
+            -2.70312
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              -5.15625,
+              1.09375
+            ],
+            [
+              -5.20312,
+              -1.60938
+            ],
+            [
+              -0.04688,
+              -2.70312
+            ]
+          ],
+          [
+            [
+              -5.10938,
+              1.35938
+            ],
+            [
+              -1.75,
+              1.25
+            ],
+            [
+              -1.76562,
+              0.51562
+            ],
+            [
+              -5.10938,
+              0.67188
+            ]
+          ]
+        ],
+        "blockedOffsets": [
+          [
+            -3,
+            -2
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            -5,
+            -1
+          ],
+          [
+            -4,
+            -1
+          ],
+          [
+            -3,
+            -1
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -5,
+            0
+          ],
+          [
+            -4,
+            0
+          ],
+          [
+            -3,
+            0
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -5,
+            1
+          ],
+          [
+            -4,
+            1
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            -2,
+            1
+          ]
+        ],
+        "rasterization": "integer tile centers inside measured foundation polygons; no collision padding",
+        "blockedMovementEdges": [
+          [
+            [
+              -1,
+              -3
+            ],
+            [
+              0,
+              -2
+            ]
+          ]
+        ],
+        "collisionPaddingPixels": 0,
+        "continuousMovementRule": "After blockedOffsets walkability, reject moves matching either direction of blockedMovementEdges, translated by rootTile. These exact segment/foundation intersections prevent crossing thin walls between tile centers."
+      },
+      "door": {
+        "pixelThreshold": [
+          188,
+          280
+        ],
+        "thresholdOffset": [
+          -1.15625,
+          -0.09375
+        ],
+        "face": "broad shopfront face, left of front corner",
+        "entranceOffsets": [
+          [
+            0,
+            1
+          ]
+        ],
+        "approachOffsets": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "passableOffsets": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "passageOffsets": []
+      },
+      "suggestedTownPlacement": {
+        "mapId": "MAP-TOWN-TALKING",
+        "rootTile": [
+          46,
+          43
+        ],
+        "npcTile": [
+          46,
+          44
+        ],
+        "npcOffset": [
+          0,
+          1
+        ]
+      },
+      "qa": {
+        "acceptedInGame": false,
+        "measuredVisibleFoundation": true,
+        "rearGroundVerticesInferred": true,
+        "projectionExact2to1": false,
+        "coordinatePrecisionPixels": 3,
+        "passableCollisionConflicts": [],
+        "notes": [
+          "Door is on the broad shopfront plane, not the narrow right plane. Preserve this source-specific exception.",
+          "Counter/display footprint is a separate measured polygon. Stone entrance steps are traversable."
+        ],
+        "thinEdgeCrossingsHandled": 1
+      },
+      "atlasRect": [
+        332,
+        4,
+        320,
+        313
+      ],
+      "sourceSha256": "fe5f8be1b027f240f43aefd0b47f6ec4a1194febe3d001c892574704fc77d5bf",
+      "spriteSha256": "b5c04405abcc55e905a7c2554a63aa0861915851c0ab7f3917898b450c7794ce",
+      "exteriorDoorOrdering": {
+        "enabled": true,
+        "eligibleOffsets": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "requiresActorOutsideFootprint": true,
+        "relation": "this structure before this exterior actor",
+        "excludeGatePassage": true,
+        "reason": "Root is a front physical corner, not the depth of the entire facade. Only declared exterior door approach cells may force their actor above this structure; never globally sort all actors on top."
+      }
+    },
+    {
+      "id": "structure-keeper",
+      "name": "keeper",
+      "file": "structure-keeper.png",
+      "sourceSize": [
+        1312,
+        1199
+      ],
+      "cropBox": [
+        17,
+        1,
+        1297,
+        1157
+      ],
+      "alphaCropThreshold": 24,
+      "alphaPreservedInsideCrop": true,
+      "spriteSize": [
+        320,
+        289
+      ],
+      "width": 320,
+      "height": 289,
+      "pixelAnchor": [
+        179,
+        283
+      ],
+      "drawSize": 1,
+      "renderWidth": 320,
+      "renderHeight": 289,
+      "depthRule": "anchorTileX + anchorTileY",
+      "footprint": {
+        "pixelPolygons": [
+          [
+            [
+              179,
+              283
+            ],
+            [
+              37,
+              216
+            ],
+            [
+              163,
+              160
+            ],
+            [
+              305,
+              227
+            ]
+          ],
+          [
+            [
+              8,
+              216
+            ],
+            [
+              94,
+              265
+            ],
+            [
+              127,
+              250
+            ],
+            [
+              41,
+              202
+            ]
+          ],
+          [
+            [
+              283,
+              237
+            ],
+            [
+              309,
+              226
+            ],
+            [
+              309,
+              206
+            ],
+            [
+              283,
+              216
+            ]
+          ]
+        ],
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            -4.3125,
+            0.125
+          ],
+          [
+            -4.09375,
+            -3.59375
+          ],
+          [
+            0.21875,
+            -3.71875
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              -4.3125,
+              0.125
+            ],
+            [
+              -4.09375,
+              -3.59375
+            ],
+            [
+              0.21875,
+              -3.71875
+            ]
+          ],
+          [
+            [
+              -4.76562,
+              0.57812
+            ],
+            [
+              -1.89062,
+              0.76562
+            ],
+            [
+              -1.84375,
+              -0.21875
+            ],
+            [
+              -4.6875,
+              -0.375
+            ]
+          ],
+          [
+            [
+              0.1875,
+              -3.0625
+            ],
+            [
+              0.25,
+              -3.8125
+            ],
+            [
+              -0.375,
+              -4.4375
+            ],
+            [
+              -0.46875,
+              -3.71875
+            ]
+          ]
+        ],
+        "blockedOffsets": [
+          [
+            0,
+            -4
+          ],
+          [
+            -4,
+            -3
+          ],
+          [
+            -3,
+            -3
+          ],
+          [
+            -2,
+            -3
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            -4,
+            -2
+          ],
+          [
+            -3,
+            -2
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            -4,
+            -1
+          ],
+          [
+            -3,
+            -1
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            -4,
+            0
+          ],
+          [
+            -3,
+            0
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "rasterization": "integer tile centers inside measured foundation polygons; no collision padding",
+        "blockedMovementEdges": [
+          [
+            [
+              -5,
+              0
+            ],
+            [
+              -4,
+              1
+            ]
+          ]
+        ],
+        "collisionPaddingPixels": 0,
+        "continuousMovementRule": "After blockedOffsets walkability, reject moves matching either direction of blockedMovementEdges, translated by rootTile. These exact segment/foundation intersections prevent crossing thin walls between tile centers."
+      },
+      "door": {
+        "pixelThreshold": [
+          231,
+          257
+        ],
+        "thresholdOffset": [
+          0,
+          -1.625
+        ],
+        "face": "visible right face",
+        "entranceOffsets": [
+          [
+            1,
+            -2
+          ]
+        ],
+        "approachOffsets": [
+          [
+            1,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "passableOffsets": [
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "passageOffsets": []
+      },
+      "suggestedTownPlacement": {
+        "mapId": "MAP-TOWN-TALKING",
+        "rootTile": [
+          63,
+          46
+        ],
+        "npcTile": [
+          64,
+          44
+        ],
+        "npcOffset": [
+          1,
+          -2
+        ]
+      },
+      "qa": {
+        "acceptedInGame": false,
+        "measuredVisibleFoundation": true,
+        "rearGroundVerticesInferred": true,
+        "projectionExact2to1": false,
+        "coordinatePrecisionPixels": 3,
+        "passableCollisionConflicts": [],
+        "notes": [
+          "Porch footprint is measured separately from the main foundation. Crate stack beside right wall is included separately."
+        ],
+        "thinEdgeCrossingsHandled": 1
+      },
+      "atlasRect": [
+        660,
+        4,
+        320,
+        289
+      ],
+      "sourceSha256": "eaf36e156289af281b6e41a5118dffb19bcb6b03eb26c9f91e6ffc42c0afb945",
+      "spriteSha256": "1f837456a86daff0c9f350c306e05bbe611a2e45786e045d7f058c198aadecc7",
+      "exteriorDoorOrdering": {
+        "enabled": true,
+        "eligibleOffsets": [
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "requiresActorOutsideFootprint": true,
+        "relation": "this structure before this exterior actor",
+        "excludeGatePassage": true,
+        "reason": "Root is a front physical corner, not the depth of the entire facade. Only declared exterior door approach cells may force their actor above this structure; never globally sort all actors on top."
+      }
+    },
+    {
+      "id": "structure-healer",
+      "name": "healer",
+      "file": "structure-healer.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "cropBox": [
+        168,
+        6,
+        1383,
+        982
+      ],
+      "alphaCropThreshold": 24,
+      "alphaPreservedInsideCrop": true,
+      "spriteSize": [
+        320,
+        257
+      ],
+      "width": 320,
+      "height": 257,
+      "pixelAnchor": [
+        187,
+        238
+      ],
+      "drawSize": 1,
+      "renderWidth": 320,
+      "renderHeight": 257,
+      "depthRule": "anchorTileX + anchorTileY",
+      "footprint": {
+        "pixelPolygons": [
+          [
+            [
+              187,
+              238
+            ],
+            [
+              26,
+              193
+            ],
+            [
+              139,
+              159
+            ],
+            [
+              300,
+              204
+            ]
+          ],
+          [
+            [
+              23,
+              199
+            ],
+            [
+              97,
+              226
+            ],
+            [
+              121,
+              215
+            ],
+            [
+              48,
+              188
+            ]
+          ]
+        ],
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            -3.92188,
+            1.10938
+          ],
+          [
+            -3.21875,
+            -1.71875
+          ],
+          [
+            0.70312,
+            -2.82812
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              -3.92188,
+              1.10938
+            ],
+            [
+              -3.21875,
+              -1.71875
+            ],
+            [
+              0.70312,
+              -2.82812
+            ]
+          ],
+          [
+            [
+              -3.78125,
+              1.34375
+            ],
+            [
+              -1.78125,
+              1.03125
+            ],
+            [
+              -1.75,
+              0.3125
+            ],
+            [
+              -3.73438,
+              0.60938
+            ]
+          ]
+        ],
+        "blockedOffsets": [
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            -3,
+            -1
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            -3,
+            0
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            -2,
+            1
+          ]
+        ],
+        "rasterization": "integer tile centers inside measured foundation polygons; no collision padding",
+        "blockedMovementEdges": [
+          [
+            [
+              0,
+              -3
+            ],
+            [
+              1,
+              -2
+            ]
+          ],
+          [
+            [
+              -4,
+              1
+            ],
+            [
+              -3,
+              2
+            ]
+          ]
+        ],
+        "collisionPaddingPixels": 0,
+        "continuousMovementRule": "After blockedOffsets walkability, reject moves matching either direction of blockedMovementEdges, translated by rootTile. These exact segment/foundation intersections prevent crossing thin walls between tile centers."
+      },
+      "door": {
+        "pixelThreshold": [
+          219,
+          215
+        ],
+        "thresholdOffset": [
+          -0.21875,
+          -1.21875
+        ],
+        "face": "visible right face",
+        "entranceOffsets": [
+          [
+            1,
+            0
+          ]
+        ],
+        "approachOffsets": [
+          [
+            1,
+            -1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "passableOffsets": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "passageOffsets": []
+      },
+      "suggestedTownPlacement": {
+        "mapId": "MAP-TOWN-TALKING",
+        "rootTile": [
+          72,
+          45
+        ],
+        "npcTile": [
+          73,
+          44
+        ],
+        "npcOffset": [
+          1,
+          -1
+        ]
+      },
+      "qa": {
+        "acceptedInGame": false,
+        "measuredVisibleFoundation": true,
+        "rearGroundVerticesInferred": true,
+        "projectionExact2to1": false,
+        "coordinatePrecisionPixels": 3,
+        "passableCollisionConflicts": [],
+        "notes": [
+          "Anchor is stone foundation corner, not irregular leafy apron or alpha shadow. Stall base measured separately."
+        ],
+        "thinEdgeCrossingsHandled": 2
+      },
+      "atlasRect": [
+        988,
+        4,
+        320,
+        257
+      ],
+      "sourceSha256": "43fe5ce547c1ed1a5fc2fbfac149b1c35459e8b26ca061d5652c2d7490421258",
+      "spriteSha256": "5da43d9413472c29056eca061a936c573aa6341e744857ac214cdd38c531ec75",
+      "exteriorDoorOrdering": {
+        "enabled": true,
+        "eligibleOffsets": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "requiresActorOutsideFootprint": true,
+        "relation": "this structure before this exterior actor",
+        "excludeGatePassage": true,
+        "reason": "Root is a front physical corner, not the depth of the entire facade. Only declared exterior door approach cells may force their actor above this structure; never globally sort all actors on top."
+      }
+    },
+    {
+      "id": "structure-inn",
+      "name": "inn",
+      "file": "structure-inn.png",
+      "sourceSize": [
+        1402,
+        1122
+      ],
+      "cropBox": [
+        172,
+        5,
+        1257,
+        1079
+      ],
+      "alphaCropThreshold": 24,
+      "alphaPreservedInsideCrop": true,
+      "spriteSize": [
+        320,
+        317
+      ],
+      "width": 320,
+      "height": 317,
+      "pixelAnchor": [
+        151,
+        302
+      ],
+      "drawSize": 1,
+      "renderWidth": 320,
+      "renderHeight": 317,
+      "depthRule": "anchorTileX + anchorTileY",
+      "footprint": {
+        "pixelPolygons": [
+          [
+            [
+              151,
+              302
+            ],
+            [
+              22,
+              245
+            ],
+            [
+              162,
+              204
+            ],
+            [
+              291,
+              261
+            ]
+          ]
+        ],
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            -3.79688,
+            0.23438
+          ],
+          [
+            -2.89062,
+            -3.23438
+          ],
+          [
+            0.90625,
+            -3.46875
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              -3.79688,
+              0.23438
+            ],
+            [
+              -2.89062,
+              -3.23438
+            ],
+            [
+              0.90625,
+              -3.46875
+            ]
+          ]
+        ],
+        "blockedOffsets": [
+          [
+            -2,
+            -3
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            -3,
+            -2
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            -3,
+            -1
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            -3,
+            0
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "rasterization": "integer tile centers inside measured foundation polygons; no collision padding",
+        "blockedMovementEdges": [
+          [
+            [
+              0,
+              -4
+            ],
+            [
+              1,
+              -3
+            ]
+          ],
+          [
+            [
+              -3,
+              -3
+            ],
+            [
+              -2,
+              -4
+            ]
+          ],
+          [
+            [
+              -4,
+              0
+            ],
+            [
+              -3,
+              1
+            ]
+          ]
+        ],
+        "collisionPaddingPixels": 0,
+        "continuousMovementRule": "After blockedOffsets walkability, reject moves matching either direction of blockedMovementEdges, translated by rootTile. These exact segment/foundation intersections prevent crossing thin walls between tile centers."
+      },
+      "door": {
+        "pixelThreshold": [
+          226,
+          272
+        ],
+        "thresholdOffset": [
+          0.23438,
+          -2.10938
+        ],
+        "face": "visible right face",
+        "entranceOffsets": [
+          [
+            1,
+            -2
+          ]
+        ],
+        "approachOffsets": [
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "passableOffsets": [
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "passageOffsets": []
+      },
+      "suggestedTownPlacement": {
+        "mapId": "MAP-TOWN-TALKING",
+        "rootTile": [
+          44,
+          55
+        ],
+        "npcTile": [
+          46,
+          54
+        ],
+        "npcOffset": [
+          2,
+          -1
+        ]
+      },
+      "qa": {
+        "acceptedInGame": false,
+        "measuredVisibleFoundation": true,
+        "rearGroundVerticesInferred": true,
+        "projectionExact2to1": false,
+        "coordinatePrecisionPixels": 3,
+        "passableCollisionConflicts": [],
+        "notes": [
+          "Main wall corner supplies root; porch step front is not the anchor. Entrance steps remain passable."
+        ],
+        "thinEdgeCrossingsHandled": 3
+      },
+      "atlasRect": [
+        1316,
+        4,
+        320,
+        317
+      ],
+      "sourceSha256": "512527df813aa06b951e5bd1fca86bf47aa1f3db4728857885c298b01498dc9d",
+      "spriteSha256": "0ec668bd81a33c36b3b6098e9af032a9d9658c46926ffe9315e3142692a50766",
+      "exteriorDoorOrdering": {
+        "enabled": true,
+        "eligibleOffsets": [
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "requiresActorOutsideFootprint": true,
+        "relation": "this structure before this exterior actor",
+        "excludeGatePassage": true,
+        "reason": "Root is a front physical corner, not the depth of the entire facade. Only declared exterior door approach cells may force their actor above this structure; never globally sort all actors on top."
+      }
+    },
+    {
+      "id": "structure-gate",
+      "name": "gate",
+      "file": "structure-gate.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "cropBox": [
+        46,
+        10,
+        1505,
+        996
+      ],
+      "alphaCropThreshold": 24,
+      "alphaPreservedInsideCrop": true,
+      "spriteSize": [
+        320,
+        216
+      ],
+      "width": 320,
+      "height": 216,
+      "pixelAnchor": [
+        109,
+        213
+      ],
+      "drawSize": 1,
+      "renderWidth": 320,
+      "renderHeight": 216,
+      "depthRule": "anchorTileX + anchorTileY",
+      "footprint": {
+        "pixelPolygons": [
+          [
+            [
+              109,
+              213
+            ],
+            [
+              77,
+              189
+            ],
+            [
+              124,
+              174
+            ],
+            [
+              157,
+              198
+            ]
+          ],
+          [
+            [
+              238,
+              184
+            ],
+            [
+              210,
+              169
+            ],
+            [
+              253,
+              153
+            ],
+            [
+              278,
+              172
+            ]
+          ],
+          [
+            [
+              4,
+              144
+            ],
+            [
+              75,
+              181
+            ],
+            [
+              80,
+              168
+            ],
+            [
+              15,
+              133
+            ]
+          ],
+          [
+            [
+              277,
+              170
+            ],
+            [
+              316,
+              156
+            ],
+            [
+              309,
+              146
+            ],
+            [
+              273,
+              156
+            ]
+          ]
+        ],
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            -1.25,
+            -0.25
+          ],
+          [
+            -0.98438,
+            -1.45312
+          ],
+          [
+            0.28125,
+            -1.21875
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              -1.25,
+              -0.25
+            ],
+            [
+              -0.98438,
+              -1.45312
+            ],
+            [
+              0.28125,
+              -1.21875
+            ]
+          ],
+          [
+            [
+              1.10938,
+              -2.92188
+            ],
+            [
+              0.20312,
+              -2.95312
+            ],
+            [
+              0.375,
+              -4.125
+            ],
+            [
+              1.35938,
+              -3.92188
+            ]
+          ],
+          [
+            [
+              -3.79688,
+              -0.51562
+            ],
+            [
+              -1.53125,
+              -0.46875
+            ],
+            [
+              -1.85938,
+              -0.95312
+            ],
+            [
+              -3.96875,
+              -1.03125
+            ]
+          ],
+          [
+            [
+              1.28125,
+              -3.96875
+            ],
+            [
+              1.45312,
+              -5.01562
+            ],
+            [
+              1.03125,
+              -5.21875
+            ],
+            [
+              0.78125,
+              -4.34375
+            ]
+          ]
+        ],
+        "blockedOffsets": [
+          [
+            1,
+            -5
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "rasterization": "integer tile centers inside measured foundation polygons; no collision padding",
+        "blockedMovementEdges": [
+          [
+            [
+              0,
+              -4
+            ],
+            [
+              1,
+              -4
+            ]
+          ],
+          [
+            [
+              1,
+              -4
+            ],
+            [
+              2,
+              -4
+            ]
+          ],
+          [
+            [
+              1,
+              -4
+            ],
+            [
+              2,
+              -3
+            ]
+          ],
+          [
+            [
+              1,
+              -4
+            ],
+            [
+              2,
+              -5
+            ]
+          ],
+          [
+            [
+              0,
+              -3
+            ],
+            [
+              1,
+              -4
+            ]
+          ],
+          [
+            [
+              -4,
+              -1
+            ],
+            [
+              -3,
+              -1
+            ]
+          ],
+          [
+            [
+              -4,
+              -1
+            ],
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            [
+              -4,
+              -1
+            ],
+            [
+              -3,
+              -2
+            ]
+          ],
+          [
+            [
+              -3,
+              -1
+            ],
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            [
+              -3,
+              -1
+            ],
+            [
+              -2,
+              0
+            ]
+          ],
+          [
+            [
+              -2,
+              -1
+            ],
+            [
+              -2,
+              0
+            ]
+          ],
+          [
+            [
+              -2,
+              -1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          [
+            [
+              -4,
+              0
+            ],
+            [
+              -3,
+              -1
+            ]
+          ],
+          [
+            [
+              -3,
+              0
+            ],
+            [
+              -2,
+              -1
+            ]
+          ]
+        ],
+        "collisionPaddingPixels": 0,
+        "continuousMovementRule": "After blockedOffsets walkability, reject moves matching either direction of blockedMovementEdges, translated by rootTile. These exact segment/foundation intersections prevent crossing thin walls between tile centers."
+      },
+      "door": {
+        "pixelThreshold": [
+          184,
+          182
+        ],
+        "thresholdOffset": [
+          0.20312,
+          -2.14062
+        ],
+        "face": "open gate aperture",
+        "entranceOffsets": [
+          [
+            0,
+            -2
+          ]
+        ],
+        "approachOffsets": [
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            -2
+          ]
+        ],
+        "passableOffsets": [
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -2
+          ]
+        ],
+        "passageOffsets": [
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            -2
+          ]
+        ]
+      },
+      "suggestedTownPlacement": {
+        "mapId": "MAP-TOWN-TALKING",
+        "rootTile": [
+          81,
+          46
+        ],
+        "npcTile": [
+          82,
+          44
+        ],
+        "npcOffset": [
+          1,
+          -2
+        ]
+      },
+      "qa": {
+        "acceptedInGame": false,
+        "measuredVisibleFoundation": true,
+        "rearGroundVerticesInferred": false,
+        "projectionExact2to1": false,
+        "coordinatePrecisionPixels": 3,
+        "passableCollisionConflicts": [],
+        "notes": [
+          "Two tower bases and two wall bases are separate collision polygons. The overhead lintel and arch aperture never become a solid bounding box.",
+          "Root is left tower front foundation corner."
+        ],
+        "thinEdgeCrossingsHandled": 14
+      },
+      "atlasRect": [
+        1644,
+        4,
+        320,
+        216
+      ],
+      "sourceSha256": "6f359df8a89ef82dedf29a3bbbb7c56070f858a856e253eda8847b16df5d4336",
+      "spriteSha256": "3f2323cb3b3cac915b5b390570db1562834d49d8976156e9a5cc97630ee3e5e4",
+      "exteriorDoorOrdering": {
+        "enabled": false,
+        "eligibleOffsets": [],
+        "requiresActorOutsideFootprint": true,
+        "relation": "this structure before this exterior actor",
+        "excludeGatePassage": true,
+        "reason": "Root is a front physical corner, not the depth of the entire facade. Only declared exterior door approach cells may force their actor above this structure; never globally sort all actors on top."
+      }
+    }
+  ],
+  "scaleExceptions": [
+    "well:160px width",
+    "hall:448px width",
+    "belltower:224px width",
+    "elven-hall:448px width",
+    "snow-cottage:416px width"
+  ],
+  "atlas": "structures24-atlas.png"
+}

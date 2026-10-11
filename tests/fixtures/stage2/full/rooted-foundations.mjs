@@ -1,0 +1,2 @@
+// Measured solid root flare only; decorative roots and canopy remain nonblocking.
+export const ROOTED_FOUNDATIONS=[{"id":"NPC-CANON-MOTHER-TREE:root-core","mapId":"MAP-TOWN-ELF","x":64,"y":76,"blocked":[[-2,-2],[-1,-2],[0,-2],[-2,-1],[-1,-1]],"blockedEdges":[[[-3,-1],[-2,0]],[[-3,0],[-2,0]],[[-1,0],[0,-1]]],"passable":[],"polygon":[[-2.7344,-0.9531],[-2.5469,-2.0156],[-1.9688,-2.4688],[-1.0313,-2.6563],[0.0313,-2.4688],[0.1406,-1.6406],[-0.125,-0.6875],[-0.8281,-0.2344],[-1.8594,-0.0156],[-2.5625,0]]}];

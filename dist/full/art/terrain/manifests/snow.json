@@ -1,0 +1,2259 @@
+{
+  "schemaVersion": 1,
+  "familyId": "ASSET-TERRAIN-SNOW",
+  "family": "SNOW",
+  "implementationState": "GENERATED_SOURCE_COUNTS_MET_INTEGRATION_PENDING",
+  "tileProjection": {
+    "width": 64,
+    "height": 32,
+    "type": "isometric-2:1"
+  },
+  "sourceCatalog": "catalog-requirements.json",
+  "materialDirection": "dirty compact snow over brown earth, wind-packed granular pale snow, sparse dry straw protrusions, dark frost-stained pebbles and subtle blue-grey frozen slush; cold muted off-white, stone grey, icy blue and earth brown; gritty natural winter not clean cartoon snow",
+  "tiles": [
+    {
+      "id": "SNOW-GROUND-01",
+      "name": "compact fine-grain dirty snow",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 11,
+          "y": 99,
+          "w": 293,
+          "h": 163
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-02",
+      "name": "wind-packed snow ripples",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 322,
+          "y": 97,
+          "w": 296,
+          "h": 167
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-03",
+      "name": "thin snow over dark gravel",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 636,
+          "y": 96,
+          "w": 296,
+          "h": 167
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-04",
+      "name": "frozen muddy slush",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 948,
+          "y": 97,
+          "w": 295,
+          "h": 170
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-05",
+      "name": "fresh uneven pale snow",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 11,
+          "y": 417,
+          "w": 294,
+          "h": 167
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-06",
+      "name": "small exposed stones in snow",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 322,
+          "y": 417,
+          "w": 295,
+          "h": 167
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-07",
+      "name": "dry straw stems through snow",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 635,
+          "y": 384,
+          "w": 296,
+          "h": 201
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-08",
+      "name": "hard icy worn snow track",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 949,
+          "y": 413,
+          "w": 294,
+          "h": 172
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-09",
+      "name": "grey granular frost over earth",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 10,
+          "y": 715,
+          "w": 295,
+          "h": 167
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-10",
+      "name": "small patches of brown dirt in snow",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 319,
+          "y": 713,
+          "w": 298,
+          "h": 169
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-11",
+      "name": "crusted snow with fine cracks",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 637,
+          "y": 714,
+          "w": 295,
+          "h": 171
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-12",
+      "name": "pale blue shaded snow texture",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 949,
+          "y": 712,
+          "w": 294,
+          "h": 172
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-13",
+      "name": "thin windblown drift around pebbles",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 12,
+          "y": 1018,
+          "w": 291,
+          "h": 166
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-14",
+      "name": "granular snow with pine needles",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 323,
+          "y": 1019,
+          "w": 294,
+          "h": 166
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-15",
+      "name": "snow crust above grey bedrock",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 638,
+          "y": 1012,
+          "w": 292,
+          "h": 175
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "SNOW-GROUND-16",
+      "name": "old rough compressed winter soil",
+      "kind": "ground",
+      "atlas": "atlases/snow-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-ground-generated.png",
+        "sha256": "51d68fe002a3a71ca4c94b94ccd105a02ce760439812b513683dbd260fbbac12",
+        "sourceRect": {
+          "x": 949,
+          "y": 1016,
+          "w": 294,
+          "h": 170
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    }
+  ],
+  "edgeMasks": [
+    {
+      "id": "SNOW-EDGE-01",
+      "name": "edge-nw",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 9,
+        "y": 2,
+        "w": 113,
+        "h": 96
+      },
+      "anchor": {
+        "x": 56.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -13,
+        "y": -6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 33,
+          "y": 62,
+          "w": 260,
+          "h": 220
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-02",
+      "name": "edge-ne",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 139,
+        "y": 2,
+        "w": 117,
+        "h": 96
+      },
+      "anchor": {
+        "x": 58.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 13,
+        "y": -6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 343,
+          "y": 63,
+          "w": 264,
+          "h": 217
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-03",
+      "name": "edge-se",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 5,
+        "w": 128,
+        "h": 89
+      },
+      "anchor": {
+        "x": 64,
+        "y": 44.5
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 13,
+        "y": 6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 658,
+          "y": 102,
+          "w": 254,
+          "h": 177
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-04",
+      "name": "edge-sw",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 403,
+        "y": 2,
+        "w": 117,
+        "h": 96
+      },
+      "anchor": {
+        "x": 58.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -13,
+        "y": 6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 968,
+          "y": 67,
+          "w": 261,
+          "h": 215
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-05",
+      "name": "corner-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 26,
+        "y": 102,
+        "w": 80,
+        "h": 96
+      },
+      "anchor": {
+        "x": 40,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 25,
+        "h": 25
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -20,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 58,
+          "y": 361,
+          "w": 192,
+          "h": 231
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-06",
+      "name": "corner-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 107,
+        "w": 128,
+        "h": 85
+      },
+      "anchor": {
+        "x": 64,
+        "y": 42.5
+      },
+      "drawSize": {
+        "w": 42,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": -9
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 339,
+          "y": 365,
+          "w": 270,
+          "h": 179
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-07",
+      "name": "corner-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 290,
+        "y": 102,
+        "w": 80,
+        "h": 96
+      },
+      "anchor": {
+        "x": 40,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 25,
+        "h": 25
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 20,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 691,
+          "y": 358,
+          "w": 196,
+          "h": 234
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-08",
+      "name": "corner-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 110,
+        "w": 128,
+        "h": 80
+      },
+      "anchor": {
+        "x": 64,
+        "y": 40
+      },
+      "drawSize": {
+        "w": 42,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 9
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 965,
+          "y": 390,
+          "w": 261,
+          "h": 164
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-09",
+      "name": "chevron-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 210,
+        "w": 128,
+        "h": 79
+      },
+      "anchor": {
+        "x": 64,
+        "y": 39.5
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 30
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": -2
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 27,
+          "y": 675,
+          "w": 283,
+          "h": 175
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-10",
+      "name": "chevron-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 159,
+        "y": 202,
+        "w": 77,
+        "h": 96
+      },
+      "anchor": {
+        "x": 38.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 10,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 394,
+          "y": 648,
+          "w": 207,
+          "h": 258
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-11",
+      "name": "chevron-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 212,
+        "w": 128,
+        "h": 75
+      },
+      "anchor": {
+        "x": 64,
+        "y": 37.5
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 30
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 2
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 651,
+          "y": 704,
+          "w": 278,
+          "h": 163
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-12",
+      "name": "chevron-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 422,
+        "y": 202,
+        "w": 80,
+        "h": 96
+      },
+      "anchor": {
+        "x": 40,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -10,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 978,
+          "y": 652,
+          "w": 216,
+          "h": 258
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-13",
+      "name": "broken-ribbon",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 10,
+        "y": 302,
+        "w": 111,
+        "h": 96
+      },
+      "anchor": {
+        "x": 55.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 28
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 36,
+          "y": 969,
+          "w": 270,
+          "h": 234
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-14",
+      "name": "three-arm-junction",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 144,
+        "y": 302,
+        "w": 108,
+        "h": 96
+      },
+      "anchor": {
+        "x": 54,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 60,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 328,
+          "y": 966,
+          "w": 283,
+          "h": 252
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-15",
+      "name": "central-island",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 304,
+        "w": 128,
+        "h": 92
+      },
+      "anchor": {
+        "x": 64,
+        "y": 46
+      },
+      "drawSize": {
+        "w": 35,
+        "h": 19
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 654,
+          "y": 998,
+          "w": 248,
+          "h": 178
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-EDGE-16",
+      "name": "hollow-ring",
+      "kind": "edge_mask",
+      "atlas": "atlases/snow-edges.webp",
+      "rect": {
+        "x": 404,
+        "y": 302,
+        "w": 116,
+        "h": 96
+      },
+      "anchor": {
+        "x": 58,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-edges-generated.png",
+        "sha256": "c7a5f39a80e2926032a729c0d296d34cdadb18049b6e158fd7365c57183d9ea7",
+        "sourceRect": {
+          "x": 947,
+          "y": 962,
+          "w": 292,
+          "h": 242
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "SNOW-WALL-01",
+      "name": "snow-capped rough stone bank up-right",
+      "kind": "wall",
+      "atlas": "atlases/snow-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 20,
+        "w": 188,
+        "h": 156
+      },
+      "anchor": {
+        "x": 94,
+        "y": 140
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 83
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 140
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-walls-generated.png",
+        "sha256": "4c053e989cbfda7b29998a17495ce000a552a646127b4bcc3969ab005da7dbd3",
+        "sourceRect": {
+          "x": 36,
+          "y": 84,
+          "w": 403,
+          "h": 334
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-WALL-02",
+      "name": "snow-capped rough stone bank down-right perpendicular",
+      "kind": "wall",
+      "atlas": "atlases/snow-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 21,
+        "w": 188,
+        "h": 154
+      },
+      "anchor": {
+        "x": 94,
+        "y": 139
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 82
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 139
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-walls-generated.png",
+        "sha256": "4c053e989cbfda7b29998a17495ce000a552a646127b4bcc3969ab005da7dbd3",
+        "sourceRect": {
+          "x": 479,
+          "y": 85,
+          "w": 393,
+          "h": 322
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-WALL-03",
+      "name": "snowy rocky outer corner",
+      "kind": "wall",
+      "atlas": "atlases/snow-walls.webp",
+      "rect": {
+        "x": 396,
+        "y": 31,
+        "w": 188,
+        "h": 134
+      },
+      "anchor": {
+        "x": 94,
+        "y": 121
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 71
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 121
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-walls-generated.png",
+        "sha256": "4c053e989cbfda7b29998a17495ce000a552a646127b4bcc3969ab005da7dbd3",
+        "sourceRect": {
+          "x": 927,
+          "y": 127,
+          "w": 385,
+          "h": 275
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-WALL-04",
+      "name": "rounded deep-snow bank end",
+      "kind": "wall",
+      "atlas": "atlases/snow-walls.webp",
+      "rect": {
+        "x": 592,
+        "y": 21,
+        "w": 188,
+        "h": 154
+      },
+      "anchor": {
+        "x": 94,
+        "y": 139
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 82
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 139
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-walls-generated.png",
+        "sha256": "4c053e989cbfda7b29998a17495ce000a552a646127b4bcc3969ab005da7dbd3",
+        "sourceRect": {
+          "x": 1367,
+          "y": 98,
+          "w": 364,
+          "h": 299
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-WALL-05",
+      "name": "wind-packed snow drift bank up-right",
+      "kind": "wall",
+      "atlas": "atlases/snow-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 211,
+        "w": 188,
+        "h": 166
+      },
+      "anchor": {
+        "x": 94,
+        "y": 149
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 88
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 149
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-walls-generated.png",
+        "sha256": "4c053e989cbfda7b29998a17495ce000a552a646127b4bcc3969ab005da7dbd3",
+        "sourceRect": {
+          "x": 38,
+          "y": 476,
+          "w": 390,
+          "h": 344
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-WALL-06",
+      "name": "wind-packed snow drift bank down-right",
+      "kind": "wall",
+      "atlas": "atlases/snow-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 213,
+        "w": 188,
+        "h": 161
+      },
+      "anchor": {
+        "x": 94,
+        "y": 145
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 86
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 145
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-walls-generated.png",
+        "sha256": "4c053e989cbfda7b29998a17495ce000a552a646127b4bcc3969ab005da7dbd3",
+        "sourceRect": {
+          "x": 474,
+          "y": 484,
+          "w": 394,
+          "h": 338
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-WALL-07",
+      "name": "broken winter dry-stone wall opening",
+      "kind": "wall",
+      "atlas": "atlases/snow-walls.webp",
+      "rect": {
+        "x": 396,
+        "y": 228,
+        "w": 188,
+        "h": 131
+      },
+      "anchor": {
+        "x": 94,
+        "y": 118
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 70
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 118
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-walls-generated.png",
+        "sha256": "4c053e989cbfda7b29998a17495ce000a552a646127b4bcc3969ab005da7dbd3",
+        "sourceRect": {
+          "x": 892,
+          "y": 495,
+          "w": 436,
+          "h": 304
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-WALL-08",
+      "name": "sloping snow and gravel ramp",
+      "kind": "wall",
+      "atlas": "atlases/snow-walls.webp",
+      "rect": {
+        "x": 592,
+        "y": 218,
+        "w": 188,
+        "h": 151
+      },
+      "anchor": {
+        "x": 94,
+        "y": 136
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 81
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 136
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-walls-generated.png",
+        "sha256": "4c053e989cbfda7b29998a17495ce000a552a646127b4bcc3969ab005da7dbd3",
+        "sourceRect": {
+          "x": 1346,
+          "y": 488,
+          "w": 400,
+          "h": 322
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "SNOW-PROP-01",
+      "name": "snow-capped granite boulder",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 28,
+        "w": 188,
+        "h": 140
+      },
+      "anchor": {
+        "x": 94,
+        "y": 126
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 49
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 126
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 36,
+          "y": 115,
+          "w": 278,
+          "h": 207
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-02",
+      "name": "three small snowy rocks",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 39,
+        "w": 188,
+        "h": 117
+      },
+      "anchor": {
+        "x": 94,
+        "y": 105
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 41
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 105
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 360,
+          "y": 176,
+          "w": 237,
+          "h": 148
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-03",
+      "name": "snow-laden dark pine",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 422,
+        "y": 4,
+        "w": 135,
+        "h": 188
+      },
+      "anchor": {
+        "x": 67.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 112,
+        "h": 156
+      },
+      "footAnchor": {
+        "x": 67.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 677,
+          "y": 18,
+          "w": 229,
+          "h": 318
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-04",
+      "name": "thin snow-covered leafless birch",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 628,
+        "y": 4,
+        "w": 116,
+        "h": 188
+      },
+      "anchor": {
+        "x": 58,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 97,
+        "h": 156
+      },
+      "footAnchor": {
+        "x": 58,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 999,
+          "y": 26,
+          "w": 192,
+          "h": 310
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-05",
+      "name": "twisted dead tree with icy twigs",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 11,
+        "y": 200,
+        "w": 174,
+        "h": 188
+      },
+      "anchor": {
+        "x": 87,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 115,
+        "h": 124
+      },
+      "footAnchor": {
+        "x": 87,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 41,
+          "y": 348,
+          "w": 264,
+          "h": 285
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-06",
+      "name": "snow-capped old tree stump",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 213,
+        "w": 188,
+        "h": 161
+      },
+      "anchor": {
+        "x": 94,
+        "y": 145
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 56
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 145
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 354,
+          "y": 425,
+          "w": 240,
+          "h": 205
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-07",
+      "name": "fallen log partly buried in snow",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 237,
+        "w": 188,
+        "h": 113
+      },
+      "anchor": {
+        "x": 94,
+        "y": 102
+      },
+      "drawSize": {
+        "w": 97,
+        "h": 58
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 102
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 637,
+          "y": 464,
+          "w": 294,
+          "h": 177
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-08",
+      "name": "frozen coarse straw grass clump",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 204,
+        "w": 188,
+        "h": 179
+      },
+      "anchor": {
+        "x": 94,
+        "y": 161
+      },
+      "drawSize": {
+        "w": 41,
+        "h": 39
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 161
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 973,
+          "y": 399,
+          "w": 250,
+          "h": 238
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-09",
+      "name": "broken wooden fence with patchy snow",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 410,
+        "w": 188,
+        "h": 160
+      },
+      "anchor": {
+        "x": 94,
+        "y": 144
+      },
+      "drawSize": {
+        "w": 77,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 144
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 34,
+          "y": 694,
+          "w": 280,
+          "h": 239
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-10",
+      "name": "old wooden signpost with blank snow-covered board",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 235,
+        "y": 396,
+        "w": 118,
+        "h": 188
+      },
+      "anchor": {
+        "x": 59,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 41,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 59,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 386,
+          "y": 657,
+          "w": 177,
+          "h": 283
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-11",
+      "name": "abandoned frozen barrel",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 428,
+        "w": 188,
+        "h": 124
+      },
+      "anchor": {
+        "x": 94,
+        "y": 112
+      },
+      "drawSize": {
+        "w": 49,
+        "h": 32
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 112
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 637,
+          "y": 758,
+          "w": 274,
+          "h": 181
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-12",
+      "name": "half-buried wooden sled",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 431,
+        "w": 188,
+        "h": 117
+      },
+      "anchor": {
+        "x": 94,
+        "y": 105
+      },
+      "drawSize": {
+        "w": 97,
+        "h": 60
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 105
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 960,
+          "y": 777,
+          "w": 268,
+          "h": 167
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-13",
+      "name": "snow-crusted stone cairn",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 600,
+        "w": 188,
+        "h": 171
+      },
+      "anchor": {
+        "x": 94,
+        "y": 154
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 60
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 154
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 31,
+          "y": 975,
+          "w": 277,
+          "h": 252
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-14",
+      "name": "small frozen thorn shrub",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 599,
+        "w": 188,
+        "h": 174
+      },
+      "anchor": {
+        "x": 94,
+        "y": 157
+      },
+      "drawSize": {
+        "w": 49,
+        "h": 45
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 157
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 346,
+          "y": 989,
+          "w": 254,
+          "h": 235
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-15",
+      "name": "weathered broken stone column with snow",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 400,
+        "y": 592,
+        "w": 180,
+        "h": 188
+      },
+      "anchor": {
+        "x": 90,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 63,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 90,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 657,
+          "y": 963,
+          "w": 258,
+          "h": 269
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "SNOW-PROP-16",
+      "name": "exposed animal rib bones in snow",
+      "kind": "static_prop",
+      "atlas": "atlases/snow-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 634,
+        "w": 188,
+        "h": 104
+      },
+      "anchor": {
+        "x": 94,
+        "y": 94
+      },
+      "drawSize": {
+        "w": 43,
+        "h": 24
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 94
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/snow-props-generated.png",
+        "sha256": "0b95b84d30e2e9affb851cc6aa68a43b7807a2d64bb12f1c2fd8ad20864ece53",
+        "sourceRect": {
+          "x": 950,
+          "y": 1056,
+          "w": 285,
+          "h": 157
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    }
+  ],
+  "coverage": {
+    "required": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "staged": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "missing": {
+      "ground": 0,
+      "edge_masks": 0,
+      "walls": 0,
+      "static_props": 0
+    },
+    "sourceCountsMet": true,
+    "complete": false
+  },
+  "borders": {
+    "seamless": false,
+    "runtimeContract": "render-contract.mjs",
+    "renderGuidance": "Use opaque underlay, deterministic overlapping feathered ground patches and spatial biome regions. Alpha edge overlays are decorative/non-bitmask."
+  },
+  "alpha": {
+    "preserved": true
+  },
+  "qa": {
+    "sourceInspected": true,
+    "packedAtlasInspected": true,
+    "rendererIntegrationVerified": false,
+    "perpendicularWallFacingVerified": true,
+    "visualContactSheet": "qa/snow-contact-sheet.png",
+    "edgeWallSheet": "qa/snow-edges-walls.png"
+  }
+}

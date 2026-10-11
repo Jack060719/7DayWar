@@ -1,0 +1,4387 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "MON-GIANT",
+  "consumerIds": [
+    "MON-GIANT"
+  ],
+  "assetId": "ASSET-BODY-MON-GIANT",
+  "runtimeLayout": "per-action-direction",
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 148,
+  "anchor": [
+    96,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.1127819548872
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152.33834586466165
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-S.webp",
+          "rect": [
+            0,
+            0,
+            176,
+            216
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150.03496503496504
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-S.webp",
+          "rect": [
+            176,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-S.webp",
+          "rect": [
+            352,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            167.62937062937064
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-S.webp",
+          "rect": [
+            528,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            102.04497755060959,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-S.webp",
+          "rect": [
+            704,
+            0,
+            176,
+            216
+          ],
+          "duration": 65,
+          "anchor": [
+            107.74840318916752,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-S.webp",
+          "rect": [
+            880,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            69.41234555524626,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-S.webp",
+          "rect": [
+            1056,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-S.webp",
+          "rect": [
+            1232,
+            0,
+            176,
+            216
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150.24707846410686
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            153.45909849749583
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-S.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150.1212121212121
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-S.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            151.24242424242422
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-S.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-S.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-S.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            80.07365861601087,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-S.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            58.733201349639714,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-S.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            72.27059839160518,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-S.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            78.73256265606216,
+            150
+          ]
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.6818181818182
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.6818181818182
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.6818181818182
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.1127819548872
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            153.45112781954887
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152.33834586466165
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            153.45112781954887
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152.33834586466165
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.1127819548872
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.22556390977442
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SW.webp",
+          "rect": [
+            0,
+            0,
+            176,
+            216
+          ],
+          "duration": 100,
+          "anchor": [
+            100.18049375100844,
+            150.42898550724638
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SW.webp",
+          "rect": [
+            176,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            132.36934550279724,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SW.webp",
+          "rect": [
+            352,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            107.55274318691885,
+            200.19130434782608
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SW.webp",
+          "rect": [
+            528,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            130.1578569226099,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SW.webp",
+          "rect": [
+            704,
+            0,
+            176,
+            216
+          ],
+          "duration": 65,
+          "anchor": [
+            134.01251624703286,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SW.webp",
+          "rect": [
+            880,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            117.7111700418749,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SW.webp",
+          "rect": [
+            1056,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            118.28601100551185,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SW.webp",
+          "rect": [
+            1232,
+            0,
+            176,
+            216
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150.24707846410686
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            152.47078464106846
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150.4941569282137
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150.12977099236642
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            99.09237005679306,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            103.66589861005207,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            99.93532585856072,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            53.08146123203268,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            69.55717978000843,
+            150
+          ]
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.38046272493574
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            153.4241645244216
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            153.04370179948586
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            153.04370179948586
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.31489361702128
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            112.79400512286054,
+            156.9276595744681
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.88936170212767
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152.20425531914893
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-W.webp",
+          "rect": [
+            0,
+            0,
+            176,
+            216
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150.0496453900709
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-W.webp",
+          "rect": [
+            176,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            172.09219858156027
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-W.webp",
+          "rect": [
+            352,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            190.98581560283688
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-W.webp",
+          "rect": [
+            528,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            154.2482269503546
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-W.webp",
+          "rect": [
+            704,
+            0,
+            176,
+            216
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-W.webp",
+          "rect": [
+            880,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.09929078014184
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-W.webp",
+          "rect": [
+            1056,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            154.2482269503546
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-W.webp",
+          "rect": [
+            1232,
+            0,
+            176,
+            216
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150.0496453900709
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150.25084745762712
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96.56682445899897,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150.75254237288135
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-W.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150.1044776119403
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-W.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-W.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-W.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-W.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-W.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-W.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            81.16225687155739,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-W.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            140.4271155667054,
+            150
+          ]
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.30578512396693
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.4
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.25561312607942
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            161.24697754749567
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            155.87910189982728
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NW.webp",
+          "rect": [
+            0,
+            0,
+            176,
+            216
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150.08823529411762
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NW.webp",
+          "rect": [
+            176,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            172.94117647058823
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NW.webp",
+          "rect": [
+            352,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            191.44117647058823
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NW.webp",
+          "rect": [
+            528,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            183.8235294117647
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NW.webp",
+          "rect": [
+            704,
+            0,
+            176,
+            216
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            151.17647058823528
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NW.webp",
+          "rect": [
+            880,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.17647058823528
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NW.webp",
+          "rect": [
+            1056,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            154.44117647058823
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NW.webp",
+          "rect": [
+            1232,
+            0,
+            176,
+            216
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            154.44117647058823
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150.25649913344887
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            151.0259965337955
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150.7694974003466
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150.51299826689774
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NW.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150.3549160671463
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NW.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NW.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NW.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NW.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NW.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            115.0539577499522,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NW.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            117.80931006153043,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NW.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            118.56167848964952,
+            150
+          ]
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.6
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.6
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.00680272108843
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152.0204081632653
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.01360544217687
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.01360544217687
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            153.02721088435374
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            155.0408163265306
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152.0204081632653
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            152.0204081632653
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-N.webp",
+          "rect": [
+            0,
+            0,
+            176,
+            216
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150.42045454545456
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-N.webp",
+          "rect": [
+            176,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            172.70454545454547
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-N.webp",
+          "rect": [
+            352,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            206.76136363636365
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-N.webp",
+          "rect": [
+            528,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150.26381461675578
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-N.webp",
+          "rect": [
+            704,
+            0,
+            176,
+            216
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-N.webp",
+          "rect": [
+            880,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-N.webp",
+          "rect": [
+            1056,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-N.webp",
+          "rect": [
+            1232,
+            0,
+            176,
+            216
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            151.26136363636365
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150.25739130434783
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-N.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150.0962962962963
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-N.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-N.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-N.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-N.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-N.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-N.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            101.3824822168678,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-N.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.61748633879782
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.61748633879782
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.61748633879782
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.24873949579833
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.24873949579833
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            94.8115787641757,
+            150.29191321499013
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.75147928994082
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NE.webp",
+          "rect": [
+            0,
+            0,
+            176,
+            216
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150.04225352112675
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NE.webp",
+          "rect": [
+            176,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            89.77936168666496,
+            154.2112676056338
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NE.webp",
+          "rect": [
+            352,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            181.30985915492957
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NE.webp",
+          "rect": [
+            528,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            72.62773497589528,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NE.webp",
+          "rect": [
+            704,
+            0,
+            176,
+            216
+          ],
+          "duration": 65,
+          "anchor": [
+            65.68424216074231,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NE.webp",
+          "rect": [
+            880,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            93.83963368730365,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NE.webp",
+          "rect": [
+            1056,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-NE.webp",
+          "rect": [
+            1232,
+            0,
+            176,
+            216
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150.2434210526316
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150.1127819548872
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            101.74177309989412,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-NE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.6818181818182
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.6818181818182
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.6818181818182
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.6818181818182
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150.6818181818182
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.25783972125436
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            92.3180651107038,
+            150.5156794425087
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.28919860627178
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150.27255985267035
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            151.09023941068142
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-E.webp",
+          "rect": [
+            0,
+            0,
+            176,
+            216
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150.1212121212121
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-E.webp",
+          "rect": [
+            176,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            56.18649966000039,
+            151.24242424242422
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-E.webp",
+          "rect": [
+            352,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            87.60168737092165,
+            197.2121212121212
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-E.webp",
+          "rect": [
+            528,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            64.40164204571528,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-E.webp",
+          "rect": [
+            704,
+            0,
+            176,
+            216
+          ],
+          "duration": 65,
+          "anchor": [
+            80.2398408280064,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-E.webp",
+          "rect": [
+            880,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            73.67248325611057,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-E.webp",
+          "rect": [
+            1056,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-E.webp",
+          "rect": [
+            1232,
+            0,
+            176,
+            216
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150.1212121212121
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150.2517006802721
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-E.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            156.7313432835821
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-E.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            155.6268656716418
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-E.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-E.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-E.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-E.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-E.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            95.84091885772375,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-E.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            82.55295123428203,
+            150
+          ]
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            160.05747126436782
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            160.90804597701148
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            159.20689655172413
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            160.90804597701148
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            159.20689655172413
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/idle-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            160.90804597701148
+          ]
+        }
+      ],
+      "walk": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            166.34375
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            170.96875
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            170.96875
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            172.125
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            174.4375
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            168.65625
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            173.28125
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/walk-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            166.34375
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SE.webp",
+          "rect": [
+            0,
+            0,
+            176,
+            216
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            154.8267716535433
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SE.webp",
+          "rect": [
+            176,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            58.181070249579335,
+            154.8267716535433
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SE.webp",
+          "rect": [
+            352,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            181.62992125984252
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SE.webp",
+          "rect": [
+            528,
+            0,
+            176,
+            216
+          ],
+          "duration": 70,
+          "anchor": [
+            84.0367157144614,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SE.webp",
+          "rect": [
+            704,
+            0,
+            176,
+            216
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            152.49606299212599
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SE.webp",
+          "rect": [
+            880,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SE.webp",
+          "rect": [
+            1056,
+            0,
+            176,
+            216
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/attack-SE.webp",
+          "rect": [
+            1232,
+            0,
+            176,
+            216
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            157.15748031496062
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 45,
+          "anchor": [
+            96,
+            150.2560553633218
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            158.19377162629758
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            151.0242214532872
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/hit-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ]
+        }
+      ],
+      "death": [
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SE.webp",
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150.34418604651165
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SE.webp",
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SE.webp",
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SE.webp",
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SE.webp",
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SE.webp",
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SE.webp",
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 180,
+          "anchor": [
+            96,
+            150
+          ]
+        },
+        {
+          "atlas": "armored-construct-staging/actors/giant/clips/death-SE.webp",
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 320,
+          "anchor": [
+            104.19951039314346,
+            150
+          ]
+        }
+      ]
+    }
+  },
+  "status": "source-accepted-runtime-scene-pending",
+  "frameCount": 272,
+  "clipCount": 40,
+  "maximumClipDecodedBytes": 1216512,
+  "clipGeometry": {
+    "idle-S": [
+      192,
+      192
+    ],
+    "walk-S": [
+      192,
+      192
+    ],
+    "attack-S": [
+      176,
+      216
+    ],
+    "hit-S": [
+      192,
+      192
+    ],
+    "death-S": [
+      192,
+      192
+    ],
+    "idle-SW": [
+      192,
+      192
+    ],
+    "walk-SW": [
+      192,
+      192
+    ],
+    "attack-SW": [
+      176,
+      216
+    ],
+    "hit-SW": [
+      192,
+      192
+    ],
+    "death-SW": [
+      192,
+      192
+    ],
+    "idle-W": [
+      192,
+      192
+    ],
+    "walk-W": [
+      192,
+      192
+    ],
+    "attack-W": [
+      176,
+      216
+    ],
+    "hit-W": [
+      192,
+      192
+    ],
+    "death-W": [
+      192,
+      192
+    ],
+    "idle-NW": [
+      192,
+      192
+    ],
+    "walk-NW": [
+      192,
+      192
+    ],
+    "attack-NW": [
+      176,
+      216
+    ],
+    "hit-NW": [
+      192,
+      192
+    ],
+    "death-NW": [
+      192,
+      192
+    ],
+    "idle-N": [
+      192,
+      192
+    ],
+    "walk-N": [
+      192,
+      192
+    ],
+    "attack-N": [
+      176,
+      216
+    ],
+    "hit-N": [
+      192,
+      192
+    ],
+    "death-N": [
+      192,
+      192
+    ],
+    "idle-NE": [
+      192,
+      192
+    ],
+    "walk-NE": [
+      192,
+      192
+    ],
+    "attack-NE": [
+      176,
+      216
+    ],
+    "hit-NE": [
+      192,
+      192
+    ],
+    "death-NE": [
+      192,
+      192
+    ],
+    "idle-E": [
+      192,
+      192
+    ],
+    "walk-E": [
+      192,
+      192
+    ],
+    "attack-E": [
+      176,
+      216
+    ],
+    "hit-E": [
+      192,
+      192
+    ],
+    "death-E": [
+      192,
+      192
+    ],
+    "idle-SE": [
+      192,
+      192
+    ],
+    "walk-SE": [
+      192,
+      192
+    ],
+    "attack-SE": [
+      176,
+      216
+    ],
+    "hit-SE": [
+      192,
+      192
+    ],
+    "death-SE": [
+      192,
+      192
+    ]
+  },
+  "engineContract": {
+    "anchor": [
+      96,
+      150
+    ],
+    "worldHeightRule": "baseHeight * 72 / 92; no displayBaseHeight override",
+    "registrationEqualityProof": "qa/giant-registration-equality.json",
+    "maximumClipDecodedBytes": 1216512,
+    "variableClipGeometry": "Nominal192x192 only. All attack headings use176x216 frames; retain true frame.rect/anchor. Other action cells192x192."
+  },
+  "provenance": {
+    "method": "Original authored monster-specific articulated Blender rig and native imagegen raster detail; semantic frame extraction, no mirrored headings or recolor-only variants.",
+    "model": "source/giant-original.blend",
+    "sources": [
+      {
+        "state": "idle",
+        "sha256": "a79542c33eaf26a3dac984d9575ec1d641afec7a90bc28a29392b194dae6d597",
+        "method": "Native imagegen finished original independent articulated organic anatomy and role action guide."
+      },
+      {
+        "state": "walk",
+        "sha256": "e70d00cd8eb574ed7aac82e50a4e0de7d8c1d2d262f6719adc0d4205f58e262a",
+        "method": "Native imagegen finished original independent articulated organic anatomy and role action guide."
+      },
+      {
+        "state": "attack",
+        "sha256": "0db1a6780539619109a84638ae45e2879bb8b03f9cc2210cb0ef40f4d500d4af",
+        "method": "Native imagegen finished original independent articulated organic anatomy and role action guide."
+      },
+      {
+        "state": "hit",
+        "sha256": "548a13d115e00b0080d463c1e6280a2a6f192de8a7e1edbee6563a1b95f82332",
+        "method": "Native imagegen finished original independent articulated organic anatomy and role action guide."
+      },
+      {
+        "state": "death",
+        "sha256": "fb0bff230c7690d903fd513296bc3eaf371ff514b9c4e50301a034d9e459a2f8",
+        "method": "Native imagegen finished original independent articulated organic anatomy and role action guide."
+      },
+      {
+        "state": "idle",
+        "direction": "NW",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "935133fc264f690b45055f89b2f8061833b4886d96ee03993cd5353eb1219165"
+      },
+      {
+        "state": "walk",
+        "direction": "W",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "fa1c50de567877cf936a8e379702866af69ee629d4ea3073fe1cc42e93495a60"
+      },
+      {
+        "state": "walk",
+        "direction": "NW",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "df306fac24174aedddce9e3899d0ced9fbf04102be4e73e22c4420341f98a8b0"
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "0dc391f1b7a3ff072cb97700862ff3110238500dca1622d3bb3c13902bdfc1b7"
+      },
+      {
+        "state": "walk",
+        "direction": "E",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "7254dc0e1b7c5aa2ddcec6e225345588ea754ead832eda1b53a8756283d0c29a"
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "ba9d7a5e44551fe2663e804521ec8457175719d527ddd9784dd20475daba8868"
+      },
+      {
+        "state": "hit",
+        "direction": "SW",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "d193d11bd8d1baeb9b3c373d28c3306e7b3eefd786ffecd92934335662e5bbbe"
+      },
+      {
+        "state": "hit",
+        "direction": "W",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "a968df12a107f9f5074ddd80ceac54077f2b9b0349343ac9b58270c802164526"
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "9c345de9e73f4c7b30f759ca0fcc63a1b2c5f97e25f1fb29aed71ba69247df18"
+      },
+      {
+        "state": "hit",
+        "direction": "N",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "70ab80881c8c8c84cd0189280a72e46009bcccd908cde92e41a4c3a4fff74f08"
+      },
+      {
+        "state": "hit",
+        "direction": "NE",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "ffb89d0592ffe0a118a881cf0d1fb9042b32f64c4b7df46fb75412934c494d50"
+      },
+      {
+        "state": "hit",
+        "direction": "E",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "9c9ba4462f2677fda955d54da5dae2f876bd7c793c3524279c74285bbad1edec"
+      },
+      {
+        "state": "hit",
+        "direction": "SE",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "91185a00ffb3155d8f48aefd0e0ac79f5f8026edc50eba6a5031294c97eda4b3"
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "0e9c253db88010979e2361a044ce26b3a2541512c3ccc7e2976f73d8ef4467f1"
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "82b26edd3b109bf6e36ca95331a723c4181c7066c32f5f73f675c4da2579b647"
+      },
+      {
+        "state": "death",
+        "direction": "NW",
+        "method": "Native imagegen finished targeted original articulated guide repair.",
+        "sha256": "aa91978351b42f03c23f920680ac2c172af4707712f3589b449a00323c29e783"
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "method": "Native imagegen complete final-boot gutter correction; no painted/cropped tip substitute.",
+        "sha256": "fdc07130c47842e8b1e2d2d68f6405b87ad1c4e1ce71c77dfb7518981d722899"
+      },
+      {
+        "state": "death",
+        "direction": "NW",
+        "method": "Native imagegen targeted full-silhouette gutter/wooden weapon identity correction.",
+        "sha256": "f144a5094a1e73be7771b55a8b0dcf652b94400ec15c2744a016d9f8a67a3dfd"
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "method": "Native imagegen targeted full-silhouette gutter/wooden weapon identity correction.",
+        "sha256": "7335fa3f80ad73f0a2331fe88ad291a2b312e6e8733f5f5e3504dca913c2bb40"
+      },
+      {
+        "state": "walk",
+        "direction": "W",
+        "method": "Native imagegen on new explicit opposite-leg half-cycle or depth-foreshortened strike guide.",
+        "sha256": "0a2fdebdc89ccf869f2223b752097edf438240ded0a8a02d5af6af2391c7259d"
+      },
+      {
+        "state": "walk",
+        "direction": "NW",
+        "method": "Native imagegen on new explicit opposite-leg half-cycle or depth-foreshortened strike guide.",
+        "sha256": "5e308a12031011bf533f738f7315b5f850cebbbd7f34398929274a5fda46746f"
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "method": "Native imagegen on new explicit opposite-leg half-cycle or depth-foreshortened strike guide.",
+        "sha256": "aa8cc1ff625f91810eba33030976f4d6904129bfa744bfc74cec299816040563"
+      },
+      {
+        "state": "walk",
+        "direction": "E",
+        "method": "Native imagegen on new explicit opposite-leg half-cycle or depth-foreshortened strike guide.",
+        "sha256": "08697011938febecefef38c44d49c8f81c2da8b4f54257158daa87cd294f41bf"
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "method": "Native imagegen on new explicit opposite-leg half-cycle or depth-foreshortened strike guide.",
+        "sha256": "bd850092c88ef4cb5571aa33dfa1ce45f79a1fbd0001ece4c5ad0063244df0aa"
+      },
+      {
+        "state": "walk",
+        "direction": "W",
+        "method": "Native imagegen four-pose exact half-cycle/awayward-commitment correction.",
+        "frameIndices": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "sha256": "328181acb0f51911fa6a846b1ee1348092a2eac7bdd64f76ee472b022cb6c178"
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "method": "Native imagegen four-pose exact half-cycle/awayward-commitment correction.",
+        "frameIndices": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "sha256": "98de8fc961b5b552b5058a90f34df8384479de8fe595657fa2ffa7102ad632dd"
+      },
+      {
+        "state": "walk",
+        "direction": "E",
+        "method": "Native exact partial-cycle or grip/material correction.",
+        "frameIndices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sha256": "47923ff0052408e2471233f265706d2c8426e5de5331cf1522ec6c8625379a2b"
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "method": "Native exact partial-cycle or grip/material correction.",
+        "frameIndices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sha256": "f666a04673542c3187a98746bcd3258721df8e6838eb33f6b38508b04d8f3f45"
+      },
+      {
+        "state": "walk",
+        "direction": "NW",
+        "method": "Native exact partial-cycle or grip/material correction.",
+        "frameIndices": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "sha256": "f6cb99fb1b90bc61751179c6757043c611eb629e97bf4ce8a0094c57ce74a3e7"
+      },
+      {
+        "state": "walk",
+        "direction": "E",
+        "method": "Native imagegen four-pose exact half-cycle/awayward-commitment correction.",
+        "frameIndices": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "sha256": "0f6b50a95503a2beece90042d0c2f5a7634fabfe353671b8a7f7db9e3071fc2a"
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "method": "Native imagegen four-pose exact half-cycle/awayward-commitment correction.",
+        "frameIndices": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "sha256": "3975b57ebaac51f38d133220d2e5dd0931fb81c2b2e1cd2a752c0e972dedfd19"
+      }
+    ],
+    "reuse": "Original articulated organic hierarchy/collapse timing shared as scaffolding only. Entire body mesh, proportions, surface identity, clothes and role equipment independently authored. No finished raster or recolor-only reuse.",
+    "boundedCorrections": {
+      "method": "Native imagegen on original articulated guides, then four-pose support halves assembled in actual chronological order without mirroring, duplicated phase padding or limb compositing.",
+      "finalGaitHalfSourceRecords": [
+        "source/giant-walk-NE-first-half-generation-v4.json",
+        "source/giant-walk-NW-grip-generation-v4.json",
+        "source/giant-walk-NE-half-generation-v3.json",
+        "source/giant-walk-NW-half-generation-v3.json",
+        "source/giant-walk-E-first-half-generation-v4.json",
+        "source/giant-walk-E-half-generation-v3.json",
+        "source/giant-walk-W-half-generation-v3.json"
+      ],
+      "northCommitmentSource": "source/giant-attack-N-half-generation-v3.json",
+      "nativePartialIndices": "Walk0–3 and4–7 are separately authored genuine poses; north attack3–6 correction preserves prior0–2/7.",
+      "scalePolish": "Some native partial-cycle torso contours are narrower/sharper than surrounding poses; reviewer accepted body scale as broadly stable.",
+      "northReviewEvidence": "qa/current-v3-partial-review.png"
+    }
+  },
+  "validation": {
+    "issues": [],
+    "sourceLayoutInspected": true,
+    "inGame": "not tested",
+    "native": "not tested",
+    "sourceReview": {
+      "reviewer": "review_full_catalog_consistency",
+      "result": "PASS",
+      "at": "2026-10-09T17:03:42.586074+00:00",
+      "caveat": "Dedicated replacement texture is sharper/finer than original full rows; documented material-consistency polish."
+    }
+  },
+  "visualContactMarkers": "actors/giant/giant-contact-markers.json"
+}

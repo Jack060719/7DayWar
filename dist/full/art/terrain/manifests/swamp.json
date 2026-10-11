@@ -1,0 +1,2913 @@
+{
+  "schemaVersion": 1,
+  "familyId": "ASSET-TERRAIN-SWAMP",
+  "family": "SWAMP",
+  "implementationState": "GENERATED_SOURCE_COUNTS_MET_INTEGRATION_PENDING",
+  "tileProjection": {
+    "width": 64,
+    "height": 32,
+    "type": "isometric-2:1"
+  },
+  "sourceCatalog": "catalog-requirements.json",
+  "tiles": [
+    {
+      "id": "SWAMP-GROUND-01",
+      "name": "black-peat",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 7,
+          "y": 14,
+          "w": 373,
+          "h": 225
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.51177,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-02",
+      "name": "algae-water",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 390,
+          "y": 13,
+          "w": 374,
+          "h": 226
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.49583,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-03",
+      "name": "mud-puddles",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 774,
+          "y": 13,
+          "w": 376,
+          "h": 226
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.50647,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-04",
+      "name": "rooted-peat",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 1158,
+          "y": 14,
+          "w": 374,
+          "h": 225
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.50725,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-05",
+      "name": "duckweed-mat",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 5,
+          "y": 261,
+          "w": 375,
+          "h": 227
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 250,
+          "w": 384,
+          "h": 248
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.49509,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-06",
+      "name": "sedge-litter",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 390,
+          "y": 261,
+          "w": 373,
+          "h": 228
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 250,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.48658,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-07",
+      "name": "bog-moss",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 773,
+          "y": 261,
+          "w": 375,
+          "h": 228
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 250,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.48994,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-08",
+      "name": "rust-iron-mud",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 1158,
+          "y": 261,
+          "w": 376,
+          "h": 228
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 250,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.50332,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-09",
+      "name": "reed-stubble",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 5,
+          "y": 509,
+          "w": 375,
+          "h": 230
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 498,
+          "w": 384,
+          "h": 252
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.49563,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-10",
+      "name": "silted-pool",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 388,
+          "y": 512,
+          "w": 374,
+          "h": 227
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 500,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.49782,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-11",
+      "name": "leaf-mud",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 772,
+          "y": 511,
+          "w": 376,
+          "h": 228
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 500,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.49191,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-12",
+      "name": "rotted-bark",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 1157,
+          "y": 511,
+          "w": 375,
+          "h": 228
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 500,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.49882,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-13",
+      "name": "watery-ruts",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 5,
+          "y": 761,
+          "w": 373,
+          "h": 228
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 750,
+          "w": 384,
+          "h": 274
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.55174,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-14",
+      "name": "sphagnum-hummock",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 388,
+          "y": 761,
+          "w": 374,
+          "h": 228
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 750,
+          "w": 384,
+          "h": 274
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.53156,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-15",
+      "name": "frogspawn-mud",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 773,
+          "y": 761,
+          "w": 375,
+          "h": 228
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 750,
+          "w": 384,
+          "h": 274
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.54438,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-GROUND-16",
+      "name": "stagnant-film",
+      "kind": "ground",
+      "atlas": "atlases/swamp-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-ground-generated.png",
+        "sha256": "e169abc49e5a3617173c87bc56e5fe2360b65c8cb857034ceb47c93f69b61630",
+        "sourceRect": {
+          "x": 1157,
+          "y": 761,
+          "w": 375,
+          "h": 227
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 750,
+          "w": 384,
+          "h": 274
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "8486b5dbd05e766a52fb5cca949aaf65dfb857fd264e096b453f6904c9a56bfb"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.54487,
+        "preserved": true
+      }
+    }
+  ],
+  "edgeMasks": [
+    {
+      "id": "SWAMP-EDGE-01",
+      "name": "organic-strip-01",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 10,
+        "w": 128,
+        "h": 79
+      },
+      "anchor": {
+        "x": 64,
+        "y": 39.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 22,
+          "y": 25,
+          "w": 353,
+          "h": 218
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 266
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.61317,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-02",
+      "name": "organic-strip-02",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 12,
+        "w": 128,
+        "h": 76
+      },
+      "anchor": {
+        "x": 64,
+        "y": 38
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 38
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 414,
+          "y": 19,
+          "w": 347,
+          "h": 205
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 246
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.62257,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-03",
+      "name": "organic-strip-03",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 11,
+        "w": 128,
+        "h": 77
+      },
+      "anchor": {
+        "x": 64,
+        "y": 38.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 39
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 788,
+          "y": 30,
+          "w": 343,
+          "h": 206
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 264
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.63457,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-04",
+      "name": "organic-strip-04",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 11,
+        "w": 128,
+        "h": 78
+      },
+      "anchor": {
+        "x": 64,
+        "y": 39
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 39
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 1175,
+          "y": 47,
+          "w": 327,
+          "h": 200
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 272
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.65974,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-05",
+      "name": "organic-corner-01",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 4,
+        "y": 102,
+        "w": 124,
+        "h": 96
+      },
+      "anchor": {
+        "x": 62,
+        "y": 48
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 62,
+        "h": 48
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 37,
+          "y": 290,
+          "w": 215,
+          "h": 166
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 266,
+          "w": 384,
+          "h": 219
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.6528,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-06",
+      "name": "organic-corner-02",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 114,
+        "w": 128,
+        "h": 72
+      },
+      "anchor": {
+        "x": 64,
+        "y": 36
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 36
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 448,
+          "y": 269,
+          "w": 263,
+          "h": 147
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 246,
+          "w": 384,
+          "h": 230
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.6899,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-07",
+      "name": "organic-corner-03",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 275,
+        "y": 102,
+        "w": 110,
+        "h": 96
+      },
+      "anchor": {
+        "x": 55,
+        "y": 48
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 55,
+        "h": 48
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 901,
+          "y": 292,
+          "w": 196,
+          "h": 171
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 264,
+          "w": 384,
+          "h": 230
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.70438,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-08",
+      "name": "organic-corner-04",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 113,
+        "w": 128,
+        "h": 73
+      },
+      "anchor": {
+        "x": 64,
+        "y": 36.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 37
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 1196,
+          "y": 298,
+          "w": 297,
+          "h": 169
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 272,
+          "w": 384,
+          "h": 213
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.61205,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-09",
+      "name": "organic-chevron-01",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 217,
+        "w": 128,
+        "h": 66
+      },
+      "anchor": {
+        "x": 64,
+        "y": 33
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 33
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 30,
+          "y": 514,
+          "w": 354,
+          "h": 183
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 485,
+          "w": 384,
+          "h": 234
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.50245,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-10",
+      "name": "organic-elbow-01",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 217,
+        "w": 128,
+        "h": 66
+      },
+      "anchor": {
+        "x": 64,
+        "y": 33
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 33
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 384,
+          "y": 515,
+          "w": 349,
+          "h": 180
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 476,
+          "w": 384,
+          "h": 233
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.57957,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-11",
+      "name": "organic-chevron-02",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 218,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 769,
+          "y": 525,
+          "w": 366,
+          "h": 183
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 494,
+          "w": 384,
+          "h": 242
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.52386,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-12",
+      "name": "organic-elbow-02",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 212,
+        "w": 128,
+        "h": 76
+      },
+      "anchor": {
+        "x": 64,
+        "y": 38
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 38
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 1187,
+          "y": 503,
+          "w": 314,
+          "h": 187
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 485,
+          "w": 384,
+          "h": 219
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.55567,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-13",
+      "name": "broken-ribbon",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 305,
+        "w": 128,
+        "h": 89
+      },
+      "anchor": {
+        "x": 64,
+        "y": 44.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 45
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 23,
+          "y": 741,
+          "w": 361,
+          "h": 251
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 719,
+          "w": 384,
+          "h": 305
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.58342,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-14",
+      "name": "three-arm-junction",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 305,
+        "w": 128,
+        "h": 89
+      },
+      "anchor": {
+        "x": 64,
+        "y": 44.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 45
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 384,
+          "y": 724,
+          "w": 384,
+          "h": 266
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 709,
+          "w": 384,
+          "h": 315
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.58119,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-15",
+      "name": "central-island",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 311,
+        "w": 128,
+        "h": 78
+      },
+      "anchor": {
+        "x": 64,
+        "y": 39
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 39
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 821,
+          "y": 765,
+          "w": 331,
+          "h": 202
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 736,
+          "w": 384,
+          "h": 288
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.5764,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-EDGE-16",
+      "name": "hollow-ring",
+      "kind": "edge_mask",
+      "atlas": "atlases/swamp-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 303,
+        "w": 128,
+        "h": 93
+      },
+      "anchor": {
+        "x": 64,
+        "y": 46.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 47
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-edges-generated.png",
+        "sha256": "324a23fd6911aba6af0f7886c1b4d766defaf9b93ad9aee03c5e1fa91db4eadf",
+        "sourceRect": {
+          "x": 1152,
+          "y": 714,
+          "w": 371,
+          "h": 270
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 704,
+          "w": 384,
+          "h": 320
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "02107963e5010b79fb255e53031caf0967b841d39d4e538a7c16d4a42bca66f5"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.53102,
+        "preserved": true
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "SWAMP-WALL-01",
+      "name": "peat-bank-ne",
+      "kind": "wall",
+      "atlas": "atlases/swamp-walls.webp",
+      "rect": {
+        "x": 7,
+        "y": 4,
+        "w": 181,
+        "h": 188
+      },
+      "anchor": {
+        "x": 90.5,
+        "y": 171
+      },
+      "footAnchor": {
+        "x": 90.5,
+        "y": 171
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "screenAxis": "upper-left-to-lower-right",
+      "orientationVerified": true,
+      "drawSize": {
+        "w": 108,
+        "h": 78
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-walls-generated.png",
+        "sha256": "baacbc4c0c7cea0e044a7d1ca9f7782aeb8da5cfa88b60c6694c80e133bf291d",
+        "sourceRect": {
+          "x": 37,
+          "y": 15,
+          "w": 397,
+          "h": 412
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 0,
+          "w": 443,
+          "h": 443
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "2e316ec0eda0c451879a4cc021cce2cc16cd7b9f25493ef711df95644e53d7dd"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.46345,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-WALL-02",
+      "name": "peat-bank-nw",
+      "kind": "wall",
+      "atlas": "atlases/swamp-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 27,
+        "w": 188,
+        "h": 142
+      },
+      "anchor": {
+        "x": 94,
+        "y": 129
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 129
+      },
+      "footprint": {
+        "u": 0.75,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "screenAxis": "lower-left-to-upper-right",
+      "orientationVerified": true,
+      "drawSize": {
+        "w": 108,
+        "h": 78
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-wall-facings-generated.png",
+        "sha256": "cdcaaa2018f5fed54dddc16e5d5d81a9f7890eadf9e2fb24b4582d2f08e168b7",
+        "replacesOriginalMemberIndex": 1,
+        "originalSource": "sources/swamp-walls-generated.png",
+        "sourceRect": {
+          "x": 45,
+          "y": 48,
+          "w": 917,
+          "h": 692
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 0,
+          "w": 991,
+          "h": 793
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "6f87a4fe291339932f4cefd1fa66574ad1a455a7bb2b762d0653dcf67766e184"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.60837,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-WALL-03",
+      "name": "marsh-bank-corner",
+      "kind": "wall",
+      "atlas": "atlases/swamp-walls.webp",
+      "rect": {
+        "x": 396,
+        "y": 8,
+        "w": 188,
+        "h": 180
+      },
+      "anchor": {
+        "x": 94,
+        "y": 164
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 164
+      },
+      "footprint": {
+        "u": 1.25,
+        "v": 1.25
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 82,
+        "h": 82
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-walls-generated.png",
+        "sha256": "baacbc4c0c7cea0e044a7d1ca9f7782aeb8da5cfa88b60c6694c80e133bf291d",
+        "sourceRect": {
+          "x": 908,
+          "y": 46,
+          "w": 395,
+          "h": 379
+        },
+        "sourceCellRect": {
+          "x": 887,
+          "y": 0,
+          "w": 443,
+          "h": 443
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "2e316ec0eda0c451879a4cc021cce2cc16cd7b9f25493ef711df95644e53d7dd"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.47657,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-WALL-04",
+      "name": "root-bank-end",
+      "kind": "wall",
+      "atlas": "atlases/swamp-walls.webp",
+      "rect": {
+        "x": 592,
+        "y": 9,
+        "w": 188,
+        "h": 178
+      },
+      "anchor": {
+        "x": 94,
+        "y": 162
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 162
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 72,
+        "h": 79
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-walls-generated.png",
+        "sha256": "baacbc4c0c7cea0e044a7d1ca9f7782aeb8da5cfa88b60c6694c80e133bf291d",
+        "sourceRect": {
+          "x": 1347,
+          "y": 36,
+          "w": 389,
+          "h": 369
+        },
+        "sourceCellRect": {
+          "x": 1330,
+          "y": 0,
+          "w": 444,
+          "h": 443
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "2e316ec0eda0c451879a4cc021cce2cc16cd7b9f25493ef711df95644e53d7dd"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.54795,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-WALL-05",
+      "name": "sunken-retainer-ne",
+      "kind": "wall",
+      "atlas": "atlases/swamp-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 202,
+        "w": 188,
+        "h": 183
+      },
+      "anchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "screenAxis": "upper-left-to-lower-right",
+      "orientationVerified": true,
+      "drawSize": {
+        "w": 104,
+        "h": 72
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-walls-generated.png",
+        "sha256": "baacbc4c0c7cea0e044a7d1ca9f7782aeb8da5cfa88b60c6694c80e133bf291d",
+        "sourceRect": {
+          "x": 29,
+          "y": 461,
+          "w": 405,
+          "h": 395
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 443,
+          "w": 443,
+          "h": 444
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "2e316ec0eda0c451879a4cc021cce2cc16cd7b9f25493ef711df95644e53d7dd"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.49643,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-WALL-06",
+      "name": "sunken-retainer-nw",
+      "kind": "wall",
+      "atlas": "atlases/swamp-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 222,
+        "w": 188,
+        "h": 144
+      },
+      "anchor": {
+        "x": 94,
+        "y": 131
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 131
+      },
+      "footprint": {
+        "u": 0.75,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "screenAxis": "lower-left-to-upper-right",
+      "orientationVerified": true,
+      "drawSize": {
+        "w": 104,
+        "h": 72
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-wall-facings-generated.png",
+        "sha256": "cdcaaa2018f5fed54dddc16e5d5d81a9f7890eadf9e2fb24b4582d2f08e168b7",
+        "replacesOriginalMemberIndex": 5,
+        "originalSource": "sources/swamp-walls-generated.png",
+        "sourceRect": {
+          "x": 1049,
+          "y": 50,
+          "w": 914,
+          "h": 699
+        },
+        "sourceCellRect": {
+          "x": 991,
+          "y": 0,
+          "w": 992,
+          "h": 793
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "6f87a4fe291339932f4cefd1fa66574ad1a455a7bb2b762d0653dcf67766e184"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.63996,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-WALL-07",
+      "name": "eroded-bank-cavity",
+      "kind": "wall",
+      "atlas": "atlases/swamp-walls.webp",
+      "rect": {
+        "x": 399,
+        "y": 200,
+        "w": 181,
+        "h": 188
+      },
+      "anchor": {
+        "x": 90.5,
+        "y": 171
+      },
+      "footAnchor": {
+        "x": 90.5,
+        "y": 171
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 99,
+        "h": 74
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-walls-generated.png",
+        "sha256": "baacbc4c0c7cea0e044a7d1ca9f7782aeb8da5cfa88b60c6694c80e133bf291d",
+        "sourceRect": {
+          "x": 913,
+          "y": 450,
+          "w": 401,
+          "h": 416
+        },
+        "sourceCellRect": {
+          "x": 887,
+          "y": 443,
+          "w": 443,
+          "h": 444
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "2e316ec0eda0c451879a4cc021cce2cc16cd7b9f25493ef711df95644e53d7dd"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.42988,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-WALL-08",
+      "name": "causeway-collapse",
+      "kind": "wall",
+      "atlas": "atlases/swamp-walls.webp",
+      "rect": {
+        "x": 592,
+        "y": 207,
+        "w": 188,
+        "h": 174
+      },
+      "anchor": {
+        "x": 94,
+        "y": 158
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 158
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 97,
+        "h": 64
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-walls-generated.png",
+        "sha256": "baacbc4c0c7cea0e044a7d1ca9f7782aeb8da5cfa88b60c6694c80e133bf291d",
+        "sourceRect": {
+          "x": 1345,
+          "y": 482,
+          "w": 401,
+          "h": 372
+        },
+        "sourceCellRect": {
+          "x": 1330,
+          "y": 443,
+          "w": 444,
+          "h": 444
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "2e316ec0eda0c451879a4cc021cce2cc16cd7b9f25493ef711df95644e53d7dd"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.47904,
+        "preserved": true
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "SWAMP-PROP-01",
+      "name": "crooked-cypress",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 5,
+        "y": 4,
+        "w": 185,
+        "h": 188
+      },
+      "anchor": {
+        "x": 92.5,
+        "y": 171
+      },
+      "footAnchor": {
+        "x": 92.5,
+        "y": 171
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 0.8
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 108,
+        "h": 155
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 50,
+          "y": 0,
+          "w": 269,
+          "h": 273
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 273
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.50168,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-02",
+      "name": "dead-swamp-snag",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 19,
+        "w": 188,
+        "h": 158
+      },
+      "anchor": {
+        "x": 94,
+        "y": 144
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 144
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 80,
+        "h": 132
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 447,
+          "y": 1,
+          "w": 321,
+          "h": 270
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 271
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.64825,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-03",
+      "name": "rooted-bog-stump",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 30,
+        "w": 188,
+        "h": 136
+      },
+      "anchor": {
+        "x": 94,
+        "y": 124
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 124
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 68,
+        "h": 64
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 768,
+          "y": 5,
+          "w": 368,
+          "h": 266
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 285
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.47299,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-04",
+      "name": "waterlogged-log",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 45,
+        "w": 188,
+        "h": 106
+      },
+      "anchor": {
+        "x": 94,
+        "y": 96
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 96
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 0.8
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 103,
+        "h": 48
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 1162,
+          "y": 57,
+          "w": 357,
+          "h": 202
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 283
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.56875,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-05",
+      "name": "cattail-clump",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 204,
+        "w": 188,
+        "h": 179
+      },
+      "anchor": {
+        "x": 94,
+        "y": 163
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 163
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 49,
+        "h": 70
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 55,
+          "y": 273,
+          "w": 261,
+          "h": 248
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 273,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.4403,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-06",
+      "name": "reed-clump",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 218,
+        "w": 188,
+        "h": 151
+      },
+      "anchor": {
+        "x": 94,
+        "y": 137
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 137
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 48,
+        "h": 62
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 405,
+          "y": 271,
+          "w": 311,
+          "h": 250
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 271,
+          "w": 384,
+          "h": 252
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.31384,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-07",
+      "name": "shelf-fungus-stump",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 204,
+        "w": 188,
+        "h": 179
+      },
+      "anchor": {
+        "x": 94,
+        "y": 163
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 163
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 45,
+        "h": 41
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 829,
+          "y": 300,
+          "w": 229,
+          "h": 218
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 285,
+          "w": 384,
+          "h": 244
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.56161,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-08",
+      "name": "animal-rib-bones",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 238,
+        "w": 188,
+        "h": 111
+      },
+      "anchor": {
+        "x": 94,
+        "y": 101
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 101
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 55,
+        "h": 34
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 1167,
+          "y": 307,
+          "w": 333,
+          "h": 196
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 283,
+          "w": 384,
+          "h": 220
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.51347,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-09",
+      "name": "moss-boulder",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 435,
+        "w": 188,
+        "h": 110
+      },
+      "anchor": {
+        "x": 94,
+        "y": 100
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 100
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 65,
+        "h": 49
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 25,
+          "y": 555,
+          "w": 326,
+          "h": 190
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 523,
+          "w": 384,
+          "h": 229
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.43106,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-10",
+      "name": "bog-iron-cairn",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 418,
+        "w": 188,
+        "h": 143
+      },
+      "anchor": {
+        "x": 94,
+        "y": 130
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 130
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 48,
+        "h": 48
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 422,
+          "y": 525,
+          "w": 300,
+          "h": 228
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 523,
+          "w": 384,
+          "h": 248
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.55854,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-11",
+      "name": "rotten-boardwalk",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 424,
+        "w": 188,
+        "h": 131
+      },
+      "anchor": {
+        "x": 94,
+        "y": 119
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 119
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 0.8
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 89,
+        "h": 39
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 790,
+          "y": 540,
+          "w": 328,
+          "h": 228
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 529,
+          "w": 384,
+          "h": 239
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.36209,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-12",
+      "name": "lantern-post",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 636,
+        "y": 396,
+        "w": 100,
+        "h": 188
+      },
+      "anchor": {
+        "x": 50,
+        "y": 171
+      },
+      "footAnchor": {
+        "x": 50,
+        "y": 171
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 96
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 1295,
+          "y": 504,
+          "w": 140,
+          "h": 263
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 503,
+          "w": 384,
+          "h": 271
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.72125,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-13",
+      "name": "dead-marsh-shrub",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 614,
+        "w": 188,
+        "h": 144
+      },
+      "anchor": {
+        "x": 94,
+        "y": 131
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 131
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 61,
+        "h": 59
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 18,
+          "y": 759,
+          "w": 336,
+          "h": 258
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 752,
+          "w": 384,
+          "h": 272
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.30255,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-14",
+      "name": "wicker-eel-trap",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 629,
+        "w": 188,
+        "h": 114
+      },
+      "anchor": {
+        "x": 94,
+        "y": 104
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 104
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 65,
+        "h": 35
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 409,
+          "y": 789,
+          "w": 339,
+          "h": 206
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 771,
+          "w": 384,
+          "h": 253
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.45991,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-15",
+      "name": "sunken-cart-wheel",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 620,
+        "w": 188,
+        "h": 132
+      },
+      "anchor": {
+        "x": 94,
+        "y": 120
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 120
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 55,
+        "h": 43
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 788,
+          "y": 768,
+          "w": 337,
+          "h": 236
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 768,
+          "w": 384,
+          "h": 256
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.36929,
+        "preserved": true
+      }
+    },
+    {
+      "id": "SWAMP-PROP-16",
+      "name": "peat-mound",
+      "kind": "static_prop",
+      "atlas": "atlases/swamp-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 621,
+        "w": 188,
+        "h": 130
+      },
+      "anchor": {
+        "x": 94,
+        "y": 118
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 118
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 41
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/swamp-props-generated.png",
+        "sha256": "1143d8bd83d8b9b6874134b11ebdef46133798e1eca0b2647637c1da6e09b657",
+        "sourceRect": {
+          "x": 1177,
+          "y": 782,
+          "w": 325,
+          "h": 224
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 774,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "310f664be3dd2b2d34bbab923cbf7f17a3286b042eeb128a36ce096bc506c351"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.3721,
+        "preserved": true
+      }
+    }
+  ],
+  "coverage": {
+    "required": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "staged": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "missing": {
+      "ground": 0,
+      "edge_masks": 0,
+      "walls": 0,
+      "static_props": 0
+    },
+    "sourceCountsMet": true,
+    "complete": false
+  },
+  "borders": {
+    "seamless": false,
+    "automaticBitmaskCompatible": false,
+    "reason": "Sixteen unique organic alpha overlays are authored transition decorations. They are not a verified automatic 16-state bitmask/Wang set; requested orientations vary from actual generated silhouettes. Ground adjacency pixel seams and renderer integration remain unverified.",
+    "renderGuidance": "Use provided actual alpha silhouettes. Deterministic family blending, gap-free underlay, and placement contract must be supplied by integration."
+  },
+  "wallNotes": "Eight distinct wall/bank structures. WALL-02 and WALL-06 are original supplementary imagegen replacements with opposite diagonal orientation to WALL-01 and WALL-05 respectively. Discarded original members are preserved but not counted. No mirrored or recolored copies counted.",
+  "alpha": {
+    "preserved": true,
+    "note": "Generated genuine alpha retained through crop/resampling/packing. RGB beneath transparent pixels is not visible content. No chroma keying, alpha masks, or procedural repainting applied."
+  },
+  "qa": {
+    "sourceInspected": true,
+    "packedAtlasInspected": true,
+    "rendererIntegrationVerified": false,
+    "footAnchorsVerifiedInEngine": false,
+    "sourceAlphaValidated": true,
+    "acceptedSourceRectanglesValidated": true,
+    "uniqueComponentIdsValidated": true,
+    "duplicateSpriteHashes": 0,
+    "contactSheet": "qa/swamp-contact-sheet.png",
+    "verifiedOn": "2026-10-09",
+    "acceptedSpriteCount": 56
+  },
+  "generation": {
+    "uniqueAcceptedSourceSheets": 5,
+    "supersededOriginalMembers": 2,
+    "method": "built-in-imagegen",
+    "regenerationsCounted": false
+  },
+  "pendingAcceptance": [
+    "Pixel-seam verification across ground variants",
+    "Deterministic automatic transition rendering contract",
+    "Wall orientation and foot-anchor integration QA"
+  ]
+}

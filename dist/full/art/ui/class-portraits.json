@@ -1,0 +1,60 @@
+{
+  "schema": "ashen-class-portraits-v1",
+  "assetId": "ASSET-UI-CHARACTER_PORTRAIT",
+  "originals": 4,
+  "portraits": {
+    "CLASS-KNIGHT": {
+      "atlas": "ui/assets/class-portraits.webp",
+      "rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "status": "INDEPENDENT_SOURCE_RASTER_IDENTITY_ACCEPTED"
+    },
+    "CLASS-ELF": {
+      "atlas": "ui/assets/class-portraits.webp",
+      "rect": [
+        128,
+        0,
+        128,
+        128
+      ],
+      "status": "INDEPENDENT_SOURCE_RASTER_IDENTITY_ACCEPTED"
+    },
+    "CLASS-MAGE": {
+      "atlas": "ui/assets/class-portraits.webp",
+      "rect": [
+        0,
+        128,
+        128,
+        128
+      ],
+      "status": "INDEPENDENT_SOURCE_RASTER_IDENTITY_ACCEPTED"
+    },
+    "CLASS-DARKELF": {
+      "atlas": "ui/assets/class-portraits.webp",
+      "rect": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "status": "INDEPENDENT_SOURCE_RASTER_IDENTITY_ACCEPTED"
+    }
+  },
+  "scope": "Static class identity portraits. No equipment-state or player-face customization claim. Existing44px control and live data remain code-owned.",
+  "provenance": {
+    "method": "Original built-in imagegen guided by accepted runtime class identities",
+    "source": "ui/class-portraits-source.png"
+  },
+  "status": "INDEPENDENT_SOURCE_RASTER_IDENTITY_ACCEPTED",
+  "review": {
+    "reviewer": "independent catalog consistency review",
+    "scope": "All4 current opaque runtime crops compared with accepted class-body references; no neighbor fringe or baked values. Native UI scaling/composition remains separate.",
+    "date": "2026-10-09T11:03:52.119Z",
+    "reference": "ui/qa/class-portrait-body-references.png",
+    "runtimeEvidence": "ui/qa/class-portraits-runtime.png"
+  }
+}

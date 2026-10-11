@@ -1,0 +1,30 @@
+{
+  "fixture": "Lv50 knight +10 dagger, original starter potions; initial position fixture only, subsequent leave/return use actual movement",
+  "camp": "silver-camp-1",
+  "first": {
+    "id": "silver-slot-silver-camp-1-slot-0-g0",
+    "respawnAt": 106000,
+    "clock": 11000
+  },
+  "away": {
+    "x": 52,
+    "y": 172
+  },
+  "replacement": {
+    "id": "silver-slot-silver-camp-1-slot-0-g1",
+    "generation": 1,
+    "respawnAt": 252000
+  },
+  "clockMs": 181000,
+  "kills": 4,
+  "assertions": [
+    "actual first kill",
+    "visible expired corpse does not refill",
+    "actual path departure",
+    "one new lifetime after leaving",
+    "actual path return",
+    "actual second lifetime kill exactly once",
+    "state validates"
+  ],
+  "passed": true
+}

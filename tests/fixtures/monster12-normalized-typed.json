@@ -1,0 +1,1044 @@
+{
+  "status": "NORMALIZED_FROM_FRESH_VERIFIED_SLACK_SOURCE_NOT_ORIGINAL_LOST_ARTIFACT",
+  "source": {
+    "body_sha256": "efa61ec0589b99ddb9dcb8fa6b8baae0256ce201e1249f3b7aee004376b927dd"
+  },
+  "validation": {
+    "species": 12,
+    "numeric_fields_per_species": 6,
+    "total_numeric_values": 72,
+    "body_csv_numeric_agreement": true,
+    "drop_groups": 60,
+    "aggressive_species": 3,
+    "mutual_assist_species": 11,
+    "all_charmable": true,
+    "all_revivable": true
+  },
+  "source_vs_implementation": "Drop probabilities, damage, cadence, coordinates and canonical IDs unspecified in source; kept null. Later confirmed scope/fusion mappings apply separately. Book group members preserved without inventing probabilities. Main drops not deletion list for other legacy drops.",
+  "monsters": [
+    {
+      "source_name": "哥布林",
+      "source_english_name": "Goblin",
+      "source_stats": {
+        "level": 2,
+        "hp": 20,
+        "mp": 10,
+        "ac": 10,
+        "mr": 2,
+        "exp": 1
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": false,
+      "mutual_assist": false,
+      "active_semantics_source": "否",
+      "weakness_element_source": "火",
+      "weakness_materials_source": [],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": false,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "短劍",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "皮帽",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "小紅水",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 4,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "短劍/皮帽/小紅水/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    },
+    {
+      "source_name": "哈柏哥布林",
+      "source_english_name": "Hob Goblin",
+      "source_stats": {
+        "level": 14,
+        "hp": 90,
+        "mp": 30,
+        "ac": 1,
+        "mr": 1,
+        "exp": 197
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": false,
+      "mutual_assist": true,
+      "active_semantics_source": "否（具種族互助）",
+      "weakness_element_source": "火",
+      "weakness_materials_source": [],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": false,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "闊劍",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "鋼盔",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "燈",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 4,
+          "source_text": "自我加速藥水",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 5,
+          "source_text": "強化綠色藥水",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 6,
+          "source_text": "濃縮強力體力恢復劑",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 7,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "闊劍/鋼盔/燈/自我加速藥水/強化綠色藥水/濃縮強力體力恢復劑/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    },
+    {
+      "source_name": "侏儒",
+      "source_english_name": "Dwarf",
+      "source_stats": {
+        "level": 5,
+        "hp": 30,
+        "mp": 5,
+        "ac": 10,
+        "mr": 2,
+        "exp": 26
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": false,
+      "mutual_assist": true,
+      "active_semantics_source": "否（具種族互助）",
+      "weakness_element_source": "火",
+      "weakness_materials_source": [],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": false,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "小侏儒短劍",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "侏儒斗篷",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "侏儒鐵盔",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 4,
+          "source_text": "侏儒圓盾",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 5,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "小侏儒短劍/侏儒斗篷/侏儒鐵盔/侏儒圓盾/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    },
+    {
+      "source_name": "侏儒戰士",
+      "source_english_name": "Dwarf Warrior",
+      "source_stats": {
+        "level": 12,
+        "hp": 85,
+        "mp": 5,
+        "ac": 5,
+        "mr": 1,
+        "exp": 82
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": false,
+      "mutual_assist": true,
+      "active_semantics_source": "否（具種族互助）",
+      "weakness_element_source": "火",
+      "weakness_materials_source": [],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": false,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "侏儒斗篷",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "侏儒圓盾",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "金屬塊",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 4,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "侏儒斗篷/侏儒圓盾/金屬塊/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    },
+    {
+      "source_name": "妖魔",
+      "source_english_name": "Orc",
+      "source_stats": {
+        "level": 2,
+        "hp": 6,
+        "mp": 4,
+        "ac": 10,
+        "mr": 0,
+        "exp": 5
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": false,
+      "mutual_assist": true,
+      "active_semantics_source": "否（具種族互助）",
+      "weakness_element_source": "水",
+      "weakness_materials_source": [],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": false,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "妖魔短劍",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "皮甲",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "小紅水",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 4,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "妖魔短劍/皮甲/小紅水/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    },
+    {
+      "source_name": "妖魔弓箭手",
+      "source_english_name": "Orc Archer",
+      "source_stats": {
+        "level": 2,
+        "hp": 10,
+        "mp": 4,
+        "ac": 10,
+        "mr": 0,
+        "exp": 5
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": false,
+      "mutual_assist": true,
+      "active_semantics_source": "否（具種族互助）",
+      "weakness_element_source": "水",
+      "weakness_materials_source": [],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": false,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "獵人弓",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "箭矢",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "綠色藥水",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 4,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "獵人弓/箭矢/綠色藥水/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    },
+    {
+      "source_name": "妖魔鬥士",
+      "source_english_name": "Orc Fighter",
+      "source_stats": {
+        "level": 8,
+        "hp": 50,
+        "mp": 8,
+        "ac": 5,
+        "mr": 5,
+        "exp": 65
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": false,
+      "mutual_assist": true,
+      "active_semantics_source": "否（具種族互助）",
+      "weakness_element_source": "水",
+      "weakness_materials_source": [],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": false,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "大斧",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "銀斧",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "中紅水",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 4,
+          "source_text": "對武器施法的卷軸（武卷）",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": "weapon_fusion_scroll",
+          "mapping_source": "confirmed_fusion_scroll_semantics",
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 5,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "大斧/銀斧/中紅水/對武器施法的卷軸(武卷)/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    },
+    {
+      "source_name": "甘地妖魔",
+      "source_english_name": "Gandi Orc",
+      "source_stats": {
+        "level": 10,
+        "hp": 80,
+        "mp": 25,
+        "ac": 0,
+        "mr": 15,
+        "exp": 101
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": true,
+      "mutual_assist": true,
+      "active_semantics_source": "是（具種族互助）",
+      "weakness_element_source": "水",
+      "weakness_materials_source": [],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": false,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "圖騰",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "中紅水",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "粗糙的米特利短劍",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 4,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "圖騰/中紅水/粗糙的米特利短劍/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    },
+    {
+      "source_name": "妖魔法師",
+      "source_english_name": "Orc Wizard",
+      "source_stats": {
+        "level": 12,
+        "hp": 80,
+        "mp": 50,
+        "ac": 0,
+        "mr": 30,
+        "exp": 145
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": false,
+      "mutual_assist": true,
+      "active_semantics_source": "否（具種族互助，遠程火球術）",
+      "weakness_element_source": "水",
+      "weakness_materials_source": [],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": true,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "魔法書（初級治癒術/火球術）",
+          "spellbook_members_source": [
+            "初級治癒術",
+            "火球術"
+          ],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "魔力藥水（藍水）",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "魔法書(初級治癒術/火球術)/魔力藥水(藍水)/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    },
+    {
+      "source_name": "阿吐巴妖魔",
+      "source_english_name": "Atuba Orc",
+      "source_stats": {
+        "level": 15,
+        "hp": 120,
+        "mp": 15,
+        "ac": -5,
+        "mr": 10,
+        "exp": 226
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": true,
+      "mutual_assist": true,
+      "active_semantics_source": "是（具種族互助）",
+      "weakness_element_source": "水",
+      "weakness_materials_source": [],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": false,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "圖騰",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "大斧",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "對防具施法的卷軸（防卷）",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": "armor_fusion_scroll",
+          "mapping_source": "confirmed_fusion_scroll_semantics",
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 4,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "圖騰/大斧/對防具施法的卷軸(防卷)/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    },
+    {
+      "source_name": "狼人",
+      "source_english_name": "Werewolf",
+      "source_stats": {
+        "level": 9,
+        "hp": 50,
+        "mp": 20,
+        "ac": 4,
+        "mr": 0,
+        "exp": 81
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": false,
+      "mutual_assist": true,
+      "active_semantics_source": "否（具種族互助）",
+      "weakness_element_source": "地",
+      "weakness_materials_source": [
+        "銀"
+      ],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": false,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "木棒",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "長劍",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "銀釘皮甲",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 4,
+          "source_text": "小盾牌",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 5,
+          "source_text": "長靴",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 6,
+          "source_text": "魔法書（吸血鬼之吻/通暢氣脈術）",
+          "spellbook_members_source": [
+            "吸血鬼之吻",
+            "通暢氣脈術"
+          ],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 7,
+          "source_text": "肉",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 8,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "木棒/長劍/銀釘皮甲/小盾牌/長靴/魔法書(吸血鬼之吻/通暢氣脈術)/肉/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    },
+    {
+      "source_name": "萊肯",
+      "source_english_name": "Lycanthrope",
+      "source_stats": {
+        "level": 17,
+        "hp": 120,
+        "mp": 60,
+        "ac": -4,
+        "mr": 0,
+        "exp": 290
+      },
+      "size_source": "小型",
+      "size_normalized": "small",
+      "aggressive": true,
+      "mutual_assist": true,
+      "active_semantics_source": "是（具種族互助）",
+      "weakness_element_source": "地",
+      "weakness_materials_source": [
+        "銀",
+        "米索莉",
+        "奧里哈魯根"
+      ],
+      "charmable": true,
+      "revivable": true,
+      "ranged_fireball": false,
+      "drop_groups": [
+        {
+          "source_group_index": 1,
+          "source_text": "對武器施法的卷軸（武卷）",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": "weapon_fusion_scroll",
+          "mapping_source": "confirmed_fusion_scroll_semantics",
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 2,
+          "source_text": "魔法書（吸血鬼之吻/通暢氣脈術/緩速術）",
+          "spellbook_members_source": [
+            "吸血鬼之吻",
+            "通暢氣脈術",
+            "緩速術"
+          ],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 3,
+          "source_text": "戰斧",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 4,
+          "source_text": "銀釘皮甲",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 5,
+          "source_text": "鱗甲",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 6,
+          "source_text": "大盾牌",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 7,
+          "source_text": "鑽石",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        },
+        {
+          "source_group_index": 8,
+          "source_text": "金幣",
+          "spellbook_members_source": [],
+          "confirmed_later_semantic_mapping": null,
+          "mapping_source": null,
+          "canonical_item_id": null,
+          "drop_probability": null,
+          "quantity": null
+        }
+      ],
+      "csv_drop_field_verbatim": "對武器施法的卷軸(武卷)/魔法書(吸血鬼之吻/通暢氣脈術/緩速術)/戰斧/銀釘皮甲/鱗甲/大盾牌/鑽石/金幣",
+      "canonical_monster_id": null,
+      "canonical_mapping_status": "Builder must match restored baseline identity; source names alone do not establish ID",
+      "unspecified_by_source": {
+        "attack_damage": null,
+        "attack_interval_ms": null,
+        "move_interval_ms": null,
+        "spawn_coordinates": null,
+        "drop_rates": null
+      }
+    }
+  ]
+}

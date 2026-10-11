@@ -1,0 +1,2913 @@
+{
+  "schemaVersion": 1,
+  "familyId": "ASSET-TERRAIN-COAST",
+  "family": "COAST",
+  "implementationState": "GENERATED_SOURCE_COUNTS_MET_INTEGRATION_PENDING",
+  "tileProjection": {
+    "width": 64,
+    "height": 32,
+    "type": "isometric-2:1"
+  },
+  "sourceCatalog": "catalog-requirements.json",
+  "tiles": [
+    {
+      "id": "COAST-GROUND-01",
+      "name": "dry-beach-sand",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 19,
+          "y": 26,
+          "w": 365,
+          "h": 209
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 249
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.49911,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-02",
+      "name": "wet-compacted-sand",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 384,
+          "y": 26,
+          "w": 382,
+          "h": 209
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 249
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.51288,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-03",
+      "name": "shell-speckled-sand",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 769,
+          "y": 26,
+          "w": 383,
+          "h": 209
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 249
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.51521,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-04",
+      "name": "rounded-shingle",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 1152,
+          "y": 26,
+          "w": 364,
+          "h": 209
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 249
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.52842,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-05",
+      "name": "intertidal-gravel",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 18,
+          "y": 264,
+          "w": 366,
+          "h": 215
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 249,
+          "w": 384,
+          "h": 245
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.49035,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-06",
+      "name": "rippled-damp-sand",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 384,
+          "y": 264,
+          "w": 383,
+          "h": 215
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 249,
+          "w": 384,
+          "h": 245
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.48333,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-07",
+      "name": "seaweed-flecked-sand",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 770,
+          "y": 264,
+          "w": 382,
+          "h": 215
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 249,
+          "w": 384,
+          "h": 245
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.48567,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-08",
+      "name": "mussel-shell-grit",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 1152,
+          "y": 264,
+          "w": 367,
+          "h": 215
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 249,
+          "w": 384,
+          "h": 245
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.50833,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-09",
+      "name": "sandstone-pebbles",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 18,
+          "y": 510,
+          "w": 366,
+          "h": 214
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 494,
+          "w": 384,
+          "h": 244
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.51154,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-10",
+      "name": "silt-streaked-sand",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 384,
+          "y": 510,
+          "w": 382,
+          "h": 215
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 494,
+          "w": 384,
+          "h": 244
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.49026,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-11",
+      "name": "salt-flat-rock",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 768,
+          "y": 509,
+          "w": 384,
+          "h": 219
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 494,
+          "w": 384,
+          "h": 246
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.48189,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-12",
+      "name": "weathered-slate",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 1152,
+          "y": 510,
+          "w": 367,
+          "h": 215
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 494,
+          "w": 384,
+          "h": 245
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.51346,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-13",
+      "name": "driftwood-splinter-sand",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 18,
+          "y": 752,
+          "w": 366,
+          "h": 217
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 738,
+          "w": 384,
+          "h": 286
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.56439,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-14",
+      "name": "brackish-tidepool",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 384,
+          "y": 752,
+          "w": 384,
+          "h": 219
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 738,
+          "w": 384,
+          "h": 286
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.55973,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-15",
+      "name": "eelgrass-wrack",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 768,
+          "y": 753,
+          "w": 384,
+          "h": 218
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 740,
+          "w": 384,
+          "h": 284
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.56396,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-GROUND-16",
+      "name": "barnacled-bedrock",
+      "kind": "ground",
+      "atlas": "atlases/coast-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-ground-generated.png",
+        "sha256": "692b3d4154b14e1d4c4cdf5047569ee6c83f570879ab3581bf5672497356afba",
+        "sourceRect": {
+          "x": 1152,
+          "y": 754,
+          "w": 365,
+          "h": 218
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 739,
+          "w": 384,
+          "h": 285
+        },
+        "postprocess": "Alpha-preserving crop, resampling to 2:1 diamond dimensions, and atlas packing.",
+        "promptSha256": "87d3c8da9056bbda8a35175e9a05981b5bd0aaa6590bf274073591ea796ef918"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.57884,
+        "preserved": true
+      }
+    }
+  ],
+  "edgeMasks": [
+    {
+      "id": "COAST-EDGE-01",
+      "name": "organic-strip-01",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 11,
+        "w": 128,
+        "h": 77
+      },
+      "anchor": {
+        "x": 64,
+        "y": 38.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 39
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 14,
+          "y": 18,
+          "w": 369,
+          "h": 223
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 283
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.55035,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-02",
+      "name": "organic-strip-02",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 5,
+        "w": 128,
+        "h": 90
+      },
+      "anchor": {
+        "x": 64,
+        "y": 45
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 45
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 414,
+          "y": 17,
+          "w": 321,
+          "h": 226
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 262
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.60077,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-03",
+      "name": "organic-strip-03",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 12,
+        "w": 128,
+        "h": 75
+      },
+      "anchor": {
+        "x": 64,
+        "y": 37.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 38
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 779,
+          "y": 46,
+          "w": 359,
+          "h": 209
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 280
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.58792,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-04",
+      "name": "organic-strip-04",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 10,
+        "w": 128,
+        "h": 79
+      },
+      "anchor": {
+        "x": 64,
+        "y": 39.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 1177,
+          "y": 32,
+          "w": 345,
+          "h": 213
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 287
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.61561,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-05",
+      "name": "organic-corner-01",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 103,
+        "w": 128,
+        "h": 94
+      },
+      "anchor": {
+        "x": 64,
+        "y": 47
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 47
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 84,
+          "y": 325,
+          "w": 193,
+          "h": 142
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 283,
+          "w": 384,
+          "h": 205
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.60225,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-06",
+      "name": "organic-corner-02",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 122,
+        "w": 128,
+        "h": 56
+      },
+      "anchor": {
+        "x": 64,
+        "y": 28
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 28
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 452,
+          "y": 282,
+          "w": 262,
+          "h": 115
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 262,
+          "w": 384,
+          "h": 205
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.62989,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-07",
+      "name": "organic-corner-03",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 270,
+        "y": 102,
+        "w": 120,
+        "h": 96
+      },
+      "anchor": {
+        "x": 60,
+        "y": 48
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 60,
+        "h": 48
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 850,
+          "y": 306,
+          "w": 182,
+          "h": 146
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 280,
+          "w": 384,
+          "h": 192
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.69095,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-08",
+      "name": "organic-corner-04",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 102,
+        "w": 128,
+        "h": 96
+      },
+      "anchor": {
+        "x": 64,
+        "y": 48
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 48
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 1271,
+          "y": 335,
+          "w": 179,
+          "h": 134
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 287,
+          "w": 384,
+          "h": 199
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.64432,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-09",
+      "name": "organic-chevron-01",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 217,
+        "w": 128,
+        "h": 66
+      },
+      "anchor": {
+        "x": 64,
+        "y": 33
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 33
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 34,
+          "y": 509,
+          "w": 350,
+          "h": 181
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 488,
+          "w": 384,
+          "h": 216
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.47629,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-10",
+      "name": "organic-elbow-01",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 212,
+        "w": 128,
+        "h": 75
+      },
+      "anchor": {
+        "x": 64,
+        "y": 37.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 38
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 384,
+          "y": 496,
+          "w": 351,
+          "h": 205
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 467,
+          "w": 384,
+          "h": 244
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.57846,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-11",
+      "name": "organic-chevron-02",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 214,
+        "w": 128,
+        "h": 72
+      },
+      "anchor": {
+        "x": 64,
+        "y": 36
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 36
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 798,
+          "y": 493,
+          "w": 345,
+          "h": 193
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 472,
+          "w": 384,
+          "h": 265
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.57475,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-12",
+      "name": "organic-elbow-02",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 409,
+        "y": 202,
+        "w": 106,
+        "h": 96
+      },
+      "anchor": {
+        "x": 53,
+        "y": 48
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 53,
+        "h": 48
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 1231,
+          "y": 504,
+          "w": 227,
+          "h": 205
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 486,
+          "w": 384,
+          "h": 233
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.60435,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-13",
+      "name": "broken-ribbon",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 9,
+        "y": 302,
+        "w": 114,
+        "h": 96
+      },
+      "anchor": {
+        "x": 57,
+        "y": 48
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 57,
+        "h": 48
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 47,
+          "y": 715,
+          "w": 337,
+          "h": 285
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 704,
+          "w": 384,
+          "h": 320
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.52896,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-14",
+      "name": "three-arm-junction",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 135,
+        "y": 302,
+        "w": 126,
+        "h": 96
+      },
+      "anchor": {
+        "x": 63,
+        "y": 48
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 63,
+        "h": 48
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 426,
+          "y": 721,
+          "w": 337,
+          "h": 256
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 711,
+          "w": 384,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.51188,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-15",
+      "name": "central-island",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 303,
+        "w": 128,
+        "h": 94
+      },
+      "anchor": {
+        "x": 64,
+        "y": 47
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 47
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 848,
+          "y": 781,
+          "w": 209,
+          "h": 153
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 737,
+          "w": 384,
+          "h": 287
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.64434,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-EDGE-16",
+      "name": "hollow-ring",
+      "kind": "edge_mask",
+      "atlas": "atlases/coast-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 303,
+        "w": 128,
+        "h": 93
+      },
+      "anchor": {
+        "x": 64,
+        "y": 46.5
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "orientationVerified": false,
+      "overlayRole": "authored-organic-transition-decoration",
+      "drawSize": {
+        "w": 64,
+        "h": 47
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-edges-generated.png",
+        "sha256": "5d5c6be297fd6fc41fe1e243580945f326c3d2958c3f1012e44cf9e4b84b7026",
+        "sourceRect": {
+          "x": 1160,
+          "y": 729,
+          "w": 368,
+          "h": 266
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 719,
+          "w": 384,
+          "h": 305
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "c273ca519d4b53edddb97981e2db78a57903c66289eac5faf34d1d2d4487c51e"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.47111,
+        "preserved": true
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "COAST-WALL-01",
+      "name": "sea-cliff-ne",
+      "kind": "wall",
+      "atlas": "atlases/coast-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 13,
+        "w": 188,
+        "h": 170
+      },
+      "anchor": {
+        "x": 94,
+        "y": 155
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 155
+      },
+      "footprint": {
+        "u": 0.75,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "screenAxis": "lower-left-to-upper-right",
+      "orientationVerified": true,
+      "drawSize": {
+        "w": 108,
+        "h": 78
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-walls-generated.png",
+        "sha256": "0fdaa646be917c4ffc9d473b85234749b464593b34f1c1e53c0e6c0aef4fd0b9",
+        "sourceRect": {
+          "x": 8,
+          "y": 15,
+          "w": 451,
+          "h": 408
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 0,
+          "w": 459,
+          "h": 441
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "f23b98b7b07ee05b1611c5c8ffca9687afc4e89bcd269eeab3507435553e96a8"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.42957,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-WALL-02",
+      "name": "sea-cliff-nw",
+      "kind": "wall",
+      "atlas": "atlases/coast-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 22,
+        "w": 188,
+        "h": 152
+      },
+      "anchor": {
+        "x": 94,
+        "y": 138
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 138
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "screenAxis": "upper-left-to-lower-right",
+      "orientationVerified": true,
+      "drawSize": {
+        "w": 108,
+        "h": 78
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-wall-facings-generated.png",
+        "sha256": "b17237aa703de804e7749cc2a1ef4acc555ef3e8815cbdb9e33d23b88a7259ea",
+        "replacesOriginalMemberIndex": 1,
+        "originalSource": "sources/coast-walls-generated.png",
+        "sourceRect": {
+          "x": 21,
+          "y": 58,
+          "w": 912,
+          "h": 736
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 0,
+          "w": 940,
+          "h": 836
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "26ccff1deac139245a331f7d4d852c91dc2357b62ddf4ef13fa53f46d3e705e0"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.67312,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-WALL-03",
+      "name": "sea-cliff-corner",
+      "kind": "wall",
+      "atlas": "atlases/coast-walls.webp",
+      "rect": {
+        "x": 396,
+        "y": 15,
+        "w": 188,
+        "h": 166
+      },
+      "anchor": {
+        "x": 94,
+        "y": 151
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 151
+      },
+      "footprint": {
+        "u": 1.25,
+        "v": 1.25
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 82,
+        "h": 82
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-walls-generated.png",
+        "sha256": "0fdaa646be917c4ffc9d473b85234749b464593b34f1c1e53c0e6c0aef4fd0b9",
+        "sourceRect": {
+          "x": 910,
+          "y": 59,
+          "w": 414,
+          "h": 365
+        },
+        "sourceCellRect": {
+          "x": 902,
+          "y": 0,
+          "w": 426,
+          "h": 441
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "f23b98b7b07ee05b1611c5c8ffca9687afc4e89bcd269eeab3507435553e96a8"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.39412,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-WALL-04",
+      "name": "rock-cliff-end",
+      "kind": "wall",
+      "atlas": "atlases/coast-walls.webp",
+      "rect": {
+        "x": 592,
+        "y": 4,
+        "w": 188,
+        "h": 187
+      },
+      "anchor": {
+        "x": 94,
+        "y": 170
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 170
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 72,
+        "h": 79
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-walls-generated.png",
+        "sha256": "0fdaa646be917c4ffc9d473b85234749b464593b34f1c1e53c0e6c0aef4fd0b9",
+        "sourceRect": {
+          "x": 1356,
+          "y": 23,
+          "w": 404,
+          "h": 401
+        },
+        "sourceCellRect": {
+          "x": 1328,
+          "y": 0,
+          "w": 446,
+          "h": 441
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "f23b98b7b07ee05b1611c5c8ffca9687afc4e89bcd269eeab3507435553e96a8"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.4305,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-WALL-05",
+      "name": "seawall-ne",
+      "kind": "wall",
+      "atlas": "atlases/coast-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 207,
+        "w": 188,
+        "h": 174
+      },
+      "anchor": {
+        "x": 94,
+        "y": 158
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 158
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "screenAxis": "upper-left-to-lower-right",
+      "orientationVerified": true,
+      "drawSize": {
+        "w": 104,
+        "h": 72
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-walls-generated.png",
+        "sha256": "0fdaa646be917c4ffc9d473b85234749b464593b34f1c1e53c0e6c0aef4fd0b9",
+        "sourceRect": {
+          "x": 0,
+          "y": 454,
+          "w": 443,
+          "h": 411
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 441,
+          "w": 445,
+          "h": 446
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "f23b98b7b07ee05b1611c5c8ffca9687afc4e89bcd269eeab3507435553e96a8"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.40478,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-WALL-06",
+      "name": "seawall-nw",
+      "kind": "wall",
+      "atlas": "atlases/coast-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 221,
+        "w": 188,
+        "h": 146
+      },
+      "anchor": {
+        "x": 94,
+        "y": 133
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 133
+      },
+      "footprint": {
+        "u": 0.75,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "screenAxis": "lower-left-to-upper-right",
+      "orientationVerified": true,
+      "drawSize": {
+        "w": 104,
+        "h": 72
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-wall-facings-generated.png",
+        "sha256": "b17237aa703de804e7749cc2a1ef4acc555ef3e8815cbdb9e33d23b88a7259ea",
+        "replacesOriginalMemberIndex": 5,
+        "originalSource": "sources/coast-walls-generated.png",
+        "sourceRect": {
+          "x": 972,
+          "y": 90,
+          "w": 895,
+          "h": 693
+        },
+        "sourceCellRect": {
+          "x": 940,
+          "y": 0,
+          "w": 941,
+          "h": 836
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "26ccff1deac139245a331f7d4d852c91dc2357b62ddf4ef13fa53f46d3e705e0"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.71179,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-WALL-07",
+      "name": "breached-seawall",
+      "kind": "wall",
+      "atlas": "atlases/coast-walls.webp",
+      "rect": {
+        "x": 396,
+        "y": 202,
+        "w": 188,
+        "h": 184
+      },
+      "anchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 99,
+        "h": 74
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-walls-generated.png",
+        "sha256": "0fdaa646be917c4ffc9d473b85234749b464593b34f1c1e53c0e6c0aef4fd0b9",
+        "sourceRect": {
+          "x": 904,
+          "y": 449,
+          "w": 426,
+          "h": 418
+        },
+        "sourceCellRect": {
+          "x": 900,
+          "y": 441,
+          "w": 430,
+          "h": 446
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "f23b98b7b07ee05b1611c5c8ffca9687afc4e89bcd269eeab3507435553e96a8"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.38896,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-WALL-08",
+      "name": "shingle-bank",
+      "kind": "wall",
+      "atlas": "atlases/coast-walls.webp",
+      "rect": {
+        "x": 592,
+        "y": 206,
+        "w": 188,
+        "h": 176
+      },
+      "anchor": {
+        "x": 94,
+        "y": 160
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 160
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.75
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 97,
+        "h": 64
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-walls-generated.png",
+        "sha256": "0fdaa646be917c4ffc9d473b85234749b464593b34f1c1e53c0e6c0aef4fd0b9",
+        "sourceRect": {
+          "x": 1338,
+          "y": 457,
+          "w": 436,
+          "h": 408
+        },
+        "sourceCellRect": {
+          "x": 1330,
+          "y": 441,
+          "w": 444,
+          "h": 446
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "f23b98b7b07ee05b1611c5c8ffca9687afc4e89bcd269eeab3507435553e96a8"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.45242,
+        "preserved": true
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "COAST-PROP-01",
+      "name": "barnacled-boulder",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 29,
+        "w": 188,
+        "h": 137
+      },
+      "anchor": {
+        "x": 94,
+        "y": 125
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 125
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 68,
+        "h": 54
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 16,
+          "y": 0,
+          "w": 352,
+          "h": 256
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 264
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.3135,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-02",
+      "name": "driftwood-stump",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 30,
+        "w": 188,
+        "h": 135
+      },
+      "anchor": {
+        "x": 94,
+        "y": 123
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 123
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 74,
+        "h": 68
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 398,
+          "y": 0,
+          "w": 357,
+          "h": 256
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 273
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.362,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-03",
+      "name": "wreck-hull-rib",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 33,
+        "w": 188,
+        "h": 130
+      },
+      "anchor": {
+        "x": 94,
+        "y": 118
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 118
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 0.8
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 110,
+        "h": 75
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 782,
+          "y": 0,
+          "w": 361,
+          "h": 249
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 255
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.30811,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-04",
+      "name": "broken-skiff",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 39,
+        "w": 188,
+        "h": 117
+      },
+      "anchor": {
+        "x": 94,
+        "y": 106
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 106
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 0.8
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 127,
+        "h": 66
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 1168,
+          "y": 22,
+          "w": 352,
+          "h": 219
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.46847,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-05",
+      "name": "lobster-pot",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 227,
+        "w": 188,
+        "h": 134
+      },
+      "anchor": {
+        "x": 94,
+        "y": 122
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 122
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 44,
+        "h": 39
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 22,
+          "y": 272,
+          "w": 336,
+          "h": 239
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 264,
+          "w": 384,
+          "h": 263
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.33896,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-06",
+      "name": "rope-coil",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 241,
+        "w": 188,
+        "h": 105
+      },
+      "anchor": {
+        "x": 94,
+        "y": 96
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 96
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 43,
+        "h": 25
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 399,
+          "y": 290,
+          "w": 363,
+          "h": 203
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 273,
+          "w": 384,
+          "h": 232
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.2931,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-07",
+      "name": "wooden-buoy-cluster",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 225,
+        "w": 188,
+        "h": 137
+      },
+      "anchor": {
+        "x": 94,
+        "y": 125
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 125
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 39,
+        "h": 45
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 794,
+          "y": 261,
+          "w": 334,
+          "h": 244
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 255,
+          "w": 384,
+          "h": 255
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.41823,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-08",
+      "name": "rusted-anchor",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 223,
+        "w": 188,
+        "h": 142
+      },
+      "anchor": {
+        "x": 94,
+        "y": 129
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 129
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 67
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 1187,
+          "y": 260,
+          "w": 322,
+          "h": 244
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 250,
+          "w": 384,
+          "h": 260
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.52559,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-09",
+      "name": "feather-wrack",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 443,
+        "w": 188,
+        "h": 94
+      },
+      "anchor": {
+        "x": 94,
+        "y": 86
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 86
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 42,
+        "h": 20
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 11,
+          "y": 544,
+          "w": 371,
+          "h": 185
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 527,
+          "w": 384,
+          "h": 216
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.3002,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-10",
+      "name": "eelgrass-tuft",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 432,
+        "w": 188,
+        "h": 116
+      },
+      "anchor": {
+        "x": 94,
+        "y": 106
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 106
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 44,
+        "h": 39
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 395,
+          "y": 517,
+          "w": 368,
+          "h": 228
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 505,
+          "w": 384,
+          "h": 248
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.25673,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-11",
+      "name": "kelp-heap",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 431,
+        "w": 188,
+        "h": 117
+      },
+      "anchor": {
+        "x": 94,
+        "y": 106
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 106
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 59,
+        "h": 25
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 769,
+          "y": 516,
+          "w": 383,
+          "h": 239
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 510,
+          "w": 384,
+          "h": 252
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.25955,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-12",
+      "name": "broken-pier-post",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 613,
+        "y": 396,
+        "w": 146,
+        "h": 188
+      },
+      "anchor": {
+        "x": 73,
+        "y": 171
+      },
+      "footAnchor": {
+        "x": 73,
+        "y": 171
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 36,
+        "h": 83
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 1251,
+          "y": 517,
+          "w": 186,
+          "h": 239
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 510,
+          "w": 384,
+          "h": 253
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.56441,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-13",
+      "name": "crab-baskets",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 620,
+        "w": 188,
+        "h": 132
+      },
+      "anchor": {
+        "x": 94,
+        "y": 120
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 120
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 46,
+        "h": 54
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 16,
+          "y": 757,
+          "w": 355,
+          "h": 250
+        },
+        "sourceCellRect": {
+          "x": 0,
+          "y": 743,
+          "w": 384,
+          "h": 281
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.3666,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-14",
+      "name": "weathered-sea-chest",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 617,
+        "w": 188,
+        "h": 138
+      },
+      "anchor": {
+        "x": 94,
+        "y": 126
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 126
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 51,
+        "h": 40
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 413,
+          "y": 762,
+          "w": 333,
+          "h": 245
+        },
+        "sourceCellRect": {
+          "x": 384,
+          "y": 753,
+          "w": 384,
+          "h": 271
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.32148,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-15",
+      "name": "rockpool-slab",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 628,
+        "w": 188,
+        "h": 116
+      },
+      "anchor": {
+        "x": 94,
+        "y": 106
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 106
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 70,
+        "h": 36
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 775,
+          "y": 769,
+          "w": 374,
+          "h": 230
+        },
+        "sourceCellRect": {
+          "x": 768,
+          "y": 762,
+          "w": 384,
+          "h": 262
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.28251,
+        "preserved": true
+      }
+    },
+    {
+      "id": "COAST-PROP-16",
+      "name": "fish-bone-pile",
+      "kind": "static_prop",
+      "atlas": "atlases/coast-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 627,
+        "w": 188,
+        "h": 117
+      },
+      "anchor": {
+        "x": 94,
+        "y": 106
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 106
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond"
+      },
+      "drawSize": {
+        "w": 56,
+        "h": 27
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/coast-props-generated.png",
+        "sha256": "d5580ab348cc179c64b75c029a56400b6e3d16043a44d313626aed1c1d2be4a9",
+        "sourceRect": {
+          "x": 1172,
+          "y": 770,
+          "w": 349,
+          "h": 218
+        },
+        "sourceCellRect": {
+          "x": 1152,
+          "y": 763,
+          "w": 384,
+          "h": 261
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, and atlas packing.",
+        "promptSha256": "7e2f86fb2cf6c2281cc550b3e8d44288e1ede792358f4daf4cf826af7c0a3e2d"
+      },
+      "alpha": {
+        "sourceTransparentFraction": 0.35622,
+        "preserved": true
+      }
+    }
+  ],
+  "coverage": {
+    "required": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "staged": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "missing": {
+      "ground": 0,
+      "edge_masks": 0,
+      "walls": 0,
+      "static_props": 0
+    },
+    "sourceCountsMet": true,
+    "complete": false
+  },
+  "borders": {
+    "seamless": false,
+    "automaticBitmaskCompatible": false,
+    "reason": "Sixteen unique organic alpha overlays are authored transition decorations. They are not a verified automatic 16-state bitmask/Wang set; requested orientations vary from actual generated silhouettes. Ground adjacency pixel seams and renderer integration remain unverified.",
+    "renderGuidance": "Use provided actual alpha silhouettes. Deterministic family blending, gap-free underlay, and placement contract must be supplied by integration."
+  },
+  "wallNotes": "Eight distinct wall/bank structures. WALL-02 and WALL-06 are original supplementary imagegen replacements with opposite diagonal orientation to WALL-01 and WALL-05 respectively. Discarded original members are preserved but not counted. No mirrored or recolored copies counted.",
+  "alpha": {
+    "preserved": true,
+    "note": "Generated genuine alpha retained through crop/resampling/packing. RGB beneath transparent pixels is not visible content. No chroma keying, alpha masks, or procedural repainting applied."
+  },
+  "qa": {
+    "sourceInspected": true,
+    "packedAtlasInspected": true,
+    "rendererIntegrationVerified": false,
+    "footAnchorsVerifiedInEngine": false,
+    "sourceAlphaValidated": true,
+    "acceptedSourceRectanglesValidated": true,
+    "uniqueComponentIdsValidated": true,
+    "duplicateSpriteHashes": 0,
+    "contactSheet": "qa/coast-contact-sheet.png",
+    "verifiedOn": "2026-10-09",
+    "acceptedSpriteCount": 56
+  },
+  "generation": {
+    "uniqueAcceptedSourceSheets": 5,
+    "supersededOriginalMembers": 2,
+    "method": "built-in-imagegen",
+    "regenerationsCounted": false
+  },
+  "pendingAcceptance": [
+    "Pixel-seam verification across ground variants",
+    "Deterministic automatic transition rendering contract",
+    "Wall orientation and foot-anchor integration QA"
+  ]
+}

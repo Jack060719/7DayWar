@@ -1,0 +1,3183 @@
+{
+  "schemaVersion": 1,
+  "familyId": "ASSET-TERRAIN-CAVE",
+  "family": "CAVE",
+  "implementationState": "GENERATED_SOURCE_COUNTS_MET_INTEGRATION_PENDING",
+  "tileProjection": {
+    "width": 64,
+    "height": 32,
+    "type": "isometric-2:1"
+  },
+  "sourceCatalog": "catalog-requirements.json",
+  "tiles": [
+    {
+      "id": "CAVE-GROUND-01",
+      "name": "dusty-limestone",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 67655,
+          "nonzero": 30314,
+          "opaque": 24868,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "084cfbbcfc02c7b8dae2a36f12f773dcf3a3f7a36a9ce39693a3b7ed8da72f3c",
+        "sourceRect": {
+          "x": 5,
+          "y": 96,
+          "w": 306,
+          "h": 170
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-02",
+      "name": "angular-scree",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 67771,
+          "nonzero": 30511,
+          "opaque": 25021,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "ae61eb04961332428008a45dac7b6338a0349e8f895cd40c2ab06c5f02036ffd",
+        "sourceRect": {
+          "x": 318,
+          "y": 96,
+          "w": 306,
+          "h": 170
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-03",
+      "name": "wet-slate",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68899,
+          "nonzero": 29070,
+          "opaque": 24944,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "d734466c58c6af133d9f2138904575163f5fac20ef1c2e0ab8406c205dadf21d",
+        "sourceRect": {
+          "x": 631,
+          "y": 96,
+          "w": 306,
+          "h": 170
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-04",
+      "name": "calcite-crust",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68489,
+          "nonzero": 29793,
+          "opaque": 25112,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "90161c32d03e1484169ef4b49055d968fd9612bbb6925642fd0eb2ed6af3bbaa",
+        "sourceRect": {
+          "x": 944,
+          "y": 96,
+          "w": 305,
+          "h": 170
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-05",
+      "name": "iron-stained-gravel",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68013,
+          "nonzero": 30269,
+          "opaque": 25245,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "c63ae24354b2758e81c29793d6673f5b954b40a33aff37da8c514d79d3f265c7",
+        "sourceRect": {
+          "x": 5,
+          "y": 408,
+          "w": 306,
+          "h": 172
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-06",
+      "name": "damp-clay",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 66534,
+          "nonzero": 32062,
+          "opaque": 25337,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "4aa024f3276587622088ea31b8e489f59a111846386f3d6f28bc09b29102251e",
+        "sourceRect": {
+          "x": 318,
+          "y": 409,
+          "w": 306,
+          "h": 171
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-07",
+      "name": "bat-guano-dust",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 67856,
+          "nonzero": 30426,
+          "opaque": 25317,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "a36fc3512e88b5fd8c9ea23c9f731bcba04a8d993a67edd0b0ec7065cdd492ca",
+        "sourceRect": {
+          "x": 630,
+          "y": 409,
+          "w": 307,
+          "h": 171
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-08",
+      "name": "shattered-shale",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68548,
+          "nonzero": 30048,
+          "opaque": 25368,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "4ee9477145922cb7ea96e3060d1d4f81b85774f721f2d79371a52127a01fbc73",
+        "sourceRect": {
+          "x": 944,
+          "y": 409,
+          "w": 306,
+          "h": 171
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-09",
+      "name": "pitted-karst",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 67801,
+          "nonzero": 30168,
+          "opaque": 25266,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "a247e5d64559ed450d87a0960a588cae2b10784143df56a976811b5ba9cda207",
+        "sourceRect": {
+          "x": 5,
+          "y": 722,
+          "w": 306,
+          "h": 172
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-10",
+      "name": "fine-river-sand",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 66872,
+          "nonzero": 31410,
+          "opaque": 25256,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "499821c8a4a38996e0ef9ee57c4efd7432b5001fda31855f481cfbd6bf60f48c",
+        "sourceRect": {
+          "x": 317,
+          "y": 723,
+          "w": 307,
+          "h": 171
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-11",
+      "name": "pebble-streambed",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 67515,
+          "nonzero": 30454,
+          "opaque": 25344,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "e3b95f25731f441647d2b502a235276c4d2ae27f565cd75cd7516490856993e6",
+        "sourceRect": {
+          "x": 631,
+          "y": 723,
+          "w": 306,
+          "h": 171
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-12",
+      "name": "calcite-veins",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68490,
+          "nonzero": 29792,
+          "opaque": 25253,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "bfde9e236ff2c75dd6fd05be8bdccfd63de8e7d06d4a977ea532e58627605fe6",
+        "sourceRect": {
+          "x": 943,
+          "y": 723,
+          "w": 306,
+          "h": 171
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-13",
+      "name": "dark-silt",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68312,
+          "nonzero": 29970,
+          "opaque": 25085,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "4b72cf2fbf10882187601edc4358acc2f5e06cca416161cdf28230370d5c0207",
+        "sourceRect": {
+          "x": 5,
+          "y": 1035,
+          "w": 306,
+          "h": 171
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-14",
+      "name": "root-silt",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68590,
+          "nonzero": 30006,
+          "opaque": 25343,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "f7fca6fb19ee412a6521ce41fe3500d8b5a0b8a21dc30d63183f753d4d4a0cf4",
+        "sourceRect": {
+          "x": 317,
+          "y": 1035,
+          "w": 307,
+          "h": 172
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-15",
+      "name": "cracked-bedrock",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68293,
+          "nonzero": 29989,
+          "opaque": 25420,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "5cf45167bc54affebef80dc94d26dac7fa0a47126d115c7e402e8cb6dd4df9fa",
+        "sourceRect": {
+          "x": 631,
+          "y": 1035,
+          "w": 306,
+          "h": 172
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-GROUND-16",
+      "name": "mushroom-humus",
+      "kind": "ground",
+      "atlas": "atlases/cave-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68695,
+          "nonzero": 29901,
+          "opaque": 25402,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-ground-generated.png",
+        "sha256": "9c3833a237c7af37bd09e5ec58bf4fd9eb89822afc1818d44220bdfc408da3b5",
+        "spriteSha256": "152c37e601dfb6b582c78684c858e117877520c296307a8ac34e74efbf49650d",
+        "sourceRect": {
+          "x": 943,
+          "y": 1035,
+          "w": 307,
+          "h": 172
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    }
+  ],
+  "edgeMasks": [
+    {
+      "id": "CAVE-EDGE-01",
+      "name": "ribbon-a",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 16,
+        "y": 2,
+        "w": 100,
+        "h": 96
+      },
+      "anchor": {
+        "x": 50,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 67510,
+          "nonzero": 30459,
+          "opaque": 14127,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "8560652846575ef92634db4ff84ed6f620cf1751e958f6e785fab4ae8112c67d",
+        "sourceRect": {
+          "x": 32,
+          "y": 42,
+          "w": 262,
+          "h": 251
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-02",
+      "name": "ribbon-b",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 147,
+        "y": 2,
+        "w": 101,
+        "h": 96
+      },
+      "anchor": {
+        "x": 50.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 64367,
+          "nonzero": 33915,
+          "opaque": 15746,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "3d03e60cda8c2c128b1a563384c56ff6e5f00eee7d826811d5d72d48cef44091",
+        "sourceRect": {
+          "x": 340,
+          "y": 36,
+          "w": 270,
+          "h": 257
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-03",
+      "name": "ribbon-c",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 275,
+        "y": 2,
+        "w": 109,
+        "h": 96
+      },
+      "anchor": {
+        "x": 54.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 67957,
+          "nonzero": 30012,
+          "opaque": 13020,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "7b455d169b6533c010a90b99e3d9c62e141aa73351db487f1c47a4bc48f039c1",
+        "sourceRect": {
+          "x": 649,
+          "y": 58,
+          "w": 267,
+          "h": 236
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-04",
+      "name": "ribbon-d",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 408,
+        "y": 2,
+        "w": 108,
+        "h": 96
+      },
+      "anchor": {
+        "x": 54,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 65683,
+          "nonzero": 32599,
+          "opaque": 17346,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "2c2192cee3bfe08a24bc585e5fe4c21186dc3e8957541cef847c062290bc5284",
+        "sourceRect": {
+          "x": 957,
+          "y": 41,
+          "w": 278,
+          "h": 248
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-05",
+      "name": "corner-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 12,
+        "y": 102,
+        "w": 108,
+        "h": 96
+      },
+      "anchor": {
+        "x": 54,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62272,
+          "nonzero": 36010,
+          "opaque": 14774,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "4c1d02cdf04a5ec6a9c74878b31d528f44568e6808b6ffb0f36fdf1d7c4d5243",
+        "sourceRect": {
+          "x": 29,
+          "y": 361,
+          "w": 247,
+          "h": 219
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-06",
+      "name": "corner-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 112,
+        "w": 128,
+        "h": 76
+      },
+      "anchor": {
+        "x": 64,
+        "y": 38
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 38
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 71544,
+          "nonzero": 27052,
+          "opaque": 10945,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "29968ca35845ddf890ed1c33f968f7de442ade41de6d26011fb77c2a2146570a",
+        "sourceRect": {
+          "x": 338,
+          "y": 341,
+          "w": 269,
+          "h": 160
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-07",
+      "name": "corner-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 277,
+        "y": 102,
+        "w": 106,
+        "h": 96
+      },
+      "anchor": {
+        "x": 53,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 66885,
+          "nonzero": 31397,
+          "opaque": 17194,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "1de6cda486396e72a7c41f57fc4f2968434a23183dda8d414ae0b87af1efdf38",
+        "sourceRect": {
+          "x": 667,
+          "y": 354,
+          "w": 250,
+          "h": 226
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-08",
+      "name": "corner-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 111,
+        "w": 128,
+        "h": 77
+      },
+      "anchor": {
+        "x": 64,
+        "y": 38.5
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 39
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 70142,
+          "nonzero": 28454,
+          "opaque": 12896,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "b9cc3e17aad039fee5cea73535979155e56f93b1007977e4d71291bd4bc374d2",
+        "sourceRect": {
+          "x": 962,
+          "y": 422,
+          "w": 264,
+          "h": 158
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-09",
+      "name": "chevron-up",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 14,
+        "y": 202,
+        "w": 103,
+        "h": 96
+      },
+      "anchor": {
+        "x": 51.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 66498,
+          "nonzero": 31471,
+          "opaque": 13324,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "aea45be9dc91b6b5edd1cee8009df93470ed4e1b102423e394f9516e4776bb81",
+        "sourceRect": {
+          "x": 19,
+          "y": 676,
+          "w": 284,
+          "h": 264
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-10",
+      "name": "chevron-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 166,
+        "y": 202,
+        "w": 64,
+        "h": 96
+      },
+      "anchor": {
+        "x": 32,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 66758,
+          "nonzero": 31524,
+          "opaque": 14674,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "3fee3fabc5db9366190681ef1581d9964afb7c02bbbaf7ee61e70576429cd8f6",
+        "sourceRect": {
+          "x": 398,
+          "y": 642,
+          "w": 198,
+          "h": 298
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-11",
+      "name": "chevron-down",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 87
+      },
+      "anchor": {
+        "x": 64,
+        "y": 43.5
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68161,
+          "nonzero": 29808,
+          "opaque": 12109,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "14321cf30e6552578c77b5f7ac8fbb6179fe648d45b25f7eee53b0d7cc665ac7",
+        "sourceRect": {
+          "x": 645,
+          "y": 695,
+          "w": 277,
+          "h": 188
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-12",
+      "name": "chevron-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 426,
+        "y": 202,
+        "w": 71,
+        "h": 96
+      },
+      "anchor": {
+        "x": 35.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 65406,
+          "nonzero": 32876,
+          "opaque": 15186,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "5f46f493d26fcf46abc0ea8b7fcada0e807f122b25272ef137151debde711c4a",
+        "sourceRect": {
+          "x": 977,
+          "y": 643,
+          "w": 195,
+          "h": 262
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-13",
+      "name": "meandering-ribbon",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 27,
+        "y": 302,
+        "w": 78,
+        "h": 96
+      },
+      "anchor": {
+        "x": 39,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 59520,
+          "nonzero": 38762,
+          "opaque": 14438,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "6063c609c3016671a29f64cb86f147a7dd323f87205a75fb98a19667c0f2fc15",
+        "sourceRect": {
+          "x": 57,
+          "y": 940,
+          "w": 229,
+          "h": 283
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-14",
+      "name": "three-arm-junction",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 144,
+        "y": 302,
+        "w": 107,
+        "h": 96
+      },
+      "anchor": {
+        "x": 53.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 61271,
+          "nonzero": 37325,
+          "opaque": 18023,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "22464f7f4d0df882f5d0c213ef8876405e1e9449359d589cd11e2538ca442ac5",
+        "sourceRect": {
+          "x": 333,
+          "y": 940,
+          "w": 284,
+          "h": 255
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-15",
+      "name": "central-island",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 303,
+        "w": 128,
+        "h": 94
+      },
+      "anchor": {
+        "x": 64,
+        "y": 47
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 66640,
+          "nonzero": 31642,
+          "opaque": 16081,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "b14823b0bcefc6d61800ac1ab68edde1ebf829a2b4f91664aa52635734c6c7ab",
+        "sourceRect": {
+          "x": 655,
+          "y": 989,
+          "w": 233,
+          "h": 171
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-EDGE-16",
+      "name": "hollow-ring",
+      "kind": "edge_mask",
+      "atlas": "atlases/cave-edges.webp",
+      "rect": {
+        "x": 410,
+        "y": 302,
+        "w": 103,
+        "h": 96
+      },
+      "anchor": {
+        "x": 51.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 51180,
+          "nonzero": 47416,
+          "opaque": 24093,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-edges-generated.png",
+        "sha256": "d8e398a1435f671275b6efadebd9b56232556043635ae0979b4918d772165236",
+        "spriteSha256": "77599712a95a00b1ad1301b14ef7a2dff42838d834023c18862f7d63f5a4599e",
+        "sourceRect": {
+          "x": 942,
+          "y": 940,
+          "w": 292,
+          "h": 273
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "CAVE-WALL-01",
+      "name": "rough-limestone-wall-ne",
+      "kind": "wall",
+      "atlas": "atlases/cave-walls.webp",
+      "rect": {
+        "x": 24,
+        "y": 4,
+        "w": 148,
+        "h": 188
+      },
+      "anchor": {
+        "x": 74,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 132
+      },
+      "footAnchor": {
+        "x": 74,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 93248,
+          "nonzero": 114624,
+          "opaque": 101030,
+          "total": 207872
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-walls-generated.png",
+        "sha256": "2f590b55ef667b3632352e281159edab4b6ebe555aa7c007d84dc3b4362564f3",
+        "spriteSha256": "a0bcf377be4ae6e356a5f0364b21bad4e3e48bc6f4742d468f92ad40202f07e2",
+        "sourceRect": {
+          "x": 15,
+          "y": 14,
+          "w": 367,
+          "h": 467
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 406,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-WALL-02",
+      "name": "rough-limestone-wall-nw",
+      "kind": "wall",
+      "atlas": "atlases/cave-walls.webp",
+      "rect": {
+        "x": 231,
+        "y": 4,
+        "w": 126,
+        "h": 188
+      },
+      "anchor": {
+        "x": 63,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 155
+      },
+      "footAnchor": {
+        "x": 63,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.65,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 76428,
+          "nonzero": 110452,
+          "opaque": 95546,
+          "total": 186880
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-walls-generated.png",
+        "sha256": "2f590b55ef667b3632352e281159edab4b6ebe555aa7c007d84dc3b4362564f3",
+        "spriteSha256": "6ded2dd743a396a8c5d7c7ed14a461a10c0e98f8a047166c67b4437c75589c2c",
+        "sourceRect": {
+          "x": 432,
+          "y": 19,
+          "w": 320,
+          "h": 476
+        },
+        "sourceCell": {
+          "x": 406,
+          "y": 0,
+          "w": 365,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-WALL-03",
+      "name": "calcite-outer-corner",
+      "kind": "wall",
+      "atlas": "atlases/cave-walls.webp",
+      "rect": {
+        "x": 424,
+        "y": 4,
+        "w": 132,
+        "h": 188
+      },
+      "anchor": {
+        "x": 66,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 148
+      },
+      "footAnchor": {
+        "x": 66,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 88112,
+          "nonzero": 108496,
+          "opaque": 94870,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-walls-generated.png",
+        "sha256": "2f590b55ef667b3632352e281159edab4b6ebe555aa7c007d84dc3b4362564f3",
+        "spriteSha256": "888a1730d78cc32d6f684c2047c4eb8862413d1e7821e89f322a8862e57c0aed",
+        "sourceRect": {
+          "x": 794,
+          "y": 9,
+          "w": 335,
+          "h": 478
+        },
+        "sourceCell": {
+          "x": 771,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-WALL-04",
+      "name": "broken-cavern-wall-end",
+      "kind": "wall",
+      "atlas": "atlases/cave-walls.webp",
+      "rect": {
+        "x": 617,
+        "y": 4,
+        "w": 138,
+        "h": 188
+      },
+      "anchor": {
+        "x": 69,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 142
+      },
+      "footAnchor": {
+        "x": 69,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 101769,
+          "nonzero": 93303,
+          "opaque": 82364,
+          "total": 195072
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-walls-generated.png",
+        "sha256": "2f590b55ef667b3632352e281159edab4b6ebe555aa7c007d84dc3b4362564f3",
+        "spriteSha256": "b5430defdb595ef54ee13ce2a3f2a04618c500f50f4b30c5044c79da0e44f3c3",
+        "sourceRect": {
+          "x": 1182,
+          "y": 36,
+          "w": 335,
+          "h": 456
+        },
+        "sourceCell": {
+          "x": 1155,
+          "y": 0,
+          "w": 381,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-WALL-05",
+      "name": "timber-supported-wall-ne",
+      "kind": "wall",
+      "atlas": "atlases/cave-walls.webp",
+      "rect": {
+        "x": 26,
+        "y": 200,
+        "w": 143,
+        "h": 188
+      },
+      "anchor": {
+        "x": 71.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 137
+      },
+      "footAnchor": {
+        "x": 71.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 85941,
+          "nonzero": 121931,
+          "opaque": 106925,
+          "total": 207872
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-walls-generated.png",
+        "sha256": "2f590b55ef667b3632352e281159edab4b6ebe555aa7c007d84dc3b4362564f3",
+        "spriteSha256": "9ae00c5a49b6bd9df17becc839d90de7f4d6fe07d87eb3664cd88bc4b68a7479",
+        "sourceRect": {
+          "x": 16,
+          "y": 519,
+          "w": 365,
+          "h": 479
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 512,
+          "w": 406,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-WALL-06",
+      "name": "mineral-veined-wall-nw",
+      "kind": "wall",
+      "atlas": "atlases/cave-walls.webp",
+      "rect": {
+        "x": 226,
+        "y": 200,
+        "w": 136,
+        "h": 188
+      },
+      "anchor": {
+        "x": 68,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 144
+      },
+      "footAnchor": {
+        "x": 68,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.65,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 73436,
+          "nonzero": 113444,
+          "opaque": 100073,
+          "total": 186880
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-walls-generated.png",
+        "sha256": "2f590b55ef667b3632352e281159edab4b6ebe555aa7c007d84dc3b4362564f3",
+        "spriteSha256": "f7f9f87b5ea3098544e534ca5cd447c92f5bff0ff62bf33a3558a2ec8ab82c25",
+        "sourceRect": {
+          "x": 406,
+          "y": 515,
+          "w": 347,
+          "h": 480
+        },
+        "sourceCell": {
+          "x": 406,
+          "y": 512,
+          "w": 365,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-WALL-07",
+      "name": "eroded-wall-opening",
+      "kind": "wall",
+      "atlas": "atlases/cave-walls.webp",
+      "rect": {
+        "x": 416,
+        "y": 200,
+        "w": 147,
+        "h": 188
+      },
+      "anchor": {
+        "x": 73.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 133
+      },
+      "footAnchor": {
+        "x": 73.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 65448,
+          "nonzero": 124504,
+          "opaque": 107542,
+          "total": 189952
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-walls-generated.png",
+        "sha256": "2f590b55ef667b3632352e281159edab4b6ebe555aa7c007d84dc3b4362564f3",
+        "spriteSha256": "b6c9ddb588026d13dc086c2409d2ff1d3d17fd84fcc6714052a2e4edde51c607",
+        "sourceRect": {
+          "x": 772,
+          "y": 522,
+          "w": 370,
+          "h": 472
+        },
+        "sourceCell": {
+          "x": 771,
+          "y": 512,
+          "w": 371,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-WALL-08",
+      "name": "rubble-scree-ramp",
+      "kind": "wall",
+      "atlas": "atlases/cave-walls.webp",
+      "rect": {
+        "x": 608,
+        "y": 200,
+        "w": 155,
+        "h": 188
+      },
+      "anchor": {
+        "x": 77.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 126
+      },
+      "footAnchor": {
+        "x": 77.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 98788,
+          "nonzero": 96284,
+          "opaque": 85224,
+          "total": 195072
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-walls-generated.png",
+        "sha256": "2f590b55ef667b3632352e281159edab4b6ebe555aa7c007d84dc3b4362564f3",
+        "spriteSha256": "bfaa12657a4f74bd2d50dd7535e2bbdd82a5729dda27dc0eadd9e85c8ddb65ce",
+        "sourceRect": {
+          "x": 1155,
+          "y": 544,
+          "w": 366,
+          "h": 445
+        },
+        "sourceCell": {
+          "x": 1155,
+          "y": 512,
+          "w": 381,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "CAVE-PROP-01",
+      "name": "tall-stalagmite-spire",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 37,
+        "y": 4,
+        "w": 121,
+        "h": 188
+      },
+      "anchor": {
+        "x": 60.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 61,
+        "h": 94
+      },
+      "footAnchor": {
+        "x": 60.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 69998,
+          "nonzero": 32994,
+          "opaque": 27914,
+          "total": 102992
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "dcc42d6df7c564a0607ede7bdca8b81503799da5e0748bbb57ac3a8a134099a7",
+        "sourceRect": {
+          "x": 59,
+          "y": 9,
+          "w": 199,
+          "h": 309
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 314,
+          "h": 328
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-02",
+      "name": "three-stalagmite-cluster",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 217,
+        "y": 4,
+        "w": 154,
+        "h": 188
+      },
+      "anchor": {
+        "x": 77,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 77,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 59277,
+          "nonzero": 42468,
+          "opaque": 34902,
+          "total": 101745
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "81d549a2e913c95a7a4abeffc783d0a72de9481ec239690319fa4a0b525e0f4d",
+        "sourceRect": {
+          "x": 344,
+          "y": 8,
+          "w": 248,
+          "h": 302
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 0,
+          "w": 315,
+          "h": 323
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-03",
+      "name": "broken-limestone-boulder",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 15,
+        "w": 188,
+        "h": 165
+      },
+      "anchor": {
+        "x": 94,
+        "y": 149
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 68
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 149
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 41960,
+          "nonzero": 55696,
+          "opaque": 48793,
+          "total": 97656
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "ac838a2aed0e4cf49e70b37c257a4629e12f19d34aea2472d7897cfece19fc1f",
+        "sourceRect": {
+          "x": 642,
+          "y": 49,
+          "w": 283,
+          "h": 249
+        },
+        "sourceCell": {
+          "x": 629,
+          "y": 0,
+          "w": 312,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-04",
+      "name": "calcite-fan",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 11,
+        "w": 188,
+        "h": 173
+      },
+      "anchor": {
+        "x": 94,
+        "y": 156
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 72
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 156
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 48644,
+          "nonzero": 52455,
+          "opaque": 45809,
+          "total": 101099
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "eca4f607ecf64819b1850313314170429368ef3f7b939eb9a4b4cccfe093dff1",
+        "sourceRect": {
+          "x": 963,
+          "y": 49,
+          "w": 272,
+          "h": 251
+        },
+        "sourceCell": {
+          "x": 941,
+          "y": 0,
+          "w": 313,
+          "h": 323
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-05",
+      "name": "ore-bearing-crag",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 201,
+        "w": 188,
+        "h": 185
+      },
+      "anchor": {
+        "x": 94,
+        "y": 167
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 77
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 39080,
+          "nonzero": 54806,
+          "opaque": 49278,
+          "total": 93886
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "7bfb9c284b8647c401e4440d0b7e0575b568fd6b6bb4c0e20ba95db4966df4e1",
+        "sourceRect": {
+          "x": 17,
+          "y": 342,
+          "w": 282,
+          "h": 277
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 328,
+          "w": 314,
+          "h": 299
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-06",
+      "name": "low-cave-mushrooms",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 208,
+        "w": 188,
+        "h": 171
+      },
+      "anchor": {
+        "x": 94,
+        "y": 154
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 71
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 154
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 46586,
+          "nonzero": 49174,
+          "opaque": 41102,
+          "total": 95760
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "d9fd2e8b8e9cedafb94bec0cf31a59f2780125f5b1ba0d198c1ec38ccdeeafda",
+        "sourceRect": {
+          "x": 338,
+          "y": 370,
+          "w": 265,
+          "h": 241
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 323,
+          "w": 315,
+          "h": 304
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-07",
+      "name": "rotting-timber-brace",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 406,
+        "y": 200,
+        "w": 167,
+        "h": 188
+      },
+      "anchor": {
+        "x": 83.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 69,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 83.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 42806,
+          "nonzero": 55162,
+          "opaque": 44188,
+          "total": 97968
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "e7ac2a0275457e08b2211614f6147ed0163f34e0c7f8df5a0801613333344cdd",
+        "sourceRect": {
+          "x": 644,
+          "y": 313,
+          "w": 272,
+          "h": 307
+        },
+        "sourceCell": {
+          "x": 629,
+          "y": 313,
+          "w": 312,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-08",
+      "name": "collapsed-mine-cart",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 212,
+        "w": 188,
+        "h": 163
+      },
+      "anchor": {
+        "x": 94,
+        "y": 147
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 68
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 147
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 41978,
+          "nonzero": 53174,
+          "opaque": 46232,
+          "total": 95152
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "507d77358fbba6e0938288ee0e5a4ad34f5aa828f9c7ad7f1dd5dc589a7a7213",
+        "sourceRect": {
+          "x": 955,
+          "y": 360,
+          "w": 282,
+          "h": 244
+        },
+        "sourceCell": {
+          "x": 941,
+          "y": 323,
+          "w": 313,
+          "h": 304
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-09",
+      "name": "weathered-pickaxe-rock",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 404,
+        "w": 188,
+        "h": 171
+      },
+      "anchor": {
+        "x": 94,
+        "y": 154
+      },
+      "drawSize": {
+        "w": 48,
+        "h": 44
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 154
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 38179,
+          "nonzero": 56963,
+          "opaque": 48407,
+          "total": 95142
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "a952d4f1ecb09e494cf63b8dd6ec7a54d7485eb61233a072e7732b1001258626",
+        "sourceRect": {
+          "x": 14,
+          "y": 651,
+          "w": 294,
+          "h": 267
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 627,
+          "w": 314,
+          "h": 303
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-10",
+      "name": "rope-coil-and-lantern",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 402,
+        "w": 188,
+        "h": 176
+      },
+      "anchor": {
+        "x": 94,
+        "y": 158
+      },
+      "drawSize": {
+        "w": 48,
+        "h": 45
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 158
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 46845,
+          "nonzero": 48915,
+          "opaque": 39496,
+          "total": 95760
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "d7f24be8dc5a6635fc715c19a66bdf288923b23a2402bce58888858e6cb45ddb",
+        "sourceRect": {
+          "x": 321,
+          "y": 645,
+          "w": 296,
+          "h": 277
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 627,
+          "w": 315,
+          "h": 304
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-11",
+      "name": "ancient-bone-pile",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 418,
+        "w": 188,
+        "h": 143
+      },
+      "anchor": {
+        "x": 94,
+        "y": 129
+      },
+      "drawSize": {
+        "w": 48,
+        "h": 37
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 129
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 40742,
+          "nonzero": 53794,
+          "opaque": 43583,
+          "total": 94536
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "91872ec93138190acda9b7b024175467475235534d20593e0963924a35208918",
+        "sourceRect": {
+          "x": 636,
+          "y": 681,
+          "w": 298,
+          "h": 227
+        },
+        "sourceCell": {
+          "x": 629,
+          "y": 627,
+          "w": 312,
+          "h": 303
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-12",
+      "name": "slate-rubble-pile",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 421,
+        "w": 188,
+        "h": 137
+      },
+      "anchor": {
+        "x": 94,
+        "y": 123
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 57
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 123
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 44672,
+          "nonzero": 50167,
+          "opaque": 42683,
+          "total": 94839
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "2f50e14f25499f3437bbd77a6377ecb55a34c8b8e180f2b317134ad56d2d27d1",
+        "sourceRect": {
+          "x": 950,
+          "y": 690,
+          "w": 291,
+          "h": 212
+        },
+        "sourceCell": {
+          "x": 941,
+          "y": 627,
+          "w": 313,
+          "h": 303
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-13",
+      "name": "dripstone-column-stump",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 19,
+        "y": 592,
+        "w": 157,
+        "h": 188
+      },
+      "anchor": {
+        "x": 78.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 79,
+        "h": 94
+      },
+      "footAnchor": {
+        "x": 78.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 52791,
+          "nonzero": 48945,
+          "opaque": 42874,
+          "total": 101736
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "15277c6eef3ee07e39b2d849578b0e85803733820b75b9b55f448f737ef466ef",
+        "sourceRect": {
+          "x": 24,
+          "y": 936,
+          "w": 252,
+          "h": 302
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 930,
+          "w": 314,
+          "h": 324
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-14",
+      "name": "gnarled-intruding-root",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 593,
+        "w": 188,
+        "h": 185
+      },
+      "anchor": {
+        "x": 94,
+        "y": 167
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 77
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 40716,
+          "nonzero": 61029,
+          "opaque": 45814,
+          "total": 101745
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "90c17b09de99ff0febb59ff18283c87ed07fcff697a3208a6fcda2a671b11fce",
+        "sourceRect": {
+          "x": 321,
+          "y": 942,
+          "w": 298,
+          "h": 293
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 931,
+          "w": 315,
+          "h": 323
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-15",
+      "name": "ceramic-water-jar",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 403,
+        "y": 592,
+        "w": 174,
+        "h": 188
+      },
+      "anchor": {
+        "x": 87,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 44,
+        "h": 48
+      },
+      "footAnchor": {
+        "x": 87,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 41770,
+          "nonzero": 59318,
+          "opaque": 52500,
+          "total": 101088
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "7136e9d77dbd751485988be4c9003dcda894b80ca305272c05cf96daa194961d",
+        "sourceRect": {
+          "x": 649,
+          "y": 947,
+          "w": 268,
+          "h": 289
+        },
+        "sourceCell": {
+          "x": 629,
+          "y": 930,
+          "w": 312,
+          "h": 324
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CAVE-PROP-16",
+      "name": "abandoned-wooden-crate",
+      "kind": "static_prop",
+      "atlas": "atlases/cave-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 606,
+        "w": 188,
+        "h": 160
+      },
+      "anchor": {
+        "x": 94,
+        "y": 144
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 144
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 45841,
+          "nonzero": 55571,
+          "opaque": 47154,
+          "total": 101412
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/cave-props-generated.png",
+        "sha256": "fa67bed0467ebfad8ba1bfd7faac515412357bda7effb0f170e759f66a39ba27",
+        "spriteSha256": "424131332f3a239e2a657926e076e4a8b02c652ceddf1bc96093b72aa00f7ada",
+        "sourceRect": {
+          "x": 952,
+          "y": 970,
+          "w": 285,
+          "h": 243
+        },
+        "sourceCell": {
+          "x": 941,
+          "y": 930,
+          "w": 313,
+          "h": 324
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "coverage": {
+    "required": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "staged": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "missing": {
+      "ground": 0,
+      "edge_masks": 0,
+      "walls": 0,
+      "static_props": 0
+    },
+    "sourceCountsMet": true,
+    "complete": false
+  },
+  "borders": {
+    "seamless": false,
+    "automaticBitmaskCompatible": false,
+    "reason": "Authored organic RGBA overlay fragments. Exact seamless adjacency, compass mask orientations, and renderer blending remain unverified. These are not a validated automatic bitmask set.",
+    "renderGuidance": "Use deterministic renderer-selected alpha-overlay placement over opaque underlying ground. Do not use the 16 overlays as automatic Wang or bitmask states. Full floor tile coverage and neighbor matching require renderer integration."
+  },
+  "alpha": {
+    "preserved": true,
+    "note": "Genuine alpha retained through crop and resampling. Source hidden RGB can look like a backdrop in viewers ignoring alpha; compositing verifies transparency."
+  },
+  "qa": {
+    "sourceInspected": true,
+    "packedAtlasInspected": true,
+    "rendererIntegrationVerified": false,
+    "visualContactSheet": "qa/cave-contact-sheet.png",
+    "pending": [
+      "pixel-perfect seamlessness",
+      "renderer integration",
+      "wall/prop collision and foot-anchor playtest",
+      "automatic transition topology"
+    ],
+    "perpendicularWallFacingVerified": true,
+    "perpendicularWallPair": [
+      "CAVE-WALL-01",
+      "CAVE-WALL-02"
+    ],
+    "cropCorrection": "CAVE-WALL-07 source cell right boundary trimmed from x=1155 to x=1142 to exclude a detached fragment of adjacent WALL-08."
+  },
+  "wallNotes": "WALL-01 is the up-right / straight facing; WALL-02 is the down-right \\ straight facing. This perpendicular pair was visually verified in source and packed atlas; playtest remains pending."
+}

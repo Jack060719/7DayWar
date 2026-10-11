@@ -1,0 +1,71 @@
+{
+  "版本": "SP-STAGE3-20261010-01",
+  "性質": "本版補充與可調自設值；不是官方完整數值表",
+  "已確認規則": [
+    "十二同種怪物的新生命採用來源素質；原存活個體保留原資料直到自然刷新",
+    "新四職出生銀騎；舊角不搬家、不追發物資",
+    "兩同款同強化裝備融合；武器輸出+6及防具輸出+4安全；失敗兩件皆失",
+    "餵食需HP不高於50%，怪物持續攻擊，無保命鎖血"
+  ],
+  "自設值": {
+    "fusionRiskBasisPoints": [
+      9500,
+      9000,
+      8500
+    ],
+    "blessedScrollBonusBasisPoints": 300,
+    "newGearBlessedChanceBasisPoints": 1000,
+    "missingSourceDropBasisPoints": 50,
+    "blessedWeaponUndeadFactor": 1.05,
+    "armorBlessingStatPoints": 1,
+    "wizard": {
+      "mp": 8,
+      "castMs": 500,
+      "range": 6,
+      "damage": [
+        5,
+        9
+      ],
+      "attackMs": 1300,
+      "emptyMPStaff": {
+        "damage": [
+          1,
+          4
+        ],
+        "range": 1,
+        "attackMs": 1500
+      }
+    },
+    "taming": {
+      "hpRatio": [
+        0.5,
+        0.25,
+        0.1,
+        0.01
+      ],
+      "chanceAtCHA10": [
+        0.05,
+        0.2,
+        0.4,
+        0.65
+      ],
+      "perCHA": 0.005
+    },
+    "resurrection": {
+      "hpRatio": 0.3,
+      "mp": 0,
+      "perNaturalLife": 1
+    }
+  },
+  "祝福計算": "Equipped weapon's successful physical damage roll plus existing weapon/attribute/ammunition contributions is multiplied by1.05 only versus undead, then existing physical effect multiplier, reduction and final rounding apply. No spell/proc or unequipped-weapon bonus.",
+  "銀騎刷新": "Existing Silver slots respawn at their saved legal origin after it leaves fixed logical visibility; other maps retain old random placement. New fixed camps retain slot ID and increment actor lifetime generation.",
+  "营地暫定規則": "固定原創路線槽，整營參與成員清空、整段營地範圍離開固定邏輯視野後，依各自既有期限逐槽補；魅惑保留槽，野寵收服期限到可補。沒有把整營瞬間全補說成來源定案。",
+  "魔防": "沿用原MR/200減傷公式與既有限制；直接MR百分比解讀尚未改動",
+  "限制": [
+    "銀騎9條路線/18方向有幾何與遭遇檢查，其他村莊密度尚未完成",
+    "受控Lv50騎士+10匕首/100紅水實走16/18到達；route6雙向在既有強怪區耗藥死亡",
+    "三新怪步態可能重複同側腳，本版已接受此限制",
+    "四角色同練、多人連線、新版寵物繁殖仍未完成"
+  ],
+  "回復": "Requires genuine pre-stage3 JSON backup plus matching old program. Frozen restore stops only current session; reloading newer program migrates again. New scroll arrays may be silently ignored by old validators, not always rejected."
+}

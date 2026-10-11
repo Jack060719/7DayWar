@@ -1,0 +1,52 @@
+# Local operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.ssh/
+.openai/
+.codex/
+.agents/
+
+# Optional future dependencies and local reports
+node_modules/
+coverage/
+test-results/
+playwright-report/
+reports/
+*.log
+npm-debug.log*
+
+# Player data, personal backups and browser profiles
+/save/
+/saves/
+/backups/
+/exports/
+/browser-profile/
+/user-data/
+
+# Delivery archives and duplicate static-site copies
+*.zip
+*.7z
+*.tar
+*.tar.gz
+/portable/site/
+
+# Private working material is not part of a repository delivery
+/candidates/
+/docs/full-world/qa/
+
+# dist/ and dist/full/ are editable game source and MUST remain tracked.
+# tests/fixtures/ and sanitized evidence/ are required delivery content.

@@ -1,0 +1,74 @@
+{
+  "status": "reimplemented_candidate_not_delivered",
+  "currentFocusedTests": 128,
+  "gates": {
+    "source72Values": "tested",
+    "source60DropGroups": "mapped_and_actual_scroll_acquisition_tested",
+    "oldMonsterDefinitions": "independently_tested_phase3_4",
+    "fusionPendingAtomicity": "independently_tested_phase2",
+    "starterFourClasses": "actual_12_seed_fixtures_300_seconds_phase4",
+    "campRoutes": "18 directional actual combat runs:16 arrivals;route6 both directions potion exhaustion/death near retained high-level monsters;all18 static geometry/opportunity checks pass",
+    "migrationArchiveRestore": "independently_tested_phase3_4",
+    "wizardResurrectionDeepScrollsBlessing": "independently_tested_phase4_4",
+    "newBodyArt": "three_bodies_bound_128_textures_819_frames_32_markers_independently_passed;sampled_E_contact_cast_and_recovery_passed;other_heading_contact_not_fully_reviewed",
+    "nativeBrowser": "not_tested",
+    "finalPackage": "five_baseline_full_runtime_and_rollback_hashes_passed;clean_extracted_Chinese_space_directory_128_tests_passed_after_test_URL_fix;final_zip_hash_recorded_externally",
+    "campCycle": "actual_command_clear_visible_wait_walk_away_refill_walk_return_reengage_pass",
+    "cleanFrozenGraph": "phase5_294_hashes_independently_verified;128_tests_passed_in_clean_delivery_and_extracted_tree",
+    "offscreenWorld": "actualFullRenderer844x390Silverentry_terrain_blackboundary_actor_loading_checked_not_native"
+  },
+  "provisional": {
+    "fusionRiskBasisPoints": [
+      9500,
+      9000,
+      8500
+    ],
+    "blessedScrollBonusBasisPoints": 300,
+    "newGearBlessedChanceBasisPoints": 1000,
+    "missingSourceDropBasisPoints": 50,
+    "blessedWeaponUndeadFactor": 1.05,
+    "armorBlessingStatPoints": 1,
+    "wizard": {
+      "mp": 8,
+      "castMs": 500,
+      "range": 6,
+      "damage": [
+        5,
+        9
+      ],
+      "attackMs": 1300,
+      "emptyMPStaff": {
+        "damage": [
+          1,
+          4
+        ],
+        "range": 1,
+        "attackMs": 1500
+      }
+    },
+    "taming": {
+      "hpRatio": [
+        0.5,
+        0.25,
+        0.1,
+        0.01
+      ],
+      "chanceAtCHA10": [
+        0.05,
+        0.2,
+        0.4,
+        0.65
+      ],
+      "perCHA": 0.005
+    },
+    "resurrection": {
+      "hpRatio": 0.3,
+      "mp": 0,
+      "perNaturalLife": 1
+    }
+  },
+  "blessingDamageOrder": "Equipped weapon's successful physical damage roll plus existing weapon/attribute/ammunition contributions is multiplied by1.05 only versus undead, then existing physical effect multiplier, reduction and final rounding apply. No spell/proc or unequipped-weapon bonus.",
+  "legacySilverRespawn": "Existing Silver slots respawn at their saved legal origin after it leaves fixed logical visibility; other maps retain old random placement. New fixed camps retain slot ID and increment actor lifetime generation.",
+  "rollback": "Requires genuine pre-stage3 JSON backup plus matching old program. Frozen restore stops only current session; reloading newer program migrates again. New scroll arrays may be silently ignored by old validators, not always rejected.",
+  "routeFixture": "Level50 knight, +10 dagger, original100 red potions; manual clear-on-route commands, no invulnerability or shop-restock controller; not a new-character safety guarantee"
+}

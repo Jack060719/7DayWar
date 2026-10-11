@@ -1,0 +1,3 @@
+// Reimplemented from the confirmed HP gate and disclosed provisional curve.
+export const TAMING_POLICY=Object.freeze({maxFeedRatio:.5,referenceCHA:10,chaStep:.005,minChance:.01,maxChance:.85,anchors:Object.freeze([[.01,.65],[.1,.4],[.25,.2],[.5,.05]].map(Object.freeze)),origin:'assistant_design_provisional'});
+export function tamingChance(hp,maxHp,cha,type){if(!Number.isFinite(hp)||!Number.isFinite(maxHp)||maxHp<=0||hp<=0||hp/maxHp>.5)return 0;const r=hp/maxHp,points=TAMING_POLICY.anchors;let base=points[0][1];for(let i=1;i<points.length;i++){const[a,p]=points[i-1],[b,q]=points[i];if(r<=b){base=p+(q-p)*Math.max(0,(r-a)/(b-a));break;}}const chance=Math.max(.01,Math.min(.85,base+((Number.isFinite(cha)?cha:10)-10)*.005));return chance*(type==='PET-RACCOON'?.5:1);}

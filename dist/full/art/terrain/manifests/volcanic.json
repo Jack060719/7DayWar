@@ -1,0 +1,2259 @@
+{
+  "schemaVersion": 1,
+  "familyId": "ASSET-TERRAIN-VOLCANIC",
+  "family": "VOLCANIC",
+  "implementationState": "GENERATED_SOURCE_COUNTS_MET_INTEGRATION_PENDING",
+  "tileProjection": {
+    "width": 64,
+    "height": 32,
+    "type": "isometric-2:1"
+  },
+  "sourceCatalog": "catalog-requirements.json",
+  "materialDirection": "black basalt, pumice gravel, grey volcanic ash, dark burnt earth, rough lava crust and thin dull ember-red fissures; strongly subdued charcoal, iron brown and ash grey with sparse restrained orange glow; realistic harsh scorched terrain not neon magic",
+  "tiles": [
+    {
+      "id": "VOLCANIC-GROUND-01",
+      "name": "fine grey volcanic ash",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 14,
+          "y": 145,
+          "w": 292,
+          "h": 168
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-02",
+      "name": "black basalt gravel",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 324,
+          "y": 145,
+          "w": 291,
+          "h": 168
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-03",
+      "name": "cooled rope-textured lava",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 634,
+          "y": 143,
+          "w": 295,
+          "h": 170
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-04",
+      "name": "charcoal porous pumice chips",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 947,
+          "y": 145,
+          "w": 292,
+          "h": 168
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-05",
+      "name": "thin dull red fissures in black crust",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 14,
+          "y": 313,
+          "w": 290,
+          "h": 272
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-06",
+      "name": "burnt brown earth and ash",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 323,
+          "y": 313,
+          "w": 292,
+          "h": 273
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-07",
+      "name": "fractured dark basalt plates",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 634,
+          "y": 313,
+          "w": 294,
+          "h": 274
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-08",
+      "name": "sulfur-stained gritty rock",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 945,
+          "y": 313,
+          "w": 294,
+          "h": 275
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-09",
+      "name": "loose black cinders",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 15,
+          "y": 661,
+          "w": 288,
+          "h": 279
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-10",
+      "name": "dark ash mixed with rough gravel",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 320,
+          "y": 660,
+          "w": 297,
+          "h": 280
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-11",
+      "name": "subtle cooled glassy black shards",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 634,
+          "y": 661,
+          "w": 296,
+          "h": 279
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-12",
+      "name": "crumbled red volcanic scoria",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 947,
+          "y": 659,
+          "w": 293,
+          "h": 281
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-13",
+      "name": "pale ash drifts on basalt",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 14,
+          "y": 940,
+          "w": 290,
+          "h": 172
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-14",
+      "name": "heavily cracked cooled lava",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 323,
+          "y": 940,
+          "w": 292,
+          "h": 173
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-15",
+      "name": "tiny ember fragments in dry ash",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 633,
+          "y": 940,
+          "w": 293,
+          "h": 176
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "VOLCANIC-GROUND-16",
+      "name": "flat ancient dark volcanic rock",
+      "kind": "ground",
+      "atlas": "atlases/volcanic-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-ground-generated.png",
+        "sha256": "3729ec6242dcc8873d62e90604bdb660867563c5af1f753c161e246d4398b8a0",
+        "sourceRect": {
+          "x": 945,
+          "y": 940,
+          "w": 294,
+          "h": 174
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    }
+  ],
+  "edgeMasks": [
+    {
+      "id": "VOLCANIC-EDGE-01",
+      "name": "edge-nw",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 6,
+        "y": 2,
+        "w": 120,
+        "h": 96
+      },
+      "anchor": {
+        "x": 60,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -13,
+        "y": -6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 34,
+          "y": 62,
+          "w": 249,
+          "h": 200
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-02",
+      "name": "edge-ne",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 138,
+        "y": 2,
+        "w": 120,
+        "h": 96
+      },
+      "anchor": {
+        "x": 60,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 13,
+        "y": -6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 338,
+          "y": 56,
+          "w": 258,
+          "h": 206
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-03",
+      "name": "edge-se",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 267,
+        "y": 2,
+        "w": 126,
+        "h": 96
+      },
+      "anchor": {
+        "x": 63,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 13,
+        "y": 6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 657,
+          "y": 70,
+          "w": 258,
+          "h": 197
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-04",
+      "name": "edge-sw",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 405,
+        "y": 2,
+        "w": 114,
+        "h": 96
+      },
+      "anchor": {
+        "x": 57,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -13,
+        "y": 6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 970,
+          "y": 55,
+          "w": 252,
+          "h": 212
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-05",
+      "name": "corner-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 22,
+        "y": 102,
+        "w": 88,
+        "h": 96
+      },
+      "anchor": {
+        "x": 44,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 25,
+        "h": 25
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -20,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 40,
+          "y": 354,
+          "w": 218,
+          "h": 238
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-06",
+      "name": "corner-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 110,
+        "w": 128,
+        "h": 80
+      },
+      "anchor": {
+        "x": 64,
+        "y": 40
+      },
+      "drawSize": {
+        "w": 42,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": -9
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 336,
+          "y": 367,
+          "w": 276,
+          "h": 172
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-07",
+      "name": "corner-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 288,
+        "y": 102,
+        "w": 84,
+        "h": 96
+      },
+      "anchor": {
+        "x": 42,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 25,
+        "h": 25
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 20,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 692,
+          "y": 347,
+          "w": 217,
+          "h": 249
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-08",
+      "name": "corner-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 107,
+        "w": 128,
+        "h": 85
+      },
+      "anchor": {
+        "x": 64,
+        "y": 42.5
+      },
+      "drawSize": {
+        "w": 42,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 9
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 969,
+          "y": 393,
+          "w": 256,
+          "h": 169
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-09",
+      "name": "chevron-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 213,
+        "w": 128,
+        "h": 74
+      },
+      "anchor": {
+        "x": 64,
+        "y": 37
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 30
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": -2
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 26,
+          "y": 702,
+          "w": 272,
+          "h": 158
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-10",
+      "name": "chevron-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 164,
+        "y": 202,
+        "w": 68,
+        "h": 96
+      },
+      "anchor": {
+        "x": 34,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 10,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 395,
+          "y": 642,
+          "w": 183,
+          "h": 257
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-11",
+      "name": "chevron-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 212,
+        "w": 128,
+        "h": 76
+      },
+      "anchor": {
+        "x": 64,
+        "y": 38
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 30
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 2
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 642,
+          "y": 702,
+          "w": 285,
+          "h": 169
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-12",
+      "name": "chevron-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 426,
+        "y": 202,
+        "w": 71,
+        "h": 96
+      },
+      "anchor": {
+        "x": 35.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -10,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 992,
+          "y": 642,
+          "w": 190,
+          "h": 257
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-13",
+      "name": "broken-ribbon",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 15,
+        "y": 302,
+        "w": 101,
+        "h": 96
+      },
+      "anchor": {
+        "x": 50.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 28
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 44,
+          "y": 975,
+          "w": 228,
+          "h": 217
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-14",
+      "name": "three-arm-junction",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 141,
+        "y": 302,
+        "w": 113,
+        "h": 96
+      },
+      "anchor": {
+        "x": 56.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 60,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 331,
+          "y": 945,
+          "w": 290,
+          "h": 246
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-15",
+      "name": "central-island",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 273,
+        "y": 302,
+        "w": 113,
+        "h": 96
+      },
+      "anchor": {
+        "x": 56.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 35,
+        "h": 19
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 687,
+          "y": 995,
+          "w": 199,
+          "h": 169
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-EDGE-16",
+      "name": "hollow-ring",
+      "kind": "edge_mask",
+      "atlas": "atlases/volcanic-edges.webp",
+      "rect": {
+        "x": 408,
+        "y": 302,
+        "w": 107,
+        "h": 96
+      },
+      "anchor": {
+        "x": 53.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-edges-generated.png",
+        "sha256": "777b1e967a6220bad4687a0dd456c2f0b3131abf744e5e3358cd77c7ea55dbd5",
+        "sourceRect": {
+          "x": 961,
+          "y": 957,
+          "w": 267,
+          "h": 240
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "VOLCANIC-WALL-01",
+      "name": "jagged basalt cliff edge angled up-right",
+      "kind": "wall",
+      "atlas": "atlases/volcanic-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 5,
+        "w": 188,
+        "h": 185
+      },
+      "anchor": {
+        "x": 94,
+        "y": 167
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 96
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-walls-generated.png",
+        "sha256": "190e517714be709a041d0917c5307cd6d462a46bbb69d1846543161063802dec",
+        "sourceRect": {
+          "x": 54,
+          "y": 62,
+          "w": 353,
+          "h": 347
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-WALL-02",
+      "name": "jagged basalt cliff edge angled down-right perpendicular",
+      "kind": "wall",
+      "atlas": "atlases/volcanic-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 4,
+        "w": 188,
+        "h": 187
+      },
+      "anchor": {
+        "x": 94,
+        "y": 168
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 96
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 168
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-walls-generated.png",
+        "sha256": "190e517714be709a041d0917c5307cd6d462a46bbb69d1846543161063802dec",
+        "sourceRect": {
+          "x": 506,
+          "y": 59,
+          "w": 344,
+          "h": 342
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-WALL-03",
+      "name": "angular basalt outer corner with restrained ember crack",
+      "kind": "wall",
+      "atlas": "atlases/volcanic-walls.webp",
+      "rect": {
+        "x": 396,
+        "y": 18,
+        "w": 188,
+        "h": 159
+      },
+      "anchor": {
+        "x": 94,
+        "y": 143
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 85
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 143
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-walls-generated.png",
+        "sha256": "190e517714be709a041d0917c5307cd6d462a46bbb69d1846543161063802dec",
+        "sourceRect": {
+          "x": 941,
+          "y": 92,
+          "w": 349,
+          "h": 296
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-WALL-04",
+      "name": "broken basalt column bank end",
+      "kind": "wall",
+      "atlas": "atlases/volcanic-walls.webp",
+      "rect": {
+        "x": 596,
+        "y": 4,
+        "w": 179,
+        "h": 188
+      },
+      "anchor": {
+        "x": 89.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 96
+      },
+      "footAnchor": {
+        "x": 89.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-walls-generated.png",
+        "sha256": "190e517714be709a041d0917c5307cd6d462a46bbb69d1846543161063802dec",
+        "sourceRect": {
+          "x": 1394,
+          "y": 62,
+          "w": 331,
+          "h": 348
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-WALL-05",
+      "name": "rope-lava bank up-right",
+      "kind": "wall",
+      "atlas": "atlases/volcanic-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 208,
+        "w": 188,
+        "h": 172
+      },
+      "anchor": {
+        "x": 94,
+        "y": 155
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 91
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 155
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-walls-generated.png",
+        "sha256": "190e517714be709a041d0917c5307cd6d462a46bbb69d1846543161063802dec",
+        "sourceRect": {
+          "x": 46,
+          "y": 491,
+          "w": 368,
+          "h": 336
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-WALL-06",
+      "name": "rope-lava bank down-right",
+      "kind": "wall",
+      "atlas": "atlases/volcanic-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 210,
+        "w": 188,
+        "h": 168
+      },
+      "anchor": {
+        "x": 94,
+        "y": 151
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 89
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 151
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 2
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-walls-generated.png",
+        "sha256": "190e517714be709a041d0917c5307cd6d462a46bbb69d1846543161063802dec",
+        "sourceRect": {
+          "x": 489,
+          "y": 485,
+          "w": 367,
+          "h": 328
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-WALL-07",
+      "name": "collapsed scorched stone wall opening",
+      "kind": "wall",
+      "atlas": "atlases/volcanic-walls.webp",
+      "rect": {
+        "x": 396,
+        "y": 215,
+        "w": 188,
+        "h": 158
+      },
+      "anchor": {
+        "x": 94,
+        "y": 142
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 84
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 142
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-walls-generated.png",
+        "sha256": "190e517714be709a041d0917c5307cd6d462a46bbb69d1846543161063802dec",
+        "sourceRect": {
+          "x": 908,
+          "y": 481,
+          "w": 411,
+          "h": 345
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-WALL-08",
+      "name": "low rough cinder and scoria ramp",
+      "kind": "wall",
+      "atlas": "atlases/volcanic-walls.webp",
+      "rect": {
+        "x": 592,
+        "y": 220,
+        "w": 188,
+        "h": 148
+      },
+      "anchor": {
+        "x": 94,
+        "y": 133
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 79
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 133
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-walls-generated.png",
+        "sha256": "190e517714be709a041d0917c5307cd6d462a46bbb69d1846543161063802dec",
+        "sourceRect": {
+          "x": 1365,
+          "y": 530,
+          "w": 370,
+          "h": 291
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "VOLCANIC-PROP-01",
+      "name": "large jagged black basalt rock",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 4,
+        "w": 187,
+        "h": 188
+      },
+      "anchor": {
+        "x": 93.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 65,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 93.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 47,
+          "y": 41,
+          "w": 261,
+          "h": 263
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-02",
+      "name": "cluster of three porous pumice boulders",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 14,
+        "w": 188,
+        "h": 167
+      },
+      "anchor": {
+        "x": 94,
+        "y": 150
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 59
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 150
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 365,
+          "y": 79,
+          "w": 253,
+          "h": 225
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-03",
+      "name": "short broken basalt column",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 406,
+        "y": 4,
+        "w": 167,
+        "h": 188
+      },
+      "anchor": {
+        "x": 83.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 59,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 83.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 694,
+          "y": 68,
+          "w": 214,
+          "h": 241
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-04",
+      "name": "tall narrow fractured basalt spire",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 623,
+        "y": 4,
+        "w": 126,
+        "h": 188
+      },
+      "anchor": {
+        "x": 63,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 62,
+        "h": 92
+      },
+      "footAnchor": {
+        "x": 63,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 1010,
+          "y": 24,
+          "w": 193,
+          "h": 287
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-05",
+      "name": "charred twisted dead tree",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 14,
+        "y": 200,
+        "w": 168,
+        "h": 188
+      },
+      "anchor": {
+        "x": 84,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 115,
+        "h": 129
+      },
+      "footAnchor": {
+        "x": 84,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 33,
+          "y": 321,
+          "w": 273,
+          "h": 306
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-06",
+      "name": "burnt split tree stump",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 203,
+        "y": 200,
+        "w": 181,
+        "h": 188
+      },
+      "anchor": {
+        "x": 90.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 63,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 90.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 357,
+          "y": 364,
+          "w": 251,
+          "h": 261
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-07",
+      "name": "pile of charred branches",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 231,
+        "w": 188,
+        "h": 125
+      },
+      "anchor": {
+        "x": 94,
+        "y": 113
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 44
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 113
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 640,
+          "y": 434,
+          "w": 291,
+          "h": 193
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-08",
+      "name": "sulfur-yellow crusted vent rock with no smoke",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 224,
+        "w": 188,
+        "h": 140
+      },
+      "anchor": {
+        "x": 94,
+        "y": 126
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 49
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 126
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 970,
+          "y": 436,
+          "w": 253,
+          "h": 188
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-09",
+      "name": "rough black crystal cluster",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 17,
+        "y": 396,
+        "w": 162,
+        "h": 188
+      },
+      "anchor": {
+        "x": 81,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 57,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 81,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 42,
+          "y": 627,
+          "w": 266,
+          "h": 309
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-10",
+      "name": "small dark glowing lava crack mound",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 430,
+        "w": 188,
+        "h": 120
+      },
+      "anchor": {
+        "x": 94,
+        "y": 108
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 42
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 108
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 349,
+          "y": 758,
+          "w": 268,
+          "h": 171
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-11",
+      "name": "half-melted old iron brazier with no fire",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 421,
+        "y": 396,
+        "w": 137,
+        "h": 188
+      },
+      "anchor": {
+        "x": 68.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 48,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 68.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 693,
+          "y": 627,
+          "w": 220,
+          "h": 303
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-12",
+      "name": "ruined scorched stone pillar",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 610,
+        "y": 396,
+        "w": 151,
+        "h": 188
+      },
+      "anchor": {
+        "x": 75.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 62,
+        "h": 77
+      },
+      "footAnchor": {
+        "x": 75.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 979,
+          "y": 646,
+          "w": 235,
+          "h": 293
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-13",
+      "name": "burnt abandoned wooden cart wheel",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 608,
+        "w": 188,
+        "h": 156
+      },
+      "anchor": {
+        "x": 94,
+        "y": 140
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 55
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 140
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 48,
+          "y": 1002,
+          "w": 255,
+          "h": 212
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-14",
+      "name": "black volcanic rock with iron-red vein",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 602,
+        "w": 188,
+        "h": 167
+      },
+      "anchor": {
+        "x": 94,
+        "y": 150
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 59
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 150
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 354,
+          "y": 980,
+          "w": 267,
+          "h": 237
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-15",
+      "name": "small heap of charcoal and red scoria",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 625,
+        "w": 188,
+        "h": 121
+      },
+      "anchor": {
+        "x": 94,
+        "y": 109
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 43
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 109
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 660,
+          "y": 1037,
+          "w": 270,
+          "h": 174
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "VOLCANIC-PROP-16",
+      "name": "weathered low ancient obsidian altar stone",
+      "kind": "static_prop",
+      "atlas": "atlases/volcanic-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 612,
+        "w": 188,
+        "h": 148
+      },
+      "anchor": {
+        "x": 94,
+        "y": 133
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 52
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 133
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/volcanic-props-generated.png",
+        "sha256": "ca9c0494c390720d4298b6919943be4d0e26aec35f17b96ae4179f9855190bde",
+        "sourceRect": {
+          "x": 969,
+          "y": 1020,
+          "w": 251,
+          "h": 198
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    }
+  ],
+  "coverage": {
+    "required": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "staged": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "missing": {
+      "ground": 0,
+      "edge_masks": 0,
+      "walls": 0,
+      "static_props": 0
+    },
+    "sourceCountsMet": true,
+    "complete": false
+  },
+  "borders": {
+    "seamless": false,
+    "runtimeContract": "render-contract.mjs",
+    "renderGuidance": "Use opaque underlay, deterministic overlapping feathered ground patches and spatial biome regions. Alpha edge overlays are decorative/non-bitmask."
+  },
+  "alpha": {
+    "preserved": true
+  },
+  "qa": {
+    "sourceInspected": true,
+    "packedAtlasInspected": true,
+    "rendererIntegrationVerified": false,
+    "perpendicularWallFacingVerified": true,
+    "visualContactSheet": "qa/volcanic-contact-sheet.png",
+    "edgeWallSheet": "qa/volcanic-edges-walls.png"
+  }
+}

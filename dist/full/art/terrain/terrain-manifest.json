@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "stagingRoot": "terrain",
+  "baseTile": {
+    "width": 64,
+    "height": 32
+  },
+  "mapBindings": "map-bindings.json",
+  "runtimeBlendContract": "render-contract.mjs",
+  "manifests": [
+    "manifests/coast.json",
+    "manifests/grass.json",
+    "manifests/forest.json",
+    "manifests/desert.json",
+    "manifests/swamp.json",
+    "manifests/snow.json",
+    "manifests/volcanic.json",
+    "manifests/mountain.json",
+    "manifests/city.json",
+    "manifests/cave.json",
+    "manifests/crypt.json",
+    "manifests/ant.json",
+    "manifests/underwater.json",
+    "manifests/tower.json",
+    "manifests/ice.json",
+    "manifests/sewer.json"
+  ],
+  "coverage": [
+    {
+      "familyId": "ASSET-TERRAIN-COAST",
+      "manifest": "manifests/coast.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-GRASS",
+      "manifest": "manifests/grass.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-FOREST",
+      "manifest": "manifests/forest.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-DESERT",
+      "manifest": "manifests/desert.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-SWAMP",
+      "manifest": "manifests/swamp.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-SNOW",
+      "manifest": "manifests/snow.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-VOLCANIC",
+      "manifest": "manifests/volcanic.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-MOUNTAIN",
+      "manifest": "manifests/mountain.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-CITY",
+      "manifest": "manifests/city.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "manifest": "manifests/cave.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-CRYPT",
+      "manifest": "manifests/crypt.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-ANT",
+      "manifest": "manifests/ant.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-UNDERWATER",
+      "manifest": "manifests/underwater.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "manifest": "manifests/tower.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-ICE",
+      "manifest": "manifests/ice.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    },
+    {
+      "familyId": "ASSET-TERRAIN-SEWER",
+      "manifest": "manifests/sewer.json",
+      "required": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "staged": {
+        "ground": 16,
+        "edge_masks": 16,
+        "walls": 8,
+        "static_props": 16
+      },
+      "missing": {
+        "ground": 0,
+        "edge_masks": 0,
+        "walls": 0,
+        "static_props": 0
+      },
+      "sourceCountsMet": true,
+      "packedAtlasInspected": true,
+      "rendererIntegrationVerified": false,
+      "complete": false
+    }
+  ],
+  "totalRequired": 896,
+  "totalStaged": 896,
+  "totalMissing": 0,
+  "sourceFamiliesWithCountsMet": 16,
+  "allComplete": false
+}

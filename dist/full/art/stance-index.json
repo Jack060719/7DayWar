@@ -1,0 +1,148 @@
+{
+  "schema": "ashen-stance-index-v1",
+  "classes": {
+    "CLASS-KNIGHT": {
+      "defaultFamily": "sword",
+      "families": {
+        "sword": {
+          "manifest": "actors/knight/knight-runtime.json",
+          "status": "accepted-default"
+        },
+        "twohand_sword": {
+          "manifest": "stance-staging/runtime/knight-twohand_sword/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "bow": {
+          "manifest": "stance-staging/runtime/knight-bow/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "dagger": {
+          "manifest": "stance-staging/runtime/knight-dagger/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "mace": {
+          "manifest": "stance-staging/runtime/knight-mace/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "unarmed": {
+          "manifest": "stance-staging/runtime/knight-unarmed/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "spear": {
+          "manifest": "stance-staging/runtime/knight-spear/manifest.json",
+          "status": "source-reviewed-candidate"
+        }
+      },
+      "items": {
+        "EQ-BATTLE-AXE": {
+          "manifest": "stance-staging/runtime/knight-axe/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "EQ-BERSERKER-AXE": {
+          "manifest": "stance-staging/runtime/knight-axe/manifest.json",
+          "status": "source-reviewed-candidate"
+        }
+      }
+    },
+    "CLASS-ELF": {
+      "defaultFamily": "bow",
+      "families": {
+        "bow": {
+          "manifest": "actors/elf/elf-runtime.json",
+          "status": "accepted-default"
+        },
+        "sword": {
+          "manifest": "stance-staging/runtime/elf-sword/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "unarmed": {
+          "manifest": "stance-staging/runtime/elf-unarmed/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "dagger": {
+          "manifest": "stance-staging/runtime/elf-dagger/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "mace": {
+          "manifest": "stance-staging/runtime/elf-mace/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "spear": {
+          "manifest": "stance-staging/runtime/elf-spear/manifest.json",
+          "status": "source-reviewed-candidate"
+        }
+      },
+      "items": {
+        "EQ-CROSSBOW": {
+          "manifest": "stance-staging/runtime/elf-crossbow/manifest.json",
+          "status": "source-reviewed-candidate"
+        }
+      }
+    },
+    "CLASS-MAGE": {
+      "defaultFamily": "staff",
+      "families": {
+        "staff": {
+          "manifest": "actors/mage/mage-runtime.json",
+          "status": "accepted-default"
+        },
+        "dagger": {
+          "manifest": "stance-staging/runtime/mage-dagger/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "mace": {
+          "manifest": "stance-staging/runtime/mage-mace/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "unarmed": {
+          "manifest": "stance-staging/runtime/mage-unarmed/manifest.json",
+          "status": "source-reviewed-candidate"
+        }
+      },
+      "items": {}
+    },
+    "CLASS-DARKELF": {
+      "defaultFamily": "dual_blade",
+      "families": {
+        "dual_blade": {
+          "manifest": "actors/darkelf/darkelf-runtime.json",
+          "status": "accepted-default"
+        },
+        "dagger": {
+          "manifest": "stance-staging/runtime/darkelf-dagger/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "sword": {
+          "manifest": "stance-staging/runtime/darkelf-sword/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "bow": {
+          "manifest": "stance-staging/runtime/darkelf-bow/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "unarmed": {
+          "manifest": "stance-staging/runtime/darkelf-unarmed/manifest.json",
+          "status": "source-reviewed-candidate"
+        },
+        "mace": {
+          "manifest": "stance-staging/runtime/darkelf-mace/manifest.json",
+          "status": "source-reviewed-candidate"
+        }
+      },
+      "items": {
+        "EQ-CROSSBOW": {
+          "status": "candidate-in-progress",
+          "manifest": null
+        },
+        "EQ-BATTLE-AXE": {
+          "status": "candidate-in-progress",
+          "manifest": null
+        },
+        "EQ-BERSERKER-AXE": {
+          "status": "candidate-in-progress",
+          "manifest": null
+        }
+      }
+    }
+  }
+}

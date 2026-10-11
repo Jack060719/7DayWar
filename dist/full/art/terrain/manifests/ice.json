@@ -1,0 +1,2285 @@
+{
+  "schemaVersion": 1,
+  "familyId": "ASSET-TERRAIN-ICE",
+  "family": "ICE",
+  "implementationState": "GENERATED_SOURCE_COUNTS_MET_INTEGRATION_PENDING",
+  "tileProjection": {
+    "width": 64,
+    "height": 32,
+    "type": "isometric-2:1"
+  },
+  "sourceCatalog": "catalog-requirements.json",
+  "materialDirection": "ancient translucent glacial ice, blue-grey frozen mineral veins, dark deep crevasse lines, white trapped air bubbles, granular rime and dirty frost on cold stone; restrained smoky blue, grey-green and chalk white; realistic hard frozen caverns distinct from soft snowy fields",
+  "tiles": [
+    {
+      "id": "ICE-GROUND-01",
+      "name": "translucent blue-grey glacial ice",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 5,
+          "y": 93,
+          "w": 305,
+          "h": 188
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-02",
+      "name": "thin branching cracks in old ice",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 319,
+          "y": 93,
+          "w": 305,
+          "h": 188
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-03",
+      "name": "dirty frozen mineral bands",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 632,
+          "y": 93,
+          "w": 304,
+          "h": 187
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-04",
+      "name": "white trapped air bubbles beneath ice",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 945,
+          "y": 93,
+          "w": 304,
+          "h": 188
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-05",
+      "name": "granular frost over dark ice",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 5,
+          "y": 403,
+          "w": 305,
+          "h": 192
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-06",
+      "name": "worn smooth pale ice",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 318,
+          "y": 403,
+          "w": 306,
+          "h": 193
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-07",
+      "name": "fractured frosty ice plates",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 632,
+          "y": 403,
+          "w": 304,
+          "h": 192
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-08",
+      "name": "small stone chips trapped in ice",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 945,
+          "y": 403,
+          "w": 304,
+          "h": 192
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-09",
+      "name": "deep smoky blue ice",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 5,
+          "y": 708,
+          "w": 305,
+          "h": 194
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-10",
+      "name": "pale rime covering grey stone",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 319,
+          "y": 708,
+          "w": 305,
+          "h": 195
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-11",
+      "name": "opaque milky glacier crust",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 631,
+          "y": 708,
+          "w": 304,
+          "h": 196
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-12",
+      "name": "ice ridges with mineral grit",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 945,
+          "y": 708,
+          "w": 304,
+          "h": 195
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-13",
+      "name": "subtle frozen drip rings",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 6,
+          "y": 1020,
+          "w": 304,
+          "h": 194
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-14",
+      "name": "dark mottled wet-looking hard ice",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 316,
+          "y": 1015,
+          "w": 309,
+          "h": 199
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-15",
+      "name": "crumbled small clear ice shards",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 632,
+          "y": 1020,
+          "w": 304,
+          "h": 195
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    },
+    {
+      "id": "ICE-GROUND-16",
+      "name": "frost-filled long natural seam",
+      "kind": "ground",
+      "atlas": "atlases/ice-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-ground-generated.png",
+        "sha256": "561273186a6e6bded85f625ca1b6138c43d040782e7cf9b9a3c54608057256da",
+        "sourceRect": {
+          "x": 945,
+          "y": 1019,
+          "w": 304,
+          "h": 195
+        },
+        "postprocess": "Alpha-preserving crop/resampling/packing; ground normalized to 2:1 dimensions."
+      }
+    }
+  ],
+  "edgeMasks": [
+    {
+      "id": "ICE-EDGE-01",
+      "name": "edge-nw",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 3,
+        "w": 128,
+        "h": 94
+      },
+      "anchor": {
+        "x": 64,
+        "y": 47
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -13,
+        "y": -6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 31,
+          "y": 50,
+          "w": 275,
+          "h": 202
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-02",
+      "name": "edge-ne",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 3,
+        "w": 128,
+        "h": 94
+      },
+      "anchor": {
+        "x": 64,
+        "y": 47
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 13,
+        "y": -6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 344,
+          "y": 63,
+          "w": 266,
+          "h": 195
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-03",
+      "name": "edge-se",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 96
+      },
+      "anchor": {
+        "x": 64,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 13,
+        "y": 6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 649,
+          "y": 62,
+          "w": 271,
+          "h": 204
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-04",
+      "name": "edge-sw",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 400,
+        "y": 2,
+        "w": 124,
+        "h": 96
+      },
+      "anchor": {
+        "x": 62,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -13,
+        "y": 6
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 965,
+          "y": 60,
+          "w": 269,
+          "h": 208
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-05",
+      "name": "corner-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 20,
+        "y": 102,
+        "w": 92,
+        "h": 96
+      },
+      "anchor": {
+        "x": 46,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 25,
+        "h": 25
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -20,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 37,
+          "y": 338,
+          "w": 240,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-06",
+      "name": "corner-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 112,
+        "w": 128,
+        "h": 76
+      },
+      "anchor": {
+        "x": 64,
+        "y": 38
+      },
+      "drawSize": {
+        "w": 42,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": -9
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 332,
+          "y": 364,
+          "w": 283,
+          "h": 167
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-07",
+      "name": "corner-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 286,
+        "y": 102,
+        "w": 88,
+        "h": 96
+      },
+      "anchor": {
+        "x": 44,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 25,
+        "h": 25
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 20,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 673,
+          "y": 343,
+          "w": 225,
+          "h": 246
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-08",
+      "name": "corner-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 116,
+        "w": 128,
+        "h": 68
+      },
+      "anchor": {
+        "x": 64,
+        "y": 34
+      },
+      "drawSize": {
+        "w": 42,
+        "h": 20
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 9
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 948,
+          "y": 405,
+          "w": 289,
+          "h": 154
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-09",
+      "name": "chevron-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 212,
+        "w": 128,
+        "h": 76
+      },
+      "anchor": {
+        "x": 64,
+        "y": 38
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 30
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": -2
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 31,
+          "y": 685,
+          "w": 278,
+          "h": 165
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-10",
+      "name": "chevron-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 155,
+        "y": 202,
+        "w": 86,
+        "h": 96
+      },
+      "anchor": {
+        "x": 43,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 10,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 374,
+          "y": 658,
+          "w": 210,
+          "h": 234
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-11",
+      "name": "chevron-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 215,
+        "w": 128,
+        "h": 69
+      },
+      "anchor": {
+        "x": 64,
+        "y": 34.5
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 30
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 2
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 644,
+          "y": 722,
+          "w": 282,
+          "h": 153
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-12",
+      "name": "chevron-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 416,
+        "y": 202,
+        "w": 92,
+        "h": 96
+      },
+      "anchor": {
+        "x": 46,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 40,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": -10,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 986,
+          "y": 661,
+          "w": 218,
+          "h": 228
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-13",
+      "name": "broken-ribbon",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 27,
+        "y": 302,
+        "w": 78,
+        "h": 96
+      },
+      "anchor": {
+        "x": 39,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 28
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 60,
+          "y": 946,
+          "w": 224,
+          "h": 277
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-14",
+      "name": "three-arm-junction",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 143,
+        "y": 302,
+        "w": 109,
+        "h": 96
+      },
+      "anchor": {
+        "x": 54.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 60,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 332,
+          "y": 962,
+          "w": 283,
+          "h": 250
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-15",
+      "name": "central-island",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 270,
+        "y": 302,
+        "w": 119,
+        "h": 96
+      },
+      "anchor": {
+        "x": 59.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 35,
+        "h": 19
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 668,
+          "y": 1005,
+          "w": 230,
+          "h": 185
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-EDGE-16",
+      "name": "hollow-ring",
+      "kind": "edge_mask",
+      "atlas": "atlases/ice-edges.webp",
+      "rect": {
+        "x": 405,
+        "y": 302,
+        "w": 114,
+        "h": 96
+      },
+      "anchor": {
+        "x": 57,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-edges-generated.png",
+        "sha256": "e0405fea411e26d7168da3099d5b9dd17539dc7bee3b388feccbffab62d922d4",
+        "sourceRect": {
+          "x": 946,
+          "y": 964,
+          "w": 290,
+          "h": 244
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "ICE-WALL-01",
+      "name": "layered frozen cave wall up-right",
+      "kind": "wall",
+      "atlas": "atlases/ice-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 5,
+        "w": 188,
+        "h": 186
+      },
+      "anchor": {
+        "x": 94,
+        "y": 167
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 96
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 167
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-walls-generated.png",
+        "sha256": "76f178f5a83b547042da2c76d28164b930e17876bd323eab238883222c59e4bb",
+        "sourceRect": {
+          "x": 50,
+          "y": 31,
+          "w": 392,
+          "h": 387
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-WALL-02",
+      "name": "layered frozen cave wall down-right perpendicular",
+      "kind": "wall",
+      "atlas": "atlases/ice-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 4,
+        "w": 188,
+        "h": 187
+      },
+      "anchor": {
+        "x": 94,
+        "y": 168
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 96
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 168
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-walls-generated.png",
+        "sha256": "76f178f5a83b547042da2c76d28164b930e17876bd323eab238883222c59e4bb",
+        "sourceRect": {
+          "x": 501,
+          "y": 41,
+          "w": 377,
+          "h": 374
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-WALL-03",
+      "name": "glacial ice outer corner",
+      "kind": "wall",
+      "atlas": "atlases/ice-walls.webp",
+      "rect": {
+        "x": 397,
+        "y": 4,
+        "w": 185,
+        "h": 188
+      },
+      "anchor": {
+        "x": 92.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 96
+      },
+      "footAnchor": {
+        "x": 92.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-walls-generated.png",
+        "sha256": "76f178f5a83b547042da2c76d28164b930e17876bd323eab238883222c59e4bb",
+        "sourceRect": {
+          "x": 948,
+          "y": 61,
+          "w": 351,
+          "h": 356
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-WALL-04",
+      "name": "rounded ice column wall end",
+      "kind": "wall",
+      "atlas": "atlases/ice-walls.webp",
+      "rect": {
+        "x": 632,
+        "y": 4,
+        "w": 107,
+        "h": 188
+      },
+      "anchor": {
+        "x": 53.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 96
+      },
+      "footAnchor": {
+        "x": 53.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-walls-generated.png",
+        "sha256": "76f178f5a83b547042da2c76d28164b930e17876bd323eab238883222c59e4bb",
+        "sourceRect": {
+          "x": 1453,
+          "y": 49,
+          "w": 212,
+          "h": 372
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-WALL-05",
+      "name": "hanging icicle rock bank up-right",
+      "kind": "wall",
+      "atlas": "atlases/ice-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 216,
+        "w": 188,
+        "h": 156
+      },
+      "anchor": {
+        "x": 94,
+        "y": 140
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 83
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 140
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-walls-generated.png",
+        "sha256": "76f178f5a83b547042da2c76d28164b930e17876bd323eab238883222c59e4bb",
+        "sourceRect": {
+          "x": 57,
+          "y": 478,
+          "w": 425,
+          "h": 353
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-WALL-06",
+      "name": "hanging icicle rock bank down-right",
+      "kind": "wall",
+      "atlas": "atlases/ice-walls.webp",
+      "rect": {
+        "x": 203,
+        "y": 200,
+        "w": 181,
+        "h": 188
+      },
+      "anchor": {
+        "x": 90.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 96
+      },
+      "footAnchor": {
+        "x": 90.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.6,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-walls-generated.png",
+        "sha256": "76f178f5a83b547042da2c76d28164b930e17876bd323eab238883222c59e4bb",
+        "sourceRect": {
+          "x": 514,
+          "y": 460,
+          "w": 366,
+          "h": 381
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-WALL-07",
+      "name": "fractured low ice wall opening",
+      "kind": "wall",
+      "atlas": "atlases/ice-walls.webp",
+      "rect": {
+        "x": 396,
+        "y": 237,
+        "w": 188,
+        "h": 113
+      },
+      "anchor": {
+        "x": 94,
+        "y": 102
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 60
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 102
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-walls-generated.png",
+        "sha256": "76f178f5a83b547042da2c76d28164b930e17876bd323eab238883222c59e4bb",
+        "sourceRect": {
+          "x": 906,
+          "y": 558,
+          "w": 424,
+          "h": 255
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    },
+    {
+      "id": "ICE-WALL-08",
+      "name": "low broken ice and rime ramp",
+      "kind": "wall",
+      "atlas": "atlases/ice-walls.webp",
+      "rect": {
+        "x": 592,
+        "y": 220,
+        "w": 188,
+        "h": 148
+      },
+      "anchor": {
+        "x": 94,
+        "y": 133
+      },
+      "drawSize": {
+        "w": 100,
+        "h": 79
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 133
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.6
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-walls-generated.png",
+        "sha256": "76f178f5a83b547042da2c76d28164b930e17876bd323eab238883222c59e4bb",
+        "sourceRect": {
+          "x": 1362,
+          "y": 516,
+          "w": 384,
+          "h": 303
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing."
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "ICE-PROP-01",
+      "name": "tall irregular blue-grey ice pinnacle",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 21,
+        "y": 4,
+        "w": 154,
+        "h": 188
+      },
+      "anchor": {
+        "x": 77,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 62,
+        "h": 76
+      },
+      "footAnchor": {
+        "x": 77,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 48,
+          "y": 22,
+          "w": 238,
+          "h": 291
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "58955851b7b59d4987779c46bdabb2bccc39a69ca9d811a9b12edd3b92d46822"
+      }
+    },
+    {
+      "id": "ICE-PROP-02",
+      "name": "cluster of slender natural icicles rooted upward",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 222,
+        "y": 4,
+        "w": 143,
+        "h": 188
+      },
+      "anchor": {
+        "x": 71.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 50,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 71.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 363,
+          "y": 24,
+          "w": 216,
+          "h": 284
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "c09b6b54735d9f2ae9d33f559c09f1ee922055b5cbf7eb38a56637621e00082e"
+      }
+    },
+    {
+      "id": "ICE-PROP-03",
+      "name": "large cracked translucent ice boulder",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 396,
+        "y": 17,
+        "w": 188,
+        "h": 161
+      },
+      "anchor": {
+        "x": 94,
+        "y": 145
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 57
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 145
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 644,
+          "y": 62,
+          "w": 285,
+          "h": 244
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "d28320b3653b1c72bffb3a932baf56544dbc5f73a3d8c8f798b3ddd2b69e429c"
+      }
+    },
+    {
+      "id": "ICE-PROP-04",
+      "name": "small cluster of broken milky ice chunks",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 592,
+        "y": 30,
+        "w": 188,
+        "h": 136
+      },
+      "anchor": {
+        "x": 94,
+        "y": 122
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 48
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 122
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 967,
+          "y": 127,
+          "w": 258,
+          "h": 187
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "0ce78403bfc8755716e90e0e56d53cef9898725de3928d17fb07af0e2ae02c9a"
+      }
+    },
+    {
+      "id": "ICE-PROP-05",
+      "name": "long hanging icicle bank on broken rock",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 14,
+        "y": 200,
+        "w": 167,
+        "h": 188
+      },
+      "anchor": {
+        "x": 83.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 59,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 83.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 50,
+          "y": 350,
+          "w": 240,
+          "h": 270
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "09b6891e7e49be82426d321d12dbe0eb1001e8c5e91a24aca5df4fafc78e211f"
+      }
+    },
+    {
+      "id": "ICE-PROP-06",
+      "name": "frozen stone monolith with mineral lines",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 225,
+        "y": 200,
+        "w": 137,
+        "h": 188
+      },
+      "anchor": {
+        "x": 68.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 62,
+        "h": 85
+      },
+      "footAnchor": {
+        "x": 68.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 364,
+          "y": 329,
+          "w": 214,
+          "h": 293
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "763da42becc673be0595877ad3f7702c6faad6ead47005d58632b45c95cb290e"
+      }
+    },
+    {
+      "id": "ICE-PROP-07",
+      "name": "frosted ancient broken pillar",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 422,
+        "y": 200,
+        "w": 135,
+        "h": 188
+      },
+      "anchor": {
+        "x": 67.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 62,
+        "h": 87
+      },
+      "footAnchor": {
+        "x": 67.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 685,
+          "y": 323,
+          "w": 214,
+          "h": 299
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "ac6efd85175207058d825c8cafb20c8e3f366df97419d46e72fc7f9ad0496cd3"
+      }
+    },
+    {
+      "id": "ICE-PROP-08",
+      "name": "angular clear ice crystal cluster",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 614,
+        "y": 200,
+        "w": 144,
+        "h": 188
+      },
+      "anchor": {
+        "x": 72,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 51,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 72,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 984,
+          "y": 330,
+          "w": 222,
+          "h": 289
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "e0383eb2022d8e2c0bee9cb1e578857af11927498c934e75225efe106b4448e8"
+      }
+    },
+    {
+      "id": "ICE-PROP-09",
+      "name": "dark rock trapped in translucent ice block",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 4,
+        "y": 405,
+        "w": 188,
+        "h": 169
+      },
+      "anchor": {
+        "x": 94,
+        "y": 152
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 59
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 152
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 23,
+          "y": 665,
+          "w": 276,
+          "h": 248
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "72b3a3580742035774f65ece287e2fd929b394357ab0d75f6b82b5dfa40f4816"
+      }
+    },
+    {
+      "id": "ICE-PROP-10",
+      "name": "low frosted stone basin",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 200,
+        "y": 428,
+        "w": 188,
+        "h": 124
+      },
+      "anchor": {
+        "x": 94,
+        "y": 112
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 44
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 112
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 349,
+          "y": 727,
+          "w": 272,
+          "h": 180
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "739ebf6e0c2c7ce381d2908a005ac7cb8191bc2cb695a4109409a283e67960ae"
+      }
+    },
+    {
+      "id": "ICE-PROP-11",
+      "name": "broken arch fragment encased in ice",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 396,
+        "y": 404,
+        "w": 188,
+        "h": 172
+      },
+      "anchor": {
+        "x": 94,
+        "y": 155
+      },
+      "drawSize": {
+        "w": 72,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 155
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 646,
+          "y": 640,
+          "w": 304,
+          "h": 278
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "a0a829a4347df208456bb5cdf41059bf6a0cf37a34a3d39d22911a9df7f10a86"
+      }
+    },
+    {
+      "id": "ICE-PROP-12",
+      "name": "rough ice stalagmite with layered frozen drips",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 612,
+        "y": 396,
+        "w": 148,
+        "h": 188
+      },
+      "anchor": {
+        "x": 74,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 62,
+        "h": 64
+      },
+      "footAnchor": {
+        "x": 74,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 994,
+          "y": 634,
+          "w": 233,
+          "h": 295
+        },
+        "postprocess": "Alpha-preserving crop tightened to exclude detached neighbor fragment; proportional resampling and packing.",
+        "previousSourceRect": {
+          "x": 940,
+          "y": 634,
+          "w": 287,
+          "h": 295
+        },
+        "spriteSha256": "16c0c858bf43cc17b30e496f6db54a9f14b76e5049b4e307733173510d67f926"
+      },
+      "qa": {
+        "detachedNeighborFragmentRemoved": true
+      }
+    },
+    {
+      "id": "ICE-PROP-13",
+      "name": "small heap of shattered ice shards",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 4,
+        "y": 621,
+        "w": 188,
+        "h": 129
+      },
+      "anchor": {
+        "x": 94,
+        "y": 116
+      },
+      "drawSize": {
+        "w": 43,
+        "h": 30
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 116
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 24,
+          "y": 1010,
+          "w": 287,
+          "h": 197
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "f6c75923d3b64efce4172936ed3e5acd9e65e2c3b013e2d2f947337d79c3e557"
+      }
+    },
+    {
+      "id": "ICE-PROP-14",
+      "name": "ice-bound dead tree root",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 203,
+        "y": 592,
+        "w": 182,
+        "h": 188
+      },
+      "anchor": {
+        "x": 91,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 91,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 350,
+          "y": 936,
+          "w": 275,
+          "h": 284
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "634065a765d09ce8c7da07508c2b4a781e3792ba453a4b149d250cde2cfd2613"
+      }
+    },
+    {
+      "id": "ICE-PROP-15",
+      "name": "frozen old wooden chest crusted with frost",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 396,
+        "y": 617,
+        "w": 188,
+        "h": 137
+      },
+      "anchor": {
+        "x": 94,
+        "y": 123
+      },
+      "drawSize": {
+        "w": 49,
+        "h": 36
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 123
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 653,
+          "y": 996,
+          "w": 289,
+          "h": 210
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "64f4f014fa63f151e7cf06012be3dde72ff6c0fa1dbd4e0b0929d70bb5394c99"
+      }
+    },
+    {
+      "id": "ICE-PROP-16",
+      "name": "wide icy rock with deep blue crevice",
+      "kind": "static_prop",
+      "atlas": "atlases/ice-props-v2.webp",
+      "rect": {
+        "x": 592,
+        "y": 609,
+        "w": 188,
+        "h": 154
+      },
+      "anchor": {
+        "x": 94,
+        "y": 139
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 54
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 139
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "tuning": "initial, renderer playtest pending"
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ice-props-generated.png",
+        "sha256": "4ff2093c75a371321ae9686d68a9aa6571c50048f841712a94889f3c57ade1f5",
+        "sourceRect": {
+          "x": 940,
+          "y": 980,
+          "w": 296,
+          "h": 243
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling and packing.",
+        "spriteSha256": "f0102b06cd3526972fcf923fa68f8dc0b49bf51b7246637c7074b754cb0f07ef"
+      }
+    }
+  ],
+  "coverage": {
+    "required": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "staged": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "missing": {
+      "ground": 0,
+      "edge_masks": 0,
+      "walls": 0,
+      "static_props": 0
+    },
+    "sourceCountsMet": true,
+    "complete": false
+  },
+  "borders": {
+    "seamless": false,
+    "runtimeContract": "render-contract.mjs",
+    "renderGuidance": "Use opaque underlay, deterministic overlapping feathered ground patches and spatial biome regions. Alpha edge overlays are decorative/non-bitmask."
+  },
+  "alpha": {
+    "preserved": true
+  },
+  "qa": {
+    "sourceInspected": true,
+    "packedAtlasInspected": true,
+    "rendererIntegrationVerified": false,
+    "perpendicularWallFacingVerified": true,
+    "finalCropRepair": true,
+    "visualContactSheet": "qa/ice-contact-sheet.png",
+    "edgeWallSheet": "qa/ice-edges-walls.png"
+  }
+}

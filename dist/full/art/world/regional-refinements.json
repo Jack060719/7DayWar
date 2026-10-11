@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "ashen-three-pair-refinement-v1",
+  "status": "GEOMETRY_AND_TECHNICAL_RASTER_CANDIDATE_PENDING_CURRENT_ENGINE_REVIEW",
+  "scope": "Only3 existing NPC coordinates and their paired building roots change. IDs,services,quests,allotherNPCs,alllandmarks and mapanchors stay unchanged. These are disclosed original-layout coordinates, not official Classic maps.",
+  "mergeOnlyTheseRows": true,
+  "doNotReplaceCurrentTownLayoutFromReproductionFiles": true,
+  "preserveIndependentGateAndGiranCorrections": true,
+  "overrides": [
+    {
+      "mapId": "MAP-TOWN-ELF",
+      "npcId": "NPC-ELF-SMITH",
+      "npcTileBefore": [
+        55,
+        44
+      ],
+      "npcTileProposed": [
+        56,
+        51
+      ],
+      "placementId": "MAP-TOWN-ELF:structure-smith",
+      "structureId": "structure-smith",
+      "rootTileBefore": [
+        53,
+        45
+      ],
+      "rootTileProposed": [
+        54,
+        52
+      ],
+      "npcDelta": [
+        1,
+        7
+      ],
+      "rootDelta": [
+        1,
+        7
+      ],
+      "sameMeasuredDoorRelationship": true,
+      "roofClearanceEvidence": "MAP-TOWN-ELF-roof-clearance.png",
+      "acceptedInGame": false
+    },
+    {
+      "mapId": "MAP-TOWN-OREN",
+      "npcId": "NPC-OREN-KEEPER",
+      "npcTileBefore": [
+        64,
+        44
+      ],
+      "npcTileProposed": [
+        67,
+        50
+      ],
+      "placementId": "MAP-TOWN-OREN:structure-keeper",
+      "structureId": "structure-keeper",
+      "rootTileBefore": [
+        63,
+        46
+      ],
+      "rootTileProposed": [
+        66,
+        52
+      ],
+      "npcDelta": [
+        3,
+        6
+      ],
+      "rootDelta": [
+        3,
+        6
+      ],
+      "sameMeasuredDoorRelationship": true,
+      "roofClearanceEvidence": "MAP-TOWN-OREN-roof-clearance.png",
+      "acceptedInGame": false
+    },
+    {
+      "mapId": "MAP-TOWN-ADEN",
+      "npcId": "NPC-ADEN-HEALER",
+      "npcTileBefore": [
+        73,
+        44
+      ],
+      "npcTileProposed": [
+        72,
+        45
+      ],
+      "placementId": "MAP-TOWN-ADEN:structure-healer",
+      "structureId": "structure-healer",
+      "rootTileBefore": [
+        72,
+        45
+      ],
+      "rootTileProposed": [
+        71,
+        46
+      ],
+      "npcDelta": [
+        -1,
+        1
+      ],
+      "rootDelta": [
+        -1,
+        1
+      ],
+      "sameMeasuredDoorRelationship": true,
+      "roofClearanceEvidence": "MAP-TOWN-ADEN-roof-clearance.png",
+      "acceptedInGame": false
+    }
+  ],
+  "validation": {
+    "placementCountBefore": 67,
+    "placementCountAfter": 67,
+    "exactChangedNpcFields": [
+      {
+        "npcId": "NPC-ELF-SMITH",
+        "field": "position_tiles",
+        "before": [
+          55,
+          44
+        ],
+        "proposed": [
+          56,
+          51
+        ]
+      },
+      {
+        "npcId": "NPC-OREN-KEEPER",
+        "field": "position_tiles",
+        "before": [
+          64,
+          44
+        ],
+        "proposed": [
+          67,
+          50
+        ]
+      },
+      {
+        "npcId": "NPC-ADEN-HEALER",
+        "field": "position_tiles",
+        "before": [
+          73,
+          44
+        ],
+        "proposed": [
+          72,
+          45
+        ]
+      }
+    ],
+    "changedPlacementRoots": 3,
+    "otherPlacementRootsUnchanged": 64,
+    "mapLandmarksAndAnchorsUnchanged": true,
+    "all131RequiredTargetRoutesPass": true,
+    "all221DoorApproachRoutesPass": true,
+    "zeroPhysicalFootprintConflicts": true,
+    "all3TargetBodiesVisibleAfterTechnicalComposite": true,
+    "newOtherNpcVisibilityRegressionsOver5Percent": 0
+  },
+  "acceptanceLimits": [
+    "Technical sprite/terrain composite is not the actual game renderer or browser acceptance.",
+    "Current engine must revalidate against newer gate non-standable and Giran stall corrections.",
+    "Saved actor positions now inside a moved footprint need builder-owned valid-position migration; do not change inventory,quests or IDs."
+  ],
+  "acceptedInGame": false
+}

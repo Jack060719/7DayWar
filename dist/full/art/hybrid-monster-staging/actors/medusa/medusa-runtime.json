@@ -1,0 +1,5713 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "MON-MEDUSA",
+  "consumerIds": [
+    "MON-MEDUSA"
+  ],
+  "assetId": "ASSET-BODY-MON-MEDUSA",
+  "width": 3072,
+  "height": 4032,
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 92,
+  "anchor": [
+    96,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-S.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            80,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            80,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            80,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            80,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            80,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            80,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            80,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            80,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-S.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            84,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            84,
+            143
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            84,
+            144
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            84,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-S.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            84,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-S.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            84,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            84,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            84,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            84,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            84,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            84,
+            144
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            84,
+            143
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            84,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-S.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            85,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            85,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            85,
+            149
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            85,
+            148
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            85,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            85,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            85,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            85,
+            144
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-S.webp"
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            112,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            112,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            112,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            112,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            112,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            112,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SW.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            112,
+            143
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            112,
+            143
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            112,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            112,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            112,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            112,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            112,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            112,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SW.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            149
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            151
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            151
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            149
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            149
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            149
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            149
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SW.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            110,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            110,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            110,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            110,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-SW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            112,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            106,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            106,
+            149
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            106,
+            148
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            106,
+            148
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            106,
+            149
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            106,
+            149
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            106,
+            149
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SW.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            106,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            106,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            106,
+            148
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            106,
+            149
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            106,
+            148
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            106,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            106,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            106,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SW.webp"
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            125,
+            161
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            125,
+            160
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            125,
+            161
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            125,
+            161
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            125,
+            161
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            125,
+            160
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-W.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            158
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            158
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            158
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            157
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            158
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            164
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-W.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            118,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            118,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            118,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            118,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            118,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-W.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            122,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            122,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            122,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            122,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-W.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            125,
+            161
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            105,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            105,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            105,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            105,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            105,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            105,
+            171
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            105,
+            171
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-W.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            110,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            110,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            110,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            110,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            110,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            110,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            110,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            110,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-W.webp"
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            75,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            75,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            75,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            75,
+            148
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            75,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            75,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NW.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            158
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            156
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            158
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            159
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            164
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            118,
+            160
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NW.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            108,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            108,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            108,
+            174
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            108,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            108,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            108,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            108,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            108,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NW.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            75,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            75,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            75,
+            147
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            75,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-NW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            75,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            75,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            75,
+            146
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            105,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            105,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            105,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            105,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            105,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NW.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            72,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            72,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            72,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            72,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            72,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            72,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            72,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            72,
+            145
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NW.webp"
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            105,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            105,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            105,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            105,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            105,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            105,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-N.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            102,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            102,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            102,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            102,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            102,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            102,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            102,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            102,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-N.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            105,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            105,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            105,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            105,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            105,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            105,
+            175
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            105,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            105,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-N.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            110,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            110,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            110,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            110,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-N.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            110,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            110,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            110,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            110,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            110,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            110,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            110,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            110,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-N.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            105,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            105,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            105,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            105,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            105,
+            174
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            105,
+            174
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            105,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            105,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-N.webp"
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            103,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            103,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            103,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            103,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            103,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            103,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-NE.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            115,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            115,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            115,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            115,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            115,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            115,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            115,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            115,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-NE.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            97,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            97,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            97,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            97,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            97,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            97,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            97,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            97,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-NE.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            164
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-NE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            92,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            92,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            92,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            92,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            92,
+            153
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            92,
+            153
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            92,
+            152
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            92,
+            152
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-NE.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            164
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-NE.webp"
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            76,
+            161
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            76,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            76,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            76,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            76,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            76,
+            161
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-E.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            70,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            70,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            70,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            70,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            70,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            70,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            70,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            70,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-E.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            64,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            64,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            64,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            64,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            64,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            64,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            64,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            64,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-E.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            53,
+            156
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            53,
+            151
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            53,
+            156
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            53,
+            156
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-E.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            54,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            54,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            54,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            54,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            54,
+            171
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            54,
+            171
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            54,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            54,
+            171
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-E.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            76,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            76,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            76,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            76,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            76,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            76,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            76,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            76,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-E.webp"
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            72,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            72,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            72,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            72,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            72,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            72,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/idle-SE.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            72,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            72,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            72,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            72,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            72,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            72,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            72,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            72,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/walk-SE.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            141
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            141
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            142
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            142
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/attack-SE.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            56,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            56,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            56,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            56,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/hit-SE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            55,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            55,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            55,
+            175
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            55,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            55,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            55,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            55,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            55,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/death-SE.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            67,
+            164
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            67,
+            164
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            67,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            67,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            67,
+            164
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            67,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            67,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            67,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/medusa/clips/cast-SE.webp"
+        }
+      ]
+    }
+  },
+  "status": "candidate",
+  "frameCount": 336,
+  "clipCount": 48,
+  "provenance": {
+    "method": "Original class-specific articulated model and eight independent views; original imagegen detail finish",
+    "model": "source/medusa-original.blend",
+    "sources": [
+      {
+        "state": "idle",
+        "sha256": "d44e899a7ee1acd4af2c35c30824d0ff6b118ad5ded18a08a7a969b675422fcb",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "walk",
+        "sha256": "12845ca0940129f5e0985693003e589313f61949d1c64a6af092d0f82a61ed18",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "attack",
+        "sha256": "62af65a5c4ba564afabeec20f4f2f34a7e8b471226752b379e1cc05cb02f5e95",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "hit",
+        "sha256": "dbc6c2494cf703797968aa0df09bb53d500cc9b3bf9fcc75a2cc60815c98e309",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "death",
+        "sha256": "8b10231f3727d8102bca6489a45208f148ae90e68b7ff9665cf9b900914d85a2",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "cast",
+        "sha256": "105e97ab7996798122c86121bb0acd2e76c7f0b95fddc6c7c5df235158f1e082",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "idle",
+        "direction": "NW",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "cast",
+        "direction": "NW",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "attack",
+        "direction": "SW",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "hit",
+        "direction": "NW",
+        "method": "Original corrected8frame single-direction imagegen strip"
+      },
+      {
+        "state": "attack",
+        "direction": "S",
+        "frames": [
+          3,
+          4
+        ],
+        "sha256": "d1ee3e6a3b036d69f1ec6df12d3a730ec709466e85a424829db4905be67e4aa6",
+        "method": "built-in imagegen bounded held phases only, accepted neighbors preserved"
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frames": [
+          2,
+          3
+        ],
+        "sha256": "e4a97f0eddc20f9d32d6afbefad48cc1b29b49ef425b6691fd93bd86dd0224c7",
+        "method": "built-in imagegen bounded held phases only, accepted neighbors preserved"
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "frames": [
+          1
+        ],
+        "sha256": "98abac9c90c594579b52262c4a3039f79811ad9f455a7222b07b8834c02c8e07",
+        "method": "built-in imagegen bounded held phases only, accepted neighbors preserved"
+      },
+      {
+        "state": "death",
+        "direction": "NW",
+        "frames": [
+          0,
+          1,
+          2
+        ],
+        "sha256": "adf79e09159b900116dc920928081415d8a2bfdf2fbb5ad312231df99a215194",
+        "method": "built-in imagegen bounded held phases only, accepted neighbors preserved"
+      }
+    ],
+    "nativeFrameOverrides": [
+      {
+        "state": "attack",
+        "direction": "S",
+        "frame": 3,
+        "sourceSHA256": "d1ee3e6a3b036d69f1ec6df12d3a730ec709466e85a424829db4905be67e4aa6",
+        "sourceRect": [
+          231,
+          72,
+          497,
+          747
+        ],
+        "registration": [
+          53,
+          50.806841046277654,
+          0.12877263581488935
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "duration": 70,
+        "calibration": {
+          "method": "One constant physical scale from accepted attack0 lower-coil width; per-peak raster translations align support-coil center and lower plane. No per-frame scaling; other six action frames unchanged.",
+          "referenceFrame": {
+            "state": "attack",
+            "direction": "S",
+            "frame": 0,
+            "anchor": [
+              96,
+              150
+            ],
+            "lowerCoilBounds": [
+              53,
+              105,
+              117,
+              147
+            ]
+          },
+          "newSourceParts": [
+            {
+              "sourceRect": [
+                231,
+                72,
+                497,
+                747
+              ],
+              "lowerCoilBounds": [
+                231,
+                482,
+                728,
+                819
+              ]
+            },
+            {
+              "sourceRect": [
+                1050,
+                76,
+                507,
+                748
+              ],
+              "lowerCoilBounds": [
+                1050,
+                487,
+                1557,
+                824
+              ]
+            }
+          ],
+          "constantScale": 0.12877263581488935,
+          "alphaThreshold": 25
+        }
+      },
+      {
+        "state": "attack",
+        "direction": "S",
+        "frame": 4,
+        "sourceSHA256": "d1ee3e6a3b036d69f1ec6df12d3a730ec709466e85a424829db4905be67e4aa6",
+        "sourceRect": [
+          1050,
+          76,
+          507,
+          748
+        ],
+        "registration": [
+          52.35613682092555,
+          50.67806841046277,
+          0.12877263581488935
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "duration": 65,
+        "calibration": {
+          "method": "One constant physical scale from accepted attack0 lower-coil width; per-peak raster translations align support-coil center and lower plane. No per-frame scaling; other six action frames unchanged.",
+          "referenceFrame": {
+            "state": "attack",
+            "direction": "S",
+            "frame": 0,
+            "anchor": [
+              96,
+              150
+            ],
+            "lowerCoilBounds": [
+              53,
+              105,
+              117,
+              147
+            ]
+          },
+          "newSourceParts": [
+            {
+              "sourceRect": [
+                231,
+                72,
+                497,
+                747
+              ],
+              "lowerCoilBounds": [
+                231,
+                482,
+                728,
+                819
+              ]
+            },
+            {
+              "sourceRect": [
+                1050,
+                76,
+                507,
+                748
+              ],
+              "lowerCoilBounds": [
+                1050,
+                487,
+                1557,
+                824
+              ]
+            }
+          ],
+          "constantScale": 0.12877263581488935,
+          "alphaThreshold": 25
+        }
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 2,
+        "sourceSHA256": "e4a97f0eddc20f9d32d6afbefad48cc1b29b49ef425b6691fd93bd86dd0224c7",
+        "sourceRect": [
+          332,
+          124,
+          360,
+          695
+        ],
+        "registration": [
+          83,
+          72.02777777777777,
+          0.16111111111111112
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "duration": 70,
+        "calibration": {
+          "method": "One constant physical scale from accepted attack0 lower-coil width; per-peak raster translations align support-coil center and lower plane. No per-frame scaling; other six action frames unchanged.",
+          "referenceFrame": {
+            "state": "attack",
+            "direction": "N",
+            "frame": 0,
+            "anchor": [
+              96,
+              150
+            ],
+            "lowerCoilBounds": [
+              83,
+              139,
+              141,
+              184
+            ]
+          },
+          "newSourceParts": [
+            {
+              "sourceRect": [
+                332,
+                124,
+                360,
+                695
+              ],
+              "lowerCoilBounds": [
+                332,
+                506,
+                692,
+                819
+              ]
+            },
+            {
+              "sourceRect": [
+                1190,
+                188,
+                363,
+                631
+              ],
+              "lowerCoilBounds": [
+                1190,
+                535,
+                1553,
+                819
+              ]
+            }
+          ],
+          "constantScale": 0.16111111111111112,
+          "alphaThreshold": 25
+        }
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 3,
+        "sourceSHA256": "e4a97f0eddc20f9d32d6afbefad48cc1b29b49ef425b6691fd93bd86dd0224c7",
+        "sourceRect": [
+          1190,
+          188,
+          363,
+          631
+        ],
+        "registration": [
+          82.75833333333333,
+          82.33888888888889,
+          0.16111111111111112
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "duration": 70,
+        "calibration": {
+          "method": "One constant physical scale from accepted attack0 lower-coil width; per-peak raster translations align support-coil center and lower plane. No per-frame scaling; other six action frames unchanged.",
+          "referenceFrame": {
+            "state": "attack",
+            "direction": "N",
+            "frame": 0,
+            "anchor": [
+              96,
+              150
+            ],
+            "lowerCoilBounds": [
+              83,
+              139,
+              141,
+              184
+            ]
+          },
+          "newSourceParts": [
+            {
+              "sourceRect": [
+                332,
+                124,
+                360,
+                695
+              ],
+              "lowerCoilBounds": [
+                332,
+                506,
+                692,
+                819
+              ]
+            },
+            {
+              "sourceRect": [
+                1190,
+                188,
+                363,
+                631
+              ],
+              "lowerCoilBounds": [
+                1190,
+                535,
+                1553,
+                819
+              ]
+            }
+          ],
+          "constantScale": 0.16111111111111112,
+          "alphaThreshold": 25
+        }
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "frame": 1,
+        "sourceSHA256": "98abac9c90c594579b52262c4a3039f79811ad9f455a7222b07b8834c02c8e07",
+        "sourceRect": [
+          402,
+          182,
+          536,
+          866
+        ],
+        "registration": [
+          53,
+          51.67537313432835,
+          0.11007462686567164
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "duration": 75,
+        "calibration": {
+          "method": "One constant physical scale from accepted attack0 lower-coil width; per-peak raster translations align support-coil center and lower plane. No per-frame scaling; other six action frames unchanged.",
+          "referenceFrame": {
+            "state": "hit",
+            "direction": "S",
+            "frame": 0,
+            "anchor": [
+              96,
+              150
+            ],
+            "lowerCoilBounds": [
+              53,
+              105,
+              112,
+              147
+            ]
+          },
+          "newSourceParts": [
+            {
+              "sourceRect": [
+                402,
+                182,
+                536,
+                866
+              ],
+              "lowerCoilBounds": [
+                402,
+                658,
+                938,
+                1048
+              ]
+            }
+          ],
+          "constantScale": 0.11007462686567164,
+          "alphaThreshold": 25
+        }
+      },
+      {
+        "state": "death",
+        "direction": "NW",
+        "frame": 0,
+        "sourceSHA256": "adf79e09159b900116dc920928081415d8a2bfdf2fbb5ad312231df99a215194",
+        "sourceRect": [
+          44,
+          37,
+          660,
+          631
+        ],
+        "registration": [
+          37.37735849056604,
+          54.75471698113208,
+          0.1509433962264151
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "duration": 110,
+        "calibration": {
+          "method": "One constant physical scale from accepted attack0 lower-coil width; per-peak raster translations align support-coil center and lower plane. No per-frame scaling; other six action frames unchanged.",
+          "referenceFrame": {
+            "state": "idle",
+            "direction": "NW",
+            "frame": 0,
+            "anchor": [
+              96,
+              150
+            ],
+            "lowerCoilBounds": [
+              49,
+              108,
+              137,
+              150
+            ]
+          },
+          "newSourceParts": [
+            {
+              "sourceRect": [
+                44,
+                37,
+                660,
+                631
+              ],
+              "lowerCoilBounds": [
+                121,
+                384,
+                704,
+                668
+              ]
+            },
+            {
+              "sourceRect": [
+                819,
+                89,
+                603,
+                579
+              ],
+              "lowerCoilBounds": [
+                819,
+                407,
+                1422,
+                668
+              ]
+            },
+            {
+              "sourceRect": [
+                1512,
+                191,
+                640,
+                476
+              ],
+              "lowerCoilBounds": [
+                1535,
+                452,
+                2152,
+                667
+              ]
+            }
+          ],
+          "constantScale": 0.1509433962264151,
+          "alphaThreshold": 25
+        }
+      },
+      {
+        "state": "death",
+        "direction": "NW",
+        "frame": 1,
+        "sourceSHA256": "adf79e09159b900116dc920928081415d8a2bfdf2fbb5ad312231df99a215194",
+        "sourceRect": [
+          819,
+          89,
+          603,
+          579
+        ],
+        "registration": [
+          47.49056603773585,
+          62.60377358490567,
+          0.1509433962264151
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "duration": 100,
+        "calibration": {
+          "method": "One constant physical scale from accepted attack0 lower-coil width; per-peak raster translations align support-coil center and lower plane. No per-frame scaling; other six action frames unchanged.",
+          "referenceFrame": {
+            "state": "idle",
+            "direction": "NW",
+            "frame": 0,
+            "anchor": [
+              96,
+              150
+            ],
+            "lowerCoilBounds": [
+              49,
+              108,
+              137,
+              150
+            ]
+          },
+          "newSourceParts": [
+            {
+              "sourceRect": [
+                44,
+                37,
+                660,
+                631
+              ],
+              "lowerCoilBounds": [
+                121,
+                384,
+                704,
+                668
+              ]
+            },
+            {
+              "sourceRect": [
+                819,
+                89,
+                603,
+                579
+              ],
+              "lowerCoilBounds": [
+                819,
+                407,
+                1422,
+                668
+              ]
+            },
+            {
+              "sourceRect": [
+                1512,
+                191,
+                640,
+                476
+              ],
+              "lowerCoilBounds": [
+                1535,
+                452,
+                2152,
+                667
+              ]
+            }
+          ],
+          "constantScale": 0.1509433962264151,
+          "alphaThreshold": 25
+        }
+      },
+      {
+        "state": "death",
+        "direction": "NW",
+        "frame": 2,
+        "sourceSHA256": "adf79e09159b900116dc920928081415d8a2bfdf2fbb5ad312231df99a215194",
+        "sourceRect": [
+          1512,
+          191,
+          640,
+          476
+        ],
+        "registration": [
+          42.9622641509434,
+          78.15094339622642,
+          0.1509433962264151
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "duration": 110,
+        "calibration": {
+          "method": "One constant physical scale from accepted attack0 lower-coil width; per-peak raster translations align support-coil center and lower plane. No per-frame scaling; other six action frames unchanged.",
+          "referenceFrame": {
+            "state": "idle",
+            "direction": "NW",
+            "frame": 0,
+            "anchor": [
+              96,
+              150
+            ],
+            "lowerCoilBounds": [
+              49,
+              108,
+              137,
+              150
+            ]
+          },
+          "newSourceParts": [
+            {
+              "sourceRect": [
+                44,
+                37,
+                660,
+                631
+              ],
+              "lowerCoilBounds": [
+                121,
+                384,
+                704,
+                668
+              ]
+            },
+            {
+              "sourceRect": [
+                819,
+                89,
+                603,
+                579
+              ],
+              "lowerCoilBounds": [
+                819,
+                407,
+                1422,
+                668
+              ]
+            },
+            {
+              "sourceRect": [
+                1512,
+                191,
+                640,
+                476
+              ],
+              "lowerCoilBounds": [
+                1535,
+                452,
+                2152,
+                667
+              ]
+            }
+          ],
+          "constantScale": 0.1509433962264151,
+          "alphaThreshold": 25
+        }
+      }
+    ],
+    "readyBoundaryBindings": [
+      {
+        "direction": "SW",
+        "state": "death",
+        "frames": [
+          0
+        ],
+        "sourceDirection": "SW",
+        "sourceState": "idle",
+        "sourceFrame": 0,
+        "reason": "Art lead approved2026-10-09T22:23:31Z exact same-heading ready entry at unchanged duration and semantic anchor; preserve death1–7. One disclosed reused source entry, not a newly authored collapse pose; reviewer verifies0→1.",
+        "destinationFrame": 0,
+        "anchor": [
+          96,
+          150
+        ],
+        "duration": 110,
+        "method": "Exact same-heading accepted idle pixel copy as semantic ready entry; original duration and source scale retained, dedicated collapse phases untouched"
+      },
+      {
+        "direction": "W",
+        "state": "death",
+        "frames": [
+          0
+        ],
+        "sourceDirection": "W",
+        "sourceState": "idle",
+        "sourceFrame": 0,
+        "reason": "Art lead approved2026-10-09T22:23:31Z exact same-heading ready entry at unchanged duration and semantic anchor; preserve death1–7. One disclosed reused source entry, not a newly authored collapse pose; reviewer verifies0→1.",
+        "destinationFrame": 0,
+        "anchor": [
+          96,
+          150
+        ],
+        "duration": 110,
+        "method": "Exact same-heading accepted idle pixel copy as semantic ready entry; original duration and source scale retained, dedicated collapse phases untouched"
+      }
+    ],
+    "poseEntryCounts": {
+      "runtimeEntries": 336,
+      "disclosedReusedEntries": 2,
+      "dedicatedSourcePoseEntries": 334
+    },
+    "anchorRegistration": {
+      "sourceMapSHA256": "f44f65bc67fb3bee20b2b1a35b2340b4c31dcd37438812a40a9c250417896836",
+      "poseReviewManifestSHA256": "569f709a277dfb3f00aac5a5ed54498d80fede035d1f3eb993769050ca8648d5",
+      "approvedBy": "animate_classic_rpg_preview art lead",
+      "approvalTimestamp": "2026-10-09T23:02:31Z",
+      "frameCount": 336,
+      "method": "Approved semantic support-anchor map applied only after exact original lossless runtime-cell RGBA verification. Pixels, rects, durations, source/body/display scale and logical geometry unchanged.",
+      "caveats": [
+        "Projected main-coil supports estimated ±3px, particularly rear and tail overlap.",
+        "No per-frame X tail centering; authored falls/recoil remain.",
+        "Pixels/scale/timing/runtime untouched.",
+        "Rear/tail-projected main-body support remains estimated; target-present reach/readability is a separate scene gate."
+      ]
+    }
+  },
+  "validation": {
+    "issues": [],
+    "frameTranslations": [
+      {
+        "state": "walk",
+        "direction": "NE",
+        "frame": 2,
+        "offset": [
+          0,
+          -2
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "NE",
+        "frame": 3,
+        "offset": [
+          0,
+          -1
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "E",
+        "frame": 1,
+        "offset": [
+          2,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "E",
+        "frame": 2,
+        "offset": [
+          3,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "E",
+        "frame": 3,
+        "offset": [
+          2,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "E",
+        "frame": 4,
+        "offset": [
+          5,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "E",
+        "frame": 5,
+        "offset": [
+          1,
+          0
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sourceGridCounts": {
+      "idle": 48,
+      "walk": 64,
+      "attack": 64,
+      "hit": 32,
+      "death": 64,
+      "cast": 64
+    },
+    "loopRegistration": "original projected ground origin mapped through idle neutral anatomy; per-state neutral size matched to idle at each independent heading; no per-frame rescaling",
+    "inGame": "not tested",
+    "supersededSourceIssues": []
+  },
+  "runtimeLayout": "per-action-direction",
+  "maximumClipDecodedBytes": 1179648,
+  "runtimeTextureCount": 48,
+  "maximumFramesPerTexture": 8
+}

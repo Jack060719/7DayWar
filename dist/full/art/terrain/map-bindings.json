@@ -1,0 +1,2858 @@
+{
+  "schemaVersion": 1,
+  "canonicalSource": {
+    "file": "Ashen_Covenant_完整製作內容總表_v1.0.0.json",
+    "sha256": "c7395217b610ae89f7df7da581a526668a4bd8bba3292d92511ea413a9c4529c",
+    "contentVersion": "AC-CONTENT-1.0.0"
+  },
+  "count": 101,
+  "familyMapCounts": {
+    "COAST": 4,
+    "GRASS": 5,
+    "FOREST": 1,
+    "DESERT": 2,
+    "MOUNTAIN": 4,
+    "SWAMP": 3,
+    "VOLCANIC": 2,
+    "SNOW": 2,
+    "CITY": 12,
+    "CAVE": 23,
+    "CRYPT": 4,
+    "ANT": 2,
+    "UNDERWATER": 3,
+    "TOWER": 28,
+    "ICE": 3,
+    "SEWER": 3
+  },
+  "bindingPolicy": "Use familyId verbatim from canonical map reuse_reference. terrainArtRequirements are retained for local sub-biome decoration without silently replacing the canonical family.",
+  "maps": [
+    {
+      "mapId": "MAP-REG-TALKING",
+      "nameZh": "說話之島野外獵場",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-COAST",
+      "family": "COAST",
+      "manifest": "manifests/coast.json",
+      "terrainArtRequirements": "海岸、林地、北島岩丘",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-TALKING",
+      "assetRefs": [
+        "ASSET-TERRAIN-COAST",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 843323816,
+        "widthTiles": 640,
+        "heightTiles": 448
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-GLUDIN",
+      "nameZh": "古魯丁野外獵場",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-GRASS",
+      "family": "GRASS",
+      "manifest": "manifests/grass.json",
+      "terrainArtRequirements": "平原、墓地、港口道路",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-GLUDIN",
+      "assetRefs": [
+        "ASSET-TERRAIN-GRASS",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 782267578,
+        "widthTiles": 576,
+        "heightTiles": 576
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-ELF",
+      "nameZh": "妖精森林野外獵場",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-FOREST",
+      "family": "FOREST",
+      "manifest": "manifests/forest.json",
+      "terrainArtRequirements": "古木、根系、林間空地",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-ELF",
+      "assetRefs": [
+        "ASSET-TERRAIN-FOREST",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3007665213,
+        "widthTiles": 512,
+        "heightTiles": 576
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-WINDAWOOD",
+      "nameZh": "風木野外獵場",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-DESERT",
+      "family": "DESERT",
+      "manifest": "manifests/desert.json",
+      "terrainArtRequirements": "沙丘、山地、綠洲",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-WINDAWOOD",
+      "assetRefs": [
+        "ASSET-TERRAIN-DESERT",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3738462178,
+        "widthTiles": 576,
+        "heightTiles": 512
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-SILVER",
+      "nameZh": "銀騎士地區野外獵場",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-GRASS",
+      "family": "GRASS",
+      "manifest": "manifests/grass.json",
+      "terrainArtRequirements": "草原、墓地、沙漠邊界",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-SILVER",
+      "assetRefs": [
+        "ASSET-TERRAIN-GRASS",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3482920838,
+        "widthTiles": 640,
+        "heightTiles": 448
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-DRAGON",
+      "nameZh": "龍之谷野外獵場",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-MOUNTAIN",
+      "family": "MOUNTAIN",
+      "manifest": "manifests/mountain.json",
+      "terrainArtRequirements": "岩峽、龍骨、斷崖",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-DRAGON",
+      "assetRefs": [
+        "ASSET-TERRAIN-MOUNTAIN",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1638992820,
+        "widthTiles": 512,
+        "heightTiles": 512
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-HEINE",
+      "nameZh": "海音地區野外獵場",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-SWAMP",
+      "family": "SWAMP",
+      "manifest": "manifests/swamp.json",
+      "terrainArtRequirements": "湖泊、沼澤、鏡子森林",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-HEINE",
+      "assetRefs": [
+        "ASSET-TERRAIN-SWAMP",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1664962825,
+        "widthTiles": 576,
+        "heightTiles": 512
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-FIRE",
+      "nameZh": "火龍窟",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-VOLCANIC",
+      "family": "VOLCANIC",
+      "manifest": "manifests/volcanic.json",
+      "terrainArtRequirements": "熔岩、毒氣、玄武岩橋",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-FIRE",
+      "assetRefs": [
+        "ASSET-TERRAIN-VOLCANIC",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 763316265,
+        "widthTiles": 512,
+        "heightTiles": 512
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-OREN",
+      "nameZh": "歐瑞地區野外狩獵",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-SNOW",
+      "family": "SNOW",
+      "manifest": "manifests/snow.json",
+      "terrainArtRequirements": "積雪、冰壁、戰場",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-OREN",
+      "assetRefs": [
+        "ASSET-TERRAIN-SNOW",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3282099097,
+        "widthTiles": 576,
+        "heightTiles": 512
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-ADEN",
+      "nameZh": "亞丁地區野外獵場",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-GRASS",
+      "family": "GRASS",
+      "manifest": "manifests/grass.json",
+      "terrainArtRequirements": "原野、林地、風龍傷痕",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-ADEN",
+      "assetRefs": [
+        "ASSET-TERRAIN-GRASS",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2330398098,
+        "widthTiles": 512,
+        "heightTiles": 448
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-TWILIGHT",
+      "nameZh": "黃昏山脈",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-MOUNTAIN",
+      "family": "MOUNTAIN",
+      "manifest": "manifests/mountain.json",
+      "terrainArtRequirements": "巨石、古代巨人遺構、山道",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-TWILIGHT",
+      "assetRefs": [
+        "ASSET-TERRAIN-MOUNTAIN",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2811419921,
+        "widthTiles": 640,
+        "heightTiles": 448
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-WIND",
+      "nameZh": "風龍窟",
+      "kind": "outdoor_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-MOUNTAIN",
+      "family": "MOUNTAIN",
+      "manifest": "manifests/mountain.json",
+      "terrainArtRequirements": "風蝕山峰、懸崖、巢穴",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-WIND",
+      "assetRefs": [
+        "ASSET-TERRAIN-MOUNTAIN",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3242217790,
+        "widthTiles": 576,
+        "heightTiles": 448
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-REG-FORGOTTEN",
+      "nameZh": "遺忘之島",
+      "kind": "island_region",
+      "parentId": "WORLD-ADEN",
+      "familyId": "ASSET-TERRAIN-GRASS",
+      "family": "GRASS",
+      "manifest": "manifests/grass.json",
+      "terrainArtRequirements": "南森林、古代遺跡、結界中心",
+      "reuseReferenceId": "ASSET-REF-MAP-REG-FORGOTTEN",
+      "assetRefs": [
+        "ASSET-TERRAIN-GRASS",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3432593351,
+        "widthTiles": 640,
+        "heightTiles": 448
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-SUB-TALKING-NORTH",
+      "nameZh": "說話之島北島",
+      "kind": "outdoor_subarea",
+      "parentId": "MAP-REG-TALKING",
+      "familyId": "ASSET-TERRAIN-COAST",
+      "family": "COAST",
+      "manifest": "manifests/coast.json",
+      "terrainArtRequirements": "說話之島北島專屬地貌、入口地標與可辨识撤退路線",
+      "reuseReferenceId": "ASSET-REF-MAP-SUB-TALKING-NORTH",
+      "assetRefs": [
+        "ASSET-TERRAIN-COAST",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 393398384,
+        "widthTiles": 192,
+        "heightTiles": 176
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-SUB-TALKING-CENTRAL",
+      "nameZh": "說話之島中央獵場",
+      "kind": "outdoor_subarea",
+      "parentId": "MAP-REG-TALKING",
+      "familyId": "ASSET-TERRAIN-COAST",
+      "family": "COAST",
+      "manifest": "manifests/coast.json",
+      "terrainArtRequirements": "說話之島中央獵場專屬地貌、入口地標與可辨识撤退路線",
+      "reuseReferenceId": "ASSET-REF-MAP-SUB-TALKING-CENTRAL",
+      "assetRefs": [
+        "ASSET-TERRAIN-COAST",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 885502186,
+        "widthTiles": 192,
+        "heightTiles": 176
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-SUB-TALKING-EAST",
+      "nameZh": "說話之島東邊獵場",
+      "kind": "outdoor_subarea",
+      "parentId": "MAP-REG-TALKING",
+      "familyId": "ASSET-TERRAIN-COAST",
+      "family": "COAST",
+      "manifest": "manifests/coast.json",
+      "terrainArtRequirements": "說話之島東邊獵場專屬地貌、入口地標與可辨识撤退路線",
+      "reuseReferenceId": "ASSET-REF-MAP-SUB-TALKING-EAST",
+      "assetRefs": [
+        "ASSET-TERRAIN-COAST",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3409494047,
+        "widthTiles": 224,
+        "heightTiles": 176
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-SUB-WINDAWOOD-OASIS",
+      "nameZh": "風木綠洲",
+      "kind": "outdoor_subarea",
+      "parentId": "MAP-REG-WINDAWOOD",
+      "familyId": "ASSET-TERRAIN-DESERT",
+      "family": "DESERT",
+      "manifest": "manifests/desert.json",
+      "terrainArtRequirements": "風木綠洲專屬地貌、入口地標與可辨识撤退路線",
+      "reuseReferenceId": "ASSET-REF-MAP-SUB-WINDAWOOD-OASIS",
+      "assetRefs": [
+        "ASSET-TERRAIN-DESERT",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 355123773,
+        "widthTiles": 224,
+        "heightTiles": 176
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-SUB-HEINE-MIRROR",
+      "nameZh": "鏡子森林",
+      "kind": "outdoor_subarea",
+      "parentId": "MAP-REG-HEINE",
+      "familyId": "ASSET-TERRAIN-SWAMP",
+      "family": "SWAMP",
+      "manifest": "manifests/swamp.json",
+      "terrainArtRequirements": "鏡子森林專屬地貌、入口地標與可辨识撤退路線",
+      "reuseReferenceId": "ASSET-REF-MAP-SUB-HEINE-MIRROR",
+      "assetRefs": [
+        "ASSET-TERRAIN-SWAMP",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2105636269,
+        "widthTiles": 224,
+        "heightTiles": 176
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-SUB-HEINE-MOON",
+      "nameZh": "霧月島",
+      "kind": "outdoor_subarea",
+      "parentId": "MAP-REG-HEINE",
+      "familyId": "ASSET-TERRAIN-SWAMP",
+      "family": "SWAMP",
+      "manifest": "manifests/swamp.json",
+      "terrainArtRequirements": "霧月島專屬地貌、入口地標與可辨识撤退路線",
+      "reuseReferenceId": "ASSET-REF-MAP-SUB-HEINE-MOON",
+      "assetRefs": [
+        "ASSET-TERRAIN-SWAMP",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 900901970,
+        "widthTiles": 192,
+        "heightTiles": 176
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-SUB-OREN-WALL",
+      "nameZh": "歐瑞雪壁",
+      "kind": "outdoor_subarea",
+      "parentId": "MAP-REG-OREN",
+      "familyId": "ASSET-TERRAIN-SNOW",
+      "family": "SNOW",
+      "manifest": "manifests/snow.json",
+      "terrainArtRequirements": "歐瑞雪壁專屬地貌、入口地標與可辨识撤退路線",
+      "reuseReferenceId": "ASSET-REF-MAP-SUB-OREN-WALL",
+      "assetRefs": [
+        "ASSET-TERRAIN-SNOW",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2831149823,
+        "widthTiles": 224,
+        "heightTiles": 176
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-SUB-ADEN-SCAR",
+      "nameZh": "風龍的傷痕",
+      "kind": "outdoor_subarea",
+      "parentId": "MAP-REG-ADEN",
+      "familyId": "ASSET-TERRAIN-GRASS",
+      "family": "GRASS",
+      "manifest": "manifests/grass.json",
+      "terrainArtRequirements": "風龍的傷痕專屬地貌、入口地標與可辨识撤退路線",
+      "reuseReferenceId": "ASSET-REF-MAP-SUB-ADEN-SCAR",
+      "assetRefs": [
+        "ASSET-TERRAIN-GRASS",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 193556751,
+        "widthTiles": 224,
+        "heightTiles": 176
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-TALKING",
+      "nameZh": "說話之島村",
+      "kind": "settlement",
+      "parentId": "MAP-REG-TALKING",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-TALKING",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 388171937,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-GLUDIN",
+      "nameZh": "古魯丁村",
+      "kind": "settlement",
+      "parentId": "MAP-REG-GLUDIN",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-GLUDIN",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3905101852,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-KENT",
+      "nameZh": "肯特村",
+      "kind": "settlement",
+      "parentId": "MAP-REG-GLUDIN",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-KENT",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 235511182,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-ELF",
+      "nameZh": "妖精森林村",
+      "kind": "settlement",
+      "parentId": "MAP-REG-ELF",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-ELF",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1940778027,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-WILLOW",
+      "nameZh": "燃柳村",
+      "kind": "settlement",
+      "parentId": "MAP-REG-ELF",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-WILLOW",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3198067191,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-WINDAWOOD",
+      "nameZh": "風木聚落（設計聚落範圍）",
+      "kind": "settlement",
+      "parentId": "MAP-REG-WINDAWOOD",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-WINDAWOOD",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2570774863,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-SILVER",
+      "nameZh": "銀騎士村",
+      "kind": "settlement",
+      "parentId": "MAP-REG-SILVER",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-SILVER",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 435848042,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-GIRAN",
+      "nameZh": "奇岩村",
+      "kind": "settlement",
+      "parentId": "MAP-REG-DRAGON",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-GIRAN",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2233538759,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-HEINE",
+      "nameZh": "海音村",
+      "kind": "settlement",
+      "parentId": "MAP-REG-HEINE",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-HEINE",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1920205188,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-WERLD",
+      "nameZh": "威頓村",
+      "kind": "settlement",
+      "parentId": "MAP-REG-FIRE",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-WERLD",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2089522376,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-OREN",
+      "nameZh": "歐瑞村",
+      "kind": "settlement",
+      "parentId": "MAP-REG-OREN",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-OREN",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1061225578,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-TOWN-ADEN",
+      "nameZh": "亞丁村",
+      "kind": "settlement",
+      "parentId": "MAP-REG-ADEN",
+      "familyId": "ASSET-TERRAIN-CITY",
+      "family": "CITY",
+      "manifest": "manifests/city.json",
+      "terrainArtRequirements": "獨立繪製的聚落建築、服務廣場、碼頭或城門",
+      "reuseReferenceId": "ASSET-REF-MAP-TOWN-ADEN",
+      "assetRefs": [
+        "ASSET-TERRAIN-CITY",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3455737360,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TALKING-F01",
+      "nameZh": "說話之島地監 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TALKING",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "入口墓室與繞行廊道",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TALKING-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1384720271,
+        "widthTiles": 160,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TALKING-F02",
+      "nameZh": "說話之島地監 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TALKING",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "封鎖祭壇與巴風特門區",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TALKING-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 359678152,
+        "widthTiles": 112,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-SLEEPING-F01",
+      "nameZh": "眠龍洞穴 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-SLEEPING",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "盤根洞口與岔路",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-SLEEPING-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 165675949,
+        "widthTiles": 128,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-SLEEPING-F02",
+      "nameZh": "眠龍洞穴 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-SLEEPING",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "潮濕地下水槽",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-SLEEPING-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1291646144,
+        "widthTiles": 112,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-SLEEPING-F03",
+      "nameZh": "眠龍洞穴 3樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-SLEEPING",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "施法者深處與回撤死角",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-SLEEPING-F03",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 527148338,
+        "widthTiles": 144,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F01",
+      "nameZh": "古魯丁地監 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-GLUDIN",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "廢棄採石入口",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-GLUDIN-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 4291711280,
+        "widthTiles": 112,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F02",
+      "nameZh": "古魯丁地監 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-GLUDIN",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "交錯礦軌",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-GLUDIN-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3602828737,
+        "widthTiles": 128,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F03",
+      "nameZh": "古魯丁地監 3樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-GLUDIN",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "家族巡遊側廳",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-GLUDIN-F03",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3481355015,
+        "widthTiles": 160,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F04",
+      "nameZh": "古魯丁地監 4樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-GLUDIN",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "交叉法術迴廊",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-GLUDIN-F04",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1810185679,
+        "widthTiles": 160,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F05",
+      "nameZh": "古魯丁地監 5樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-GLUDIN",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "死亡騎士巡路與避戰側室",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-GLUDIN-F05",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1768835914,
+        "widthTiles": 144,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F06",
+      "nameZh": "古魯丁地監 6樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-GLUDIN",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "巫師研究區",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-GLUDIN-F06",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 4095171958,
+        "widthTiles": 144,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-GLUDIN-F07",
+      "nameZh": "古魯丁地監 7樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-GLUDIN",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "歐林補給壁龕與深層戰場",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-GLUDIN-F07",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 927600086,
+        "widthTiles": 144,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-DESERT-F01",
+      "nameZh": "沙漠地監 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-DESERT",
+      "familyId": "ASSET-TERRAIN-CRYPT",
+      "family": "CRYPT",
+      "manifest": "manifests/crypt.json",
+      "terrainArtRequirements": "掩沙階梯",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-DESERT-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-CRYPT",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 325329295,
+        "widthTiles": 160,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-DESERT-F02",
+      "nameZh": "沙漠地監 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-DESERT",
+      "familyId": "ASSET-TERRAIN-CRYPT",
+      "family": "CRYPT",
+      "manifest": "manifests/crypt.json",
+      "terrainArtRequirements": "坍塌墓道",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-DESERT-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-CRYPT",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1397290609,
+        "widthTiles": 128,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-DESERT-F03",
+      "nameZh": "沙漠地監 3樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-DESERT",
+      "familyId": "ASSET-TERRAIN-CRYPT",
+      "family": "CRYPT",
+      "manifest": "manifests/crypt.json",
+      "terrainArtRequirements": "石棺交叉廳",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-DESERT-F03",
+      "assetRefs": [
+        "ASSET-TERRAIN-CRYPT",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1702175679,
+        "widthTiles": 160,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-DESERT-F04",
+      "nameZh": "沙漠地監 4樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-DESERT",
+      "familyId": "ASSET-TERRAIN-CRYPT",
+      "family": "CRYPT",
+      "manifest": "manifests/crypt.json",
+      "terrainArtRequirements": "深處祭室與撤退長廊",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-DESERT-F04",
+      "assetRefs": [
+        "ASSET-TERRAIN-CRYPT",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 990170066,
+        "widthTiles": 144,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-ANT-F01",
+      "nameZh": "螞蟻洞窟 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-ANT",
+      "familyId": "ASSET-TERRAIN-ANT",
+      "family": "ANT",
+      "manifest": "manifests/ant.json",
+      "terrainArtRequirements": "覓食坑道與幼蟻室",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-ANT-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-ANT",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 930541410,
+        "widthTiles": 144,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-ANT-F02",
+      "nameZh": "螞蟻洞窟 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-ANT",
+      "familyId": "ASSET-TERRAIN-ANT",
+      "family": "ANT",
+      "manifest": "manifests/ant.json",
+      "terrainArtRequirements": "蟻后巢室及兵蟻環道",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-ANT-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-ANT",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1758351799,
+        "widthTiles": 160,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-GIRAN-F01",
+      "nameZh": "奇岩地監 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-GIRAN",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "城北牢窟",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-GIRAN-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 704895728,
+        "widthTiles": 112,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-GIRAN-F02",
+      "nameZh": "奇岩地監 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-GIRAN",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "排水渠分岔",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-GIRAN-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3246346485,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-GIRAN-F03",
+      "nameZh": "奇岩地監 3樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-GIRAN",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "石室迷路環道",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-GIRAN-F03",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 672940238,
+        "widthTiles": 144,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-GIRAN-F04",
+      "nameZh": "奇岩地監 4樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-GIRAN",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "深層兵營；無官方首領",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-GIRAN-F04",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2699486892,
+        "widthTiles": 112,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F01",
+      "nameZh": "龍之谷地監 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-DRAGON",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "多羅前哨與岩橋",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-DRAGON-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2281140516,
+        "widthTiles": 112,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F02",
+      "nameZh": "龍之谷地監 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-DRAGON",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "莫妮亞伏擊分支",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-DRAGON-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1653823917,
+        "widthTiles": 128,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F03",
+      "nameZh": "龍之谷地監 3樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-DRAGON",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "垂直裂隙環道",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-DRAGON-F03",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3250310443,
+        "widthTiles": 160,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F04",
+      "nameZh": "龍之谷地監 4樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-DRAGON",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "思克巴迴廊",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-DRAGON-F04",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2115886662,
+        "widthTiles": 144,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F05",
+      "nameZh": "龍之谷地監 5樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-DRAGON",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "思克巴女皇內室",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-DRAGON-F05",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 603586182,
+        "widthTiles": 144,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F06",
+      "nameZh": "龍之谷地監 6樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-DRAGON",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "龍骨壓迫通道",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-DRAGON-F06",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 879213937,
+        "widthTiles": 128,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-DRAGON-F07",
+      "nameZh": "龍之谷地監 7樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-DRAGON",
+      "familyId": "ASSET-TERRAIN-CAVE",
+      "family": "CAVE",
+      "manifest": "manifests/cave.json",
+      "terrainArtRequirements": "安塔瑞斯巢穴與外圍環道",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-DRAGON-F07",
+      "assetRefs": [
+        "ASSET-TERRAIN-CAVE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 626240163,
+        "widthTiles": 160,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-EVA-F01",
+      "nameZh": "伊娃王國地監 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-EVA",
+      "familyId": "ASSET-TERRAIN-UNDERWATER",
+      "family": "UNDERWATER",
+      "manifest": "manifests/underwater.json",
+      "terrainArtRequirements": "沉城入口與氣泡準備處",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-EVA-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-UNDERWATER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2803263658,
+        "widthTiles": 144,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-EVA-F02",
+      "nameZh": "伊娃王國地監 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-EVA",
+      "familyId": "ASSET-TERRAIN-UNDERWATER",
+      "family": "UNDERWATER",
+      "manifest": "manifests/underwater.json",
+      "terrainArtRequirements": "淹沒街道與宮殿迴路",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-EVA-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-UNDERWATER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3886301655,
+        "widthTiles": 160,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-EVA-F03",
+      "nameZh": "伊娃王國地監 3樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-EVA",
+      "familyId": "ASSET-TERRAIN-UNDERWATER",
+      "family": "UNDERWATER",
+      "manifest": "manifests/underwater.json",
+      "terrainArtRequirements": "深海王國遺跡",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-EVA-F03",
+      "assetRefs": [
+        "ASSET-TERRAIN-UNDERWATER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3180631161,
+        "widthTiles": 128,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F01",
+      "nameZh": "象牙塔 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-IVORY",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "接待與大廳",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-IVORY-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1556047657,
+        "widthTiles": 128,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F02",
+      "nameZh": "象牙塔 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-IVORY",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "知識服務廊",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-IVORY-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 900124322,
+        "widthTiles": 144,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F03",
+      "nameZh": "象牙塔 3樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-IVORY",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "研究與任務廊",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-IVORY-F03",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2372827431,
+        "widthTiles": 160,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F04",
+      "nameZh": "象牙塔 4樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-IVORY",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "失控構裝入口",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-IVORY-F04",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 936909493,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F05",
+      "nameZh": "象牙塔 5樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-IVORY",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "元素交錯實驗室",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-IVORY-F05",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3084983817,
+        "widthTiles": 128,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F06",
+      "nameZh": "象牙塔 6樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-IVORY",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "禁書與施法者迴廊",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-IVORY-F06",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 4220323073,
+        "widthTiles": 128,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F07",
+      "nameZh": "象牙塔 7樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-IVORY",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "召喚儀式隔間",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-IVORY-F07",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3985219123,
+        "widthTiles": 160,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-IVORY-F08",
+      "nameZh": "象牙塔 8樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-IVORY",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "塔頂核心封印區",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-IVORY-F08",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3507558508,
+        "widthTiles": 112,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-CRYSTAL-F01",
+      "nameZh": "水晶洞穴 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-CRYSTAL",
+      "familyId": "ASSET-TERRAIN-ICE",
+      "family": "ICE",
+      "manifest": "manifests/ice.json",
+      "terrainArtRequirements": "冰晶裂縫",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-CRYSTAL-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-ICE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3394343357,
+        "widthTiles": 128,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-CRYSTAL-F02",
+      "nameZh": "水晶洞穴 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-CRYSTAL",
+      "familyId": "ASSET-TERRAIN-ICE",
+      "family": "ICE",
+      "manifest": "manifests/ice.json",
+      "terrainArtRequirements": "反射冰廊與窄橋",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-CRYSTAL-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-ICE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 4263761616,
+        "widthTiles": 112,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-CRYSTAL-F03",
+      "nameZh": "水晶洞穴 3樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-CRYSTAL",
+      "familyId": "ASSET-TERRAIN-ICE",
+      "family": "ICE",
+      "manifest": "manifests/ice.json",
+      "terrainArtRequirements": "冰后深殿",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-CRYSTAL-F03",
+      "assetRefs": [
+        "ASSET-TERRAIN-ICE",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2327632939,
+        "widthTiles": 160,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-VALAKAS-F01",
+      "nameZh": "巴拉卡斯棲息地 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-VALAKAS",
+      "familyId": "ASSET-TERRAIN-VOLCANIC",
+      "family": "VOLCANIC",
+      "manifest": "manifests/volcanic.json",
+      "terrainArtRequirements": "熔岩龍巢與冷卻邊緣",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-VALAKAS-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-VOLCANIC",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3491586382,
+        "widthTiles": 144,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-LINDVIOR-F01",
+      "nameZh": "林德拜爾棲息地 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-LINDVIOR",
+      "familyId": "ASSET-TERRAIN-MOUNTAIN",
+      "family": "MOUNTAIN",
+      "manifest": "manifests/mountain.json",
+      "terrainArtRequirements": "高峰龍巢與避風岩柱",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-LINDVIOR-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-MOUNTAIN",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3541065574,
+        "widthTiles": 144,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-SEWER-F01",
+      "nameZh": "亞丁地下水道 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-SEWER",
+      "familyId": "ASSET-TERRAIN-SEWER",
+      "family": "SEWER",
+      "manifest": "manifests/sewer.json",
+      "terrainArtRequirements": "排水入口與閘門",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-SEWER-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-SEWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 928009338,
+        "widthTiles": 144,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-SEWER-F02",
+      "nameZh": "亞丁地下水道 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-SEWER",
+      "familyId": "ASSET-TERRAIN-SEWER",
+      "family": "SEWER",
+      "manifest": "manifests/sewer.json",
+      "terrainArtRequirements": "匯流池與維修側道",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-SEWER-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-SEWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3021645221,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-SEWER-F03",
+      "nameZh": "亞丁地下水道 3樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-SEWER",
+      "familyId": "ASSET-TERRAIN-SEWER",
+      "family": "SEWER",
+      "manifest": "manifests/sewer.json",
+      "terrainArtRequirements": "沉積深渠與出口檢修道",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-SEWER-F03",
+      "assetRefs": [
+        "ASSET-TERRAIN-SEWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 4164757430,
+        "widthTiles": 144,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F01",
+      "nameZh": "傲慢之塔 1樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "崩裂前廳",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F01",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1526655860,
+        "widthTiles": 112,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F02",
+      "nameZh": "傲慢之塔 2樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "毒霧低廊",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F02",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1423737407,
+        "widthTiles": 160,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F03",
+      "nameZh": "傲慢之塔 3樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "三叉回音廳",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F03",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1702598030,
+        "widthTiles": 144,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F04",
+      "nameZh": "傲慢之塔 4樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "石化觀察室",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F04",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3703609987,
+        "widthTiles": 160,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F05",
+      "nameZh": "傲慢之塔 5樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "環形蛇廊",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F05",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2727203438,
+        "widthTiles": 144,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F06",
+      "nameZh": "傲慢之塔 6樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "斷橋庫室",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F06",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3537628953,
+        "widthTiles": 128,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F07",
+      "nameZh": "傲慢之塔 7樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "雙層視線廳",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F07",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3259109510,
+        "widthTiles": 144,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F08",
+      "nameZh": "傲慢之塔 8樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "禁忌雕像迴廊",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F08",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 790218393,
+        "widthTiles": 128,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F09",
+      "nameZh": "傲慢之塔 9樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "守門前室",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F09",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 964976023,
+        "widthTiles": 160,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F10",
+      "nameZh": "傲慢之塔 10樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "第一階段頂廳",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F10",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3197139727,
+        "widthTiles": 160,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F11",
+      "nameZh": "傲慢之塔 11樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "灰燼入口廳",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F11",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2650054114,
+        "widthTiles": 144,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F12",
+      "nameZh": "傲慢之塔 12樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "焚燒書庫",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F12",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1952876745,
+        "widthTiles": 128,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F13",
+      "nameZh": "傲慢之塔 13樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "窄橋火環",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F13",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1051592993,
+        "widthTiles": 128,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F14",
+      "nameZh": "傲慢之塔 14樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "分岔熔爐廊",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F14",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2853201705,
+        "widthTiles": 128,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F15",
+      "nameZh": "傲慢之塔 15樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "殘破鐘廳",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F15",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2850452681,
+        "widthTiles": 128,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F16",
+      "nameZh": "傲慢之塔 16樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "黑曜石觀測室",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F16",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3392951151,
+        "widthTiles": 160,
+        "heightTiles": 144
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F17",
+      "nameZh": "傲慢之塔 17樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "折返火廊",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F17",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1481249411,
+        "widthTiles": 160,
+        "heightTiles": 96
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F18",
+      "nameZh": "傲慢之塔 18樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "高壓交戰廳",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F18",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 1731191541,
+        "widthTiles": 128,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F19",
+      "nameZh": "傲慢之塔 19樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "第二守門前室",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F19",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 2256468932,
+        "widthTiles": 112,
+        "heightTiles": 112
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    },
+    {
+      "mapId": "MAP-DUN-TOI-F20",
+      "nameZh": "傲慢之塔 20樓",
+      "kind": "dungeon_floor",
+      "parentId": "DUN-TOI",
+      "familyId": "ASSET-TERRAIN-TOWER",
+      "family": "TOWER",
+      "manifest": "manifests/tower.json",
+      "terrainArtRequirements": "第二階段頂廳",
+      "reuseReferenceId": "ASSET-REF-MAP-DUN-TOI-F20",
+      "assetRefs": [
+        "ASSET-TERRAIN-TOWER",
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "worldAssetRefs": [
+        "ASSET-WORLD-PORTALS",
+        "ASSET-WORLD-STRUCTURES",
+        "ASSET-WORLD-LOADING"
+      ],
+      "layout": {
+        "seed": 3683607416,
+        "widthTiles": 112,
+        "heightTiles": 128
+      },
+      "bindingBasis": "Exact canonical asset_refs join by reuse_reference.entity_id; not inferred from map name."
+    }
+  ]
+}

@@ -1,0 +1,5964 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "MON-ZENITH",
+  "consumerIds": [
+    "MON-ZENITH"
+  ],
+  "engineContract": {
+    "displayBaseHeight": 108
+  },
+  "assetId": "ASSET-BODY-MON-ZENITH",
+  "width": 4096,
+  "height": 4032,
+  "cellWidth": 256,
+  "cellHeight": 192,
+  "baseHeight": 108,
+  "anchor": [
+    128,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-S-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-S-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-S-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-S-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-S-1.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-S-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-S-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-S-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-S-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-S-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-S-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-S-1.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-S-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-S-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-S-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            128,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-S-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-S-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-S-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            128,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-S-1.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-S.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-S-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-S-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-S-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            177
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-S-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-S-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            128,
+            170
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-S-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            128,
+            171
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-S-1.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-S-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-S-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-S-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-S-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-S-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-S-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-S-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-S-1.webp"
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SW-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SW-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SW-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SW-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SW-1.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SW-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SW-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SW-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SW-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SW-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SW-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SW-1.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SW-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SW-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SW-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SW-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SW-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SW-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SW-1.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-SW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SW-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SW-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SW-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SW-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SW-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SW-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SW-1.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SW-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SW-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SW-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SW-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SW-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SW-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SW-1.webp"
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-W-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-W-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-W-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-W-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-W-1.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-W-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-W-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-W-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-W-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-W-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-W-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-W-1.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-W-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-W-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-W-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-W-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-W-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-W-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-W-1.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-W.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-W-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-W-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-W-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-W-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            128,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-W-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            128,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-W-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            128,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-W-1.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-W-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            171
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-W-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            171
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-W-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            171
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-W-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            171
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-W-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            171
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-W-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-W-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-W-1.webp"
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NW-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NW-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NW-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NW-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NW-1.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NW-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NW-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NW-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NW-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NW-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NW-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NW-1.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NW-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NW-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NW-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NW-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NW-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NW-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NW-1.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-NW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NW-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NW-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NW-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NW-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NW-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NW-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            128,
+            186
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NW-1.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            174
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NW-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            175
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NW-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            175
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NW-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            175
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NW-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            175
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NW-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            174
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NW-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            175
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NW-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            128,
+            175
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NW-1.webp"
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-N-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-N-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-N-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-N-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            169
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-N-1.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-N-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-N-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-N-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            167
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-N-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-N-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-N-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            168
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-N-1.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            159
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-N-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            159
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-N-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            159
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-N-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            164
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            128,
+            159
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-N-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            158
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-N-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            159
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-N-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            128,
+            159
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-N-1.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            128,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            128,
+            161
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            128,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-N.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            163
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-N-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            164
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-N-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-N-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-N-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            128,
+            165
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-N-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            128,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-N-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            128,
+            166
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-N-1.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-N-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-N-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-N-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-N-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-N-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-N-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-N-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            128,
+            162
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-N-1.webp"
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NE-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NE-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NE-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NE-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-NE-1.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NE-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NE-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NE-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NE-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NE-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NE-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-NE-1.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NE-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NE-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NE-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NE-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NE-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NE-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            128,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-NE-1.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            128,
+            185
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-NE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NE-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NE-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            183
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NE-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NE-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NE-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NE-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-NE-1.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NE-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NE-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NE-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            175
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            175
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NE-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NE-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NE-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            128,
+            176
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-NE-1.webp"
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-E-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-E-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-E-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-E-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-E-1.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-E-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-E-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-E-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-E-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-E-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-E-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-E-1.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-E-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-E-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-E-human-height-v2-frame3.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            128,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-E-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            172
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-E-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-E-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            128,
+            173
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-E-1.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-E.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-E-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-E-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            180
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-E-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-E-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            128,
+            182
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-E-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-E-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            128,
+            184
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-E-1.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            181
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-E-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-E-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-E-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-E-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            178
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-E-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-E-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-E-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            128,
+            179
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-E-1.webp"
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SE-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SE-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SE-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SE-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-SE-1.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SE-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SE-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SE-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SE-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SE-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SE-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/walk-SE-1.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SE-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SE-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SE-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SE-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SE-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SE-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/attack-SE-1.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/hit-SE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SE-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SE-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SE-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SE-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SE-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SE-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            128,
+            188
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/death-SE-1.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SE-0.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SE-0.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SE-0.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SE-0.webp"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            256,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SE-1.webp"
+        },
+        {
+          "rect": [
+            256,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SE-1.webp"
+        },
+        {
+          "rect": [
+            512,
+            0,
+            256,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SE-1.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            256,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            128,
+            187
+          ],
+          "atlas": "hybrid-monster-staging/actors/zenith/clips/cast-SE-1.webp"
+        }
+      ]
+    }
+  },
+  "status": "candidate",
+  "frameCount": 336,
+  "clipCount": 48,
+  "provenance": {
+    "method": "Original class-specific articulated model and eight independent views; original imagegen detail finish",
+    "model": "source/zenith-original.blend",
+    "sources": [
+      {
+        "state": "idle",
+        "sha256": "841f6311cd5b3abf6cbd63aa54d0c2418f86b40201d4073be84748053fec05a5",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "walk",
+        "sha256": "26fc9d1b03d33531e74f347e2c4f7e927de23aa4f71d1548820cde960be0435a",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "attack",
+        "sha256": "4f3b34666e7dbaed8e78fe107bd7bc27e775c588068d877b374de67f09ab1a90",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "hit",
+        "sha256": "f14941c419cad5b5edb701a0172ed584a3388f50be5300f04141a3fda6e4d1f7",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "death",
+        "sha256": "955efb431236614cdfcffc056746e68280373f09691745d71632e652b3bd109f",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "cast",
+        "sha256": "9705fa0955384325859577b5952082bbb097c85475ce99a4b964dab92e93a688",
+        "method": "built-in imagegen original finish over original articulated pose guide"
+      },
+      {
+        "state": "hit",
+        "direction": "S",
+        "frames": [
+          1
+        ],
+        "sha256": "2636184d39fe99e0cb1c6daa82d62e729d74af8b7e527b54875ab61eb9942a2f"
+      },
+      {
+        "state": "attack",
+        "direction": "S",
+        "frames": [
+          3
+        ],
+        "sha256": "2cd96fa70b992242cc797fe7aad47a28103db720f8e09c285d1c739cdafd34bc"
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frames": [
+          3
+        ],
+        "sha256": "88891f5b8e513b626989f02ace383ff7be43f81968cb9039a33bb73ba7376c74"
+      }
+    ],
+    "nativeFrameOverrides": [
+      {
+        "state": "hit",
+        "direction": "S",
+        "frame": 1,
+        "sourceSHA256": "2636184d39fe99e0cb1c6daa82d62e729d74af8b7e527b54875ab61eb9942a2f",
+        "sourceRect": [
+          7,
+          42,
+          1269,
+          1141
+        ],
+        "registration": [
+          67.3503893214683,
+          74,
+          0.09566184649610679
+        ],
+        "anchor": [
+          128,
+          150
+        ],
+        "duration": 75,
+        "calibration": {
+          "method": "One constant body-only scale from crown-to-central-front-carapace-tip span; leg spread, feet and abdomen side extrema are excluded. Central plate axis is registered to the accepted same-heading ready body. Visual landmark estimate, subject to runtime continuity review.",
+          "sourceBodyLandmarks": [
+            [
+              641,
+              42
+            ],
+            [
+              641,
+              941
+            ]
+          ],
+          "referenceBodyLandmarks": [
+            [
+              128,
+              74
+            ],
+            [
+              128,
+              160
+            ]
+          ],
+          "referenceState": "hit",
+          "referenceFrame": 0,
+          "constantScale": 0.09566184649610679,
+          "sourceRect": [
+            7,
+            42,
+            1269,
+            1141
+          ],
+          "landmarkToleranceRuntimePixels": 2
+        }
+      },
+      {
+        "state": "attack",
+        "direction": "S",
+        "frame": 3,
+        "sourceSHA256": "2cd96fa70b992242cc797fe7aad47a28103db720f8e09c285d1c739cdafd34bc",
+        "sourceRect": [
+          19,
+          38,
+          1217,
+          1161
+        ],
+        "registration": [
+          69.14285714285714,
+          74,
+          0.09523809523809523
+        ],
+        "anchor": [
+          128,
+          150
+        ],
+        "duration": 70,
+        "calibration": {
+          "method": "One constant central-body scale from crown-to-front-chitin-tip span; all spider leg/foot extrema excluded. Carapace axis registered to accepted S ready core; no per-frame or limb scaling.",
+          "sourceBodyLandmarks": [
+            [
+              637,
+              38
+            ],
+            [
+              637,
+              941
+            ]
+          ],
+          "referenceBodyLandmarks": [
+            [
+              128,
+              74
+            ],
+            [
+              128,
+              160
+            ]
+          ],
+          "referenceState": "attack",
+          "referenceFrame": 0,
+          "sourceRect": [
+            19,
+            38,
+            1217,
+            1161
+          ],
+          "constantScale": 0.09523809523809523,
+          "landmarkToleranceRuntimePixels": 2
+        }
+      },
+      {
+        "state": "attack",
+        "direction": "N",
+        "frame": 3,
+        "sourceSHA256": "88891f5b8e513b626989f02ace383ff7be43f81968cb9039a33bb73ba7376c74",
+        "sourceRect": [
+          132,
+          161,
+          992,
+          980
+        ],
+        "registration": [
+          69.65344467640918,
+          52.822546972860124,
+          0.11482254697286012
+        ],
+        "anchor": [
+          128,
+          150
+        ],
+        "duration": 70,
+        "calibration": {
+          "method": "One constant physical scale from the unchanged central spider abdomen width, excluding moving humanoid arms/head and all eight leg/foot extrema. Central abdomen center and lower-body datum registered to accepted N ready0. Visual semantic-body landmarks remain estimated pending runtime continuity review.",
+          "sourceAbdomenBounds": [
+            405,
+            645,
+            884,
+            1077
+          ],
+          "referenceAbdomenBounds": [
+            101,
+            103,
+            156,
+            158
+          ],
+          "referenceState": "attack",
+          "referenceFrame": 0,
+          "sourceRect": [
+            132,
+            161,
+            992,
+            980
+          ],
+          "constantScale": 0.11482254697286012,
+          "landmarkToleranceRuntimePixels": 2
+        }
+      }
+    ],
+    "sourceManifestSHA256": "5d174c65a43ac50bd88057c472369326920a00937f7cd4796cb5b5f74d16a73a"
+  },
+  "validation": {
+    "issues": [],
+    "frameTranslations": [
+      {
+        "state": "idle",
+        "direction": "SW",
+        "frame": 0,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SW",
+        "frame": 1,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SW",
+        "frame": 2,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SW",
+        "frame": 3,
+        "offset": [
+          0,
+          -10
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SW",
+        "frame": 4,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SW",
+        "frame": 5,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SE",
+        "frame": 0,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SE",
+        "frame": 1,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SE",
+        "frame": 2,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SE",
+        "frame": 3,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SE",
+        "frame": 4,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "idle",
+        "direction": "SE",
+        "frame": 5,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 0,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 1,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 2,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 3,
+        "offset": [
+          0,
+          -10
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 4,
+        "offset": [
+          0,
+          -8
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 5,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 6,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SW",
+        "frame": 7,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SE",
+        "frame": 0,
+        "offset": [
+          0,
+          -7
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SE",
+        "frame": 1,
+        "offset": [
+          0,
+          -6
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SE",
+        "frame": 2,
+        "offset": [
+          0,
+          -7
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SE",
+        "frame": 3,
+        "offset": [
+          0,
+          -7
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SE",
+        "frame": 4,
+        "offset": [
+          0,
+          -6
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SE",
+        "frame": 5,
+        "offset": [
+          0,
+          -6
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SE",
+        "frame": 6,
+        "offset": [
+          0,
+          -7
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "walk",
+        "direction": "SE",
+        "frame": 7,
+        "offset": [
+          0,
+          -7
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 0,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 1,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 2,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 3,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 4,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 5,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 6,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "attack",
+        "direction": "SE",
+        "frame": 7,
+        "offset": [
+          0,
+          -4
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "SW",
+        "frame": 0,
+        "offset": [
+          0,
+          -5
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "SW",
+        "frame": 1,
+        "offset": [
+          0,
+          -5
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "SW",
+        "frame": 2,
+        "offset": [
+          0,
+          -6
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "SW",
+        "frame": 3,
+        "offset": [
+          0,
+          -5
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "SE",
+        "frame": 0,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "SE",
+        "frame": 1,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "SE",
+        "frame": 2,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "hit",
+        "direction": "SE",
+        "frame": 3,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "frame": 0,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "frame": 1,
+        "offset": [
+          0,
+          -8
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "frame": 2,
+        "offset": [
+          0,
+          -8
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "frame": 3,
+        "offset": [
+          0,
+          -8
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "frame": 4,
+        "offset": [
+          0,
+          -9
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "frame": 5,
+        "offset": [
+          0,
+          -7
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "frame": 6,
+        "offset": [
+          0,
+          -8
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SW",
+        "frame": 7,
+        "offset": [
+          0,
+          -8
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "frame": 0,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "frame": 1,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "frame": 2,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "frame": 3,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "frame": 4,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "frame": 5,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "frame": 6,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "death",
+        "direction": "SE",
+        "frame": 7,
+        "offset": [
+          0,
+          -11
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 0,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 1,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 2,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 3,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 4,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 5,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 6,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      },
+      {
+        "state": "cast",
+        "direction": "SE",
+        "frame": 7,
+        "offset": [
+          0,
+          -12
+        ],
+        "worldSpaceDelta": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sourceGridCounts": {
+      "idle": 48,
+      "walk": 64,
+      "attack": 64,
+      "hit": 32,
+      "death": 64,
+      "cast": 64
+    },
+    "loopRegistration": "original projected ground origin mapped through idle neutral anatomy; per-state neutral size matched to idle at each independent heading; no per-frame rescaling",
+    "inGame": "not tested"
+  },
+  "runtimeLayout": "per-action-direction-chunked",
+  "maximumClipDecodedBytes": 786432,
+  "runtimeTextureCount": 88,
+  "maximumFramesPerTexture": 4
+}

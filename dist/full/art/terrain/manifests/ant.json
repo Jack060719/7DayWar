@@ -1,0 +1,3201 @@
+{
+  "schemaVersion": 1,
+  "familyId": "ASSET-TERRAIN-ANT",
+  "family": "ANT",
+  "implementationState": "GENERATED_SOURCE_COUNTS_MET_INTEGRATION_PENDING",
+  "tileProjection": {
+    "width": 64,
+    "height": 32,
+    "type": "isometric-2:1"
+  },
+  "sourceCatalog": "catalog-requirements.json",
+  "tiles": [
+    {
+      "id": "ANT-GROUND-01",
+      "name": "compacted-brown-soil",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63098,
+          "nonzero": 34871,
+          "opaque": 28311,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "02fac0865d2f109bcfc3a93380f571fd67f3cf9e510d076cb08ca8f0ae530a76",
+        "sourceRect": {
+          "x": 2,
+          "y": 102,
+          "w": 309,
+          "h": 190
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-02",
+      "name": "fine-tunnel-grit",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63112,
+          "nonzero": 35170,
+          "opaque": 28421,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "2783450855a3f36531b63844ba0d4b617677ff9a98ef881a6c54228469f4eec4",
+        "sourceRect": {
+          "x": 317,
+          "y": 101,
+          "w": 308,
+          "h": 191
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-03",
+      "name": "root-threaded-earth",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62023,
+          "nonzero": 35946,
+          "opaque": 28530,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "66558fee60adc0ebe852d0c906b65f2d25b62966f3790344f270d3df63d74853",
+        "sourceRect": {
+          "x": 631,
+          "y": 101,
+          "w": 306,
+          "h": 191
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-04",
+      "name": "dark-moist-loam",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62002,
+          "nonzero": 36280,
+          "opaque": 28565,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "1f25f86a2555e0179dea98726a333a27932205717d94eb98d6c0f0294157edc1",
+        "sourceRect": {
+          "x": 943,
+          "y": 99,
+          "w": 307,
+          "h": 193
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-05",
+      "name": "rippled-worker-trail",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62347,
+          "nonzero": 35935,
+          "opaque": 28228,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "577c150d1796f97bc16cb6a283e537821b37daf6d8f2ec4103c987b1c528f8ac",
+        "sourceRect": {
+          "x": 4,
+          "y": 390,
+          "w": 307,
+          "h": 190
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-06",
+      "name": "small-pebble-earth",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63190,
+          "nonzero": 35406,
+          "opaque": 28419,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "2c90d3c7ea9769b7b9d17b9cf9064009c1e88ab7d20fe485fcc6727abca3dd5e",
+        "sourceRect": {
+          "x": 317,
+          "y": 390,
+          "w": 307,
+          "h": 190
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-07",
+      "name": "chitin-fragment-litter",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 60613,
+          "nonzero": 37669,
+          "opaque": 28364,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "92358fa1a9872f74df32eb00c956dcf518a66e8a489de9aa4f5e20055ab97f82",
+        "sourceRect": {
+          "x": 631,
+          "y": 390,
+          "w": 306,
+          "h": 190
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-08",
+      "name": "packed-yellow-clay",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63318,
+          "nonzero": 35278,
+          "opaque": 28487,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "8b6204276c8a30a3452d6876a819dd3c8392486b671a5b21245306cf7ba98db5",
+        "sourceRect": {
+          "x": 943,
+          "y": 390,
+          "w": 307,
+          "h": 190
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-09",
+      "name": "chewed-wood-granules",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62213,
+          "nonzero": 35756,
+          "opaque": 28108,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "1c6a048aa04069a92c25f0b0247ac699b7ad5efafba25c96078f5c2579c46107",
+        "sourceRect": {
+          "x": 2,
+          "y": 678,
+          "w": 306,
+          "h": 192
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-10",
+      "name": "white-fungus-loam",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62369,
+          "nonzero": 35913,
+          "opaque": 28748,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "3430d0797a475e28ee704dcb12ca19e0c4391cd052bef9aac1a253a0e1a933c4",
+        "sourceRect": {
+          "x": 317,
+          "y": 678,
+          "w": 307,
+          "h": 193
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-11",
+      "name": "seed-husk-litter",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63236,
+          "nonzero": 34733,
+          "opaque": 28400,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "7107c93b1d69e6dbed784103aaf2b1ba0d20e85e9780193299cc0b3ff3d112ee",
+        "sourceRect": {
+          "x": 631,
+          "y": 678,
+          "w": 306,
+          "h": 192
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-12",
+      "name": "crumbly-wall-fall",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63322,
+          "nonzero": 34960,
+          "opaque": 28950,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "3f2e1669d191f2603ed2730ba17d70a9163508d3a281f20970ae828e2e95aa49",
+        "sourceRect": {
+          "x": 943,
+          "y": 678,
+          "w": 307,
+          "h": 192
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-13",
+      "name": "dried-resin-earth",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63383,
+          "nonzero": 34899,
+          "opaque": 28063,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "8a1586607a9d175a755fdc3a5be6005b0a89d048ed79f2776b78bf3d38ea07e6",
+        "sourceRect": {
+          "x": 4,
+          "y": 966,
+          "w": 306,
+          "h": 190
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-14",
+      "name": "egg-nursery-soil",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62537,
+          "nonzero": 36059,
+          "opaque": 28609,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "29990d5aa33a628c7c6e8f8a51d040b49934faea50f88340a7ea5cd100a7d640",
+        "sourceRect": {
+          "x": 317,
+          "y": 966,
+          "w": 307,
+          "h": 191
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-15",
+      "name": "deeper-red-clay",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63908,
+          "nonzero": 34374,
+          "opaque": 28271,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "61ed8a60e4add6d64d28d66776019686513c05118768a2aaa518dabc714aabc8",
+        "sourceRect": {
+          "x": 631,
+          "y": 967,
+          "w": 306,
+          "h": 190
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-GROUND-16",
+      "name": "vent-hole-speckled-dirt",
+      "kind": "ground",
+      "atlas": "atlases/ant-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63518,
+          "nonzero": 35078,
+          "opaque": 28402,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-ground-generated.png",
+        "sha256": "6613e70503dd845b4caa91b760d545963b99d1627ea626ea29048bbeeaae2345",
+        "spriteSha256": "dbc0f87ad3d4e1d578215be5f520d8376cefdfbdc4d6414051efdb508351ce6a",
+        "sourceRect": {
+          "x": 943,
+          "y": 966,
+          "w": 307,
+          "h": 192
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    }
+  ],
+  "edgeMasks": [
+    {
+      "id": "ANT-EDGE-01",
+      "name": "ribbon-a",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 16,
+        "y": 2,
+        "w": 99,
+        "h": 96
+      },
+      "anchor": {
+        "x": 49.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 60490,
+          "nonzero": 37479,
+          "opaque": 14192,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "29a4503b84d692f85359a1d10d13fbedc5132133785676fea0f042e459ad5d2b",
+        "sourceRect": {
+          "x": 44,
+          "y": 34,
+          "w": 265,
+          "h": 256
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-02",
+      "name": "ribbon-b",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 151,
+        "y": 2,
+        "w": 94,
+        "h": 96
+      },
+      "anchor": {
+        "x": 47,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 61199,
+          "nonzero": 37083,
+          "opaque": 11908,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "a93ce5b5b3ae5d8d0a06afe6b1d501d86722fb99140b153b2ffaf17b5595165d",
+        "sourceRect": {
+          "x": 340,
+          "y": 28,
+          "w": 261,
+          "h": 267
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-03",
+      "name": "ribbon-c",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 281,
+        "y": 2,
+        "w": 97,
+        "h": 96
+      },
+      "anchor": {
+        "x": 48.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62360,
+          "nonzero": 35609,
+          "opaque": 12993,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "d8ad7fac9098368cfc200b6ec63d32b7480131a9c5c461d445e9388c118ff442",
+        "sourceRect": {
+          "x": 655,
+          "y": 35,
+          "w": 267,
+          "h": 264
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-04",
+      "name": "ribbon-d",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 415,
+        "y": 2,
+        "w": 93,
+        "h": 96
+      },
+      "anchor": {
+        "x": 46.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62239,
+          "nonzero": 36043,
+          "opaque": 14590,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "4ff55b4e5def32458274b0b60fa025e13931a407b33e8d3db1bd6d8bc3f7d484",
+        "sourceRect": {
+          "x": 964,
+          "y": 30,
+          "w": 257,
+          "h": 265
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-05",
+      "name": "corner-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 19,
+        "y": 102,
+        "w": 94,
+        "h": 96
+      },
+      "anchor": {
+        "x": 47,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 52946,
+          "nonzero": 45336,
+          "opaque": 16392,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "65bd313b63d5464fe1718b51c1fce05739615a879d7fa19952b892d2c353cece",
+        "sourceRect": {
+          "x": 35,
+          "y": 345,
+          "w": 253,
+          "h": 259
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-06",
+      "name": "corner-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 138,
+        "y": 102,
+        "w": 120,
+        "h": 96
+      },
+      "anchor": {
+        "x": 60,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62576,
+          "nonzero": 36020,
+          "opaque": 11619,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "9889f6e1e38f1e2bc8ad5b61cea5f20fcd1508464fafb2f3097d0ff288907c27",
+        "sourceRect": {
+          "x": 338,
+          "y": 346,
+          "w": 279,
+          "h": 223
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-07",
+      "name": "corner-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 293,
+        "y": 102,
+        "w": 74,
+        "h": 96
+      },
+      "anchor": {
+        "x": 37,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 67427,
+          "nonzero": 30855,
+          "opaque": 12737,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "b9262c2c96412a272e7eececf38ac5c28c45b9f1c712167af745d17202d9dfbd",
+        "sourceRect": {
+          "x": 706,
+          "y": 341,
+          "w": 205,
+          "h": 266
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-08",
+      "name": "corner-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 104,
+        "w": 128,
+        "h": 91
+      },
+      "anchor": {
+        "x": 64,
+        "y": 45.5
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 69935,
+          "nonzero": 28661,
+          "opaque": 11747,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "ef533a0bdad7a2541e923e0df404fc08bc12d04da06883847c308e466f3d87ae",
+        "sourceRect": {
+          "x": 966,
+          "y": 416,
+          "w": 261,
+          "h": 186
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-09",
+      "name": "chevron-up",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 87
+      },
+      "anchor": {
+        "x": 64,
+        "y": 43.5
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 60298,
+          "nonzero": 37671,
+          "opaque": 13690,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "c3d9935c3aa4fffcecbcd869b13625e7902f854c285ea7c416d5a98b85d3c6fe",
+        "sourceRect": {
+          "x": 28,
+          "y": 688,
+          "w": 285,
+          "h": 193
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-10",
+      "name": "chevron-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 147,
+        "y": 202,
+        "w": 102,
+        "h": 96
+      },
+      "anchor": {
+        "x": 51,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 58338,
+          "nonzero": 39944,
+          "opaque": 14854,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "76a5612e1e7bb84fb434ed5c3f3d36e8549d1a864a77d2e85d8acca7a1bed52b",
+        "sourceRect": {
+          "x": 313,
+          "y": 650,
+          "w": 273,
+          "h": 256
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-11",
+      "name": "chevron-down",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 270,
+        "y": 202,
+        "w": 119,
+        "h": 96
+      },
+      "anchor": {
+        "x": 59.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62705,
+          "nonzero": 35264,
+          "opaque": 12930,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "c3df8abdbed9d092d44e1cbedbcb5968379a1d08080a93fa19900d31d2b391ba",
+        "sourceRect": {
+          "x": 655,
+          "y": 671,
+          "w": 258,
+          "h": 209
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-12",
+      "name": "chevron-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 422,
+        "y": 202,
+        "w": 80,
+        "h": 96
+      },
+      "anchor": {
+        "x": 40,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 64299,
+          "nonzero": 33983,
+          "opaque": 12946,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "e9d2f1d30f0730332a3b36e5706064c87457b0eeec7384b7cc3e33a202284462",
+        "sourceRect": {
+          "x": 992,
+          "y": 650,
+          "w": 213,
+          "h": 257
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-13",
+      "name": "meandering-ribbon",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 16,
+        "y": 302,
+        "w": 99,
+        "h": 96
+      },
+      "anchor": {
+        "x": 49.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 55338,
+          "nonzero": 42944,
+          "opaque": 17450,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "e6f82e10a547aa4de2b650448d4b30b1cb2e8c028ce4438b3cc67e660ce4133d",
+        "sourceRect": {
+          "x": 34,
+          "y": 954,
+          "w": 279,
+          "h": 271
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-14",
+      "name": "three-arm-junction",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 143,
+        "y": 302,
+        "w": 110,
+        "h": 96
+      },
+      "anchor": {
+        "x": 55,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 55340,
+          "nonzero": 43256,
+          "opaque": 15377,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "68b2e10e2abd2605bb9a50a5842a1597fc2531b45a2d83facacdc54ca62c493d",
+        "sourceRect": {
+          "x": 313,
+          "y": 953,
+          "w": 314,
+          "h": 274
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-15",
+      "name": "central-island",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 305,
+        "w": 128,
+        "h": 90
+      },
+      "anchor": {
+        "x": 64,
+        "y": 45
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68304,
+          "nonzero": 29978,
+          "opaque": 13506,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "dc1f5a5bff557a2bcb75c807c29c2c205388bb32c3d7fa71e9d636855bdf4bd3",
+        "sourceRect": {
+          "x": 627,
+          "y": 1004,
+          "w": 240,
+          "h": 169
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-EDGE-16",
+      "name": "hollow-ring",
+      "kind": "edge_mask",
+      "atlas": "atlases/ant-edges.webp",
+      "rect": {
+        "x": 412,
+        "y": 302,
+        "w": 100,
+        "h": 96
+      },
+      "anchor": {
+        "x": 50,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 54237,
+          "nonzero": 44359,
+          "opaque": 20391,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-edges-generated.png",
+        "sha256": "8df9e601df1cc5ba7cefaa60c55ee087a40552470c87b2040d653e253e064045",
+        "spriteSha256": "772922fb55e2dab267778e4f3030206967eca66d68ed5323ce0faee16083940b",
+        "sourceRect": {
+          "x": 953,
+          "y": 948,
+          "w": 284,
+          "h": 272
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "ANT-WALL-01",
+      "name": "packed-earth-wall-ne",
+      "kind": "wall",
+      "atlas": "atlases/ant-walls.webp",
+      "rect": {
+        "x": 24,
+        "y": 4,
+        "w": 148,
+        "h": 188
+      },
+      "anchor": {
+        "x": 74,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 132
+      },
+      "footAnchor": {
+        "x": 74,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 109566,
+          "nonzero": 87042,
+          "opaque": 74691,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-walls-generated.png",
+        "sha256": "37e340e7c38a0c8892a1599eef322e361aa79557dda0240a302e1fb0be0a800e",
+        "spriteSha256": "abfbaa7e3003a3e5efd13ab432e439df90ea84c836fdab3619dee3d1cdb81b7b",
+        "sourceRect": {
+          "x": 46,
+          "y": 30,
+          "w": 337,
+          "h": 429
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-WALL-02",
+      "name": "packed-earth-wall-nw",
+      "kind": "wall",
+      "atlas": "atlases/ant-walls.webp",
+      "rect": {
+        "x": 223,
+        "y": 4,
+        "w": 142,
+        "h": 188
+      },
+      "anchor": {
+        "x": 71,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 138
+      },
+      "footAnchor": {
+        "x": 71,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.65,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 113870,
+          "nonzero": 82738,
+          "opaque": 73074,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-walls-facing-v2.png",
+        "originalSource": "sources/ant-walls-generated.png",
+        "originalSha256": "37e340e7c38a0c8892a1599eef322e361aa79557dda0240a302e1fb0be0a800e",
+        "replacementReason": "Correct perpendicular wall facing through built-in imagegen.",
+        "sha256": "ab4e93867d71a97a586471ac77392882776ac4ebb7da816a02050a7461b898b7",
+        "spriteSha256": "a2abfff916447dde4c5930a9b197ab6ae2a74f0ef072b15e98d1d12bdea2adb8",
+        "sourceRect": {
+          "x": 418,
+          "y": 38,
+          "w": 326,
+          "h": 433
+        },
+        "sourceCell": {
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-WALL-03",
+      "name": "rooted-earth-corner",
+      "kind": "wall",
+      "atlas": "atlases/ant-walls.webp",
+      "rect": {
+        "x": 400,
+        "y": 4,
+        "w": 179,
+        "h": 188
+      },
+      "anchor": {
+        "x": 89.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 109
+      },
+      "footAnchor": {
+        "x": 89.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 90233,
+          "nonzero": 106375,
+          "opaque": 93005,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-walls-generated.png",
+        "sha256": "37e340e7c38a0c8892a1599eef322e361aa79557dda0240a302e1fb0be0a800e",
+        "spriteSha256": "6d8f68e54734d9458cd22ad2aa92d58e4b192854760ce58def6b60fb837c22ac",
+        "sourceRect": {
+          "x": 779,
+          "y": 48,
+          "w": 362,
+          "h": 380
+        },
+        "sourceCell": {
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-WALL-04",
+      "name": "eroded-tunnel-wall-end",
+      "kind": "wall",
+      "atlas": "atlases/ant-walls.webp",
+      "rect": {
+        "x": 620,
+        "y": 4,
+        "w": 131,
+        "h": 188
+      },
+      "anchor": {
+        "x": 65.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 149
+      },
+      "footAnchor": {
+        "x": 65.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 100857,
+          "nonzero": 95751,
+          "opaque": 82976,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-walls-generated.png",
+        "sha256": "37e340e7c38a0c8892a1599eef322e361aa79557dda0240a302e1fb0be0a800e",
+        "spriteSha256": "a61419218f4d721249c1187d5d06981fc098d429258857182fbb3362e5a1b2ea",
+        "sourceRect": {
+          "x": 1195,
+          "y": 44,
+          "w": 304,
+          "h": 437
+        },
+        "sourceCell": {
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-WALL-05",
+      "name": "stratified-clay-wall-ne",
+      "kind": "wall",
+      "atlas": "atlases/ant-walls.webp",
+      "rect": {
+        "x": 28,
+        "y": 200,
+        "w": 139,
+        "h": 188
+      },
+      "anchor": {
+        "x": 69.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 141
+      },
+      "footAnchor": {
+        "x": 69.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 98409,
+          "nonzero": 98199,
+          "opaque": 86030,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-walls-generated.png",
+        "sha256": "37e340e7c38a0c8892a1599eef322e361aa79557dda0240a302e1fb0be0a800e",
+        "spriteSha256": "c214fffa540bdc2d0311567bbf5e9d43c260561f48dfa893562fc2df1c03df7a",
+        "sourceRect": {
+          "x": 34,
+          "y": 528,
+          "w": 333,
+          "h": 450
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-WALL-06",
+      "name": "pebble-filled-earth-wall-nw",
+      "kind": "wall",
+      "atlas": "atlases/ant-walls.webp",
+      "rect": {
+        "x": 223,
+        "y": 200,
+        "w": 141,
+        "h": 188
+      },
+      "anchor": {
+        "x": 70.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 139
+      },
+      "footAnchor": {
+        "x": 70.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.65,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 102066,
+          "nonzero": 94542,
+          "opaque": 85124,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-walls-facing-v2.png",
+        "originalSource": "sources/ant-walls-generated.png",
+        "originalSha256": "37e340e7c38a0c8892a1599eef322e361aa79557dda0240a302e1fb0be0a800e",
+        "replacementReason": "Correct perpendicular wall facing through built-in imagegen.",
+        "sha256": "ab4e93867d71a97a586471ac77392882776ac4ebb7da816a02050a7461b898b7",
+        "spriteSha256": "43d215bc96f0d5f557348a8797784f04440b66e6d424598bb4d8581d5e299d2a",
+        "sourceRect": {
+          "x": 415,
+          "y": 523,
+          "w": 342,
+          "h": 456
+        },
+        "sourceCell": {
+          "x": 384,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-WALL-07",
+      "name": "root-reinforced-tunnel-opening",
+      "kind": "wall",
+      "atlas": "atlases/ant-walls.webp",
+      "rect": {
+        "x": 414,
+        "y": 200,
+        "w": 151,
+        "h": 188
+      },
+      "anchor": {
+        "x": 75.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 129
+      },
+      "footAnchor": {
+        "x": 75.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 78464,
+          "nonzero": 118144,
+          "opaque": 103840,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-walls-generated.png",
+        "sha256": "37e340e7c38a0c8892a1599eef322e361aa79557dda0240a302e1fb0be0a800e",
+        "spriteSha256": "d3223d270639cca2bcca8c6fb2f3447a6834fa332bc61c20d661409bd945973c",
+        "sourceRect": {
+          "x": 774,
+          "y": 523,
+          "w": 366,
+          "h": 455
+        },
+        "sourceCell": {
+          "x": 768,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-WALL-08",
+      "name": "crumbled-soil-ramp",
+      "kind": "wall",
+      "atlas": "atlases/ant-walls.webp",
+      "rect": {
+        "x": 611,
+        "y": 200,
+        "w": 149,
+        "h": 188
+      },
+      "anchor": {
+        "x": 74.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 131
+      },
+      "footAnchor": {
+        "x": 74.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 101201,
+          "nonzero": 95407,
+          "opaque": 85796,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-walls-generated.png",
+        "sha256": "37e340e7c38a0c8892a1599eef322e361aa79557dda0240a302e1fb0be0a800e",
+        "spriteSha256": "077988cbe9845ceff7f20751b96999c16c547380ce1c9462d966b4f4ea8927ca",
+        "sourceRect": {
+          "x": 1161,
+          "y": 533,
+          "w": 356,
+          "h": 448
+        },
+        "sourceCell": {
+          "x": 1152,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "ANT-PROP-01",
+      "name": "tall-clay-nest-turret",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 18,
+        "y": 4,
+        "w": 160,
+        "h": 188
+      },
+      "anchor": {
+        "x": 80,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 66,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 80,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 58184,
+          "nonzero": 50146,
+          "opaque": 40321,
+          "total": 108330
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "5b2e3bb6a8a6e1cbab09e67d3bf1d0355a14b4cf7fa96530c7c1f8a345ff66ef",
+        "sourceRect": {
+          "x": 23,
+          "y": 15,
+          "w": 271,
+          "h": 319
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 314,
+          "h": 345
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-02",
+      "name": "low-nest-mouth",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 200,
+        "y": 40,
+        "w": 188,
+        "h": 115
+      },
+      "anchor": {
+        "x": 94,
+        "y": 104
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 48
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 104
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68173,
+          "nonzero": 39812,
+          "opaque": 31947,
+          "total": 107985
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "644f0259047a801a3297441dafb97c8010c69186436758d0e794cbd61bbadadd",
+        "sourceRect": {
+          "x": 319,
+          "y": 140,
+          "w": 291,
+          "h": 178
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 0,
+          "w": 313,
+          "h": 345
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-03",
+      "name": "root-bound-earth-mound",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 396,
+        "y": 24,
+        "w": 188,
+        "h": 148
+      },
+      "anchor": {
+        "x": 94,
+        "y": 133
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 61
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 133
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 57017,
+          "nonzero": 50968,
+          "opaque": 39079,
+          "total": 107985
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "e8019dc92cd3179ce8fdc55eaf638b54ca94e29655936300692d2b6fbfb85c1e",
+        "sourceRect": {
+          "x": 633,
+          "y": 70,
+          "w": 307,
+          "h": 242
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 0,
+          "w": 313,
+          "h": 345
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-04",
+      "name": "fungus-garden-clump",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 592,
+        "y": 18,
+        "w": 188,
+        "h": 160
+      },
+      "anchor": {
+        "x": 94,
+        "y": 144
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 66
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 144
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 57012,
+          "nonzero": 51318,
+          "opaque": 40478,
+          "total": 108330
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "2466fa7134deb326d15ffacf23a9db91f832ab3a6dcb1123e7dbb5550d82b2d1",
+        "sourceRect": {
+          "x": 940,
+          "y": 63,
+          "w": 295,
+          "h": 251
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 314,
+          "h": 345
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-05",
+      "name": "pale-egg-clutch",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 4,
+        "y": 219,
+        "w": 188,
+        "h": 150
+      },
+      "anchor": {
+        "x": 94,
+        "y": 135
+      },
+      "drawSize": {
+        "w": 48,
+        "h": 38
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 135
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 37973,
+          "nonzero": 50261,
+          "opaque": 41847,
+          "total": 88234
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "3de331019461dcf6364fafaa366449b9d3d3ecead4c3181e2c8c9bd1f3d677a4",
+        "sourceRect": {
+          "x": 15,
+          "y": 381,
+          "w": 289,
+          "h": 230
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 345,
+          "w": 314,
+          "h": 281
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-06",
+      "name": "discarded-ant-carapace",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 200,
+        "y": 224,
+        "w": 188,
+        "h": 139
+      },
+      "anchor": {
+        "x": 94,
+        "y": 128
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 58
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 128
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 40982,
+          "nonzero": 41024,
+          "opaque": 31013,
+          "total": 82006
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "78f0ba9aff28336bcba654c9b6cfedf63b53d6cb92eaef9bd084245f5938ef28",
+        "sourceRect": {
+          "x": 338,
+          "y": 378,
+          "w": 275,
+          "h": 203
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 345,
+          "w": 313,
+          "h": 262
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      },
+      "footAnchorReview": "Visually corrected to material ground contact; renderer playtest pending."
+    },
+    {
+      "id": "ANT-PROP-07",
+      "name": "curled-dead-root",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 396,
+        "y": 220,
+        "w": 188,
+        "h": 147
+      },
+      "anchor": {
+        "x": 101.99999999999999,
+        "y": 106
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 61
+      },
+      "footAnchor": {
+        "x": 101.99999999999999,
+        "y": 106
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 40694,
+          "nonzero": 47259,
+          "opaque": 27365,
+          "total": 87953
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "6d0030624132c074faff5a55f9b2133239719f600263a9895e11b309e3849499",
+        "sourceRect": {
+          "x": 630,
+          "y": 387,
+          "w": 301,
+          "h": 236
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 345,
+          "w": 313,
+          "h": 281
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      },
+      "footAnchorReview": "Visually corrected to material ground contact; renderer playtest pending."
+    },
+    {
+      "id": "ANT-PROP-08",
+      "name": "chewed-log-remnant",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 592,
+        "y": 220,
+        "w": 188,
+        "h": 148
+      },
+      "anchor": {
+        "x": 94,
+        "y": 133
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 61
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 133
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 43282,
+          "nonzero": 44952,
+          "opaque": 30135,
+          "total": 88234
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "2978f8c7b8bd61395971c71591be95de4c9af31913d2fb0b76723652936bcdf7",
+        "sourceRect": {
+          "x": 952,
+          "y": 392,
+          "w": 285,
+          "h": 225
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 345,
+          "w": 314,
+          "h": 281
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-09",
+      "name": "seed-hoard",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 4,
+        "y": 428,
+        "w": 188,
+        "h": 124
+      },
+      "anchor": {
+        "x": 94,
+        "y": 112
+      },
+      "drawSize": {
+        "w": 48,
+        "h": 32
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 112
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 50346,
+          "nonzero": 45424,
+          "opaque": 36107,
+          "total": 95770
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "bc0a3f87b893f7c9b3a38e42a60a2f6d5ae1e81a30322138fa460af5533aa4b8",
+        "sourceRect": {
+          "x": 16,
+          "y": 700,
+          "w": 296,
+          "h": 196
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 626,
+          "w": 314,
+          "h": 305
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-10",
+      "name": "pebble-cement-pillar",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 210,
+        "y": 396,
+        "w": 167,
+        "h": 188
+      },
+      "anchor": {
+        "x": 83.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 84,
+        "h": 94
+      },
+      "footAnchor": {
+        "x": 83.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 51008,
+          "nonzero": 44457,
+          "opaque": 36128,
+          "total": 95465
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "fa4f1413ccce60f31ae47e52074ecb8d29baf6406238196a9f0c401b781a8835",
+        "sourceRect": {
+          "x": 360,
+          "y": 626,
+          "w": 267,
+          "h": 300
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 626,
+          "w": 313,
+          "h": 305
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-11",
+      "name": "shattered-chitin-pile",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 396,
+        "y": 421,
+        "w": 188,
+        "h": 137
+      },
+      "anchor": {
+        "x": 94,
+        "y": 123
+      },
+      "drawSize": {
+        "w": 48,
+        "h": 35
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 123
+      },
+      "footprint": {
+        "u": 0.5,
+        "v": 0.5
+      },
+      "collision": {
+        "solid": false,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 43839,
+          "nonzero": 51626,
+          "opaque": 39492,
+          "total": 95465
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "58bad23b700db35e740c5ec9ae9ce117f923c50e0c415e1cfbe46c8f4a891eec",
+        "sourceRect": {
+          "x": 627,
+          "y": 691,
+          "w": 308,
+          "h": 225
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 626,
+          "w": 313,
+          "h": 305
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-12",
+      "name": "root-hung-soil-arch",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 592,
+        "y": 407,
+        "w": 188,
+        "h": 166
+      },
+      "anchor": {
+        "x": 94,
+        "y": 149
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 69
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 149
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 45655,
+          "nonzero": 50115,
+          "opaque": 28216,
+          "total": 95770
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "dd7bb87dea59e82bd1e6d9705135e4cb55c2c5595e2411db6597ca8a3d91a6b8",
+        "sourceRect": {
+          "x": 951,
+          "y": 661,
+          "w": 291,
+          "h": 257
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 626,
+          "w": 314,
+          "h": 305
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-13",
+      "name": "sticky-resin-glob",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 19,
+        "y": 592,
+        "w": 157,
+        "h": 188
+      },
+      "anchor": {
+        "x": 78.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 65,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 78.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 55148,
+          "nonzero": 46274,
+          "opaque": 32877,
+          "total": 101422
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "f18ddfe2cab2a65af1cf4c51ee6ce4712eefec741ff30379effe2e9dfe34889d",
+        "sourceRect": {
+          "x": 42,
+          "y": 939,
+          "w": 247,
+          "h": 295
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 931,
+          "w": 314,
+          "h": 323
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-14",
+      "name": "worker-dug-soil-pile",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 200,
+        "y": 618,
+        "w": 188,
+        "h": 136
+      },
+      "anchor": {
+        "x": 94,
+        "y": 122
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 56
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 122
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 51224,
+          "nonzero": 44384,
+          "opaque": 36280,
+          "total": 95608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "34bb416dfdf89eb49a2cf3d8c79ae78007bf19473aa91890bff44d3bb372db5b",
+        "sourceRect": {
+          "x": 316,
+          "y": 981,
+          "w": 294,
+          "h": 212
+        },
+        "sourceCell": {
+          "x": 314,
+          "y": 931,
+          "w": 296,
+          "h": 323
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "ANT-PROP-15",
+      "name": "dry-grass-nest-bundle",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 396,
+        "y": 613,
+        "w": 188,
+        "h": 146
+      },
+      "anchor": {
+        "x": 94,
+        "y": 131
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 60
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 131
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 44537,
+          "nonzero": 63345,
+          "opaque": 36376,
+          "total": 107882
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "772cf192a39e057450542093939b20ad03e102a989031981c5d04090dc1d204b",
+        "sourceRect": {
+          "x": 618,
+          "y": 970,
+          "w": 322,
+          "h": 250
+        },
+        "sourceCell": {
+          "x": 610,
+          "y": 931,
+          "w": 334,
+          "h": 323
+        },
+        "postprocess": "Alpha-preserving crop tightened to exclude detached neighbor fragment; proportional resampling and packing.",
+        "previousSourceRect": {
+          "x": 618,
+          "y": 970,
+          "w": 326,
+          "h": 250
+        }
+      },
+      "qa": {
+        "detachedNeighborFragmentRemoved": true
+      }
+    },
+    {
+      "id": "ANT-PROP-16",
+      "name": "nursery-chamber-mound",
+      "kind": "static_prop",
+      "atlas": "atlases/ant-props-v2.webp",
+      "rect": {
+        "x": 592,
+        "y": 594,
+        "w": 188,
+        "h": 184
+      },
+      "anchor": {
+        "x": 94,
+        "y": 166
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 76
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 166
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 37320,
+          "nonzero": 62810,
+          "opaque": 54162,
+          "total": 100130
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/ant-props-generated.png",
+        "sha256": "37c014817d53a09f8a9693342ba02a8caa15c59ff8059d210fa8ceaf3cd5f673",
+        "spriteSha256": "e96e754f25568b3e8336c00581358111ac1bfccc44fa9ea5c3bf0076d179a531",
+        "sourceRect": {
+          "x": 944,
+          "y": 931,
+          "w": 294,
+          "h": 287
+        },
+        "sourceCell": {
+          "x": 944,
+          "y": 931,
+          "w": 310,
+          "h": 323
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "coverage": {
+    "required": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "staged": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "missing": {
+      "ground": 0,
+      "edge_masks": 0,
+      "walls": 0,
+      "static_props": 0
+    },
+    "sourceCountsMet": true,
+    "complete": false
+  },
+  "borders": {
+    "seamless": false,
+    "automaticBitmaskCompatible": false,
+    "reason": "Authored organic RGBA overlay fragments. Exact seamless adjacency, compass mask orientations, and renderer blending remain unverified. These are not a validated automatic bitmask set.",
+    "renderGuidance": "Use deterministic renderer-selected alpha-overlay placement over opaque underlying ground. Do not use the 16 overlays as automatic Wang or bitmask states. Full floor tile coverage and neighbor matching require renderer integration."
+  },
+  "alpha": {
+    "preserved": true,
+    "note": "Genuine alpha retained through crop and resampling. Source hidden RGB can look like a backdrop in viewers ignoring alpha; compositing verifies transparency."
+  },
+  "qa": {
+    "sourceInspected": true,
+    "packedAtlasInspected": true,
+    "rendererIntegrationVerified": false,
+    "visualContactSheet": "qa/ant-contact-sheet.png",
+    "pending": [
+      "pixel-perfect seamlessness",
+      "renderer integration",
+      "wall/prop collision and foot-anchor playtest",
+      "automatic transition topology"
+    ],
+    "perpendicularWallFacingVerified": true,
+    "perpendicularWallPair": [
+      "ANT-WALL-01",
+      "ANT-WALL-02"
+    ],
+    "cropCorrection": "ANT-PROP-06 source cell bottom trimmed to remove one faint detached pixel belonging to the next row; anchor recalculated after crop.",
+    "finalCropRepair": true
+  },
+  "wallNotes": "Original WALL-01 and WALL-05 slope down-right. Reauthored WALL-02 and WALL-06 rise up-right, providing perpendicular straight facings. Only these two atlas components use the correction source; other six preserve original artwork."
+}

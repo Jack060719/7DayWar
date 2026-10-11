@@ -1,0 +1,2 @@
+import fs from'node:fs';
+export async function privateEngine(){const file=new URL('../../dist/full/engine.mjs',import.meta.url);let text=fs.readFileSync(file,'utf8').replace(/from\s*(['"])(\.\/[^'"]+)\1/g,(_,q,path)=>`from ${JSON.stringify(new URL(path,file).href)}`);text+='\nexport {killMonster as probeKill,takeDamage as probeDamage,skillContext as probeSkillContext,resolveWeaponAttack as probeAttack};';return import('data:text/javascript;base64,'+Buffer.from(text).toString('base64'));}

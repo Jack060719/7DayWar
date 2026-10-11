@@ -1,0 +1,3330 @@
+{
+  "schemaVersion": 1,
+  "familyId": "ASSET-TERRAIN-CITY",
+  "family": "CITY",
+  "implementationState": "GENERATED_SOURCE_COUNTS_MET_INTEGRATION_PENDING",
+  "tileProjection": {
+    "width": 64,
+    "height": 32,
+    "type": "isometric-2:1"
+  },
+  "sourceCatalog": "catalog-requirements.json",
+  "tiles": [
+    {
+      "id": "CITY-GROUND-01",
+      "name": "worn-cobblestone",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 75413,
+          "nonzero": 34450,
+          "opaque": 28797,
+          "total": 109863
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "d92cdae10b2873ed29144992ea6ecc4832d69b678be8aea1ff31bcdc92260ed6",
+        "sourceRect": {
+          "x": 2,
+          "y": 128,
+          "w": 310,
+          "h": 192
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 313,
+          "h": 351
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-02",
+      "name": "muddy-cart-ruts",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 75040,
+          "nonzero": 35174,
+          "opaque": 29017,
+          "total": 110214
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "ac45128f9fd737bccffcd84b50c722622d5a5c63a613953860b8078fa305af5c",
+        "sourceRect": {
+          "x": 315,
+          "y": 128,
+          "w": 310,
+          "h": 192
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 0,
+          "w": 314,
+          "h": 351
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-03",
+      "name": "weathered-square-paving",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 74555,
+          "nonzero": 35308,
+          "opaque": 29194,
+          "total": 109863
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "4f8fbe1238c2f3805a3d44ea754439c109b228930b81dca184e7c62408afa348",
+        "sourceRect": {
+          "x": 629,
+          "y": 127,
+          "w": 310,
+          "h": 193
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 0,
+          "w": 313,
+          "h": 351
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-04",
+      "name": "stone-gutter",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 2,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 75693,
+          "nonzero": 34521,
+          "opaque": 29032,
+          "total": 110214
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "694d49752ba30e6568f1125719d03f532b48dd9d2a8da6555cd20f6362a739fa",
+        "sourceRect": {
+          "x": 943,
+          "y": 127,
+          "w": 310,
+          "h": 193
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 314,
+          "h": 351
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-05",
+      "name": "market-straw-litter",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 49461,
+          "nonzero": 34736,
+          "opaque": 28661,
+          "total": 84197
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "95ffee2b95675d6da9c59609b739a63d3e70c4c6985bd552e60ffd3b5d6c61db",
+        "sourceRect": {
+          "x": 2,
+          "y": 390,
+          "w": 309,
+          "h": 192
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 351,
+          "w": 313,
+          "h": 269
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-06",
+      "name": "broken-cobble-repairs",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 49675,
+          "nonzero": 34791,
+          "opaque": 28790,
+          "total": 84466
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "11349b657dac0f11899faf0f037f75ce795598d0f244f5d09fcd4e0f69fbe5ab",
+        "sourceRect": {
+          "x": 316,
+          "y": 390,
+          "w": 309,
+          "h": 192
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 351,
+          "w": 314,
+          "h": 269
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-07",
+      "name": "brick-herringbone",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 49889,
+          "nonzero": 34308,
+          "opaque": 29035,
+          "total": 84197
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "ea057882580c6ffed6da3f591c5bdacf956000ed0a03430e0195d849deea3e30",
+        "sourceRect": {
+          "x": 629,
+          "y": 390,
+          "w": 309,
+          "h": 194
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 351,
+          "w": 313,
+          "h": 269
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-08",
+      "name": "courtyard-flagstones",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 70,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 49579,
+          "nonzero": 34887,
+          "opaque": 29160,
+          "total": 84466
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "c6c64a4deca3436f6b617f78c4c74af01b5703502d64ec71c154588778a2eb41",
+        "sourceRect": {
+          "x": 943,
+          "y": 390,
+          "w": 310,
+          "h": 194
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 351,
+          "w": 314,
+          "h": 269
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-09",
+      "name": "rain-slick-cobbles",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 48382,
+          "nonzero": 33937,
+          "opaque": 29068,
+          "total": 82319
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "fe1215f0f3fe2b8ad6667db5cfbc7a62daf94366b8a9f2f17655ce6151b63a17",
+        "sourceRect": {
+          "x": 2,
+          "y": 655,
+          "w": 308,
+          "h": 193
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 620,
+          "w": 313,
+          "h": 263
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-10",
+      "name": "sandy-lane",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 46797,
+          "nonzero": 35785,
+          "opaque": 29160,
+          "total": 82582
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "5e9b9fe2e18db87d24d56c14016dd6b27e780ac13f131faa4d2f4d62c3e5d653",
+        "sourceRect": {
+          "x": 315,
+          "y": 655,
+          "w": 309,
+          "h": 194
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 620,
+          "w": 314,
+          "h": 263
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-11",
+      "name": "mossy-cobble-joints",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 47310,
+          "nonzero": 35009,
+          "opaque": 29118,
+          "total": 82319
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "7e416f52dcc02f56f131f5a1846862925baefba4c4b6195c62138c45f02745e5",
+        "sourceRect": {
+          "x": 630,
+          "y": 655,
+          "w": 308,
+          "h": 194
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 620,
+          "w": 313,
+          "h": 263
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-12",
+      "name": "scattered-roof-tile",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 138,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 48813,
+          "nonzero": 33769,
+          "opaque": 28823,
+          "total": 82582
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "3a2514a2071439e62ce30309f2977a1f16fb0eeb565452323e8094bb30822cae",
+        "sourceRect": {
+          "x": 943,
+          "y": 655,
+          "w": 308,
+          "h": 194
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 620,
+          "w": 314,
+          "h": 263
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-13",
+      "name": "soot-and-ash-floor",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 82442,
+          "nonzero": 33681,
+          "opaque": 28745,
+          "total": 116123
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "e857f2bd7708d59ea5f2a1d94ab4f8d43f9ace2f059066c6ac6b50fb2d652623",
+        "sourceRect": {
+          "x": 2,
+          "y": 917,
+          "w": 308,
+          "h": 193
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 883,
+          "w": 313,
+          "h": 371
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-14",
+      "name": "stable-packed-earth",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 134,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 81542,
+          "nonzero": 34952,
+          "opaque": 28173,
+          "total": 116494
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "1eadb2fb33e52ebe553c1f71a4b9ec8bf61791b4c1af02ce09b69c6498a49e19",
+        "sourceRect": {
+          "x": 317,
+          "y": 917,
+          "w": 304,
+          "h": 193
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 883,
+          "w": 314,
+          "h": 371
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-15",
+      "name": "drain-grate-paving",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 266,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 79734,
+          "nonzero": 36389,
+          "opaque": 29322,
+          "total": 116123
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "99b937cee665ede6b3054787e941d15ae833c87da0852a61d117872b7a095f5f",
+        "sourceRect": {
+          "x": 628,
+          "y": 917,
+          "w": 309,
+          "h": 196
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 883,
+          "w": 313,
+          "h": 371
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-16",
+      "name": "worn-steps-surface",
+      "kind": "ground",
+      "atlas": "atlases/city-ground.webp",
+      "rect": {
+        "x": 398,
+        "y": 206,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 81899,
+          "nonzero": 34595,
+          "opaque": 28993,
+          "total": 116494
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-ground-generated.png",
+        "sha256": "b8a56bc7affd5ad5c386f1d798e2ac7fd2ee7b54889b8469ec85be070d90b549",
+        "spriteSha256": "9e8738dec32d3e99c4dcaf3614fdb63e7574f0eef4888998593f422f85ae0cea",
+        "sourceRect": {
+          "x": 942,
+          "y": 917,
+          "w": 308,
+          "h": 195
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 883,
+          "w": 314,
+          "h": 371
+        },
+        "postprocess": "Alpha-preserving crop, 2:1 resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-GROUND-QUIET-1",
+      "name": "flat-lit worn cobble material crop 1",
+      "kind": "ground",
+      "atlas": "atlases/city-quiet-ground.webp",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "original built-in imagegen albedo, cropped and projected with Canvas affine transform",
+        "source": "candidates/quiet-city/city-readable-albedo-v2.png",
+        "note": "Four material crops of one original texture; not four separately authored catalog originals."
+      }
+    },
+    {
+      "id": "CITY-GROUND-QUIET-2",
+      "name": "flat-lit worn cobble material crop 2",
+      "kind": "ground",
+      "atlas": "atlases/city-quiet-ground.webp",
+      "rect": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "original built-in imagegen albedo, cropped and projected with Canvas affine transform",
+        "source": "candidates/quiet-city/city-readable-albedo-v2.png",
+        "note": "Four material crops of one original texture; not four separately authored catalog originals."
+      }
+    },
+    {
+      "id": "CITY-GROUND-QUIET-3",
+      "name": "flat-lit worn cobble material crop 3",
+      "kind": "ground",
+      "atlas": "atlases/city-quiet-ground.webp",
+      "rect": {
+        "x": 0,
+        "y": 64,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "original built-in imagegen albedo, cropped and projected with Canvas affine transform",
+        "source": "candidates/quiet-city/city-readable-albedo-v2.png",
+        "note": "Four material crops of one original texture; not four separately authored catalog originals."
+      }
+    },
+    {
+      "id": "CITY-GROUND-QUIET-4",
+      "name": "flat-lit worn cobble material crop 4",
+      "kind": "ground",
+      "atlas": "atlases/city-quiet-ground.webp",
+      "rect": {
+        "x": 128,
+        "y": 64,
+        "w": 128,
+        "h": 64
+      },
+      "anchor": {
+        "x": 64,
+        "y": 32
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 32
+      },
+      "provenance": {
+        "method": "original built-in imagegen albedo, cropped and projected with Canvas affine transform",
+        "source": "candidates/quiet-city/city-readable-albedo-v2.png",
+        "note": "Four material crops of one original texture; not four separately authored catalog originals."
+      }
+    }
+  ],
+  "edgeMasks": [
+    {
+      "id": "CITY-EDGE-01",
+      "name": "ribbon-a",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 12,
+        "y": 2,
+        "w": 107,
+        "h": 96
+      },
+      "anchor": {
+        "x": 53.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 61881,
+          "nonzero": 36088,
+          "opaque": 15306,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "70c88944b1a288413433558b953686ae996880a02b8364d753293c8fe012d5a2",
+        "sourceRect": {
+          "x": 39,
+          "y": 53,
+          "w": 268,
+          "h": 241
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-02",
+      "name": "ribbon-b",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 147,
+        "y": 2,
+        "w": 102,
+        "h": 96
+      },
+      "anchor": {
+        "x": 51,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63428,
+          "nonzero": 34854,
+          "opaque": 14132,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "b14a54d0d4d1bfca085a2f09f1f898d6ceb54ea9d4f246d9f9d20b45dc296ee7",
+        "sourceRect": {
+          "x": 359,
+          "y": 54,
+          "w": 245,
+          "h": 231
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-03",
+      "name": "ribbon-c",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 281,
+        "y": 2,
+        "w": 97,
+        "h": 96
+      },
+      "anchor": {
+        "x": 48.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63276,
+          "nonzero": 34693,
+          "opaque": 15406,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "b87ca732ac29b090d6d22ec3f48eab710df6032bba9ef51cd13fa8a83afb9416",
+        "sourceRect": {
+          "x": 665,
+          "y": 54,
+          "w": 244,
+          "h": 241
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-04",
+      "name": "ribbon-d",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 411,
+        "y": 2,
+        "w": 102,
+        "h": 96
+      },
+      "anchor": {
+        "x": 51,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 66465,
+          "nonzero": 31817,
+          "opaque": 13400,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "058bc1d3439ec6bcb7819e7cf8428d6c4056e89e20fba9843a890a86ae48482e",
+        "sourceRect": {
+          "x": 969,
+          "y": 56,
+          "w": 253,
+          "h": 238
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-05",
+      "name": "corner-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 32,
+        "y": 102,
+        "w": 67,
+        "h": 96
+      },
+      "anchor": {
+        "x": 33.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62679,
+          "nonzero": 35603,
+          "opaque": 17108,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "2b49d66f3a8e0f434f6cb266d4fde78c7e4e3e935ad59c88cae402a84388b197",
+        "sourceRect": {
+          "x": 53,
+          "y": 345,
+          "w": 185,
+          "h": 266
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-06",
+      "name": "corner-top",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 134,
+        "y": 105,
+        "w": 128,
+        "h": 90
+      },
+      "anchor": {
+        "x": 64,
+        "y": 45
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 68966,
+          "nonzero": 29630,
+          "opaque": 13452,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "5c9bdac281c6863a6e5d6177ace126fd16c978b1709b374ecd16d7d115a65d8d",
+        "sourceRect": {
+          "x": 357,
+          "y": 363,
+          "w": 241,
+          "h": 170
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-07",
+      "name": "corner-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 293,
+        "y": 102,
+        "w": 74,
+        "h": 96
+      },
+      "anchor": {
+        "x": 37,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 67194,
+          "nonzero": 31088,
+          "opaque": 14246,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "fa932deb5f514f4a93a9dee02cf704213e7373a0fec2d6838472e5749ef08df5",
+        "sourceRect": {
+          "x": 700,
+          "y": 344,
+          "w": 194,
+          "h": 250
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-08",
+      "name": "corner-bottom",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 398,
+        "y": 108,
+        "w": 128,
+        "h": 83
+      },
+      "anchor": {
+        "x": 64,
+        "y": 41.5
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 67291,
+          "nonzero": 31305,
+          "opaque": 13105,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "54fcedbd0f5dd87474bd3395c963a99bcb84a865eb331dc9bfbdd1dbbcd0dd5a",
+        "sourceRect": {
+          "x": 968,
+          "y": 429,
+          "w": 256,
+          "h": 165
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-09",
+      "name": "chevron-up",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 2,
+        "y": 206,
+        "w": 128,
+        "h": 87
+      },
+      "anchor": {
+        "x": 64,
+        "y": 43.5
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 63375,
+          "nonzero": 34594,
+          "opaque": 14879,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "cbbbe13afa33283a2686e2b6a3cbce7d3621691cec1f6c4e601658535ee3cdae",
+        "sourceRect": {
+          "x": 37,
+          "y": 683,
+          "w": 268,
+          "h": 183
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-10",
+      "name": "chevron-right",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 163,
+        "y": 202,
+        "w": 69,
+        "h": 96
+      },
+      "anchor": {
+        "x": 34.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62697,
+          "nonzero": 35585,
+          "opaque": 14474,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "44a2c3f36e743ccab820db351d2342de1308477b4a350c76fac58ca53773eb73",
+        "sourceRect": {
+          "x": 389,
+          "y": 639,
+          "w": 187,
+          "h": 262
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-11",
+      "name": "chevron-down",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 266,
+        "y": 203,
+        "w": 128,
+        "h": 93
+      },
+      "anchor": {
+        "x": 64,
+        "y": 46.5
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62984,
+          "nonzero": 34985,
+          "opaque": 15208,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "507a3a073cf18bb0bd101f531d529a670c7f679d59a2fc8dfaca80d0ee6b0cc5",
+        "sourceRect": {
+          "x": 645,
+          "y": 684,
+          "w": 272,
+          "h": 197
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-12",
+      "name": "chevron-left",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 426,
+        "y": 202,
+        "w": 72,
+        "h": 96
+      },
+      "anchor": {
+        "x": 36,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 66140,
+          "nonzero": 32142,
+          "opaque": 15473,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "b3bd957fa11a3103070dbdbde9e87aa74201faf3a5a61b05ec40a90dea87424f",
+        "sourceRect": {
+          "x": 994,
+          "y": 645,
+          "w": 193,
+          "h": 258
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-13",
+      "name": "meandering-ribbon",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 17,
+        "y": 302,
+        "w": 98,
+        "h": 96
+      },
+      "anchor": {
+        "x": 49,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 53979,
+          "nonzero": 44303,
+          "opaque": 19131,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "dd06d9b4655f1fb8362568e11f0755356d6f1c319eecd9b83dee764ad06fafd8",
+        "sourceRect": {
+          "x": 31,
+          "y": 944,
+          "w": 282,
+          "h": 277
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-14",
+      "name": "three-arm-junction",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 149,
+        "y": 302,
+        "w": 97,
+        "h": 96
+      },
+      "anchor": {
+        "x": 48.5,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 52208,
+          "nonzero": 46388,
+          "opaque": 18731,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "d9d418d07414cec5a785a852b3808ba56e45ac1f6da09f2109362444a13a3136",
+        "sourceRect": {
+          "x": 339,
+          "y": 944,
+          "w": 272,
+          "h": 268
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-15",
+      "name": "central-island",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 273,
+        "y": 302,
+        "w": 114,
+        "h": 96
+      },
+      "anchor": {
+        "x": 57,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 65302,
+          "nonzero": 32980,
+          "opaque": 14118,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "ca1e622185bf6a9df1ba6323525fe64c1164b97518f7978f65d93e7b3a766ad9",
+        "sourceRect": {
+          "x": 673,
+          "y": 997,
+          "w": 217,
+          "h": 182
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-EDGE-16",
+      "name": "hollow-ring",
+      "kind": "edge_mask",
+      "atlas": "atlases/city-edges.webp",
+      "rect": {
+        "x": 409,
+        "y": 302,
+        "w": 106,
+        "h": 96
+      },
+      "anchor": {
+        "x": 53,
+        "y": 48
+      },
+      "drawSize": {
+        "w": 64,
+        "h": 40
+      },
+      "maskChannel": "alpha",
+      "placementOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "automaticBitmaskCompatible": false,
+      "shapeOrientationVerified": false,
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 49520,
+          "nonzero": 49076,
+          "opaque": 24935,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-edges-generated.png",
+        "sha256": "e55e4bc6adcd31daa3ec4b28f6779272f427b5237ab463d4ebfbc62c7fef6320",
+        "spriteSha256": "85f761e32e9f97b40c056b901a3b24c09ccc412be0b274ff420594aa56c06f84",
+        "sourceRect": {
+          "x": 947,
+          "y": 951,
+          "w": 296,
+          "h": 269
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "CITY-WALL-01",
+      "name": "plastered-city-wall-ne",
+      "kind": "wall",
+      "atlas": "atlases/city-walls.webp",
+      "rect": {
+        "x": 27,
+        "y": 4,
+        "w": 141,
+        "h": 188
+      },
+      "anchor": {
+        "x": 70.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 139
+      },
+      "footAnchor": {
+        "x": 70.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 89989,
+          "nonzero": 106619,
+          "opaque": 95272,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-walls-generated.png",
+        "sha256": "e19b31652afe93d2f7d3ae4a5701f3d61580569295fa1e9f8e7d361729c9475f",
+        "spriteSha256": "64d9d2c88d47fa1e8eeacdd50bbb625263b9d647334e58d02cbfceaa2714dc6e",
+        "sourceRect": {
+          "x": 26,
+          "y": 24,
+          "w": 338,
+          "h": 451
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-WALL-02",
+      "name": "plastered-city-wall-nw",
+      "kind": "wall",
+      "atlas": "atlases/city-walls.webp",
+      "rect": {
+        "x": 223,
+        "y": 4,
+        "w": 142,
+        "h": 188
+      },
+      "anchor": {
+        "x": 71,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 138
+      },
+      "footAnchor": {
+        "x": 71,
+        "y": 169
+      },
+      "footprint": {
+        "u": 0.65,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 89344,
+          "nonzero": 107264,
+          "opaque": 95055,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-walls-generated.png",
+        "sha256": "e19b31652afe93d2f7d3ae4a5701f3d61580569295fa1e9f8e7d361729c9475f",
+        "spriteSha256": "06db0c2a189849598d440b51c75f59a78d39a478159daf59ed2a399b372e9b78",
+        "sourceRect": {
+          "x": 406,
+          "y": 33,
+          "w": 338,
+          "h": 448
+        },
+        "sourceCell": {
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-WALL-03",
+      "name": "half-timbered-building-corner",
+      "kind": "wall",
+      "atlas": "atlases/city-walls.webp",
+      "rect": {
+        "x": 418,
+        "y": 4,
+        "w": 143,
+        "h": 188
+      },
+      "anchor": {
+        "x": 71.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 137
+      },
+      "footAnchor": {
+        "x": 71.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1.5
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 61992,
+          "nonzero": 134616,
+          "opaque": 123579,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-walls-generated.png",
+        "sha256": "e19b31652afe93d2f7d3ae4a5701f3d61580569295fa1e9f8e7d361729c9475f",
+        "spriteSha256": "d7a1d0d4520d5776557f7ac26cfdad03d06cd22f9c35324b235719d4a4b55216",
+        "sourceRect": {
+          "x": 782,
+          "y": 16,
+          "w": 370,
+          "h": 485
+        },
+        "sourceCell": {
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-WALL-04",
+      "name": "broken-stone-pier-end",
+      "kind": "wall",
+      "atlas": "atlases/city-walls.webp",
+      "rect": {
+        "x": 607,
+        "y": 4,
+        "w": 157,
+        "h": 188
+      },
+      "anchor": {
+        "x": 78.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 125
+      },
+      "footAnchor": {
+        "x": 78.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 117294,
+          "nonzero": 79314,
+          "opaque": 67361,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-walls-generated.png",
+        "sha256": "e19b31652afe93d2f7d3ae4a5701f3d61580569295fa1e9f8e7d361729c9475f",
+        "spriteSha256": "30eab79d7c8be63e2e4f5facb2556a2f94e3c66d32be5a5120e2ced3873da379",
+        "sourceRect": {
+          "x": 1152,
+          "y": 51,
+          "w": 360,
+          "h": 431
+        },
+        "sourceCell": {
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-WALL-05",
+      "name": "low-courtyard-wall-ne",
+      "kind": "wall",
+      "atlas": "atlases/city-walls.webp",
+      "rect": {
+        "x": 4,
+        "y": 203,
+        "w": 188,
+        "h": 181
+      },
+      "anchor": {
+        "x": 94,
+        "y": 163
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 100
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 163
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 111837,
+          "nonzero": 84771,
+          "opaque": 71703,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-walls-generated.png",
+        "sha256": "e19b31652afe93d2f7d3ae4a5701f3d61580569295fa1e9f8e7d361729c9475f",
+        "spriteSha256": "998568ab6fc4f25e1bf25b61becfe0d6aa4ec94b14dcd13c3c84614c54ffd31e",
+        "sourceRect": {
+          "x": 28,
+          "y": 611,
+          "w": 339,
+          "h": 327
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-WALL-06",
+      "name": "low-courtyard-wall-nw",
+      "kind": "wall",
+      "atlas": "atlases/city-walls.webp",
+      "rect": {
+        "x": 200,
+        "y": 202,
+        "w": 188,
+        "h": 184
+      },
+      "anchor": {
+        "x": 94,
+        "y": 166
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 102
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 166
+      },
+      "footprint": {
+        "u": 0.65,
+        "v": 2
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 107565,
+          "nonzero": 89043,
+          "opaque": 74679,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-walls-generated.png",
+        "sha256": "e19b31652afe93d2f7d3ae4a5701f3d61580569295fa1e9f8e7d361729c9475f",
+        "spriteSha256": "0fa7d4221261c13090c33af68df9f31f8c0ac65a7d7d9d10d20b0bf0523627ad",
+        "sourceRect": {
+          "x": 401,
+          "y": 606,
+          "w": 349,
+          "h": 341
+        },
+        "sourceCell": {
+          "x": 384,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-WALL-07",
+      "name": "arched-street-passage",
+      "kind": "wall",
+      "atlas": "atlases/city-walls.webp",
+      "rect": {
+        "x": 419,
+        "y": 200,
+        "w": 142,
+        "h": 188
+      },
+      "anchor": {
+        "x": 71,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 138
+      },
+      "footAnchor": {
+        "x": 71,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 90895,
+          "nonzero": 105713,
+          "opaque": 89000,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-walls-generated.png",
+        "sha256": "e19b31652afe93d2f7d3ae4a5701f3d61580569295fa1e9f8e7d361729c9475f",
+        "spriteSha256": "6f645c0f4765bc50830887c066eb64115cadbcf53fd85d7e6760bc99b32bb711",
+        "sourceRect": {
+          "x": 792,
+          "y": 526,
+          "w": 341,
+          "h": 453
+        },
+        "sourceCell": {
+          "x": 768,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-WALL-08",
+      "name": "short-stone-stair",
+      "kind": "wall",
+      "atlas": "atlases/city-walls.webp",
+      "rect": {
+        "x": 592,
+        "y": 200,
+        "w": 187,
+        "h": 188
+      },
+      "anchor": {
+        "x": 93.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 104,
+        "h": 105
+      },
+      "footAnchor": {
+        "x": 93.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 2,
+        "v": 0.65
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 114578,
+          "nonzero": 82030,
+          "opaque": 73021,
+          "total": 196608
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-walls-generated.png",
+        "sha256": "e19b31652afe93d2f7d3ae4a5701f3d61580569295fa1e9f8e7d361729c9475f",
+        "spriteSha256": "228b4010e4b81929dfaace72a40689cf9976944d8fdd3d91c825d92d291ff8ae",
+        "sourceRect": {
+          "x": 1165,
+          "y": 603,
+          "w": 354,
+          "h": 355
+        },
+        "sourceCell": {
+          "x": 1152,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "CITY-PROP-01",
+      "name": "wooden-market-stall",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 11,
+        "y": 4,
+        "w": 173,
+        "h": 188
+      },
+      "anchor": {
+        "x": 86.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 72,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 86.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 47539,
+          "nonzero": 50430,
+          "opaque": 39627,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "a811864342774a9e4f47f96a1e36c91e48dbff182dc17f51b1081e3f38aa9e5f",
+        "sourceRect": {
+          "x": 49,
+          "y": 35,
+          "w": 247,
+          "h": 269
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-02",
+      "name": "covered-handcart",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 23,
+        "w": 188,
+        "h": 150
+      },
+      "anchor": {
+        "x": 94,
+        "y": 135
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 62
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 135
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62672,
+          "nonzero": 35610,
+          "opaque": 27618,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "cb6fb2c7c9ae5d26b5cc7b90fdc073cc65e299447b55043e7bf83618786559a8",
+        "sourceRect": {
+          "x": 357,
+          "y": 87,
+          "w": 265,
+          "h": 211
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-03",
+      "name": "stacked-barrels",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 8,
+        "w": 188,
+        "h": 180
+      },
+      "anchor": {
+        "x": 94,
+        "y": 162
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 75
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 162
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 53088,
+          "nonzero": 44881,
+          "opaque": 37549,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "37f5a2d5cbc98fe8df70126415d250671dd5258b0e12b58f92bcb8310046cc74",
+        "sourceRect": {
+          "x": 679,
+          "y": 71,
+          "w": 235,
+          "h": 225
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 0,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-04",
+      "name": "stacked-wooden-crates",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 6,
+        "w": 188,
+        "h": 183
+      },
+      "anchor": {
+        "x": 94,
+        "y": 165
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 76
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 165
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 59395,
+          "nonzero": 38887,
+          "opaque": 31960,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "4b28acad497201541304f18ff6dc609b93697856000d55f7fb22583804d0ac66",
+        "sourceRect": {
+          "x": 992,
+          "y": 83,
+          "w": 222,
+          "h": 216
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-05",
+      "name": "stone-town-well",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 24,
+        "y": 200,
+        "w": 148,
+        "h": 188
+      },
+      "anchor": {
+        "x": 74,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 61,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 74,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 48130,
+          "nonzero": 50152,
+          "opaque": 38860,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "7dc641d999cd1555da75abb2fe8b4d7fce2662c2dad3afe47e3b41e85b513f06",
+        "sourceRect": {
+          "x": 61,
+          "y": 351,
+          "w": 217,
+          "h": 276
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-06",
+      "name": "worn-stone-bench",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 234,
+        "w": 188,
+        "h": 120
+      },
+      "anchor": {
+        "x": 94,
+        "y": 108
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 50
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 108
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 64343,
+          "nonzero": 34253,
+          "opaque": 24458,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "6a1a5a7b46277da2ccf641e79d51f1afc3e1092c06e215cdf97050d400698100",
+        "sourceRect": {
+          "x": 349,
+          "y": 438,
+          "w": 278,
+          "h": 178
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-07",
+      "name": "street-lantern-post",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 399,
+        "y": 200,
+        "w": 182,
+        "h": 188
+      },
+      "anchor": {
+        "x": 91,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 91,
+        "h": 94
+      },
+      "footAnchor": {
+        "x": 91,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 79337,
+          "nonzero": 18945,
+          "opaque": 10004,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "c79dddea481caa543842f13c962497cbcced274ea59b2d1f6d9fda4a08c33fc2",
+        "sourceRect": {
+          "x": 627,
+          "y": 346,
+          "w": 265,
+          "h": 274
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 313,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-08",
+      "name": "empty-signpost",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 615,
+        "y": 200,
+        "w": 141,
+        "h": 188
+      },
+      "anchor": {
+        "x": 70.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 71,
+        "h": 94
+      },
+      "footAnchor": {
+        "x": 70.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 77380,
+          "nonzero": 21216,
+          "opaque": 13652,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "5b07c254a3f5d10ae1637e7860c08b869fa6622e8d086ce5d0ba7b324c996540",
+        "sourceRect": {
+          "x": 1010,
+          "y": 360,
+          "w": 193,
+          "h": 257
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 313,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-09",
+      "name": "broken-wagon-wheel",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 4,
+        "y": 402,
+        "w": 188,
+        "h": 175
+      },
+      "anchor": {
+        "x": 94,
+        "y": 158
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 73
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 158
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 59020,
+          "nonzero": 38949,
+          "opaque": 26385,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "6bdc4057a5ef482ca79e08514dd57a05b128cf42b459e1f2eac584882e51ee64",
+        "sourceRect": {
+          "x": 54,
+          "y": 684,
+          "w": 234,
+          "h": 218
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-10",
+      "name": "sack-and-basket-pile",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 412,
+        "w": 188,
+        "h": 156
+      },
+      "anchor": {
+        "x": 94,
+        "y": 140
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 65
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 140
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 61186,
+          "nonzero": 37096,
+          "opaque": 29847,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "0a8883af52f6c817127e66149732b8c57eb1156c10349f0700d99b552d148ce8",
+        "sourceRect": {
+          "x": 352,
+          "y": 695,
+          "w": 255,
+          "h": 211
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-11",
+      "name": "chopped-firewood-stack",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 412,
+        "w": 188,
+        "h": 155
+      },
+      "anchor": {
+        "x": 94,
+        "y": 140
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 64
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 140
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 56725,
+          "nonzero": 41244,
+          "opaque": 33146,
+          "total": 97969
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "2a4d915ad9de2066e0c28a20e56a6dd2fb42429213bc0bf2a77731806efa5b2a",
+        "sourceRect": {
+          "x": 667,
+          "y": 700,
+          "w": 251,
+          "h": 207
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 627,
+          "w": 313,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-12",
+      "name": "rainwater-trough",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 592,
+        "y": 398,
+        "w": 188,
+        "h": 183
+      },
+      "anchor": {
+        "x": 94,
+        "y": 165
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 76
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 165
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 53684,
+          "nonzero": 44598,
+          "opaque": 32138,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "cd00fc85a5273f9fd7520276eecffc1e22c03c0ee17536c7b363514486f9f422",
+        "sourceRect": {
+          "x": 965,
+          "y": 671,
+          "w": 247,
+          "h": 240
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 627,
+          "w": 314,
+          "h": 313
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-13",
+      "name": "blacksmith-anvil",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 15,
+        "y": 592,
+        "w": 166,
+        "h": 188
+      },
+      "anchor": {
+        "x": 83,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 69,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 83,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 56410,
+          "nonzero": 41872,
+          "opaque": 35837,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "14f2b2b1572ed42d9a63872756e25501b1b5307162a51eec068fbba2f44bb1ec",
+        "sourceRect": {
+          "x": 64,
+          "y": 950,
+          "w": 216,
+          "h": 245
+        },
+        "sourceCell": {
+          "x": 0,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-14",
+      "name": "clay-pot-cluster",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 200,
+        "y": 601,
+        "w": 188,
+        "h": 169
+      },
+      "anchor": {
+        "x": 94,
+        "y": 152
+      },
+      "drawSize": {
+        "w": 48,
+        "h": 43
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 152
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 56787,
+          "nonzero": 41809,
+          "opaque": 35909,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "242021897404bca76da0e977cb34722d6213d0a15f94c9ea424e21854ea3453a",
+        "sourceRect": {
+          "x": 359,
+          "y": 971,
+          "w": 238,
+          "h": 214
+        },
+        "sourceCell": {
+          "x": 313,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-15",
+      "name": "short-weathered-fence",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 396,
+        "y": 610,
+        "w": 188,
+        "h": 151
+      },
+      "anchor": {
+        "x": 94,
+        "y": 136
+      },
+      "drawSize": {
+        "w": 78,
+        "h": 63
+      },
+      "footAnchor": {
+        "x": 94,
+        "y": 136
+      },
+      "footprint": {
+        "u": 1.5,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 60495,
+          "nonzero": 37787,
+          "opaque": 24734,
+          "total": 98282
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "5b6f4543c24de5910006650d8f99a418e619ed510295c05cca9c135bf1158e81",
+        "sourceRect": {
+          "x": 656,
+          "y": 971,
+          "w": 275,
+          "h": 221
+        },
+        "sourceCell": {
+          "x": 627,
+          "y": 940,
+          "w": 313,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    },
+    {
+      "id": "CITY-PROP-16",
+      "name": "stone-milestone",
+      "kind": "static_prop",
+      "atlas": "atlases/city-props.webp",
+      "rect": {
+        "x": 614,
+        "y": 592,
+        "w": 143,
+        "h": 188
+      },
+      "anchor": {
+        "x": 71.5,
+        "y": 169
+      },
+      "drawSize": {
+        "w": 59,
+        "h": 78
+      },
+      "footAnchor": {
+        "x": 71.5,
+        "y": 169
+      },
+      "footprint": {
+        "u": 1,
+        "v": 1
+      },
+      "collision": {
+        "solid": true,
+        "shape": "footprint-diamond",
+        "verifiedInRenderer": false
+      },
+      "alpha": {
+        "preserved": true,
+        "sourceCell": {
+          "zero": 62595,
+          "nonzero": 36001,
+          "opaque": 28116,
+          "total": 98596
+        }
+      },
+      "provenance": {
+        "method": "built-in-imagegen",
+        "source": "sources/city-props-layout-v2.png",
+        "originalSource": "sources/city-props-generated.png",
+        "originalSha256": "09a5555a6af147a769013d07761f3cd708c5f6e803e00cb48cb7c9034f122ab1",
+        "replacementReason": "Restore full isolated silhouettes and generous cell spacing through built-in imagegen.",
+        "sha256": "6cb3c4e61060fbcb54c582c4d24f1e037a177bc8cf3e516c1948f74b1c750850",
+        "spriteSha256": "bcf5cf1e93c4dcc40cb0966bc5d3039ee4d928d3d4430ccbb3f03df66b7e0443",
+        "sourceRect": {
+          "x": 1013,
+          "y": 945,
+          "w": 189,
+          "h": 249
+        },
+        "sourceCell": {
+          "x": 940,
+          "y": 940,
+          "w": 314,
+          "h": 314
+        },
+        "postprocess": "Alpha-preserving crop, proportional resampling, atlas packing."
+      }
+    }
+  ],
+  "coverage": {
+    "required": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "staged": {
+      "ground": 16,
+      "edge_masks": 16,
+      "walls": 8,
+      "static_props": 16
+    },
+    "missing": {
+      "ground": 0,
+      "edge_masks": 0,
+      "walls": 0,
+      "static_props": 0
+    },
+    "sourceCountsMet": true,
+    "complete": false
+  },
+  "borders": {
+    "seamless": false,
+    "automaticBitmaskCompatible": false,
+    "reason": "Authored organic RGBA overlay fragments. Exact seamless adjacency, compass mask orientations, and renderer blending remain unverified. These are not a validated automatic bitmask set.",
+    "renderGuidance": "Use deterministic renderer-selected alpha-overlay placement over opaque underlying ground. Do not use the 16 overlays as automatic Wang or bitmask states. Full floor tile coverage and neighbor matching require renderer integration."
+  },
+  "alpha": {
+    "preserved": true,
+    "note": "Genuine alpha retained through crop and resampling. Source hidden RGB can look like a backdrop in viewers ignoring alpha; compositing verifies transparency."
+  },
+  "qa": {
+    "sourceInspected": true,
+    "packedAtlasInspected": true,
+    "rendererIntegrationVerified": false,
+    "visualContactSheet": "qa/city-contact-sheet.png",
+    "pending": [
+      "pixel-perfect seamlessness",
+      "renderer integration",
+      "wall/prop collision and foot-anchor playtest",
+      "automatic transition topology"
+    ],
+    "perpendicularWallFacingVerified": true,
+    "perpendicularWallPair": [
+      "CITY-WALL-01",
+      "CITY-WALL-02"
+    ]
+  },
+  "wallNotes": "WALL-01 and WALL-05 rise up-right; WALL-02 and WALL-06 slope down-right. Both perpendicular pairs verified in source and packed atlas."
+}
