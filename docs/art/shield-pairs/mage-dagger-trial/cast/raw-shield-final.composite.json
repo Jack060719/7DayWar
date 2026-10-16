@@ -1,0 +1,31 @@
+{
+  "schema": "lineage-exact-row-composite-v1",
+  "sources": [
+    {
+      "file": "docs/art/shield-pairs/mage-dagger-trial/cast/revision2/raw-shield.png",
+      "sha256": "24fcc5d5ebca94a44eb3958aa7846fb7f461a512942ddd25b2738d5a3ada20c0"
+    },
+    {
+      "file": "docs/art/shield-pairs/mage-dagger-trial/cast/raw-shield-patched-N.png",
+      "sha256": "46d07243127f2588217ba9d98ed9e53b3c9c8d82842bc203958cdb37764f30d7"
+    }
+  ],
+  "reason": "Use revision2 added left shields; retain original brown inside NW and corrected single-shield N from exact localized reinsert. No scaling or painting.",
+  "outputSHA256": "c4098fdf4708afb574ec2ac03efdefe886206d49c83d1601b2f000e949038c72",
+  "width": 1254,
+  "height": 1254,
+  "rows": [
+    {
+      "row": 3,
+      "direction": "NW",
+      "y": 470,
+      "bottom": 627
+    },
+    {
+      "row": 4,
+      "direction": "N",
+      "y": 627,
+      "bottom": 784
+    }
+  ]
+}

@@ -1,0 +1,2927 @@
+{
+  "schema": "lineage-dream-static-icons-v1",
+  "generatedOn": "2026-10-11",
+  "processor": "Chrome Canvas 2D, software rendering",
+  "pythonHelper": "not available: python/py/python3 absent; deterministic Canvas replacement explicitly selected",
+  "cleanup": {
+    "magenta": [
+      255,
+      0,
+      255
+    ],
+    "distanceThreshold": 100,
+    "borderConnectedThreshold": 150,
+    "neighbors": 8
+  },
+  "packing": {
+    "cellSize": 64,
+    "maximumSubjectSize": 56,
+    "align": "center",
+    "columns": 16,
+    "rows": 3,
+    "displaySize": 32
+  },
+  "atlas": {
+    "path": "icons/stage3-items.webp",
+    "width": 1024,
+    "height": 192,
+    "bytes": 159286,
+    "sha256": "67b7cf3627325fc5493574608741703e73ef93bfe225e008f448660d96f51168"
+  },
+  "sources": [
+    {
+      "path": "raw-items.png",
+      "sha256": "9d524c4c92a35b15468f404a2085e2c24f14ddeaa4d760cef3d5e9b0bc261a99",
+      "rows": 3,
+      "columns": 5
+    },
+    {
+      "path": "raw-scrolls.png",
+      "sha256": "5a9ac2e1fabda7e560c7a2f4f7f6d7ec456ad07abf0c0dea5bf84700e16c745b",
+      "rows": 3,
+      "columns": 4
+    }
+  ],
+  "bossSources": [
+    {
+      "id": "ITEM-FORM-CONTRACT-BAPHOMET",
+      "monsterId": "MON-BAPHOMET",
+      "manifest": "armored-construct-staging/actors/baphomet/baphomet-runtime.json",
+      "atlas": "armored-construct-staging/actors/baphomet/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "8c6a87c29e0545b83ea71b8d49fc3a874e421b4582ce8289ef9b2f7362dc0573"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DEATH-KNIGHT",
+      "monsterId": "MON-DEATH-KNIGHT",
+      "manifest": "armored-construct-staging/actors/death-knight/death-knight-runtime.json",
+      "atlas": "armored-construct-staging/actors/death-knight/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "1c3a60f170843efbde8abc772466d900558db64aa8882b2a6ecebd51b43aefde"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-KURTZ",
+      "monsterId": "MON-KURTZ",
+      "manifest": "armored-construct-staging/actors/kurtz/kurtz-runtime.json",
+      "atlas": "armored-construct-staging/actors/kurtz/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "1aa1138c53d5ed574133f74f6891f1d2060feeca9fd0e4f57838ca9059f6970d"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-CASPA",
+      "monsterId": "MON-CASPA",
+      "manifest": "mage-boss-staging/actors/caspa/caspa-runtime.json",
+      "atlas": "mage-boss-staging/actors/caspa/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "7705bc4aba4668f00493e346c71debc8b11d6f2e9dd825ec4181e0d4fb816890"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-MERKYOR",
+      "monsterId": "MON-MERKYOR",
+      "manifest": "mage-boss-staging/actors/merkyor/merkyor-runtime.json",
+      "atlas": "mage-boss-staging/actors/merkyor/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "b9dbad34f91d343e2a88c3c6b33dce8bba8bd47e35facafff19b108d385c1ef0"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-BALTUZAR",
+      "monsterId": "MON-BALTUZAR",
+      "manifest": "mage-boss-staging/actors/baltuzar/baltuzar-runtime.json",
+      "atlas": "mage-boss-staging/actors/baltuzar/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "218875b2e0c520bd358f5a2f2ad7287a236832f9960e65686d351cb1e55fb2ef"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-SEMA",
+      "monsterId": "MON-SEMA",
+      "manifest": "mage-boss-staging/actors/sema/sema-runtime.json",
+      "atlas": "mage-boss-staging/actors/sema/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "7904d12e0c50c5c7f15ba405c5e7d0974a0f4d8d10cdf1ec1f4514d1d7f8c883"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ANT-QUEEN",
+      "monsterId": "MON-ANT-QUEEN",
+      "manifest": "beast-staging/actors/ant-queen/ant-queen-runtime.json",
+      "atlas": "beast-staging/actors/ant-queen/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "38096991f0a4ace54973bf9ccb84011d7b1742da90e0a3798aab4f83666ace3f"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DRAKE",
+      "monsterId": "MON-DRAKE",
+      "manifest": "nonhumanoid-staging/actors/drake/drake-runtime.json",
+      "atlas": "nonhumanoid-staging/actors/drake/clips/idle-S-0.webp",
+      "rect": [
+        0,
+        0,
+        256,
+        192
+      ],
+      "sha256": "dd02a73521040a00426e719e5a6f67711e6104501336f9c4e6aa0c8c316b7e74"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-BLACK-ELDER",
+      "monsterId": "MON-BLACK-ELDER",
+      "manifest": "armored-construct-staging/actors/black-elder/black-elder-runtime.json",
+      "atlas": "armored-construct-staging/actors/black-elder/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "6c208b81355e63fbd60b8c89977f52fe878daaab425a3754cd3195257a3b0112"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DOPPEL-BOSS",
+      "monsterId": "MON-DOPPEL-BOSS",
+      "manifest": "monster-staging/actors/doppel-boss/doppel-boss-runtime.json",
+      "atlas": "monster-staging/actors/doppel-boss/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "cbe7fa998c3647f1cfdb6ca8aba6fd5852de76140ee0c721204d491acd7bd850"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-IFRIT",
+      "monsterId": "MON-IFRIT",
+      "manifest": "armored-construct-staging/actors/ifrit/ifrit-runtime.json",
+      "atlas": "armored-construct-staging/actors/ifrit/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "81496c9888c9799074067d05e631a303211b733f018883a00c42705087426b01"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-PHOENIX",
+      "monsterId": "MON-PHOENIX",
+      "manifest": "nonhumanoid-staging/actors/phoenix/phoenix-runtime.json",
+      "atlas": "nonhumanoid-staging/actors/phoenix/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "36eb0a2b17a8426ac601c9f3a9d92b622b67bca293cae0892c72b7ff12896365"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ICE-QUEEN",
+      "monsterId": "MON-ICE-QUEEN",
+      "manifest": "armored-construct-staging/actors/ice-queen/ice-queen-runtime.json",
+      "atlas": "armored-construct-staging/actors/ice-queen/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "f3baa377ebdd1e677807b53ba693cf158162e1cd0e8437abcc8cebeffdcc73df"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DEMON",
+      "monsterId": "MON-DEMON",
+      "manifest": "armored-construct-staging/actors/demon/demon-runtime.json",
+      "atlas": "armored-construct-staging/actors/demon/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "23d03406289eb8f5be1a717494a5745e781c226e2d0e691524f476e821287938"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ZENITH",
+      "monsterId": "MON-ZENITH",
+      "manifest": "hybrid-monster-staging/actors/zenith/zenith-runtime.json",
+      "atlas": "hybrid-monster-staging/actors/zenith/clips/idle-S-0.webp",
+      "rect": [
+        0,
+        0,
+        256,
+        192
+      ],
+      "sha256": "ebf051a7099132e3e3265b29765f10e7e21fa2f5124c2276d3a80738c62393c2"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-SEER",
+      "monsterId": "MON-SEER",
+      "manifest": "nonhumanoid-staging/actors/seer/seer-runtime.json",
+      "atlas": "nonhumanoid-staging/actors/seer/clips/idle-S.webp",
+      "rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "sha256": "4239ef5059e25563990c62709217e77545d319d3799cd9979324e3fe0e3f3ab9"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ANTHARAS",
+      "monsterId": "MON-ANTHARAS",
+      "manifest": "nonhumanoid-staging/actors/antharas/antharas-runtime.json",
+      "atlas": "nonhumanoid-staging/actors/antharas/clips/idle-S-0.webp",
+      "rect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "sha256": "b2b928fda7eb3dba8b7a2c01559931e8e66699f89497bd4c7df5ba2557350d6e"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-FAFURION",
+      "monsterId": "MON-FAFURION",
+      "manifest": "nonhumanoid-staging/actors/fafurion/fafurion-runtime.json",
+      "atlas": "nonhumanoid-staging/actors/fafurion/clips/idle-S-0.webp",
+      "rect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "sha256": "ffb35dd44ad5963db6eeed1b0195a3265cc0b75de547cf2d32fda1b679a8d845"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-VALAKAS",
+      "monsterId": "MON-VALAKAS",
+      "manifest": "nonhumanoid-staging/actors/valakas/valakas-runtime.json",
+      "atlas": "nonhumanoid-staging/actors/valakas/clips/idle-S-0.webp",
+      "rect": [
+        0,
+        0,
+        512,
+        384
+      ],
+      "sha256": "8e3766de1880ecf251ef9d0d31e81ad0a818242dd55f01fbcfec12dc89fc887e"
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-LINDVIOR",
+      "monsterId": "MON-LINDVIOR",
+      "manifest": "nonhumanoid-staging/actors/lindvior/lindvior-runtime.json",
+      "atlas": "nonhumanoid-staging/actors/lindvior/clips/idle-S-0.webp",
+      "rect": [
+        0,
+        0,
+        512,
+        384
+      ],
+      "sha256": "7461b1b589c3c05f91638673b66acc2e9fe31700d6d17178f4c59b3453bdfca9"
+    }
+  ],
+  "rawCells": [
+    {
+      "source": "raw-items.png",
+      "cell": 0,
+      "sourceRect": [
+        0,
+        0,
+        307,
+        325
+      ],
+      "width": 307,
+      "height": 325,
+      "alphaPixels": 18577,
+      "transparentPixels": 81198,
+      "bbox": [
+        40,
+        41,
+        271,
+        310
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 1,
+      "sourceRect": [
+        307,
+        0,
+        307,
+        325
+      ],
+      "width": 307,
+      "height": 325,
+      "alphaPixels": 55448,
+      "transparentPixels": 44327,
+      "bbox": [
+        7,
+        32,
+        282,
+        320
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 2,
+      "sourceRect": [
+        614,
+        0,
+        307,
+        325
+      ],
+      "width": 307,
+      "height": 325,
+      "alphaPixels": 50144,
+      "transparentPixels": 49631,
+      "bbox": [
+        21,
+        25,
+        270,
+        320
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 3,
+      "sourceRect": [
+        921,
+        0,
+        307,
+        325
+      ],
+      "width": 307,
+      "height": 325,
+      "alphaPixels": 57176,
+      "transparentPixels": 42599,
+      "bbox": [
+        21,
+        37,
+        286,
+        312
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 4,
+      "sourceRect": [
+        1228,
+        0,
+        308,
+        325
+      ],
+      "width": 308,
+      "height": 325,
+      "alphaPixels": 8843,
+      "transparentPixels": 91257,
+      "bbox": [
+        16,
+        22,
+        289,
+        313
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 7,
+      "visibleMagentaPixels": 7,
+      "magentaAlphaMax": 255
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 5,
+      "sourceRect": [
+        0,
+        325,
+        307,
+        336
+      ],
+      "width": 307,
+      "height": 336,
+      "alphaPixels": 25150,
+      "transparentPixels": 78002,
+      "bbox": [
+        24,
+        5,
+        305,
+        325
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 6,
+      "sourceRect": [
+        307,
+        325,
+        307,
+        336
+      ],
+      "width": 307,
+      "height": 336,
+      "alphaPixels": 22288,
+      "transparentPixels": 80864,
+      "bbox": [
+        26,
+        40,
+        297,
+        320
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 7,
+      "sourceRect": [
+        614,
+        325,
+        307,
+        336
+      ],
+      "width": 307,
+      "height": 336,
+      "alphaPixels": 15485,
+      "transparentPixels": 87667,
+      "bbox": [
+        33,
+        37,
+        276,
+        324
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 8,
+      "sourceRect": [
+        921,
+        325,
+        307,
+        336
+      ],
+      "width": 307,
+      "height": 336,
+      "alphaPixels": 44429,
+      "transparentPixels": 58723,
+      "bbox": [
+        35,
+        40,
+        266,
+        322
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 9,
+      "sourceRect": [
+        1228,
+        325,
+        308,
+        336
+      ],
+      "width": 308,
+      "height": 336,
+      "alphaPixels": 18637,
+      "transparentPixels": 84851,
+      "bbox": [
+        18,
+        36,
+        281,
+        312
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 10,
+      "sourceRect": [
+        0,
+        661,
+        307,
+        363
+      ],
+      "width": 307,
+      "height": 363,
+      "alphaPixels": 54889,
+      "transparentPixels": 56552,
+      "bbox": [
+        20,
+        16,
+        287,
+        318
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 11,
+      "sourceRect": [
+        307,
+        661,
+        307,
+        363
+      ],
+      "width": 307,
+      "height": 363,
+      "alphaPixels": 37166,
+      "transparentPixels": 74275,
+      "bbox": [
+        28,
+        56,
+        274,
+        288
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 12,
+      "sourceRect": [
+        614,
+        661,
+        307,
+        363
+      ],
+      "width": 307,
+      "height": 363,
+      "alphaPixels": 44018,
+      "transparentPixels": 67423,
+      "bbox": [
+        37,
+        12,
+        271,
+        313
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 13,
+      "sourceRect": [
+        921,
+        661,
+        307,
+        363
+      ],
+      "width": 307,
+      "height": 363,
+      "alphaPixels": 23578,
+      "transparentPixels": 87863,
+      "bbox": [
+        81,
+        25,
+        229,
+        310
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-items.png",
+      "cell": 14,
+      "sourceRect": [
+        1228,
+        661,
+        308,
+        363
+      ],
+      "width": 308,
+      "height": 363,
+      "alphaPixels": 60668,
+      "transparentPixels": 51136,
+      "bbox": [
+        46,
+        13,
+        261,
+        319
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 0,
+      "sourceRect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 48236,
+      "transparentPixels": 82808,
+      "bbox": [
+        75,
+        49,
+        290,
+        335
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 1,
+      "sourceRect": [
+        362,
+        0,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 48078,
+      "transparentPixels": 82966,
+      "bbox": [
+        74,
+        48,
+        288,
+        335
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 2,
+      "sourceRect": [
+        724,
+        0,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 48209,
+      "transparentPixels": 82835,
+      "bbox": [
+        74,
+        49,
+        290,
+        335
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 3,
+      "sourceRect": [
+        1086,
+        0,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 48164,
+      "transparentPixels": 82880,
+      "bbox": [
+        73,
+        48,
+        287,
+        335
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 4,
+      "sourceRect": [
+        0,
+        362,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 50971,
+      "transparentPixels": 80073,
+      "bbox": [
+        70,
+        33,
+        295,
+        327
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 5,
+      "sourceRect": [
+        362,
+        362,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 50938,
+      "transparentPixels": 80106,
+      "bbox": [
+        70,
+        33,
+        294,
+        327
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 6,
+      "sourceRect": [
+        724,
+        362,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 50934,
+      "transparentPixels": 80110,
+      "bbox": [
+        70,
+        33,
+        295,
+        326
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 7,
+      "sourceRect": [
+        1086,
+        362,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 50901,
+      "transparentPixels": 80143,
+      "bbox": [
+        69,
+        33,
+        293,
+        327
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 8,
+      "sourceRect": [
+        0,
+        724,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 52147,
+      "transparentPixels": 78897,
+      "bbox": [
+        70,
+        26,
+        295,
+        318
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 9,
+      "sourceRect": [
+        362,
+        724,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 52104,
+      "transparentPixels": 78940,
+      "bbox": [
+        70,
+        25,
+        294,
+        318
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 10,
+      "sourceRect": [
+        724,
+        724,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 52073,
+      "transparentPixels": 78971,
+      "bbox": [
+        70,
+        26,
+        295,
+        318
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "source": "raw-scrolls.png",
+      "cell": 11,
+      "sourceRect": [
+        1086,
+        724,
+        362,
+        362
+      ],
+      "width": 362,
+      "height": 362,
+      "alphaPixels": 52008,
+      "transparentPixels": 79036,
+      "bbox": [
+        70,
+        25,
+        294,
+        318
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    }
+  ],
+  "frames": [
+    {
+      "id": "ITEM-FORM-CONTRACT-BAPHOMET",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DEATH-KNIGHT",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        64,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-KURTZ",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        128,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-CASPA",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        192,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-MERKYOR",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        256,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-BALTUZAR",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        320,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-SEMA",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        384,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ANT-QUEEN",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        448,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DRAKE",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        512,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-BLACK-ELDER",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        576,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DOPPEL-BOSS",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        640,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-IFRIT",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        704,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-PHOENIX",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        768,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ICE-QUEEN",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        832,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DEMON",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        896,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ZENITH",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        960,
+        0,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-SEER",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        0,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ANTHARAS",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-FAFURION",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        128,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-VALAKAS",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        192,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-LINDVIOR",
+      "source": "existing-boss-plus-generated-frame",
+      "rect": [
+        256,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "EQ-DWARF-DAGGER",
+      "source": "raw-items.png",
+      "cell": 0,
+      "rect": [
+        320,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 987,
+      "transparentPixels": 3109,
+      "bbox": [
+        8,
+        4,
+        56,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-DWARF-CLOAK",
+      "source": "raw-items.png",
+      "cell": 1,
+      "rect": [
+        384,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2297,
+      "transparentPixels": 1799,
+      "bbox": [
+        5,
+        4,
+        59,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "EQ-DWARF-HELMET",
+      "source": "raw-items.png",
+      "cell": 2,
+      "rect": [
+        448,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 1998,
+      "transparentPixels": 2098,
+      "bbox": [
+        8,
+        4,
+        56,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "EQ-DWARF-SHIELD",
+      "source": "raw-items.png",
+      "cell": 3,
+      "rect": [
+        512,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2544,
+      "transparentPixels": 1552,
+      "bbox": [
+        5,
+        4,
+        59,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-HUNTER-BOW",
+      "source": "raw-items.png",
+      "cell": 4,
+      "rect": [
+        576,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 574,
+      "transparentPixels": 3522,
+      "bbox": [
+        6,
+        4,
+        58,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 3,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-GREAT-AXE",
+      "source": "raw-items.png",
+      "cell": 5,
+      "rect": [
+        640,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 972,
+      "transparentPixels": 3124,
+      "bbox": [
+        7,
+        4,
+        57,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-SILVER-AXE",
+      "source": "raw-items.png",
+      "cell": 6,
+      "rect": [
+        704,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 1106,
+      "transparentPixels": 2990,
+      "bbox": [
+        5,
+        4,
+        59,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "EQ-ROUGH-MITHRIL-DAGGER",
+      "source": "raw-items.png",
+      "cell": 7,
+      "rect": [
+        768,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 763,
+      "transparentPixels": 3333,
+      "bbox": [
+        8,
+        4,
+        56,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 2,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-STEEL-HELMET",
+      "source": "raw-items.png",
+      "cell": 8,
+      "rect": [
+        832,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 1941,
+      "transparentPixels": 2155,
+      "bbox": [
+        9,
+        4,
+        55,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 3,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-YAOMO-DAGGER",
+      "source": "raw-items.png",
+      "cell": 9,
+      "rect": [
+        896,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 935,
+      "transparentPixels": 3161,
+      "bbox": [
+        5,
+        4,
+        59,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 3,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-SILVER-STUDDED-LEATHER",
+      "source": "raw-items.png",
+      "cell": 10,
+      "rect": [
+        960,
+        64,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2091,
+      "transparentPixels": 2005,
+      "bbox": [
+        7,
+        4,
+        57,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-METAL-CHUNK",
+      "source": "raw-items.png",
+      "cell": 11,
+      "rect": [
+        0,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2130,
+      "transparentPixels": 1966,
+      "bbox": [
+        4,
+        6,
+        60,
+        58
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-STRONG-GREEN-POTION",
+      "source": "raw-items.png",
+      "cell": 12,
+      "rect": [
+        64,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 1691,
+      "transparentPixels": 2405,
+      "bbox": [
+        10,
+        4,
+        54,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-CONCENTRATED-STRONG-HEALING-POTION",
+      "source": "raw-items.png",
+      "cell": 13,
+      "rect": [
+        128,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 1071,
+      "transparentPixels": 3025,
+      "bbox": [
+        17,
+        4,
+        47,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-BASIC-NORMAL",
+      "source": "raw-scrolls.png",
+      "cell": 0,
+      "rect": [
+        192,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2032,
+      "transparentPixels": 2064,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-BASIC-BLESSED",
+      "source": "raw-scrolls.png",
+      "cell": 1,
+      "rect": [
+        256,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2037,
+      "transparentPixels": 2059,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-BASIC-NORMAL",
+      "source": "raw-scrolls.png",
+      "cell": 2,
+      "rect": [
+        320,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2047,
+      "transparentPixels": 2049,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-BASIC-BLESSED",
+      "source": "raw-scrolls.png",
+      "cell": 3,
+      "rect": [
+        384,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2031,
+      "transparentPixels": 2065,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-INTERMEDIATE-NORMAL",
+      "source": "raw-scrolls.png",
+      "cell": 4,
+      "rect": [
+        448,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2044,
+      "transparentPixels": 2052,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-INTERMEDIATE-BLESSED",
+      "source": "raw-scrolls.png",
+      "cell": 5,
+      "rect": [
+        512,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2028,
+      "transparentPixels": 2068,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 2,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-INTERMEDIATE-NORMAL",
+      "source": "raw-scrolls.png",
+      "cell": 6,
+      "rect": [
+        576,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2079,
+      "transparentPixels": 2017,
+      "bbox": [
+        10,
+        4,
+        54,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-INTERMEDIATE-BLESSED",
+      "source": "raw-scrolls.png",
+      "cell": 7,
+      "rect": [
+        640,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2033,
+      "transparentPixels": 2063,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-ADVANCED-NORMAL",
+      "source": "raw-scrolls.png",
+      "cell": 8,
+      "rect": [
+        704,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2132,
+      "transparentPixels": 1964,
+      "bbox": [
+        10,
+        4,
+        54,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-ADVANCED-BLESSED",
+      "source": "raw-scrolls.png",
+      "cell": 9,
+      "rect": [
+        768,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2080,
+      "transparentPixels": 2016,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-ADVANCED-NORMAL",
+      "source": "raw-scrolls.png",
+      "cell": 10,
+      "rect": [
+        832,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2129,
+      "transparentPixels": 1967,
+      "bbox": [
+        10,
+        4,
+        54,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-ADVANCED-BLESSED",
+      "source": "raw-scrolls.png",
+      "cell": 11,
+      "rect": [
+        896,
+        128,
+        64,
+        64
+      ],
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2082,
+      "transparentPixels": 2014,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    }
+  ],
+  "decodedAtlas": [
+    {
+      "id": "ITEM-FORM-CONTRACT-BAPHOMET",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DEATH-KNIGHT",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-KURTZ",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-CASPA",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-MERKYOR",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-BALTUZAR",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-SEMA",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ANT-QUEEN",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DRAKE",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-BLACK-ELDER",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DOPPEL-BOSS",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-IFRIT",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-PHOENIX",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ICE-QUEEN",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-DEMON",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ZENITH",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-SEER",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-ANTHARAS",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-FAFURION",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-VALAKAS",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FORM-CONTRACT-LINDVIOR",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2165,
+      "transparentPixels": 1931,
+      "bbox": [
+        12,
+        4,
+        52,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "EQ-DWARF-DAGGER",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 987,
+      "transparentPixels": 3109,
+      "bbox": [
+        8,
+        4,
+        56,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-DWARF-CLOAK",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2297,
+      "transparentPixels": 1799,
+      "bbox": [
+        5,
+        4,
+        59,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "EQ-DWARF-HELMET",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 1998,
+      "transparentPixels": 2098,
+      "bbox": [
+        8,
+        4,
+        56,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "EQ-DWARF-SHIELD",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2544,
+      "transparentPixels": 1552,
+      "bbox": [
+        5,
+        4,
+        59,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-HUNTER-BOW",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 574,
+      "transparentPixels": 3522,
+      "bbox": [
+        6,
+        4,
+        58,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 3,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-GREAT-AXE",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 972,
+      "transparentPixels": 3124,
+      "bbox": [
+        7,
+        4,
+        57,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-SILVER-AXE",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 1106,
+      "transparentPixels": 2990,
+      "bbox": [
+        5,
+        4,
+        59,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "EQ-ROUGH-MITHRIL-DAGGER",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 763,
+      "transparentPixels": 3333,
+      "bbox": [
+        8,
+        4,
+        56,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 2,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-STEEL-HELMET",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 1941,
+      "transparentPixels": 2155,
+      "bbox": [
+        9,
+        4,
+        55,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 3,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-YAOMO-DAGGER",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 935,
+      "transparentPixels": 3161,
+      "bbox": [
+        5,
+        4,
+        59,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 3,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "EQ-SILVER-STUDDED-LEATHER",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2091,
+      "transparentPixels": 2005,
+      "bbox": [
+        7,
+        4,
+        57,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-METAL-CHUNK",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2130,
+      "transparentPixels": 1966,
+      "bbox": [
+        4,
+        6,
+        60,
+        58
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-STRONG-GREEN-POTION",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 1691,
+      "transparentPixels": 2405,
+      "bbox": [
+        10,
+        4,
+        54,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-CONCENTRATED-STRONG-HEALING-POTION",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 1071,
+      "transparentPixels": 3025,
+      "bbox": [
+        17,
+        4,
+        47,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-BASIC-NORMAL",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2032,
+      "transparentPixels": 2064,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-BASIC-BLESSED",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2037,
+      "transparentPixels": 2059,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-BASIC-NORMAL",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2047,
+      "transparentPixels": 2049,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-BASIC-BLESSED",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2031,
+      "transparentPixels": 2065,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-INTERMEDIATE-NORMAL",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2044,
+      "transparentPixels": 2052,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-INTERMEDIATE-BLESSED",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2028,
+      "transparentPixels": 2068,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 2,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-INTERMEDIATE-NORMAL",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2079,
+      "transparentPixels": 2017,
+      "bbox": [
+        10,
+        4,
+        54,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-INTERMEDIATE-BLESSED",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2033,
+      "transparentPixels": 2063,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-ADVANCED-NORMAL",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2132,
+      "transparentPixels": 1964,
+      "bbox": [
+        10,
+        4,
+        54,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-WEAPON-ADVANCED-BLESSED",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2080,
+      "transparentPixels": 2016,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-ADVANCED-NORMAL",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2129,
+      "transparentPixels": 1967,
+      "bbox": [
+        10,
+        4,
+        54,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 0,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 0
+    },
+    {
+      "id": "ITEM-FUSION-ARMOR-ADVANCED-BLESSED",
+      "width": 64,
+      "height": 64,
+      "alphaPixels": 2082,
+      "transparentPixels": 2014,
+      "bbox": [
+        11,
+        4,
+        53,
+        60
+      ],
+      "edgePixels": 0,
+      "magentaPixels": 1,
+      "visibleMagentaPixels": 0,
+      "magentaAlphaMax": 1
+    }
+  ]
+}

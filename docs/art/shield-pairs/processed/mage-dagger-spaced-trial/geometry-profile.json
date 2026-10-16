@@ -1,0 +1,36 @@
+{
+  "schema": "lineage-shield-geometry-profile-v1",
+  "character": "mage-dagger",
+  "variant": "with-shield",
+  "status": "pending-semantic-and-native-qa",
+  "acceptedReference": null,
+  "rawReference": "docs/art/shield-pairs/mage-dagger-trial/layout-v2/idle/raw-shield.png",
+  "rawReferenceSHA256": "4272ecaaaea8b84d761476fcc237fca8c8d2937e381352d814df5e0d9efc4e90",
+  "rawReferenceCell": [
+    271.5,
+    271.5
+  ],
+  "nativeCell": [
+    192,
+    192
+  ],
+  "nativeAnchor": [
+    96,
+    150
+  ],
+  "baseHeight": 92,
+  "uniformReferenceScale": 0.6457692821815265,
+  "perFrameScaleAllowed": false,
+  "maximumAnatomicalScaleDrift": 0.08,
+  "sourceMeanAlphaHeight": 100.64583333333333,
+  "generatedRawMeanAlphaHeight": 155.85416666666666,
+  "scaleForFutureRawCell": "uniformReferenceScale * rawReferenceCell[0] / rawCellWidth; height must have the same ratio",
+  "acceptedScope": "None; geometry staging is not semantic acceptance",
+  "layoutCalibration": {
+    "previousProfile": "docs/art/shield-pairs/processed/mage-dagger-trial/geometry-profile.json",
+    "gridPitchFactor": 1.5,
+    "spriteScale": 1,
+    "method": "Integer translations only; original uniformReferenceScale retained, rawReferenceCell scaled by the same family grid pitch factor.",
+    "nativeComparison": "pending"
+  }
+}

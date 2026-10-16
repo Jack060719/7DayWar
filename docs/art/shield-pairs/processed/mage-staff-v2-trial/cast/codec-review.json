@@ -1,0 +1,84 @@
+{
+  "schema": "lineage-shield-codec-review-v1",
+  "method": "Native Chromium decodes staged PNG and WebP independently; review images use unchanged 192 cells at 2x nearest-neighbor, showing source beside generated. No rescaling or registration beyond the staging profile.",
+  "durationsPreserved": true,
+  "clips": [
+    {
+      "direction": "S",
+      "width": 1536,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.6630372876813294,
+      "edgePixels": 0
+    },
+    {
+      "direction": "SW",
+      "width": 1536,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.6779511909028706,
+      "edgePixels": 0
+    },
+    {
+      "direction": "W",
+      "width": 1536,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.6513898621817332,
+      "edgePixels": 0
+    },
+    {
+      "direction": "NW",
+      "width": 1536,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.6732910303790995,
+      "edgePixels": 0
+    },
+    {
+      "direction": "N",
+      "width": 1536,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.6660999138063358,
+      "edgePixels": 0
+    },
+    {
+      "direction": "NE",
+      "width": 1536,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.6790569243840272,
+      "edgePixels": 0
+    },
+    {
+      "direction": "E",
+      "width": 1536,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.6509808087245946,
+      "edgePixels": 0
+    },
+    {
+      "direction": "SE",
+      "width": 1536,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.6727210342232257,
+      "edgePixels": 0
+    }
+  ],
+  "footErrorMax": [
+    0.7020770793967017,
+    1
+  ],
+  "semanticStatus": "pending-human-image-review"
+}

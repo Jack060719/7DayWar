@@ -1,0 +1,118 @@
+{
+  "schema": "lineage-shield-reinsert-v1",
+  "status": "pending-semantic-and-geometry-review",
+  "raw": {
+    "file": "docs/art/shield-pairs/raw/knight-dagger/hit-without-shield-v1.png",
+    "sha256": "d641497da781ab4c1744475bbc70d64d326497022c404163b3714f9cffe58672"
+  },
+  "edit": {
+    "file": "docs/art/shield-pairs/raw/knight-dagger/hit-N-without-shield-v2.png",
+    "sha256": "dcc6a5d34ee7b0764d372d90a0ca60712401c4256bae058f8256d426a4e37d45"
+  },
+  "contract": "docs/art/shield-pairs/inputs/knight-dagger/hit-N-correction.json",
+  "output": {
+    "file": "docs/art/shield-pairs/raw/knight-dagger/hit-without-shield-v2.png",
+    "sha256": "941ff660f7a734793df4df6afc43620a700ca3751cfb095ac092a01c2902e05d"
+  },
+  "method": "Restore the full edited guide canvas at a single proportional scale, then apply each recorded inverse transform. No body bounding-box fitting. Unselected source pixels remain identical in the decoded RGBA buffer.",
+  "rawSize": [
+    887,
+    1774
+  ],
+  "editedSize": [
+    1254,
+    1254
+  ],
+  "normalizedSize": [
+    768,
+    768
+  ],
+  "outsideChangedPixels": 0,
+  "changedPixels": 26854,
+  "mappings": [
+    {
+      "direction": "N",
+      "column": 0,
+      "scale": 0.5774739583333334,
+      "translation": [
+        77.1744382387953,
+        947.392578125
+      ],
+      "sourceCrop": [
+        74,
+        945,
+        85,
+        121
+      ],
+      "guideRect": [
+        0,
+        0,
+        384,
+        384
+      ]
+    },
+    {
+      "direction": "N",
+      "column": 1,
+      "scale": 0.5774739583333334,
+      "translation": [
+        261.90155599466567,
+        914.744140625
+      ],
+      "sourceCrop": [
+        287,
+        945,
+        90,
+        125
+      ],
+      "guideRect": [
+        384,
+        0,
+        384,
+        384
+      ]
+    },
+    {
+      "direction": "N",
+      "column": 2,
+      "scale": 0.5774739583333334,
+      "translation": [
+        474.7728348565365,
+        914.1666666666666
+      ],
+      "sourceCrop": [
+        513,
+        946,
+        88,
+        122
+      ],
+      "guideRect": [
+        0,
+        384,
+        384,
+        384
+      ]
+    },
+    {
+      "direction": "N",
+      "column": 3,
+      "scale": 0.5774739583333334,
+      "translation": [
+        742.9701719322885,
+        947.8151041666666
+      ],
+      "sourceCrop": [
+        739,
+        946,
+        86,
+        120
+      ],
+      "guideRect": [
+        384,
+        384,
+        384,
+        384
+      ]
+    }
+  ]
+}

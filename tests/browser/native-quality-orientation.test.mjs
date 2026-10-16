@@ -1,0 +1,48 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdir,writeFile} from 'node:fs/promises';
+import path from 'node:path';
+import {launchTestBrowser,startTestServer} from '../helpers/browser.mjs';
+const binary=process.env.BROWSER_BINARY;
+const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+async function waitFor(check,timeout=20000){const end=Date.now()+timeout;while(!await check()){if(Date.now()>end)throw Error('Browser condition timed out');await delay(50)}}
+
+test('native UI quality colors and portrait gate preserve the panel, simulation and durable saves',{skip:!binary,timeout:60000},async t=>{
+ const site=await startTestServer(),browser=await launchTestBrowser(binary,{disableSandbox:process.env.BROWSER_NO_SANDBOX==='1'}),p=await browser.page(),reportDir=path.resolve('reports/native-quality-orientation');
+ t.after(async()=>{p.close();await browser.close();await site.close()});await mkdir(reportDir,{recursive:true});
+ await p.command('Page.enable');await p.command('Emulation.setDeviceMetricsOverride',{width:844,height:390,deviceScaleFactor:1,mobile:true});
+ await p.command('Page.navigate',{url:site.url+'/full/data.mjs'});await waitFor(()=>p.evaluate('document.readyState==="complete"&&location.pathname==="/full/data.mjs"'));
+ const seeded=await p.evaluate('(async()=>{const e=await import("/full/engine.mjs"),storage=await import("/full/storage.mjs"),s=e.createGame("knight","品質旋轉合成角色",undefined,31),lease=await storage.acquireSession();s.equipped={};s.nextId="2000";const gear=s.inventory.equipment[0];s.inventory.equipment=[{...gear,uid:"e1001",plus:12,identified:false,quality:"blessed"},{...gear,uid:"e1002",plus:3,identified:true,quality:"normal"},{...gear,uid:"e1003",plus:4,identified:true,quality:"blessed"}];s.inventory.scrolls=[{uid:"scroll1004",itemId:"ITEM-FUSION-ARMOR-ADVANCED-BLESSED",identified:false},{uid:"scroll1005",itemId:"ITEM-FUSION-WEAPON-BASIC-NORMAL",identified:true},{uid:"scroll1006",itemId:"ITEM-FUSION-WEAPON-BASIC-BLESSED",identified:true}];const check=e.validate(s);if(!check.ok)throw Error(check.errors.join(","));await storage.writeSave(s,0,Date.now());await lease.release();return check.ok})()');assert(seeded);
+ await p.command('Page.navigate',{url:site.url+'/full/'});await waitFor(()=>p.evaluate('document.querySelector("#loading")?.hidden&&document.querySelector("#heroName")?.textContent==="品質旋轉合成角色"'));
+ await p.evaluate('document.querySelector("#menus [data-panel=bag]").click()');
+ const equipment=await p.evaluate('[...document.querySelectorAll("#panel .item-name")].map(e=>({text:e.textContent,quality:e.dataset.quality,color:getComputedStyle(e).color}))');
+ assert.deepEqual(equipment,[{text:'未鑑定的武器',quality:'unidentified',color:'rgb(170, 170, 170)'},{text:'+3 匕首',quality:'normal',color:'rgb(255, 255, 255)'},{text:'+4 祝福的匕首',quality:'blessed',color:'rgb(255, 240, 173)'}]);
+ const gearShot=await p.command('Page.captureScreenshot',{format:'png'});await writeFile(path.join(reportDir,'landscape-equipment.png'),Buffer.from(gearShot.data,'base64'));
+ await p.evaluate('document.querySelector("[data-bag=items]").click()');
+ const scrolls=await p.evaluate('[...document.querySelectorAll("#panel .item-name")].map(e=>({text:e.textContent,quality:e.dataset.quality,color:getComputedStyle(e).color}))');
+ assert.deepEqual(scrolls.map(s=>s.color),equipment.map(e=>e.color));assert.equal(scrolls[0].text,'未鑑定的融合卷');
+ await p.evaluate('document.querySelector("#panel .item-name").scrollIntoView({block:"start"})');
+ const screenshot=await p.command('Page.captureScreenshot',{format:'png'});await writeFile(path.join(reportDir,'landscape-items.png'),Buffer.from(screenshot.data,'base64'));
+ const before=await p.evaluate('(async()=>{const e=await(await import("/full/storage.mjs")).readSave();return{revision:e.revision,clock:e.state.clockMs}})()');
+ await p.command('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});
+ await waitFor(()=>p.evaluate('!!document.querySelector("#orientationGate")?.open'));
+ const portrait=await p.evaluate('(()=>{const gate=document.querySelector("#orientationGate"),r=gate.getBoundingClientRect();return{modal:gate.matches(":modal"),panelOpen:document.querySelector("#panel").open,panel:document.querySelector("#panel").dataset.panel,text:gate.textContent,topElement:document.elementFromPoint(innerWidth/2,innerHeight/2).closest("dialog")?.id,rect:{x:r.x,y:r.y,width:r.width,height:r.height}}})()');
+ assert.equal(portrait.modal,true);assert.equal(portrait.panelOpen,true);assert.equal(portrait.panel,'bag');assert.equal(portrait.topElement,'orientationGate');assert.deepEqual(portrait.rect,{x:0,y:0,width:390,height:844});
+ await p.command('Input.dispatchMouseEvent',{type:'mousePressed',x:195,y:422,button:'left',clickCount:1});await p.command('Input.dispatchMouseEvent',{type:'mouseReleased',x:195,y:422,button:'left',clickCount:1});
+ await p.command('Input.dispatchKeyEvent',{type:'keyDown',key:'Escape',code:'Escape',windowsVirtualKeyCode:27});await p.command('Input.dispatchKeyEvent',{type:'keyUp',key:'Escape',code:'Escape',windowsVirtualKeyCode:27});
+ await p.evaluate('document.querySelector("#panel [data-bag=equipment]").click()');
+ assert.equal(await p.evaluate('document.querySelector("#orientationGate").open&&!!document.querySelector("#panel [data-identify=scroll1004]")'),true,'portrait prevents even delegated programmatic controls from changing the panel');
+ await delay(2600);
+ const after=await p.evaluate('(async()=>{const e=await(await import("/full/storage.mjs")).readSave();return{revision:e.revision,clock:e.state.clockMs}})()');assert(after.revision>before.revision);assert(after.clock>before.clock);
+ const portraitShot=await p.command('Page.captureScreenshot',{format:'png'});await writeFile(path.join(reportDir,'portrait-gate.png'),Buffer.from(portraitShot.data,'base64'));
+ await p.command('Emulation.setDeviceMetricsOverride',{width:844,height:390,deviceScaleFactor:1,mobile:true});await waitFor(()=>p.evaluate('!document.querySelector("#orientationGate").open'));
+ assert.equal(await p.evaluate('document.querySelector("#panel").open&&!!document.querySelector("#panel [data-identify=scroll1004]")'),true);
+ await p.evaluate('document.querySelector("#panel [data-action=close]").click()');assert.equal(await p.evaluate('document.querySelector("#panel").open'),false);
+ const redBefore=await p.evaluate('Number(document.querySelector("#redCount").textContent)');
+ await p.command('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});await waitFor(()=>p.evaluate('document.querySelector("#orientationGate").open'));
+ const redPoint=await p.evaluate('(()=>{const r=document.querySelector("#hotbar [data-use=ITEM-RED-POTION]").getBoundingClientRect();return{x:r.x+r.width/2,y:r.y+r.height/2}})()');
+ await p.command('Input.dispatchMouseEvent',{type:'mousePressed',...redPoint,button:'left',clickCount:1});await p.command('Input.dispatchMouseEvent',{type:'mouseReleased',...redPoint,button:'left',clickCount:1});await delay(100);assert.equal(await p.evaluate('Number(document.querySelector("#redCount").textContent)'),redBefore);
+ await p.command('Emulation.setDeviceMetricsOverride',{width:844,height:390,deviceScaleFactor:1,mobile:true});await waitFor(()=>p.evaluate('!document.querySelector("#orientationGate").open'));
+ await p.evaluate('document.querySelector("#hotbar [data-use=ITEM-RED-POTION]").click()');await waitFor(()=>p.evaluate('Number(document.querySelector("#redCount").textContent)==='+String(redBefore-1)));
+ const version=await p.command('Browser.getVersion');await writeFile(path.join(reportDir,'result.json'),JSON.stringify({browser:version.product,syntheticOnly:true,actualPhone:false,equipment,scrolls,portrait,persistence:{before,after},portraitBlockedInput:true,landscapeRestoredPanel:true},null,2));
+});

@@ -1,0 +1,55 @@
+{
+  "schema": "lineage-shield-reinsert-v1",
+  "status": "pending-semantic-and-geometry-review",
+  "raw": {
+    "file": "docs/art/shield-pairs/raw/knight-dagger/death-without-shield-v2.png",
+    "sha256": "66d09f53e6551fef330da6188b222169f276d7586096c0fbd982f33e93b9901d"
+  },
+  "edit": {
+    "file": "docs/art/shield-pairs/raw/knight-dagger/death-N-frame-6-without-shield-v3.png",
+    "sha256": "9c79dd641058bb0c050b109042c0a125c7c38b39d61bf5bf09c6e44243115b90"
+  },
+  "contract": "docs/art/shield-pairs/inputs/knight-dagger/death-N-frame-6-correction.json",
+  "output": {
+    "file": "docs/art/shield-pairs/raw/knight-dagger/death-without-shield-v3.png",
+    "sha256": "d236a1e9720b9404a1debb2ac7677990b5951f1f4ea9611cc974ad5857526015"
+  },
+  "method": "Restore the full edited guide canvas at a single proportional scale, then apply each recorded inverse transform. No body bounding-box fitting. Unselected source pixels remain identical in the decoded RGBA buffer.",
+  "rawSize": [
+    1254,
+    1254
+  ],
+  "editedSize": [
+    1254,
+    1254
+  ],
+  "normalizedSize": [
+    384,
+    384
+  ],
+  "outsideChangedPixels": 0,
+  "changedPixels": 2646,
+  "mappings": [
+    {
+      "direction": "N",
+      "column": 5,
+      "scale": 0.408203125,
+      "translation": [
+        826.4978387886104,
+        700.810546875
+      ],
+      "sourceCrop": [
+        828,
+        698,
+        65,
+        66
+      ],
+      "guideRect": [
+        0,
+        0,
+        384,
+        384
+      ]
+    }
+  ]
+}

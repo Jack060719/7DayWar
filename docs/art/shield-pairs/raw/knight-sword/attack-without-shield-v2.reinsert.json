@@ -1,0 +1,202 @@
+{
+  "schema": "lineage-shield-reinsert-v1",
+  "status": "pending-semantic-and-geometry-review",
+  "raw": {
+    "file": "docs/art/shield-pairs/raw/knight-sword/attack-without-shield-v1-padded.png",
+    "sha256": "2b77c18c6ba9d08639dde91bb104fa5c90c9425952f80c0744921a9095481a87"
+  },
+  "edit": {
+    "file": "docs/art/shield-pairs/raw/knight-sword/attack-S-without-shield-v2-clean.png",
+    "sha256": "edf734473a70b47f376828b5e83d3987f38c973b9ebae8fc54dcf59d8de3ebc1"
+  },
+  "contract": "docs/art/shield-pairs/inputs/knight-sword/attack-S-correction.json",
+  "output": {
+    "file": "docs/art/shield-pairs/raw/knight-sword/attack-without-shield-v2.png",
+    "sha256": "73abffcd42206005166e3cc89a820fabed7f1921219c6c211d06ef5eed39f7b5"
+  },
+  "method": "Restore the full edited guide canvas at a single proportional scale, then apply each recorded inverse transform. No body bounding-box fitting. Unselected source pixels remain identical in the decoded RGBA buffer.",
+  "rawSize": [
+    1280,
+    1280
+  ],
+  "editedSize": [
+    887,
+    1774
+  ],
+  "normalizedSize": [
+    1024,
+    2048
+  ],
+  "outsideChangedPixels": 0,
+  "changedPixels": 62076,
+  "mappings": [
+    {
+      "direction": "S",
+      "column": 0,
+      "scale": 0.4166666666666667,
+      "translation": [
+        76.97759765909632,
+        51.08333333333333
+      ],
+      "sourceCrop": [
+        72,
+        45,
+        112,
+        111
+      ],
+      "guideRect": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "direction": "S",
+      "column": 1,
+      "scale": 0.4166666666666667,
+      "translation": [
+        228.52274870344178,
+        51.24999999999999
+      ],
+      "sourceCrop": [
+        223,
+        47,
+        112,
+        112
+      ],
+      "guideRect": [
+        512,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "direction": "S",
+      "column": 2,
+      "scale": 0.4166666666666667,
+      "translation": [
+        383.61491667055213,
+        26.83333333333334
+      ],
+      "sourceCrop": [
+        380,
+        24,
+        100,
+        137
+      ],
+      "guideRect": [
+        0,
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "direction": "S",
+      "column": 3,
+      "scale": 0.4166666666666667,
+      "translation": [
+        529.9617446051584,
+        47.33333333333333
+      ],
+      "sourceCrop": [
+        524,
+        46,
+        94,
+        109
+      ],
+      "guideRect": [
+        512,
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "direction": "S",
+      "column": 4,
+      "scale": 0.4166666666666667,
+      "translation": [
+        679.7955183956484,
+        50.24999999999999
+      ],
+      "sourceCrop": [
+        673,
+        47,
+        124,
+        109
+      ],
+      "guideRect": [
+        0,
+        1024,
+        512,
+        512
+      ]
+    },
+    {
+      "direction": "S",
+      "column": 5,
+      "scale": 0.4166666666666667,
+      "translation": [
+        822.9009954737854,
+        51.49999999999999
+      ],
+      "sourceCrop": [
+        815,
+        47,
+        140,
+        112
+      ],
+      "guideRect": [
+        512,
+        1024,
+        512,
+        512
+      ]
+    },
+    {
+      "direction": "S",
+      "column": 6,
+      "scale": 0.4166666666666667,
+      "translation": [
+        978.3387337036445,
+        49.41666666666666
+      ],
+      "sourceCrop": [
+        975,
+        47,
+        110,
+        109
+      ],
+      "guideRect": [
+        0,
+        1536,
+        512,
+        512
+      ]
+    },
+    {
+      "direction": "S",
+      "column": 7,
+      "scale": 0.4166666666666667,
+      "translation": [
+        1134.9474585436194,
+        49.83333333333333
+      ],
+      "sourceCrop": [
+        1129,
+        47,
+        108,
+        109
+      ],
+      "guideRect": [
+        512,
+        1536,
+        512,
+        512
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "candidate-pending-final-integration",
+  "actions": [
+    "idle",
+    "walk",
+    "attack",
+    "hit",
+    "death",
+    "cast"
+  ],
+  "limitations": [
+    "Generated sheets retain the painted style and original directions/timing. Final game and mobile acceptance pending.",
+    "Repeated walking leg poses and silhouette-height variation are retained. Silhouette height includes long spear orientation, not only body size.",
+    "Attack/death use fixed-scale silhouette-center registration. Fifteen frames use integer atlas translation plus the identical anchor translation, preserving world-space geometry without cropping or shrinking.",
+    "Cast emission points retain the original pose estimates; precise release contact remains for user acceptance."
+  ]
+}

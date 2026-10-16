@@ -1,0 +1,718 @@
+{
+  "schema": "lineage-shield-staging-v1",
+  "consumerId": "CLASS-MAGE:mace:with-shield",
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 92,
+  "anchor": [
+    96,
+    150
+  ],
+  "status": "pending-semantic-and-native-qa",
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-S.webp"
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SW.webp"
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-W.webp"
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NW.webp"
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-N.webp"
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-NE.webp"
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-E.webp"
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "clips/idle-SE.webp"
+        }
+      ]
+    }
+  }
+}

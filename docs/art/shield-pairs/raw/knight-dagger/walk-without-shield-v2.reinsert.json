@@ -1,0 +1,202 @@
+{
+  "schema": "lineage-shield-reinsert-v1",
+  "status": "pending-semantic-and-geometry-review",
+  "raw": {
+    "file": "docs/art/shield-pairs/raw/knight-dagger/walk-without-shield-v1.png",
+    "sha256": "681093767478fedc7ae4058b6a169a49893a526f94ac19164e729e2e7a46eec4"
+  },
+  "edit": {
+    "file": "docs/art/shield-pairs/raw/knight-dagger/walk-N-without-shield-v2.png",
+    "sha256": "83ea621b4879855de4ed2b90c1586fb28f9c6db6743590770423111821bc5bda"
+  },
+  "contract": "docs/art/shield-pairs/inputs/knight-dagger/walk-N-correction.json",
+  "output": {
+    "file": "docs/art/shield-pairs/raw/knight-dagger/walk-without-shield-v2.png",
+    "sha256": "e257e5c42a43c46f79f4e4341c93b32533f1cc2d0ec913b747fee60a15d41a54"
+  },
+  "method": "Restore the full edited guide canvas at a single proportional scale, then apply each recorded inverse transform. No body bounding-box fitting. Unselected source pixels remain identical in the decoded RGBA buffer.",
+  "rawSize": [
+    1254,
+    1254
+  ],
+  "editedSize": [
+    887,
+    1774
+  ],
+  "normalizedSize": [
+    768,
+    1536
+  ],
+  "outsideChangedPixels": 0,
+  "changedPixels": 52287,
+  "mappings": [
+    {
+      "direction": "N",
+      "column": 0,
+      "scale": 0.408203125,
+      "translation": [
+        49.66988458824848,
+        664.01171875
+      ],
+      "sourceCrop": [
+        44,
+        654,
+        73,
+        106
+      ],
+      "guideRect": [
+        0,
+        0,
+        384,
+        384
+      ]
+    },
+    {
+      "direction": "N",
+      "column": 1,
+      "scale": 0.408203125,
+      "translation": [
+        206.82828027891176,
+        644.78515625
+      ],
+      "sourceCrop": [
+        205,
+        659,
+        71,
+        102
+      ],
+      "guideRect": [
+        384,
+        0,
+        384,
+        384
+      ]
+    },
+    {
+      "direction": "N",
+      "column": 2,
+      "scale": 0.408203125,
+      "translation": [
+        359.96543178763443,
+        642.111328125
+      ],
+      "sourceCrop": [
+        358,
+        656,
+        72,
+        106
+      ],
+      "guideRect": [
+        0,
+        384,
+        384,
+        384
+      ]
+    },
+    {
+      "direction": "N",
+      "column": 3,
+      "scale": 0.408203125,
+      "translation": [
+        517.4399164187934,
+        656.21484375
+      ],
+      "sourceCrop": [
+        510,
+        656,
+        73,
+        106
+      ],
+      "guideRect": [
+        384,
+        384,
+        384,
+        384
+      ]
+    },
+    {
+      "direction": "N",
+      "column": 4,
+      "scale": 0.408203125,
+      "translation": [
+        667.6160656005222,
+        651.091796875
+      ],
+      "sourceCrop": [
+        670,
+        656,
+        72,
+        105
+      ],
+      "guideRect": [
+        0,
+        768,
+        384,
+        384
+      ]
+    },
+    {
+      "direction": "N",
+      "column": 5,
+      "scale": 0.408203125,
+      "translation": [
+        779.023545390181,
+        641.927734375
+      ],
+      "sourceCrop": [
+        831,
+        656,
+        73,
+        109
+      ],
+      "guideRect": [
+        384,
+        768,
+        384,
+        384
+      ]
+    },
+    {
+      "direction": "N",
+      "column": 6,
+      "scale": 0.408203125,
+      "translation": [
+        955.8029960210413,
+        663.337890625
+      ],
+      "sourceCrop": [
+        988,
+        658,
+        76,
+        105
+      ],
+      "guideRect": [
+        0,
+        1152,
+        384,
+        384
+      ]
+    },
+    {
+      "direction": "N",
+      "column": 7,
+      "scale": 0.408203125,
+      "translation": [
+        1096.7638940742795,
+        662.337890625
+      ],
+      "sourceCrop": [
+        1138,
+        658,
+        72,
+        104
+      ],
+      "guideRect": [
+        384,
+        1152,
+        384,
+        384
+      ]
+    }
+  ]
+}

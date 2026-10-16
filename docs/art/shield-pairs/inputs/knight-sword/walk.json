@@ -1,0 +1,1825 @@
+{
+  "schema": "lineage-shield-reference-v1",
+  "purpose": "Reference only; not newly generated artwork or runtime acceptance",
+  "class": "knight",
+  "family": "sword",
+  "action": "walk",
+  "sourceManifest": {
+    "file": "actors/knight/knight-runtime.json",
+    "sha256": "ae0c8cf904423f02f8b3d642cd47fef6dd9f371d021a70fca55fbd2d404f745f"
+  },
+  "sourceClips": [
+    {
+      "file": "actors/knight/clips/walk-S.webp",
+      "sha256": "d07f930d7dda282e36e4191e27de09b2886aced8429e52d5985efa3bd13ccec3"
+    },
+    {
+      "file": "actors/knight/clips/walk-SW.webp",
+      "sha256": "da3661e848cd1829e2e94a6f65838122206abd2b4b44d57fa4f3bf0d20c51da5"
+    },
+    {
+      "file": "actors/knight/clips/walk-W.webp",
+      "sha256": "eb878219765e5491329fb8187c4e3a83f3a8d9f13362a124227c6d58cd59efb2"
+    },
+    {
+      "file": "actors/knight/clips/walk-NW.webp",
+      "sha256": "e9b5f602dbe45ec6affa6a64b9deaef07bc9e883c66d58823b2d105af19a76ca"
+    },
+    {
+      "file": "actors/knight/clips/walk-N.webp",
+      "sha256": "e5503d9c3a1fa3ec02dbc452d0aceed404a07a8733358b659ec2791ca152d55a"
+    },
+    {
+      "file": "actors/knight/clips/walk-NE.webp",
+      "sha256": "efac946e0f646e0d790a4dfc29015906441d26b51cb9844eb804bde354ff0758"
+    },
+    {
+      "file": "actors/knight/clips/walk-E.webp",
+      "sha256": "9bef0b8cb119fce321146354fd244e5fee7eb9b20c4f4b365e911d696f59a876"
+    },
+    {
+      "file": "actors/knight/clips/walk-SE.webp",
+      "sha256": "87d844db2aa2b4f980224d59c05ff0ae7587c2d3715c328254060ef2296afde9"
+    }
+  ],
+  "directions": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "columns": 8,
+  "cell": [
+    192,
+    192
+  ],
+  "width": 1536,
+  "height": 1536,
+  "baseHeight": 92,
+  "anchor": [
+    96,
+    150
+  ],
+  "frames": [
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-S.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-S.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-S.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-S.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-S.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-S.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-S.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-S.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SW.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SW.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SW.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SW.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SW.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SW.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SW.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SW.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-W.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-W.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-W.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-W.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-W.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-W.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-W.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-W.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NW.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NW.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NW.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NW.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NW.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NW.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NW.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NW.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-N.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-N.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-N.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-N.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-N.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-N.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-N.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-N.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NE.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NE.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NE.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NE.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NE.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NE.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NE.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-NE.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-E.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-E.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-E.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-E.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-E.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-E.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-E.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-E.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SE.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SE.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SE.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SE.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SE.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SE.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SE.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/walk-SE.webp"
+      }
+    ]
+  ],
+  "processing": {
+    "tool": "isolated Chromium Canvas; Python sprite helper unavailable",
+    "resize": false,
+    "translation": false,
+    "cleanup": "8-connected alpha components; remove only non-largest detached horizontal lines with width >= 8 and height <= 2 pixels"
+  },
+  "qa": [
+    {
+      "row": 0,
+      "column": 0,
+      "mainBBox": [
+        67,
+        57,
+        54,
+        96
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "mainBBox": [
+        65,
+        56,
+        56,
+        98
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "mainBBox": [
+        66,
+        56,
+        56,
+        98
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "mainBBox": [
+        66,
+        57,
+        56,
+        95
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 4,
+      "mainBBox": [
+        65,
+        57,
+        57,
+        95
+      ],
+      "components": 6,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 5,
+      "mainBBox": [
+        66,
+        57,
+        56,
+        95
+      ],
+      "components": 8,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 6,
+      "mainBBox": [
+        65,
+        56,
+        56,
+        96
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 7,
+      "mainBBox": [
+        66,
+        57,
+        56,
+        95
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "mainBBox": [
+        60,
+        57,
+        67,
+        96
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "mainBBox": [
+        59,
+        57,
+        72,
+        97
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "mainBBox": [
+        61,
+        56,
+        67,
+        98
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "mainBBox": [
+        60,
+        57,
+        67,
+        96
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "mainBBox": [
+        60,
+        57,
+        69,
+        97
+      ],
+      "components": 9,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "mainBBox": [
+        62,
+        56,
+        65,
+        96
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 6,
+      "mainBBox": [
+        61,
+        57,
+        67,
+        92
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 7,
+      "mainBBox": [
+        63,
+        57,
+        68,
+        92
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "mainBBox": [
+        37,
+        57,
+        89,
+        96
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "mainBBox": [
+        34,
+        56,
+        92,
+        96
+      ],
+      "components": 8,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "mainBBox": [
+        35,
+        56,
+        91,
+        96
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "mainBBox": [
+        33,
+        56,
+        93,
+        95
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 4,
+      "mainBBox": [
+        30,
+        56,
+        90,
+        98
+      ],
+      "components": 10,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 5,
+      "mainBBox": [
+        31,
+        57,
+        94,
+        96
+      ],
+      "components": 14,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 6,
+      "mainBBox": [
+        33,
+        56,
+        94,
+        96
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 7,
+      "mainBBox": [
+        32,
+        57,
+        96,
+        96
+      ],
+      "components": 8,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 0,
+      "mainBBox": [
+        47,
+        57,
+        81,
+        96
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "mainBBox": [
+        46,
+        57,
+        82,
+        97
+      ],
+      "components": 6,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "mainBBox": [
+        46,
+        56,
+        83,
+        98
+      ],
+      "components": 6,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "mainBBox": [
+        45,
+        57,
+        85,
+        99
+      ],
+      "components": 8,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "mainBBox": [
+        43,
+        58,
+        86,
+        94
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 5,
+      "mainBBox": [
+        41,
+        57,
+        87,
+        98
+      ],
+      "components": 17,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 6,
+      "mainBBox": [
+        41,
+        56,
+        88,
+        99
+      ],
+      "components": 15,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 7,
+      "mainBBox": [
+        41,
+        57,
+        88,
+        100
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 0,
+      "mainBBox": [
+        73,
+        57,
+        56,
+        96
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "mainBBox": [
+        71,
+        56,
+        59,
+        101
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "mainBBox": [
+        72,
+        55,
+        57,
+        101
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "mainBBox": [
+        72,
+        56,
+        58,
+        99
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 4,
+      "mainBBox": [
+        72,
+        56,
+        58,
+        99
+      ],
+      "components": 9,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 5,
+      "mainBBox": [
+        72,
+        56,
+        59,
+        100
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 6,
+      "mainBBox": [
+        71,
+        55,
+        58,
+        102
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 7,
+      "mainBBox": [
+        72,
+        56,
+        57,
+        100
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 0,
+      "mainBBox": [
+        70,
+        57,
+        71,
+        96
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 1,
+      "mainBBox": [
+        68,
+        57,
+        73,
+        98
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 2,
+      "mainBBox": [
+        69,
+        56,
+        72,
+        101
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 3,
+      "mainBBox": [
+        68,
+        57,
+        74,
+        100
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 4,
+      "mainBBox": [
+        69,
+        57,
+        73,
+        99
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 5,
+      "mainBBox": [
+        67,
+        57,
+        74,
+        95
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 6,
+      "mainBBox": [
+        69,
+        57,
+        73,
+        95
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 7,
+      "mainBBox": [
+        68,
+        57,
+        75,
+        94
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 0,
+      "mainBBox": [
+        57,
+        57,
+        93,
+        96
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 1,
+      "mainBBox": [
+        64,
+        57,
+        86,
+        95
+      ],
+      "components": 10,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 2,
+      "mainBBox": [
+        61,
+        56,
+        89,
+        95
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 3,
+      "mainBBox": [
+        61,
+        56,
+        90,
+        96
+      ],
+      "components": 26,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 4,
+      "mainBBox": [
+        62,
+        57,
+        89,
+        96
+      ],
+      "components": 8,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 5,
+      "mainBBox": [
+        61,
+        56,
+        91,
+        96
+      ],
+      "components": 16,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 6,
+      "mainBBox": [
+        61,
+        56,
+        94,
+        96
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 7,
+      "mainBBox": [
+        61,
+        56,
+        91,
+        96
+      ],
+      "components": 7,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 0,
+      "mainBBox": [
+        65,
+        57,
+        81,
+        96
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 1,
+      "mainBBox": [
+        66,
+        56,
+        78,
+        96
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 2,
+      "mainBBox": [
+        67,
+        56,
+        80,
+        96
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 3,
+      "mainBBox": [
+        66,
+        56,
+        81,
+        96
+      ],
+      "components": 13,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 4,
+      "mainBBox": [
+        67,
+        57,
+        81,
+        96
+      ],
+      "components": 9,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 5,
+      "mainBBox": [
+        67,
+        56,
+        80,
+        97
+      ],
+      "components": 7,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 6,
+      "mainBBox": [
+        67,
+        56,
+        82,
+        97
+      ],
+      "components": 6,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 7,
+      "mainBBox": [
+        66,
+        56,
+        81,
+        98
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    }
+  ],
+  "output": {
+    "file": "walk.png",
+    "sha256": "d0ceaf28030cb01b62b4ad0234f58053a8e7954b45d7c26b4885e887b64c2c09"
+  }
+}

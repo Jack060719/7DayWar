@@ -1,0 +1,26 @@
+{
+  "status": "candidate-ready-for-final-integration",
+  "scope": "Generated source visual inspection and deterministic geometry checks. Original timing retained. No claim of final in-game or phone acceptance.",
+  "actions": [
+    "idle",
+    "walk",
+    "attack",
+    "hit",
+    "death",
+    "cast"
+  ],
+  "limitations": [
+    "Original subtle or repeated walking leg phases remain.",
+    "Far-side left-arm shield may be occluded by torso in northeast/east directions.",
+    "Fixed family-wide scale with source-foot translations; no per-frame fit.",
+    "Attack contact and cast release times retain original presentation metadata; generated-hand points visually estimated within four pixels."
+  ],
+  "geometry": {
+    "frames": 336,
+    "empty": 0,
+    "clipped": 0,
+    "allAlphaEdge": 0
+  },
+  "finalIntegration": "pending",
+  "composite": "Walk SE uses generation v4; other seven rows use v1, each with source hashes in qa. Death E5-E7 boots use documented ground registration."
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "lineage-shield-direction-edit-v1",
+  "raw": "docs/art/shield-pairs/raw/knight-dagger/death-without-shield-v2.png",
+  "rawSHA256": "66d09f53e6551fef330da6188b222169f276d7586096c0fbd982f33e93b9901d",
+  "guideInput": "docs/art/shield-pairs/processed/knight-dagger-v6-trial/death/cleaned-raw.png",
+  "guideInputSHA256": "a9fa6a1ddd6d5a75db6b2eb92576bb7357fb60b9cfa43bccdb4abc58c4c94fba",
+  "sourceQA": "docs/art/shield-pairs/processed/knight-dagger-v6-trial/death/qa.json",
+  "columns": 8,
+  "rows": 8,
+  "direction": "N",
+  "guideSize": [
+    384,
+    384
+  ],
+  "guideCell": [
+    384,
+    384
+  ],
+  "rawCell": [
+    156.75,
+    156.75
+  ],
+  "rawToGuideScale": 2.449760765550239,
+  "frames": [
+    {
+      "direction": "N",
+      "column": 5,
+      "bodyIndex": 37,
+      "sourceCrop": [
+        828,
+        698,
+        65,
+        66
+      ],
+      "rawFoot": [
+        854.6638544136104,
+        760
+      ],
+      "guideRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "translation": [
+        126.67993559919378,
+        148.11483253588517
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    }
+  ],
+  "method": "Complete body masks use one raw-cell-derived scale. Translation aligns the guide only; its exact inverse maps the edited pixels back to the original raw positions. No body bbox fitting. Image edits must preserve the guide canvas aspect ratio.",
+  "outputSHA256": "8a738ddf3d81e05785a13205be1864583ac6b1e7dfbd5ace7943c763b5dab7d9",
+  "guideColumns": 1,
+  "guideRows": 1
+}

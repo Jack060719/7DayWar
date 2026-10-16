@@ -1,0 +1,32 @@
+{
+  "schema": "lineage-shield-visual-qc-v1",
+  "action": "idle",
+  "frameCount": 48,
+  "reviewedDirections": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "review": "all six frames of each direction displayed on gray with original eight-direction first-frame pair comparison",
+  "shield": {
+    "S": "front face left forearm",
+    "SW": "front face left forearm",
+    "W": "near-side shield",
+    "NW": "foreshortened shield",
+    "N": "left edge/back shield",
+    "NE": "left arm fully occluded by torso; accepted natural occlusion",
+    "E": "left arm fully occluded by torso; accepted natural occlusion",
+    "SE": "far-side shield rim visible"
+  },
+  "rightHandSword": "preserved all directions; no mirror-based hand switching observed",
+  "frameContinuity": "subtle same-direction idle; no missing limb or shield popping within a row",
+  "sourceLimit": "existing small repeated idle poses retained; not claiming newly authored high-motion idle",
+  "geometry": "48 complete alpha components; zero extraction/output edges; foot X error <=0.191 px, Y<=1 px; one fixed scale",
+  "identity": "blonde elf with original dark armor, skirt, boots, sword; crisp generated face details are an art variant, not pixel-identical copy",
+  "result": "accepted candidate idle geometry profile for subsequent actions; runtime pending"
+}

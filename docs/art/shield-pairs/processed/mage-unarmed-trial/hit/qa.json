@@ -1,0 +1,7346 @@
+{
+  "schema": "lineage-shield-staging-qa-v1",
+  "status": "pending-semantic-and-native-qa",
+  "runtimeModified": false,
+  "source": {
+    "file": "docs/art/shield-pairs/inputs/mage-unarmed/hit.json",
+    "sha256": "56a7824f80badc0572a5d35d4f5de8e80542076639fe7d6cc55469d848fb2f2c",
+    "imageSHA256": "b42ab4e4d9d5b8c613974d6df6814725e7de0eb3110aa5886db22bc7d02af2e8"
+  },
+  "raw": {
+    "file": "docs/art/shield-pairs/mage-unarmed-trial/hit/raw-shield.png",
+    "sha256": "f7eab5467d25369d300a4e95fe47d42037408b7f1bf117ef26d75524e0ad6a63"
+  },
+  "action": "hit",
+  "variant": "with-shield",
+  "profile": "docs/art/shield-pairs/processed/mage-unarmed-trial/geometry-profile.json",
+  "scale": 0.6800803424414422,
+  "rawCell": [
+    221.75,
+    221.75
+  ],
+  "method": "Each complete alpha>=16 body is an immutable identity. All remaining nonzero-alpha pixels are assigned to the nearest body pixels by an 8-neighbor multi-source flood, with deterministic ties. Component masks retain every original pixel once; no alpha threshold erases artwork. One unchanged idle-profile scale; corresponding source feet determine translation only. Strict final edge and clipping gates remain unchanged.",
+  "heightDiagnostic": {
+    "source": {
+      "mean": 103.65625,
+      "min": 99,
+      "max": 110,
+      "cv": 0.030085857534861853
+    },
+    "raw": {
+      "mean": 155.1875,
+      "min": 151,
+      "max": 163,
+      "cv": 0.019758834590472944
+    },
+    "scaledToSourceDrift": 0.01817274059819174,
+    "deathExempt": false,
+    "warning": false,
+    "note": "Alpha silhouette height includes weapons and pose changes; this is a review diagnostic, not a measured anatomical torso height."
+  },
+  "geometryFailures": 0,
+  "frames": [
+    {
+      "direction": "S",
+      "column": 0,
+      "sourceCrop": [
+        61,
+        29,
+        101,
+        183
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        60.62882176925627,
+        39.70626144251338
+      ],
+      "sourceFeet": [
+        100.7963363295028,
+        156
+      ],
+      "outputBBox": [
+        64,
+        46,
+        60,
+        111
+      ],
+      "footError": [
+        -0.05148057789276095,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "S",
+      "column": 1,
+      "sourceCrop": [
+        284,
+        31,
+        92,
+        178
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        60.981255868501904,
+        41.066422127396265
+      ],
+      "sourceFeet": [
+        101.23933796824736,
+        156
+      ],
+      "outputBBox": [
+        64,
+        47,
+        57,
+        110
+      ],
+      "footError": [
+        -0.07797926436606417,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "S",
+      "column": 2,
+      "sourceCrop": [
+        499,
+        31,
+        104,
+        175
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        56.23215422454474,
+        41.066422127396265
+      ],
+      "sourceFeet": [
+        100.38017384105962,
+        156
+      ],
+      "outputBBox": [
+        64,
+        46,
+        60,
+        111
+      ],
+      "footError": [
+        -0.09728578630138429,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "S",
+      "column": 3,
+      "sourceCrop": [
+        727,
+        29,
+        98,
+        182
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        59.70360707644406,
+        40.70626144251338
+      ],
+      "sourceFeet": [
+        101.32427514254516,
+        157
+      ],
+      "outputBBox": [
+        64,
+        47,
+        59,
+        111
+      ],
+      "footError": [
+        -0.06504926502275055,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 0,
+      "sourceCrop": [
+        63,
+        257,
+        87,
+        168
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        62.083139186164146,
+        41.82698452448636
+      ],
+      "sourceFeet": [
+        95.42284594474998,
+        152
+      ],
+      "outputBBox": [
+        69,
+        46,
+        49,
+        107
+      ],
+      "footError": [
+        0.011114640685320865,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 1,
+      "sourceCrop": [
+        287,
+        265,
+        90,
+        168
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        62.70997671116792,
+        47.86722555181069
+      ],
+      "sourceFeet": [
+        100.75785630460297,
+        156
+      ],
+      "outputBBox": [
+        68,
+        51,
+        53,
+        106
+      ],
+      "footError": [
+        -0.14323031694507904,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 2,
+      "sourceCrop": [
+        515,
+        264,
+        86,
+        165
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        66.88228306373088,
+        48.86722555181069
+      ],
+      "sourceFeet": [
+        101.30874847243189,
+        157
+      ],
+      "outputBBox": [
+        70,
+        52,
+        52,
+        106
+      ],
+      "footError": [
+        -0.1708746347842407,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 3,
+      "sourceCrop": [
+        736,
+        259,
+        89,
+        169
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        65.72294500193857,
+        44.46682383960348
+      ],
+      "sourceFeet": [
+        101.65355049851587,
+        156
+      ],
+      "outputBBox": [
+        69,
+        50,
+        53,
+        107
+      ],
+      "footError": [
+        -0.3590640430741132,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 0,
+      "sourceCrop": [
+        78,
+        482,
+        91,
+        167
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        73.97976715216123,
+        43.227386236693576
+      ],
+      "sourceFeet": [
+        99.11776615488442,
+        150
+      ],
+      "outputBBox": [
+        81,
+        46,
+        52,
+        105
+      ],
+      "footError": [
+        -0.6944205884111199,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 1,
+      "sourceCrop": [
+        303,
+        482,
+        88,
+        165
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        75.3691713581766,
+        43.90746657913502
+      ],
+      "sourceFeet": [
+        100.1277817150957,
+        150
+      ],
+      "outputBBox": [
+        83,
+        46,
+        50,
+        105
+      ],
+      "footError": [
+        -0.7077074957986724,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 2,
+      "sourceCrop": [
+        528,
+        481,
+        85,
+        166
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        77.61065958196203,
+        43.227386236693576
+      ],
+      "sourceFeet": [
+        99.72359241772955,
+        150
+      ],
+      "outputBBox": [
+        81,
+        46,
+        52,
+        105
+      ],
+      "footError": [
+        -0.7573042081225623,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 3,
+      "sourceCrop": [
+        753,
+        482,
+        87,
+        167
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        79.23605552346744,
+        43.90746657913502
+      ],
+      "sourceFeet": [
+        99.81115757120904,
+        150
+      ],
+      "outputBBox": [
+        83,
+        47,
+        52,
+        104
+      ],
+      "footError": [
+        -0.6993050569351169,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 0,
+      "sourceCrop": [
+        62,
+        705,
+        101,
+        166
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        61.576442626974156,
+        43.227386236693576
+      ],
+      "sourceFeet": [
+        94.38749183144952,
+        150
+      ],
+      "outputBBox": [
+        66,
+        46,
+        57,
+        105
+      ],
+      "footError": [
+        0.04863656684723594,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 1,
+      "sourceCrop": [
+        283,
+        707,
+        95,
+        167
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        60.960967733451206,
+        44.90746657913502
+      ],
+      "sourceFeet": [
+        95.0363211135845,
+        151
+      ],
+      "outputBBox": [
+        66,
+        48,
+        57,
+        104
+      ],
+      "footError": [
+        0.10812598711409294,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 2,
+      "sourceCrop": [
+        513,
+        707,
+        97,
+        166
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        65.58217169238853,
+        44.58754692157646
+      ],
+      "sourceFeet": [
+        96.87047483676099,
+        150
+      ],
+      "outputBBox": [
+        68,
+        48,
+        60,
+        103
+      ],
+      "footError": [
+        -0.213681147170945,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 3,
+      "sourceCrop": [
+        725,
+        705,
+        100,
+        166
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        58.65037425018807,
+        44.227386236693576
+      ],
+      "sourceFeet": [
+        95.29151572926594,
+        151
+      ],
+      "outputBBox": [
+        67,
+        47,
+        57,
+        105
+      ],
+      "footError": [
+        0.05598281300811436,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 0,
+      "sourceCrop": [
+        61,
+        927,
+        91,
+        165
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        61.07191900895318,
+        42.86722555181069
+      ],
+      "sourceFeet": [
+        93.94666618192394,
+        151
+      ],
+      "outputBBox": [
+        64,
+        46,
+        56,
+        106
+      ],
+      "footError": [
+        0.1249348977748781,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 1,
+      "sourceCrop": [
+        280,
+        927,
+        99,
+        168
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        59.64471168743515,
+        43.86722555181069
+      ],
+      "sourceFeet": [
+        95.25781616382682,
+        152
+      ],
+      "outputBBox": [
+        64,
+        48,
+        57,
+        105
+      ],
+      "footError": [
+        0.13836179775269386,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 2,
+      "sourceCrop": [
+        510,
+        927,
+        96,
+        161
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        63.09253228059594,
+        43.90746657913502
+      ],
+      "sourceFeet": [
+        95.98465921031124,
+        150
+      ],
+      "outputBBox": [
+        66,
+        47,
+        59,
+        104
+      ],
+      "footError": [
+        -0.16440960431387452,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 3,
+      "sourceCrop": [
+        725,
+        927,
+        99,
+        165
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        57.87567080104095,
+        43.86722555181069
+      ],
+      "sourceFeet": [
+        95.01737275220967,
+        152
+      ],
+      "outputBBox": [
+        64,
+        47,
+        57,
+        106
+      ],
+      "footError": [
+        0.1578067489302981,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 0,
+      "sourceCrop": [
+        62,
+        1149,
+        88,
+        169
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        61.89002706775126,
+        41.18714520936925
+      ],
+      "sourceFeet": [
+        94.68903337667967,
+        150
+      ],
+      "outputBBox": [
+        65,
+        46,
+        55,
+        105
+      ],
+      "footError": [
+        0.11708647650199566,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 1,
+      "sourceCrop": [
+        283,
+        1145,
+        90,
+        173
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        59.83514798844568,
+        37.786743497162036
+      ],
+      "sourceFeet": [
+        93.85977464547364,
+        150
+      ],
+      "outputBBox": [
+        64,
+        45,
+        54,
+        106
+      ],
+      "footError": [
+        0.11994137886713929,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 2,
+      "sourceCrop": [
+        508,
+        1144,
+        93,
+        176
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        62.165175433460256,
+        37.10666315472059
+      ],
+      "sourceFeet": [
+        94.29769767015227,
+        150
+      ],
+      "outputBBox": [
+        65,
+        45,
+        54,
+        106
+      ],
+      "footError": [
+        0.16701291223408532,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 3,
+      "sourceCrop": [
+        723,
+        1147,
+        105,
+        168
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        57.21958021875795,
+        39.82698452448636
+      ],
+      "sourceFeet": [
+        94.58729102922268,
+        150
+      ],
+      "outputBBox": [
+        65,
+        46,
+        55,
+        105
+      ],
+      "footError": [
+        0.1594539014069909,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 0,
+      "sourceCrop": [
+        69,
+        1370,
+        92,
+        165
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        67.37549248056736,
+        40.507064866927806
+      ],
+      "sourceFeet": [
+        97.04107637514839,
+        150
+      ],
+      "outputBBox": [
+        73,
+        46,
+        50,
+        105
+      ],
+      "footError": [
+        -0.4396231996909137,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 1,
+      "sourceCrop": [
+        287,
+        1370,
+        88,
+        168
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        63.28497530063431,
+        40.507064866927806
+      ],
+      "sourceFeet": [
+        95.92260767554887,
+        150
+      ],
+      "outputBBox": [
+        69,
+        48,
+        50,
+        103
+      ],
+      "footError": [
+        -0.14288171177739173,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 2,
+      "sourceCrop": [
+        513,
+        1373,
+        87,
+        163
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        65.61173306222534,
+        42.86722555181069
+      ],
+      "sourceFeet": [
+        95.72515881107364,
+        151
+      ],
+      "outputBBox": [
+        69,
+        48,
+        51,
+        104
+      ],
+      "footError": [
+        -0.12333684122192778,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 3,
+      "sourceCrop": [
+        737,
+        1370,
+        88,
+        166
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        67.30620667263003,
+        40.507064866927806
+      ],
+      "sourceFeet": [
+        96.98938080737094,
+        150
+      ],
+      "outputBBox": [
+        71,
+        47,
+        51,
+        104
+      ],
+      "footError": [
+        -0.38093423129845405,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 0,
+      "sourceCrop": [
+        62,
+        1596,
+        100,
+        166
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        59.37762995503347,
+        44.507064866927806
+      ],
+      "sourceFeet": [
+        99.24619971650618,
+        154
+      ],
+      "outputBBox": [
+        62,
+        48,
+        61,
+        107
+      ],
+      "footError": [
+        -1.1764627631102655,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 1,
+      "sourceCrop": [
+        283,
+        1596,
+        96,
+        166
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        59.0020230395298,
+        44.507064866927806
+      ],
+      "sourceFeet": [
+        99.36194930597463,
+        154
+      ],
+      "outputBBox": [
+        63,
+        48,
+        57,
+        107
+      ],
+      "footError": [
+        -1.1043934010130698,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 2,
+      "sourceCrop": [
+        499,
+        1594,
+        103,
+        168
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        54.98361306309663,
+        43.14690418204492
+      ],
+      "sourceFeet": [
+        101.13597473442434,
+        154
+      ],
+      "outputBBox": [
+        63,
+        48,
+        58,
+        107
+      ],
+      "footError": [
+        -1.0951935989326813,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 3,
+      "sourceCrop": [
+        725,
+        1594,
+        100,
+        168
+      ],
+      "scale": 0.6800803424414422,
+      "translation": [
+        56.89008048639962,
+        43.14690418204492
+      ],
+      "sourceFeet": [
+        99.93289899392812,
+        154
+      ],
+      "outputBBox": [
+        63,
+        48,
+        59,
+        107
+      ],
+      "footError": [
+        -1.0378147697622637,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    }
+  ],
+  "cleanup": {
+    "method": "Remove only entire 8-connected nonzero-alpha components whose every pixel has alpha exactly 1. Any component with alpha above 1 is preserved in full, including all connected antialiasing and weapon pixels. The strict all-alpha edge gate is unchanged.",
+    "components": [
+      {
+        "bbox": [
+          622,
+          23,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 41
+      },
+      {
+        "bbox": [
+          116,
+          33,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          574,
+          45,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          412,
+          54,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 39
+      },
+      {
+        "bbox": [
+          418,
+          57,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 45
+      },
+      {
+        "bbox": [
+          416,
+          59,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 43
+      },
+      {
+        "bbox": [
+          203,
+          69,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 44
+      },
+      {
+        "bbox": [
+          822,
+          90,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          740,
+          96,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          452,
+          101,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 49
+      },
+      {
+        "bbox": [
+          461,
+          102,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 44
+      },
+      {
+        "bbox": [
+          485,
+          102,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 30
+      },
+      {
+        "bbox": [
+          452,
+          104,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 48
+      },
+      {
+        "bbox": [
+          523,
+          108,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          598,
+          114,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          593,
+          118,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          144,
+          120,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          630,
+          120,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 30
+      },
+      {
+        "bbox": [
+          153,
+          172,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          152,
+          174,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          372,
+          174,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          743,
+          188,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          517,
+          190,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          743,
+          191,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          365,
+          193,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          532,
+          193,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          801,
+          199,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          354,
+          201,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          396,
+          203,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 27
+      },
+      {
+        "bbox": [
+          400,
+          205,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 30
+      },
+      {
+        "bbox": [
+          794,
+          205,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          119,
+          207,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          775,
+          207,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          717,
+          209,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 24
+      },
+      {
+        "bbox": [
+          711,
+          215,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 30
+      },
+      {
+        "bbox": [
+          708,
+          217,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 32
+      },
+      {
+        "bbox": [
+          711,
+          217,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 32
+      },
+      {
+        "bbox": [
+          711,
+          225,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 34
+      },
+      {
+        "bbox": [
+          741,
+          225,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 30
+      },
+      {
+        "bbox": [
+          749,
+          225,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 26
+      },
+      {
+        "bbox": [
+          321,
+          234,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 28
+      },
+      {
+        "bbox": [
+          678,
+          246,
+          1,
+          4
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 63
+      },
+      {
+        "bbox": [
+          680,
+          246,
+          1,
+          3
+        ],
+        "pixels": 3,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 61
+      },
+      {
+        "bbox": [
+          682,
+          247,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 60
+      },
+      {
+        "bbox": [
+          112,
+          259,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          142,
+          293,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          142,
+          305,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          143,
+          316,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          142,
+          326,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          819,
+          330,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          517,
+          332,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          304,
+          334,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          751,
+          339,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          368,
+          340,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          241,
+          346,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 48
+      },
+      {
+        "bbox": [
+          241,
+          348,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 48
+      },
+      {
+        "bbox": [
+          362,
+          348,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          364,
+          353,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          814,
+          366,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          596,
+          380,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          739,
+          392,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          721,
+          406,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 19
+      },
+      {
+        "bbox": [
+          719,
+          408,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 21
+      },
+      {
+        "bbox": [
+          96,
+          410,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          306,
+          414,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          584,
+          414,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          776,
+          418,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          329,
+          424,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          333,
+          426,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          782,
+          426,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          340,
+          428,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          574,
+          430,
+          5,
+          4
+        ],
+        "pixels": 9,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 4
+      },
+      {
+        "bbox": [
+          539,
+          442,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 19
+      },
+      {
+        "bbox": [
+          541,
+          459,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 25
+      },
+      {
+        "bbox": [
+          129,
+          484,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          155,
+          513,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          829,
+          529,
+          1,
+          5
+        ],
+        "pixels": 5,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          160,
+          530,
+          2,
+          8
+        ],
+        "pixels": 8,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          603,
+          530,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          602,
+          543,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          160,
+          545,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          384,
+          547,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          434,
+          555,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 47
+      },
+      {
+        "bbox": [
+          146,
+          557,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          432,
+          557,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 45
+      },
+      {
+        "bbox": [
+          432,
+          559,
+          2,
+          2
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 45
+      },
+      {
+        "bbox": [
+          592,
+          563,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          765,
+          567,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          101,
+          572,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          386,
+          590,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          836,
+          590,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          610,
+          612,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          307,
+          614,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          603,
+          618,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          602,
+          620,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          380,
+          622,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          698,
+          624,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 56
+      },
+      {
+        "bbox": [
+          682,
+          630,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 72
+      },
+      {
+        "bbox": [
+          684,
+          630,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 70
+      },
+      {
+        "bbox": [
+          582,
+          631,
+          7,
+          1
+        ],
+        "pixels": 7,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          680,
+          632,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 70
+      },
+      {
+        "bbox": [
+          682,
+          632,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 72
+      },
+      {
+        "bbox": [
+          678,
+          633,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 68
+      },
+      {
+        "bbox": [
+          802,
+          634,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          804,
+          634,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          351,
+          636,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 3
+      },
+      {
+        "bbox": [
+          678,
+          636,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 68
+      },
+      {
+        "bbox": [
+          684,
+          636,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 71
+      },
+      {
+        "bbox": [
+          350,
+          638,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          559,
+          644,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          303,
+          648,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 17
+      },
+      {
+        "bbox": [
+          487,
+          657,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 45
+      },
+      {
+        "bbox": [
+          487,
+          660,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 45
+      },
+      {
+        "bbox": [
+          650,
+          662,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 46
+      },
+      {
+        "bbox": [
+          565,
+          682,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 27
+      },
+      {
+        "bbox": [
+          563,
+          684,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 25
+      },
+      {
+        "bbox": [
+          565,
+          684,
+          2,
+          2
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 24
+      },
+      {
+        "bbox": [
+          571,
+          685,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 24
+      },
+      {
+        "bbox": [
+          565,
+          687,
+          6,
+          4
+        ],
+        "pixels": 13,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 19
+      },
+      {
+        "bbox": [
+          511,
+          704,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 22
+      },
+      {
+        "bbox": [
+          344,
+          711,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          350,
+          719,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          314,
+          722,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          590,
+          733,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          638,
+          733,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 37
+      },
+      {
+        "bbox": [
+          198,
+          735,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 53
+      },
+      {
+        "bbox": [
+          311,
+          735,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          194,
+          740,
+          2,
+          2
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 49
+      },
+      {
+        "bbox": [
+          194,
+          743,
+          6,
+          7
+        ],
+        "pixels": 27,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 49
+      },
+      {
+        "bbox": [
+          201,
+          743,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 56
+      },
+      {
+        "bbox": [
+          203,
+          743,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 58
+      },
+      {
+        "bbox": [
+          205,
+          745,
+          2,
+          3
+        ],
+        "pixels": 3,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 60
+      },
+      {
+        "bbox": [
+          201,
+          746,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 56
+      },
+      {
+        "bbox": [
+          203,
+          747,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 58
+      },
+      {
+        "bbox": [
+          201,
+          749,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 56
+      },
+      {
+        "bbox": [
+          184,
+          751,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 39
+      },
+      {
+        "bbox": [
+          180,
+          753,
+          4,
+          3
+        ],
+        "pixels": 7,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 35
+      },
+      {
+        "bbox": [
+          178,
+          754,
+          1,
+          4
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 33
+      },
+      {
+        "bbox": [
+          180,
+          757,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 35
+      },
+      {
+        "bbox": [
+          602,
+          769,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          672,
+          771,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 55
+      },
+      {
+        "bbox": [
+          670,
+          772,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 57
+      },
+      {
+        "bbox": [
+          660,
+          773,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 54
+      },
+      {
+        "bbox": [
+          676,
+          773,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 51
+      },
+      {
+        "bbox": [
+          658,
+          775,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 52
+      },
+      {
+        "bbox": [
+          662,
+          775,
+          3,
+          7
+        ],
+        "pixels": 8,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 55
+      },
+      {
+        "bbox": [
+          666,
+          775,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 59
+      },
+      {
+        "bbox": [
+          662,
+          776,
+          1,
+          4
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 55
+      },
+      {
+        "bbox": [
+          656,
+          777,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 50
+      },
+      {
+        "bbox": [
+          658,
+          777,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 52
+      },
+      {
+        "bbox": [
+          660,
+          777,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 54
+      },
+      {
+        "bbox": [
+          672,
+          777,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 55
+      },
+      {
+        "bbox": [
+          672,
+          779,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 55
+      },
+      {
+        "bbox": [
+          660,
+          781,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 53
+      },
+      {
+        "bbox": [
+          668,
+          781,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 59
+      },
+      {
+        "bbox": [
+          670,
+          781,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 57
+      },
+      {
+        "bbox": [
+          362,
+          783,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          588,
+          783,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          658,
+          783,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 51
+      },
+      {
+        "bbox": [
+          660,
+          783,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 53
+      },
+      {
+        "bbox": [
+          670,
+          783,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 57
+      },
+      {
+        "bbox": [
+          136,
+          784,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          360,
+          785,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          658,
+          785,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 51
+      },
+      {
+        "bbox": [
+          733,
+          785,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          737,
+          785,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          359,
+          787,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          362,
+          789,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          590,
+          792,
+          2,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          259,
+          795,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 29
+      },
+      {
+        "bbox": [
+          235,
+          797,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 50
+      },
+      {
+        "bbox": [
+          251,
+          797,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 36
+      },
+      {
+        "bbox": [
+          257,
+          797,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 30
+      },
+      {
+        "bbox": [
+          233,
+          798,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 52
+      },
+      {
+        "bbox": [
+          251,
+          799,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 36
+      },
+      {
+        "bbox": [
+          253,
+          800,
+          3,
+          2
+        ],
+        "pixels": 3,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 32
+      },
+      {
+        "bbox": [
+          251,
+          802,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 36
+      },
+      {
+        "bbox": [
+          253,
+          803,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 34
+      },
+      {
+        "bbox": [
+          251,
+          805,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 36
+      },
+      {
+        "bbox": [
+          528,
+          805,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          370,
+          807,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          68,
+          826,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          148,
+          846,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          78,
+          856,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          650,
+          858,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 43
+      },
+      {
+        "bbox": [
+          672,
+          858,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 59
+      },
+      {
+        "bbox": [
+          82,
+          860,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          84,
+          860,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          581,
+          864,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          772,
+          864,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          533,
+          866,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          555,
+          866,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          564,
+          866,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          569,
+          866,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          789,
+          868,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          792,
+          868,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          123,
+          870,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          126,
+          870,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          128,
+          870,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          545,
+          870,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          412,
+          884,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 42
+      },
+      {
+        "bbox": [
+          410,
+          886,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 40
+      },
+      {
+        "bbox": [
+          412,
+          886,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 42
+      },
+      {
+        "bbox": [
+          241,
+          894,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 48
+      },
+      {
+        "bbox": [
+          243,
+          894,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 48
+      },
+      {
+        "bbox": [
+          229,
+          898,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 56
+      },
+      {
+        "bbox": [
+          854,
+          910,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 48
+      },
+      {
+        "bbox": [
+          852,
+          911,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 47
+      },
+      {
+        "bbox": [
+          848,
+          912,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 46
+      },
+      {
+        "bbox": [
+          854,
+          912,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 48
+      },
+      {
+        "bbox": [
+          850,
+          914,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 44
+      },
+      {
+        "bbox": [
+          852,
+          914,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 46
+      },
+      {
+        "bbox": [
+          850,
+          916,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 44
+      },
+      {
+        "bbox": [
+          412,
+          926,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 46
+      },
+      {
+        "bbox": [
+          533,
+          936,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          588,
+          954,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          594,
+          954,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          162,
+          958,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 18
+      },
+      {
+        "bbox": [
+          817,
+          977,
+          4,
+          3
+        ],
+        "pixels": 6,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          477,
+          978,
+          1,
+          4
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 37
+      },
+      {
+        "bbox": [
+          479,
+          978,
+          1,
+          5
+        ],
+        "pixels": 5,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 35
+      },
+      {
+        "bbox": [
+          145,
+          983,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          475,
+          983,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 39
+      },
+      {
+        "bbox": [
+          477,
+          983,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 37
+      },
+      {
+        "bbox": [
+          644,
+          985,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 42
+      },
+      {
+        "bbox": [
+          727,
+          985,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          412,
+          987,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 43
+      },
+      {
+        "bbox": [
+          412,
+          989,
+          1,
+          3
+        ],
+        "pixels": 3,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 42
+      },
+      {
+        "bbox": [
+          145,
+          990,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          414,
+          991,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 44
+      },
+      {
+        "bbox": [
+          444,
+          991,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 67
+      },
+      {
+        "bbox": [
+          447,
+          991,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 64
+      },
+      {
+        "bbox": [
+          447,
+          993,
+          3,
+          3
+        ],
+        "pixels": 6,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 63
+      },
+      {
+        "bbox": [
+          451,
+          993,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 61
+      },
+      {
+        "bbox": [
+          444,
+          994,
+          2,
+          4
+        ],
+        "pixels": 6,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 67
+      },
+      {
+        "bbox": [
+          368,
+          995,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          447,
+          997,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 65
+      },
+      {
+        "bbox": [
+          515,
+          999,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          739,
+          1001,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          291,
+          1005,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          741,
+          1007,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          588,
+          1009,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          594,
+          1019,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          144,
+          1025,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          428,
+          1025,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 52
+      },
+      {
+        "bbox": [
+          72,
+          1026,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          428,
+          1029,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 52
+      },
+      {
+        "bbox": [
+          426,
+          1031,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 50
+      },
+      {
+        "bbox": [
+          428,
+          1031,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 52
+      },
+      {
+        "bbox": [
+          821,
+          1039,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          147,
+          1047,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          283,
+          1047,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          374,
+          1050,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          822,
+          1053,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          727,
+          1055,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          727,
+          1057,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          382,
+          1058,
+          3,
+          2
+        ],
+        "pixels": 3,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 6
+      },
+      {
+        "bbox": [
+          75,
+          1072,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          358,
+          1073,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          521,
+          1073,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          80,
+          1076,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          356,
+          1077,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          291,
+          1078,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          305,
+          1080,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          534,
+          1084,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          101,
+          1085,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          332,
+          1090,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          444,
+          1111,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 67
+      },
+      {
+        "bbox": [
+          446,
+          1118,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 65
+      },
+      {
+        "bbox": [
+          450,
+          1120,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 62
+      },
+      {
+        "bbox": [
+          447,
+          1123,
+          3,
+          2
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 64
+      },
+      {
+        "bbox": [
+          324,
+          1146,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          767,
+          1148,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          773,
+          1148,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          634,
+          1154,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 40
+      },
+      {
+        "bbox": [
+          336,
+          1156,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          215,
+          1162,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 68
+      },
+      {
+        "bbox": [
+          124,
+          1166,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          745,
+          1168,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          217,
+          1170,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 70
+      },
+      {
+        "bbox": [
+          211,
+          1171,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 64
+      },
+      {
+        "bbox": [
+          213,
+          1174,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 66
+      },
+      {
+        "bbox": [
+          211,
+          1175,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 64
+      },
+      {
+        "bbox": [
+          584,
+          1192,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          713,
+          1199,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 24
+      },
+      {
+        "bbox": [
+          715,
+          1200,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 22
+      },
+      {
+        "bbox": [
+          148,
+          1205,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          737,
+          1205,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          654,
+          1206,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 56
+      },
+      {
+        "bbox": [
+          686,
+          1206,
+          2,
+          2
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 50
+      },
+      {
+        "bbox": [
+          736,
+          1207,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 3
+      },
+      {
+        "bbox": [
+          684,
+          1208,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 51
+      },
+      {
+        "bbox": [
+          738,
+          1208,
+          1,
+          5
+        ],
+        "pixels": 5,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          148,
+          1209,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          148,
+          1212,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          147,
+          1217,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          694,
+          1217,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 42
+      },
+      {
+        "bbox": [
+          146,
+          1221,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          269,
+          1221,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 19
+      },
+      {
+        "bbox": [
+          370,
+          1221,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          438,
+          1221,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 68
+      },
+      {
+        "bbox": [
+          690,
+          1221,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 41
+      },
+      {
+        "bbox": [
+          267,
+          1223,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 21
+      },
+      {
+        "bbox": [
+          741,
+          1223,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          636,
+          1225,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 38
+      },
+      {
+        "bbox": [
+          644,
+          1225,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 46
+      },
+      {
+        "bbox": [
+          742,
+          1225,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          198,
+          1227,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 51
+      },
+      {
+        "bbox": [
+          519,
+          1227,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          634,
+          1227,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 36
+      },
+      {
+        "bbox": [
+          198,
+          1229,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 51
+      },
+      {
+        "bbox": [
+          194,
+          1233,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 47
+      },
+      {
+        "bbox": [
+          358,
+          1233,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          356,
+          1235,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          362,
+          1261,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          654,
+          1262,
+          1,
+          4
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 56
+      },
+      {
+        "bbox": [
+          656,
+          1263,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 58
+      },
+      {
+        "bbox": [
+          652,
+          1266,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 54
+      },
+      {
+        "bbox": [
+          654,
+          1267,
+          1,
+          5
+        ],
+        "pixels": 5,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 56
+      },
+      {
+        "bbox": [
+          660,
+          1267,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 62
+      },
+      {
+        "bbox": [
+          652,
+          1269,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 54
+      },
+      {
+        "bbox": [
+          656,
+          1269,
+          2,
+          3
+        ],
+        "pixels": 3,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 58
+      },
+      {
+        "bbox": [
+          658,
+          1269,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 60
+      },
+      {
+        "bbox": [
+          508,
+          1278,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          509,
+          1283,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          510,
+          1285,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          368,
+          1289,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          811,
+          1293,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          136,
+          1295,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          299,
+          1299,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          128,
+          1300,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          302,
+          1301,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          354,
+          1301,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          513,
+          1301,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          348,
+          1310,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          779,
+          1313,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          328,
+          1315,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          432,
+          1348,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 63
+      },
+      {
+        "bbox": [
+          735,
+          1351,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 24
+      },
+      {
+        "bbox": [
+          461,
+          1352,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 53
+      },
+      {
+        "bbox": [
+          217,
+          1354,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 67
+      },
+      {
+        "bbox": [
+          459,
+          1354,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 55
+      },
+      {
+        "bbox": [
+          650,
+          1356,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 64
+      },
+      {
+        "bbox": [
+          332,
+          1372,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          542,
+          1374,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          545,
+          1374,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          553,
+          1379,
+          3,
+          1
+        ],
+        "pixels": 3,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          130,
+          1380,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          203,
+          1380,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 51
+      },
+      {
+        "bbox": [
+          273,
+          1387,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 26
+      },
+      {
+        "bbox": [
+          400,
+          1388,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 32
+      },
+      {
+        "bbox": [
+          628,
+          1402,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 32
+      },
+      {
+        "bbox": [
+          293,
+          1414,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          366,
+          1418,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          296,
+          1424,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          448,
+          1428,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 66
+      },
+      {
+        "bbox": [
+          461,
+          1437,
+          1,
+          6
+        ],
+        "pixels": 6,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 54
+      },
+      {
+        "bbox": [
+          463,
+          1437,
+          1,
+          4
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 52
+      },
+      {
+        "bbox": [
+          300,
+          1438,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          465,
+          1438,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 50
+      },
+      {
+        "bbox": [
+          520,
+          1438,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          465,
+          1440,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 50
+      },
+      {
+        "bbox": [
+          459,
+          1442,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 56
+      },
+      {
+        "bbox": [
+          463,
+          1442,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 52
+      },
+      {
+        "bbox": [
+          84,
+          1444,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          524,
+          1446,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          461,
+          1450,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 54
+      },
+      {
+        "bbox": [
+          146,
+          1452,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          71,
+          1494,
+          2,
+          3
+        ],
+        "pixels": 6,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          489,
+          1503,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 26
+      },
+      {
+        "bbox": [
+          156,
+          1505,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          360,
+          1515,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          84,
+          1521,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          89,
+          1521,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          141,
+          1521,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          753,
+          1521,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          88,
+          1523,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          140,
+          1523,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          139,
+          1525,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          93,
+          1527,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          253,
+          1527,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 36
+      },
+      {
+        "bbox": [
+          755,
+          1527,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          251,
+          1529,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 38
+      },
+      {
+        "bbox": [
+          112,
+          1533,
+          6,
+          1
+        ],
+        "pixels": 6,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          557,
+          1534,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          743,
+          1547,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 17
+      },
+      {
+        "bbox": [
+          753,
+          1553,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 20
+      },
+      {
+        "bbox": [
+          751,
+          1554,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 21
+      },
+      {
+        "bbox": [
+          592,
+          1561,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 29
+      },
+      {
+        "bbox": [
+          283,
+          1587,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 24
+      },
+      {
+        "bbox": [
+          281,
+          1589,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 24
+      },
+      {
+        "bbox": [
+          283,
+          1593,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 21
+      },
+      {
+        "bbox": [
+          285,
+          1593,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 20
+      },
+      {
+        "bbox": [
+          281,
+          1596,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 22
+      },
+      {
+        "bbox": [
+          93,
+          1604,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          684,
+          1604,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 55
+      },
+      {
+        "bbox": [
+          682,
+          1606,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 57
+      },
+      {
+        "bbox": [
+          684,
+          1606,
+          4,
+          2
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 52
+      },
+      {
+        "bbox": [
+          682,
+          1608,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 57
+      },
+      {
+        "bbox": [
+          690,
+          1608,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 48
+      },
+      {
+        "bbox": [
+          686,
+          1610,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 52
+      },
+      {
+        "bbox": [
+          686,
+          1612,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 52
+      },
+      {
+        "bbox": [
+          432,
+          1614,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 58
+      },
+      {
+        "bbox": [
+          434,
+          1614,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 60
+      },
+      {
+        "bbox": [
+          352,
+          1615,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          743,
+          1618,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          592,
+          1628,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          65,
+          1631,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          368,
+          1632,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          65,
+          1633,
+          2,
+          3
+        ],
+        "pixels": 6,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          436,
+          1666,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 61
+      },
+      {
+        "bbox": [
+          152,
+          1668,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          519,
+          1668,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          519,
+          1670,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          521,
+          1670,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          146,
+          1671,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          144,
+          1672,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          819,
+          1672,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          144,
+          1674,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          428,
+          1674,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 53
+      },
+      {
+        "bbox": [
+          430,
+          1674,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 55
+      },
+      {
+        "bbox": [
+          362,
+          1676,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          142,
+          1694,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          291,
+          1694,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          182,
+          1696,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 29
+      },
+      {
+        "bbox": [
+          178,
+          1698,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 26
+      },
+      {
+        "bbox": [
+          144,
+          1700,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          176,
+          1700,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 24
+      },
+      {
+        "bbox": [
+          450,
+          1700,
+          10,
+          10
+        ],
+        "pixels": 43,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 42
+      },
+      {
+        "bbox": [
+          446,
+          1706,
+          2,
+          2
+        ],
+        "pixels": 4,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 54
+      },
+      {
+        "bbox": [
+          725,
+          1720,
+          1,
+          2
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          235,
+          1731,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 50
+      },
+      {
+        "bbox": [
+          376,
+          1733,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          67,
+          1739,
+          2,
+          1
+        ],
+        "pixels": 2,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          77,
+          1745,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          146,
+          1747,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          301,
+          1749,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          747,
+          1749,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          79,
+          1751,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          748,
+          1751,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          92,
+          1753,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          94,
+          1753,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      },
+      {
+        "bbox": [
+          540,
+          1753,
+          1,
+          1
+        ],
+        "pixels": 1,
+        "alphaRange": [
+          1,
+          1
+        ],
+        "minimumChebyshevDistanceToPreservedComponent": 2
+      }
+    ],
+    "removedPixels": 758,
+    "cleanedRawSHA256": "feefc83a01fcab5c7296b312d5e2d84e4dd9d4b6c75a8964eb182dae779dcb39"
+  },
+  "extraction": {
+    "method": "Each complete alpha>=16 body is an immutable identity. All remaining nonzero-alpha pixels are assigned to the nearest body pixels by an 8-neighbor multi-source flood, with deterministic ties. Component masks retain every original pixel once; no alpha threshold erases artwork.",
+    "nonzeroPixels": 320112,
+    "assignedPixels": 320112
+  }
+}

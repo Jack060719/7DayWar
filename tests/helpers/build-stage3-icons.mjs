@@ -1,0 +1,60 @@
+// Deterministic assembly of existing generated art. Requires a local Chrome/Chromium.
+import {readFile,writeFile,mkdir,copyFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+import {launchTestBrowser} from './browser.mjs';
+import {ITEMS} from '../../dist/full/data.mjs';
+const root=fileURLToPath(new URL('../../',import.meta.url));
+const [itemsPath,scrollsPath]=process.argv.slice(2);
+if(!itemsPath||!scrollsPath||!process.env.BROWSER_BINARY)throw Error('Usage: BROWSER_BINARY=<Chrome> node tests/helpers/build-stage3-icons.mjs <15-item PNG> <12-scroll PNG>');
+const out=path.join(root,'docs/art/stage3-icons'),art=path.join(root,'dist/full/art');
+await mkdir(path.join(out,'frames'),{recursive:true});
+const hash=buffer=>createHash('sha256').update(buffer).digest('hex');
+const url=async(file,mime='image/png')=>'data:'+mime+';base64,'+(await readFile(file)).toString('base64');
+const itemIds=['EQ-DWARF-DAGGER','EQ-DWARF-CLOAK','EQ-DWARF-HELMET','EQ-DWARF-SHIELD','EQ-HUNTER-BOW','EQ-GREAT-AXE','EQ-SILVER-AXE','EQ-ROUGH-MITHRIL-DAGGER','EQ-STEEL-HELMET','EQ-YAOMO-DAGGER','EQ-SILVER-STUDDED-LEATHER','ITEM-METAL-CHUNK','ITEM-STRONG-GREEN-POTION','ITEM-CONCENTRATED-STRONG-HEALING-POTION'];
+const scrollIds=['BASIC','INTERMEDIATE','ADVANCED'].flatMap(tier=>['WEAPON','ARMOR'].flatMap(category=>['NORMAL','BLESSED'].map(quality=>'ITEM-FUSION-'+category+'-'+tier+'-'+quality)));
+const manifest=JSON.parse(await readFile(path.join(art,'manifest.json'),'utf8')),contracts=[];
+for(const item of Object.values(ITEMS).filter(item=>item.family==='form_contract')){
+ const binding=manifest.actors[item.form_monster_id],body=JSON.parse(await readFile(path.join(art,binding.manifest),'utf8')),frame=body.directions.S.idle[0],bytes=await readFile(path.join(art,frame.atlas));
+ contracts.push({id:item.id,monsterId:item.form_monster_id,manifest:binding.manifest,atlas:frame.atlas,rect:frame.rect,sha256:hash(bytes),url:'data:image/webp;base64,'+bytes.toString('base64')});
+}
+const payload={items:await url(itemsPath),scrolls:await url(scrollsPath),itemIds,scrollIds,contracts};
+async function processArt(input){
+ const canvas=(w,h)=>{const c=document.createElement('canvas');c.width=w;c.height=h;return c},context=c=>c.getContext('2d',{willReadFrequently:true});
+ const load=source=>new Promise((resolve,reject)=>{const im=new Image;im.onload=()=>resolve(im);im.onerror=()=>reject(Error('Cannot decode source image'));im.src=source});
+ function metrics(c){const data=context(c).getImageData(0,0,c.width,c.height).data;let minX=c.width,minY=c.height,maxX=-1,maxY=-1,area=0,edge=0,magenta=0,visibleMagenta=0,magentaAlphaMax=0;for(let i=0;i<data.length;i+=4){if(!data[i+3])continue;const x=(i/4)%c.width,y=Math.floor(i/4/c.width);minX=Math.min(minX,x);minY=Math.min(minY,y);maxX=Math.max(maxX,x);maxY=Math.max(maxY,y);area++;if(x===0||x===c.width-1||y===0||y===c.height-1)edge++;if(data[i]>180&&data[i+2]>180&&data[i+1]<100){magenta++;magentaAlphaMax=Math.max(magentaAlphaMax,data[i+3]);if(data[i+3]>=16)visibleMagenta++;}}return{width:c.width,height:c.height,alphaPixels:area,transparentPixels:c.width*c.height-area,bbox:area?[minX,minY,maxX+1,maxY+1]:null,edgePixels:edge,magentaPixels:magenta,visibleMagentaPixels:visibleMagenta,magentaAlphaMax}}
+ async function cleanup(source){const im=await load(source),c=canvas(im.width,im.height),ctx=context(c);ctx.drawImage(im,0,0);const image=ctx.getImageData(0,0,c.width,c.height),data=image.data,w=c.width,h=c.height,seen=new Uint8Array(w*h),queue=new Uint32Array(w*h);let used=0;const distance=i=>(data[i]-255)**2+data[i+1]**2+(data[i+2]-255)**2,wipe=i=>{data[i]=0;data[i+1]=0;data[i+2]=0;data[i+3]=0};for(let i=0;i<data.length;i+=4)if(distance(i)<100**2)wipe(i);function visit(x,y){if(x<0||x>=w||y<0||y>=h)return;const p=y*w+x;if(seen[p])return;seen[p]=1;const i=p*4;if(!data[i+3]||distance(i)<150**2){wipe(i);queue[used++]=p}}for(let x=0;x<w;x++){visit(x,0);visit(x,h-1)}for(let y=0;y<h;y++){visit(0,y);visit(w-1,y)}for(let cursor=0;cursor<used;cursor++){const p=queue[cursor],x=p%w,y=Math.floor(p/w);for(let dy=-1;dy<=1;dy++)for(let dx=-1;dx<=1;dx++)if(dx||dy)visit(x+dx,y+dy)}ctx.putImageData(image,0,0);return c}
+ function crop(c,rect){const [x,y,w,h]=rect,result=canvas(w,h);context(result).drawImage(c,x,y,w,h,0,0,w,h);return result}
+ function rowSeams(c,rows){const data=context(c).getImageData(0,0,c.width,c.height).data,cuts=[0];for(let row=1;row<rows;row++){const expected=row*c.height/rows,radius=Math.ceil(c.height/rows*.2),first=Math.max(1,Math.floor(expected-radius)),last=Math.min(c.height-1,Math.ceil(expected+radius));let start=-1,best=null;for(let y=first;y<=last+1;y++){let empty=y<=last;for(let x=0;empty&&x<c.width;x++)if(data[(y*c.width+x)*4+3])empty=false;if(empty&&start<0)start=y;if(!empty&&start>=0){const band=[start,y];if(!best||band[1]-band[0]>best[1]-best[0])best=band;start=-1}}if(!best)throw Error('No transparent horizontal seam near source row '+row);cuts.push(Math.floor((best[0]+best[1])/2));}cuts.push(c.height);return cuts}
+ function cells(c,rows,cols,cuts=Array.from({length:rows+1},(_,i)=>Math.floor(i*c.height/rows))){return Array.from({length:rows*cols},(_,index)=>{const col=index%cols,row=Math.floor(index/cols),x=Math.floor(col*c.width/cols),y=cuts[row],right=Math.floor((col+1)*c.width/cols),bottom=cuts[row+1];return{canvas:crop(c,[x,y,right-x,bottom-y]),sourceRect:[x,y,right-x,bottom-y]}})}
+ function fit(source,size=64,limit=56){const result=canvas(size,size),box=metrics(source).bbox;if(!box)throw Error('Empty source cell');const [x,y,right,bottom]=box,w=right-x,h=bottom-y,scale=Math.min(limit/w,limit/h),width=w*scale,height=h*scale;context(result).imageSmoothingQuality='high';context(result).drawImage(source,x,y,w,h,(size-width)/2,(size-height)/2,width,height);return result}
+ const items=await cleanup(input.items),scrolls=await cleanup(input.scrolls),itemCells=cells(items,3,5,rowSeams(items,3)),scrollCells=cells(scrolls,3,4),template=fit(itemCells[14].canvas),frames=[],sources=[];
+ for(const [index,row]of itemCells.entries())sources.push({source:'raw-items.png',cell:index,sourceRect:row.sourceRect,...metrics(row.canvas)});
+ for(const [index,row]of scrollCells.entries())sources.push({source:'raw-scrolls.png',cell:index,sourceRect:row.sourceRect,...metrics(row.canvas)});
+ const bossPreview=canvas(7*128,3*128),previewContext=context(bossPreview);previewContext.fillStyle='#172116';previewContext.fillRect(0,0,bossPreview.width,bossPreview.height);
+ for(const [index,entry]of input.contracts.entries()){
+  const image=await load(entry.url),body=crop(image,entry.rect),portrait=fit(body,64,56),card=canvas(64,64),ctx=context(card);ctx.drawImage(template,0,0);const bounds=metrics(body).bbox,[x,y,right,bottom]=bounds,w=right-x,h=bottom-y,scale=Math.min(30/w,34/h);ctx.imageSmoothingQuality='high';ctx.drawImage(body,x,y,w,h,32-w*scale/2,26-h*scale/2,w*scale,h*scale);
+  frames.push({id:entry.id,canvas:card,source:'existing-boss-plus-generated-frame'});previewContext.drawImage(portrait,index%7*128+32,Math.floor(index/7)*128+8);previewContext.fillStyle='#ddd';previewContext.font='10px sans-serif';previewContext.fillText(entry.monsterId.replace('MON-',''),index%7*128+4,Math.floor(index/7)*128+94,120);
+ }
+ for(const [i,id]of input.itemIds.entries())frames.push({id,canvas:fit(itemCells[i].canvas),source:'raw-items.png',cell:i});
+ for(const [i,id]of input.scrollIds.entries())frames.push({id,canvas:fit(scrollCells[i].canvas),source:'raw-scrolls.png',cell:i});
+ const atlas=canvas(1024,192),ctx=context(atlas);for(const [index,entry]of frames.entries()){entry.rect=[index%16*64,Math.floor(index/16)*64,64,64];ctx.drawImage(entry.canvas,entry.rect[0],entry.rect[1]);}
+ function preview(size,background){const cell=128,width=8*cell,height=Math.ceil(frames.length/8)*cell,c=canvas(width,height),ctx=context(c);ctx.fillStyle=background;ctx.fillRect(0,0,width,height);for(const [i,row]of frames.entries()){const x=i%8*cell,y=Math.floor(i/8)*cell;ctx.drawImage(row.canvas,x+(cell-size)/2,y+8,size,size);ctx.fillStyle=background==='#172116'?'#eee':'#222';ctx.font='9px sans-serif';const title=row.id.replace('ITEM-FORM-CONTRACT-','').replace('ITEM-FUSION-','').replace('ITEM-','').replace('EQ-','');const words=title.split('-');ctx.fillText(words.slice(0,2).join('-'),x+3,y+size+26,122);ctx.fillText(words.slice(2).join('-'),x+3,y+size+38,122);}return c.toDataURL('image/png')}
+ const frameData=frames.map(row=>({id:row.id,source:row.source,cell:row.cell,rect:row.rect,...metrics(row.canvas),png:row.canvas.toDataURL('image/png')}));
+ const webp=atlas.toDataURL('image/webp',1),decoded=await load(webp),decodedCanvas=canvas(decoded.width,decoded.height);context(decodedCanvas).drawImage(decoded,0,0);const decodedMetrics=frames.map(row=>({id:row.id,...metrics(crop(decodedCanvas,row.rect))}));
+ return {frames:frameData,sources,decodedMetrics,rawItemsClean:items.toDataURL('image/png'),rawScrollsClean:scrolls.toDataURL('image/png'),template:template.toDataURL('image/png'),bossPreview:bossPreview.toDataURL('image/png'),preview64:preview(64,'#172116'),preview32:preview(32,'#b8b0a0'),atlas:webp};
+}
+const browser=await launchTestBrowser(process.env.BROWSER_BINARY,{disableSandbox:process.env.BROWSER_NO_SANDBOX==='1'});let result;
+try{const page=await browser.page();await page.command('Page.navigate',{url:'about:blank'});result=await page.evaluate('('+processArt.toString()+')('+JSON.stringify(payload)+')');}finally{await browser.close()}
+const save=async(name,data)=>writeFile(path.join(out,name),Buffer.from(data.slice(data.indexOf(',')+1),'base64'));
+if(path.resolve(itemsPath)!==path.resolve(out,'raw-items.png'))await copyFile(itemsPath,path.join(out,'raw-items.png'));
+if(path.resolve(scrollsPath)!==path.resolve(out,'raw-scrolls.png'))await copyFile(scrollsPath,path.join(out,'raw-scrolls.png'));
+for(const [name,key]of [['raw-items-clean.png','rawItemsClean'],['raw-scrolls-clean.png','rawScrollsClean'],['contract-template.png','template'],['boss-source-preview.png','bossPreview'],['preview-64.png','preview64'],['preview-32.png','preview32']])await save(name,result[key]);
+for(const frame of result.frames){await save('frames/'+frame.id+'.png',frame.png);delete frame.png;}
+const metadata={schema:'lineage-dream-static-icons-v1',generatedOn:'2026-10-11',processor:'Chrome Canvas 2D, software rendering',pythonHelper:'not available: python/py/python3 absent; deterministic Canvas replacement explicitly selected',cleanup:{magenta:[255,0,255],distanceThreshold:100,borderConnectedThreshold:150,neighbors:8},packing:{cellSize:64,maximumSubjectSize:56,align:'center',columns:16,rows:3,displaySize:32},atlas:{path:'icons/stage3-items.webp',width:1024,height:192,bytes:Buffer.from(result.atlas.split(',')[1],'base64').length,sha256:hash(Buffer.from(result.atlas.split(',')[1],'base64'))},sources:[{path:'raw-items.png',sha256:hash(await readFile(itemsPath)),rows:3,columns:5},{path:'raw-scrolls.png',sha256:hash(await readFile(scrollsPath)),rows:3,columns:4}],bossSources:contracts.map(({url,...entry})=>entry),rawCells:result.sources,frames:result.frames,decodedAtlas:result.decodedMetrics};
+await writeFile(path.join(out,'pipeline-meta.json'),JSON.stringify(metadata,null,2)+'\n');
+const failed=result.sources.filter(row=>!row.alphaPixels||row.edgePixels),outputFailed=result.decodedMetrics.filter(row=>!row.alphaPixels||row.edgePixels);
+if(failed.length||outputFailed.length)throw Error('Asset QC failed; preserved source outputs for review: '+JSON.stringify({source:failed.map(row=>({source:row.source,cell:row.cell,edge:row.edgePixels})),output:outputFailed}));
+await writeFile(path.join(art,'icons/stage3-items.webp'),Buffer.from(result.atlas.split(',')[1],'base64'));
+console.log(JSON.stringify({frames:result.frames.length,sourceCells:result.sources.length,sourceEdgeTouches:failed.length,outputEdgeTouches:outputFailed.length,runtimeBytes:(await readFile(path.join(art,'icons/stage3-items.webp'))).length}));

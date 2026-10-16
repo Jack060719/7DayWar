@@ -1,0 +1,55 @@
+{
+  "schema": "lineage-shield-reinsert-v1",
+  "status": "pending-semantic-and-geometry-review",
+  "raw": {
+    "file": "docs/art/shield-pairs/raw/knight-mace/attack-without-shield-v2.png",
+    "sha256": "3280729233cce9349e253097b202580f4fd0687e1852fc54d3bbb5416a2c5572"
+  },
+  "edit": {
+    "file": "docs/art/shield-pairs/raw/knight-mace/attack-NE3-without-shield-v3.png",
+    "sha256": "a77de583f15a6f5bc50e217e7ca5149e47e0c52d90bc87c4dbd9f9fe954c5a04"
+  },
+  "contract": "docs/art/shield-pairs/inputs/knight-mace/attack-NE-frame-3-correction.json",
+  "output": {
+    "file": "docs/art/shield-pairs/raw/knight-mace/attack-without-shield-v3.png",
+    "sha256": "8c632528d49e2dc8ca739c64b589190f761b41489c33dd00eef07177f717a036"
+  },
+  "method": "Restore the full edited guide canvas at a single proportional scale, then apply each recorded inverse transform. No body bounding-box fitting. Unselected source pixels remain identical in the decoded RGBA buffer.",
+  "rawSize": [
+    1254,
+    1254
+  ],
+  "editedSize": [
+    1254,
+    1254
+  ],
+  "normalizedSize": [
+    640,
+    640
+  ],
+  "outsideChangedPixels": 0,
+  "changedPixels": 10299,
+  "mappings": [
+    {
+      "direction": "NE",
+      "column": 2,
+      "scale": 0.408203125,
+      "translation": [
+        372.5908538429729,
+        772.82421875
+      ],
+      "sourceCrop": [
+        367,
+        750,
+        88,
+        158
+      ],
+      "guideRect": [
+        0,
+        0,
+        640,
+        640
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 // This module describes recipes only: it cannot consume items, allocate IDs,
 // resolve success/blessing rolls, or change an existing pending transaction.
 import {CONTENT} from './catalog.mjs';
+import {inheritedEnchantment,validEnchantment} from './enchantment-policy.mjs';
 
 // Definitions deliberately have no dependency on data.mjs or engine.mjs, so the
 // runtime item index can incorporate them without an import cycle.
@@ -88,6 +89,9 @@ export function fusionRecipe(state, request = {}, items = EQUIPMENT_BY_ID) {
   const pair = matches.map(items => items[0]);
   const [a, b] = pair;
   const item = typeof a.itemId === 'string' && Object.hasOwn(items, a.itemId) ? items[a.itemId] : null;
+  if(pair.some(e=>!validEnchantment(e.enchantment,item)))return fail('invalid_enchantment','材料附魔紀錄無效');
+  const inheritance=inheritedEnchantment(pair,request.enchantmentChoices);
+  if(!inheritance.ok)return fail('enchantment_choice_required',inheritance.error);
   if (!item?.slot || item.enchantable !== true || a.itemId !== b.itemId || a.plus !== b.plus || !validPlus(a.plus)) {
     return fail('incompatible_inputs', '需要相同裝備與相同的非負整數強化值');
   }
@@ -149,6 +153,7 @@ export function fusionRecipe(state, request = {}, items = EQUIPMENT_BY_ID) {
   const blessedChanceBasisPoints = blessedInputs.length * 5000;
   const chanceBasisPoints = fusionChanceBasisPoints(a.plus, category, scrollItem.quality);
   const output = {itemId: a.itemId, plus: a.plus + 1, identified: true, cursed: false};
+  if(inheritance.enchantment)output.enchantment=inheritance.enchantment;
   if (outputQuality !== 'mixed') output.quality = outputQuality;
   if (outputQuality === 'blessed' && blessingStat !== null) output.blessingStat = blessingStat;
   return {
@@ -158,6 +163,6 @@ export function fusionRecipe(state, request = {}, items = EQUIPMENT_BY_ID) {
     category, tier, chanceBasisPoints, chance: chanceBasisPoints / 10000,
     guaranteed: chanceBasisPoints === 10000, requiresSuccessRoll: chanceBasisPoints !== 10000,
     outputQuality, blessedChanceBasisPoints, requiresBlessingRoll: outputQuality === 'mixed',
-    blessingStat, output
+    blessingStat, ...(inheritance.enchantment?{enchantmentChoices:inheritance.choices,enchantment:inheritance.enchantment}:{}), output
   };
 }

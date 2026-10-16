@@ -1,0 +1,27 @@
+{
+  "raw": "docs/art/shield-pairs/raw/knight-dagger/death-without-shield-v3.png",
+  "reference": "docs/art/shield-pairs/inputs/knight-dagger/death.json",
+  "outputDir": "docs/art/shield-pairs/processed/knight-dagger-v6-trial",
+  "profile": "docs/art/shield-pairs/profiles/knight-dagger-v6-pending.json",
+  "variant": "without-shield",
+  "cleanupDetachedAlpha1": true,
+  "cleanupDistantAlpha1": true,
+  "extraction": "components",
+  "registrationPoints": {
+    "W:5": {
+      "source": [63, 158],
+      "raw": [843, 440],
+      "reason": "Native 4x coordinate review: bottom of the foreground boot sole, not the lower dagger tip. Source/native [63,158], raw crop [819,383] plus [24,57]. Fixed bundle scale; translation only."
+    },
+    "W:6": {
+      "source": [64, 158],
+      "raw": [999, 439],
+      "reason": "Native 4x coordinate review: foreground boot sole bottom. The automatic lower-alpha band selects the downward dagger and shifts the body left. Source/native [64,158], raw crop [978,392] plus [21,47]. Fixed bundle scale; translation only."
+    },
+    "W:7": {
+      "source": [64, 159],
+      "raw": [1157, 442],
+      "reason": "Native 4x coordinate review: foreground boot sole bottom, excluding the dagger below the hand. Source/native [64,159], raw crop [1137,387] plus [20,55]. Fixed bundle scale; translation only."
+    }
+  }
+}

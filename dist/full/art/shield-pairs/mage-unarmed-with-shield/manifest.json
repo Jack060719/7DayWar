@@ -1,0 +1,5326 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "CLASS-MAGE:unarmed:with-shield",
+  "assetId": "ASSET-STANCE-CLASS-MAGE-UNARMED-WITH-SHIELD",
+  "class": "mage",
+  "weaponFamily": "unarmed",
+  "stance": "unarmed",
+  "shieldVariant": "with-shield",
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 92,
+  "anchor": [
+    96,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-S.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-S.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-S.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-S.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-S.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-S.webp"
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SW.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SW.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SW.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-SW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SW.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SW.webp"
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-W.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-W.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-W.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-W.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-W.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-W.webp"
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NW.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NW.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NW.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-NW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NW.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NW.webp"
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-N.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-N.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-N.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-N.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-N.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-N.webp"
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-NE.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-NE.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-NE.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-NE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-NE.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-NE.webp"
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-E.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-E.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-E.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-E.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-E.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-E.webp"
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/idle-SE.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/walk-SE.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/attack-SE.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/hit-SE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/death-SE.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/mage-unarmed-with-shield/clips/cast-SE.webp"
+        }
+      ]
+    }
+  },
+  "contacts": {
+    "attack": {
+      "S": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 2,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 2,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 2,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 2,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 3,
+        "estimated": true
+      }
+    },
+    "cast": {
+      "S": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 3,
+        "estimated": true
+      }
+    }
+  },
+  "emitters": {
+    "cast": {
+      "S": {
+        "frameIndex": 3,
+        "point": [
+          79,
+          49
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "SW": {
+        "frameIndex": 3,
+        "point": [
+          66,
+          62
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "W": {
+        "frameIndex": 3,
+        "point": [
+          65,
+          59
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "NW": {
+        "frameIndex": 3,
+        "point": [
+          80,
+          49
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "N": {
+        "frameIndex": 3,
+        "point": [
+          110,
+          43
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "NE": {
+        "frameIndex": 3,
+        "point": [
+          118,
+          50
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "E": {
+        "frameIndex": 3,
+        "point": [
+          122,
+          65
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "SE": {
+        "frameIndex": 3,
+        "point": [
+          97,
+          72
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      }
+    }
+  },
+  "status": "integration-candidate",
+  "frameCount": 336,
+  "clipCount": 48,
+  "runtimeLayout": "per-action-direction",
+  "maximumClipDecodedBytes": 1179648,
+  "provenance": {
+    "method": "Built-in imagegen original paired artwork; native Canvas deterministic component extraction, one frozen bundle scale, translations and verified alpha-1 background cleanup. No procedural drawing or shield overlay.",
+    "sourceManifest": {
+      "file": "stance-staging/runtime/mage-unarmed/manifest.json",
+      "sha256": "af7ef98d72a924dbb024a5ffdeef04a5da0a154f43a912be2210d568f148688e"
+    },
+    "review": "docs/art/shield-pairs/mage-unarmed-trial/CANDIDATES.md",
+    "sources": [
+      {
+        "action": "idle",
+        "raw": {
+          "file": "docs/art/shield-pairs/mage-unarmed-trial/idle/raw-shield.png",
+          "sha256": "76fb08bef829684896e2a24fd1e15aa361aed0032e10848e82e28e533e1dfe9f"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/mage-unarmed-trial/idle/qa.json",
+          "sha256": "596a3af405f4715da076ead6ed47c5f9820c302c2371bf8678867158fbee8397"
+        },
+        "sheetSHA256": "eff8b4cfc53ccfa27390a4b3a35ac1ef94d4e6cb7db7e0024f70502475abf340",
+        "profile": "docs/art/shield-pairs/processed/mage-unarmed-trial/geometry-profile.json",
+        "scale": 0.8331923532397226
+      },
+      {
+        "action": "walk",
+        "raw": {
+          "file": "docs/art/shield-pairs/mage-unarmed-trial/walk/raw-shield.png",
+          "sha256": "5000df828ceac28c5554e3d294049d0eb583229df11c854b9827d42cf40ac8ed"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/mage-unarmed-trial/walk/qa.json",
+          "sha256": "68e158441222971563648fe7083d4eaf50e8a946ed6e7b5776a3b9c74f97a35e"
+        },
+        "sheetSHA256": "f5fa308dc3bc230e7d915fbcf79991ee2aa95dfd599aca689715d8c27663750c",
+        "profile": "docs/art/shield-pairs/processed/mage-unarmed-trial/geometry-profile.json",
+        "scale": 0.9620913297377339
+      },
+      {
+        "action": "attack",
+        "raw": {
+          "file": "docs/art/shield-pairs/mage-unarmed-trial/attack/raw-shield.png",
+          "sha256": "ba28394265e12d219c6326094276387fdd1d11a1df0a1ba9723dfe81ff68adc6"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/mage-unarmed-trial/attack/qa.json",
+          "sha256": "624ac162d1f97b0ef0fc40465517e3422b50389d24e59f2b0a02f826e9e0101e"
+        },
+        "sheetSHA256": "bf828d7e3ae6876035804405dc36c1ecea0192b23d2afc7e93b886c38b7f60a0",
+        "profile": "docs/art/shield-pairs/processed/mage-unarmed-trial/geometry-profile.json",
+        "scale": 0.9620913297377339
+      },
+      {
+        "action": "hit",
+        "raw": {
+          "file": "docs/art/shield-pairs/mage-unarmed-trial/hit/raw-shield.png",
+          "sha256": "f7eab5467d25369d300a4e95fe47d42037408b7f1bf117ef26d75524e0ad6a63"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/mage-unarmed-trial/hit/qa.json",
+          "sha256": "5762a83fc3d557b07c14af5b4206c1823686df8598648eea1332a61aa978ecf9"
+        },
+        "sheetSHA256": "d986a269465ae5c49a6cd6ae5c025a46844e08e7498c4fbff9c937612a39c135",
+        "profile": "docs/art/shield-pairs/processed/mage-unarmed-trial/geometry-profile.json",
+        "scale": 0.6800803424414422
+      },
+      {
+        "action": "death",
+        "raw": {
+          "file": "docs/art/shield-pairs/mage-unarmed-trial/death/raw-shield.png",
+          "sha256": "441cdfe25cd6a7f532f273ffc812e8bf96266ce9b3c0fa84237beec104ba4193"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/mage-unarmed-trial/death/qa.json",
+          "sha256": "580da3b1472dcab3a409360f0a0a55b3463cb10d9a96f94c2641edcb4b3f5b5a"
+        },
+        "sheetSHA256": "6be7d3e411e11bba76164dd2c9e58b65fa7e0efa31e1db5e4b7645d3cf3fa676",
+        "profile": "docs/art/shield-pairs/processed/mage-unarmed-trial/geometry-profile.json",
+        "scale": 0.9620913297377339
+      },
+      {
+        "action": "cast",
+        "raw": {
+          "file": "docs/art/shield-pairs/mage-unarmed-trial/cast/raw-shield.png",
+          "sha256": "f917b0add5a3de2cbe7f085061e1e4afc43589d8e3f0e4085a7162c7d3d90ef7"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/mage-unarmed-trial/cast/qa.json",
+          "sha256": "95d47ff6bb706639fe57774a448e7543ccd6d430ae5764c422c791ff22274789"
+        },
+        "sheetSHA256": "0faf0de0658a14c8a937ec405c3de106db3f3fdee2ed362ef14b0d291807c923",
+        "profile": "docs/art/shield-pairs/processed/mage-unarmed-trial/geometry-profile.json",
+        "scale": 0.9620913297377339
+      }
+    ],
+    "clips": [
+      {
+        "file": "clips/idle-S.webp",
+        "sha256": "28eac7dc4843cbd64b8ad772408b226a94fcc5980da536c3acc7c9fb494ac338"
+      },
+      {
+        "file": "clips/idle-SW.webp",
+        "sha256": "8c4d42b6823082c37890b061ef9f9e0571c772b274042f1772fc84991e8269e0"
+      },
+      {
+        "file": "clips/idle-W.webp",
+        "sha256": "35a91b94bdcdce5a532cb92f9fd8b0d632bda6553f774bf76ea46bd25a19b3d0"
+      },
+      {
+        "file": "clips/idle-NW.webp",
+        "sha256": "d1da75401c791b6d65c023c87fcd61a66930e46cf3dfb8f745c35956995bd46a"
+      },
+      {
+        "file": "clips/idle-N.webp",
+        "sha256": "a05d984f58a54466d6cef43a8fd2bf02ffaafdfcc598805f12fc70fe3c736492"
+      },
+      {
+        "file": "clips/idle-NE.webp",
+        "sha256": "e0ae43b55cbd97f9a89a08a63a6b8d07d0e38e8cbc7f3551cc65c58858189c49"
+      },
+      {
+        "file": "clips/idle-E.webp",
+        "sha256": "948b9855c052340eca5c9ad39fc447491730f68909fedb2cb1f2beb0575f39d5"
+      },
+      {
+        "file": "clips/idle-SE.webp",
+        "sha256": "e8b238d640988feaa019bc59445fae459ba2062e126ccc1e3468cbd4e56110ac"
+      },
+      {
+        "file": "clips/walk-S.webp",
+        "sha256": "2b90af9de3e38f785a2fee40a5bcca043fe873882cebbe968c862db1f8fc2e80"
+      },
+      {
+        "file": "clips/walk-SW.webp",
+        "sha256": "b3f6e853b60f672ce6d0b2bb4c4b86f5fc6a775af50fb317ebab765489e99313"
+      },
+      {
+        "file": "clips/walk-W.webp",
+        "sha256": "659cee3d8b8c6e262bc615ad550bd1fcd8ccddd70b6034ebc6ee532ec169ca1c"
+      },
+      {
+        "file": "clips/walk-NW.webp",
+        "sha256": "00b4aa4cd07a9b26bfca5a4a23f9e2eae8c40e9919707da941ca955f663f6909"
+      },
+      {
+        "file": "clips/walk-N.webp",
+        "sha256": "eb73d7b29349b7095cbdadcd200acc23234ae2dc9293bb0905610ee99a92c297"
+      },
+      {
+        "file": "clips/walk-NE.webp",
+        "sha256": "4f5f31c0f9687f20d18cb060bc7723b22170cb290a75c9d8f93b5a6433ead750"
+      },
+      {
+        "file": "clips/walk-E.webp",
+        "sha256": "354da2941588e3b91a42f0cced5f9a9fb6cac95181775ff6fed0db516647c87e"
+      },
+      {
+        "file": "clips/walk-SE.webp",
+        "sha256": "d76f9d392ea06ea294feee24697b81144a19603b51e8d337451f0d234bc91dac"
+      },
+      {
+        "file": "clips/attack-S.webp",
+        "sha256": "cb4497b56925d406c41254cf2186bd3183b19b0867ad7507d8e12fffec1c7670"
+      },
+      {
+        "file": "clips/attack-SW.webp",
+        "sha256": "973620d16c9ac3b7b20413b1ceb3331db86c062aaf389a85e2b13e3c4eddcbfe"
+      },
+      {
+        "file": "clips/attack-W.webp",
+        "sha256": "ef944bbcb56994eddd786025b59e4fc486b23f3e5b25311795637e799ff93472"
+      },
+      {
+        "file": "clips/attack-NW.webp",
+        "sha256": "a1003d08a56440ef586731d6887128b59a6f0a35c0b7df6a9144c1f4d1cccf26"
+      },
+      {
+        "file": "clips/attack-N.webp",
+        "sha256": "e8af2cfec4db5ffd1edc66c9f7a70b206a977f602eccbf4713d6a015b492eddc"
+      },
+      {
+        "file": "clips/attack-NE.webp",
+        "sha256": "15bf0e9ab1b6be3d15e2826901e947557a2e6ab135b3ba32ed0198f73f8d9875"
+      },
+      {
+        "file": "clips/attack-E.webp",
+        "sha256": "790b131135e8b1c32741cc3968ac847827a5946620ff545807aa50563494bbe8"
+      },
+      {
+        "file": "clips/attack-SE.webp",
+        "sha256": "c7a88902af063637597c51477b0e03b38e415932fea1c64581f0446157533117"
+      },
+      {
+        "file": "clips/hit-S.webp",
+        "sha256": "3c4301e4afaac6912a9925ff0ff2522cc692a24914cb38f658bd2c22dfa66b10"
+      },
+      {
+        "file": "clips/hit-SW.webp",
+        "sha256": "44acdcd313552c900e889125b29dc4e64a42181dbb752d20f362fd32d6238d22"
+      },
+      {
+        "file": "clips/hit-W.webp",
+        "sha256": "2b356f9dfc1a41800e681edca55b75aceb608b6fcad2feb854a613a3d477e4c5"
+      },
+      {
+        "file": "clips/hit-NW.webp",
+        "sha256": "aff5d26ec2ad4553830d4a57f1320c7a55db78f82f4248ae4932a2fdd2b8f2d1"
+      },
+      {
+        "file": "clips/hit-N.webp",
+        "sha256": "c7b31f103771c52854f59d80acfd3895076406bea01f74409fedeae8cae325b5"
+      },
+      {
+        "file": "clips/hit-NE.webp",
+        "sha256": "6fe11e97fd349c90adaf8f1d6b5be16214eeb62fe1be7e865b422f11ba186192"
+      },
+      {
+        "file": "clips/hit-E.webp",
+        "sha256": "87093952c481f12430d954d13a8d4fad37fc9299a7c93b219c10ff2b1eec3120"
+      },
+      {
+        "file": "clips/hit-SE.webp",
+        "sha256": "93676592014c57d434d2f7eab3ef9ce6c43d69e81e0a8da818ecfc2c377df1a3"
+      },
+      {
+        "file": "clips/death-S.webp",
+        "sha256": "858a0ac437e04dc71c9662f8e8765864f92b1a6ba0376c2eec933b2352966831"
+      },
+      {
+        "file": "clips/death-SW.webp",
+        "sha256": "36573a92ae6c677806ad44f262ad958d89abed986d53b0dcfb8f4d4115ab6c71"
+      },
+      {
+        "file": "clips/death-W.webp",
+        "sha256": "73e37d640f649f7537d299d8dde630e68d8f621ab2373cfc75d9f71172ff046d"
+      },
+      {
+        "file": "clips/death-NW.webp",
+        "sha256": "c6a07f0e79b6484c58b326580fe4e9b43b42df7c3e8ff2ba0e727a7859903484"
+      },
+      {
+        "file": "clips/death-N.webp",
+        "sha256": "613e0b1af6b9f7c1ca2baa25b099bb611e45a8bdb27a9338eaeebc7c0229029d"
+      },
+      {
+        "file": "clips/death-NE.webp",
+        "sha256": "a1b8654c144c97896a5824ec78448c17f8aec7ade2131f268b547813e0ffac97"
+      },
+      {
+        "file": "clips/death-E.webp",
+        "sha256": "316887d8aab5eb7f4a59c166da015d1e66d9f882aabb16afb6f83b2b4006476c"
+      },
+      {
+        "file": "clips/death-SE.webp",
+        "sha256": "14b8f536acfc343f6eb9256d25e534d69c9801bdb72d7f38d8004d36440e9010"
+      },
+      {
+        "file": "clips/cast-S.webp",
+        "sha256": "d9051397b15949c04e34e5fbb4652113f87ae691d58fc26a1837987e62a1f9dd"
+      },
+      {
+        "file": "clips/cast-SW.webp",
+        "sha256": "fb053dcc91c4e505b505075cdc6b94e66fd4c5b1ef1784b9a002c74b0c753c87"
+      },
+      {
+        "file": "clips/cast-W.webp",
+        "sha256": "b541ef8337d25571209aace07a4f8e84ae87a316215f141c74d4525c71aa6d8d"
+      },
+      {
+        "file": "clips/cast-NW.webp",
+        "sha256": "8cd9447ed61da9140f6a51c5175e52c534fc626059d3cfe3ecfa822b43f7d41a"
+      },
+      {
+        "file": "clips/cast-N.webp",
+        "sha256": "667ae5a276fbd4e4515ee6c7e100ecefdaa5bb6f25e1e942c062f84fc705094a"
+      },
+      {
+        "file": "clips/cast-NE.webp",
+        "sha256": "678431f523bbbbb1fd9645f2038f92cd3b71bd7c6a02c9c92baefbc2b516efdf"
+      },
+      {
+        "file": "clips/cast-E.webp",
+        "sha256": "6412a290c8bc6f3a74ae757c0f745081bdef39af08f3f12236377415a88ed565"
+      },
+      {
+        "file": "clips/cast-SE.webp",
+        "sha256": "2111f07168d3e9a3353d407a8e88f370e6f1b0cdf88ad21312b135d315e94af3"
+      }
+    ]
+  },
+  "validation": {
+    "geometry": "pass",
+    "nativeCodec": "pending-final-integration",
+    "stagingVisual": "reviewed",
+    "inGame": "pending-final-integration",
+    "mobile": "not tested",
+    "limitations": [
+      "空手保持右手無武器、左手持盾。來源拳擊與受擊姿勢本身變化較小，背面與遠臂盾面細節仍有限。",
+      "Generated output inspected; no additional per-action native review under current user instruction.",
+      "Small repeated poses and limited rear-shield detail retained.",
+      "Release points manually estimated from current staged images; final integration and physical phone review pending."
+    ]
+  }
+}

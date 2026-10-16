@@ -1,0 +1,210 @@
+{
+  "staging": "docs/art/shield-pairs/processed/mage-mace-trial",
+  "sourceManifest": "stance-staging/runtime/mage-mace/manifest.json",
+  "output": "shield-pairs/mage-mace-with-shield",
+  "consumerId": "CLASS-MAGE:mace:with-shield",
+  "assetId": "ASSET-STANCE-CLASS-MAGE-MACE-WITH-SHIELD",
+  "variant": "with-shield",
+  "reviewedActions": [
+    "idle",
+    "walk",
+    "attack",
+    "hit",
+    "death",
+    "cast"
+  ],
+  "visualReview": "docs/art/shield-pairs/mage-mace-trial/CANDIDATES.md",
+  "deferNativeReview": true,
+  "limitations": [
+    "鈍器攻擊 S 第3格補回左盾與右手鈍器；施法 NW 第4格、NE 第3格透過 imagegen 清除背景雜點後按原尺度回貼。三次回貼 outsideChangedPixels=0。walk 輪廓高度診斷 +11.0%，其餘非死亡動作約 -0.52% 至 +3.41%；維持共同 profile，沒有逐動作重新 fit。",
+    "Generated output inspected; no additional per-action native review under current user instruction.",
+    "Small repeated poses and limited rear-shield detail retained.",
+    "Release points manually estimated from current staged images; final integration and physical phone review pending."
+  ],
+  "contacts": {
+    "attack": {
+      "S": {
+        "frameIndex": 5,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 5,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 6,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 6,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 5,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 6,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 6,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 5,
+        "estimated": true
+      }
+    },
+    "cast": {
+      "S": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 4,
+        "estimated": true
+      }
+    }
+  },
+  "emitters": {
+    "cast": {
+      "S": {
+        "frameIndex": 4,
+        "point": [
+          83,
+          62
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "SW": {
+        "frameIndex": 4,
+        "point": [
+          73,
+          68
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "W": {
+        "frameIndex": 4,
+        "point": [
+          71,
+          52
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "NW": {
+        "frameIndex": 4,
+        "point": [
+          87,
+          50
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "N": {
+        "frameIndex": 4,
+        "point": [
+          112,
+          59
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "NE": {
+        "frameIndex": 4,
+        "point": [
+          120,
+          55
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "E": {
+        "frameIndex": 4,
+        "point": [
+          125,
+          65
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "SE": {
+        "frameIndex": 4,
+        "point": [
+          118,
+          75
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      }
+    }
+  }
+}

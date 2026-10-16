@@ -1,0 +1,32 @@
+{
+  "schema": "lineage-shield-geometry-profile-v1",
+  "character": "elf-sword",
+  "variant": "with-shield",
+  "acceptedReference": "full-idle/sheet-transparent.png",
+  "rawReference": "full-idle/raw-sheet.png",
+  "rawReferenceCell": [
+    181,
+    181
+  ],
+  "nativeCell": [
+    192,
+    192
+  ],
+  "nativeAnchor": [
+    96,
+    150
+  ],
+  "baseHeight": 92,
+  "uniformReferenceScale": 0.7226714100905562,
+  "scaleForFutureRawCell": "uniformReferenceScale * 181 / rawCellWidth; rawCellHeight must have the same ratio",
+  "perFrameScaleAllowed": false,
+  "alignment": "Translate only, matching original corresponding frame lower-boot weighted centroid and bottom; do not center whole sword/shield bbox",
+  "maximumAnatomicalScaleDrift": 0.08,
+  "sourceMeanAlphaHeight": 93.10416666666667,
+  "generatedRawMeanAlphaHeight": 128.83333333333334,
+  "normalOcclusion": [
+    "NE",
+    "E"
+  ],
+  "acceptedScope": "48 idle frames visually checked individually on gray; natural far-left-arm occlusion in NE/E; no runtime integration yet"
+}

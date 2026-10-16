@@ -1,0 +1,28 @@
+{
+  "schema": "lineage-shield-transparent-padding-v1",
+  "source": {
+    "file": "docs/art/shield-pairs/raw/knight-sword/attack-without-shield-v1.png",
+    "sha256": "99245d96b5127e617a76b17053a9fdab2e0cb305480af6ca2c194c61c308f39f"
+  },
+  "output": {
+    "file": "docs/art/shield-pairs/raw/knight-sword/attack-without-shield-v1-padded.png",
+    "sha256": "2b77c18c6ba9d08639dde91bb104fa5c90c9425952f80c0744921a9095481a87"
+  },
+  "columns": 8,
+  "rows": 8,
+  "originalSize": [
+    1230,
+    1278
+  ],
+  "outputSize": [
+    1280,
+    1280
+  ],
+  "offset": [
+    25,
+    1
+  ],
+  "cell": 160,
+  "changedChannels": 0,
+  "method": "Only add transparent canvas padding, with integer translation. No image resampling, stretching, body fitting, or creative pixel edits. Every decoded original RGBA channel is checked unchanged."
+}

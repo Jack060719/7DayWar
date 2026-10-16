@@ -1,0 +1,286 @@
+{
+  "schema": "lineage-shield-trial-v1",
+  "date": "2026-10-11",
+  "kind": "one generated south-facing idle prototype; not integrated",
+  "generator": "built-in image_gen",
+  "generationCount": 1,
+  "skills": [
+    "generate2dsprite",
+    "imagegen"
+  ],
+  "input": "elf-sword-idle-S-reference-2x3.png",
+  "raw": "raw-sheet.png",
+  "prompt": "prompt-used.txt",
+  "referenceMetadata": "reference.json",
+  "generatedSourceArtifact": "01a129bf-3f72-7b33-9cd0-7dc971356e45/exec-c305f924-624a-4b3d-b213-a06d88598cd7.png",
+  "background": "requested transparent_background=true; actual Chrome alpha checked",
+  "layout": {
+    "columns": 2,
+    "rows": 3,
+    "inputCell": [
+      384,
+      384
+    ],
+    "generatedCell": [
+      512,
+      512
+    ],
+    "nativeTargetCell": [
+      192,
+      192
+    ],
+    "uniformRawToNativeScale": 0.375
+  },
+  "timingMs": [
+    160,
+    160,
+    160,
+    160,
+    160,
+    160
+  ],
+  "anchor": [
+    96,
+    150
+  ],
+  "visual": {
+    "reviewed": "all six frames on actual Chromium gray-green composite, first-frame comparison also on white",
+    "leftForearmShield": "6/6; shield on viewer right, anatomical left",
+    "rightHandSword": "6/6 retained on viewer left",
+    "singleShield": "6/6",
+    "fullBodyAndWeapon": "6/6 no visible clipping",
+    "identity": "blonde elf, same dark armor/skirt/boots and sword silhouette preserved; face and ear details were redrawn more crisply, not pixel-identical",
+    "style": "painted RPG body rather than procedural shield overlay",
+    "alpha": "background zero-alpha; no visible brown halo on actual gray/white composites",
+    "anchor": "raw grid has row-dependent vertical drift; not yet aligned to original per-frame position"
+  },
+  "metrics": {
+    "source": {
+      "file": "elf-sword-idle-S-reference-2x3.png",
+      "sha256": "ac66fab3a323d764238290661bce5097f4001827a109776c2dbff4b71806c48e",
+      "width": 768,
+      "height": 1152,
+      "alpha": {
+        "zero": 800300,
+        "opaque": 4,
+        "partial": 84432
+      },
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "alphaBBox": [
+            112,
+            116,
+            126,
+            186
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 10024
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "alphaBBox": [
+            106,
+            116,
+            132,
+            186
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 10136
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "alphaBBox": [
+            104,
+            116,
+            134,
+            186
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 10184
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "alphaBBox": [
+            104,
+            116,
+            134,
+            186
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 10204
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "alphaBBox": [
+            106,
+            116,
+            132,
+            186
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 10160
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "alphaBBox": [
+            108,
+            114,
+            130,
+            188
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 10256
+        }
+      ]
+    },
+    "generated": {
+      "file": "raw-sheet.png",
+      "sha256": "afe94d2acc45d19b09e85a05f3135a8b86145b952946a191f95526afa5d75042",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "zero": 1416083,
+        "opaque": 0,
+        "partial": 156781
+      },
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "alphaBBox": [
+            143,
+            157,
+            190,
+            254
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 20362
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "alphaBBox": [
+            145,
+            157,
+            192,
+            254
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 20486
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "alphaBBox": [
+            141,
+            162,
+            195,
+            254
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 20930
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "alphaBBox": [
+            145,
+            162,
+            197,
+            255
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 21051
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "alphaBBox": [
+            141,
+            168,
+            195,
+            255
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 21019
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "alphaBBox": [
+            145,
+            168,
+            197,
+            255
+          ],
+          "edgePixels": 0,
+          "nonzeroAlpha": 21107
+        }
+      ]
+    },
+    "nativeComparison": [
+      {
+        "frame": 0,
+        "sourceHeight": 93,
+        "generatedHeight": 95.25,
+        "sourceBottom": 150.5,
+        "generatedBottom": 153.75,
+        "verticalBottomDelta": 3.25
+      },
+      {
+        "frame": 1,
+        "sourceHeight": 93,
+        "generatedHeight": 95.25,
+        "sourceBottom": 150.5,
+        "generatedBottom": 153.75,
+        "verticalBottomDelta": 3.25
+      },
+      {
+        "frame": 2,
+        "sourceHeight": 93,
+        "generatedHeight": 95.25,
+        "sourceBottom": 150.5,
+        "generatedBottom": 155.625,
+        "verticalBottomDelta": 5.125
+      },
+      {
+        "frame": 3,
+        "sourceHeight": 93,
+        "generatedHeight": 95.625,
+        "sourceBottom": 150.5,
+        "generatedBottom": 156,
+        "verticalBottomDelta": 5.5
+      },
+      {
+        "frame": 4,
+        "sourceHeight": 93,
+        "generatedHeight": 95.625,
+        "sourceBottom": 150.5,
+        "generatedBottom": 158.25,
+        "verticalBottomDelta": 7.75
+      },
+      {
+        "frame": 5,
+        "sourceHeight": 94,
+        "generatedHeight": 95.625,
+        "sourceBottom": 150.5,
+        "generatedBottom": 158.25,
+        "verticalBottomDelta": 7.75
+      }
+    ]
+  },
+  "acceptance": {
+    "anatomyAndTransparency": "pass within south-idle-only scope",
+    "rawPositionContract": "not passed: native baseline drifts about 3–8 px across frames",
+    "runtime": "not changed",
+    "nextStep": "deterministic constant-scale crop and translation to original foot anchors, then visual QC; do not alter per-frame scale to hide drift",
+    "otherDirectionsAndActions": "not generated or verified"
+  }
+}

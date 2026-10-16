@@ -1,0 +1,37 @@
+{
+  "schema": "lineage-shield-geometry-profile-v1",
+  "character": "elf-unarmed",
+  "variant": "with-shield",
+  "status": "pending-semantic-and-native-qa",
+  "acceptedReference": null,
+  "rawReference": "docs/art/shield-pairs/elf-unarmed/spaced/idle/raw-shield.png",
+  "rawReferenceSHA256": "980886a532b977829dd7b3032ee6759e1605459cfeae6df00afef43ddf21e15a",
+  "rawReferenceCell": [
+    362,
+    362
+  ],
+  "nativeCell": [
+    192,
+    192
+  ],
+  "nativeAnchor": [
+    96,
+    150
+  ],
+  "baseHeight": 92,
+  "uniformReferenceScale": 0.5938125083344445,
+  "perFrameScaleAllowed": false,
+  "maximumAnatomicalScaleDrift": 0.08,
+  "sourceMeanAlphaHeight": 92.77083333333333,
+  "generatedRawMeanAlphaHeight": 156.22916666666666,
+  "scaleForFutureRawCell": "uniformReferenceScale * rawReferenceCell[0] / rawCellWidth; height must have the same ratio",
+  "acceptedScope": "None; geometry staging is not semantic acceptance",
+  "layoutCalibration": {
+    "sourceProfile": "docs/art/shield-pairs/elf-unarmed/geometry-profile.json",
+    "sourceProfileSHA256": "0ad023f9cff7396c4411831e7ba2be26115fed57ccefe90cdb89d9fef6ee0962",
+    "pitchFactor": 2,
+    "spriteScale": 1,
+    "nativeScaleUnchanged": true,
+    "method": "Raw pixel integer translations only; profile cell multiplier exactly matches layout pitch multiplier."
+  }
+}

@@ -11,18 +11,25 @@ if(!fs.statSync(root).isDirectory())throw Error('Static root must be a directory
 const lan=process.argv.includes('--lan'),host=lan?'0.0.0.0':'127.0.0.1';
 const index=process.argv.indexOf('--port'),port=index<0?8080:Number(process.argv[index+1]);
 if(!Number.isInteger(port)||port<0||port>65535)throw Error('Invalid port');
-const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml','.woff2':'font/woff2','.woff':'font/woff','.otf':'font/otf','.mp3':'audio/mpeg','.ogg':'audio/ogg','.wav':'audio/wav','.m4a':'audio/mp4'};
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml','.woff2':'font/woff2','.woff':'font/woff','.otf':'font/otf','.mp3':'audio/mpeg','.ogg':'audio/ogg','.opus':'audio/ogg','.wav':'audio/wav','.m4a':'audio/mp4'};
 const server=http.createServer((req,res)=>{
   const fail=(status,message)=>{res.writeHead(status,{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'no-store'});res.end(message)};
   if(req.method!=='GET'&&req.method!=='HEAD')return fail(405,'Read-only server');
   let file;
   try{
-    const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
+    const requestUrl=new URL(req.url,'http://localhost'),pathname=decodeURIComponent(requestUrl.pathname);
     if(pathname.includes('\0')||pathname.includes('\\'))return fail(400,'Invalid path');
     file=path.resolve(root,'.'+pathname);
     if(file!==root&&!file.startsWith(root+path.sep))return fail(403,'Forbidden');
-    if(fs.statSync(file).isDirectory())file=path.join(file,'index.html');
     file=fs.realpathSync(file);
+    if(file!==root&&!file.startsWith(root+path.sep))return fail(403,'Forbidden');
+    if(fs.statSync(file).isDirectory()){
+      if(!requestUrl.pathname.endsWith('/')){
+        res.writeHead(301,{'Location':requestUrl.pathname.replace(/^\/+/, '/')+'/'+requestUrl.search,'Cache-Control':'no-cache'});
+        return res.end();
+      }
+      file=fs.realpathSync(path.join(file,'index.html'));
+    }
     if(!file.startsWith(root+path.sep))return fail(403,'Forbidden');
   }catch{return fail(404,'Not found')}
   const stat=fs.statSync(file);if(!stat.isFile())return fail(404,'Not found');

@@ -1,0 +1,64 @@
+{
+  "schema": "lineage-shield-direction-edit-v1",
+  "raw": "docs/art/shield-pairs/raw/knight-sword/death-without-shield-v1.png",
+  "rawSHA256": "0604b8e9e67efb1b9cc52ed4166400ea1d5d7ffc0f32622c17b9b197ef6586ed",
+  "guideInput": "docs/art/shield-pairs/raw/knight-sword/death-without-shield-v1.png",
+  "guideInputSHA256": "0604b8e9e67efb1b9cc52ed4166400ea1d5d7ffc0f32622c17b9b197ef6586ed",
+  "sourceQA": null,
+  "columns": 8,
+  "rows": 8,
+  "direction": "S",
+  "guideSize": [
+    640,
+    640
+  ],
+  "guideCell": [
+    640,
+    640
+  ],
+  "rawCell": [
+    156.75,
+    156.75
+  ],
+  "rawToGuideScale": 2.449760765550239,
+  "frames": [
+    {
+      "direction": "S",
+      "column": 7,
+      "bodyIndex": 7,
+      "sourceCrop": [
+        1104,
+        29,
+        152,
+        160
+      ],
+      "rawFoot": [
+        1165.4712730318258,
+        132
+      ],
+      "guideRect": [
+        0,
+        0,
+        640,
+        640
+      ],
+      "translation": [
+        169.41008711820658,
+        175.67464114832538
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    }
+  ],
+  "method": "Complete body masks use one raw-cell-derived scale. Translation aligns the guide only; its exact inverse maps the edited pixels back to the original raw positions. No body bbox fitting. Image edits must preserve the guide canvas aspect ratio.",
+  "outputSHA256": "f959c20b09853811974981202fef07a46ea578462e9e7a92ac913b95c21e1169",
+  "sourceJob": "reports/shield-preview/knight-sword-death-job.json",
+  "purpose": "Repair guide for unaccepted raw; no geometry or semantic acceptance is implied",
+  "padding": 128,
+  "guideFoot": [
+    320,
+    428
+  ],
+  "guideColumns": 1,
+  "guideRows": 1
+}

@@ -1,0 +1,81 @@
+{
+  "candidate": "LD-STAGE3-20261011-02",
+  "recordedAt": "2026-10-11T09:58:50.107Z",
+  "node": "v24.20.0",
+  "browser": "Chrome 154.0.8037.98",
+  "environment": {
+    "syntheticOnly": true,
+    "isolatedProfiles": true,
+    "headless": true,
+    "disableGpu": true,
+    "inProcessGpu": true,
+    "testSandboxDisabled": true,
+    "phone": false
+  },
+  "unit": {
+    "files": [
+      "tests/full/recovery-ui-contract.test.mjs",
+      "tests/full/polymorph-interaction.test.mjs",
+      "tests/full/enchantment-visuals.test.mjs",
+      "tests/full/renderer-cache.test.mjs",
+      "tests/full/stage3-icons.test.mjs"
+    ],
+    "passed": 70,
+    "failed": 0,
+    "skipped": 0
+  },
+  "native": {
+    "files": [
+      "tests/browser/native-interactions-pets.test.mjs",
+      "tests/browser/native-skill-roster.test.mjs",
+      "tests/browser/native-quality-orientation.test.mjs",
+      "tests/browser/native-stage3-icons.test.mjs",
+      "tests/browser/native-enchantment-visuals.test.mjs"
+    ],
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0,
+    "initialRunMs": 93415.5393,
+    "additionalStrongerFourCharacterReload": {
+      "passed": 1,
+      "uniqueCaseCountedAgain": false,
+      "durationMs": 31945.6272,
+      "requiresNewDocument": true,
+      "requiresLeaseReacquired": true
+    }
+  },
+  "reviewedImages": [
+    "stage3-ui/element-eight-directions.png",
+    "stage3-ui/pet-original-variants.png",
+    "stage3-ui/polymorph-consent.png",
+    "stage3-ui/pet-upgrade-preview.png"
+  ],
+  "scope": {
+    "elementDirections": 8,
+    "elementColors": 4,
+    "elementBody": "original knight dagger idle",
+    "allWeaponPixelAlignment": false,
+    "phoneAcceptance": false,
+    "shieldDynamic": "blocked_by_missing_paired_original_body_art",
+    "crossPhoneTrade": "root integration evidence separately"
+  },
+  "sourceHashes": {
+    "dist/full/app.mjs": "554a6b7f88da0dcdf30b036d9d29225699e71137cc0e4afd5dd48b08b44326af",
+    "dist/full/app.css": "99565f3fddccd698335524ea438e220897b5a024fe573e90f3b7995b7b755444",
+    "dist/full/renderer.mjs": "33b82dd4585b824ac0e35254d19bb936066386fc2f4e9f5528ac3d90ba6dda00",
+    "dist/full/icons.mjs": "ebef7760ba17012857e7b8db7c0c3b6c01504d3af3f3b72df4a1ef1bf1422c78",
+    "dist/full/item-presentation.mjs": "16b781f45a3519921d29fcadc3db536c0cc414af034054f1dd39d0b2f3ed67ed",
+    "dist/full/enchantment-visuals.mjs": "ee7699b07256467c8d0c934b12ecb1c04a9868e3b73ecacf926481451dd1ec1a",
+    "dist/full/polymorph-interaction.mjs": "819ce9123d2bc7b969c9bd0e19105bd8856b46a4e4dd6f07dffd2003f208bfb3",
+    "dist/full/skills.mjs": "a8409428fb670137cf829f60652c1090058b31a5b9e514a80b1dd40d2d9804a1",
+    "dist/full/art/icons/stage3-items.webp": "67b7cf3627325fc5493574608741703e73ef93bfe225e008f448660d96f51168"
+  },
+  "phase": "UI checks performed before final shield artwork integration; original sourceHashes identify that checked tree",
+  "finalShieldIntegration": {
+    "evidence": "shield-pairs-validation.json",
+    "browserSessions": 1,
+    "testsPassed": 1,
+    "pairedFrames": 10080,
+    "userMobileAcceptancePending": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "candidate-pending-final-integration",
+  "scope": "Generated source sheets inspected; original timings and frozen scale retained. No additional per-action browser acceptance after user requested one final check.",
+  "actions": [
+    "idle",
+    "walk",
+    "attack",
+    "hit",
+    "death",
+    "cast"
+  ],
+  "limitations": [
+    "Generated full sheets were reviewed for missing shields, weapons and directions; final in-game visual acceptance is pending.",
+    "Existing limited repeated walking-leg motion remains.",
+    "Cast silhouette-height diagnostic is -9.2%, includes pose/raised weapons; body scale is frozen from idle.",
+    "Five death poses use recorded helmet registration because low-silhouette estimation selected weapon instead of body.",
+    "Emitter coordinates are estimates carried from the matched dagger cast poses, not new precise measurements."
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "build": "LD-STAGE3-20261011-02",
+  "date": "2026-10-11",
+  "environment": {
+    "os": "Windows",
+    "node": "v24.20.0",
+    "browser": "Chrome/154.0.8037.98",
+    "browserMode": "headless, isolated disposable profiles",
+    "renderingFlags": [
+      "--disable-gpu",
+      "--in-process-gpu"
+    ],
+    "sandboxDisabledOnlyForIsolatedTests": true
+  },
+  "data": "Factory-created synthetic characters only; no real player saves or credentials.",
+  "nodeTests": {
+    "files": 56,
+    "tests": 447,
+    "passed": 444,
+    "failed": 0,
+    "skipped": 3,
+    "cancelled": 0,
+    "durationMs": 18441.4728,
+    "logSHA256": "3944a47f343e2a92bba3b17a7417f248eebb3baf5c282e6d5f38bcd8d0708acc",
+    "phase": "final runtime tree after all fifteen shield pairs were bound",
+    "skipReason": "Windows file symbolic-link creation denied with EPERM; directory junction and ordinary server cases executed."
+  },
+  "nativeBrowserTests": {
+    "files": 9,
+    "tests": 20,
+    "passed": 20,
+    "failed": 0,
+    "skipped": 0,
+    "phase": "before shield artwork integration; not a final-tree repeat",
+    "logSHA256": "02a3d4416dad256e4d7bad2451b41f7e9185fe2c45a072d5f8524fa2c7b6f42a",
+    "scope": [
+      "Two independent browser profiles use the real game UI to create/join a room, consume an item, save and leave",
+      "Native IndexedDB recovery, transaction abort, two-tab Web Locks/lease handoff and room-marker reload",
+      "Native module Worker acknowledgement, pause and deterministic continuation",
+      "568x320, 640x360, 844x390 landscape, 20-character name, simulated safe area and 44px touch target geometry",
+      "Native Canvas building texture cache updates",
+      "Real WebRTC 2 then 10 desktop pages, chunked large message delivery and host termination",
+      "Cold local loading and two heap samples; no mobile FPS conclusion"
+    ]
+  },
+  "roomUI": {
+    "browser": "Chrome/154.0.8037.98",
+    "independentProfiles": 2,
+    "actualGameUI": true,
+    "realWebRTC": true,
+    "realIndexedDB": true,
+    "actualPhone": false,
+    "checkpoint": {
+      "sequence": 2,
+      "count": 99,
+      "position": {
+        "map": "MAP-TOWN-SILVER",
+        "x": 64,
+        "y": 56
+      }
+    },
+    "trade": {
+      "host": {
+        "gold": 283,
+        "escrow": false,
+        "receipts": 1
+      },
+      "guest": {
+        "gold": 317,
+        "escrow": false,
+        "receipts": 1
+      }
+    },
+    "final": {
+      "count": 99,
+      "position": {
+        "map": "MAP-TOWN-SILVER",
+        "x": 64,
+        "y": 56
+      }
+    },
+    "uncaughtErrors": []
+  },
+  "layout": {
+    "phase": "before shield artwork integration",
+    "viewports": [
+      [
+        568,
+        320
+      ],
+      [
+        640,
+        360
+      ],
+      [
+        844,
+        390
+      ]
+    ],
+    "screenshotsVisuallyInspected": true,
+    "safeArea": {
+      "identity": {
+        "x": 52,
+        "y": 42,
+        "right": 276,
+        "bottom": 118.71875
+      },
+      "hotbar": {
+        "x": 101,
+        "y": 235,
+        "right": 467,
+        "bottom": 293
+      },
+      "menus": {
+        "x": 424,
+        "y": 74,
+        "right": 516,
+        "bottom": 214
+      },
+      "world": {
+        "x": 44,
+        "y": 4,
+        "right": 524,
+        "bottom": 299
+      }
+    },
+    "cache": {
+      "loaded": true,
+      "ordinaryRefreshed": true,
+      "fadedRefreshed": true
+    }
+  },
+  "transport": {
+    "syntheticOnly": true,
+    "realRTCPeerConnection": true,
+    "actualPhone": false,
+    "twoPerson": {
+      "hostPeers": 1,
+      "guestPeers": 1,
+      "receivedCharacters": 140000
+    },
+    "tenPerson": {
+      "members": 10,
+      "guestAcknowledgements": 9
+    },
+    "largeMessageCharacters": 140000,
+    "stats": [
+      {
+        "state": "succeeded",
+        "nominated": true,
+        "bytesSent": 445486,
+        "bytesReceived": 19488
+      },
+      {
+        "state": "succeeded",
+        "nominated": true,
+        "bytesSent": 2423,
+        "bytesReceived": 9775
+      },
+      {
+        "state": "succeeded",
+        "nominated": true,
+        "bytesSent": 2364,
+        "bytesReceived": 8313
+      },
+      {
+        "state": "succeeded",
+        "nominated": true,
+        "bytesSent": 2367,
+        "bytesReceived": 8312
+      },
+      {
+        "state": "succeeded",
+        "nominated": true,
+        "bytesSent": 2365,
+        "bytesReceived": 9775
+      },
+      {
+        "state": "succeeded",
+        "nominated": true,
+        "bytesSent": 2366,
+        "bytesReceived": 9776
+      },
+      {
+        "state": "succeeded",
+        "nominated": true,
+        "bytesSent": 2422,
+        "bytesReceived": 8310
+      },
+      {
+        "state": "succeeded",
+        "nominated": true,
+        "bytesSent": 2423,
+        "bytesReceived": 9776
+      },
+      {
+        "state": "succeeded",
+        "nominated": true,
+        "bytesSent": 2366,
+        "bytesReceived": 8313
+      }
+    ],
+    "errors": [],
+    "hostTerminationClosedAllGuests": true,
+    "phase": "before shield artwork integration"
+  },
+  "performance": {
+    "browser": "Chrome/154.0.8037.98",
+    "syntheticOnly": true,
+    "actualPhone": false,
+    "profile": "fresh disposable profile",
+    "viewport": [
+      844,
+      390
+    ],
+    "headless": true,
+    "launchRenderingFlags": [
+      "--disable-gpu",
+      "--in-process-gpu"
+    ],
+    "hardwareGpuDisabledByLaunchFlag": true,
+    "scene": "new knight, stationary Silver town, original assets; no combat stress test",
+    "readinessPollIntervalMs": 100,
+    "creationReadyMs": 259,
+    "controlsReadyMs": 275.2000000476837,
+    "firstTerrainPaintMs": 397.2000000476837,
+    "playableReadyMs": 2898.7000000476837,
+    "playableCriterion": "controls active, terrain pixels drawn and initial resource count stable",
+    "settlingRule": "completed resource count unchanged over three 400ms intervals",
+    "resources": {
+      "sampleAtMs": 2898.7000000476837,
+      "completedRequests": 160,
+      "transferBytes": 10537076,
+      "encodedBodyBytes": 10489076,
+      "byInitiator": {
+        "document": {
+          "completedRequests": 1,
+          "transferBytes": 3758,
+          "encodedBodyBytes": 3458
+        },
+        "link": {
+          "completedRequests": 1,
+          "transferBytes": 20671,
+          "encodedBodyBytes": 20371
+        },
+        "img": {
+          "completedRequests": 43,
+          "transferBytes": 3137819,
+          "encodedBodyBytes": 3124919
+        },
+        "script": {
+          "completedRequests": 95,
+          "transferBytes": 4577861,
+          "encodedBodyBytes": 4549361
+        },
+        "css": {
+          "completedRequests": 6,
+          "transferBytes": 1675914,
+          "encodedBodyBytes": 1674114
+        },
+        "fetch": {
+          "completedRequests": 14,
+          "transferBytes": 1121053,
+          "encodedBodyBytes": 1116853
+        }
+      }
+    },
+    "settled": {
+      "Documents": 8,
+      "Nodes": 758,
+      "LayoutDuration": 0.05049,
+      "ScriptDuration": 0.206825,
+      "TaskDuration": 0.576664,
+      "JSHeapUsedSize": 12853908,
+      "JSHeapTotalSize": 19398656
+    },
+    "after15Seconds": {
+      "Documents": 1,
+      "Nodes": 327,
+      "LayoutDuration": 0.073519,
+      "ScriptDuration": 0.715167,
+      "TaskDuration": 2.576565,
+      "JSHeapUsedSize": 16017264,
+      "JSHeapTotalSize": 31981568
+    },
+    "heapChangeBytes": 3163356,
+    "limits": [
+      "local HTTP, no mobile radio latency",
+      "desktop Chrome, no Android/iOS device",
+      "natural GC; two heap samples do not establish a memory leak or prove its absence",
+      "no frame-rate claim or hardware GPU benchmark"
+    ],
+    "phase": "before shield artwork integration; not mobile FPS"
+  },
+  "integrity": {
+    "runtimeFiles": 9815,
+    "runtimeManifest": "RUNTIME-SHA256.json",
+    "runtimeManifestSHA256": "72d388164115b2703d410da3683bd9573294974fee16bb086908439a99fa4c85",
+    "references": {
+      "runtimeFiles": 9815,
+      "activeManifests": 213,
+      "uniqueReferences": 9757,
+      "errors": [],
+      "manifestRoots": [
+        "full/art/manifest.json",
+        "full/art/stance-index.json",
+        "full/art/fx/manifest.json",
+        "full/art/icons/manifest.json",
+        "full/art/ui/manifest.json",
+        "full/art/ui/class-portraits.json",
+        "full/art/terrain/map-bindings.json",
+        "full/art/terrain/scene-composition.recipe.json"
+      ],
+      "scope": "Active actor/shield stance, FX/icon/UI and terrain manifests; active structures.mjs world atlases; terrain binding and recipe family atlases; literal relative imports, dynamic imports and new URL(import.meta.url); full entry HTML/CSS URLs; runtime icon/audio catalog paths. URL-decoded Chinese/space paths and exact filename case are checked against the dist inventory. Provenance, historical sources and review/validation evidence are excluded.",
+      "excludedHistoricalWorldIndex": "full/art/world/first6-manifest.json: renderer uses structures.mjs individual sprites, not the historical combined structures24-atlas.png",
+      "limitations": "Static references only: no arbitrary JavaScript expression evaluation, browser load, image decode, geometry, timing or visual acceptance. Those have separate evidence."
+    },
+    "oldDistEntryUnchanged": true
+  },
+  "notVerified": [
+    "Android/iPhone devices or mixed-device Wi-Fi play",
+    "Ten phones in sustained shared combat",
+    "Physical touch, mobile audio, thermal and long-duration memory behavior",
+    "Wi-Fi client isolation or STUN/TURN relay deployment",
+    "Public HTTPS hosting/signaling deployment",
+    "New ZIP creation, clean extraction and package startup"
+  ],
+  "delivery": {
+    "gitCommit": false,
+    "gitPush": false,
+    "websitePublished": false,
+    "newZip": false
+  },
+  "finalVisualIntegration": {
+    "evidence": "shield-pairs-validation.json",
+    "tests": 1,
+    "passed": 1,
+    "failed": 0,
+    "browserSessions": 1,
+    "pairedFrames": 10080,
+    "pairedClips": 1440,
+    "scope": "One desktop Chromium session: engine equip/unequip commands, all paired frames through FullRenderer.actor, and synthetic family peers through FullRenderer.draw. One landscape image. No equipment-panel clicking, live RTC, Android/iPhone or sustained FPS claim."
+  },
+  "acceptancePlan": "User requested one final integrated browser check after visual changes; phone play, touch/audio and sustained performance are left for user acceptance."
+}

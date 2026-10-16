@@ -1,0 +1,20 @@
+{
+  "raw": "docs/art/shield-pairs/elf-trial/full-death/raw-sheet.png",
+  "reference": "docs/art/shield-pairs/inputs/elf-sword/death.json",
+  "outputDir": "docs/art/shield-pairs/processed/elf-sword-with-shield",
+  "profile": "docs/art/shield-pairs/elf-trial/geometry-profile.json",
+  "variant": "with-shield",
+  "registrationPoints": {
+    "S:5": {
+      "source": [
+        155,
+        124
+      ],
+      "raw": [
+        940,
+        123
+      ],
+      "reason": "Reviewed 4x pixel-grid source/raw previews: align the outer right-side boot toe, not the diagonal sword tip below the body. Source cell point [155,124], raw crop-relative [167,123] plus crop origin [773,0]. Same profile scale retained."
+    }
+  }
+}

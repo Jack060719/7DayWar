@@ -1,0 +1,28 @@
+{
+  "staging": "docs/art/shield-pairs/processed/knight-dagger-v6-trial",
+  "sourceManifest": "stance-staging/runtime/knight-dagger/manifest.json",
+  "output": "shield-pairs/knight-dagger-without-shield",
+  "consumerId": "CLASS-KNIGHT:dagger:without-shield",
+  "assetId": "ASSET-STANCE-CLASS-KNIGHT-DAGGER-WITHOUT-SHIELD",
+  "variant": "without-shield",
+  "reviewedActions": ["idle", "walk", "attack", "hit", "death", "cast"],
+  "visualReview": "docs/art/shield-pairs/KNIGHT-DAGGER-REVIEW.md",
+  "nativeReview": "Chrome/154.0.8037.98: all 672 paired frames drawn through FullRenderer.actor; FullRenderer.draw 844x390 map scene confirms selected hero and synthetic nearby peer switch opposite halves. UI equip interaction, real phones and sustained performance remain untested.",
+  "limitations": ["Desktop staging review is separate from native game scene and Android/iPhone acceptance.", "Repeated walking leg poses and small torso motion remain; the sequence is not motion capture.", "Original attack frame 3 and cast release frame 4 timing are retained as presentation estimates. Hand positions are visually measured with a four-pixel tolerance.", "Death W frames 6-8 use documented boot-sole registration instead of the automatic lower-alpha band, which detects the dagger tip."],
+  "contacts": {
+    "attack": {"S":{"frameIndex":3,"estimated":true},"SW":{"frameIndex":3,"estimated":true},"W":{"frameIndex":3,"estimated":true},"NW":{"frameIndex":3,"estimated":true},"N":{"frameIndex":3,"estimated":true},"NE":{"frameIndex":3,"estimated":true},"E":{"frameIndex":3,"estimated":true},"SE":{"frameIndex":3,"estimated":true}},
+    "cast": {"S":{"frameIndex":4,"estimated":true},"SW":{"frameIndex":4,"estimated":true},"W":{"frameIndex":4,"estimated":true},"NW":{"frameIndex":4,"estimated":true},"N":{"frameIndex":4,"estimated":true},"NE":{"frameIndex":4,"estimated":true},"E":{"frameIndex":4,"estimated":true},"SE":{"frameIndex":4,"estimated":true}}
+  },
+  "emitters": {
+    "cast": {
+      "S":{"frameIndex":4,"point":[72,71],"anchor":[96,150],"estimated":false,"pointTolerancePixels":4},
+      "SW":{"frameIndex":4,"point":[68,72],"anchor":[96,150],"estimated":false,"pointTolerancePixels":4},
+      "W":{"frameIndex":4,"point":[65,70],"anchor":[96,150],"estimated":false,"pointTolerancePixels":4},
+      "NW":{"frameIndex":4,"point":[69,57],"anchor":[96,150],"estimated":false,"pointTolerancePixels":4},
+      "N":{"frameIndex":4,"point":[113,43],"anchor":[96,150],"estimated":false,"pointTolerancePixels":4},
+      "NE":{"frameIndex":4,"point":[111,61],"anchor":[96,150],"estimated":false,"pointTolerancePixels":4},
+      "E":{"frameIndex":4,"point":[122,75],"anchor":[96,150],"estimated":false,"pointTolerancePixels":4},
+      "SE":{"frameIndex":4,"point":[106,88],"anchor":[96,150],"estimated":false,"pointTolerancePixels":4}
+    }
+  }
+}

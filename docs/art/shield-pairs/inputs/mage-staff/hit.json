@@ -1,0 +1,961 @@
+{
+  "schema": "lineage-shield-reference-v1",
+  "purpose": "Reference only; not newly generated artwork or runtime acceptance",
+  "class": "mage",
+  "family": "staff",
+  "action": "hit",
+  "sourceManifest": {
+    "file": "actors/mage/mage-runtime.json",
+    "sha256": "4f4794480e3303730036fe9179aff818607736c7af48036fd743c4a24e80ac49"
+  },
+  "sourceClips": [
+    {
+      "file": "actors/mage/clips/hit-S.webp",
+      "sha256": "c539b4019ab85d456c10b41241160ead4984b004d4b0dea0eebf8ebcf5054474"
+    },
+    {
+      "file": "actors/mage/clips/hit-SW.webp",
+      "sha256": "b04bf004ddeb719a750e8f35b327c4fabffc1f97a974c2965aaaa98f37eebe47"
+    },
+    {
+      "file": "actors/mage/clips/hit-W.webp",
+      "sha256": "c6df5701144486db4a960557700965fec03f7a690934db638f7664bee9ecfc3c"
+    },
+    {
+      "file": "actors/mage/clips/hit-NW.webp",
+      "sha256": "4a368f32ca3bd095a2655da360e5a34b050d7f3597c6fa7aa502e44ea1d68fbc"
+    },
+    {
+      "file": "actors/mage/clips/hit-N.webp",
+      "sha256": "bfe8dca061e75c4d2592f88e4a553bd7abab92cef15ad19a02888d1d4d295d72"
+    },
+    {
+      "file": "actors/mage/clips/hit-NE.webp",
+      "sha256": "074db68d829b6e171bd753813207b2620af0a5ed96cd742829e4349e099751b2"
+    },
+    {
+      "file": "actors/mage/clips/hit-E.webp",
+      "sha256": "72d5cbb8b984726bec0041716cdb5d2ebe61e153e901720e55d049bfc5e035ce"
+    },
+    {
+      "file": "actors/mage/clips/hit-SE.webp",
+      "sha256": "2a7e1af2030eb839aba99ccd2d180c32b34c80b40d64fe38e1dc4d3039d4a3fe"
+    }
+  ],
+  "directions": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "columns": 4,
+  "cell": [
+    192,
+    192
+  ],
+  "width": 768,
+  "height": 1536,
+  "baseHeight": 92,
+  "anchor": [
+    96,
+    150
+  ],
+  "frames": [
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 40,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-S.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-S.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-S.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-S.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 40,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-SW.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-SW.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-SW.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-SW.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 40,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-W.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-W.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-W.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-W.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 40,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-NW.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-NW.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-NW.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-NW.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 40,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-N.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-N.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-N.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-N.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 40,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-NE.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-NE.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-NE.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-NE.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 40,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-E.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-E.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-E.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-E.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 40,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-SE.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-SE.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-SE.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/mage/clips/hit-SE.webp"
+      }
+    ]
+  ],
+  "processing": {
+    "tool": "isolated Chromium Canvas; Python sprite helper unavailable",
+    "resize": false,
+    "translation": false,
+    "cleanup": "8-connected alpha components; remove only non-largest detached horizontal lines with width >= 8 and height <= 2 pixels"
+  },
+  "qa": [
+    {
+      "row": 0,
+      "column": 0,
+      "mainBBox": [
+        71,
+        50,
+        47,
+        102
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "mainBBox": [
+        75,
+        50,
+        48,
+        102
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "mainBBox": [
+        70,
+        50,
+        48,
+        102
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "mainBBox": [
+        71,
+        50,
+        48,
+        102
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "mainBBox": [
+        69,
+        50,
+        51,
+        102
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "mainBBox": [
+        72,
+        50,
+        50,
+        102
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "mainBBox": [
+        68,
+        50,
+        51,
+        102
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "mainBBox": [
+        68,
+        50,
+        52,
+        102
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "mainBBox": [
+        73,
+        50,
+        47,
+        102
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "mainBBox": [
+        75,
+        50,
+        50,
+        100
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "mainBBox": [
+        77,
+        52,
+        46,
+        100
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "mainBBox": [
+        75,
+        51,
+        45,
+        101
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 0,
+      "mainBBox": [
+        69,
+        50,
+        50,
+        102
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "mainBBox": [
+        75,
+        50,
+        50,
+        103
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "mainBBox": [
+        73,
+        50,
+        48,
+        102
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "mainBBox": [
+        67,
+        50,
+        48,
+        103
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 0,
+      "mainBBox": [
+        74,
+        50,
+        48,
+        101
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "mainBBox": [
+        76,
+        52,
+        49,
+        99
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "mainBBox": [
+        75,
+        52,
+        49,
+        99
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "mainBBox": [
+        70,
+        51,
+        47,
+        101
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 0,
+      "mainBBox": [
+        74,
+        50,
+        49,
+        102
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 1,
+      "mainBBox": [
+        78,
+        54,
+        47,
+        98
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 2,
+      "mainBBox": [
+        76,
+        53,
+        47,
+        98
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 3,
+      "mainBBox": [
+        75,
+        53,
+        46,
+        99
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 0,
+      "mainBBox": [
+        72,
+        50,
+        48,
+        102
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 1,
+      "mainBBox": [
+        76,
+        50,
+        46,
+        100
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 2,
+      "mainBBox": [
+        74,
+        50,
+        47,
+        101
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 3,
+      "mainBBox": [
+        72,
+        50,
+        48,
+        101
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 0,
+      "mainBBox": [
+        69,
+        50,
+        51,
+        102
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 1,
+      "mainBBox": [
+        69,
+        49,
+        50,
+        104
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 2,
+      "mainBBox": [
+        64,
+        49,
+        52,
+        104
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 3,
+      "mainBBox": [
+        66,
+        49,
+        52,
+        103
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    }
+  ],
+  "output": {
+    "file": "hit.png",
+    "sha256": "8c7a68b217190c9c7bba9886cfa7b1e69a5dfdb0449e53310171ccb8f565d4b6"
+  }
+}

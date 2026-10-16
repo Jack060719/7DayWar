@@ -6,7 +6,17 @@
       "families": {
         "sword": {
           "manifest": "actors/knight/knight-runtime.json",
-          "status": "accepted-default"
+          "status": "accepted-default",
+          "shieldVariants": {
+            "with-shield": {
+              "manifest": "actors/knight/knight-runtime.json",
+              "status": "accepted-default"
+            },
+            "without-shield": {
+              "manifest": "shield-pairs/knight-sword-without-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "twohand_sword": {
           "manifest": "stance-staging/runtime/knight-twohand_sword/manifest.json",
@@ -18,29 +28,89 @@
         },
         "dagger": {
           "manifest": "stance-staging/runtime/knight-dagger/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "with-shield": {
+              "manifest": "stance-staging/runtime/knight-dagger/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "without-shield": {
+              "manifest": "shield-pairs/knight-dagger-without-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "mace": {
           "manifest": "stance-staging/runtime/knight-mace/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "with-shield": {
+              "manifest": "stance-staging/runtime/knight-mace/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "without-shield": {
+              "manifest": "shield-pairs/knight-mace-without-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "unarmed": {
           "manifest": "stance-staging/runtime/knight-unarmed/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "without-shield": {
+              "manifest": "stance-staging/runtime/knight-unarmed/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "with-shield": {
+              "manifest": "shield-pairs/knight-unarmed-with-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "spear": {
           "manifest": "stance-staging/runtime/knight-spear/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "with-shield": {
+              "manifest": "stance-staging/runtime/knight-spear/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "without-shield": {
+              "manifest": "shield-pairs/knight-spear-without-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         }
       },
       "items": {
         "EQ-BATTLE-AXE": {
           "manifest": "stance-staging/runtime/knight-axe/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "with-shield": {
+              "manifest": "stance-staging/runtime/knight-axe/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "without-shield": {
+              "manifest": "shield-pairs/knight-axe-without-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "EQ-BERSERKER-AXE": {
           "manifest": "stance-staging/runtime/knight-axe/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "with-shield": {
+              "manifest": "stance-staging/runtime/knight-axe/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "without-shield": {
+              "manifest": "shield-pairs/knight-axe-without-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         }
       }
     },
@@ -53,23 +123,73 @@
         },
         "sword": {
           "manifest": "stance-staging/runtime/elf-sword/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "without-shield": {
+              "manifest": "stance-staging/runtime/elf-sword/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "with-shield": {
+              "manifest": "shield-pairs/elf-sword-with-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "unarmed": {
           "manifest": "stance-staging/runtime/elf-unarmed/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "without-shield": {
+              "manifest": "stance-staging/runtime/elf-unarmed/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "with-shield": {
+              "manifest": "shield-pairs/elf-unarmed-with-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "dagger": {
           "manifest": "stance-staging/runtime/elf-dagger/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "without-shield": {
+              "manifest": "stance-staging/runtime/elf-dagger/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "with-shield": {
+              "manifest": "shield-pairs/elf-dagger-with-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "mace": {
           "manifest": "stance-staging/runtime/elf-mace/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "without-shield": {
+              "manifest": "stance-staging/runtime/elf-mace/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "with-shield": {
+              "manifest": "shield-pairs/elf-mace-with-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "spear": {
           "manifest": "stance-staging/runtime/elf-spear/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "without-shield": {
+              "manifest": "stance-staging/runtime/elf-spear/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "with-shield": {
+              "manifest": "shield-pairs/elf-spear-with-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         }
       },
       "items": {
@@ -84,19 +204,59 @@
       "families": {
         "staff": {
           "manifest": "actors/mage/mage-runtime.json",
-          "status": "accepted-default"
+          "status": "accepted-default",
+          "shieldVariants": {
+            "without-shield": {
+              "manifest": "actors/mage/mage-runtime.json",
+              "status": "accepted-default"
+            },
+            "with-shield": {
+              "manifest": "shield-pairs/mage-staff-with-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "dagger": {
           "manifest": "stance-staging/runtime/mage-dagger/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "without-shield": {
+              "manifest": "stance-staging/runtime/mage-dagger/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "with-shield": {
+              "manifest": "shield-pairs/mage-dagger-with-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "mace": {
           "manifest": "stance-staging/runtime/mage-mace/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "without-shield": {
+              "manifest": "stance-staging/runtime/mage-mace/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "with-shield": {
+              "manifest": "shield-pairs/mage-mace-with-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         },
         "unarmed": {
           "manifest": "stance-staging/runtime/mage-unarmed/manifest.json",
-          "status": "source-reviewed-candidate"
+          "status": "source-reviewed-candidate",
+          "shieldVariants": {
+            "without-shield": {
+              "manifest": "stance-staging/runtime/mage-unarmed/manifest.json",
+              "status": "source-reviewed-candidate"
+            },
+            "with-shield": {
+              "manifest": "shield-pairs/mage-unarmed-with-shield/manifest.json",
+              "status": "integration-candidate"
+            }
+          }
         }
       },
       "items": {}

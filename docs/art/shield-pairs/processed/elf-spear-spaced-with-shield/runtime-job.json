@@ -1,0 +1,212 @@
+{
+  "staging": "docs/art/shield-pairs/processed/elf-spear-spaced-with-shield",
+  "sourceManifest": "stance-staging/runtime/elf-spear/manifest.json",
+  "output": "shield-pairs/elf-spear-with-shield",
+  "consumerId": "CLASS-ELF:spear:with-shield",
+  "assetId": "ASSET-STANCE-CLASS-ELF-SPEAR-WITH-SHIELD",
+  "variant": "with-shield",
+  "reviewedActions": [
+    "idle",
+    "walk",
+    "attack",
+    "hit",
+    "death",
+    "cast"
+  ],
+  "visualReview": "docs/art/shield-pairs/elf-spear/CANDIDATES.md",
+  "deferNativeReview": true,
+  "limitations": [
+    "Generated output inspected; native codec and in-game review are deferred to the final integration pass under the current user instruction. Physical phone review remains open.",
+    "Fixed idle profile preserved across all six actions. Alpha silhouette diagnostics: walk +8.47%, attack about +10%, hit +17.39%, cast +5.33%, death +7.34%. These include spear/pose and are not anatomical torso measurements; no per-action fit was applied.",
+    "Rear shield fine details and naturally occluded far-arm shields are limited at runtime size. Several motion poses remain similar to adjacent frames.",
+    "Attack SW third frame background debris was cleaned through imagegen and inversely reinserted; all other raw pixels remained unchanged.",
+    "19 attack frames and 10 cast frames use integer atlas packing with equal frame-anchor translation, preserving world-space placement and scale.",
+    "Cast origins are manual current-image estimates with four-pixel tolerance; original release/contact index 3 and all durations are preserved."
+  ],
+  "contacts": {
+    "attack": {
+      "S": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 3,
+        "estimated": true
+      }
+    },
+    "cast": {
+      "S": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 3,
+        "estimated": true
+      }
+    }
+  },
+  "emitters": {
+    "cast": {
+      "S": {
+        "frameIndex": 3,
+        "point": [
+          131,
+          82
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; original release index retained and atlas packing reflected in anchor."
+      },
+      "SW": {
+        "frameIndex": 3,
+        "point": [
+          130,
+          87
+        ],
+        "anchor": [
+          96,
+          155
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; original release index retained and atlas packing reflected in anchor."
+      },
+      "W": {
+        "frameIndex": 3,
+        "point": [
+          81,
+          82
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; original release index retained and atlas packing reflected in anchor."
+      },
+      "NW": {
+        "frameIndex": 3,
+        "point": [
+          80,
+          86
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; original release index retained and atlas packing reflected in anchor."
+      },
+      "N": {
+        "frameIndex": 3,
+        "point": [
+          91,
+          77
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; original release index retained and atlas packing reflected in anchor."
+      },
+      "NE": {
+        "frameIndex": 3,
+        "point": [
+          118,
+          70
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; original release index retained and atlas packing reflected in anchor."
+      },
+      "E": {
+        "frameIndex": 3,
+        "point": [
+          130,
+          82
+        ],
+        "anchor": [
+          96,
+          154
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; original release index retained and atlas packing reflected in anchor."
+      },
+      "SE": {
+        "frameIndex": 3,
+        "point": [
+          128,
+          85
+        ],
+        "anchor": [
+          96,
+          152
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; original release index retained and atlas packing reflected in anchor."
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "schema": "lineage-shield-direction-edit-v1",
+  "raw": "docs/art/shield-pairs/raw/knight-dagger/idle-without-shield-v6.png",
+  "rawSHA256": "36c6ae92e4945538a0842ed34ab03157fbcb0ca5ab96ad7ec693c0024db0403f",
+  "guideInput": "docs/art/shield-pairs/processed/knight-dagger-v6-trial/idle/cleaned-raw.png",
+  "guideInputSHA256": "68b5b1e7a5a3519b4088fe757d836e742ba9f2883cb05313258727d22b470cf5",
+  "sourceQA": "docs/art/shield-pairs/processed/knight-dagger-v6-trial/idle/qa.json",
+  "columns": 6,
+  "rows": 8,
+  "direction": "NW",
+  "guideSize": [
+    768,
+    1152
+  ],
+  "guideCell": [
+    384,
+    384
+  ],
+  "rawCell": [
+    181,
+    181
+  ],
+  "rawToGuideScale": 2.1215469613259668,
+  "frames": [
+    {
+      "direction": "NW",
+      "column": 0,
+      "bodyIndex": 18,
+      "sourceCrop": [
+        60,
+        606,
+        75,
+        108
+      ],
+      "rawFoot": [
+        93.48894308943089,
+        707
+      ],
+      "guideRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "translation": [
+        120.95163455059966,
+        85.72375690607737
+      ],
+      "scale": 2.1215469613259668,
+      "edgePixels": 0
+    },
+    {
+      "direction": "NW",
+      "column": 1,
+      "bodyIndex": 19,
+      "sourceCrop": [
+        240,
+        604,
+        72,
+        108
+      ],
+      "rawFoot": [
+        276.414728782431,
+        707
+      ],
+      "guideRect": [
+        384,
+        0,
+        384,
+        384
+      ],
+      "translation": [
+        114.74444280412432,
+        81.48066298342542
+      ],
+      "scale": 2.1215469613259668,
+      "edgePixels": 0
+    },
+    {
+      "direction": "NW",
+      "column": 2,
+      "bodyIndex": 20,
+      "sourceCrop": [
+        414,
+        605,
+        88,
+        107
+      ],
+      "rawFoot": [
+        458.77245759389456,
+        707
+      ],
+      "guideRect": [
+        0,
+        384,
+        384,
+        384
+      ],
+      "translation": [
+        97.01312864057729,
+        83.6022099447514
+      ],
+      "scale": 2.1215469613259668,
+      "edgePixels": 0
+    },
+    {
+      "direction": "NW",
+      "column": 3,
+      "bodyIndex": 21,
+      "sourceCrop": [
+        605,
+        594,
+        78,
+        118
+      ],
+      "rawFoot": [
+        638.1624800747541,
+        707
+      ],
+      "guideRect": [
+        384,
+        384,
+        384,
+        384
+      ],
+      "translation": [
+        121.64424116737261,
+        60.26519337016575
+      ],
+      "scale": 2.1215469613259668,
+      "edgePixels": 0
+    },
+    {
+      "direction": "NW",
+      "column": 4,
+      "bodyIndex": 22,
+      "sourceCrop": [
+        789,
+        604,
+        74,
+        112
+      ],
+      "rawFoot": [
+        820.2089061896086,
+        707
+      ],
+      "guideRect": [
+        0,
+        768,
+        384,
+        384
+      ],
+      "translation": [
+        125.78883990712879,
+        81.48066298342542
+      ],
+      "scale": 2.1215469613259668,
+      "edgePixels": 0
+    },
+    {
+      "direction": "NW",
+      "column": 5,
+      "bodyIndex": 23,
+      "sourceCrop": [
+        969,
+        606,
+        70,
+        110
+      ],
+      "rawFoot": [
+        1001.375596742488,
+        707
+      ],
+      "guideRect": [
+        384,
+        768,
+        384,
+        384
+      ],
+      "translation": [
+        123.31365110985965,
+        85.72375690607737
+      ],
+      "scale": 2.1215469613259668,
+      "edgePixels": 0
+    }
+  ],
+  "method": "Complete body masks use one raw-cell-derived scale. Translation aligns the guide only; its exact inverse maps the edited pixels back to the original raw positions. No body bbox fitting. Image edits must preserve the guide canvas aspect ratio.",
+  "outputSHA256": "eb8d6f1aac17607cbe093a4ce8648899b9d47c8505f8cd691c1a7fd1f8999919",
+  "guideColumns": 2,
+  "guideRows": 3
+}

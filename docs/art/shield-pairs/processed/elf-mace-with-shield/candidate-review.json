@@ -1,0 +1,28 @@
+{
+  "schema": "lineage-shield-candidate-review-v1",
+  "scope": "Generated-sheet visual review and fixed-profile geometry; no additional native browser review in this final production batch.",
+  "reviewedActions": [
+    "idle",
+    "walk",
+    "attack",
+    "hit",
+    "death",
+    "cast"
+  ],
+  "cast": "W/NW use v2 shield correction; remaining six directions preserve v1. Parent and generating agent reviewed shield direction; only complete generated frame identities are selected.",
+  "assignment": "docs/art/shield-pairs/elf-mace/cast/identity-assignment.json",
+  "geometry": {
+    "frames": 336,
+    "failures": 0,
+    "scale": "Frozen family profile, no per-frame fitting"
+  },
+  "native": "pending-final-integration",
+  "mobile": "user acceptance pending",
+  "limitations": [
+    "Original subtle or repeated walking leg phases remain.",
+    "Far-side left-arm shield may be occluded by torso in northeast/east directions.",
+    "One fixed family profile; component identity seeds do not erase source alpha or relax clipping gates.",
+    "Attack contact and cast release frames retain original timing; generated-hand locations are visual estimates within four pixels.",
+    "Final integrated native check and user phone acceptance remain pending."
+  ]
+}

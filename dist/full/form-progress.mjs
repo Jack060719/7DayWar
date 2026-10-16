@@ -34,7 +34,7 @@ export const FORM_COLLECTION_MILESTONES=Object.freeze([
 export const FORM_DEFINITIONS=Object.freeze(Object.fromEntries(Object.values(MONSTERS).map(monster=>{
  const boss=monster.boss===true,minLevel=boss?(LEGACY_FORM_LEVELS[monster.id]??monster.level):1;
  const contractItemId=boss?'ITEM-FORM-CONTRACT-'+monster.id.slice(4):null;
- const activationAvailable=monster.id!=='MON-DARK-ELF';
+ const activationAvailable=true;
  const unlock=Object.freeze(boss
   ?{kind:'contract',itemId:contractItemId,count:1,minLevel,dropChance:FORM_POLICY.bossContractChance}
   :{kind:'kills',monsterId:monster.id,count:FORM_POLICY.ordinaryKills,minLevel});

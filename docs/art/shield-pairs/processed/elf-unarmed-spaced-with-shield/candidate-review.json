@@ -1,0 +1,35 @@
+{
+  "status": "candidate-ready-for-final-integration",
+  "scope": "Generated image visual inspection, composite provenance, original timing and deterministic geometry. Final native renderer and mobile user acceptance pending.",
+  "actions": [
+    "idle",
+    "walk",
+    "attack",
+    "hit",
+    "death",
+    "cast"
+  ],
+  "geometry": {
+    "frames": 336,
+    "empty": 0,
+    "clipped": 0,
+    "allAlphaEdge": 0
+  },
+  "profile": {
+    "file": "docs/art/shield-pairs/elf-unarmed/spaced/geometry-profile.json",
+    "scale": 0.5938125083344445,
+    "rawCell": 362,
+    "pitchMultiplier": 2,
+    "pixelsLost": 0
+  },
+  "limitations": [
+    "Original small and repeated walking/punching leg phases remain.",
+    "North cast repair reduces arm lift amplitude; release stays at original frame 3.",
+    "Hit silhouettes average about 9% taller than original; locked family scale was retained, without per-action fitting.",
+    "Far-side shield can be hidden by torso in northeast/east views.",
+    "Death E6 uses a five-pixel packing translation for transparent margin; original duration and profile unchanged.",
+    "Alpha-1 detached and distant background noise was removed by the documented shared processor; all alpha>=2 pixels and nearby antialiasing remain protected."
+  ],
+  "provenance": "Walk/attack/cast N and death N0–3 use a single authored north correction generation with fixed resolution ratio. Each qa records original/patch SHA256 and sourceGeneration per frame; other frames retain their original generations.",
+  "finalIntegration": "pending"
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "lineage-shield-art-review-v1",
+  "family": "elf-sword",
+  "variant": "with-shield",
+  "status": "candidate-ready-for-renderer-integration",
+  "reviewedActions": [
+    "idle",
+    "walk",
+    "attack",
+    "hit",
+    "death",
+    "cast"
+  ],
+  "reviewedFrames": 336,
+  "reviewMethod": "Gray-background native Canvas composites of every direction and frame, plus native PNG/WebP decoding.",
+  "checks": {
+    "rightHandWeapon": true,
+    "leftForearmShield": true,
+    "allAlphaEdgePixels": 0,
+    "emptyFrames": 0,
+    "originalFrameDurations": true,
+    "fixedIdleProfile": true,
+    "runtimeModified": false
+  },
+  "limitations": [
+    "NE/E far-side left forearm and shield are naturally occluded in several poses; no floating shield added.",
+    "Original subtle/repeated walk-leg phases remain.",
+    "Attack NW silhouette is approximately 8.6% taller than its original action silhouette; weapon angle contributes and anatomy was visually reviewed. In-game stance transition remains an integration check.",
+    "Attack and death use explicitly recorded original-generation direction/frame selections; see each qa.json sourceGenerations and frame.sourceGeneration.",
+    "Image artifacts are checked; in-game renderer and phone acceptance are still pending."
+  ],
+  "geometryProfile": "../../elf-trial/geometry-profile.json"
+}

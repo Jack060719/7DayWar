@@ -1,0 +1,62 @@
+{
+  "schema": "lineage-shield-direction-edit-v1",
+  "raw": "docs/art/shield-pairs/elf-spear/spaced/attack/raw-shield.png",
+  "rawSHA256": "1d73ba4205accc5f2ca910efbc38b4dee35a9c48209fda0e2cfe500aff46b553",
+  "guideInput": "docs/art/shield-pairs/processed/elf-spear-spaced-with-shield/attack/cleaned-raw.png",
+  "guideInputSHA256": "a81ed443badb31b94cd7941f3801a27b3868dbb7fb2cf8e0ca677690e603feb3",
+  "sourceQA": "docs/art/shield-pairs/processed/elf-spear-spaced-with-shield/attack/qa.json",
+  "columns": 8,
+  "rows": 8,
+  "direction": "SW",
+  "guideSize": [
+    512,
+    512
+  ],
+  "guideCell": [
+    512,
+    512
+  ],
+  "rawCell": [
+    156.75,
+    156.75
+  ],
+  "rawToGuideScale": 2.449760765550239,
+  "frames": [
+    {
+      "direction": "SW",
+      "column": 2,
+      "bodyIndex": 10,
+      "sourceCrop": [
+        337,
+        180,
+        115,
+        142
+      ],
+      "rawFoot": [
+        406.44380382425925,
+        278
+      ],
+      "guideRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "translation": [
+        85.87929398076204,
+        123.92344497607655
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    }
+  ],
+  "method": "Complete body masks use one raw-cell-derived scale. Translation aligns the guide only; its exact inverse maps the edited pixels back to the original raw positions. No body bbox fitting. Image edits must preserve the guide canvas aspect ratio.",
+  "outputSHA256": "72cd5ee83713becab3196aeab6b25b967f6946619ac98282554c606c7a46a7b2",
+  "padding": 64,
+  "guideFoot": [
+    256,
+    364
+  ],
+  "guideColumns": 1,
+  "guideRows": 1
+}

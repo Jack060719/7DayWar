@@ -1,0 +1,58 @@
+{
+  "build": "7DW-20261016-01",
+  "checkedAt": "2026-10-16T15:19:53.493Z",
+  "scope": "Rename visible titles and backup filenames; add local entry prompt to both HTML entries; prepare manual Pages workflow. No gameplay or save schema changes.",
+  "node": {
+    "version": "v24.20.0",
+    "files": 56,
+    "tests": 447,
+    "pass": 444,
+    "fail": 0,
+    "skip": 3,
+    "skipReason": "Environment cannot create symbolic links: EPERM"
+  },
+  "browser": {
+    "browser": "Chrome/155.0.8059.82",
+    "syntheticOnly": true,
+    "actualPhone": false,
+    "deployedGitHubPages": false,
+    "projectSubpath": "/sample-project",
+    "screenshots": [
+      "gate-390x844.png",
+      "gate-844x390.png",
+      "gate-568x320.png"
+    ],
+    "checks": [
+      "password-rejection",
+      "no-game-before-acceptance",
+      "interrupted-entry-retry",
+      "remembered-on-reload",
+      "save-preserved-after-marker-removal",
+      "legacy-direct-entry",
+      "marker-quota-failure-current-visit",
+      "storage-denied-save-protection",
+      "responsive-scrollable-disclaimer"
+    ],
+    "tests": 1,
+    "pass": 1,
+    "fail": 0,
+    "disableSandbox": true,
+    "profile": "isolated synthetic test profile",
+    "notes": [
+      "Default sandbox browser control timed out before loading the game; the documented isolated test option was used.",
+      "Geometry checks allow one CSS pixel of rounding after scrolling.",
+      "A fully blocked legacy localStorage path retains existing save-protection behavior; no guard was bypassed."
+    ]
+  },
+  "runtimeIntegrity": {
+    "count": 9817,
+    "mismatches": []
+  },
+  "notVerified": [
+    "GitHub Pages deployment and Actions execution",
+    "Android hardware",
+    "iPhone hardware",
+    "Windows authoritative multiplayer server",
+    "Complete offline APK/PWA installation"
+  ]
+}

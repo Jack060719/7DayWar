@@ -1,0 +1,231 @@
+{
+  "schema": "lineage-shield-family-candidate-v1",
+  "family": "mage-staff",
+  "status": "candidate-awaiting-independent-final-codec-and-semantic-review",
+  "runtimeModified": false,
+  "productionApproved": false,
+  "profile": "docs/art/shield-pairs/processed/mage-staff-v2-trial/geometry-profile.json",
+  "actions": [
+    {
+      "action": "idle",
+      "raw": {
+        "file": "docs/art/shield-pairs/mage-trial/full-idle/revision2/raw-shield.png",
+        "sha256": "40edc9f2cf56aeabd742503f62811fb02d0d133455ae7df0ce71799830a0c220"
+      },
+      "frames": 48,
+      "scale": 0.7416769420468557,
+      "geometryFailures": 0,
+      "height": {
+        "source": {
+          "mean": 100.25,
+          "min": 98,
+          "max": 102,
+          "cv": 0.008991399689436382
+        },
+        "raw": {
+          "mean": 135.16666666666666,
+          "min": 131,
+          "max": 140,
+          "cv": 0.018760942114306952
+        },
+        "scaledToSourceDrift": 0,
+        "deathExempt": false,
+        "warning": false,
+        "note": "Alpha silhouette height includes weapons and pose changes; this is a review diagnostic, not a measured anatomical torso height."
+      },
+      "semanticReview": "all frames inspected by generating agent; independent final review pending except idle/walk prior codec review"
+    },
+    {
+      "action": "walk",
+      "raw": {
+        "file": "docs/art/shield-pairs/mage-trial/full-walk/raw-shield.png",
+        "sha256": "08670ffece60c873ae29be897de87485c78b679143bbedb706413da24d2e9d8f"
+      },
+      "frames": 64,
+      "scale": 0.8564180319647903,
+      "geometryFailures": 0,
+      "height": {
+        "source": {
+          "mean": 100.265625,
+          "min": 96,
+          "max": 103,
+          "cv": 0.012743350322991126
+        },
+        "raw": {
+          "mean": 117.96875,
+          "min": 111,
+          "max": 125,
+          "cv": 0.03568104739364805
+        },
+        "scaledToSourceDrift": 0.007629132201054434,
+        "deathExempt": false,
+        "warning": false,
+        "note": "Alpha silhouette height includes weapons and pose changes; this is a review diagnostic, not a measured anatomical torso height."
+      },
+      "semanticReview": "all frames inspected by generating agent; independent final review pending except idle/walk prior codec review"
+    },
+    {
+      "action": "attack",
+      "raw": {
+        "file": "docs/art/shield-pairs/mage-trial/full-attack/revision2/raw-shield-patched-final.png",
+        "sha256": "e5aa90ca491947004f3527e42bafeac03a286c8e94f21ea320a22a3d85efe90d"
+      },
+      "frames": 64,
+      "scale": 0.8564180319647903,
+      "geometryFailures": 0,
+      "height": {
+        "source": {
+          "mean": 102.484375,
+          "min": 88,
+          "max": 122,
+          "cv": 0.06368161036219915
+        },
+        "raw": {
+          "mean": 136.109375,
+          "min": 119,
+          "max": 154,
+          "cv": 0.05798336135143799
+        },
+        "scaledToSourceDrift": 0.13740775673811378,
+        "deathExempt": false,
+        "warning": true,
+        "note": "Alpha silhouette height includes weapons and pose changes; this is a review diagnostic, not a measured anatomical torso height."
+      },
+      "extraction": {
+        "method": "Each complete alpha>=16 body is an immutable identity. All remaining nonzero-alpha pixels are assigned to the nearest body pixels by an 8-neighbor multi-source flood, with deterministic ties. Component masks retain every original pixel once; no alpha threshold erases artwork.",
+        "nonzeroPixels": 586831,
+        "assignedPixels": 586831
+      },
+      "semanticReview": "all frames inspected by generating agent; independent final review pending except idle/walk prior codec review"
+    },
+    {
+      "action": "hit",
+      "raw": {
+        "file": "docs/art/shield-pairs/mage-trial/full-hit/raw-shield.png",
+        "sha256": "3e5440bd2aa618f9ffc18261d1f8c3ca24f429ea06a0d72a5daf09e30cef448b"
+      },
+      "frames": 32,
+      "scale": 0.6053823066988991,
+      "geometryFailures": 0,
+      "height": {
+        "source": {
+          "mean": 99.6875,
+          "min": 96,
+          "max": 102,
+          "cv": 0.013606604648407966
+        },
+        "raw": {
+          "mean": 162.59375,
+          "min": 153,
+          "max": 166,
+          "cv": 0.022379995994857856
+        },
+        "scaledToSourceDrift": -0.012600582522140358,
+        "deathExempt": false,
+        "warning": false,
+        "note": "Alpha silhouette height includes weapons and pose changes; this is a review diagnostic, not a measured anatomical torso height."
+      },
+      "semanticReview": "all frames inspected by generating agent; independent final review pending except idle/walk prior codec review"
+    },
+    {
+      "action": "death",
+      "raw": {
+        "file": "docs/art/shield-pairs/mage-trial/full-death/raw-shield-patched.png",
+        "sha256": "be5a2276f75acb435648d7a96f455a6cd2e5940b9bfec76982f45bade4606966"
+      },
+      "frames": 64,
+      "scale": 0.8564180319647903,
+      "geometryFailures": 0,
+      "height": {
+        "source": {
+          "mean": 79.484375,
+          "min": 48,
+          "max": 102,
+          "cv": 0.21897502262386093
+        },
+        "raw": {
+          "mean": 82.765625,
+          "min": 51,
+          "max": 111,
+          "cv": 0.23445737019054538
+        },
+        "scaledToSourceDrift": -0.10822757709504738,
+        "deathExempt": true,
+        "warning": false,
+        "note": "Alpha silhouette height includes weapons and pose changes; this is a review diagnostic, not a measured anatomical torso height."
+      },
+      "semanticReview": "all frames inspected by generating agent; independent final review pending except idle/walk prior codec review"
+    },
+    {
+      "action": "cast",
+      "raw": {
+        "file": "docs/art/shield-pairs/mage-trial/full-cast/raw-shield.png",
+        "sha256": "cbe3bec3256d57f06c9cc8130c7350cf97679a1bd6a5a0d5657f64ee29974c5d"
+      },
+      "frames": 64,
+      "scale": 0.8564180319647903,
+      "geometryFailures": 0,
+      "height": {
+        "source": {
+          "mean": 102.03125,
+          "min": 100,
+          "max": 104,
+          "cv": 0.012490014397613282
+        },
+        "raw": {
+          "mean": 110.75,
+          "min": 106,
+          "max": 114,
+          "cv": 0.023350068697039733
+        },
+        "scaledToSourceDrift": -0.07039953896379281,
+        "deathExempt": false,
+        "warning": false,
+        "note": "Alpha silhouette height includes weapons and pose changes; this is a review diagnostic, not a measured anatomical torso height."
+      },
+      "semanticReview": "all frames inspected by generating agent; independent final review pending except idle/walk prior codec review"
+    }
+  ],
+  "repairs": [
+    {
+      "action": "attack",
+      "frames": [
+        "SE:2"
+      ],
+      "reason": "extra shield below anatomical right staff arm",
+      "evidence": "full-attack/revision2/raw-shield-patched.reinsert.json"
+    },
+    {
+      "action": "attack",
+      "frames": [
+        "N:0",
+        "N:1",
+        "N:2",
+        "N:3",
+        "N:4",
+        "N:5",
+        "N:6",
+        "N:7"
+      ],
+      "reason": "extra shield below anatomical right staff arm",
+      "evidence": "full-attack/revision2/raw-shield-patched-final.reinsert.json"
+    },
+    {
+      "action": "death",
+      "frames": [
+        "S:7",
+        "SW:7"
+      ],
+      "reason": "missing left-forearm shield in final prone frame",
+      "evidence": "full-death/raw-shield-patched.reinsert.json"
+    }
+  ],
+  "limitations": [
+    "Generated staff tip is a larger round orb than the original small crystal; robe appears slightly fuller.",
+    "Walking retains subtle robe/body movement and repeated leg poses, not a newly authored full alternating gait.",
+    "Rear shield fine leather strap detail is limited at its native 10–20 pixel extent; dark inner surface and steel edge are the review criterion.",
+    "Attack silhouette diagnostic is +13.74% because of raised/long staff and orb; parent independently accepted head/torso proportions of the eight first frames.",
+    "Death is exempt from whole-silhouette standing-height comparison; fall poses and final prone shield were inspected, not rescaled to a standing bbox.",
+    "No runtime/phone animation acceptance is implied by staging geometry."
+  ]
+}

@@ -1,0 +1,22 @@
+Edit reference image 1, the square mage-staff WALK sprite sheet. Reference image 2 is ONLY the accepted shield/character visual reference from the same mage's idle sheet. Add its same modest dark steel round shield with raised steel rim and central boss to the original walk frames. Do not copy the idle poses or the idle sheet's six-column layout.
+
+OUTPUT EXACTLY 64 complete mage sprites: EIGHT ROWS × EIGHT COLUMNS, a square transparent RGBA sheet. Each row is one direction; columns 1–8 are successive frames of that direction's WALK cycle. Preserve the first reference's original gait, leg/foot poses, robe motion, right-hand staff swing, small body bob and frame order. These source frames each last 90 ms. Do not turn this into eight copies of idle. Keep all sprite bodies at one consistent scale matching their source frame proportions, centered at the same relative foot positions within equal cells. Generous transparent gaps. No text, grid, shadows, floor, glow or background.
+
+Rows top to bottom must be exactly:
+1 S toward viewer
+2 SW toward viewer's left diagonal
+3 W screen-left profile
+4 NW back three-quarter facing left
+5 N fully facing away
+6 NE back three-quarter facing right
+7 E screen-right profile
+8 SE toward viewer's right diagonal.
+Keep every frame in its specified row direction. No extra row, missing frame, row swaps or mirroring to invent directions.
+
+ONLY intended new equipment: the round shield stays strapped to the ANATOMICAL LEFT FOREARM; the existing staff stays in the ANATOMICAL RIGHT HAND. The shield moves naturally with the left forearm during walking without changing the source body pose. At S the staff is screen left and shield screen right; at N the staff is screen right and shield screen left. Do not swap hands, hold staff and shield in the same hand, add an extra arm, attach a shield to the back, or replace the staff.
+
+Shield orientation is critical. Front S/SW/SE show the convex steel face; W shows its narrow perspective front/rim. Rear NW/N/NE show dark brown leather/wood INNER BACK with subtle straps/grip where visible, or a thin side/back rim: NO exterior convex metal central boss facing the viewer in back views. Use the corrected brown inner backs from reference 2, not a repainted steel boss. The E far left arm and shield can be mostly occluded by the torso/staff; a physically natural thin rim is enough. Never force a floating full shield into view where the body should cover it.
+
+Retain the exact same slender female mage, dark hood/long dark hair depending on direction, purple embroidered robe, pale silver trim, belt, boots, original staff design, hand-painted painterly rendering and camera elevation. Do not redesign, thicken her body, add knight armor, change outfit/color, invent a different shield per direction or simplify to cartoon/pixel art. Preserve full staff tips, feet and shields with no clipping. Keep each original walk frame's actual motion and contact pose rather than smoothing all eight into identical frames.
+
+The second reference governs the shield's consistent materials, scale and anatomical attachment only. The FIRST reference governs all 64 walking poses, order, layout and character geometry.

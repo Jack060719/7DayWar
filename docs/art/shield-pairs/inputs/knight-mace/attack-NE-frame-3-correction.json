@@ -1,0 +1,62 @@
+{
+  "schema": "lineage-shield-direction-edit-v1",
+  "raw": "docs/art/shield-pairs/raw/knight-mace/attack-without-shield-v2.png",
+  "rawSHA256": "3280729233cce9349e253097b202580f4fd0687e1852fc54d3bbb5416a2c5572",
+  "guideInput": "docs/art/shield-pairs/processed/knight-mace-without-shield/attack/cleaned-raw.png",
+  "guideInputSHA256": "d1db1f1bb299c1cf8cb870b4dfea08a6062fc01034e0c07ac1df48219a31fad7",
+  "sourceQA": "docs/art/shield-pairs/processed/knight-mace-without-shield/attack/qa.json",
+  "columns": 8,
+  "rows": 8,
+  "direction": "NE",
+  "guideSize": [
+    640,
+    640
+  ],
+  "guideCell": [
+    640,
+    640
+  ],
+  "rawCell": [
+    156.75,
+    156.75
+  ],
+  "rawToGuideScale": 2.449760765550239,
+  "frames": [
+    {
+      "direction": "NE",
+      "column": 2,
+      "bodyIndex": 42,
+      "sourceCrop": [
+        367,
+        750,
+        88,
+        158
+      ],
+      "rawFoot": [
+        404.0224944679729,
+        901
+      ],
+      "guideRect": [
+        0,
+        0,
+        640,
+        640
+      ],
+      "translation": [
+        229.30374560955926,
+        58.08612440191388
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    }
+  ],
+  "method": "Complete body masks use one raw-cell-derived scale. Translation aligns the guide only; its exact inverse maps the edited pixels back to the original raw positions. No body bbox fitting. Image edits must preserve the guide canvas aspect ratio.",
+  "outputSHA256": "948125172075b5117291bce9845da5867c3f30ab519bcfbf30a0d70e9622dbd0",
+  "padding": 128,
+  "guideFoot": [
+    320,
+    428
+  ],
+  "guideColumns": 1,
+  "guideRows": 1
+}

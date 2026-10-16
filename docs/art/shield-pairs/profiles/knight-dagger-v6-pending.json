@@ -1,0 +1,29 @@
+{
+  "schema": "lineage-shield-geometry-profile-v1",
+  "character": "knight-dagger",
+  "variant": "without-shield",
+  "status": "idle-visual-and-geometry-accepted-mobile-pending",
+  "acceptedReference": "docs/art/shield-pairs/processed/knight-dagger-v6-trial/idle/sheet-transparent.png",
+  "rawReference": "docs/art/shield-pairs/raw/knight-dagger/idle-without-shield-v6.png",
+  "rawReferenceSHA256": "36c6ae92e4945538a0842ed34ab03157fbcb0ca5ab96ad7ec693c0024db0403f",
+  "rawReferenceCell": [
+    181,
+    181
+  ],
+  "nativeCell": [
+    192,
+    192
+  ],
+  "nativeAnchor": [
+    96,
+    150
+  ],
+  "baseHeight": 92,
+  "uniformReferenceScale": 0.986328125,
+  "perFrameScaleAllowed": false,
+  "maximumAnatomicalScaleDrift": 0.08,
+  "sourceMeanAlphaHeight": 94.6875,
+  "generatedRawMeanAlphaHeight": 96,
+  "scaleForFutureRawCell": "uniformReferenceScale * rawReferenceCell[0] / rawCellWidth; height must have the same ratio",
+  "acceptedScope": "All 48 idle frames reviewed on native Chromium gray composites: eight headings, empty shield hand, dagger present with natural far-arm occlusion in E. Fixed scale and strict any-alpha edge checks passed, PNG/WebP alpha masks match. Desktop staging only; no runtime integration, phone hardware, or other-action acceptance. Pose is an unarmed guard with a lowered dagger, not pixel-identical to the shield stance."
+}

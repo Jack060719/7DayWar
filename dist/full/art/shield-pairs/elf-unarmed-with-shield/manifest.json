@@ -1,0 +1,5328 @@
+{
+  "schema": "ashen-art-v2",
+  "consumerId": "CLASS-ELF:unarmed:with-shield",
+  "assetId": "ASSET-STANCE-CLASS-ELF-UNARMED-WITH-SHIELD",
+  "class": "elf",
+  "weaponFamily": "unarmed",
+  "stance": "unarmed",
+  "shieldVariant": "with-shield",
+  "cellWidth": 192,
+  "cellHeight": 192,
+  "baseHeight": 92,
+  "anchor": [
+    96,
+    150
+  ],
+  "directions": {
+    "S": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-S.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-S.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-S.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-S.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-S.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-S.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-S.webp"
+        }
+      ]
+    },
+    "SW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SW.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SW.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SW.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-SW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SW.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SW.webp"
+        }
+      ]
+    },
+    "W": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-W.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-W.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-W.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-W.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-W.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-W.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-W.webp"
+        }
+      ]
+    },
+    "NW": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NW.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NW.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NW.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-NW.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NW.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NW.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NW.webp"
+        }
+      ]
+    },
+    "N": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-N.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-N.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-N.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-N.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-N.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-N.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-N.webp"
+        }
+      ]
+    },
+    "NE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-NE.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-NE.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-NE.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-NE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-NE.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-NE.webp"
+        }
+      ]
+    },
+    "E": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-E.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-E.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-E.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-E.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            91,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-E.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-E.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-E.webp"
+        }
+      ]
+    },
+    "SE": {
+      "idle": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 160,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/idle-SE.webp"
+        }
+      ],
+      "walk": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/walk-SE.webp"
+        }
+      ],
+      "attack": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 65,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 90,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 125,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/attack-SE.webp"
+        }
+      ],
+      "hit": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 40,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 75,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 70,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 95,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/hit-SE.webp"
+        }
+      ],
+      "death": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 130,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 170,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 300,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/death-SE.webp"
+        }
+      ],
+      "cast": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "duration": 110,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "duration": 140,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            960,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            192,
+            192
+          ],
+          "duration": 100,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SE.webp"
+        },
+        {
+          "rect": [
+            1344,
+            0,
+            192,
+            192
+          ],
+          "duration": 150,
+          "anchor": [
+            96,
+            150
+          ],
+          "atlas": "shield-pairs/elf-unarmed-with-shield/clips/cast-SE.webp"
+        }
+      ]
+    }
+  },
+  "contacts": {
+    "attack": {
+      "S": {
+        "frameIndex": 3,
+        "estimated": false
+      },
+      "SW": {
+        "frameIndex": 3,
+        "estimated": false
+      },
+      "W": {
+        "frameIndex": 3,
+        "estimated": false
+      },
+      "NW": {
+        "frameIndex": 3,
+        "estimated": false
+      },
+      "N": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 3,
+        "estimated": false
+      },
+      "E": {
+        "frameIndex": 3,
+        "estimated": false
+      },
+      "SE": {
+        "frameIndex": 3,
+        "estimated": false
+      }
+    },
+    "cast": {
+      "S": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 3,
+        "estimated": true
+      }
+    }
+  },
+  "emitters": {
+    "cast": {
+      "S": {
+        "frameIndex": 3,
+        "point": [
+          77,
+          75
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4
+      },
+      "SW": {
+        "frameIndex": 3,
+        "point": [
+          70,
+          72
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4
+      },
+      "W": {
+        "frameIndex": 3,
+        "point": [
+          73,
+          64
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4
+      },
+      "NW": {
+        "frameIndex": 3,
+        "point": [
+          85,
+          75
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4
+      },
+      "N": {
+        "frameIndex": 3,
+        "point": [
+          130,
+          80
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4
+      },
+      "NE": {
+        "frameIndex": 3,
+        "point": [
+          121,
+          62
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4
+      },
+      "E": {
+        "frameIndex": 3,
+        "point": [
+          121,
+          67
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4
+      },
+      "SE": {
+        "frameIndex": 3,
+        "point": [
+          115,
+          82
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4
+      }
+    }
+  },
+  "status": "integration-candidate",
+  "frameCount": 336,
+  "clipCount": 48,
+  "runtimeLayout": "per-action-direction",
+  "maximumClipDecodedBytes": 1179648,
+  "provenance": {
+    "method": "Built-in imagegen original paired artwork; native Canvas deterministic component extraction, one frozen bundle scale, translations and verified alpha-1 background cleanup. No procedural drawing or shield overlay.",
+    "sourceManifest": {
+      "file": "stance-staging/runtime/elf-unarmed/manifest.json",
+      "sha256": "b594d04c2f1c632a7b128561f3a4640422ac092740365ffb4fd73b1500f46c72"
+    },
+    "review": "docs/art/shield-pairs/processed/elf-unarmed-spaced-with-shield/candidate-review.json",
+    "sources": [
+      {
+        "action": "idle",
+        "raw": {
+          "file": "docs/art/shield-pairs/elf-unarmed/spaced/idle/raw-shield.png",
+          "sha256": "980886a532b977829dd7b3032ee6759e1605459cfeae6df00afef43ddf21e15a"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/elf-unarmed-spaced-with-shield/idle/qa.json",
+          "sha256": "fc091788c3a581a2add9a46e14f3100f625ff8d720bb230722a0506467a6d287"
+        },
+        "sheetSHA256": "f475165e16e72c53c0ebae25420c9f7b4a1f05efdd8f692149caeb0146739436",
+        "profile": "docs/art/shield-pairs/elf-unarmed/spaced/geometry-profile.json",
+        "scale": 0.5938125083344445
+      },
+      {
+        "action": "walk",
+        "raw": {
+          "file": "docs/art/shield-pairs/elf-unarmed/spaced/walk/raw-shield.png",
+          "sha256": "11684710881e0eeeadc8d9d096f7c250650457086e10aa60ad0fbb3c9011ed5d",
+          "kind": "whole-direction-composite",
+          "composition": "docs/art/shield-pairs/elf-unarmed/spaced/walk/north-composite.json"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/elf-unarmed-spaced-with-shield/walk/qa.json",
+          "sha256": "f3b41803a2daa4282c01ca81463e6cda9e71cc70ec858cbde0b8d6eee4b30c54"
+        },
+        "sheetSHA256": "5ea71faf27524db709249ce8c01bcc98d0eada2037414b1d3b2e1c3545a04bcc",
+        "profile": "docs/art/shield-pairs/elf-unarmed/spaced/geometry-profile.json",
+        "scale": 1.3713564785777923
+      },
+      {
+        "action": "attack",
+        "raw": {
+          "file": "docs/art/shield-pairs/elf-unarmed/spaced/attack/raw-shield.png",
+          "sha256": "a83deecb5440025b03da462e235a64829535468a8d30fd6809509f8c52796a24",
+          "kind": "whole-direction-composite",
+          "composition": "docs/art/shield-pairs/elf-unarmed/spaced/attack/north-composite.json"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/elf-unarmed-spaced-with-shield/attack/qa.json",
+          "sha256": "a78055e480faffab5726f258f547a8516b4865ab90c79eee41e13b03f8e2c4b0"
+        },
+        "sheetSHA256": "9804767ae93bb8f74566499ef36273a74a248164e6eda3005fe3a06f5e327ade",
+        "profile": "docs/art/shield-pairs/elf-unarmed/spaced/geometry-profile.json",
+        "scale": 1.3713564785777923
+      },
+      {
+        "action": "hit",
+        "raw": {
+          "file": "docs/art/shield-pairs/elf-unarmed/spaced/hit/raw-shield.png",
+          "sha256": "3d41b21a76e7e0da72c49e9a86146f48316875d33835014cb8725523c0389b99"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/elf-unarmed-spaced-with-shield/hit/qa.json",
+          "sha256": "0d45f1eb119a4f824d6b5347cd5d1f8757fb637262549a0ddc1923c1e5decfc6"
+        },
+        "sheetSHA256": "d69b0ba7fb0f06a96b2baab5c51a4a553ab4df664e646588030797acc2678141",
+        "profile": "docs/art/shield-pairs/elf-unarmed/spaced/geometry-profile.json",
+        "scale": 0.9693805096598374
+      },
+      {
+        "action": "death",
+        "raw": {
+          "file": "docs/art/shield-pairs/elf-unarmed/spaced/death/raw-shield.png",
+          "sha256": "3b8bbb1ef476cd13bc5f41bce9c831581e0176d2734cfc6c15dec380f0645799",
+          "kind": "whole-direction-composite",
+          "composition": "docs/art/shield-pairs/elf-unarmed/spaced/death/north-composite.json"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/elf-unarmed-spaced-with-shield/death/qa.json",
+          "sha256": "98cd8905e4800a1a6c4048ee1457ba7f1873c295e985bdea1d3b069c84b3ee4f"
+        },
+        "sheetSHA256": "fbf972b6709d7b88d6259851494b967e68ec2a21c66c5267b6c17be9a73ddd3e",
+        "profile": "docs/art/shield-pairs/elf-unarmed/spaced/geometry-profile.json",
+        "scale": 1.3713564785777923
+      },
+      {
+        "action": "cast",
+        "raw": {
+          "file": "docs/art/shield-pairs/elf-unarmed/spaced/cast/raw-shield.png",
+          "sha256": "9b837d7b26f3bf7d65fc3cd8da9e516dcda89fb4747fac9989764e8a7cb4e1d2",
+          "kind": "whole-direction-composite",
+          "composition": "docs/art/shield-pairs/elf-unarmed/spaced/cast/north-composite.json"
+        },
+        "qa": {
+          "file": "docs/art/shield-pairs/processed/elf-unarmed-spaced-with-shield/cast/qa.json",
+          "sha256": "458d263effa8195fbf3222e5213c5663cb8beba278455442810809a983fb428b"
+        },
+        "sheetSHA256": "e20bb98fa1af5f356a709b58687f3a60537ec8184ff98cd9c29f5384fe2cee4b",
+        "profile": "docs/art/shield-pairs/elf-unarmed/spaced/geometry-profile.json",
+        "scale": 1.3713564785777923
+      }
+    ],
+    "clips": [
+      {
+        "file": "clips/idle-S.webp",
+        "sha256": "0dc27fcd94a13dd061d7cbf42e082902bc3dc4befb5edd5c610c49fee6921617"
+      },
+      {
+        "file": "clips/idle-SW.webp",
+        "sha256": "a905d17ed1bb2aa112f5a0c1245b537220a554235dbeb6afc17c608f19c0bdd1"
+      },
+      {
+        "file": "clips/idle-W.webp",
+        "sha256": "c8b8743b61a58e3a096ceeaf7caf8e5ea8fdcf85775e178ea34cc7997ec10b95"
+      },
+      {
+        "file": "clips/idle-NW.webp",
+        "sha256": "ad3d3bfe15a42386b3aeea44be00a50ba4b1f06888abfe70fee742f8d908e88a"
+      },
+      {
+        "file": "clips/idle-N.webp",
+        "sha256": "b19429d5fd10213a9f1afa1cdd9ae48e73958d8f1f2bb2c42164b414f12a000d"
+      },
+      {
+        "file": "clips/idle-NE.webp",
+        "sha256": "50aa8c0bb69fdceac5eedd9ba80574ba04035cfae543760ab36c3dd7c662b81d"
+      },
+      {
+        "file": "clips/idle-E.webp",
+        "sha256": "b7d24376fb22eb87b4abb3233463e2a90e3cb1945ba320382967cb3640ef84f9"
+      },
+      {
+        "file": "clips/idle-SE.webp",
+        "sha256": "e9f46850df7159db586689ed67449ad5b31a86809508f3dceb721ae494a226f9"
+      },
+      {
+        "file": "clips/walk-S.webp",
+        "sha256": "790c3623e6d8bf1eba125e56bc42faf46c56c3b6ee07de305ce87794da6f20fe"
+      },
+      {
+        "file": "clips/walk-SW.webp",
+        "sha256": "9d8cdf612f8d8e56e8b3b3f203f0c050fdc55d5a741c7b0dbc9d60fca73a1585"
+      },
+      {
+        "file": "clips/walk-W.webp",
+        "sha256": "2a90c737610e9e6a40c6404301e17e3cfc26b6c71040e17e14104a0db5a7bad3"
+      },
+      {
+        "file": "clips/walk-NW.webp",
+        "sha256": "b26ea57ceb04e6d3175c779bfe0316f6001a999525128e7c0ac28c4bf1402893"
+      },
+      {
+        "file": "clips/walk-N.webp",
+        "sha256": "0220fa5dd19056d6b78dac27d1fd4f0bf6ef609d8feb3ce05219de2d2151096b"
+      },
+      {
+        "file": "clips/walk-NE.webp",
+        "sha256": "eb17691107614af8ac7089404728e6a5c601d87327914b641a410d44f1e99341"
+      },
+      {
+        "file": "clips/walk-E.webp",
+        "sha256": "1f06469075a05821eccce6437704a5ef64c14fa76557f623c1506a77caa1577f"
+      },
+      {
+        "file": "clips/walk-SE.webp",
+        "sha256": "d1203f595040a2f671e1a74aa2da26ffca1c73fc92a92e72802811c22098f281"
+      },
+      {
+        "file": "clips/attack-S.webp",
+        "sha256": "aeca51f59a5e87d790456e455ae44a3f1b02f66d26b349c1586cca0dd3c5c2e8"
+      },
+      {
+        "file": "clips/attack-SW.webp",
+        "sha256": "b61c2596238c84e3d8358e3d5a1b583c807fd931b94b238736223e58e56af783"
+      },
+      {
+        "file": "clips/attack-W.webp",
+        "sha256": "9d5f3cf75711c6455ed42548a798bfbfffd36b96dd4ec0c384b62223274d4858"
+      },
+      {
+        "file": "clips/attack-NW.webp",
+        "sha256": "0659e5786ca0c91918830ae23818e05c4e4c679d723ca00ede7d27f995e29d8b"
+      },
+      {
+        "file": "clips/attack-N.webp",
+        "sha256": "d11f511129e0cfa109e7174de46567d30eac03ffcc773fedf5258ed592aa5280"
+      },
+      {
+        "file": "clips/attack-NE.webp",
+        "sha256": "a75a99992f4ac4efccfd6b30fa02255747b0d4e3cc3d095978b760bb59dd32c1"
+      },
+      {
+        "file": "clips/attack-E.webp",
+        "sha256": "1e9246186ce5c4196a37c0147b9d20b2efb1ce5a7adfff49bdb348413f99ec87"
+      },
+      {
+        "file": "clips/attack-SE.webp",
+        "sha256": "d2a0f9c26cf0d87ecf3d2d9923308ea2bb3609c32a15124bed6d886c8df3c060"
+      },
+      {
+        "file": "clips/hit-S.webp",
+        "sha256": "018e0c02cc81f3ef5f05580cb21376f7c275eadee72ac284eac6a5c3dd66546e"
+      },
+      {
+        "file": "clips/hit-SW.webp",
+        "sha256": "7ff536739f4e2af8cb6005683ff305e45998aa75efd5cc5708705e12d3ebbbbc"
+      },
+      {
+        "file": "clips/hit-W.webp",
+        "sha256": "c685766f9c9944a6473e76a6a4c0c251c4c9731cd13baf86152ac38d568f5dc4"
+      },
+      {
+        "file": "clips/hit-NW.webp",
+        "sha256": "d72cf69b612bfb12e9a7091a43975d52c8389d0c5a370a70b51bf84b7bfbefb6"
+      },
+      {
+        "file": "clips/hit-N.webp",
+        "sha256": "584ed1309ec9c26ba622adb44e60be5761bc52db8297d4dbd66643c57142dea5"
+      },
+      {
+        "file": "clips/hit-NE.webp",
+        "sha256": "171c5511c76889b34c6f6b138c2f2f687bd2b39474872dd9c6bd7b0b49d2f341"
+      },
+      {
+        "file": "clips/hit-E.webp",
+        "sha256": "9801181344d68259897606f9e2aa85d49eecd3fdc821755cf8d9a0e5884f5934"
+      },
+      {
+        "file": "clips/hit-SE.webp",
+        "sha256": "b2ca8529288d38ec7daf391b1e484bd0eeba44dd9f0f06b28c33a19cf962dced"
+      },
+      {
+        "file": "clips/death-S.webp",
+        "sha256": "0a317bab3ae56bb1cbaa1297bab0972c5d83768d7b5d39a410fdec528dae1ae6"
+      },
+      {
+        "file": "clips/death-SW.webp",
+        "sha256": "8a79d892bb9a243f7ff6e0c852b3cba47813454f658362c5f48fe66a679988b1"
+      },
+      {
+        "file": "clips/death-W.webp",
+        "sha256": "666062ddbab6350e8cf1950430ffc8800b3442ea59bb2b9becf00fd1b198bed4"
+      },
+      {
+        "file": "clips/death-NW.webp",
+        "sha256": "bbcdc66857970f7a66181fe83adae52131bff18b73629ea5b677d72cb9488185"
+      },
+      {
+        "file": "clips/death-N.webp",
+        "sha256": "efe6b211f9f5d143ae0f4eecc279b42aef452791b87553796966d44088a6494d"
+      },
+      {
+        "file": "clips/death-NE.webp",
+        "sha256": "0c1dc09ae2114530e35b43c88d68d693d3251dd7f447527c76221969ef029741"
+      },
+      {
+        "file": "clips/death-E.webp",
+        "sha256": "75320bf99f374cdec85c87a42ffe11c85effb626a68ea5e7ab683ac771630a5c"
+      },
+      {
+        "file": "clips/death-SE.webp",
+        "sha256": "f2476e164d79971ef7fc7df8bd846281c080424483ae36a7d371054e66c29e96"
+      },
+      {
+        "file": "clips/cast-S.webp",
+        "sha256": "dee511459e67d7dd346dd08fac136a1985288457b156e36ef2153155619e7c08"
+      },
+      {
+        "file": "clips/cast-SW.webp",
+        "sha256": "baf7104aa6b388f769941abb16ba7500732e9a5a9831eee0ef092b91ce9de636"
+      },
+      {
+        "file": "clips/cast-W.webp",
+        "sha256": "fdc9dab882a4e53912058468347bdccebbea89e7d8d43d9cbad4a3c88dfa3e60"
+      },
+      {
+        "file": "clips/cast-NW.webp",
+        "sha256": "ea2827f01a45030752e0d130b55eccbe0f9590a17f497402c465c87fee3131be"
+      },
+      {
+        "file": "clips/cast-N.webp",
+        "sha256": "32f8442433ab43722d4489f0c73e8ef48f2a44406a4cd1081778b7f3cc5c5a07"
+      },
+      {
+        "file": "clips/cast-NE.webp",
+        "sha256": "4adaf0864feff76492718fa5298a5fa8a437d90b3d1190f7783c8015ff9d7d68"
+      },
+      {
+        "file": "clips/cast-E.webp",
+        "sha256": "916e8cecf7d9c0f34ec7a1df7a3b750f4fba14a9c2d3068d74c5319a8621d157"
+      },
+      {
+        "file": "clips/cast-SE.webp",
+        "sha256": "ac2c46fc9d35de4088e8439a788cfc631d5bee283cf42fc67e473b74d26fdccc"
+      }
+    ]
+  },
+  "validation": {
+    "geometry": "pass",
+    "nativeCodec": "pending-final-integration",
+    "stagingVisual": "reviewed",
+    "inGame": "pending-final-integration",
+    "mobile": "not tested",
+    "limitations": [
+      "Original small and repeated walking/punching leg phases remain.",
+      "North cast repair reduces arm lift amplitude; release stays at original frame 3.",
+      "Hit silhouettes average about 9% taller than original; locked family scale was retained, without per-action fitting.",
+      "Far-side shield can be hidden by torso in northeast/east views.",
+      "Death E6 uses a five-pixel packing translation for transparent margin; original duration and profile unchanged.",
+      "Alpha-1 detached and distant background noise was removed by the documented shared processor; all alpha>=2 pixels and nearby antialiasing remain protected."
+    ]
+  }
+}

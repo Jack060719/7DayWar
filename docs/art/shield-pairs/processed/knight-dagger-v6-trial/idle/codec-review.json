@@ -1,0 +1,91 @@
+{
+  "schema": "lineage-shield-codec-review-v1",
+  "method": "Native Chromium decodes staged PNG and WebP independently; review images use unchanged 192 cells at 2x nearest-neighbor, showing source beside generated. No rescaling or registration beyond the staging profile.",
+  "durationsPreserved": true,
+  "clips": [
+    {
+      "direction": "S",
+      "width": 1152,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.7653248653528844,
+      "edgePixels": 0
+    },
+    {
+      "direction": "SW",
+      "width": 1152,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.7207150034375165,
+      "edgePixels": 0
+    },
+    {
+      "direction": "W",
+      "width": 1152,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.7091411616469536,
+      "edgePixels": 0
+    },
+    {
+      "direction": "NW",
+      "width": 1152,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.7403577640544465,
+      "edgePixels": 0
+    },
+    {
+      "direction": "N",
+      "width": 1152,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.7487458837288031,
+      "edgePixels": 0
+    },
+    {
+      "direction": "NE",
+      "width": 1152,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.7325978460730234,
+      "edgePixels": 0
+    },
+    {
+      "direction": "E",
+      "width": 1152,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.733498155560788,
+      "edgePixels": 0
+    },
+    {
+      "direction": "SE",
+      "width": 1152,
+      "height": 192,
+      "alphaMismatches": 0,
+      "maxAlphaDelta": 0,
+      "meanVisibleRGBDelta": 0.748075577326802,
+      "edgePixels": 0
+    }
+  ],
+  "footErrorMax": [
+    0.05346405270734067,
+    0
+  ],
+  "semanticStatus": "pending-human-image-review",
+  "cleanupReview": {
+    "protectedAlpha2Pixels": 201451,
+    "changedProtectedPixels": 0,
+    "removedAlpha1": 12600,
+    "expectedRemoved": 12600,
+    "unexpectedAlphaChanges": 0
+  }
+}

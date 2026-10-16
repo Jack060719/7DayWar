@@ -1,0 +1,42 @@
+{
+  "raw": "docs/art/shield-pairs/elf-dagger/death/raw-sheet.png",
+  "reference": "docs/art/shield-pairs/inputs/elf-dagger/death.json",
+  "outputDir": "docs/art/shield-pairs/processed/elf-dagger-with-shield",
+  "profile": "docs/art/shield-pairs/elf-dagger/geometry-profile.json",
+  "variant": "with-shield",
+  "registrationPoints": {
+    "E:5": {
+      "source": [
+        143,
+        151
+      ],
+      "raw": [
+        920,
+        1073
+      ],
+      "reason": "Grounded right boot sole, visually located; lower-alpha centroid selects hair/shield instead of boot and pushes body toward cell edge."
+    },
+    "E:6": {
+      "source": [
+        140,
+        151
+      ],
+      "raw": [
+        1080,
+        1073
+      ],
+      "reason": "Same grounded right boot contact across settled corpse sequence; estimated within four pixels from adjacent measured corpse frames and full generation."
+    },
+    "E:7": {
+      "source": [
+        139,
+        152
+      ],
+      "raw": [
+        1236,
+        1072
+      ],
+      "reason": "Grounded right boot sole, visually located; automatic lower-alpha centroid selects hair/shield rather than boot and clips body."
+    }
+  }
+}

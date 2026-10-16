@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-11",
+  "scope": "47 Stage3 static inventory icons; desktop native browser and source/raster QA only",
+  "node": "v24.20.0",
+  "browser": "Chrome/154.0.8037.98",
+  "rendering": "headless Chromium; disable-gpu/in-process-gpu; isolated profile; not a phone",
+  "catalogItems": 324,
+  "missingItemBindings": 0,
+  "newIcons": 47,
+  "atlas": {
+    "path": "icons/stage3-items.webp",
+    "width": 1024,
+    "height": 192,
+    "bytes": 159286,
+    "sha256": "67b7cf3627325fc5493574608741703e73ef93bfe225e008f448660d96f51168"
+  },
+  "sourceCells": 27,
+  "sourceCellEdgeTouches": 0,
+  "decodedCellEdgeTouches": 0,
+  "decodedEmptyCells": 0,
+  "decodedUniqueCells": 47,
+  "magenta": {
+    "criterion": "R > 180, B > 180, G < 100 with nonzero alpha",
+    "decodedPixels": 22,
+    "maximumAlpha": 1,
+    "pixelsAtAlpha16OrMore": 0
+  },
+  "tests": {
+    "node": {
+      "files": [
+        "tests/full/stage3-icons.test.mjs",
+        "tests/full/item-presentation.test.mjs",
+        "tests/full/recovery-ui-contract.test.mjs"
+      ],
+      "passed": 39,
+      "failed": 0,
+      "skipped": 0
+    },
+    "native": {
+      "files": [
+        "tests/browser/native-stage3-icons.test.mjs",
+        "tests/browser/native-quality-orientation.test.mjs"
+      ],
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "visual": {
+    "inspected": [
+      "raw-items.png",
+      "raw-scrolls.png",
+      "boss-source-preview.png",
+      "preview-64.png",
+      "preview-32.png",
+      "browser-gallery-32.png",
+      "actual inventory normal/blessed and unidentified scrolls"
+    ],
+    "finding": "No observed crop, missing alpha or visible magenta fringe at 32px/64px; contract full-body details are small at 32px and names remain necessary."
+  },
+  "notVerified": [
+    "Android/iPhone hardware and touch",
+    "User acceptance of new static artwork",
+    "Complete final distribution/ZIP hash verification",
+    "Monster animation/body completion beyond these inventory icons"
+  ]
+}

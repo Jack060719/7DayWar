@@ -1,0 +1,55 @@
+{
+  "schema": "lineage-shield-reinsert-v1",
+  "status": "pending-semantic-and-geometry-review",
+  "raw": {
+    "file": "docs/art/shield-pairs/elf-spear/spaced/attack/raw-shield.png",
+    "sha256": "1d73ba4205accc5f2ca910efbc38b4dee35a9c48209fda0e2cfe500aff46b553"
+  },
+  "edit": {
+    "file": "docs/art/shield-pairs/elf-spear/spaced/attack/cleanup-SW3.png",
+    "sha256": "5af254dd6671e6c4f9a5699381b1f37e14d3f3308ed98f0ae44b3d37de007dc4"
+  },
+  "contract": "docs/art/shield-pairs/inputs/elf-spear/attack-SW-frame-3-correction.json",
+  "output": {
+    "file": "docs/art/shield-pairs/elf-spear/spaced/attack/raw-shield-final.png",
+    "sha256": "7bde8ebb6d5500f260b53bb804fef7c62ebf83574b165ff728aa3caebc383d36"
+  },
+  "method": "Restore the full edited guide canvas at a single proportional scale, then apply each recorded inverse transform. No body bounding-box fitting. Unselected source pixels remain identical in the decoded RGBA buffer.",
+  "rawSize": [
+    1254,
+    1254
+  ],
+  "editedSize": [
+    1254,
+    1254
+  ],
+  "normalizedSize": [
+    512,
+    512
+  ],
+  "outsideChangedPixels": 0,
+  "changedPixels": 8669,
+  "mappings": [
+    {
+      "direction": "SW",
+      "column": 2,
+      "scale": 0.408203125,
+      "translation": [
+        343.98872569925925,
+        207.380859375
+      ],
+      "sourceCrop": [
+        337,
+        180,
+        115,
+        142
+      ],
+      "guideRect": [
+        0,
+        0,
+        512,
+        512
+      ]
+    }
+  ]
+}

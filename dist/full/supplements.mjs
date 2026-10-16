@@ -12,6 +12,7 @@ const STARTER_SUPPLY_NPCS=new Set(['NPC-TALKING-SUPPLY','NPC-SILVER-SUPPLY','NPC
 export function serviceStock(npc){
  const stock=[...(npc.shop_stock||[])],extra=[];
  if(STARTER_SUPPLY_NPCS.has(npc.id)&&npc.service==='sell_consumables')extra.push({item_id:'ITEM-BLUE-POTION',purchase_price_adena:500,sale_price_adena:125,stock_quantity:'unlimited_npc_supply',origin:'assistant_design',availability_status:'provisional_starter_supply',price_source_npc_id:'NPC-GIRAN-SUPPLY'});
+ if(npc.id==='NPC-SILVER-SUPPLY')for(const[item_id,purchase_price_adena]of Object.entries({'EQ-DAGGER':100,'EQ-SHORT-SWORD':300,'EQ-BOW':300,'EQ-STAFF':300,'EQ-LEATHER-ARMOR':200,'EQ-SMALL-SHIELD':150,'EQ-LEATHER-CAP':100,'EQ-LEATHER-GLOVES':100,'EQ-BOOTS':100}))extra.push({item_id,purchase_price_adena,sale_price_adena:Math.floor(purchase_price_adena/4),identified:true,quality:'normal',origin:'approved_stage3_trial'});
  if(npc.id==='NPC-HEINE-SUPPLY')extra.push({item_id:'ITEM-EVA-BLESSING',purchase_price_adena:300,sale_price_adena:75},{item_id:'ITEM-MERMAID-SCALE',purchase_price_adena:120,sale_price_adena:30});
  for(const row of extra)if(!stock.some(existing=>existing.item_id===row.item_id))stock.push(row);
  return stock;

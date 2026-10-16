@@ -1,0 +1,211 @@
+{
+  "staging": "docs/art/shield-pairs/processed/mage-staff-v2-trial",
+  "sourceManifest": "actors/mage/mage-runtime.json",
+  "output": "shield-pairs/mage-staff-with-shield",
+  "consumerId": "CLASS-MAGE:staff:with-shield",
+  "assetId": "ASSET-STANCE-CLASS-MAGE-STAFF-WITH-SHIELD",
+  "variant": "with-shield",
+  "reviewedActions": [
+    "idle",
+    "walk",
+    "attack",
+    "hit",
+    "death",
+    "cast"
+  ],
+  "visualReview": "docs/art/shield-pairs/mage-trial/STAFF-CANDIDATES.md",
+  "deferNativeReview": true,
+  "limitations": [
+    "Staff crystal became a larger orb and robe slightly fuller.",
+    "Small repeated walk poses; restrained cast gesture.",
+    "Rear shield straps have limited detail at native size; natural far-arm/body occlusion retained.",
+    "Raised weapon/death silhouette differences are diagnostic, not per-action scale fitting.",
+    "Cast hand emitters estimated from current 192px frames; final integration and physical phone review remain pending."
+  ],
+  "contacts": {
+    "attack": {
+      "S": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 3,
+        "estimated": true
+      }
+    },
+    "cast": {
+      "S": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 4,
+        "estimated": true
+      }
+    }
+  },
+  "emitters": {
+    "cast": {
+      "S": {
+        "frameIndex": 4,
+        "point": [
+          138,
+          88
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "SW": {
+        "frameIndex": 4,
+        "point": [
+          137,
+          92
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "W": {
+        "frameIndex": 4,
+        "point": [
+          81,
+          100
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "NW": {
+        "frameIndex": 4,
+        "point": [
+          69,
+          91
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "N": {
+        "frameIndex": 4,
+        "point": [
+          82,
+          79
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "NE": {
+        "frameIndex": 3,
+        "point": [
+          107,
+          92
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "E": {
+        "frameIndex": 4,
+        "point": [
+          122,
+          81
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "SE": {
+        "frameIndex": 4,
+        "point": [
+          135,
+          85
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      }
+    }
+  }
+}

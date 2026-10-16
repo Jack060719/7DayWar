@@ -1,0 +1,2232 @@
+{
+  "schema": "lineage-shield-staging-qa-v1",
+  "status": "pending-semantic-and-native-qa",
+  "runtimeModified": false,
+  "source": {
+    "file": "docs/art/shield-pairs/inputs/elf-sword/death.json",
+    "sha256": "40d62ab8084aaf672988cbfffa9c4546942ef1ad8431765d542e3e596232ce58",
+    "imageSHA256": "9cd3308c43c7e664ce55cc5a14019d750c93e2147a8224effe387bdb53b7c8bf"
+  },
+  "raw": {
+    "file": "docs/art/shield-pairs/elf-trial/full-death/raw-sheet.png",
+    "sha256": "a1c5652d042764e70e919f2ff333ef110153be50fae31098c72f9600f451342e"
+  },
+  "action": "death",
+  "variant": "with-shield",
+  "profile": "docs/art/shield-pairs/elf-trial/geometry-profile.json",
+  "scale": 0.8344722502481065,
+  "rawCell": [
+    156.75,
+    156.75
+  ],
+  "method": "Whole-sheet 8-connected alpha components locate bodies; transparent-seam extraction retains all crop pixels. One profile scale for the entire sheet; only per-frame translation using the corresponding source lower-7.5% alpha-weighted foot centroid and bottom. No shield drawing, pixel erasure, or per-frame/action fitting.",
+  "heightDiagnostic": {
+    "source": {
+      "mean": 87.140625,
+      "min": 33,
+      "max": 105,
+      "cv": 0.15600557690166147
+    },
+    "raw": {
+      "mean": 106.140625,
+      "min": 55,
+      "max": 137,
+      "cv": 0.1581595015721727
+    },
+    "scaledToSourceDrift": 0.01641922107502003,
+    "deathExempt": true,
+    "warning": false,
+    "note": "Alpha silhouette height includes weapons and pose changes; this is a review diagnostic, not a measured anatomical torso height."
+  },
+  "geometryFailures": 0,
+  "frames": [
+    {
+      "direction": "S",
+      "column": 0,
+      "sourceCrop": [
+        0,
+        0,
+        149,
+        176
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        22.748906858547457,
+        16.48443996030298
+      ],
+      "sourceFeet": [
+        95.1948924020515,
+        150
+      ],
+      "outputBBox": [
+        35,
+        41,
+        96,
+        110
+      ],
+      "footError": [
+        -0.1281732455404665,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "S",
+      "column": 1,
+      "sourceCrop": [
+        149,
+        0,
+        155,
+        176
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        15.236660107378796,
+        17.318912210551076
+      ],
+      "sourceFeet": [
+        93.10398976387114,
+        150
+      ],
+      "outputBBox": [
+        32,
+        42,
+        97,
+        109
+      ],
+      "footError": [
+        -0.16733323307063586,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "S",
+      "column": 2,
+      "sourceCrop": [
+        304,
+        0,
+        156,
+        176
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        11.425200518011195,
+        16.318912210551076
+      ],
+      "sourceFeet": [
+        86.30578013756485,
+        149
+      ],
+      "outputBBox": [
+        28,
+        44,
+        98,
+        106
+      ],
+      "footError": [
+        0.029632319608126068,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "S",
+      "column": 3,
+      "sourceCrop": [
+        460,
+        0,
+        157,
+        176
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        11.389478453953103,
+        17.153384460799174
+      ],
+      "sourceFeet": [
+        85.12226763817307,
+        149
+      ],
+      "outputBBox": [
+        27,
+        55,
+        98,
+        95
+      ],
+      "footError": [
+        -0.10742648489178919,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "S",
+      "column": 4,
+      "sourceCrop": [
+        617,
+        0,
+        156,
+        176
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        13.3762065642279,
+        20.822328961295398
+      ],
+      "sourceFeet": [
+        87.35352043328407,
+        151
+      ],
+      "outputBBox": [
+        31,
+        66,
+        104,
+        86
+      ],
+      "footError": [
+        -0.04361515904714963,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "S",
+      "column": 5,
+      "sourceCrop": [
+        773,
+        0,
+        179,
+        176
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        15.64313420856621,
+        21.359913219482905
+      ],
+      "sourceFeet": [
+        155,
+        124
+      ],
+      "outputBBox": [
+        25,
+        97,
+        133,
+        49
+      ],
+      "footError": [
+        -71.63125453226976,
+        21
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending",
+      "registrationOverride": {
+        "sourceCell": [
+          155,
+          124
+        ],
+        "rawAbsolute": [
+          940,
+          123
+        ],
+        "reason": "Reviewed 4x pixel-grid source/raw previews: align the outer right-side boot toe, not the diagonal sword tip below the body. Source cell point [155,124], raw crop-relative [167,123] plus crop origin [773,0]. Same profile scale retained.",
+        "footErrorNote": "For this reviewed override, footError still reports the automatic lower-silhouette diagnostic; it is not the selected anatomical landmark error."
+      }
+    },
+    {
+      "direction": "S",
+      "column": 6,
+      "sourceCrop": [
+        952,
+        0,
+        153,
+        176
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        36.037519582474694,
+        26.16705146377646
+      ],
+      "sourceFeet": [
+        94.95314198738856,
+        148
+      ],
+      "outputBBox": [
+        43,
+        103,
+        110,
+        46
+      ],
+      "footError": [
+        0.8158336292528219,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "S",
+      "column": 7,
+      "sourceCrop": [
+        1105,
+        0,
+        149,
+        176
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        18.485155042038087,
+        24.49810696328025
+      ],
+      "sourceFeet": [
+        82.28484014627611,
+        148
+      ],
+      "outputBBox": [
+        29,
+        103,
+        108,
+        46
+      ],
+      "footError": [
+        1.2563081244692427,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 0,
+      "sourceCrop": [
+        0,
+        176,
+        151,
+        154
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        24.756911220812214,
+        35.67730171600941
+      ],
+      "sourceFeet": [
+        95.64171037140105,
+        150
+      ],
+      "outputBBox": [
+        41,
+        50,
+        90,
+        101
+      ],
+      "footError": [
+        -0.012215605811604746,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 1,
+      "sourceCrop": [
+        151,
+        176,
+        154,
+        154
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        22.401778248174054,
+        37.51177396625752
+      ],
+      "sourceFeet": [
+        94.08018198718264,
+        151
+      ],
+      "outputBBox": [
+        42,
+        51,
+        93,
+        101
+      ],
+      "footError": [
+        -0.11325938752388254,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 2,
+      "sourceCrop": [
+        305,
+        176,
+        158,
+        154
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        22.540586912889637,
+        41.01519071700184
+      ],
+      "sourceFeet": [
+        85.07034282018111,
+        152
+      ],
+      "outputBBox": [
+        39,
+        59,
+        100,
+        94
+      ],
+      "footError": [
+        -0.0635936189031554,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 3,
+      "sourceCrop": [
+        463,
+        176,
+        163,
+        154
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        21.506581818817416,
+        42.18071846675373
+      ],
+      "sourceFeet": [
+        84.46972006096098,
+        154
+      ],
+      "outputBBox": [
+        38,
+        67,
+        103,
+        88
+      ],
+      "footError": [
+        -0.09460826082980134,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 4,
+      "sourceCrop": [
+        626,
+        176,
+        168,
+        154
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        22.377256907762977,
+        45.849662967249955
+      ],
+      "sourceFeet": [
+        78.90806493619243,
+        156
+      ],
+      "outputBBox": [
+        40,
+        77,
+        99,
+        80
+      ],
+      "footError": [
+        0.10129688757659494,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 5,
+      "sourceCrop": [
+        794,
+        176,
+        165,
+        154
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        32.329415051259126,
+        49.849662967249955
+      ],
+      "sourceFeet": [
+        70.37675055280624,
+        160
+      ],
+      "outputBBox": [
+        56,
+        86,
+        97,
+        75
+      ],
+      "footError": [
+        -0.052460758728386736,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 6,
+      "sourceCrop": [
+        959,
+        176,
+        153,
+        154
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        38.83511420557186,
+        49.849662967249955
+      ],
+      "sourceFeet": [
+        71.27987657409722,
+        160
+      ],
+      "outputBBox": [
+        56,
+        90,
+        93,
+        71
+      ],
+      "footError": [
+        0.0031812771424597486,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SW",
+      "column": 7,
+      "sourceCrop": [
+        1112,
+        176,
+        142,
+        154
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        38.0431660882061,
+        50.849662967249955
+      ],
+      "sourceFeet": [
+        70.30437828371282,
+        161
+      ],
+      "outputBBox": [
+        56,
+        93,
+        95,
+        68
+      ],
+      "footError": [
+        0.31511324171090394,
+        -1
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 0,
+      "sourceCrop": [
+        0,
+        330,
+        148,
+        159
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        23.12120468452443,
+        31.50494046476888
+      ],
+      "sourceFeet": [
+        95.77829268292683,
+        150
+      ],
+      "outputBBox": [
+        42,
+        45,
+        86,
+        106
+      ],
+      "footError": [
+        -0.1378574070980818,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 1,
+      "sourceCrop": [
+        148,
+        330,
+        159,
+        159
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        14.848822654000585,
+        38.18071846675373
+      ],
+      "sourceFeet": [
+        89.88284947933101,
+        150
+      ],
+      "outputBBox": [
+        35,
+        52,
+        99,
+        99
+      ],
+      "footError": [
+        -0.028097004083491584,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 2,
+      "sourceCrop": [
+        307,
+        330,
+        158,
+        159
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        21.723824004546593,
+        41.68413521749805
+      ],
+      "sourceFeet": [
+        79.65401951275174,
+        151
+      ],
+      "outputBBox": [
+        36,
+        59,
+        103,
+        93
+      ],
+      "footError": [
+        0.02395093666339676,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 3,
+      "sourceCrop": [
+        465,
+        330,
+        172,
+        159
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        18.040721305150264,
+        42.518607467746165
+      ],
+      "sourceFeet": [
+        71.40922740922736,
+        151
+      ],
+      "outputBBox": [
+        34,
+        74,
+        110,
+        78
+      ],
+      "footError": [
+        -0.03136385296319588,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 4,
+      "sourceCrop": [
+        637,
+        330,
+        163,
+        159
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        37.88328665018954,
+        44.518607467746165
+      ],
+      "sourceFeet": [
+        72.70026392752698,
+        153
+      ],
+      "outputBBox": [
+        56,
+        78,
+        100,
+        76
+      ],
+      "footError": [
+        -0.0354365587740233,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 5,
+      "sourceCrop": [
+        800,
+        330,
+        157,
+        159
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        19.157518405578884,
+        43.518607467746165
+      ],
+      "sourceFeet": [
+        68.11281768424624,
+        152
+      ],
+      "outputBBox": [
+        37,
+        78,
+        98,
+        75
+      ],
+      "footError": [
+        0.17267685505541408,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 6,
+      "sourceCrop": [
+        957,
+        330,
+        153,
+        159
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        11.630149173209787,
+        44.01519071700184
+      ],
+      "sourceFeet": [
+        66.96791311859806,
+        155
+      ],
+      "outputBBox": [
+        28,
+        81,
+        101,
+        75
+      ],
+      "footError": [
+        0.03568636859827734,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "W",
+      "column": 7,
+      "sourceCrop": [
+        1110,
+        330,
+        144,
+        159
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        24.1764815835416,
+        44.849662967249955
+      ],
+      "sourceFeet": [
+        78.29356334741374,
+        155
+      ],
+      "outputBBox": [
+        36,
+        82,
+        100,
+        74
+      ],
+      "footError": [
+        -0.08544794567769998,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 0,
+      "sourceCrop": [
+        0,
+        489,
+        151,
+        142
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        22.039211134148246,
+        38.18071846675373
+      ],
+      "sourceFeet": [
+        95.84616587603607,
+        150
+      ],
+      "outputBBox": [
+        40,
+        51,
+        84,
+        99
+      ],
+      "footError": [
+        -0.16433400803654763,
+        -1
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 1,
+      "sourceCrop": [
+        151,
+        489,
+        165,
+        142
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        16.303583547737276,
+        40.01519071700184
+      ],
+      "sourceFeet": [
+        91.7951649458575,
+        151
+      ],
+      "outputBBox": [
+        40,
+        59,
+        82,
+        93
+      ],
+      "footError": [
+        -0.007869305530519455,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 2,
+      "sourceCrop": [
+        316,
+        489,
+        164,
+        142
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        29.286765500322993,
+        42.518607467746165
+      ],
+      "sourceFeet": [
+        89.0543844856661,
+        151
+      ],
+      "outputBBox": [
+        61,
+        59,
+        75,
+        93
+      ],
+      "footError": [
+        -0.032478594009319295,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 3,
+      "sourceCrop": [
+        480,
+        489,
+        159,
+        142
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        29.726900747727107,
+        40.68413521749805
+      ],
+      "sourceFeet": [
+        85.02807073612439,
+        150
+      ],
+      "outputBBox": [
+        60,
+        55,
+        70,
+        96
+      ],
+      "footError": [
+        -0.05803699199293533,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 4,
+      "sourceCrop": [
+        639,
+        489,
+        154,
+        142
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        34.49031536220602,
+        46.187551968242374
+      ],
+      "sourceFeet": [
+        84.16699428162974,
+        153
+      ],
+      "outputBBox": [
+        67,
+        68,
+        72,
+        86
+      ],
+      "footError": [
+        -0.015452980512719705,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 5,
+      "sourceCrop": [
+        793,
+        489,
+        158,
+        142
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        35.4705635853402,
+        41.68413521749805
+      ],
+      "sourceFeet": [
+        117.25009872318014,
+        151
+      ],
+      "outputBBox": [
+        61,
+        64,
+        89,
+        88
+      ],
+      "footError": [
+        -0.7154953147360459,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 6,
+      "sourceCrop": [
+        951,
+        489,
+        154,
+        142
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        42.82769969610298,
+        45.849662967249955
+      ],
+      "sourceFeet": [
+        124.61334562096818,
+        156
+      ],
+      "outputBBox": [
+        60,
+        74,
+        98,
+        82
+      ],
+      "footError": [
+        -4.1355769847467485,
+        -1
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NW",
+      "column": 7,
+      "sourceCrop": [
+        1105,
+        489,
+        149,
+        142
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        47.892185946343005,
+        47.01519071700184
+      ],
+      "sourceFeet": [
+        125.49228254177183,
+        158
+      ],
+      "outputBBox": [
+        62,
+        77,
+        100,
+        82
+      ],
+      "footError": [
+        -0.5046123172595003,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 0,
+      "sourceCrop": [
+        0,
+        631,
+        183,
+        160
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        22.264637772224503,
+        31.50494046476888
+      ],
+      "sourceFeet": [
+        95.78170075349838,
+        150
+      ],
+      "outputBBox": [
+        64,
+        47,
+        92,
+        104
+      ],
+      "footError": [
+        0.02275803400119969,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 1,
+      "sourceCrop": [
+        183,
+        631,
+        136,
+        160
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        45.835875581140286,
+        32.33941271501699
+      ],
+      "sourceFeet": [
+        94.24670092497433,
+        150
+      ],
+      "outputBBox": [
+        64,
+        38,
+        65,
+        113
+      ],
+      "footError": [
+        -0.032766151573227376,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 2,
+      "sourceCrop": [
+        319,
+        631,
+        156,
+        160
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        27.391379946551147,
+        24.67046821452078
+      ],
+      "sourceFeet": [
+        91.37055000485014,
+        144
+      ],
+      "outputBBox": [
+        60,
+        31,
+        65,
+        114
+      ],
+      "footError": [
+        -0.030146951576327297,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 3,
+      "sourceCrop": [
+        475,
+        631,
+        150,
+        160
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        27.606320630101578,
+        26.842829465761312
+      ],
+      "sourceFeet": [
+        97.96697130030464,
+        142
+      ],
+      "outputBBox": [
+        60,
+        42,
+        60,
+        101
+      ],
+      "footError": [
+        0.00012372844071251166,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 4,
+      "sourceCrop": [
+        625,
+        631,
+        155,
+        160
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        23.691267681821714,
+        31.849662967249955
+      ],
+      "sourceFeet": [
+        95.17691821913479,
+        142
+      ],
+      "outputBBox": [
+        57,
+        48,
+        66,
+        95
+      ],
+      "footError": [
+        -0.1604186445722462,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 5,
+      "sourceCrop": [
+        780,
+        631,
+        157,
+        160
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        25.594834528823206,
+        34.33941271501699
+      ],
+      "sourceFeet": [
+        85.4145244215938,
+        152
+      ],
+      "outputBBox": [
+        55,
+        55,
+        62,
+        98
+      ],
+      "footError": [
+        -0.00946258800330213,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 6,
+      "sourceCrop": [
+        937,
+        631,
+        162,
+        160
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        26.85776165917609,
+        36.83599596427267
+      ],
+      "sourceFeet": [
+        97.11511472879101,
+        157
+      ],
+      "outputBBox": [
+        67,
+        57,
+        63,
+        101
+      ],
+      "footError": [
+        -0.050112009610771224,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "N",
+      "column": 7,
+      "sourceCrop": [
+        1099,
+        631,
+        155,
+        160
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        33.59853901496716,
+        37.83599596427267
+      ],
+      "sourceFeet": [
+        99.03102701325179,
+        158
+      ],
+      "outputBBox": [
+        66,
+        61,
+        65,
+        98
+      ],
+      "footError": [
+        -0.0628037120341105,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 0,
+      "sourceCrop": [
+        0,
+        791,
+        188,
+        155
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        22.655970030470968,
+        40.68413521749805
+      ],
+      "sourceFeet": [
+        96.09659857614815,
+        150
+      ],
+      "outputBBox": [
+        71,
+        53,
+        85,
+        98
+      ],
+      "footError": [
+        -0.06963466380123862,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 1,
+      "sourceCrop": [
+        188,
+        791,
+        154,
+        155
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        52.28271992785149,
+        39.68413521749805
+      ],
+      "sourceFeet": [
+        110.21573704058085,
+        149
+      ],
+      "outputBBox": [
+        76,
+        57,
+        81,
+        93
+      ],
+      "footError": [
+        -0.13526407935671614,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 2,
+      "sourceCrop": [
+        342,
+        791,
+        145,
+        155
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        42.683668412410924,
+        40.35307971799426
+      ],
+      "sourceFeet": [
+        117.53909488387939,
+        148
+      ],
+      "outputBBox": [
+        68,
+        55,
+        74,
+        94
+      ],
+      "footError": [
+        -0.09531805984505581,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 3,
+      "sourceCrop": [
+        487,
+        791,
+        148,
+        155
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        39.068319230828735,
+        39.187551968242374
+      ],
+      "sourceFeet": [
+        110.78693434793172,
+        146
+      ],
+      "outputBBox": [
+        61,
+        57,
+        83,
+        90
+      ],
+      "footError": [
+        -0.040586588167968785,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 4,
+      "sourceCrop": [
+        635,
+        791,
+        153,
+        155
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        28.844245149583372,
+        40.518607467746165
+      ],
+      "sourceFeet": [
+        102.59534329195594,
+        149
+      ],
+      "outputBBox": [
+        48,
+        61,
+        86,
+        89
+      ],
+      "footError": [
+        -0.1137778643343097,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 5,
+      "sourceCrop": [
+        788,
+        791,
+        159,
+        155
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        25.114080777146107,
+        40.849662967249955
+      ],
+      "sourceFeet": [
+        86.09038127288181,
+        151
+      ],
+      "outputBBox": [
+        48,
+        65,
+        92,
+        87
+      ],
+      "footError": [
+        0.2103172876601036,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 6,
+      "sourceCrop": [
+        947,
+        791,
+        154,
+        155
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        24.001350735672894,
+        44.346246216505634
+      ],
+      "sourceFeet": [
+        76.04109986821231,
+        157
+      ],
+      "outputBBox": [
+        42,
+        70,
+        95,
+        88
+      ],
+      "footError": [
+        0.4305170408631369,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "NE",
+      "column": 7,
+      "sourceCrop": [
+        1101,
+        791,
+        153,
+        155
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        27.346283596165023,
+        44.67730171600941
+      ],
+      "sourceFeet": [
+        76.32524085556747,
+        159
+      ],
+      "outputBBox": [
+        44,
+        72,
+        94,
+        88
+      ],
+      "footError": [
+        0.4479191422228723,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 0,
+      "sourceCrop": [
+        0,
+        946,
+        191,
+        157
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        26.55286649063511,
+        33.1738849652651
+      ],
+      "sourceFeet": [
+        96.54101192231538,
+        150
+      ],
+      "outputBBox": [
+        67,
+        47,
+        103,
+        104
+      ],
+      "footError": [
+        0.015389366856950915,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 1,
+      "sourceCrop": [
+        191,
+        946,
+        157,
+        157
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        56.867272305554344,
+        40.51177396625752
+      ],
+      "sourceFeet": [
+        109.57358400191595,
+        154
+      ],
+      "outputBBox": [
+        72,
+        57,
+        103,
+        97
+      ],
+      "footError": [
+        0.1719748485122352,
+        -1
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 2,
+      "sourceCrop": [
+        348,
+        946,
+        142,
+        157
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        56.394020482247896,
+        44.67730171600941
+      ],
+      "sourceFeet": [
+        113.876556505351,
+        159
+      ],
+      "outputBBox": [
+        70,
+        71,
+        97,
+        89
+      ],
+      "footError": [
+        -0.0017855029956024282,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 3,
+      "sourceCrop": [
+        490,
+        946,
+        139,
+        157
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        41.99317783159783,
+        42.18071846675373
+      ],
+      "sourceFeet": [
+        118.30976769709162,
+        154
+      ],
+      "outputBBox": [
+        51,
+        80,
+        94,
+        75
+      ],
+      "footError": [
+        -0.07985465361335287,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 4,
+      "sourceCrop": [
+        629,
+        946,
+        154,
+        157
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        36.01780864153385,
+        45.51177396625752
+      ],
+      "sourceFeet": [
+        126.61567506888457,
+        159
+      ],
+      "outputBBox": [
+        49,
+        85,
+        99,
+        75
+      ],
+      "footError": [
+        -0.20500114674140946,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 5,
+      "sourceCrop": [
+        783,
+        946,
+        157,
+        157
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        32.216913076937814,
+        45.33941271501699
+      ],
+      "sourceFeet": [
+        127.18506583699104,
+        163
+      ],
+      "outputBBox": [
+        48,
+        79,
+        101,
+        85
+      ],
+      "footError": [
+        -0.5321466244995321,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 6,
+      "sourceCrop": [
+        940,
+        946,
+        156,
+        157
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        45.19622753929177,
+        48.84282946576131
+      ],
+      "sourceFeet": [
+        125.15634552805454,
+        164
+      ],
+      "outputBBox": [
+        59,
+        81,
+        100,
+        84
+      ],
+      "footError": [
+        -0.5747346345229261,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "E",
+      "column": 7,
+      "sourceCrop": [
+        1096,
+        946,
+        158,
+        157
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        41.81373887133553,
+        46.0083572155132
+      ],
+      "sourceFeet": [
+        121.56251562890725,
+        162
+      ],
+      "outputBBox": [
+        57,
+        82,
+        101,
+        81
+      ],
+      "footError": [
+        -0.6005593869510051,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 0,
+      "sourceCrop": [
+        0,
+        1103,
+        184,
+        151
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        25.25176237204846,
+        39.01519071700184
+      ],
+      "sourceFeet": [
+        95.28376716540275,
+        150
+      ],
+      "outputBBox": [
+        66,
+        52,
+        91,
+        99
+      ],
+      "footError": [
+        0.004085374268797182,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 1,
+      "sourceCrop": [
+        184,
+        1103,
+        167,
+        151
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        51.315287353439935,
+        45.68413521749805
+      ],
+      "sourceFeet": [
+        106.92317121218753,
+        155
+      ],
+      "outputBBox": [
+        73,
+        61,
+        101,
+        95
+      ],
+      "footError": [
+        -0.04205388665047849,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 2,
+      "sourceCrop": [
+        351,
+        1103,
+        157,
+        151
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        56.36558700172482,
+        47.849662967249955
+      ],
+      "sourceFeet": [
+        117.82388905457799,
+        158
+      ],
+      "outputBBox": [
+        75,
+        68,
+        97,
+        91
+      ],
+      "footError": [
+        -0.07813880189030442,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 3,
+      "sourceCrop": [
+        508,
+        1103,
+        147,
+        151
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        54.057470011940765,
+        47.346246216505634
+      ],
+      "sourceFeet": [
+        119.06606829531654,
+        160
+      ],
+      "outputBBox": [
+        71,
+        71,
+        94,
+        90
+      ],
+      "footError": [
+        -0.1813121671898159,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 4,
+      "sourceCrop": [
+        655,
+        1103,
+        146,
+        151
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        48.1305386241816,
+        50.51177396625752
+      ],
+      "sourceFeet": [
+        119.40862408041369,
+        164
+      ],
+      "outputBBox": [
+        60,
+        85,
+        94,
+        80
+      ],
+      "footError": [
+        -0.22067959377417878,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 5,
+      "sourceCrop": [
+        801,
+        1103,
+        147,
+        151
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        44.12398074467458,
+        57.346246216505634
+      ],
+      "sourceFeet": [
+        128.0573557320588,
+        170
+      ],
+      "outputBBox": [
+        61,
+        85,
+        86,
+        86
+      ],
+      "footError": [
+        -0.05625071446036145,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 6,
+      "sourceCrop": [
+        948,
+        1103,
+        154,
+        151
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        35.793569241558814,
+        59.346246216505634
+      ],
+      "sourceFeet": [
+        131.1171004942339,
+        172
+      ],
+      "outputBBox": [
+        57,
+        88,
+        92,
+        85
+      ],
+      "footError": [
+        -0.2944780691691449,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    },
+    {
+      "direction": "SE",
+      "column": 7,
+      "sourceCrop": [
+        1102,
+        1103,
+        152,
+        151
+      ],
+      "scale": 0.8344722502481065,
+      "translation": [
+        38.06468028962587,
+        57.84282946576131
+      ],
+      "sourceFeet": [
+        131.0137798709227,
+        173
+      ],
+      "outputBBox": [
+        54,
+        88,
+        96,
+        86
+      ],
+      "footError": [
+        -0.5865541523994295,
+        0
+      ],
+      "edgePixels": 0,
+      "allAlphaEdgePixels": 0,
+      "empty": false,
+      "clipped": false,
+      "semanticStatus": "pending"
+    }
+  ]
+}

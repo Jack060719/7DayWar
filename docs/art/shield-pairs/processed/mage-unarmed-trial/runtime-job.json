@@ -1,0 +1,210 @@
+{
+  "staging": "docs/art/shield-pairs/processed/mage-unarmed-trial",
+  "sourceManifest": "stance-staging/runtime/mage-unarmed/manifest.json",
+  "output": "shield-pairs/mage-unarmed-with-shield",
+  "consumerId": "CLASS-MAGE:unarmed:with-shield",
+  "assetId": "ASSET-STANCE-CLASS-MAGE-UNARMED-WITH-SHIELD",
+  "variant": "with-shield",
+  "reviewedActions": [
+    "idle",
+    "walk",
+    "attack",
+    "hit",
+    "death",
+    "cast"
+  ],
+  "visualReview": "docs/art/shield-pairs/mage-unarmed-trial/CANDIDATES.md",
+  "deferNativeReview": true,
+  "limitations": [
+    "空手保持右手無武器、左手持盾。來源拳擊與受擊姿勢本身變化較小，背面與遠臂盾面細節仍有限。",
+    "Generated output inspected; no additional per-action native review under current user instruction.",
+    "Small repeated poses and limited rear-shield detail retained.",
+    "Release points manually estimated from current staged images; final integration and physical phone review pending."
+  ],
+  "contacts": {
+    "attack": {
+      "S": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 2,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 2,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 2,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 2,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 3,
+        "estimated": true
+      }
+    },
+    "cast": {
+      "S": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 3,
+        "estimated": true
+      }
+    }
+  },
+  "emitters": {
+    "cast": {
+      "S": {
+        "frameIndex": 3,
+        "point": [
+          79,
+          49
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "SW": {
+        "frameIndex": 3,
+        "point": [
+          66,
+          62
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "W": {
+        "frameIndex": 3,
+        "point": [
+          65,
+          59
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "NW": {
+        "frameIndex": 3,
+        "point": [
+          80,
+          49
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "N": {
+        "frameIndex": 3,
+        "point": [
+          110,
+          43
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "NE": {
+        "frameIndex": 3,
+        "point": [
+          118,
+          50
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "E": {
+        "frameIndex": 3,
+        "point": [
+          122,
+          65
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      },
+      "SE": {
+        "frameIndex": 3,
+        "point": [
+          97,
+          72
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 4,
+        "method": "Manual estimate from current staged release frame; preserves original release index."
+      }
+    }
+  }
+}

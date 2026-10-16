@@ -1,0 +1,38 @@
+{
+  "schema": "lineage-shield-direction-reference-v1",
+  "source": {
+    "file": "docs/art/shield-pairs/inputs/knight-dagger/idle.png",
+    "sha256": "2f207cbded13f1af97fd1c45005c323368603f88186b6ce6819fb5a32bf7c160"
+  },
+  "output": {
+    "file": "docs/art/shield-pairs/inputs/knight-dagger/idle-E-2x3.png",
+    "sha256": "1520bcff55834e30eaa76c527a3f4fc4641b0530ecdd0c990e6b1c98cfb512fd"
+  },
+  "direction": "E",
+  "sourceCell": [
+    192,
+    192
+  ],
+  "outputCell": [
+    384,
+    384
+  ],
+  "sourceRow": 6,
+  "sourceFrames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "rows": 3,
+  "columns": 2,
+  "scale": 2,
+  "filter": "nearest-neighbor",
+  "anchor": [
+    192,
+    300
+  ],
+  "processing": "Uniform 2x only; original per-cell character placement and alpha retained; no creative edits"
+}

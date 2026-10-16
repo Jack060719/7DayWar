@@ -1,0 +1,370 @@
+{
+  "candidate": "LD-STAGE3-20261011-02",
+  "date": "2026-10-11",
+  "node": "v24.20.0",
+  "status": "desktop-integration-passed-user-visual-acceptance-pending",
+  "tests": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0,
+    "browserSessions": 1,
+    "newScreenshots": 1
+  },
+  "browser": "Chrome/154.0.8037.98",
+  "viewport": [
+    844,
+    390
+  ],
+  "pairs": [
+    {
+      "classId": "knight",
+      "family": "unarmed",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "shield-pairs/knight-unarmed-with-shield/manifest.json",
+        "stance-staging/runtime/knight-unarmed/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-KNIGHT:unarmed:with-shield",
+        "CLASS-KNIGHT:unarmed:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-KNIGHT:unarmed:without-shield",
+        "CLASS-KNIGHT:unarmed:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "knight",
+      "family": "dagger",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "stance-staging/runtime/knight-dagger/manifest.json",
+        "shield-pairs/knight-dagger-without-shield/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-KNIGHT:dagger:with-shield",
+        "CLASS-KNIGHT:dagger:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-KNIGHT:dagger:without-shield",
+        "CLASS-KNIGHT:dagger:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "knight",
+      "family": "sword",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "actors/knight/knight-runtime.json",
+        "shield-pairs/knight-sword-without-shield/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-KNIGHT:sword:with-shield",
+        "CLASS-KNIGHT:sword:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-KNIGHT:sword:without-shield",
+        "CLASS-KNIGHT:sword:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "knight",
+      "family": "mace",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "stance-staging/runtime/knight-mace/manifest.json",
+        "shield-pairs/knight-mace-without-shield/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-KNIGHT:mace:with-shield",
+        "CLASS-KNIGHT:mace:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-KNIGHT:mace:without-shield",
+        "CLASS-KNIGHT:mace:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "knight",
+      "family": "spear",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "stance-staging/runtime/knight-spear/manifest.json",
+        "shield-pairs/knight-spear-without-shield/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-KNIGHT:spear:with-shield",
+        "CLASS-KNIGHT:spear:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-KNIGHT:spear:without-shield",
+        "CLASS-KNIGHT:spear:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "knight",
+      "family": "axe",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "stance-staging/runtime/knight-axe/manifest.json",
+        "shield-pairs/knight-axe-without-shield/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-KNIGHT:EQ-BATTLE-AXE:with-shield",
+        "CLASS-KNIGHT:EQ-BATTLE-AXE:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-KNIGHT:EQ-BATTLE-AXE:without-shield",
+        "CLASS-KNIGHT:EQ-BATTLE-AXE:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "elf",
+      "family": "unarmed",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "shield-pairs/elf-unarmed-with-shield/manifest.json",
+        "stance-staging/runtime/elf-unarmed/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-ELF:unarmed:with-shield",
+        "CLASS-ELF:unarmed:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-ELF:unarmed:without-shield",
+        "CLASS-ELF:unarmed:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "elf",
+      "family": "dagger",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "shield-pairs/elf-dagger-with-shield/manifest.json",
+        "stance-staging/runtime/elf-dagger/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-ELF:dagger:with-shield",
+        "CLASS-ELF:dagger:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-ELF:dagger:without-shield",
+        "CLASS-ELF:dagger:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "elf",
+      "family": "sword",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "shield-pairs/elf-sword-with-shield/manifest.json",
+        "stance-staging/runtime/elf-sword/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-ELF:sword:with-shield",
+        "CLASS-ELF:sword:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-ELF:sword:without-shield",
+        "CLASS-ELF:sword:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "elf",
+      "family": "mace",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "shield-pairs/elf-mace-with-shield/manifest.json",
+        "stance-staging/runtime/elf-mace/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-ELF:mace:with-shield",
+        "CLASS-ELF:mace:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-ELF:mace:without-shield",
+        "CLASS-ELF:mace:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "elf",
+      "family": "spear",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "shield-pairs/elf-spear-with-shield/manifest.json",
+        "stance-staging/runtime/elf-spear/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-ELF:spear:with-shield",
+        "CLASS-ELF:spear:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-ELF:spear:without-shield",
+        "CLASS-ELF:spear:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "mage",
+      "family": "unarmed",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "shield-pairs/mage-unarmed-with-shield/manifest.json",
+        "stance-staging/runtime/mage-unarmed/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-MAGE:unarmed:with-shield",
+        "CLASS-MAGE:unarmed:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-MAGE:unarmed:without-shield",
+        "CLASS-MAGE:unarmed:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "mage",
+      "family": "dagger",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "shield-pairs/mage-dagger-with-shield/manifest.json",
+        "stance-staging/runtime/mage-dagger/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-MAGE:dagger:with-shield",
+        "CLASS-MAGE:dagger:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-MAGE:dagger:without-shield",
+        "CLASS-MAGE:dagger:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "mage",
+      "family": "mace",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "shield-pairs/mage-mace-with-shield/manifest.json",
+        "stance-staging/runtime/mage-mace/manifest.json"
+      ],
+      "sceneBefore": [
+        "CLASS-MAGE:mace:with-shield",
+        "CLASS-MAGE:mace:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-MAGE:mace:without-shield",
+        "CLASS-MAGE:mace:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    },
+    {
+      "classId": "mage",
+      "family": "staff",
+      "frameCount": 672,
+      "clipCount": 96,
+      "manifests": [
+        "shield-pairs/mage-staff-with-shield/manifest.json",
+        "actors/mage/mage-runtime.json"
+      ],
+      "sceneBefore": [
+        "CLASS-MAGE:staff:with-shield",
+        "CLASS-MAGE:staff:without-shield"
+      ],
+      "sceneAfter": [
+        "CLASS-MAGE:staff:without-shield",
+        "CLASS-MAGE:staff:with-shield"
+      ],
+      "staleTextureReused": false,
+      "frameAnchorsVerified": true
+    }
+  ],
+  "consumers": [
+    "CLASS-KNIGHT:EQ-BATTLE-AXE:without-shield",
+    "CLASS-ELF:sword:with-shield",
+    "CLASS-MAGE:staff:with-shield"
+  ],
+  "missing": [],
+  "failedClips": [],
+  "failedActors": [],
+  "sceneFailedClips": [],
+  "scope": "One desktop Chromium session: engine equip/unequip commands, all paired frames through FullRenderer.actor, and synthetic family peers through FullRenderer.draw. One landscape image. No equipment-panel clicking, live RTC, Android/iPhone or sustained FPS claim.",
+  "newFrames": 5040,
+  "newClips": 720,
+  "pairedFrames": 10080,
+  "pairedClips": 1440,
+  "screenshot": "shield-pairs-landscape.png",
+  "sourceHashes": {
+    "dist/full/renderer.mjs": "122f46a68efc27a46c5fe1b0c3b7a80fbc6611d5d36fb73872e442af83ab7649",
+    "dist/full/art/stance-index.json": "715d66017f358cf68ff7a4af0db05a90bf084fef9e09976b0be02ef3717d897f",
+    "tests/browser/native-shield-pairs.test.mjs": "c7eb23fc9a38b700a9e9c8cd375bdd1c825790c1318f14c1419acf171e028b6c",
+    "dist/full/art/shield-pairs/knight-unarmed-with-shield/manifest.json": "b25dc8cddc61e73a128d51202b55b1ef4644c8db287ac1cbfad8e6ff46707460",
+    "dist/full/art/stance-staging/runtime/knight-unarmed/manifest.json": "a81a962bc5e52fca55aeca366a06fbda6948d293d797c1fccd4cdb87853b2d8b",
+    "dist/full/art/stance-staging/runtime/knight-dagger/manifest.json": "14eb1c97d90e7fdb5494cf436d66dbf8e7470cb9f5122f27ef0a07756bde2df4",
+    "dist/full/art/shield-pairs/knight-dagger-without-shield/manifest.json": "25d3134df7cec3ee65368cd33d2dceff313852d27ab5daefc8e576c168fdcef6",
+    "dist/full/art/actors/knight/knight-runtime.json": "ae0c8cf904423f02f8b3d642cd47fef6dd9f371d021a70fca55fbd2d404f745f",
+    "dist/full/art/shield-pairs/knight-sword-without-shield/manifest.json": "90b27ab290e79b65688a7c1750126c3e44a44476a899b8f6d46df9fa76577440",
+    "dist/full/art/stance-staging/runtime/knight-mace/manifest.json": "29be7090399b00088fbdc0eed89be0f3ee623b7d0db42b9e5cdc60277638f927",
+    "dist/full/art/shield-pairs/knight-mace-without-shield/manifest.json": "ca73fa520ee04d2bb1dac7f075bf2981fbebc79a4c95e699781ac978f2161121",
+    "dist/full/art/stance-staging/runtime/knight-spear/manifest.json": "4d3dd6623acfb7ef9605fd69e9637009f933a53a3c0f1628ddd4fc23e2beb5a3",
+    "dist/full/art/shield-pairs/knight-spear-without-shield/manifest.json": "88b148eec12069455d0d3360fa53406d1adeb71056a0566ca6fa8a9a112c5d57",
+    "dist/full/art/stance-staging/runtime/knight-axe/manifest.json": "68575c95f00a2814353187dff1606bf3fe47133b3906116b12d0862adfe0dd4d",
+    "dist/full/art/shield-pairs/knight-axe-without-shield/manifest.json": "f32af687adc8268d26bbee3252f2af6d51e8c40dfa488d02560cf334ca53d6d9",
+    "dist/full/art/shield-pairs/elf-unarmed-with-shield/manifest.json": "f8531a585384457f774f9c56cc3a0a8f9d3cd8ddb42b1630cf547fe78ae6b6a5",
+    "dist/full/art/stance-staging/runtime/elf-unarmed/manifest.json": "b594d04c2f1c632a7b128561f3a4640422ac092740365ffb4fd73b1500f46c72",
+    "dist/full/art/shield-pairs/elf-dagger-with-shield/manifest.json": "00befa7043b4d4c8653e3a52384f4cb845621cdc701f84147392e29dc4db6f1c",
+    "dist/full/art/stance-staging/runtime/elf-dagger/manifest.json": "ed939a3545b14ac9ed9b040745757897874780278b07d6fe376343346589e418",
+    "dist/full/art/shield-pairs/elf-sword-with-shield/manifest.json": "27be811417d88277306a2c582bc83986a8e9bb3c41651631d316ce168f4ac9fd",
+    "dist/full/art/stance-staging/runtime/elf-sword/manifest.json": "e39492af1ac9065b9b3e503fdbe4afb44c48a6932c748b34d0df43e3b5583944",
+    "dist/full/art/shield-pairs/elf-mace-with-shield/manifest.json": "2b77becb4ed17e45d4df904a28e6f254d421489c5743d39ef74a7a9e1afd3010",
+    "dist/full/art/stance-staging/runtime/elf-mace/manifest.json": "458052664ed772b2c5142aebe661d26aa9a8d8539372360973935fe1b4ee57d2",
+    "dist/full/art/shield-pairs/elf-spear-with-shield/manifest.json": "beab2c4ba8176dea942a191e9afda8d57668eb4ea56c0148744a6147a32b6faf",
+    "dist/full/art/stance-staging/runtime/elf-spear/manifest.json": "1d2f9dde94cfcae6059c14a85040f224fc4a6eeb2e92c3bdef0b0ad45f45ccb0",
+    "dist/full/art/shield-pairs/mage-unarmed-with-shield/manifest.json": "beef93b414a690de615420af248c0a241ff9be58e7d04d2ddc9faa953b76e0b4",
+    "dist/full/art/stance-staging/runtime/mage-unarmed/manifest.json": "af7ef98d72a924dbb024a5ffdeef04a5da0a154f43a912be2210d568f148688e",
+    "dist/full/art/shield-pairs/mage-dagger-with-shield/manifest.json": "f9816f88067e3fdca66cd361f06c304b7f8a02a01138ac706a5f134525b8419b",
+    "dist/full/art/stance-staging/runtime/mage-dagger/manifest.json": "48f2c7bd2c25a587e50636d14592e18c27225034151ebc46b8f182d0a1ad601e",
+    "dist/full/art/shield-pairs/mage-mace-with-shield/manifest.json": "0f3b7eebbe7b9480349d8abc9afe2529c59f8a89040364e808d4f20c63bdff0b",
+    "dist/full/art/stance-staging/runtime/mage-mace/manifest.json": "2db13c68d35089b4ecf34490f313bd5d99828e0ee7bf28abfb8e7d07b9a10d26",
+    "dist/full/art/shield-pairs/mage-staff-with-shield/manifest.json": "fef4345f1411ba0f8a1416c55ba1d1e90f940eb499eba1bc4fc80bf363b8c1a1",
+    "dist/full/art/actors/mage/mage-runtime.json": "4f4794480e3303730036fe9179aff818607736c7af48036fd743c4a24e80ac49"
+  }
+}

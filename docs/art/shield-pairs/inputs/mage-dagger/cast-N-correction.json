@@ -1,0 +1,251 @@
+{
+  "schema": "lineage-shield-direction-edit-v1",
+  "raw": "docs/art/shield-pairs/mage-dagger-trial/cast/raw-shield.png",
+  "rawSHA256": "b345f0ff3cd9ae7fa6e737e183a062ab1db371eb13ee964c78503cda4c77f998",
+  "guideInput": "docs/art/shield-pairs/mage-dagger-trial/cast/raw-shield.png",
+  "guideInputSHA256": "b345f0ff3cd9ae7fa6e737e183a062ab1db371eb13ee964c78503cda4c77f998",
+  "sourceQA": "docs/art/shield-pairs/processed/mage-dagger-spaced-trial/cast/qa.json",
+  "columns": 8,
+  "rows": 8,
+  "direction": "N",
+  "guideSize": [
+    1024,
+    2048
+  ],
+  "guideCell": [
+    512,
+    512
+  ],
+  "rawCell": [
+    156.75,
+    156.75
+  ],
+  "rawToGuideScale": 2.449760765550239,
+  "frames": [
+    {
+      "direction": "N",
+      "column": 0,
+      "bodyIndex": 32,
+      "sourceCrop": [
+        45,
+        655,
+        71,
+        107
+      ],
+      "rawFoot": [
+        80.86771883009726,
+        756
+      ],
+      "guideRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "translation": [
+        168.1326696602402,
+        116.57416267942585
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    },
+    {
+      "direction": "N",
+      "column": 1,
+      "bodyIndex": 33,
+      "sourceCrop": [
+        192,
+        657,
+        124,
+        109
+      ],
+      "rawFoot": [
+        235.3177564339367,
+        757
+      ],
+      "guideRect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "translation": [
+        149.88185983648043,
+        119.02392344497608
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    },
+    {
+      "direction": "N",
+      "column": 2,
+      "bodyIndex": 34,
+      "sourceCrop": [
+        353,
+        641,
+        70,
+        125
+      ],
+      "rawFoot": [
+        392.0325843296328,
+        757
+      ],
+      "guideRect": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "translation": [
+        160.37950633123444,
+        79.82775119617224
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    },
+    {
+      "direction": "N",
+      "column": 3,
+      "bodyIndex": 35,
+      "sourceCrop": [
+        510,
+        639,
+        71,
+        126
+      ],
+      "rawFoot": [
+        548.6191154028648,
+        757
+      ],
+      "guideRect": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "translation": [
+        161.39240628580478,
+        74.9282296650718
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    },
+    {
+      "direction": "N",
+      "column": 4,
+      "bodyIndex": 36,
+      "sourceCrop": [
+        670,
+        639,
+        84,
+        123
+      ],
+      "rawFoot": [
+        705.2272330602708,
+        757
+      ],
+      "guideRect": [
+        0,
+        1024,
+        512,
+        512
+      ],
+      "translation": [
+        169.70170657005428,
+        74.9282296650718
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    },
+    {
+      "direction": "N",
+      "column": 5,
+      "bodyIndex": 37,
+      "sourceCrop": [
+        817,
+        641,
+        105,
+        121
+      ],
+      "rawFoot": [
+        861.5682992010413,
+        757
+      ],
+      "guideRect": [
+        512,
+        1024,
+        512,
+        512
+      ],
+      "translation": [
+        146.8183292299849,
+        79.82775119617224
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    },
+    {
+      "direction": "N",
+      "column": 6,
+      "bodyIndex": 38,
+      "sourceCrop": [
+        951,
+        657,
+        101,
+        131
+      ],
+      "rawFoot": [
+        1018.183238569246,
+        757
+      ],
+      "guideRect": [
+        0,
+        1536,
+        512,
+        512
+      ],
+      "translation": [
+        91.41713805045961,
+        119.02392344497608
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    },
+    {
+      "direction": "N",
+      "column": 7,
+      "bodyIndex": 39,
+      "sourceCrop": [
+        1138,
+        656,
+        71,
+        106
+      ],
+      "rawFoot": [
+        1176.022834568225,
+        757
+      ],
+      "guideRect": [
+        512,
+        1536,
+        512,
+        512
+      ],
+      "translation": [
+        162.85315167975477,
+        116.57416267942585
+      ],
+      "scale": 2.449760765550239,
+      "edgePixels": 0
+    }
+  ],
+  "method": "Complete body masks use one raw-cell-derived scale. Translation aligns the guide only; its exact inverse maps the edited pixels back to the original raw positions. No body bbox fitting. Image edits must preserve the guide canvas aspect ratio.",
+  "outputSHA256": "364009ec3429a5dfb840cf538f5947da2b08bb7beab839aa14530d232b787cf4",
+  "padding": 64,
+  "guideFoot": [
+    256,
+    364
+  ],
+  "guideColumns": 2,
+  "guideRows": 4
+}

@@ -1,0 +1,1825 @@
+{
+  "schema": "lineage-shield-reference-v1",
+  "purpose": "Reference only; not newly generated artwork or runtime acceptance",
+  "class": "knight",
+  "family": "sword",
+  "action": "attack",
+  "sourceManifest": {
+    "file": "actors/knight/knight-runtime.json",
+    "sha256": "ae0c8cf904423f02f8b3d642cd47fef6dd9f371d021a70fca55fbd2d404f745f"
+  },
+  "sourceClips": [
+    {
+      "file": "actors/knight/clips/attack-S.webp",
+      "sha256": "1c76f8a71a9272ff8835c511161456d4e10cb6b17e6f7997e3ec41a53d6174c9"
+    },
+    {
+      "file": "actors/knight/clips/attack-SW.webp",
+      "sha256": "714ca5c2c7aace008555620af12b3010feed7f8fdf89a23a5e3b3bca6fc7340e"
+    },
+    {
+      "file": "actors/knight/clips/attack-W.webp",
+      "sha256": "aae01f39583bbea381bc5478b8cf313dc96d4b454d1b0cfa3d0fe9f5a273e839"
+    },
+    {
+      "file": "actors/knight/clips/attack-NW.webp",
+      "sha256": "1628a1d9101647c04461778b0b52598108126c6cb3d77bcc7dd3b0e9e3d9b0b4"
+    },
+    {
+      "file": "actors/knight/clips/attack-N.webp",
+      "sha256": "e681e37b9f5c2b9f602a9d9da8a36a819a57818369f1aef4dd00ca4b937385dc"
+    },
+    {
+      "file": "actors/knight/clips/attack-NE.webp",
+      "sha256": "f113ed2f56586f4c63ddaeb382226cf8f04ae3d76ef9c8c939d9bb66829c9df6"
+    },
+    {
+      "file": "actors/knight/clips/attack-E.webp",
+      "sha256": "634922c324f5b8d3fc484d79905d3efe002cf7f7b0635f51a969fb82c8ac7d32"
+    },
+    {
+      "file": "actors/knight/clips/attack-SE.webp",
+      "sha256": "0a13bd2a6290c23bc70742a283b119807629906e25dec71e70d04bd0853faac4"
+    }
+  ],
+  "directions": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "columns": 8,
+  "cell": [
+    192,
+    192
+  ],
+  "width": 1536,
+  "height": 1536,
+  "baseHeight": 92,
+  "anchor": [
+    96,
+    150
+  ],
+  "frames": [
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 110,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-S.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-S.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-S.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 65,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-S.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 60,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-S.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-S.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-S.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 135,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-S.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 110,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SW.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SW.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SW.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 65,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SW.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 60,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SW.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SW.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SW.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 135,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SW.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 110,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-W.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-W.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-W.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 65,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-W.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 60,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-W.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-W.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-W.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 135,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-W.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 110,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NW.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NW.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NW.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 65,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NW.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 60,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NW.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NW.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NW.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 135,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NW.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 110,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-N.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-N.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-N.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 65,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-N.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 60,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-N.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-N.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-N.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 135,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-N.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 110,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NE.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NE.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NE.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 65,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NE.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 60,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NE.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NE.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NE.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 135,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-NE.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 110,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-E.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-E.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-E.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 65,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-E.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 60,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-E.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-E.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-E.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 135,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-E.webp"
+      }
+    ],
+    [
+      {
+        "rect": [
+          0,
+          0,
+          192,
+          192
+        ],
+        "duration": 110,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SE.webp"
+      },
+      {
+        "rect": [
+          192,
+          0,
+          192,
+          192
+        ],
+        "duration": 90,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SE.webp"
+      },
+      {
+        "rect": [
+          384,
+          0,
+          192,
+          192
+        ],
+        "duration": 70,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SE.webp"
+      },
+      {
+        "rect": [
+          576,
+          0,
+          192,
+          192
+        ],
+        "duration": 65,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SE.webp"
+      },
+      {
+        "rect": [
+          768,
+          0,
+          192,
+          192
+        ],
+        "duration": 60,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SE.webp"
+      },
+      {
+        "rect": [
+          960,
+          0,
+          192,
+          192
+        ],
+        "duration": 75,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SE.webp"
+      },
+      {
+        "rect": [
+          1152,
+          0,
+          192,
+          192
+        ],
+        "duration": 95,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SE.webp"
+      },
+      {
+        "rect": [
+          1344,
+          0,
+          192,
+          192
+        ],
+        "duration": 135,
+        "anchor": [
+          96,
+          150
+        ],
+        "atlas": "actors/knight/clips/attack-SE.webp"
+      }
+    ]
+  ],
+  "processing": {
+    "tool": "isolated Chromium Canvas; Python sprite helper unavailable",
+    "resize": false,
+    "translation": false,
+    "cleanup": "8-connected alpha components; remove only non-largest detached horizontal lines with width >= 8 and height <= 2 pixels"
+  },
+  "qa": [
+    {
+      "row": 0,
+      "column": 0,
+      "mainBBox": [
+        64,
+        56,
+        54,
+        97
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "mainBBox": [
+        66,
+        54,
+        64,
+        98
+      ],
+      "components": 6,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "mainBBox": [
+        64,
+        18,
+        61,
+        134
+      ],
+      "components": 11,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "mainBBox": [
+        63,
+        55,
+        57,
+        97
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 4,
+      "mainBBox": [
+        62,
+        56,
+        56,
+        96
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 5,
+      "mainBBox": [
+        63,
+        55,
+        55,
+        97
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 6,
+      "mainBBox": [
+        66,
+        56,
+        54,
+        96
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 0,
+      "column": 7,
+      "mainBBox": [
+        66,
+        55,
+        55,
+        97
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "mainBBox": [
+        61,
+        56,
+        65,
+        97
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "mainBBox": [
+        72,
+        54,
+        57,
+        99
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "mainBBox": [
+        70,
+        21,
+        58,
+        129
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "mainBBox": [
+        61,
+        53,
+        68,
+        97
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "mainBBox": [
+        27,
+        52,
+        101,
+        98
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "mainBBox": [
+        38,
+        53,
+        91,
+        97
+      ],
+      "components": 9,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 6,
+      "mainBBox": [
+        57,
+        53,
+        73,
+        99
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 1,
+      "column": 7,
+      "mainBBox": [
+        65,
+        54,
+        67,
+        98
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "mainBBox": [
+        41,
+        56,
+        89,
+        97
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "mainBBox": [
+        49,
+        54,
+        81,
+        98
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "mainBBox": [
+        74,
+        25,
+        56,
+        125
+      ],
+      "components": 8,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "mainBBox": [
+        45,
+        40,
+        87,
+        110
+      ],
+      "components": 10,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 4,
+      "mainBBox": [
+        23,
+        55,
+        110,
+        95
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 5,
+      "mainBBox": [
+        23,
+        55,
+        109,
+        97
+      ],
+      "components": 13,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 6,
+      "mainBBox": [
+        30,
+        55,
+        103,
+        95
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 2,
+      "column": 7,
+      "mainBBox": [
+        47,
+        55,
+        89,
+        97
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 0,
+      "mainBBox": [
+        40,
+        56,
+        82,
+        97
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "mainBBox": [
+        30,
+        26,
+        92,
+        126
+      ],
+      "components": 10,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "mainBBox": [
+        64,
+        17,
+        57,
+        135
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "mainBBox": [
+        28,
+        17,
+        98,
+        136
+      ],
+      "components": 16,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "mainBBox": [
+        42,
+        42,
+        86,
+        110
+      ],
+      "components": 8,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 5,
+      "mainBBox": [
+        33,
+        54,
+        95,
+        98
+      ],
+      "components": 15,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 6,
+      "mainBBox": [
+        34,
+        55,
+        91,
+        97
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 3,
+      "column": 7,
+      "mainBBox": [
+        35,
+        55,
+        93,
+        97
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 0,
+      "mainBBox": [
+        63,
+        56,
+        59,
+        97
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "mainBBox": [
+        52,
+        14,
+        72,
+        139
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "mainBBox": [
+        60,
+        15,
+        63,
+        138
+      ],
+      "components": 6,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "mainBBox": [
+        60,
+        14,
+        64,
+        139
+      ],
+      "components": 12,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 4,
+      "mainBBox": [
+        65,
+        33,
+        62,
+        120
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 5,
+      "mainBBox": [
+        65,
+        48,
+        64,
+        105
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 6,
+      "mainBBox": [
+        65,
+        56,
+        63,
+        97
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 4,
+      "column": 7,
+      "mainBBox": [
+        66,
+        55,
+        60,
+        98
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 0,
+      "mainBBox": [
+        73,
+        57,
+        68,
+        95
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 1,
+      "mainBBox": [
+        71,
+        17,
+        60,
+        135
+      ],
+      "components": 7,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 2,
+      "mainBBox": [
+        73,
+        18,
+        57,
+        134
+      ],
+      "components": 16,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 3,
+      "mainBBox": [
+        74,
+        18,
+        59,
+        134
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 4,
+      "mainBBox": [
+        74,
+        47,
+        89,
+        105
+      ],
+      "components": 8,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 5,
+      "mainBBox": [
+        76,
+        57,
+        86,
+        95
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 6,
+      "mainBBox": [
+        75,
+        56,
+        79,
+        96
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 5,
+      "column": 7,
+      "mainBBox": [
+        77,
+        57,
+        65,
+        95
+      ],
+      "components": 2,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 0,
+      "mainBBox": [
+        75,
+        57,
+        93,
+        95
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 1,
+      "mainBBox": [
+        78,
+        24,
+        76,
+        128
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 2,
+      "mainBBox": [
+        77,
+        18,
+        55,
+        134
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 3,
+      "mainBBox": [
+        78,
+        28,
+        87,
+        123
+      ],
+      "components": 12,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 4,
+      "mainBBox": [
+        77,
+        57,
+        110,
+        95
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 5,
+      "mainBBox": [
+        77,
+        57,
+        106,
+        95
+      ],
+      "components": 32,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 6,
+      "mainBBox": [
+        78,
+        58,
+        100,
+        94
+      ],
+      "components": 21,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 6,
+      "column": 7,
+      "mainBBox": [
+        80,
+        57,
+        91,
+        95
+      ],
+      "components": 17,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 0,
+      "mainBBox": [
+        69,
+        57,
+        84,
+        95
+      ],
+      "components": 4,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 1,
+      "mainBBox": [
+        71,
+        36,
+        81,
+        115
+      ],
+      "components": 8,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 2,
+      "mainBBox": [
+        72,
+        13,
+        52,
+        138
+      ],
+      "components": 7,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 3,
+      "mainBBox": [
+        68,
+        54,
+        82,
+        97
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 4,
+      "mainBBox": [
+        69,
+        56,
+        92,
+        95
+      ],
+      "components": 5,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 5,
+      "mainBBox": [
+        67,
+        56,
+        90,
+        95
+      ],
+      "components": 3,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 6,
+      "mainBBox": [
+        70,
+        56,
+        92,
+        95
+      ],
+      "components": 10,
+      "removed": [],
+      "edgePixels": 0
+    },
+    {
+      "row": 7,
+      "column": 7,
+      "mainBBox": [
+        72,
+        57,
+        84,
+        94
+      ],
+      "components": 1,
+      "removed": [],
+      "edgePixels": 0
+    }
+  ],
+  "output": {
+    "file": "attack.png",
+    "sha256": "3bfb7579825f893ccc7c669831b670021832337d370090fe282aad829936b01f"
+  }
+}

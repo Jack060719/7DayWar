@@ -1,0 +1,202 @@
+{
+  "staging": "docs/art/shield-pairs/processed/knight-axe-without-shield",
+  "sourceManifest": "stance-staging/runtime/knight-axe/manifest.json",
+  "output": "shield-pairs/knight-axe-without-shield",
+  "consumerId": "CLASS-KNIGHT:axe:without-shield",
+  "assetId": "ASSET-STANCE-CLASS-KNIGHT-AXE-WITHOUT-SHIELD",
+  "variant": "without-shield",
+  "reviewedActions": [
+    "idle",
+    "walk",
+    "attack",
+    "hit",
+    "death",
+    "cast"
+  ],
+  "visualReview": "docs/art/shield-pairs/KNIGHT-AXE-REVIEW.md",
+  "deferNativeReview": true,
+  "limitations": [
+    "Tool-output sheet inspection and strict geometry only; native codec/game and Android/iPhone acceptance remain pending final integration.",
+    "Original small/repeated walk and recoil poses remain. Rear idle can naturally hide the axe in front of the body.",
+    "Cast now uses a no-shield attack body as its image-edit source to avoid shield fragments; it has a similar raised-axe gesture, with original cast durations and release timing retained.",
+    "Cast emission points are approximate 6-pixel hand landmarks; user and integrated acceptance remain pending."
+  ],
+  "contacts": {
+    "attack": {
+      "S": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 3,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 3,
+        "estimated": true
+      }
+    },
+    "cast": {
+      "S": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "SW": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "W": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "NW": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "N": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "NE": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "E": {
+        "frameIndex": 4,
+        "estimated": true
+      },
+      "SE": {
+        "frameIndex": 4,
+        "estimated": true
+      }
+    }
+  },
+  "emitters": {
+    "cast": {
+      "S": {
+        "frameIndex": 4,
+        "point": [
+          111,
+          76
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 6
+      },
+      "SW": {
+        "frameIndex": 4,
+        "point": [
+          82,
+          92
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 6
+      },
+      "W": {
+        "frameIndex": 4,
+        "point": [
+          79,
+          92
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 6
+      },
+      "NW": {
+        "frameIndex": 4,
+        "point": [
+          80,
+          89
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 6
+      },
+      "N": {
+        "frameIndex": 4,
+        "point": [
+          80,
+          81
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 6
+      },
+      "NE": {
+        "frameIndex": 4,
+        "point": [
+          110,
+          92
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 6
+      },
+      "E": {
+        "frameIndex": 4,
+        "point": [
+          109,
+          96
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 6
+      },
+      "SE": {
+        "frameIndex": 4,
+        "point": [
+          110,
+          100
+        ],
+        "anchor": [
+          96,
+          150
+        ],
+        "estimated": true,
+        "pointTolerancePixels": 6
+      }
+    }
+  }
+}

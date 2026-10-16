@@ -1,0 +1,50 @@
+{
+  "schema": "lineage-shield-reinsert-v1",
+  "status": "pending-semantic-and-geometry-review",
+  "raw": {
+    "file": "docs/art/shield-pairs/mage-trial/full-death/raw-shield.png",
+    "sha256": "78ac254ecd0ff128732d876c55c5820a067abe09882b94691eb083b483cbabe0"
+  },
+  "edit": {
+    "file": "docs/art/shield-pairs/mage-trial/full-death/patch-S-7/raw-edit-v2.png",
+    "sha256": "ce161897359e9659b2994c70680bfce488ce155214fb67d51c792d4ca9d6b800"
+  },
+  "contract": "docs/art/shield-pairs/mage-trial/full-death/patch-S-7/edit-contract.json",
+  "output": {
+    "file": "docs/art/shield-pairs/mage-trial/full-death/raw-shield-patched-S.png",
+    "sha256": "7cf5b171f4b30a57f30287e19f9ef50a88fddaacb5f0bb43cbdab34fb60bfce4"
+  },
+  "method": "Restore the full edited guide canvas at a single proportional scale, then apply each recorded inverse transform. No body bounding-box fitting. Unselected source pixels remain identical in the decoded RGBA buffer.",
+  "rawSize": [
+    1254,
+    1254
+  ],
+  "editedSize": [
+    1254,
+    1254
+  ],
+  "normalizedSize": [
+    203,
+    203
+  ],
+  "outsideChangedPixels": 0,
+  "changedPixels": 4813,
+  "mappings": [
+    {
+      "sourceCrop": [
+        1094,
+        0,
+        160,
+        171
+      ],
+      "padding": [
+        21.5,
+        16
+      ],
+      "normalizedSize": [
+        203,
+        203
+      ]
+    }
+  ]
+}
