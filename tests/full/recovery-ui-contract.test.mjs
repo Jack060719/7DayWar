@@ -11,6 +11,7 @@ import {tradeableItem} from '../../dist/full/trade.mjs';
 import {petDetailsHTML,legacyPreviewHTML,petNatureText,PET_EFFECT_LABELS} from '../../dist/full/pet-presentation.mjs';
 import {previewLegacyPet,breedingError,petStatsV4,petBagWeight,petAttributes} from '../../dist/full/pets-v4.mjs';
 import * as touchControls from '../../dist/full/touch-controls.mjs';
+import * as nearbyInteractions from '../../dist/full/nearby-interactions.mjs';
 import * as itemPresentation from '../../dist/full/item-presentation.mjs';
 import {ENCHANT_STONES,ENCHANT_NAMES,ENCHANT_COLORS,enchantInfo,enchantableTrack} from '../../dist/full/enchantment-policy.mjs';
 import {enchantPreview} from '../../dist/full/enchantment.mjs';
@@ -63,9 +64,9 @@ function harness(state = createGame('knight', 'UI', undefined, 3), worldOverride
   }
   const noop = () => {};
   const context = {
-    ...data, ...rules, ...forms, ...touchControls, ...fusionPolicy, ...fusionInventory, ...itemPresentation, tradeableItem,petDetailsHTML,legacyPreviewHTML,petNatureText,PET_EFFECT_LABELS,previewLegacyPet,breedingError,petStatsV4,petBagWeight,petAttributes, ENCHANT_STONES,ENCHANT_NAMES,ENCHANT_COLORS,enchantInfo,enchantableTrack,enchantPreview, masteryInfo, skillBehavior, learningLocation, SKILL_BEHAVIORS, canRestoreBeforeSilver,
+    ...data, ...rules, ...forms, ...touchControls, ...nearbyInteractions, ...fusionPolicy, ...fusionInventory, ...itemPresentation, tradeableItem,petDetailsHTML,legacyPreviewHTML,petNatureText,PET_EFFECT_LABELS,previewLegacyPet,breedingError,petStatsV4,petBagWeight,petAttributes, ENCHANT_STONES,ENCHANT_NAMES,ENCHANT_COLORS,enchantInfo,enchantableTrack,enchantPreview, masteryInfo, skillBehavior, learningLocation, SKILL_BEHAVIORS, canRestoreBeforeSilver,
     GameSession: Session,
-    FullRenderer: class { resize() {} load() {} notice() {} interactNPC() {} snap() {} },
+    FullRenderer: class { contacts={holdGroundUntil:()=>0}; resize() {} load() {} notice() {} interactNPC() {} snap() {} },
     AshenAudio: class { play() {} resetObservation() {} },
     document: { querySelector: node, querySelectorAll: () => [], addEventListener: noop,
       documentElement: { style: { setProperty() {} } }, hidden: false },
@@ -77,7 +78,7 @@ function harness(state = createGame('knight', 'UI', undefined, 3), worldOverride
     console, URL: class extends URL {static createObjectURL(blob){downloads.push(blob);return 'blob:synthetic-'+downloads.length}static revokeObjectURL(){}}, Blob, performance,
   };
   vm.runInNewContext(source.replace(/^import .+;\n/gm, '') + `
-    globalThis.ui={formChoices,wildPetTraitsHTML,showReport,showPets,showPetUpgrade,previewPetUpgrade,commitPetUpgrade,showPetBreeding,commitPetBreeding,showPetBag,showTrade,submitTrade,showPolymorphTargets,showPolymorphForms,showPolymorphInvitations,enchantmentHTML,showEnchant,commitEnchant,showAuto,saveAuto,showCharacters,selectCharacter,saveParty,companionPlayers,showSkills,showLearn,commitLearn,showRoom,castSkill,showBag,showFusion,showNPC,showCreation,creationKitHTML,itemName,autoStateLabel,commitFusion,showImport,showBlocked,onSession,showExport,archiveLabel,archiveFilename,resurrectionTargets,showResurrectionTargets,showResurrectionConfirm,commitResurrection,session,
+    globalThis.ui={updateHUD,findSelectedUnit,updateNearbyUI,formChoices,wildPetTraitsHTML,showReport,showPets,showPetUpgrade,previewPetUpgrade,commitPetUpgrade,showPetBreeding,commitPetBreeding,showPetBag,showTrade,submitTrade,showPolymorphTargets,showPolymorphForms,showPolymorphInvitations,enchantmentHTML,showEnchant,commitEnchant,showAuto,saveAuto,showCharacters,selectCharacter,saveParty,companionPlayers,showSkills,showLearn,commitLearn,showRoom,castSkill,showBag,showFusion,showNPC,showCreation,creationKitHTML,itemName,autoStateLabel,commitFusion,showImport,showBlocked,onSession,showExport,archiveLabel,archiveFilename,resurrectionTargets,showResurrectionTargets,showResurrectionConfirm,commitResurrection,session,
       setRoom(value){room=value}, chooseClass(id,points){chosenClass=id;allocation=points}, selectSkill(id){selectedSkill=id}};
   `, context);
   const ui = context.ui;
@@ -604,3 +605,24 @@ test('offline report names every character and presents separate deltas',()=>{co
 test('wild pet inspection displays saved traits without reroll or mutation',()=>{const h=harness(),pet=uiPet(h.state,'pet100',true),monster={petType:pet.type,level:pet.level,petV4:pet.v4},before=JSON.stringify(monster),rng=h.state.rng,html=h.ui.wildPetTraitsHTML(monster);assert.match(html,/雄性/);assert.match(html,/出生/);assert.match(html,/STR/);assert.match(html,/個性/);assert.equal(JSON.stringify(monster),before);assert.equal(h.state.rng,rng);assert.equal(h.ui.wildPetTraitsHTML({}), '')});
 
 test('form collection denominator uses the complete current catalog and explains elite unlock',()=>{const h=harness();h.ui.formChoices();assert(h.html().includes('收藏 0/'+forms.formCollection(h.state).length));assert.match(h.html(),/2% 直接永久收藏/);assert.doesNotMatch(h.html(),/菁英分類尚未指定/)});
+
+
+test('nearby button cycles and highlights units without sending attack, then clears after map change',()=>{
+ const s=createGame(),npc=data.mapNPCs(s.player.map)[0];Object.assign(s.player,{x:npc.position_tiles[0],y:npc.position_tiles[1]});const h=harness(s),before=JSON.stringify(s);
+ h.node('#selectNearby').onclick();const first=h.ui.findSelectedUnit();assert(first);assert.equal(h.actions.length,0);assert.equal(JSON.stringify(s),before);assert.equal(h.node('#interactNearby').disabled,false);
+ const rows=nearbyInteractions.nearbyUnits(s);h.node('#selectNearby').onclick();if(rows.length>1)assert.notEqual(h.ui.findSelectedUnit().entity.id,first.entity.id);
+ s.player.map='MAP-TOWN-GLUDIN';ensureWorld(s,s.player.map);h.ui.updateHUD();assert.equal(h.ui.findSelectedUnit(),null);assert.equal(h.node('#interactNearby').disabled,true);
+});
+test('nearby wild pet interaction opens feeding choices without attacking',async()=>{
+ const s=createGame();s.player.map='MAP-REG-SILVER';const m=ensureWorld(s,s.player.map).monsters.find(m=>m.petType);Object.assign(s.player,m.origin);const h=harness(s);
+ h.node('#selectNearby').onclick();assert.equal(h.ui.findSelectedUnit().entity.id,m.id);assert.match(h.node('#target').textContent,/可馴服/);
+ await h.node('#interactNearby').onclick();assert.match(h.html(),/data-feed-wild/);assert.equal(h.actions.length,0);
+});
+test('nearby loot UI keeps unidentified names and suppresses duplicate or stale-character clicks',async()=>{
+ const s=createGame(),h=harness(s);assert(command(s,{type:'drop',itemId:'ITEM-RED-POTION',count:2}).ok);const drop=s.worlds[s.player.map].ground[0];
+ const gear=rules.grantGear(s,'EQ-DAGGER');gear.identified=false;assert(command(s,{type:'drop',uid:gear.uid}).ok);h.ui.updateHUD();assert.match(h.node('#nearbyLootList').innerHTML,/未鑑定的武器/);assert(!h.node('#nearbyLoot').hidden);
+ const button={dataset:{pickup:drop.id,character:s.id,map:s.player.map}},event={target:{closest:()=>button}},handler=h.node('#nearbyLootList').listeners.click[0];
+ button.dataset.character='other';await handler(event);assert.equal(h.actions.length,0);button.dataset.character=s.id;
+ const count=s.inventory.stacks['ITEM-RED-POTION'];await Promise.all([handler(event),handler(event)]);assert.equal(h.actions.filter(a=>a.type==='pickup').length,1);assert.equal(s.inventory.stacks['ITEM-RED-POTION'],count+2);
+ s.player.x+=3;h.ui.updateHUD();assert(h.node('#nearbyLoot').hidden);
+});

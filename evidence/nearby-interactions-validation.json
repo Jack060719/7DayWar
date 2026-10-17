@@ -1,0 +1,162 @@
+{
+  "build": "7DW-20261017-05",
+  "node": {
+    "version": "v24.20.0",
+    "files": 61,
+    "tests": 484,
+    "passed": 481,
+    "failed": 0,
+    "skipped": 3,
+    "skipReason": "Windows symlink permission EPERM",
+    "outputSHA256": "35efcc4733ca7e979ee122ee216f7f9e876c2aa40a1ff1a976f9a2511af62e2e"
+  },
+  "browser": {
+    "browser": "Chrome/155.0.8059.82",
+    "actualPhone": false,
+    "syntheticSave": true,
+    "checks": [
+      "selection-does-not-attack-or-roll",
+      "wild-pet-inspection",
+      "walk-near-opens-loot",
+      "unidentified-name",
+      "touch-pickup",
+      "duplicate-click",
+      "overweight-retains-ground",
+      "reload-preserves-pickups",
+      "selection-not-persisted",
+      "offline-disabled"
+    ],
+    "layouts": [
+      {
+        "width": 844,
+        "height": 390,
+        "rows": {
+          "targetControls": {
+            "left": 744,
+            "right": 836,
+            "top": 278,
+            "bottom": 322
+          },
+          "nearbyLoot": {
+            "left": 484,
+            "right": 732,
+            "top": 182,
+            "bottom": 322
+          },
+          "joystick": {
+            "left": 12,
+            "right": 116,
+            "top": 276,
+            "bottom": 380
+          },
+          "hotbar": {
+            "left": 301,
+            "right": 667,
+            "top": 326,
+            "bottom": 384
+          },
+          "menus": {
+            "left": 744,
+            "right": 836,
+            "top": 74,
+            "bottom": 214
+          },
+          "questTracker": {
+            "left": 8,
+            "right": 143.96875,
+            "top": 180.1875,
+            "bottom": 224.1875
+          }
+        }
+      },
+      {
+        "width": 568,
+        "height": 320,
+        "rows": {
+          "targetControls": {
+            "left": 468,
+            "right": 560,
+            "top": 208,
+            "bottom": 252
+          },
+          "nearbyLoot": {
+            "left": 252,
+            "right": 456,
+            "top": 180,
+            "bottom": 252
+          },
+          "joystick": {
+            "left": 12,
+            "right": 96,
+            "top": 226,
+            "bottom": 310
+          },
+          "hotbar": {
+            "left": 189,
+            "right": 483,
+            "top": 256,
+            "bottom": 314
+          },
+          "menus": {
+            "left": 468,
+            "right": 560,
+            "top": 66,
+            "bottom": 206
+          },
+          "questTracker": {
+            "left": 136,
+            "right": 271.96875,
+            "top": 122.71875,
+            "bottom": 166.71875
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "passed": 1,
+    "failed": 0,
+    "scope": "Final local Chrome integration with synthetic roster and CDP touch; 844x390 and 568x320. Screenshots inspected."
+  },
+  "earlierAttempts": [
+    "First integration stopped at a 6 px overlap on 568x320; moved the compact right menu up 8 px.",
+    "Second integration passed layout and pickups but its overweight fixture modified a display snapshot rather than the saved roster. Corrected fixture through changeRoster; all original assertions retained."
+  ],
+  "petAudit": {
+    "scope": "Current engine new-world generation; no real player save accessed",
+    "silverWildCount": 4,
+    "habitats": [
+      {
+        "type": "PET-WOLF",
+        "x": 101,
+        "y": 253
+      },
+      {
+        "type": "PET-WOLF",
+        "x": 125,
+        "y": 256
+      },
+      {
+        "type": "PET-SHEPHERD",
+        "x": 149,
+        "y": 259
+      },
+      {
+        "type": "PET-SHEPHERD",
+        "x": 172,
+        "y": 261
+      }
+    ],
+    "rulesChanged": false
+  },
+  "notRun": [
+    "Android hardware",
+    "iPhone hardware",
+    "other native browser suites",
+    "ZIP extraction"
+  ],
+  "limits": [
+    "Selection does not initiate combat or alter RNG; ongoing auto-hunting is not paused by selection.",
+    "Loot remains subject to existing one-cell range, weight, ownership and despawn rules.",
+    "Offline catch-up remains disabled; no save migration."
+  ]
+}

@@ -78,3 +78,11 @@ dialog{max-width:min(680px,calc(100vw - 20px - env(safe-area-inset-left) - env(s
 #viewZoom{padding:0;accent-color:#c4ac73;touch-action:pan-x}
 @media(orientation:landscape){#hotbar{left:calc((100% + 124px + env(safe-area-inset-left) - env(safe-area-inset-right))/2);max-width:calc(100% - 144px - env(safe-area-inset-left) - env(safe-area-inset-right))}#messageLog{left:calc(126px + env(safe-area-inset-left));max-width:32%}}
 @media(orientation:landscape) and (max-height:360px){#joystick{width:84px;height:84px}#autoState{max-width:120px}#questTracker{left:calc(136px + env(safe-area-inset-left));top:calc(var(--scene-top) + 42px + var(--hud-height));max-width:150px}#hotbar button{width:44px}#hotbar{left:calc((100% + 104px + env(safe-area-inset-left) - env(safe-area-inset-right))/2);max-width:calc(100% - 124px - env(safe-area-inset-left) - env(safe-area-inset-right))}}
+
+/* Nearby actions stay above the hotbar and clear of the movement stick. */
+#targetControls{position:absolute;right:calc(8px + env(safe-area-inset-right));bottom:calc(68px + env(safe-area-inset-bottom));display:grid;grid-template-columns:44px 44px;gap:4px}
+#targetControls button{padding:3px;font:12px/1.4 system-ui;background:#192215e8}
+#nearbyLoot{position:absolute;right:calc(112px + env(safe-area-inset-right));bottom:calc(68px + env(safe-area-inset-bottom));width:min(248px,calc(100vw - 364px - env(safe-area-inset-left) - env(safe-area-inset-right)));max-height:clamp(72px,calc(100dvh - 250px),160px);display:flex;flex-direction:column;background:#10180ede;border:1px solid #867448;border-radius:3px}
+#nearbyLoot[hidden]{display:none}#nearbyLoot header{padding:4px 7px;font:12px/16px system-ui;color:#e1c784;flex:none}
+#nearbyLootList{overflow:auto;overscroll-behavior:contain;min-height:0;touch-action:pan-y}#nearbyLootList button{display:block;width:100%;text-align:left;font:12px/1.4 system-ui;padding:6px 8px;background:#20271cba;overflow-wrap:anywhere;border-radius:0}
+@media(orientation:landscape) and (max-height:360px){#menus{top:calc(var(--scene-top) + 62px)}}
