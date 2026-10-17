@@ -5,7 +5,7 @@ import {createGame,ensureWorld,command as engineCommand,cooperativeEngine,valida
 import {geometry,nearestWalkable,distance,walkable} from './world.mjs';
 import {monsterDefinition} from './silver-monsters.mjs';
 import {roll,random} from './rules.mjs';
-import {monsterExperience} from './elite-policy.mjs';
+import {rewardExperience} from './trial-rewards.mjs';
 import {enableFieldCamps} from './world-camps.mjs';
 import {visibleCell} from './silver-camps.mjs';
 
@@ -112,7 +112,7 @@ export class CoopRoom{
         const members=[...this.#members].filter(([id])=>participants.has(id)&&(this.party.enabled||id===this.#lastAttack.get(monster.id))),groundIds=[],pool=[];
         const definition=monsterDefinition(monster),boss=definition.boss,multiplier=this.mode==='family'?monster.roomCombat?.factor||1:1;
         const eliteUnlock=monster.elite?random(this)<.02:false;
-        const exactXP=monsterExperience(monster)*multiplier+this.#xpFraction,totalXP=Math.floor(exactXP);
+        const exactXP=rewardExperience(monster)*multiplier+this.#xpFraction,totalXP=Math.floor(exactXP);
         if(members.length)this.#xpFraction=exactXP-totalXP;
         const shares=this.#shares(totalXP,members,'xp');
         for(let i=0;i<members.length;i++){

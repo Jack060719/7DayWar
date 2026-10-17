@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createGame,ensureWorld,advance as soloAdvance,validate} from '../../dist/full/engine.mjs';
 import {addXP,xpAtLevel,stats} from '../../dist/full/rules.mjs';
-import {monsterDefinition} from '../../dist/full/silver-monsters.mjs';
+import {rewardExperience} from '../../dist/full/trial-rewards.mjs';
 import {createRoom} from '../../dist/full/coop-engine.mjs';
 import {fromSolo,validateRoster,selectedView,memberViews,members,select,createMember,command,advance,replaceSelected,configureParty,roomView} from '../../dist/full/roster.mjs';
 function character(classId='knight'){
@@ -84,7 +84,7 @@ test('party off rewards the final attacker; party on splits EXP only among actua
     monsterOf(roster,map).hp=1;roster.simulation.rng=1;for(const member of roster.simulation.members)member.state.rng=1;
     const member=roster.simulation.members[1];member.state.player.attackAt=0;member.state.needsProcess=true;
     command(roster,{type:'attack',targetId:monsterId});advance(roster,0);
-    const views=memberViews(roster),exp=monsterDefinition(monsterOf(roster,map)).exp;
+    const views=memberViews(roster),exp=rewardExperience(monsterOf(roster,map));
     assert.equal(views[0].state.summary.xpEarned,String(enabled?exp/2:0));assert.equal(views[1].state.summary.xpEarned,String(enabled?exp/2:exp));assert.equal(views[2].state.summary.xpEarned,'0');
   }
 });

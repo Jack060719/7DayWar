@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createGame,ensureWorld,validate,advance as soloAdvance} from '../../dist/full/engine.mjs';
 import {addXP,xpAtLevel,stats,petStats,addCount} from '../../dist/full/rules.mjs';
-import {monsterDefinition} from '../../dist/full/silver-monsters.mjs';
+import {rewardExperience} from '../../dist/full/trial-rewards.mjs';
 
 // Inspect the real room authority without exposing mutable state in its public API.
 const file=new URL('../../dist/full/coop-engine.mjs',import.meta.url);
@@ -70,7 +70,7 @@ test('two players damage one monster; EXP is split and one randomly assigned loo
   assert.equal(hits.reduce((sum,hit)=>sum+hit.damage,0),18);
   assert.equal(events.filter(event=>event.type==='kill').length,1);
   for(let i=0;i<2;i++){
-    assert.equal(BigInt(states[i].player.totalXP)-xp[i],BigInt(monsterDefinition(monster).exp*1.5)/2n);
+    assert.equal(BigInt(states[i].player.totalXP)-xp[i],BigInt(rewardExperience(monster)*1.5)/2n);
     assert.equal(states[i].summary.kills,'1');
   }
   const a=states[0].worlds[states[0].player.map].ground,b=states[1].worlds[states[1].player.map].ground;
@@ -356,7 +356,7 @@ test('participation survives death and crossing maps; rewards stay at the monste
   monster.hp=1;room.rng=1;
   room.command('1',{type:'attack',targetId:monster.id});room.advance(0);
   assert.equal(states[0].summary.kills,'1');
-  assert.equal(BigInt(states[0].player.totalXP)-BigInt(xp),BigInt(monsterDefinition(monster).exp*1.5)/2n);
+  assert.equal(BigInt(states[0].player.totalXP)-BigInt(xp),BigInt(rewardExperience(monster)*1.5)/2n);
   assert(states.reduce((n,state)=>n+state.worlds[killMap].ground.length,0)>0);
   assert.equal(states[0].worlds['MAP-TOWN-SILVER'].ground.length,0);
   assert(states[0].player.death);
@@ -459,6 +459,8 @@ test('family monster scaling locks at its first valid attack, using only same-ma
 
 test('room reward uses exactly one base loot roll and rotates integer EXP remainders without resetting on joins or leaves',()=>{
   const {room,states,monster}=fixture(3,{hp:1000}),context=room.probe().context,grants=[];
+  // The 36-level band has odd EXP, retaining fractional and remainder coverage.
+  monster.type='MON-TROLL';delete monster.definitionProfile;
   const award=(state,target,events,map,options)=>{
     grants.push({id:state.player.id,exp:options.exp,roll:options.rollDrops});
     if(options.rollDrops)options.drop({itemId:'ITEM-RED-POTION',count:7,expiresAt:300000});
@@ -466,17 +468,17 @@ test('room reward uses exactly one base loot roll and rotates integer EXP remain
   // Use the real shared actor for participation and each confirmed-kill reward callback.
   const run=()=>{for(const {state} of room.probe().members.values())context.participate(monster,state.player.id);context.reward(states[0],monster,[],award)};
   run();
-  assert.deepEqual(grants.map(row=>row.exp),[189,188,188]);
+  assert.deepEqual(grants.map(row=>row.exp),[303988,303987,303987]);
   assert.equal(grants.filter(row=>row.roll).length,1);
   assert.equal(states.flatMap(state=>state.worlds[state.player.map].ground).reduce((n,drop)=>n+drop.count,0),7);
   grants.length=0;run();
-  assert.deepEqual(grants.map(row=>row.exp),[188,189,188]);
+  assert.deepEqual(grants.map(row=>row.exp),[303987,303988,303988]);
   const cursor=room.probe().xpCursor;
   const saved=room.removeMember('1');
   assert(room.addMember('1',saved).ok);
   assert.equal(room.probe().xpCursor,cursor);
   grants.length=0;run();
-  assert.deepEqual(grants.map(row=>row.exp),[188,189,188]);
+  assert.deepEqual(grants.map(row=>row.exp),[303987,303987,303988]);
 });
 
 test('Boss gold is shared with a minimum one per participant, while all other drops are assigned once',()=>{
@@ -517,11 +519,11 @@ test('family combat timestamp rebases relative to the frozen solo clock, includi
 });
 
 
-test('one-point EXP retains the half-point multiplier across kills without adding RNG draws',()=>{
+test('odd trial EXP retains the half-point multiplier across kills without adding RNG draws',()=>{
   const {room,states,monster}=fixture(2,{hp:1000}),context=room.probe().context,shares=[];
-  monster.type='MON-GOBLIN';monster.definitionProfile='silver-outskirts-v1';
+  monster.type='MON-TROLL';delete monster.definitionProfile;
   const run=()=>{for(const state of states)context.participate(monster,state.player.id);context.reward(states[0],monster,[],(state,target,events,map,options)=>shares.push(options.exp))};
-  const rng=room.rng;run();assert.deepEqual(shares,[1,0]);shares.length=0;run();assert.deepEqual(shares,[1,1]);assert.equal(room.rng,rng);
+  const rng=room.rng;run();assert.deepEqual(shares,[273589,273588]);shares.length=0;run();assert.deepEqual(shares,[273589,273589]);assert.equal(room.rng,rng);
 });
 
 

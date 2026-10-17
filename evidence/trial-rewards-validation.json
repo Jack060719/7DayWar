@@ -1,0 +1,76 @@
+{
+  "build": "7DW-20261017-04",
+  "node": {
+    "version": "v24.20.0",
+    "files": 60,
+    "tests": 476,
+    "passed": 473,
+    "failed": 0,
+    "skipped": 3,
+    "skipReason": "Windows symlink permission EPERM",
+    "outputSHA256": "3db351c4abe853ff75badc3f994f5197bf5cdfb03c70e11a498c8e39e13485d4"
+  },
+  "browser": {
+    "browser": "Chrome/155.0.8059.82",
+    "actualPhone": false,
+    "syntheticSave": true,
+    "checks": [
+      "existing-level-retained-on-open",
+      "real-attack-completes-level-12",
+      "HUD-level-update",
+      "guaranteed-gold-pickup",
+      "trial-notice",
+      "offline-still-disabled",
+      "saved-XP-gold-no-repeat-after-reload"
+    ],
+    "errors": [],
+    "passed": 1,
+    "failed": 0,
+    "viewport": [
+      844,
+      390
+    ],
+    "scope": "One local Chrome integration with a synthetic level-11 character at 29-goblin XP and a controlled 1-HP goblin. Real attack, HUD update, pickup, IndexedDB save and reload; trial notice checked through DOM."
+  },
+  "mechanical": {
+    "goblinKillsToLevel12": 30,
+    "goblinReward": 14520,
+    "level12TotalXP": "435600",
+    "nextTierKills": [
+      60,
+      120,
+      240,
+      480
+    ],
+    "seededDropSample": 6000,
+    "absoluteDropRateTolerance": 0.015,
+    "checks": [
+      "ordinary and elite XP",
+      "original XP thresholds and source species unchanged",
+      "JSON reopen at kill 17 matches uninterrupted kill 30",
+      "same death never pays twice",
+      "gold is guaranteed",
+      "single equipment/book pool rolls",
+      "all runtime item references resolve",
+      "rare scroll/book/gem rows retained",
+      "Boss drop table unchanged",
+      "party shares and fractional remainder rotation retained"
+    ]
+  },
+  "earlierAttempts": [
+    "Five focused and one full-suite assertions expected the old source EXP. Updated paid-reward expectations and selected an odd-EXP tier to preserve remainder coverage; no gameplay assertions were removed."
+  ],
+  "notRun": [
+    "Android hardware",
+    "iPhone hardware",
+    "other native browser suites",
+    "long-term economy and survival balance",
+    "ZIP extraction"
+  ],
+  "limits": [
+    "Counts assume solo ordinary same-tier kills with no deaths or quest rewards; party XP remains shared.",
+    "Offline catch-up remains disabled.",
+    "Existing saved XP, level, loot identities and progression thresholds are not migrated.",
+    "The configured chances are random, not a guaranteed drop per fixed kill count."
+  ]
+}
