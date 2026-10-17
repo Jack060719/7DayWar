@@ -10,6 +10,7 @@ import * as fusionInventory from '../../dist/full/fusion-inventory.mjs';
 import {tradeableItem} from '../../dist/full/trade.mjs';
 import {petDetailsHTML,legacyPreviewHTML,petNatureText,PET_EFFECT_LABELS} from '../../dist/full/pet-presentation.mjs';
 import {previewLegacyPet,breedingError,petStatsV4,petBagWeight,petAttributes} from '../../dist/full/pets-v4.mjs';
+import * as touchControls from '../../dist/full/touch-controls.mjs';
 import * as itemPresentation from '../../dist/full/item-presentation.mjs';
 import {ENCHANT_STONES,ENCHANT_NAMES,ENCHANT_COLORS,enchantInfo,enchantableTrack} from '../../dist/full/enchantment-policy.mjs';
 import {enchantPreview} from '../../dist/full/enchantment.mjs';
@@ -32,7 +33,7 @@ function harness(state = createGame('knight', 'UI', undefined, 3), worldOverride
   function node(selector) {
     if (!nodes.has(selector)) nodes.set(selector, {
       innerHTML: '', textContent: '', value: '', hidden: false, open: false,
-      dataset: {}, listeners: {}, style: { setProperty() {} },
+      dataset: {}, listeners: {}, classList:{add(){},remove(){}}, style: { setProperty() {} },
       addEventListener(type, fn) { (this.listeners[type] ??= []).push(fn); },
       querySelector: selector => node(selector), querySelectorAll: () => [],
       showModal() { this.open = true; }, close() { this.open = false; },
@@ -62,7 +63,7 @@ function harness(state = createGame('knight', 'UI', undefined, 3), worldOverride
   }
   const noop = () => {};
   const context = {
-    ...data, ...rules, ...forms, ...fusionPolicy, ...fusionInventory, ...itemPresentation, tradeableItem,petDetailsHTML,legacyPreviewHTML,petNatureText,PET_EFFECT_LABELS,previewLegacyPet,breedingError,petStatsV4,petBagWeight,petAttributes, ENCHANT_STONES,ENCHANT_NAMES,ENCHANT_COLORS,enchantInfo,enchantableTrack,enchantPreview, masteryInfo, skillBehavior, learningLocation, SKILL_BEHAVIORS, canRestoreBeforeSilver,
+    ...data, ...rules, ...forms, ...touchControls, ...fusionPolicy, ...fusionInventory, ...itemPresentation, tradeableItem,petDetailsHTML,legacyPreviewHTML,petNatureText,PET_EFFECT_LABELS,previewLegacyPet,breedingError,petStatsV4,petBagWeight,petAttributes, ENCHANT_STONES,ENCHANT_NAMES,ENCHANT_COLORS,enchantInfo,enchantableTrack,enchantPreview, masteryInfo, skillBehavior, learningLocation, SKILL_BEHAVIORS, canRestoreBeforeSilver,
     GameSession: Session,
     FullRenderer: class { resize() {} load() {} notice() {} interactNPC() {} snap() {} },
     AshenAudio: class { play() {} resetObservation() {} },

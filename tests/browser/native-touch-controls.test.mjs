@@ -1,0 +1,51 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdir,writeFile} from 'node:fs/promises';
+import {launchTestBrowser,startTestServer} from '../helpers/browser.mjs';
+const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+async function waitFor(check){const end=Date.now()+45000;while(!await check()){if(Date.now()>end)throw Error('Touch-control browser condition timed out');await delay(100)}}
+test('native joystick, release/cancel, quest takeover, camera preference and landscape layout',{skip:!process.env.BROWSER_BINARY,timeout:120000},async t=>{
+ const site=await startTestServer(),browser=await launchTestBrowser(process.env.BROWSER_BINARY,{disableSandbox:process.env.BROWSER_NO_SANDBOX==='1'}),p=await browser.page();
+ await mkdir('reports/touch-controls',{recursive:true});
+ t.after(async()=>{try{await writeFile('reports/touch-controls/browser-state.json',JSON.stringify(await p.evaluate('({text:document.body.innerText,player:window.testRenderer?.lastState?.player})'),null,2))}catch{}p.close();await browser.close();await site.close()});
+ const errors=[];p.on('Runtime.exceptionThrown',e=>errors.push(e.exceptionDetails.exception?.description||e.exceptionDetails.text));
+ await p.command('Page.enable');await p.command('Runtime.enable');await p.command('Emulation.setTouchEmulationEnabled',{enabled:true});
+ await p.command('Emulation.setDeviceMetricsOverride',{width:844,height:390,deviceScaleFactor:1,mobile:true});
+ await p.command('Page.navigate',{url:site.url+'/full/'});
+ const click=selector=>p.evaluate('document.querySelector('+JSON.stringify(selector)+').click()');
+ await waitFor(()=>p.evaluate('!!document.querySelector("[data-action=recommended]")'));await click('[data-action=recommended]');
+ await p.evaluate('document.querySelector("#newName").value="搖桿測試"');await click('[data-action=create]');await click('[data-action=confirmNew]');
+ await waitFor(()=>p.evaluate('document.querySelector("#loading").hidden&&!document.querySelector("#panel").open'));
+ const observe='(async()=>{const {FullRenderer}=await import("/full/renderer.mjs"),{JoystickMovement}=await import("/full/touch-controls.mjs"),draw=FullRenderer.prototype.draw,tick=JoystickMovement.prototype.tick;JoystickMovement.prototype.tick=function(...args){window.testStick=this;return tick.apply(this,args)};FullRenderer.prototype.draw=function(...args){window.testRenderer=this;return draw.apply(this,args)}})()';
+ await p.evaluate(observe);await waitFor(()=>p.evaluate('!!window.testRenderer?.lastState'));
+ const position=()=>p.evaluate('({x:window.testRenderer.lastState.player.x,y:window.testRenderer.lastState.player.y,path:window.testRenderer.lastState.player.path.length})');
+ const center=()=>p.evaluate('(()=>{const r=document.querySelector("#joystick").getBoundingClientRect();return{x:r.left+r.width/2,y:r.top+r.height/2}})()');
+ const touch=(type,point)=>p.command('Input.dispatchTouchEvent',{type,touchPoints:point?[{id:1,...point,radiusX:2,radiusY:2,force:1}]:[]});
+ const startRight=async()=>{const c=await center();await touch('touchStart',c);await touch('touchMove',{x:c.x+36,y:c.y});};
+ await click('#questTracker');await click('[data-quest-route="QUEST-ROAD-01"]');await waitFor(()=>p.evaluate('document.querySelector("#questTracker").textContent.startsWith("停止尋路")'));
+ const before=await position();await startRight();await waitFor(async()=>{const now=await position();return now.x>before.x&&now.y<before.y});
+ assert(!await p.evaluate('document.querySelector("#questTracker").textContent.startsWith("停止尋路")'));
+ await touch('touchEnd');await waitFor(()=>p.evaluate('!window.testRenderer.lastState.player.path.length&&!window.testStick.busy&&!window.testStick.needsStop'));const released=await position();await delay(900);assert.deepEqual(await position(),released);
+ await startRight();await delay(250);await touch('touchCancel');await waitFor(()=>p.evaluate('!window.testRenderer.lastState.player.path.length&&!window.testStick.busy&&!window.testStick.needsStop'));const cancelled=await position();await delay(600);assert.deepEqual(await position(),cancelled);
+ await startRight();await click('#menus [data-panel=settings]');await touch('touchEnd');await waitFor(()=>p.evaluate('!window.testRenderer.lastState.player.path.length&&!window.testStick.busy&&!window.testStick.needsStop'));
+ const viewAt=await position();await p.evaluate('const input=document.querySelector("#viewZoom");input.value="60";input.dispatchEvent(new Event("input",{bubbles:true}))');
+ assert.equal(await p.evaluate('window.testRenderer.scale'),.6);assert.equal(await p.evaluate('localStorage.getItem("7daywar.view-zoom.v1")'),'0.6');assert.deepEqual(await position(),viewAt);
+ await click('[data-action=close]');await delay(500);assert.equal(await p.evaluate('window.testRenderer.scale'),.6);
+ const hudWidth=await p.evaluate('document.querySelector("#identity").getBoundingClientRect().width');
+ const groundPoint=await p.evaluate('(()=>{const r=window.testRenderer,s=r.lastState,b=document.querySelector("#world").getBoundingClientRect();for(let y=80;y<r.height-80;y+=25)for(let x=270;x<r.width-120;x+=25)if(r.hit(s,x,y).kind==="ground"&&document.elementFromPoint(x+b.left,y+b.top)?.id==="world")return{x:x+b.left,y:y+b.top};throw Error("No clear ground point")})()');
+ const groundBefore=await position();await touch('touchStart',groundPoint);await touch('touchEnd');await delay(500);assert.deepEqual(await position(),groundBefore);
+ await p.command('Page.reload');await waitFor(()=>p.evaluate('document.querySelector("#loading")?.hidden&&document.querySelector("#heroName")?.textContent==="搖桿測試"&&!(document.querySelector("#panel").open&&document.querySelector("#panel").dataset.panel==="readonly")'));await p.evaluate(observe);await waitFor(()=>p.evaluate('!!window.testRenderer?.lastState'));assert.equal(await p.evaluate('window.testRenderer.scale'),.6);
+ if(await p.evaluate('document.querySelector("#panel").open'))await click('[data-action=close]');
+ await waitFor(()=>p.evaluate('!document.querySelector("#panel").open'));const reopened=await position();await startRight();await waitFor(async()=>{const now=await position();return now.x>reopened.x&&now.y<reopened.y});await touch('touchEnd');await waitFor(()=>p.evaluate('!window.testRenderer.lastState.player.path.length&&!window.testStick.busy&&!window.testStick.needsStop'));
+ await click('#menus [data-panel=settings]');assert.equal(await p.evaluate('document.querySelector("#viewZoom").value'),'60');await click('[data-action=resetViewZoom]');assert.equal(await p.evaluate('window.testRenderer.scale'),.9);
+ await p.evaluate('document.querySelector("#viewZoom").value="140";document.querySelector("#viewZoom").dispatchEvent(new Event("input",{bubbles:true}))');await click('[data-action=close]');assert.equal(await p.evaluate('window.testRenderer.scale'),1.4);assert.equal(await p.evaluate('document.querySelector("#identity").getBoundingClientRect().width'),hudWidth);
+ for(const [width,height]of[[844,390],[568,320]]){
+  await p.command('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:1,mobile:true});await delay(200);
+  const boxes=await p.evaluate('(()=>{const rect=id=>{const r=document.querySelector(id).getBoundingClientRect();return{left:r.left,right:r.right,top:r.top,bottom:r.bottom}};return{stick:rect("#joystick"),hotbar:rect("#hotbar"),quest:rect("#questTracker"),auto:rect("#autoState")}})()');
+  const a=boxes.stick;assert(a.left>=0&&a.top>=0&&a.right<=width&&a.bottom<=height);for(const b of [boxes.hotbar,boxes.quest,boxes.auto])assert(a.right<=b.left||a.left>=b.right||a.bottom<=b.top||a.top>=b.bottom,JSON.stringify(boxes));
+  assert.equal(await p.evaluate('document.querySelector("#panel").open'),false,'final scene must be playable, without a modal covering it');
+  const shot=await p.command('Page.captureScreenshot',{format:'png'});await writeFile('reports/touch-controls/joystick-'+width+'x'+height+'.png',Buffer.from(shot.data,'base64'));
+ }
+ await startRight();await p.command('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});await touch('touchEnd');await waitFor(()=>p.evaluate('document.querySelector("#orientationGate")?.open'));await waitFor(()=>p.evaluate('!window.testRenderer.lastState.player.path.length&&!window.testStick.busy&&!window.testStick.needsStop'));const rotated=await position();await delay(500);assert.deepEqual(await position(),rotated);
+ assert.deepEqual(errors,[]);await writeFile('reports/touch-controls/browser.json',JSON.stringify({browser:(await p.command('Browser.getVersion')).product,actualPhone:false,syntheticSave:true,checks:['touch-stick-direction','release-stops','pointer-cancel-stops','opening-menu-stops','takes-over-quest-route','ground-tap-does-not-move','camera-range-and-reset','preference-survives-reload','HUD-size-unchanged','landscape-no-control-overlap','rotation-stops'],errors},null,2));
+});

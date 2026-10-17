@@ -70,3 +70,11 @@ dialog{max-width:min(680px,calc(100vw - 20px - env(safe-area-inset-left) - env(s
 #lootNotices{position:absolute;left:50%;bottom:calc(82px + env(safe-area-inset-bottom));transform:translateX(-50%);width:min(360px,62vw);display:grid;gap:5px;pointer-events:none;z-index:3}
 .loot-banner{padding:10px 16px;background:rgba(15,20,16,.72);border:1px solid #b299626e;border-radius:3px;text-align:center;font:14px/1.4 system-ui;color:#fff;overflow-wrap:anywhere;text-shadow:0 1px 3px #000}
 .loot-banner[data-quality="unidentified"]{color:#c8c8c8}.loot-banner[data-quality="blessed"]{color:#fff0ad}
+
+#joystick{position:absolute;left:calc(12px + env(safe-area-inset-left));bottom:calc(10px + env(safe-area-inset-bottom));width:104px;height:104px;border:1px solid #b8a47288;border-radius:50%;background:radial-gradient(circle,#4d503449,#11190f80);box-shadow:inset 0 0 18px #0006;touch-action:none;user-select:none;z-index:2;cursor:grab}
+#joystick.active{border-color:#ead28c;cursor:grabbing;background:radial-gradient(circle,#75633e66,#11190f99)}
+#joystickKnob{position:absolute;left:50%;top:50%;width:40px;height:40px;border:1px solid #d2bb85bb;border-radius:50%;background:radial-gradient(circle at 35% 30%,#b19a64c9,#44482ccb);box-shadow:0 2px 8px #0008;transform:translate(calc(-50% + var(--stick-x,0px)),calc(-50% + var(--stick-y,0px)));pointer-events:none}
+#joystick small{position:absolute;bottom:6px;left:0;right:0;text-align:center;color:#ddcfab;font:11px system-ui;pointer-events:none}
+#viewZoom{padding:0;accent-color:#c4ac73;touch-action:pan-x}
+@media(orientation:landscape){#hotbar{left:calc((100% + 124px + env(safe-area-inset-left) - env(safe-area-inset-right))/2);max-width:calc(100% - 144px - env(safe-area-inset-left) - env(safe-area-inset-right))}#messageLog{left:calc(126px + env(safe-area-inset-left));max-width:32%}}
+@media(orientation:landscape) and (max-height:360px){#joystick{width:84px;height:84px}#autoState{max-width:120px}#questTracker{left:calc(136px + env(safe-area-inset-left));top:calc(var(--scene-top) + 42px + var(--hud-height));max-width:150px}#hotbar button{width:44px}#hotbar{left:calc((100% + 104px + env(safe-area-inset-left) - env(safe-area-inset-right))/2);max-width:calc(100% - 124px - env(safe-area-inset-left) - env(safe-area-inset-right))}}

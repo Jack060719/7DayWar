@@ -1,0 +1,67 @@
+{
+  "build": "7DW-20261017-02",
+  "node": {
+    "version": "v24.20.0",
+    "files": 58,
+    "tests": 462,
+    "passed": 459,
+    "failed": 0,
+    "skipped": 3,
+    "skipReason": "Windows symlink permission EPERM",
+    "outputSHA256": "be4d7e6af67ed75092ef8667a8d602610718095b2c73e6486e9915e6d8df3a43"
+  },
+  "browser": {
+    "browser": "Chrome/155.0.8059.82",
+    "actualPhone": false,
+    "syntheticSave": true,
+    "checks": [
+      "touch-stick-direction",
+      "release-stops",
+      "pointer-cancel-stops",
+      "opening-menu-stops",
+      "takes-over-quest-route",
+      "ground-tap-does-not-move",
+      "camera-range-and-reset",
+      "preference-survives-reload",
+      "HUD-size-unchanged",
+      "landscape-no-control-overlap",
+      "rotation-stops"
+    ],
+    "errors": [],
+    "passed": 1,
+    "failed": 0,
+    "viewports": [
+      [
+        844,
+        390
+      ],
+      [
+        568,
+        320
+      ]
+    ],
+    "scope": "Final combined local Chrome touch integration, including playable movement after save-lease reacquisition; no real phone or deployed-site browser run"
+  },
+  "earlierAttempts": [
+    "An incomplete fake-DOM harness initially lacked the new control import; added the actual module and minimal classList boundary, then reran.",
+    "Initial browser assertions passed while final screenshots were still covered by the existing save-lease waiting dialog; rejected that visual result and strengthened the test to wait for ownership and prove movement after reload.",
+    "A subsequent run exposed camera reset being ignored during an in-flight movement save; moved that display-only action before the gameplay busy guard and reran successfully."
+  ],
+  "controls": {
+    "joystick": "screen-relative eight-way movement, center dead zone, one existing move command in flight, release/cancel/blur/rotation/menu stop",
+    "camera": "60–140%, default 90%, device-local preference; existing pinch gesture also updates it"
+  },
+  "unchanged": [
+    "player save format and lease/revision protections",
+    "movement speed and collision rules",
+    "skill range, combat and monster detection",
+    "four-character and offline simulation"
+  ],
+  "runtimeSHA256": {
+    "full/app.css": "d371225e92643740b82445af4fce683f6df593848dcbe8d60b9ab83ad86a83c3",
+    "full/app.mjs": "4e5a3cc14c692633f24cb999b38f82081d436468eb489f62ed76c7562efffcaf",
+    "full/index.html": "36e8d1523466ef99a27828af4b106a6be55cb2dcccc84abacc5d8da58c69f7fe",
+    "full/renderer.mjs": "7e004aae8b0d2f8702a649f1137d841f5e25a4a219dd790209776aa157d3c9ef",
+    "full/touch-controls.mjs": "6aef7e295c822e342bc667eb3a80e5f4b7d6a9547f921a4c31ebce7c2b320f39"
+  }
+}
