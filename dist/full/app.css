@@ -65,3 +65,8 @@ dialog{max-width:min(680px,calc(100vw - 20px - env(safe-area-inset-left) - env(s
 .pet-attributes{width:100%;border-collapse:collapse;font-size:12px}.pet-attributes th,.pet-attributes td{padding:5px 3px;text-align:left;border-bottom:1px solid #514533}.pet-attributes td{font-variant-numeric:tabular-nums}
 
 .pet-upgrade-preview table{width:100%;border-collapse:collapse}.pet-upgrade-preview th,.pet-upgrade-preview td{padding:6px;text-align:left;border-bottom:1px solid #514533}
+
+#questTracker{position:absolute;left:calc(8px + env(safe-area-inset-left));top:calc(var(--scene-top,0px) + 94px + var(--hud-height,80px));max-width:min(240px,42vw);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:12px/1.4 system-ui;padding:5px 8px;background:#192215c9;color:#ffe184}
+#lootNotices{position:absolute;left:50%;bottom:calc(82px + env(safe-area-inset-bottom));transform:translateX(-50%);width:min(360px,62vw);display:grid;gap:5px;pointer-events:none;z-index:3}
+.loot-banner{padding:10px 16px;background:rgba(15,20,16,.72);border:1px solid #b299626e;border-radius:3px;text-align:center;font:14px/1.4 system-ui;color:#fff;overflow-wrap:anywhere;text-shadow:0 1px 3px #000}
+.loot-banner[data-quality="unidentified"]{color:#c8c8c8}.loot-banner[data-quality="blessed"]{color:#fff0ad}

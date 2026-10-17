@@ -1,0 +1,60 @@
+{
+  "build": "7DW-20261017-01",
+  "node": {
+    "version": "v24.20.0",
+    "files": 57,
+    "tests": 455,
+    "passed": 452,
+    "failed": 0,
+    "skipped": 3,
+    "skipReason": "Windows symlink permission EPERM",
+    "outputSHA256": "a945ad881998039299cc7025feba4fe1071f501ff42e7d740dc89e9dd93a0030"
+  },
+  "browser": {
+    "browser": "Chrome/155.0.8059.82",
+    "actualPhone": false,
+    "syntheticSave": true,
+    "checks": [
+      "yellow-marker-eligible-only",
+      "equipment-pickup-banner",
+      "quest-giver-navigation",
+      "accepted-objective-navigation",
+      "cancel-navigation",
+      "small-landscape-layout",
+      "reload-preserves-quest-no-loot-replay"
+    ],
+    "errors": [],
+    "passed": 1,
+    "failed": 0,
+    "viewports": [
+      [
+        844,
+        390
+      ],
+      [
+        568,
+        320
+      ]
+    ],
+    "scope": "One combined local Chrome session after corrections to synthetic test click targeting; no phone hardware or new deployed-site browser test"
+  },
+  "earlierAttempts": [
+    "Node UI harness did not implement replaceChildren; used textContent to clear the banner container, then reran the full suite.",
+    "Initial combined browser attempt timed out awaiting the pickup banner; final harness closes any catch-up report and verifies an unobstructed canvas point before the actual pointer click."
+  ],
+  "unchanged": [
+    "save format and existing storage identifiers",
+    "quest eligibility, rewards and encounter rules",
+    "item identification rules",
+    "offline and four-character simulation"
+  ],
+  "runtimeSHA256": {
+    "full/app.css": "a3141516d5dd292b23d51931377ed71a02d2738ce7e9f600a8dbe71d2bf3abbc",
+    "full/app.mjs": "d9f6c028fa6286d7c7f9c933a871292806e561490198c8c530d97400b497ce85",
+    "full/engine.mjs": "1a21711a46883056e12c4b5876c640f90a6d48e1f094a9e64a8c2f808869a688",
+    "full/index.html": "a59618c9c4e4c44e2f3b7c279aaa75b1c309c1c08cef08a38d97f6810b30f858",
+    "full/quests.mjs": "dffcb0da4bbae4ab4bfd72d8ea1022d1e8967483fb7a7dd9e6457dca3062dbfa",
+    "full/renderer.mjs": "f10328f3e751a5fc14b9ecc968d531c323b1931a6553a3b09e555fa388bb51f3",
+    "full/quest-navigation.mjs": "84d3ee9c406abda583a2583bed1200258fd2cfc46b2af2fc650d8f153c05d12b"
+  }
+}

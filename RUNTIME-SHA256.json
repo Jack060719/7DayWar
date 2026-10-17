@@ -1,7 +1,9 @@
 {
-  "build": "7DW-20261016-01",
+  "build": "7DW-20261017-01",
   "scope": "all files under dist, including the retained legacy entry",
   "files": {
+    "access-gate.css": "15054fd74f4981d2a6f62a8e6b6405d38f4bf52842f1750c7e51129ec5a04946",
+    "access-gate.mjs": "5293c735f9004e5b253d7dde58f8e846543a974ddba3273dc483591e39177168",
     "art/animations.json": "e98f890cc8f094a6b849f6202dc296c27049db1d1fed834d3a2e19f135a7aad2",
     "art/boss-portrait.webp": "111f322db67682c669cedf7be7faf6f07b87591f450e9bec2ead29647cfe87d0",
     "art/boss.webp": "fdbb87757ee9587fbb03330a66c1d6de0039bb416c6db9f377747df113833583",
@@ -37,8 +39,8 @@
     "assets/town.webp": "d10f42bc26b2ac221fc52bb21d70767db996ffda5c7da3ff2eaa30ec946d0a38",
     "assets/wild.webp": "1d8c956bcf8782ae959b5b9b844abeddfb47353fd291c89385ebdb39f5094d0a",
     "engine.mjs": "8c4b04a07147ce4c127cbd768467ab8cbb02ef5fa2aff07991bf272ebd3e3f14",
-    "full/app.css": "99565f3fddccd698335524ea438e220897b5a024fe573e90f3b7995b7b755444",
-    "full/app.mjs": "d560606d90be6b6053718e77930cd39dfb88b2909e6d59b03ec1c10970f01c3d",
+    "full/app.css": "a3141516d5dd292b23d51931377ed71a02d2738ce7e9f600a8dbe71d2bf3abbc",
+    "full/app.mjs": "d9f6c028fa6286d7c7f9c933a871292806e561490198c8c530d97400b497ce85",
     "full/art/actors/ant/ant-runtime.json": "68071e66a0b7434046e01983077c20d9212e6883d0eaf5c8cf956e7d5d627459",
     "full/art/actors/ant/clips/attack-E.webp": "0b17d471ec5f1fcc1feb2ece29ef2a2ff22a21d7fa434334cdea98276275ded4",
     "full/art/actors/ant/clips/attack-N.webp": "2c918e7561f335e24c2354cf69207830ecd6edcf56bf8cdd8274ec3a1142cbe2",
@@ -9734,7 +9736,7 @@
     "full/enchantment-policy.mjs": "b1d775d2e5078576800f9c9955faf79db27bb842af32d843c48fb1e6f3352b2d",
     "full/enchantment-visuals.mjs": "ee7699b07256467c8d0c934b12ecb1c04a9868e3b73ecacf926481451dd1ec1a",
     "full/enchantment.mjs": "1b9e7a8b9e605d3ef3c159e2c79e0a395416f0150b065dd6f249cc636f9d21a0",
-    "full/engine.mjs": "4c64aee5beea0c6133e70d76c6741691835f74043333aa8f6b71567ff54dd106",
+    "full/engine.mjs": "1a21711a46883056e12c4b5876c640f90a6d48e1f094a9e64a8c2f808869a688",
     "full/fi-doppelganger-contact-markers.mjs": "2d7e7dab145eb380e671a7b105eadc70b1a9f8d97f870542064d497ef842c617",
     "full/form-cast-emitters.mjs": "6093dada25f5830d4526ada10e048d34e7dc250c14c2f36e33958dff5b2a321a",
     "full/form-migration.mjs": "b6320e2f56d4bde82d74386358f5d28b5d505aca9dc3cebe243e3248338c6800",
@@ -9746,7 +9748,7 @@
     "full/grounded-bite.mjs": "b513f00342635abae2260dc0c008442ecfc49dc8c490f077d35387ed09a1d3dd",
     "full/hunt-navigation.mjs": "330e9f711b5601255f0d97c6afdbb1dd601dc6dc149aecbad5d1d2bd87af7cad",
     "full/icons.mjs": "ebef7760ba17012857e7b8db7c0c3b6c01504d3af3f3b72df4a1ef1bf1422c78",
-    "full/index.html": "52e1633525dca2c5a2d8d554ac387e2bf41592d15659a33348571304be3cee56",
+    "full/index.html": "a59618c9c4e4c44e2f3b7c279aaa75b1c309c1c08cef08a38d97f6810b30f858",
     "full/item-presentation.mjs": "16b781f45a3519921d29fcadc3db536c0cc414af034054f1dd39d0b2f3ed67ed",
     "full/jellyfish-contact-markers.mjs": "d8706cca1fe89ab6bbaa58b08e093b7da65441938fc2ab733865d01eca2bcbb3",
     "full/lamia-contact-markers.mjs": "7d39ebbfb1149593a9a94083f440b7ea0916c1c10b9f720b7fdc3b366ab82cae",
@@ -9773,8 +9775,9 @@
     "full/portals.mjs": "cf9fd48723487a3f3e894bee56e58a4a3c93b53f01cdb06ee1f3124675490ad4",
     "full/presentation.mjs": "fcc524a0374cf2d63f1facc62193e290972722414272b5140d037b433194db35",
     "full/projectile-emitters.mjs": "9bca31e0e1fdb7751d468d6c7f92fb83d99400e0fd4be6a5e3e1f7ca5e7f1d9c",
-    "full/quests.mjs": "5217585b3129c6fe7bbd91dee99dfb09b6da9200a333f7865291fb6ddb1d7051",
-    "full/renderer.mjs": "122f46a68efc27a46c5fe1b0c3b7a80fbc6611d5d36fb73872e442af83ab7649",
+    "full/quest-navigation.mjs": "84d3ee9c406abda583a2583bed1200258fd2cfc46b2af2fc650d8f153c05d12b",
+    "full/quests.mjs": "dffcb0da4bbae4ab4bfd72d8ea1022d1e8967483fb7a7dd9e6457dca3062dbfa",
+    "full/renderer.mjs": "f10328f3e751a5fc14b9ecc968d531c323b1931a6553a3b09e555fa388bb51f3",
     "full/room-controller.mjs": "0a4d241afd51a37868fb3240a4624ccd1a92e33ed86e1ac792a9adc73cae604a",
     "full/room-session.mjs": "75881695599d5c58eb469e35453e730b19e4c374b5767ccbac65cfef2976b805",
     "full/room-transfer.mjs": "b9f28ba034643f48d731344aa3a5e3b278f2c06383b7e875830aec943f951d03",
@@ -9816,8 +9819,6 @@
     "offline-worker.mjs": "632065ce7068075e571a3f330a67741c32bc263d813944af0ed63551c262a2dd",
     "renderer.mjs": "2407d3ca873e37aac758ae523b21d2e7561ed7afd1aa35176b7ad120be361ff1",
     "storage.mjs": "292e66b362782945299de6313f0ff532ec701f3bf4974c82ec55447c659cce24",
-    "style.css": "34550a87ea421bb003237f1a5f7c3b1d2535d59b9b9fdc520593d80413513567",
-    "access-gate.mjs": "5293c735f9004e5b253d7dde58f8e846543a974ddba3273dc483591e39177168",
-    "access-gate.css": "15054fd74f4981d2a6f62a8e6b6405d38f4bf52842f1750c7e51129ec5a04946"
+    "style.css": "34550a87ea421bb003237f1a5f7c3b1d2535d59b9b9fdc520593d80413513567"
   }
 }
