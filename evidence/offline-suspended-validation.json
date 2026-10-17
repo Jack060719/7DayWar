@@ -1,0 +1,60 @@
+{
+  "build": "7DW-20261017-03",
+  "change": "Temporarily suspend catch-up in the full app; preserve earned progress and foreground four-character simulation.",
+  "node": {
+    "version": "v24.20.0",
+    "files": 59,
+    "tests": 470,
+    "passed": 467,
+    "failed": 0,
+    "skipped": 3,
+    "skipReason": "Windows symlink permission EPERM",
+    "outputSHA256": "d306c474dffa57d361dca0306b8b8df5da747eb53e60ff4c65d58ba54004e41b"
+  },
+  "browser": {
+    "browser": "Chrome/155.0.8059.82",
+    "actualPhone": false,
+    "syntheticSave": true,
+    "checks": [
+      "seven-day-four-character-save-opens",
+      "zero-offline-workers",
+      "no-offline-report",
+      "all-four-foreground-clocks-advance",
+      "normal-command-persists",
+      "synthetic-background-return-skips-gap",
+      "pause-notice",
+      "reload-retains-earned-progress"
+    ],
+    "errors": [],
+    "passed": 1,
+    "failed": 0,
+    "viewport": [
+      844,
+      390
+    ],
+    "scope": "One local Chrome integration; background absence is injected into the session clock, not an iPhone lifecycle test."
+  },
+  "checks": [
+    "unchanged earned state and RNG on reopening",
+    "whole-roster preservation",
+    "no offline Worker including foreground delay recovery",
+    "failed write keeps original durable save",
+    "readonly and recovery gates retained",
+    "future save time still blocked",
+    "confirmed old import does not replay absence"
+  ],
+  "notRun": [
+    "Android hardware",
+    "iPhone hardware",
+    "other native browser suites",
+    "ZIP extraction"
+  ],
+  "earlierAttempts": [
+    "A legacy UI test compared the old import explanation byte for byte; updated only the approved offline-suspension wording expectation, preserving restore assertions."
+  ],
+  "limits": [
+    "Temporary policy resets elapsed-time baseline; skipped absence is not retained for later backpay.",
+    "Original catch-up engine and Worker remain available for regression tests, but the full app opts out.",
+    "Legacy dist root entry is unchanged."
+  ]
+}

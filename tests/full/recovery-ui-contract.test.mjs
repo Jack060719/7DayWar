@@ -300,7 +300,7 @@ test('original pre-form restore handler and existing preview are preserved besid
   assert.equal(segment(source),segment(originalApp));
   const functionLine=(text,name)=>text.split('\n').find(line=>line.startsWith('function '+name+'('));
   const normalizedImport=functionLine(source,'showImport').replace('${silverRestorePreview(chosen.state)}','').replace('<h3>圖鑑升級前：階段1／122版程式</h3>','').replace('chosen.state.formProgress===undefined&&canRestoreBeforeSilver(chosen.state)','chosen.state.formProgress===undefined');
-  assert.equal(normalizedImport,functionLine(originalApp,'showImport'));
+  assert.equal(normalizedImport,functionLine(originalApp,'showImport').replace('匯入後按備份中的裝備、補給與自動狩獵設定，結算保存時間以來尚未處理的離線旅途。','離線結算目前暫停；匯入後保留備份內已取得的進度，不補算備份至今的離線收益。'));
   const h=harness(), old=createStage2Game('knight','Pre-form',undefined,11); delete old.formProgress;
   importSnapshot(h,old); assert.match(h.html(),/data-action="prepareDowngrade"/);
   assert.match(h.html(),/data-action="prepareSilverRestore"/);
